@@ -1,0 +1,12 @@
+id,status,scope,finding,next_action
+A01,BLOCKED,CH-N5 exterior,"Vault preset 2304 x 1728 mm verified; exterior walls, position, projection and roof not recovered.",Recover actual chapel plan/masonry before clearing N4 or N5 as an opening.
+A02,UNVERIFIED,N4 portal and windows,N4 1.2 m throat is a reservation; original wall remains uncut. N4-west window retained as a planning reservation.,"Verify actual jamb, respond, window and capital envelopes."
+B01,COORDINATED_IN_2D,Ceremonial/gallery/chapter route,1.2 m swept reservation fits retained walk/link/wing/hall union; no garden/root overlap in the 12-root screen.,Resolve actual partitions and controlled thresholds before architectural acceptance.
+B02,UNVERIFIED,Private night route,N6 route and 2.4 x 2.4 m stair zone are hypotheses; no stair or door is recovered.,Recover east-wing stair and actual N6 wall/opening.
+B03,BLOCKED,Public transept and Great Library,"Exact entrance/stairs, library footprint and scholarly-cloister coordinates not recovered.",Keep routes separate in functional schedule; do not fabricate site geometry.
+C01,COORDINATED_IN_2D,Entrance garden,Retained 47.5753 m2 X01 garden has no overlap with the transformed 12-root screen.,"Site boundaries, access landscaping and complete-root check remain open."
+C02,UNVERIFIED,Roof connections,X01 roof levels are hypothetical; actual masonry/eaves/cloister roofs and site elevations unavailable.,No roof adoption or vertical clearance claim.
+D01,BLOCKED,Protected southern plan placement,Reported dimensions recovered; original E5-C3-L1 lock file and exact site X placement missing.,Use unplaced dimensional template only. Do not transplant E5-R1 south comparison coordinates.
+D02,PARTIAL_DELIVERED,Overall precinct/master plan,"Northern-sector drawing, detail, circulation and dimensional comparison delivered. Complete cathedral/site source not recovered.",Whole-precinct integration remains blocked; this sector is not a replacement master plan.
+G01,UNRESOLVED,F5ZL-C supports,248-support CSV missing. Twelve X01 screening roots are not the 88-root schedule or the 248 supports.,Preserve missing schedule status.
+G02,UNRESOLVED,Other cathedral authorities,"Bay angles, gallery 4521/4950, Q1/J1 5400/5429 and generator identity remain separate open records.",No selection or global transform in this experiment.
