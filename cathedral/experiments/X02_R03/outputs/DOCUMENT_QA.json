@@ -1,0 +1,7 @@
+{
+  "pages": 2,
+  "visual_review": "Both pages inspected; final re-render pixel-identical to inspected pages.",
+  "text_bounds": "Checked; no text outside page",
+  "svg_xml_parses": true,
+  "physical_svg_scale": "1:1; one coordinate unit = one metre"
+}
