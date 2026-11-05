@@ -1,0 +1,56 @@
+{
+  "status": "EXPERIMENTAL_NOT_APPROVED",
+  "source_sha256": "066027d5fa0e673b5c267718e906d105c86272b6358fcc8bf2a33a5d3fa92a19",
+  "parameters": {
+    "entrance_x": 28000.0,
+    "threshold_depth": 600.0,
+    "bearing_y": 1250.0,
+    "clear_half_width": 1100.0,
+    "spring_z": 1800.0,
+    "soffit_rise": 1950.0,
+    "arch_outer_half_width": 1400.0,
+    "arch_outer_rise": 2250.0,
+    "boss_x": 26700.0,
+    "boss_z": 3600.0,
+    "physical_m_per_unit": null
+  },
+  "source_interface": [
+    [
+      25382.51006987816,
+      1098.8132859718587
+    ],
+    [
+      25382.510069878164,
+      -1098.813285971858
+    ]
+  ],
+  "blender_interface_rounding_max_native": 0.0003089297471981783,
+  "arc_geometry": {
+    "left_center_y": 1178.409090909091,
+    "right_center_y": -1178.409090909091,
+    "center_z": 1800.0,
+    "radius": 2278.409090909091,
+    "half_angle": 1.0272120094454977
+  },
+  "checks": {
+    "export_reimport_mesh_count": true,
+    "finite_coordinates": true,
+    "ribs_rise_monotonically_to_boss": true,
+    "arch_endpoints_at_spring": true,
+    "arch_crown_height": true,
+    "arch_clear_width": true,
+    "mirror_arch": true,
+    "source_interface_model_within_0_001_native": true,
+    "old_outer_ring_not_used": true,
+    "no_axial_ground_pier": true
+  },
+  "mesh_count": 32,
+  "limitations": [
+    "plan-only source connection; spring height trial",
+    "no vault webs or cathedral receiver masonry",
+    "no structural certification",
+    "physical units unresolved",
+    "F5ZL-C schedule unresolved",
+    "round trial ribs, no historical profile claim"
+  ]
+}
