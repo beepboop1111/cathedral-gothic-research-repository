@@ -1,0 +1,53 @@
+{
+  "document": "F5ZP X02 R04 - East range ground floor, upper floor and stair section",
+  "page_count": 3,
+  "pages": [
+    {
+      "sheet": 1,
+      "size_mm": [
+        297.0,
+        420.0
+      ],
+      "text_blocks_outside_page": 0
+    },
+    {
+      "sheet": 2,
+      "size_mm": [
+        297.0,
+        420.0
+      ],
+      "text_blocks_outside_page": 0
+    },
+    {
+      "sheet": 3,
+      "size_mm": [
+        420.0,
+        297.0
+      ],
+      "text_blocks_outside_page": 0
+    }
+  ],
+  "svg_exports": [
+    {
+      "file": "R04_STAIR_SECTION_1to1.svg",
+      "xml_valid": true,
+      "width": "12000mm",
+      "height": "14000mm"
+    },
+    {
+      "file": "R04_UPPER_PLAN_1to1.svg",
+      "xml_valid": true,
+      "width": "15500mm",
+      "height": "35500mm"
+    },
+    {
+      "file": "R04_GROUND_PLAN_1to1.svg",
+      "xml_valid": true,
+      "width": "15500mm",
+      "height": "35500mm"
+    }
+  ],
+  "visual_review": "All three final sheets reviewed: labels, room access, cut line, dimensions, section separation and notes.",
+  "scope": "Geometric design study; roof envelope requirement, no structural or regulatory approval.",
+  "PDF_SHA256": "6758234bd204a2067f57edea2e33aece06b8dc820489603aafb21214680b91e6"
+}
