@@ -1,0 +1,674 @@
+{
+  "id": "F5ZP_X02_R04",
+  "status": "EXPERIMENTAL FLOOR-PLAN AND STAIR GEOMETRY STUDY",
+  "source_R03_sha256": "f45d36620a57bc671e3d76e3c78ed50c36ee1dca1b76987b5663ae1fa1ca473c",
+  "metrics": {
+    "ground_FFL_m": 0,
+    "upper_FFL_m": 3.6,
+    "slab_study_thickness_m": 0.18,
+    "upper_floor_soffit_m": 3.42,
+    "risers": 20,
+    "rise_m": 0.18,
+    "goings": 19,
+    "angle_per_going_deg": 12.0,
+    "total_flight_rotation_deg": 228.0,
+    "inner_radius_m": 0.62,
+    "outer_radius_m": 1.67,
+    "tread_band_width_before_rails_m": 1.0499999999999998,
+    "walking_line_radius_m": 1.145,
+    "going_inner_chord_m": 0.1296152944518903,
+    "going_walk_chord_m": 0.23937018088292644,
+    "going_outer_chord_m": 0.3491250673139626,
+    "going_walk_arc_m": 0.2398082392240209,
+    "pitch_at_walking_line_deg": 36.94219098000436,
+    "two_rises_plus_walking_going_m": 0.5993701808829264,
+    "turret_across_flats_R03_m": 4.0,
+    "turret_across_flats_R04_m": 4.4,
+    "upper_headroom_control_plane_m": 5.7,
+    "headroom_target_m": 2.1,
+    "minimum_flight_clearance_to_control_plane_m": 2.2800000000000002,
+    "floor_aperture_overlap_with_flight_m2": 4.781988657874017,
+    "stair_door_study_width_m": 1.2,
+    "upper_hall_width_m": 1.5,
+    "bridge_clear_width_m": 1.8,
+    "bridge_floor_area_m2": 31.44000000000003,
+    "bridge_open_gap_spans_m": [
+      4.25,
+      4.15
+    ],
+    "ground_assigned_rooms": 5,
+    "upper_chambers": 6,
+    "upper_chambers_net_area_m2": 86.23999999999998
+  },
+  "checks": [
+    {
+      "id": "SOURCE_BODY_night_range",
+      "result": "PASS",
+      "detail": "R03 footprint read, not modified."
+    },
+    {
+      "id": "SOURCE_BODY_residential_range",
+      "result": "PASS",
+      "detail": "R03 footprint read, not modified."
+    },
+    {
+      "id": "SOURCE_BODY_chapter_vestibule",
+      "result": "PASS",
+      "detail": "R03 footprint read, not modified."
+    },
+    {
+      "id": "SOURCE_BODY_chapter_house",
+      "result": "PASS",
+      "detail": "R03 footprint read, not modified."
+    },
+    {
+      "id": "ROOM_VALID_G01 Reading parlour",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_G01 Reading parlour",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "ROOM_VALID_G02 Common room",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_G02 Common room",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "ROOM_VALID_G03 House office",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_G03 House office",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "ROOM_VALID_G04 Linen store",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_G04 Linen store",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "ROOM_VALID_G05 Workroom",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_G05 Workroom",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "G_ROOMS_SEPARATE_G01 Reading parlour_G02 Common room",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "G_ROOMS_SEPARATE_G01 Reading parlour_G03 House office",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "G_ROOMS_SEPARATE_G01 Reading parlour_G04 Linen store",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "G_ROOMS_SEPARATE_G01 Reading parlour_G05 Workroom",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "G_ROOMS_SEPARATE_G02 Common room_G03 House office",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "G_ROOMS_SEPARATE_G02 Common room_G04 Linen store",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "G_ROOMS_SEPARATE_G02 Common room_G05 Workroom",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "G_ROOMS_SEPARATE_G03 House office_G04 Linen store",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "G_ROOMS_SEPARATE_G03 House office_G05 Workroom",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "G_ROOMS_SEPARATE_G04 Linen store_G05 Workroom",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "ROOM_VALID_U01 Chamber 1",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_U01 Chamber 1",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "ROOM_VALID_U04 Chamber 4",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_U04 Chamber 4",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "ROOM_VALID_U02 Chamber 2",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_U02 Chamber 2",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "ROOM_VALID_U05 Chamber 5",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_U05 Chamber 5",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "ROOM_VALID_U03 Chamber 3",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_U03 Chamber 3",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "ROOM_VALID_U06 Chamber 6",
+      "result": "PASS",
+      "detail": "Valid room footprint."
+    },
+    {
+      "id": "ROOM_WITHIN_RANGE_U06 Chamber 6",
+      "result": "PASS",
+      "detail": "Within unchanged R03 residential-range interior."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U01 Chamber 1_U04 Chamber 4",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U01 Chamber 1_U02 Chamber 2",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U01 Chamber 1_U05 Chamber 5",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U01 Chamber 1_U03 Chamber 3",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U01 Chamber 1_U06 Chamber 6",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U04 Chamber 4_U02 Chamber 2",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U04 Chamber 4_U05 Chamber 5",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U04 Chamber 4_U03 Chamber 3",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U04 Chamber 4_U06 Chamber 6",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U02 Chamber 2_U05 Chamber 5",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U02 Chamber 2_U03 Chamber 3",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U02 Chamber 2_U06 Chamber 6",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U05 Chamber 5_U03 Chamber 3",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U05 Chamber 5_U06 Chamber 6",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "U_ROOMS_SEPARATE_U03 Chamber 3_U06 Chamber 6",
+      "result": "PASS",
+      "detail": "No room overlap."
+    },
+    {
+      "id": "TREAD_CONTAINED_1",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_1",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_2",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_2",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_3",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_3",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_4",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_4",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_5",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_5",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_6",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_6",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_7",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_7",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_8",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_8",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_9",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_9",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_10",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_10",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_11",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_11",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_12",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_12",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_13",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_13",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_14",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_14",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_15",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_15",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_16",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_16",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_17",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_17",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_18",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_18",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "TREAD_CONTAINED_19",
+      "result": "PASS",
+      "detail": "Tread band inside enlarged turret interior."
+    },
+    {
+      "id": "APERTURE_CLEARS_TREAD_19",
+      "result": "PASS",
+      "detail": "Upper-floor aperture clears the entire tread footprint."
+    },
+    {
+      "id": "LEVEL_RISE",
+      "result": "PASS",
+      "detail": "20 equal rises sum to exactly 3.600 m."
+    },
+    {
+      "id": "TREAD_COUNT",
+      "result": "PASS",
+      "detail": "19 goings between 20 risers; landing is not counted as another tread."
+    },
+    {
+      "id": "LANDING_RECTANGLE",
+      "result": "PASS",
+      "detail": "1.05 x 1.20 m landing footprint contained in western landing zone."
+    },
+    {
+      "id": "LANDING_NOT_OVER_FLIGHT",
+      "result": "PASS",
+      "detail": "Landing and flight are disjoint in plan."
+    },
+    {
+      "id": "UPPER_ROUTE_CLEAR",
+      "result": "PASS",
+      "detail": "1.20 m route band connects landing, bridge, common hall and upper hall."
+    },
+    {
+      "id": "UPPER_ROUTE_NO_ACTUAL_WALL_COLLISION",
+      "result": "PASS",
+      "detail": "Route band tested against the exported floor-specific walls and newel."
+    },
+    {
+      "id": "UPPER_ROUTE_ON_FLOOR",
+      "result": "PASS",
+      "detail": "Entire upper route band lies on the proposed upper floor."
+    },
+    {
+      "id": "GROUND_SERVICE_ROUTE_CLEAR",
+      "result": "PASS",
+      "detail": "1.20 m route band through the preserved ground service entrance."
+    },
+    {
+      "id": "GROUND_SERVICE_NO_ACTUAL_WALL_COLLISION",
+      "result": "PASS",
+      "detail": "Service route tested against actual ground-floor proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_G01 Reading parlour",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_G01 Reading parlour",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_G02 Common room",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_G02 Common room",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_G03 House office",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_G03 House office",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_G04 Linen store",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_G04 Linen store",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_G05 Workroom",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_G05 Workroom",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_U01 Chamber 1",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_U01 Chamber 1",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_U04 Chamber 4",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_U04 Chamber 4",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_U02 Chamber 2",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_U02 Chamber 2",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_U05 Chamber 5",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_U05 Chamber 5",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_U03 Chamber 3",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_U03 Chamber 3",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "DOOR_ACCESS_U06 Chamber 6",
+      "result": "PASS",
+      "detail": "0.80 m route band through proposed 0.90 m room opening."
+    },
+    {
+      "id": "DOOR_NO_ACTUAL_WALL_COLLISION_U06 Chamber 6",
+      "result": "PASS",
+      "detail": "Room access band tested against floor-specific proposal walls."
+    },
+    {
+      "id": "NEWEL_CLEARANCE",
+      "result": "PASS",
+      "detail": "Landing footprint avoids the 1.24 m-diameter newel."
+    },
+    {
+      "id": "SOURCE_BYTES_UNCHANGED",
+      "result": "PASS",
+      "detail": "Original R03 model checksum unchanged."
+    },
+    {
+      "id": "RECOVERED_R03_HASH",
+      "result": "PASS",
+      "detail": "Matches the recovered and verified R03 package input."
+    }
+  ],
+  "pass_count": 123,
+  "fail_count": 0,
+  "validation_limits": [
+    "Roof is not modeled: +5.70 m is a required clear control plane, not a verified roof soffit.",
+    "Tread band precedes handrail/guard detailing; no finished clear stair-width claim.",
+    "Upper-link soffit is provisionally +3.420 m: chapter vestibule entry/vault height is not yet coordinated.",
+    "Bridge spans, stair support, floor construction, fire/egress and occupancy classification require separate review.",
+    "No actual cathedral masonry opening, vault generator or original model changed."
+  ],
+  "changes_from_R03": [
+    "Turret enlarged by 0.40 m across flats, same center.",
+    "Upper passage added over west edge of the two gaps and chapter vestibule to connect night stair to dormitory.",
+    "Floor-specific room partitions, openings and private stair geometry defined."
+  ]
+}
