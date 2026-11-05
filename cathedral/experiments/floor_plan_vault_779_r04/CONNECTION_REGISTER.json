@@ -1,0 +1,252 @@
+[
+  {
+    "from": "I_A1",
+    "to": "M_A1",
+    "type": "SHARED_R1_ARCH",
+    "length": 1907.248622702747,
+    "status": "SOURCE_SET_OUT_MATCH",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "M_A1",
+    "to": "T7",
+    "type": "SHARED_R2_ARCH",
+    "length": 2467.517495956923,
+    "status": "SELECTED_WORKING_PASSAGE_SET_OUT",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "I_A2",
+    "to": "M_A2",
+    "type": "SHARED_R1_ARCH",
+    "length": 1837.850113989377,
+    "status": "SOURCE_SET_OUT_MATCH",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "M_A2",
+    "to": "T6",
+    "type": "SHARED_R2_ARCH",
+    "length": 2377.7326444146506,
+    "status": "SELECTED_WORKING_PASSAGE_SET_OUT",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "I_A3",
+    "to": "M_A3",
+    "type": "SHARED_R1_ARCH",
+    "length": 1733.4915815181657,
+    "status": "SOURCE_SET_OUT_MATCH",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "M_A3",
+    "to": "T5",
+    "type": "SHARED_R2_ARCH",
+    "length": 2242.7179946936362,
+    "status": "SELECTED_WORKING_PASSAGE_SET_OUT",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "I_A4",
+    "to": "M_A4",
+    "type": "SHARED_R1_ARCH",
+    "length": 1698.6385139810943,
+    "status": "SOURCE_SET_OUT_MATCH",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "M_A4",
+    "to": "T4",
+    "type": "SHARED_R2_ARCH",
+    "length": 2197.626571943717,
+    "status": "SELECTED_WORKING_PASSAGE_SET_OUT",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "I_A5",
+    "to": "M_A5",
+    "type": "SHARED_R1_ARCH",
+    "length": 1733.4915815181653,
+    "status": "SOURCE_SET_OUT_MATCH",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "M_A5",
+    "to": "T3",
+    "type": "SHARED_R2_ARCH",
+    "length": 2242.7179946936376,
+    "status": "SELECTED_WORKING_PASSAGE_SET_OUT",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "I_A6",
+    "to": "M_A6",
+    "type": "SHARED_R1_ARCH",
+    "length": 1837.8501139893776,
+    "status": "SOURCE_SET_OUT_MATCH",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "M_A6",
+    "to": "T2",
+    "type": "SHARED_R2_ARCH",
+    "length": 2377.732644414651,
+    "status": "SELECTED_WORKING_PASSAGE_SET_OUT",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "I_A7",
+    "to": "M_A7",
+    "type": "SHARED_R1_ARCH",
+    "length": 1907.248622702747,
+    "status": "SOURCE_SET_OUT_MATCH",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "M_A7",
+    "to": "T1",
+    "type": "SHARED_R2_ARCH",
+    "length": 2467.517495956923,
+    "status": "SELECTED_WORKING_PASSAGE_SET_OUT",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "T1",
+    "to": "D1",
+    "type": "OUTER_ENTRY_FRONTAGE",
+    "length": 2470.464809676008,
+    "status": "SOURCE_WINDOW_ENTRY",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "T2",
+    "to": "D2",
+    "type": "OUTER_ENTRY_FRONTAGE",
+    "length": 2432.193467524175,
+    "status": "CANDIDATE_CHAPEL_NECK",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "T2",
+    "to": "D3",
+    "type": "OUTER_ENTRY_FRONTAGE",
+    "length": 2373.2209299222027,
+    "status": "SOURCE_WINDOW_ENTRY",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "T3",
+    "to": "D4",
+    "type": "OUTER_ENTRY_FRONTAGE",
+    "length": 2320.3931456720566,
+    "status": "CANDIDATE_CHAPEL_NECK",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "T4",
+    "to": "D5",
+    "type": "OUTER_ENTRY_FRONTAGE",
+    "length": 2299.237260042757,
+    "status": "CANDIDATE_CHAPEL_NECK",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "T5",
+    "to": "D6",
+    "type": "OUTER_ENTRY_FRONTAGE",
+    "length": 2320.393145672059,
+    "status": "CANDIDATE_CHAPEL_NECK",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "T6",
+    "to": "D7",
+    "type": "OUTER_ENTRY_FRONTAGE",
+    "length": 2373.2209299222004,
+    "status": "SOURCE_WINDOW_ENTRY",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "T6",
+    "to": "D8",
+    "type": "OUTER_ENTRY_FRONTAGE",
+    "length": 2432.1934675241755,
+    "status": "CANDIDATE_CHAPEL_NECK",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "T7",
+    "to": "D9",
+    "type": "OUTER_ENTRY_FRONTAGE",
+    "length": 2470.464809676008,
+    "status": "SOURCE_WINDOW_ENTRY",
+    "extra_inner_piers": 0
+  },
+  {
+    "from": "Q5_N_I",
+    "to": "I_A1",
+    "type": "SHOULDER_RECEIVING_STRIP",
+    "length": 1151.9999999999998,
+    "status": "DERIVED_PLAN_ONLY_STRIP_NOT_NEW_VAULT",
+    "extra_inner_piers": 0,
+    "inner_offset": 25.595172264323246,
+    "outer_offset": 35.648236856380414,
+    "area": 35275.867849491304
+  },
+  {
+    "from": "Q5_N_M",
+    "to": "M_A1",
+    "type": "SHOULDER_RECEIVING_STRIP",
+    "length": 1200.0000000000005,
+    "status": "DERIVED_PLAN_ONLY_STRIP_NOT_NEW_VAULT",
+    "extra_inner_piers": 0,
+    "inner_offset": 35.648236856380414,
+    "outer_offset": 46.12017913976981,
+    "area": 49060.58257185797
+  },
+  {
+    "from": "Q5_N_T",
+    "to": "T7",
+    "type": "SHOULDER_RECEIVING_STRIP",
+    "length": 1372.046264369435,
+    "status": "SOURCE_WORKING_COLLAR",
+    "extra_inner_piers": 0,
+    "inner_offset": 46.12017913976981,
+    "outer_offset": 62.561046497811624,
+    "area": 74555.11690555456
+  },
+  {
+    "from": "Q5_S_I",
+    "to": "I_A7",
+    "type": "SHOULDER_RECEIVING_STRIP",
+    "length": 1151.9999999999998,
+    "status": "DERIVED_PLAN_ONLY_STRIP_NOT_NEW_VAULT",
+    "extra_inner_piers": 0,
+    "inner_offset": 25.595172264323246,
+    "outer_offset": 35.648236856380414,
+    "area": 35275.867849491304
+  },
+  {
+    "from": "Q5_S_M",
+    "to": "M_A7",
+    "type": "SHOULDER_RECEIVING_STRIP",
+    "length": 1200.0000000000005,
+    "status": "DERIVED_PLAN_ONLY_STRIP_NOT_NEW_VAULT",
+    "extra_inner_piers": 0,
+    "inner_offset": 35.648236856380414,
+    "outer_offset": 46.12017913976981,
+    "area": 49060.58257185797
+  },
+  {
+    "from": "Q5_S_T",
+    "to": "T1",
+    "type": "SHOULDER_RECEIVING_STRIP",
+    "length": 1372.046264369435,
+    "status": "SOURCE_WORKING_COLLAR",
+    "extra_inner_piers": 0,
+    "inner_offset": 46.12017913976981,
+    "outer_offset": 62.561046497811624,
+    "area": 74555.11690555456
+  }
+]

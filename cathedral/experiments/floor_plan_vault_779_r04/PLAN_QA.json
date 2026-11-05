@@ -1,0 +1,651 @@
+{
+  "status": "EXPERIMENTAL 2D COORDINATION",
+  "checks": [
+    {
+      "name": "Protected I/M cell count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Nine outer compartments",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Five chapels/four windows",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "T2/T6 five-sided",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No added inner piers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Five plan branches inside T2",
+      "pass": true,
+      "detail": {
+        "boss": [
+          23830.667863157647,
+          -4259.078690861384
+        ]
+      }
+    },
+    {
+      "name": "Five plan branches inside T6",
+      "pass": true,
+      "detail": {
+        "boss": [
+          23830.667863157647,
+          4259.078690861384
+        ]
+      }
+    },
+    {
+      "name": "Valid cell I_A1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell I_A2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell I_A3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell I_A4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell I_A5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell I_A6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell I_A7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell M_A1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell M_A2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell M_A3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell M_A4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell M_A5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell M_A6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell M_A7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell T1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell T2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell T3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell T4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell T5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell T6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Valid cell T7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Protected source footprint regression I1",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression I2",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression I3",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression I4",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression I5",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression I6",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression I7",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression M1",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression M2",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression M3",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression M4",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression M5",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression M6",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Protected source footprint regression M7",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "SHARED_R1_ARCH I_A1 M_A1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R2_ARCH M_A1 T7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R1_ARCH I_A2 M_A2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R2_ARCH M_A2 T6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R1_ARCH I_A3 M_A3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R2_ARCH M_A3 T5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R1_ARCH I_A4 M_A4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R2_ARCH M_A4 T4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R1_ARCH I_A5 M_A5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R2_ARCH M_A5 T3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R1_ARCH I_A6 M_A6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R2_ARCH M_A6 T2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R1_ARCH I_A7 M_A7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SHARED_R2_ARCH M_A7 T1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Neck valid D2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Neck has full passage frontage D2",
+      "pass": true,
+      "detail": {
+        "length": 2432.193467524175
+      }
+    },
+    {
+      "name": "Neck touches source body D2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Neck valid D4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Neck has full passage frontage D4",
+      "pass": true,
+      "detail": {
+        "length": 2320.3931456720566
+      }
+    },
+    {
+      "name": "Neck touches source body D4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Neck valid D5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Neck has full passage frontage D5",
+      "pass": true,
+      "detail": {
+        "length": 2299.237260042757
+      }
+    },
+    {
+      "name": "Neck touches source body D5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Neck valid D6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Neck has full passage frontage D6",
+      "pass": true,
+      "detail": {
+        "length": 2320.393145672059
+      }
+    },
+    {
+      "name": "Neck touches source body D6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Neck valid D8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Neck has full passage frontage D8",
+      "pass": true,
+      "detail": {
+        "length": 2432.1934675241755
+      }
+    },
+    {
+      "name": "Neck touches source body D8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Exclusive candidate ownership D1/D2",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D1/D3",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D1/D4",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D1/D5",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D1/D6",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D1/D7",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D1/D8",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D1/D9",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D2/D3",
+      "pass": true,
+      "detail": 3.0021749489805914e-06
+    },
+    {
+      "name": "Exclusive candidate ownership D2/D4",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D2/D5",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D2/D6",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D2/D7",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D2/D8",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D2/D9",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D3/D4",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D3/D5",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D3/D6",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D3/D7",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D3/D8",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D3/D9",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D4/D5",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D4/D6",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D4/D7",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D4/D8",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D4/D9",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D5/D6",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D5/D7",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D5/D8",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D5/D9",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D6/D7",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D6/D8",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D6/D9",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D7/D8",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D7/D9",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Exclusive candidate ownership D8/D9",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Selected R05 full footprint NE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Selected R05 full footprint NW",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Selected R05 full footprint SE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Selected R05 full footprint SW",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parses CHEVET_779_CONNECTIONS.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parses VAULT_CONNECTION_OWNERSHIP.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parses WHOLE_FLOOR_PLAN_CONNECTIONS.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parses CHEVET_779_NATIVE_COORDINATES.svg",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "passed": 115,
+  "failed": 0,
+  "physical_m_per_unit": null,
+  "approved_geometry_changed": false,
+  "new_inner_piers": 0,
+  "new_chapel_necks": 5,
+  "source_body_overlap_ownership": [
+    {
+      "divider": "B1",
+      "owners": [
+        "D1",
+        "D2"
+      ],
+      "source_body_overlap_area": 12653.457982343061,
+      "candidate_neck_and_body_overlap_area": 27498.430092881434,
+      "status": "PROPOSED_SINGLE_OWNER_PLAN_RESERVATION_NOT_MASONRY"
+    },
+    {
+      "divider": "B3",
+      "owners": [
+        "D3",
+        "D4"
+      ],
+      "source_body_overlap_area": 17955.522413996223,
+      "candidate_neck_and_body_overlap_area": 37073.635475406074,
+      "status": "PROPOSED_SINGLE_OWNER_PLAN_RESERVATION_NOT_MASONRY"
+    },
+    {
+      "divider": "B6",
+      "owners": [
+        "D6",
+        "D7"
+      ],
+      "source_body_overlap_area": 17955.705752308702,
+      "candidate_neck_and_body_overlap_area": 37073.65797742531,
+      "status": "PROPOSED_SINGLE_OWNER_PLAN_RESERVATION_NOT_MASONRY"
+    },
+    {
+      "divider": "B8",
+      "owners": [
+        "D8",
+        "D9"
+      ],
+      "source_body_overlap_area": 12653.200973975829,
+      "candidate_neck_and_body_overlap_area": 27498.052396265528,
+      "status": "PROPOSED_SINGLE_OWNER_PLAN_RESERVATION_NOT_MASONRY"
+    }
+  ],
+  "structural_validation": false,
+  "D5_selected_cap": "UNRESOLVED; +640 source trial not adopted",
+  "vault_count_definition": "7 inner +7 middle +9 exterior program compartments. Seven passage receiving panels are separately named T1\u2013T7; this is not a certificate of 23 complete built vault meshes."
+}

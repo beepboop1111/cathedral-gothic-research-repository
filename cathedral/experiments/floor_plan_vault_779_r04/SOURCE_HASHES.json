@@ -1,0 +1,12 @@
+{
+  "inputs/UNIT_EVIDENCE.json": "6a2e121ee84da9155addb30b8c504fd06370fa19fd1fcca5bb5b68fda79c0fd0",
+  "inputs/R05_PARENT_GEOMETRY.json": "b2b0e22dd89ec8e5e5ba6b71c739f19664498d0d1f50dafa5f32f97f61ecd343",
+  "inputs/MASTER_PLAN_V02.json": "862c7a83af262fd5311c330e62786a4aa28c4bba58634dab8e6d3f7c774963f8",
+  "inputs/COORDINATE_MAP.json": "33ba991e3038b6c40ea8e96f7715ce46a45e1fdfcbb55f6a9b3d54a4d81e863c",
+  "inputs/GITHUB_MASTER_REFERENCE.md": "fcc02f6010cde5fe015580acd25f0914580ef261ddbe361d2ac4f1e06e06cc5a",
+  "inputs/F5ZK_C.json": "d1185e4a2fe9c92b12a3e544fddca32bf65650257cfddc28137002d8e819fa85",
+  "inputs/SOURCE_MP01D.pdf": "0a26b18bd3e58c26c7b54bd069a8f3d82911b6b07a43abb776fecd986b92b9db",
+  "inputs/R05_PLAN_QA.json": "be63404813216daba038e51936d8bb8973e60c20a53edefc5aed8e0a5b1eac80",
+  "inputs/PRIOR_MP01E_TEXT.json": "ad19c8d4c9d5ba33a7d47383f140dda65815d2f774a2a504e1e29f9561d2e750",
+  "inputs/SOURCE_PDF_TEXTS.json": "ba347269da1f072201552cf1f2eb36581d905cf251fab87c624e86acfd50a956"
+}

@@ -1,0 +1,45 @@
+{
+  "method": "Invert vector PDF plot transform using R2933 circle; independently check R4085/R5285 and outer window entries",
+  "source_pdf_sha256": "0a26b18bd3e58c26c7b54bd069a8f3d82911b6b07a43abb776fecd986b92b9db",
+  "PDF_page": 2,
+  "pdf_center": [
+    337.56820460640824,
+    403.9199968280772
+  ],
+  "pdf_points_per_native_unit": 0.027932143510228647,
+  "radial_checks": [
+    {
+      "radius": 2933,
+      "max_residual": 0.0006613286850551958
+    },
+    {
+      "radius": 4085,
+      "max_residual": 0.0014856278726256278
+    },
+    {
+      "radius": 5285,
+      "max_residual": 0.0013384207522904035
+    }
+  ],
+  "outer_parameter_recovery_max_error": 0.001439654676577332,
+  "acceptance_native": 0.005,
+  "source_indices": {
+    "program_bodies": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "transition_cells": [
+      63,
+      64
+    ]
+  },
+  "D5_status": "SOURCE VECTOR IS +640 F5ZN-D6 TRIAL; not adopted as selected D4/D5 body",
+  "original_source_modified": false
+}
