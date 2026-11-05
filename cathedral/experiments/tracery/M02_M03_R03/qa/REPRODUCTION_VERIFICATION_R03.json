@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "command": "python scripts/reproduce_checkpoint_R03.py --output NEW_DIRECTORY --skip-renders",
+  "repeat_type": "Fresh numeric run from frozen inputs; originals/build/repair/topology/features/semantics re-executed. Blender rendered separately on the delivered models.",
+  "windows": [
+    {
+      "window": "meaux",
+      "map": {
+        "first_sha256": "624b86e9a33e7278c3a602080b5188ec2f9a6774ab70d9b542011ac9fcfd9fe8",
+        "repeat_sha256": "624b86e9a33e7278c3a602080b5188ec2f9a6774ab70d9b542011ac9fcfd9fe8",
+        "byte_identical": true
+      },
+      "baseline_STL": {
+        "first_sha256": "b32116fb36a59217d6d47c5a7d07328776010e83ad32e0851fc6be4650517ba8",
+        "repeat_sha256": "b32116fb36a59217d6d47c5a7d07328776010e83ad32e0851fc6be4650517ba8",
+        "byte_identical": true
+      },
+      "candidate_STL": {
+        "first_sha256": "128c204f5e8f3c2cc499a903f175098e81efae8669e0be24809c3c12fa2e93cc",
+        "repeat_sha256": "128c204f5e8f3c2cc499a903f175098e81efae8669e0be24809c3c12fa2e93cc",
+        "byte_identical": true
+      },
+      "candidate_GLB": {
+        "first_sha256": "5f016e31e0b2c5824c5ecd205469894ea6ed7a27d31af6138eda22b17213483b",
+        "repeat_sha256": "5f016e31e0b2c5824c5ecd205469894ea6ed7a27d31af6138eda22b17213483b",
+        "byte_identical": true
+      },
+      "semantic_face_IDs_identical": true
+    },
+    {
+      "window": "haina_1264",
+      "map": {
+        "first_sha256": "464098b18aa45ea56ca9a4a552813799e9f19eca05fb650636a5829d0d157db0",
+        "repeat_sha256": "464098b18aa45ea56ca9a4a552813799e9f19eca05fb650636a5829d0d157db0",
+        "byte_identical": true
+      },
+      "baseline_STL": {
+        "first_sha256": "d836628b6b4d2714da47e79018a0f737781a688a81a50fdad8ae17a697bcbca0",
+        "repeat_sha256": "d836628b6b4d2714da47e79018a0f737781a688a81a50fdad8ae17a697bcbca0",
+        "byte_identical": true
+      },
+      "candidate_STL": {
+        "first_sha256": "68a06927f5ce29ecc34ee6d3bc1cad38b4e89e3e290208afc1329b8ee9c4f85a",
+        "repeat_sha256": "68a06927f5ce29ecc34ee6d3bc1cad38b4e89e3e290208afc1329b8ee9c4f85a",
+        "byte_identical": true
+      },
+      "candidate_GLB": {
+        "first_sha256": "eaf988621a08a108df969fb71d02272e15f151d44135c735796b9765d7e1ea02",
+        "repeat_sha256": "eaf988621a08a108df969fb71d02272e15f151d44135c735796b9765d7e1ea02",
+        "byte_identical": true
+      },
+      "semantic_face_IDs_identical": true
+    },
+    {
+      "window": "haina_1265",
+      "map": {
+        "first_sha256": "2e60248cb9653b43be58e6020cad9cd45352013ef74165af1c9a378908d8ab83",
+        "repeat_sha256": "2e60248cb9653b43be58e6020cad9cd45352013ef74165af1c9a378908d8ab83",
+        "byte_identical": true
+      },
+      "baseline_STL": {
+        "first_sha256": "d3d768e3cba796a0cdcbdb39cfbb3b9626b8368f070930d5321e23422e126598",
+        "repeat_sha256": "d3d768e3cba796a0cdcbdb39cfbb3b9626b8368f070930d5321e23422e126598",
+        "byte_identical": true
+      },
+      "candidate_STL": {
+        "first_sha256": "000970264d64ef14a585fc3de05206c760fd6b418be6cff6592990f8175a0af3",
+        "repeat_sha256": "000970264d64ef14a585fc3de05206c760fd6b418be6cff6592990f8175a0af3",
+        "byte_identical": true
+      },
+      "candidate_GLB": {
+        "first_sha256": "bd9ce5ac16bf78df1ed465b4e697c3aa07bd56df6b3fe4f9b046edcc1ea8d4ee",
+        "repeat_sha256": "bd9ce5ac16bf78df1ed465b4e697c3aa07bd56df6b3fe4f9b046edcc1ea8d4ee",
+        "byte_identical": true
+      },
+      "semantic_face_IDs_identical": true
+    },
+    {
+      "window": "chalons",
+      "map": {
+        "first_sha256": "f3e24ecf29bf297f3eb586e9a2eba6f77807b840385c941a32365619b53c6462",
+        "repeat_sha256": "f3e24ecf29bf297f3eb586e9a2eba6f77807b840385c941a32365619b53c6462",
+        "byte_identical": true
+      },
+      "baseline_STL": {
+        "first_sha256": "0ce0b2355b7d01f7cb3342cb784177d47310b6bc3c67824d73ecd29a15a740b8",
+        "repeat_sha256": "0ce0b2355b7d01f7cb3342cb784177d47310b6bc3c67824d73ecd29a15a740b8",
+        "byte_identical": true
+      },
+      "candidate_STL": {
+        "first_sha256": "1ff2801f279fef16ca07397b25406e17fc537e6c8102024991fc7aac038dd0a9",
+        "repeat_sha256": "1ff2801f279fef16ca07397b25406e17fc537e6c8102024991fc7aac038dd0a9",
+        "byte_identical": true
+      },
+      "candidate_GLB": {
+        "first_sha256": "06a06eb7bf740c14367648daea595b9a196e87116c70e1168742915aa1d44efd",
+        "repeat_sha256": "06a06eb7bf740c14367648daea595b9a196e87116c70e1168742915aa1d44efd",
+        "byte_identical": true
+      },
+      "semantic_face_IDs_identical": true
+    }
+  ],
+  "numerical_tests_log": "reproduction_rerun_mesh_tests_R03.log",
+  "semantic_tests_log": "reproduction_rerun_semantic_tests_R03.log",
+  "scripts_notes": "Font fallback, executable selection and evidence-reporting portability improvements applied before repeated semantic phase; source geometry and repair parameters unchanged."
+}

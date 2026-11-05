@@ -1,0 +1,14 @@
+test_crop_edges_and_unknown_mark (__main__.IdentityTests.test_crop_edges_and_unknown_mark) ... ok
+test_cross_source_guard (__main__.IdentityTests.test_cross_source_guard) ... ok
+test_hole_topology_guard (__main__.IdentityTests.test_hole_topology_guard) ... ok
+test_merge_rejects_correction (__main__.IdentityTests.test_merge_rejects_correction) ... ok
+test_missing_guard_and_bad_class_rejected (__main__.IdentityTests.test_missing_guard_and_bad_class_rejected) ... ok
+test_palette_independent (__main__.IdentityTests.test_palette_independent) ... ok
+test_replay_and_floodfill_order (__main__.IdentityTests.test_replay_and_floodfill_order) ... ok
+test_scaled_identity_and_correction_replay (__main__.IdentityTests.test_scaled_identity_and_correction_replay) ... ok
+test_split_rejects_correction (__main__.IdentityTests.test_split_rejects_correction) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.078s
+
+OK

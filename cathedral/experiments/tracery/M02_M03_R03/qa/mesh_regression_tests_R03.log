@@ -1,0 +1,15 @@
+test_baselines_match_original_final_stls_byte_for_byte (__main__.FourWindowRegressions.test_baselines_match_original_final_stls_byte_for_byte) ... ok
+test_every_original_is_unchanged (__main__.FourWindowRegressions.test_every_original_is_unchanged) ... ok
+test_every_source_opening_and_cusp_moulding_section_retained (__main__.FourWindowRegressions.test_every_source_opening_and_cusp_moulding_section_retained) ... ok
+test_exported_stl_and_glb_have_no_detected_self_intersections (__main__.FourWindowRegressions.test_exported_stl_and_glb_have_no_detected_self_intersections) ... ok
+test_roundtripped_topology_and_dimensions (__main__.FourWindowRegressions.test_roundtripped_topology_and_dimensions) ... ok
+test_large_cleanup_budget_rejected (__main__.RepairGuards.test_large_cleanup_budget_rejected) ... ok
+test_original_replacement_rejected (__main__.RepairGuards.test_original_replacement_rejected) ... ok
+test_precision_sliver_removed_without_changing_a_valid_solid (__main__.RepairGuards.test_precision_sliver_removed_without_changing_a_valid_solid) ... ok
+test_separate_solids_are_not_joined (__main__.RepairGuards.test_separate_solids_are_not_joined) ... ok
+test_vertex_pinch_is_detected_despite_closed_edges (__main__.RepairGuards.test_vertex_pinch_is_detected_despite_closed_edges) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.409s
+
+OK

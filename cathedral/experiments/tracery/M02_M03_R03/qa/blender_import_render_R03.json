@@ -1,0 +1,150 @@
+[
+  {
+    "name": "meaux",
+    "blender_version": "4.3.2",
+    "reference_vertices": 568931,
+    "reference_faces": 1138019,
+    "candidate_glb_vertices": 568925,
+    "candidate_faces": 1138006,
+    "reference_bounds_m": [
+      [
+        0.004163431469351053,
+        6.398010737029836e-05,
+        7.133295002859086e-05
+      ],
+      [
+        0.14410708844661713,
+        0.12518596649169922,
+        0.006000000052154064
+      ]
+    ],
+    "candidate_glb_bounds_m": [
+      [
+        0.004163431003689766,
+        6.398011464625597e-05,
+        7.131613529054448e-05
+      ],
+      [
+        0.14410708844661713,
+        0.1251859813928604,
+        0.006000000983476639
+      ]
+    ],
+    "bounds_max_delta_mm": 1.6814738046377897e-05,
+    "render_engine": "Blender Workbench studio/cavity; technical shading of the actual triangle mesh",
+    "view": "matched orthographic camera, material, light; inverse glTF-to-Blender axis rotation on review object only; no geometry modifiers",
+    "units": "meters in Blender and GLB; source STL mm converted by 0.001",
+    "reference_import_note": "Blender STL importer discards some zero-area reference faces; original topology QA uses untouched STL in an independent reader"
+  },
+  {
+    "name": "haina_1264",
+    "blender_version": "4.3.2",
+    "reference_vertices": 845983,
+    "reference_faces": 1692030,
+    "candidate_glb_vertices": 845975,
+    "candidate_faces": 1692014,
+    "reference_bounds_m": [
+      [
+        0.002052922733128071,
+        6.652832234976813e-05,
+        7.133295002859086e-05
+      ],
+      [
+        0.14468932151794434,
+        0.21993602812290192,
+        0.006000000052154064
+      ]
+    ],
+    "candidate_glb_bounds_m": [
+      [
+        0.002052922733128071,
+        6.652833690168336e-05,
+        7.130340964067727e-05
+      ],
+      [
+        0.14468932151794434,
+        0.2199360430240631,
+        0.006000000983476639
+      ]
+    ],
+    "bounds_max_delta_mm": 2.954038791358471e-05,
+    "render_engine": "Blender Workbench studio/cavity; technical shading of the actual triangle mesh",
+    "view": "matched orthographic camera, material, light; inverse glTF-to-Blender axis rotation on review object only; no geometry modifiers",
+    "units": "meters in Blender and GLB; source STL mm converted by 0.001",
+    "reference_import_note": "Blender STL importer discards some zero-area reference faces; original topology QA uses untouched STL in an independent reader"
+  },
+  {
+    "name": "haina_1265",
+    "blender_version": "4.3.2",
+    "reference_vertices": 788745,
+    "reference_faces": 1577606,
+    "candidate_glb_vertices": 788727,
+    "candidate_faces": 1577570,
+    "reference_bounds_m": [
+      [
+        -0.000186020479304716,
+        0.007657989859580994,
+        7.133295002859086e-05
+      ],
+      [
+        0.14136913418769836,
+        0.18954245746135712,
+        0.006000000052154064
+      ]
+    ],
+    "candidate_glb_bounds_m": [
+      [
+        -0.00018602046475280076,
+        0.007657990325242281,
+        7.130749145289883e-05
+      ],
+      [
+        0.14136911928653717,
+        0.1895424723625183,
+        0.006000000052154064
+      ]
+    ],
+    "bounds_max_delta_mm": 2.5458575692027807e-05,
+    "render_engine": "Blender Workbench studio/cavity; technical shading of the actual triangle mesh",
+    "view": "matched orthographic camera, material, light; inverse glTF-to-Blender axis rotation on review object only; no geometry modifiers",
+    "units": "meters in Blender and GLB; source STL mm converted by 0.001",
+    "reference_import_note": "Blender STL importer discards some zero-area reference faces; original topology QA uses untouched STL in an independent reader"
+  },
+  {
+    "name": "chalons",
+    "blender_version": "4.3.2",
+    "reference_vertices": 331326,
+    "reference_faces": 662720,
+    "candidate_glb_vertices": 331318,
+    "candidate_faces": 662704,
+    "reference_bounds_m": [
+      [
+        -0.000186020479304716,
+        6.398010737029836e-05,
+        7.133295002859086e-05
+      ],
+      [
+        0.14764516055583954,
+        0.07486063241958618,
+        0.006000000052154064
+      ]
+    ],
+    "candidate_glb_bounds_m": [
+      [
+        -0.00018602046475280076,
+        6.398011464625597e-05,
+        7.132290193112567e-05
+      ],
+      [
+        0.14764516055583954,
+        0.07486063241958618,
+        0.006000000983476639
+      ]
+    ],
+    "bounds_max_delta_mm": 1.0048097465187311e-05,
+    "render_engine": "Blender Workbench studio/cavity; technical shading of the actual triangle mesh",
+    "view": "matched orthographic camera, material, light; inverse glTF-to-Blender axis rotation on review object only; no geometry modifiers",
+    "units": "meters in Blender and GLB; source STL mm converted by 0.001",
+    "reference_import_note": "Blender STL importer discards some zero-area reference faces; original topology QA uses untouched STL in an independent reader"
+  }
+]

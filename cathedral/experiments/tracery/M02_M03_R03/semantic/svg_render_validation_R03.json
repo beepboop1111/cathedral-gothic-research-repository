@@ -1,0 +1,30 @@
+[
+  {
+    "window": "meaux",
+    "renderer": "Inkscape",
+    "exit_code": 0,
+    "png_exists": true,
+    "warnings": "** (inkscape:24): WARNING **: 02:12:05.640: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:24): WARNING **: 02:12:06.670: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function."
+  },
+  {
+    "window": "haina_1264",
+    "renderer": "Inkscape",
+    "exit_code": 0,
+    "png_exists": true,
+    "warnings": "** (inkscape:31): WARNING **: 02:12:07.655: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:31): WARNING **: 02:12:08.198: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function."
+  },
+  {
+    "window": "haina_1265",
+    "renderer": "Inkscape",
+    "exit_code": 0,
+    "png_exists": true,
+    "warnings": "** (inkscape:38): WARNING **: 02:12:08.980: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:38): WARNING **: 02:12:09.653: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function."
+  },
+  {
+    "window": "chalons",
+    "renderer": "Inkscape",
+    "exit_code": 0,
+    "png_exists": true,
+    "warnings": "** (inkscape:45): WARNING **: 02:12:10.501: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:45): WARNING **: 02:12:11.080: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function."
+  }
+]

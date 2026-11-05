@@ -1,0 +1,213 @@
+{
+  "id": "Tracery_M02_M03_R03",
+  "status": "EXPERIMENTAL, not promoted",
+  "master_plan": "originals/master_plan_R01/MASTER_GOAL_AND_ROADMAP_R01.md",
+  "governance_blob_sha": "1d7e358ff7562fcc64088854baa2abd3d31a729e",
+  "baseline_authority": "Kit inputs and script hashes + reconciled R02 final run log + matching actual final STL bytes on MR COMPUTER; no inference from modification order",
+  "source_bundle_sha256": "76ec8b247a028b93c05d6028772cc5f6b3546015803b0ec5c3d1881d92608d37",
+  "source_script_sha256": {
+    "tracery_regions.py": "667130b1e1c60cd05a9378e55acc702a5a7b55cd444c9b925df0f681d8d82e1c",
+    "prep_page.py": "8da4ea4098a521e22f7a28b327cddcfd51a279e2f095c3ccb358b9425ccdbd50",
+    "tracery_build.py": "0d52ef4630a8234e59a83249e06cd1077479ad236db96f595998a11e44ef5e76"
+  },
+  "units": {
+    "STL": "nominal model mm; not historically calibrated",
+    "GLB": "meters; exactly0.001 times model mm coordinates",
+    "SVG": "source image pixels; no physical calibration"
+  },
+  "axes": {
+    "source": "x right, y down",
+    "STL_and_GLTF": "X right, Y up, Z out of window face; right-handed",
+    "Blender_review": "inverse glTF importer axis rotation aligns GLB to the STL review plane; documented in import QA"
+  },
+  "known_missing_original_tools": [
+    "diag.py",
+    "view/shot.js; replaced by separately versioned numerical QA and Blender renderer, not authoritative script replacements"
+  ],
+  "benchmarks": [
+    {
+      "name": "meaux",
+      "source": "originals/kit/meaux.png",
+      "source_sha256": "1135e81170ce8789f0afff815383e7f1846c4f5d165ba17320f180d4994520c8",
+      "region_options": [
+        "--mirror"
+      ],
+      "effective_region_parameters": {
+        "threshold": 0.5,
+        "invert": false,
+        "disk_px": 16,
+        "min_radius_px": 40,
+        "max_compact": 10,
+        "open_bottom": false,
+        "bridge_px": 50,
+        "mirror": "ink union with reflection; experimental repair hypothesis"
+      },
+      "mirror_axis_px": 2059.5,
+      "bridges_closed": 530,
+      "classified_openings": 48,
+      "mesh_options": [
+        "--res",
+        "0.25"
+      ],
+      "effective_mesh_parameters": {
+        "width_mm": 150,
+        "thickness_mm": 6,
+        "edge": "chamfer",
+        "edge_width_mm": 1.5,
+        "edge_depth_effective_mm": 1.5,
+        "both_sides": true,
+        "lines": "groove",
+        "line_depth_mm": 0.4,
+        "resolution_mm": 0.25,
+        "min_bar_mm": 1,
+        "min_hole_mm2": 3
+      },
+      "original_final_stl_sha256": "b32116fb36a59217d6d47c5a7d07328776010e83ad32e0851fc6be4650517ba8"
+    },
+    {
+      "name": "haina_1264",
+      "source": "originals/kit/haina_1264.png",
+      "source_sha256": "b00b27131105b7a82d019e2885fd8ec90a78e2ef5da5c758997cd6cffacec5b1",
+      "region_options": [
+        "--mirror",
+        "--glass",
+        "51",
+        "52"
+      ],
+      "effective_region_parameters": {
+        "threshold": 0.5,
+        "invert": false,
+        "disk_px": 16,
+        "min_radius_px": 40,
+        "max_compact": 10,
+        "open_bottom": false,
+        "bridge_px": 50,
+        "mirror": "ink union with reflection; experimental repair hypothesis"
+      },
+      "mirror_axis_px": 1173.5,
+      "bridges_closed": 482,
+      "classified_openings": 21,
+      "mesh_options": [
+        "--res",
+        "0.25"
+      ],
+      "effective_mesh_parameters": {
+        "width_mm": 150,
+        "thickness_mm": 6,
+        "edge": "chamfer",
+        "edge_width_mm": 1.5,
+        "edge_depth_effective_mm": 1.5,
+        "both_sides": true,
+        "lines": "groove",
+        "line_depth_mm": 0.4,
+        "resolution_mm": 0.25,
+        "min_bar_mm": 1,
+        "min_hole_mm2": 3
+      },
+      "original_final_stl_sha256": "d836628b6b4d2714da47e79018a0f737781a688a81a50fdad8ae17a697bcbca0"
+    },
+    {
+      "name": "haina_1265",
+      "source": "originals/kit/haina_1265_v4.png",
+      "source_sha256": "0262ca271d8161704367b3e05c30e08578ba8b568c85c5c1b5c5dfca5d2bce5d",
+      "region_options": [
+        "--mirror",
+        "--stone",
+        "107",
+        "112",
+        "113",
+        "120",
+        "122",
+        "126",
+        "108",
+        "114",
+        "115",
+        "121",
+        "123",
+        "127"
+      ],
+      "effective_region_parameters": {
+        "threshold": 0.5,
+        "invert": false,
+        "disk_px": 16,
+        "min_radius_px": 40,
+        "max_compact": 10,
+        "open_bottom": false,
+        "bridge_px": 50,
+        "mirror": "ink union with reflection; experimental repair hypothesis"
+      },
+      "mirror_axis_px": 1229.5,
+      "bridges_closed": 268,
+      "classified_openings": 30,
+      "mesh_options": [
+        "--res",
+        "0.25"
+      ],
+      "effective_mesh_parameters": {
+        "width_mm": 150,
+        "thickness_mm": 6,
+        "edge": "chamfer",
+        "edge_width_mm": 1.5,
+        "edge_depth_effective_mm": 1.5,
+        "both_sides": true,
+        "lines": "groove",
+        "line_depth_mm": 0.4,
+        "resolution_mm": 0.25,
+        "min_bar_mm": 1,
+        "min_hole_mm2": 3
+      },
+      "original_final_stl_sha256": "d3d768e3cba796a0cdcbdb39cfbb3b9626b8368f070930d5321e23422e126598"
+    },
+    {
+      "name": "chalons",
+      "source": "originals/kit/chalons.png",
+      "source_sha256": "5d6882630d136914db626c2509cd6013460525e302a6743fa874bd7dff4e3f6c",
+      "region_options": [
+        "--mirror"
+      ],
+      "effective_region_parameters": {
+        "threshold": 0.5,
+        "invert": false,
+        "disk_px": 16,
+        "min_radius_px": 40,
+        "max_compact": 10,
+        "open_bottom": false,
+        "bridge_px": 50,
+        "mirror": "ink union with reflection; experimental repair hypothesis"
+      },
+      "mirror_axis_px": 1637.5,
+      "bridges_closed": 245,
+      "classified_openings": 19,
+      "mesh_options": [
+        "--res",
+        "0.25"
+      ],
+      "effective_mesh_parameters": {
+        "width_mm": 150,
+        "thickness_mm": 6,
+        "edge": "chamfer",
+        "edge_width_mm": 1.5,
+        "edge_depth_effective_mm": 1.5,
+        "both_sides": true,
+        "lines": "groove",
+        "line_depth_mm": 0.4,
+        "resolution_mm": 0.25,
+        "min_bar_mm": 1,
+        "min_hole_mm2": 3
+      },
+      "original_final_stl_sha256": "0ce0b2355b7d01f7cb3342cb784177d47310b6bc3c67824d73ecd29a15a740b8"
+    }
+  ],
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "Pillow": "13.0.0",
+    "scikit-image": "0.26.0",
+    "trimesh": "5.2.0",
+    "shapely": "2.2.0",
+    "rtree": "1.4.1",
+    "pymeshlab": "2025.7.post1",
+    "matplotlib": "3.10.8"
+  }
+}

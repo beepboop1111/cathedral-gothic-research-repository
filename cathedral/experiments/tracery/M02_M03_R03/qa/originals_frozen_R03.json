@@ -1,0 +1,147 @@
+[
+  {
+    "path": "originals/CATHEDRAL_MASTER_REFERENCE_R01.md",
+    "sha256": "fcc02f6010cde5fe015580acd25f0914580ef261ddbe361d2ac4f1e06e06cc5a",
+    "bytes": 15013
+  },
+  {
+    "path": "originals/four_windows.png",
+    "sha256": "271496744acd17d9a596bfe185fb0843bc6784493212d6b67947d59751c24a72",
+    "bytes": 976882
+  },
+  {
+    "path": "originals/github_recovery.json",
+    "sha256": "80575802993ac7836f3e07f03f5f6b6d237304255baff1f3784d448fb7e036f1",
+    "bytes": 300
+  },
+  {
+    "path": "originals/kit/chalons.png",
+    "sha256": "5d6882630d136914db626c2509cd6013460525e302a6743fa874bd7dff4e3f6c",
+    "bytes": 142305
+  },
+  {
+    "path": "originals/kit/commands.txt",
+    "sha256": "f82d4ba6085e9bb4cabbecbf52db1a76d33e0228d6bedbce6b8b43371651a9c0",
+    "bytes": 974
+  },
+  {
+    "path": "originals/kit/haina_1264.png",
+    "sha256": "b00b27131105b7a82d019e2885fd8ec90a78e2ef5da5c758997cd6cffacec5b1",
+    "bytes": 218280
+  },
+  {
+    "path": "originals/kit/haina_1265_v4.png",
+    "sha256": "0262ca271d8161704367b3e05c30e08578ba8b568c85c5c1b5c5dfca5d2bce5d",
+    "bytes": 216507
+  },
+  {
+    "path": "originals/kit/meaux.png",
+    "sha256": "1135e81170ce8789f0afff815383e7f1846c4f5d165ba17320f180d4994520c8",
+    "bytes": 390929
+  },
+  {
+    "path": "originals/kit/prep_page.py",
+    "sha256": "8da4ea4098a521e22f7a28b327cddcfd51a279e2f095c3ccb358b9425ccdbd50",
+    "bytes": 1940
+  },
+  {
+    "path": "originals/kit/tracery_build.py",
+    "sha256": "0d52ef4630a8234e59a83249e06cd1077479ad236db96f595998a11e44ef5e76",
+    "bytes": 6828
+  },
+  {
+    "path": "originals/kit/tracery_regions.py",
+    "sha256": "667130b1e1c60cd05a9378e55acc702a5a7b55cd444c9b925df0f681d8d82e1c",
+    "bytes": 9668
+  },
+  {
+    "path": "originals/master_plan_R01/MASTER_GOAL_AND_ROADMAP_R01.md",
+    "sha256": "8ea1c424d6e6d5b4e2c08278b86d6ba292cde8ffbdf670073793c4d56659eeaa",
+    "bytes": 11652
+  },
+  {
+    "path": "originals/master_plan_R01/MILESTONE_REGISTER_R01.csv",
+    "sha256": "f2cb26eea67f92be51ee4a2c7932d355a03b4eaa4b4139a5ff40d094cca5c16e",
+    "bytes": 1150
+  },
+  {
+    "path": "originals/master_plan_R01/README.txt",
+    "sha256": "2694de923c5c2230cd883879b9e047fb98d73470794330c83c9320b9b8a92fc8",
+    "bytes": 333
+  },
+  {
+    "path": "originals/master_plan_R01/SHA256SUMS.txt",
+    "sha256": "78acdf28ab30c8483e2b2620322f49bab10ce9fb2572afd6ed8fbf73c020a75e",
+    "bytes": 267
+  },
+  {
+    "path": "originals/meaux_reference_R02.stl",
+    "sha256": "b32116fb36a59217d6d47c5a7d07328776010e83ad32e0851fc6be4650517ba8",
+    "bytes": 56901284
+  },
+  {
+    "path": "originals/prior_qa/FINAL_RUN_MATRIX.csv",
+    "sha256": "cab32922936a11864203b11876f441bd9ad078709e96c848cb441e90113d8d82",
+    "bytes": 1068
+  },
+  {
+    "path": "originals/prior_qa/MEAUX_PRIOR_MESH_QA.json",
+    "sha256": "414d6dfc3d73f569cee1e1ffa7b5debc51d3d67c10ea0e7ba6bf8832eeb60f31",
+    "bytes": 665
+  },
+  {
+    "path": "originals/prior_qa/RECORDED_FINAL_RUNS.json",
+    "sha256": "b7339d2b7f9bcddc6863e4ea2b8784e86c38fa9694ae89516c2feaa8f7ce534f",
+    "bytes": 2058
+  },
+  {
+    "path": "originals/prior_qa/SYNTHETIC_PRIOR_MESH_QA.json",
+    "sha256": "ae516756af60ae77cf385cd3db70ebc9a76af80e9b00875159a99b15a3f77860",
+    "bytes": 694
+  },
+  {
+    "path": "originals/prior_qa/THREE_VERIFIED_REGION_MAPS.png",
+    "sha256": "bacf90fd04937469b0820ffbb1318adac3faefc44c2f1032801b69071119ecf1",
+    "bytes": 541156
+  },
+  {
+    "path": "originals/prior_qa/chalons_region_verification.log",
+    "sha256": "5fa02c4092c13e2b463268cda519e4ac6423e14733e3dcf9066822eeba9775dd",
+    "bytes": 169
+  },
+  {
+    "path": "originals/prior_qa/haina_1264_region_verification.log",
+    "sha256": "ab48626f0efdaba1d4c0447950d87c6cd0d092905d48c14aa11bb59cad02256d",
+    "bytes": 175
+  },
+  {
+    "path": "originals/prior_qa/haina_1265_region_verification.log",
+    "sha256": "2b0dbc8b71fa66adeada1dcd93e3c30e9c149f352c4f7afae496660e94726745",
+    "bytes": 175
+  },
+  {
+    "path": "originals/prior_qa/meaux_region_verification.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "originals/prior_qa/mesh_quality.py",
+    "sha256": "4c2b3ec3e7ea647341476ba97f8c2a028f6cac54c7ad8cb018571f731650716c",
+    "bytes": 1151
+  },
+  {
+    "path": "originals/reproduce_final_four_R02.sh",
+    "sha256": "f3e217dfc71219a9e546f4d31dc4f8cb6e06db254adb02b3f8b8e0029a15a54c",
+    "bytes": 1503
+  },
+  {
+    "path": "originals/tracery_kit.zip",
+    "sha256": "76ec8b247a028b93c05d6028772cc5f6b3546015803b0ec5c3d1881d92608d37",
+    "bytes": 972478
+  },
+  {
+    "path": "originals/Master_Plan_R01_original.zip",
+    "sha256": "a241c2eb74d0cc47f7d1cbb86eb32e651965aa4e1fb619be200dc41c5de45087",
+    "bytes": 6665
+  }
+]
