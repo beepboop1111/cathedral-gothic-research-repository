@@ -1,0 +1,545 @@
+{
+  "id": "F5ZP-X02-R01",
+  "status": "VALIDATED_PARTIAL_EXPERIMENTAL_REVIEW",
+  "validation_levels": {
+    "technical": "checks below",
+    "geometric": "2D retained footprint and reservation screening only",
+    "architectural": "UNRESOLVED",
+    "historical": "not claimed",
+    "structural": "NOT ASSESSED"
+  },
+  "checks": [
+    {
+      "id": "INPUT_PREFIX_READONLY",
+      "result": "PASS",
+      "scope": "technical",
+      "detail": "AST checked for file writing / deletion / export calls before evaluating retained X01 parameter geometry."
+    },
+    {
+      "id": "VALID_wall",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_cloister_outer",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_cloister_garden",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_east_wing",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_chapter_hall",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_refectory",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_new_garden",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_chapel_reference",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_n4_link",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_night_route",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-34433-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-32597-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-30797-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-28997-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-27197-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-25397-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-23597-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-21797-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-19997-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-18197-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-16397-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_ROOT-NV-R3-14597-N",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_CEREMONY_R1",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_NIGHT_R2",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_CHAPTER_R3",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_CEREMONY_1p2m_SWEEP",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_NIGHT_1p2m_SWEEP",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "VALID_NIGHT_STAIR_RESERVATION",
+      "result": "PASS",
+      "scope": "geometry",
+      "detail": "Valid nonempty geometry; no repair applied."
+    },
+    {
+      "id": "REGRESSION_N4_CENTER",
+      "result": "PASS",
+      "scope": "X01 regression",
+      "detail": "-34.22770000 vs recorded -34.22770000; tolerance 0.000051 in stated units."
+    },
+    {
+      "id": "REGRESSION_N6_CENTER",
+      "result": "PASS",
+      "scope": "X01 regression",
+      "detail": "-24.86770000 vs recorded -24.86770000; tolerance 0.000051 in stated units."
+    },
+    {
+      "id": "REGRESSION_N4_ROOT_GAP",
+      "result": "PASS",
+      "scope": "X01 regression",
+      "detail": "0.19560000 vs recorded 0.19560000; tolerance 0.000051 in stated units."
+    },
+    {
+      "id": "REGRESSION_GARDEN_AREA",
+      "result": "PASS",
+      "scope": "X01 regression",
+      "detail": "47.57535000 vs recorded 47.57530000; tolerance 0.000051 in stated units."
+    },
+    {
+      "id": "REGRESSION_N5_CHAPEL_TEST",
+      "result": "PASS",
+      "scope": "X01 regression",
+      "detail": "2.03532000 vs recorded 2.03530000; tolerance 0.000051 in stated units."
+    },
+    {
+      "id": "ceremony_sweep_root_overlap_m2",
+      "result": "PASS",
+      "scope": "2D reservation screening",
+      "detail": "0.0000000000 m2; interior partitions, door cuts and 3D clearance unverified."
+    },
+    {
+      "id": "ceremony_sweep_garden_overlap_m2",
+      "result": "PASS",
+      "scope": "2D reservation screening",
+      "detail": "0.0000000000 m2; interior partitions, door cuts and 3D clearance unverified."
+    },
+    {
+      "id": "ceremony_outside_known_route_domain_m2",
+      "result": "PASS",
+      "scope": "2D reservation screening",
+      "detail": "0.0000000000 m2; interior partitions, door cuts and 3D clearance unverified."
+    },
+    {
+      "id": "night_outside_known_route_domain_m2",
+      "result": "PASS",
+      "scope": "2D reservation screening",
+      "detail": "0.0000000000 m2; interior partitions, door cuts and 3D clearance unverified."
+    },
+    {
+      "id": "night_sweep_root_overlap_m2",
+      "result": "PASS",
+      "scope": "2D reservation screening",
+      "detail": "0.0000000000 m2; interior partitions, door cuts and 3D clearance unverified."
+    },
+    {
+      "id": "ceremony_night_sweep_overlap_m2",
+      "result": "PASS",
+      "scope": "2D reservation screening",
+      "detail": "0.0000000000 m2; interior partitions, door cuts and 3D clearance unverified."
+    },
+    {
+      "id": "stair_reservation_outside_east_wing_m2",
+      "result": "PASS",
+      "scope": "2D reservation screening",
+      "detail": "0.0000000000 m2; interior partitions, door cuts and 3D clearance unverified."
+    },
+    {
+      "id": "MASSING_cloister_outer__east_wing",
+      "result": "PASS",
+      "scope": "retained X01 massing",
+      "detail": "Pairwise footprint area overlap; garden is deliberately excluded from this test."
+    },
+    {
+      "id": "MASSING_cloister_outer__chapter_hall",
+      "result": "PASS",
+      "scope": "retained X01 massing",
+      "detail": "Pairwise footprint area overlap; garden is deliberately excluded from this test."
+    },
+    {
+      "id": "MASSING_cloister_outer__refectory",
+      "result": "PASS",
+      "scope": "retained X01 massing",
+      "detail": "Pairwise footprint area overlap; garden is deliberately excluded from this test."
+    },
+    {
+      "id": "MASSING_east_wing__chapter_hall",
+      "result": "PASS",
+      "scope": "retained X01 massing",
+      "detail": "Pairwise footprint area overlap; garden is deliberately excluded from this test."
+    },
+    {
+      "id": "MASSING_east_wing__refectory",
+      "result": "PASS",
+      "scope": "retained X01 massing",
+      "detail": "Pairwise footprint area overlap; garden is deliberately excluded from this test."
+    },
+    {
+      "id": "MASSING_chapter_hall__refectory",
+      "result": "PASS",
+      "scope": "retained X01 massing",
+      "detail": "Pairwise footprint area overlap; garden is deliberately excluded from this test."
+    },
+    {
+      "id": "ROUNDTRIP_wall",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_cloister_outer",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_cloister_garden",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_east_wing",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_chapter_hall",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_refectory",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_new_garden",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_chapel_reference",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_n4_link",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_night_route",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-34433-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-32597-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-30797-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-28997-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-27197-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-25397-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-23597-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-21797-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-19997-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-18197-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-16397-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_ROOT-NV-R3-14597-N",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_CEREMONY_R1",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_NIGHT_R2",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_CHAPTER_R3",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_CEREMONY_1p2m_SWEEP",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_NIGHT_1p2m_SWEEP",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ROUNDTRIP_NIGHT_STAIR_RESERVATION",
+      "result": "PASS",
+      "scope": "serialization",
+      "detail": "GeoJSON round-trip tolerance 1e-10 m."
+    },
+    {
+      "id": "ALL_RETAINED_SOURCE_BYTES_UNCHANGED",
+      "result": "PASS",
+      "scope": "preservation",
+      "detail": "15 source files SHA-256 compared before/after."
+    },
+    {
+      "id": "SVG_PHYSICAL_1_TO_1",
+      "result": "PASS",
+      "scope": "scale",
+      "detail": "57 x 60 metre coordinate viewBox has 57000 x 60000 mm physical SVG size."
+    }
+  ],
+  "pass_count": 77,
+  "fail_count": 0,
+  "metrics": {
+    "N4_portal_X_m": -34.2277,
+    "N6_reservation_X_m": -24.867700000000003,
+    "N4_wall_face_Z_m": 12.0625,
+    "N4_root_gap_m": 0.19559999999999889,
+    "garden_area_m2": 47.57534999999999,
+    "garden_root_gap_m": 0.23750000000000074,
+    "N5_conditional_chapel_overlap_m2": 2.035320000000016,
+    "ceremony_sweep_root_overlap_m2": 0.0,
+    "ceremony_sweep_garden_overlap_m2": 0.0,
+    "ceremony_outside_known_route_domain_m2": 0.0,
+    "night_outside_known_route_domain_m2": 0.0,
+    "night_sweep_root_overlap_m2": 0.0,
+    "ceremony_night_sweep_overlap_m2": 0.0,
+    "stair_reservation_outside_east_wing_m2": 0.0,
+    "ceremony_centerline_length_m": 41.1652,
+    "night_centerline_length_m": 13.037500000000001,
+    "conditional_N4_root_screen_width_ceiling_m": 1.5912071554175284,
+    "retained_X01_root_count": 12,
+    "south_cloister_area_m2": 452.47999999999996,
+    "north_cloister_area_m2": 572,
+    "cloister_area_increase_percent": 26.41442715700142,
+    "south_garden_area_m2": 203.28,
+    "north_garden_area_m2": 285,
+    "north_known_massing_union_m2": 1199.5
+  },
+  "scope_limits": [
+    "CH-N5 exterior unavailable",
+    "protected south site geometry unavailable",
+    "12 transformed roots only",
+    "no actual portal cut",
+    "whole precinct and library source unavailable",
+    "no structural approval"
+  ],
+  "source_SHA256_before": {
+    "sources/CATHEDRAL_MASTER_REFERENCE_R01.md": "fcc02f6010cde5fe015580acd25f0914580ef261ddbe361d2ac4f1e06e06cc5a",
+    "sources/MR_SOURCE_EVIDENCE.json": "04ef19fc3b3409662db058ef22bd6fcf215193690c866751c680495c7fff0c3f",
+    "sources/x01/X01_NORTH_MASTER_PLAN.svg": "c4318d6d24d9ba25d90bc44e42396f2fcd64f62e2fd039301ba333c90dd1d0d8",
+    "sources/x01/build_roof_section.py": "83df4e4d21b5e4d11c3331a311d8a63d79f5432e7c9b1ab81520e121cfe524e6",
+    "sources/x01/build_gate_study.py": "1c39da0b7d3e1a1fabefbb669ff5f30b2e6a91efc42cdd49059435dac7f976cb",
+    "sources/x01/X01_QA.json": "8a653e6691222df3be7ad9f6f34b761f9b59bfcd5b21360b690c78092af8379b",
+    "sources/x01/X01_GALLERY_ROOF_SECTION.png": "55df6fe26e78850d1b9e7aa3dfa1ca74e11b085eed25eb5911ab765a649ff989",
+    "sources/x01/X01_ARCHITECTURAL_REPORT.md": "5f27bf7599c0d6ebb465c7c12faac5ef55433f0d4abbd75019d276a1825c1454",
+    "sources/x01/X01_GALLERY_ROOF_SECTION.svg": "f0a193740808d3687efdc80fe69111d931d47744d26fcb70f7863e28db8b093f",
+    "sources/x01/README.md": "f2a4b25addd6081f0e3400985b286dfa212b20675c0c32e23d8cae6bcbc64d05",
+    "sources/x01/X01_NORTH_MASTER_PLAN.png": "7cd1c9f17ae33788721d9a102d9de2a39670b6bf13fe3ccc7538dc9ed2d55c87",
+    "sources/x01/X01_N4_N5_GATE_DETAIL.svg": "129fd30373e95972fcd054f5a2c91aee12bb38c77c02f88969b2ef0f553451c6",
+    "sources/x01/X01_ROOF_SCREEN_QA.json": "5138ea8103492be43819b14344e2a2a037aa499ad1b68ad11f8d5743608e7fae",
+    "sources/x01/SHA256_MANIFEST.txt": "4ee37adc0d8c0e49d5050f00aaf9b6a11c3355cbd53c1d28f4756b079c33cafe",
+    "sources/x01/X01_N4_N5_GATE_DETAIL.png": "c4b7217bc8b2715bac6d9371281a852abd5590b0c6e7eb69625b467e50af4fca"
+  },
+  "source_SHA256_after": {
+    "sources/CATHEDRAL_MASTER_REFERENCE_R01.md": "fcc02f6010cde5fe015580acd25f0914580ef261ddbe361d2ac4f1e06e06cc5a",
+    "sources/MR_SOURCE_EVIDENCE.json": "04ef19fc3b3409662db058ef22bd6fcf215193690c866751c680495c7fff0c3f",
+    "sources/x01/X01_NORTH_MASTER_PLAN.svg": "c4318d6d24d9ba25d90bc44e42396f2fcd64f62e2fd039301ba333c90dd1d0d8",
+    "sources/x01/build_roof_section.py": "83df4e4d21b5e4d11c3331a311d8a63d79f5432e7c9b1ab81520e121cfe524e6",
+    "sources/x01/build_gate_study.py": "1c39da0b7d3e1a1fabefbb669ff5f30b2e6a91efc42cdd49059435dac7f976cb",
+    "sources/x01/X01_QA.json": "8a653e6691222df3be7ad9f6f34b761f9b59bfcd5b21360b690c78092af8379b",
+    "sources/x01/X01_GALLERY_ROOF_SECTION.png": "55df6fe26e78850d1b9e7aa3dfa1ca74e11b085eed25eb5911ab765a649ff989",
+    "sources/x01/X01_ARCHITECTURAL_REPORT.md": "5f27bf7599c0d6ebb465c7c12faac5ef55433f0d4abbd75019d276a1825c1454",
+    "sources/x01/X01_GALLERY_ROOF_SECTION.svg": "f0a193740808d3687efdc80fe69111d931d47744d26fcb70f7863e28db8b093f",
+    "sources/x01/README.md": "f2a4b25addd6081f0e3400985b286dfa212b20675c0c32e23d8cae6bcbc64d05",
+    "sources/x01/X01_NORTH_MASTER_PLAN.png": "7cd1c9f17ae33788721d9a102d9de2a39670b6bf13fe3ccc7538dc9ed2d55c87",
+    "sources/x01/X01_N4_N5_GATE_DETAIL.svg": "129fd30373e95972fcd054f5a2c91aee12bb38c77c02f88969b2ef0f553451c6",
+    "sources/x01/X01_ROOF_SCREEN_QA.json": "5138ea8103492be43819b14344e2a2a037aa499ad1b68ad11f8d5743608e7fae",
+    "sources/x01/SHA256_MANIFEST.txt": "4ee37adc0d8c0e49d5050f00aaf9b6a11c3355cbd53c1d28f4756b079c33cafe",
+    "sources/x01/X01_N4_N5_GATE_DETAIL.png": "c4b7217bc8b2715bac6d9371281a852abd5590b0c6e7eb69625b467e50af4fca"
+  }
+}
