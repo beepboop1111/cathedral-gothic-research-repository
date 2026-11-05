@@ -1,0 +1,872 @@
+{
+  "status": "EXPERIMENTAL_R03_NOT_APPROVED",
+  "source_sha256": "066027d5fa0e673b5c267718e906d105c86272b6358fcc8bf2a33a5d3fa92a19",
+  "parent_R02_QA_sha256": "eac9818dfe357f5eb44bf3c10c7ec44ddd8b21b00beb984490a0d14951b7de3f",
+  "frame": "X east Y north Z elevation, native 1:1; physical metres unresolved",
+  "source_interface_exact": [
+    [
+      25382.51006987816,
+      1098.8132859718587,
+      1800.0
+    ],
+    [
+      25382.510069878164,
+      -1098.813285971858,
+      1800.0
+    ]
+  ],
+  "parameters": {
+    "spring": 1800.0,
+    "entrance_clear_width": 2200,
+    "threshold_depth": 600,
+    "entrance_soffit_crown": 3750,
+    "entrance_back_crown": 3923.3282193934897,
+    "ambulatory_boss": [
+      26700,
+      0,
+      3620
+    ],
+    "bay1": [
+      28600,
+      31000,
+      4150
+    ],
+    "bay2": [
+      31000,
+      33400,
+      4400
+    ],
+    "apse_boss": [
+      33850.0,
+      0.0,
+      4550.0
+    ],
+    "web_vertical_thickness": 45.0,
+    "roof_eaves": 4100,
+    "roof_ridge_sequence": [
+      4500,
+      4600,
+      4900,
+      5150,
+      5350
+    ]
+  },
+  "measured": {
+    "web_boundary_error_max": 4.547473508864641e-13,
+    "shaft_sweep_section_error_max": 2.2737367544323206e-13,
+    "roof_clearance_min_native": 221.7526909275698,
+    "roof_samples": 4700,
+    "web_count": 20,
+    "web_patch_details": [
+      {
+        "name": "AMB_WEB_0",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          26694.17002329272,
+          -782.937761990619
+        ]
+      },
+      {
+        "name": "AMB_WEB_2",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          26694.17002329273,
+          782.9377619906194
+        ]
+      },
+      {
+        "name": "AMB_WEB_3",
+        "boundary_max_error_native": 2.2737367544323206e-13,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          25821.67337991877,
+          1.2523042432104166e-13
+        ]
+      },
+      {
+        "name": "AMB_WEB_FRONT_S",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          27566.66666666667,
+          -416.66666666666663
+        ]
+      },
+      {
+        "name": "AMB_WEB_FRONT_N",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          27566.66666666667,
+          416.66666666666646
+        ]
+      },
+      {
+        "name": "BAY1_WEB_0",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          29800.0,
+          -833.3333333333333
+        ]
+      },
+      {
+        "name": "BAY1_WEB_1",
+        "boundary_max_error_native": 4.547473508864641e-13,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          30600.0,
+          -2.4486395816963454e-14
+        ]
+      },
+      {
+        "name": "BAY1_WEB_2",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          29800.0,
+          833.3333333333333
+        ]
+      },
+      {
+        "name": "BAY1_WEB_3",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          29000.0,
+          2.4486395816963454e-14
+        ]
+      },
+      {
+        "name": "BAY2_WEB_0",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          32200.0,
+          -833.3333333333333
+        ]
+      },
+      {
+        "name": "BAY2_WEB_1",
+        "boundary_max_error_native": 4.547473508864641e-13,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          33000.0,
+          -2.4486395816963454e-14
+        ]
+      },
+      {
+        "name": "BAY2_WEB_2",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          32200.0,
+          833.3333333333333
+        ]
+      },
+      {
+        "name": "BAY2_WEB_3",
+        "boundary_max_error_native": 4.547473508864641e-13,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          31400.0,
+          2.4486395816963454e-14
+        ]
+      },
+      {
+        "name": "APSE_WEB_0",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          33794.91052178854,
+          -753.7570809895614
+        ]
+      },
+      {
+        "name": "APSE_WEB_1",
+        "boundary_max_error_native": 5.684341886080802e-14,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          34191.18407024483,
+          -465.8474953124562
+        ]
+      },
+      {
+        "name": "APSE_WEB_2",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          34342.54709691261,
+          -4.89727916339269e-15
+        ]
+      },
+      {
+        "name": "APSE_WEB_3",
+        "boundary_max_error_native": 1.1368683772161603e-13,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          34191.18407024485,
+          465.8474953124562
+        ]
+      },
+      {
+        "name": "APSE_WEB_4",
+        "boundary_max_error_native": 0.0,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          33794.910521788595,
+          753.7570809895617
+        ]
+      },
+      {
+        "name": "APSE_WEB_5",
+        "boundary_max_error_native": 4.547473508864641e-13,
+        "vertices_intrados": 325,
+        "faces_intrados": 576,
+        "centroid_xy": [
+          33550.0,
+          2.4486395816963454e-14
+        ]
+      }
+    ],
+    "arc_details": [
+      {
+        "name": "ENTRANCE_ORDER_1",
+        "circle_center_signed_offsets": [
+          -1178.409090909091,
+          1178.409090909091
+        ],
+        "radius_back": 2428.409090909091,
+        "max_section_depth": 150.0,
+        "span_back": 2500.0,
+        "back_crown": 3923.3282193934897,
+        "soffit_crown": 3750.0,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "ENTRANCE_ORDER_2",
+        "circle_center_signed_offsets": [
+          -1178.409090909091,
+          1178.409090909091
+        ],
+        "radius_back": 2428.409090909091,
+        "max_section_depth": 150.0,
+        "span_back": 2500.0,
+        "back_crown": 3923.3282193934897,
+        "soffit_crown": 3750.0,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "ENTRANCE_ORDER_3",
+        "circle_center_signed_offsets": [
+          -1178.409090909091,
+          1178.409090909091
+        ],
+        "radius_back": 2428.409090909091,
+        "max_section_depth": 150.0,
+        "span_back": 2500.0,
+        "back_crown": 3923.3282193934897,
+        "soffit_crown": 3750.0,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "ENTRANCE_ORDER_4",
+        "circle_center_signed_offsets": [
+          -1178.409090909091,
+          1178.409090909091
+        ],
+        "radius_back": 2428.409090909091,
+        "max_section_depth": 150.0,
+        "span_back": 2500.0,
+        "back_crown": 3923.3282193934897,
+        "soffit_crown": 3750.0,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "ENTRANCE_BACKING_28100.0",
+        "circle_center_signed_offsets": [
+          -1178.409090909091,
+          1178.409090909091
+        ],
+        "radius_back": 2428.409090909091,
+        "max_section_depth": -12.0,
+        "span_back": 2500.0,
+        "back_crown": 3923.3282193934897,
+        "soffit_crown": 3937.042008350455,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "ENTRANCE_BACKING_28300.0",
+        "circle_center_signed_offsets": [
+          -1178.409090909091,
+          1178.409090909091
+        ],
+        "radius_back": 2428.409090909091,
+        "max_section_depth": -12.0,
+        "span_back": 2500.0,
+        "back_crown": 3923.3282193934897,
+        "soffit_crown": 3937.042008350455,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "ENTRANCE_BACKING_28500.0",
+        "circle_center_signed_offsets": [
+          -1178.409090909091,
+          1178.409090909091
+        ],
+        "radius_back": 2428.409090909091,
+        "max_section_depth": -12.0,
+        "span_back": 2500.0,
+        "back_crown": 3923.3282193934897,
+        "soffit_crown": 3937.042008350455,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "CHAPEL_TRANSVERSE_31000",
+        "circle_center_signed_offsets": [
+          -1537.25,
+          1537.25
+        ],
+        "radius_back": 2787.25,
+        "max_section_depth": 150.0,
+        "span_back": 2500.0,
+        "back_crown": 4125.0,
+        "soffit_crown": 3942.8835712655973,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "CHAPEL_TRANSVERSE_33400",
+        "circle_center_signed_offsets": [
+          -2027.25,
+          2027.25
+        ],
+        "radius_back": 3277.25,
+        "max_section_depth": 150.0,
+        "span_back": 2500.0,
+        "back_crown": 4375.0,
+        "soffit_crown": 4181.165680921846,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "AMB_BOUNDARY_0",
+        "circle_center_signed_offsets": [
+          -320.9456805020878,
+          320.9456805020878
+        ],
+        "radius_back": 1631.8719710298808,
+        "max_section_depth": 95.03999999999999,
+        "span_back": 2621.852581055586,
+        "back_crown": 3400.0,
+        "soffit_crown": 3302.945899673917,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "AMB_BOUNDARY_2",
+        "circle_center_signed_offsets": [
+          -320.94568050208545,
+          320.94568050208545
+        ],
+        "radius_back": 1631.8719710298803,
+        "max_section_depth": 95.03999999999999,
+        "span_back": 2621.85258105559,
+        "back_crown": 3400.0,
+        "soffit_crown": 3302.945899673917,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "AMB_BOUNDARY_3",
+        "circle_center_signed_offsets": [
+          -765.6484427577352,
+          765.6484427577352
+        ],
+        "radius_back": 1864.4617287295937,
+        "max_section_depth": 95.03999999999999,
+        "span_back": 2197.626571943717,
+        "back_crown": 3500.0,
+        "soffit_crown": 3395.191435597332,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "BAY1_FORMERET_0",
+        "circle_center_signed_offsets": [
+          -507.0416666666667,
+          507.0416666666667
+        ],
+        "radius_back": 1707.0416666666667,
+        "max_section_depth": 95.03999999999999,
+        "span_back": 2400.0,
+        "back_crown": 3430.0,
+        "soffit_crown": 3330.1823818094367,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "BAY1_FORMERET_2",
+        "circle_center_signed_offsets": [
+          -507.0416666666667,
+          507.0416666666667
+        ],
+        "radius_back": 1707.0416666666667,
+        "max_section_depth": 95.03999999999999,
+        "span_back": 2400.0,
+        "back_crown": 3430.0,
+        "soffit_crown": 3330.1823818094367,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "BAY2_FORMERET_0",
+        "circle_center_signed_offsets": [
+          -618.375,
+          618.375
+        ],
+        "radius_back": 1818.375,
+        "max_section_depth": 95.03999999999999,
+        "span_back": 2400.0,
+        "back_crown": 3510.0,
+        "soffit_crown": 3408.569514071431,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "BAY2_FORMERET_2",
+        "circle_center_signed_offsets": [
+          -618.375,
+          618.375
+        ],
+        "radius_back": 1818.375,
+        "max_section_depth": 95.03999999999999,
+        "span_back": 2400.0,
+        "back_crown": 3510.0,
+        "soffit_crown": 3408.569514071431,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "APSE_FORMERET_0",
+        "circle_center_signed_offsets": [
+          -3120.5979874754503,
+          3120.5979874754503
+        ],
+        "radius_back": 3506.869230444134,
+        "max_section_depth": 85.8,
+        "span_back": 772.5424859373668,
+        "back_crown": 3400.0,
+        "soffit_crown": 3201.9924679026585,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "APSE_FORMERET_1",
+        "circle_center_signed_offsets": [
+          -3120.597987475438,
+          3120.597987475438
+        ],
+        "radius_back": 3506.869230444123,
+        "max_section_depth": 85.8,
+        "span_back": 772.5424859373695,
+        "back_crown": 3400.0,
+        "soffit_crown": 3201.992467902659,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "APSE_FORMERET_2",
+        "circle_center_signed_offsets": [
+          -3120.597987475443,
+          3120.597987475443
+        ],
+        "radius_back": 3506.8692304441274,
+        "max_section_depth": 85.8,
+        "span_back": 772.5424859373685,
+        "back_crown": 3400.0,
+        "soffit_crown": 3201.9924679026585,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "APSE_FORMERET_3",
+        "circle_center_signed_offsets": [
+          -3120.597987475438,
+          3120.597987475438
+        ],
+        "radius_back": 3506.869230444123,
+        "max_section_depth": 85.8,
+        "span_back": 772.5424859373695,
+        "back_crown": 3400.0,
+        "soffit_crown": 3201.992467902659,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      },
+      {
+        "name": "APSE_FORMERET_4",
+        "circle_center_signed_offsets": [
+          -3120.5979874754503,
+          3120.5979874754503
+        ],
+        "radius_back": 3506.869230444134,
+        "max_section_depth": 85.8,
+        "span_back": 772.5424859373668,
+        "back_crown": 3400.0,
+        "soffit_crown": 3201.9924679026585,
+        "spring_tangent": "vertical",
+        "crown_joint": "mitred concentric arcs"
+      }
+    ],
+    "rib_branches": [
+      {
+        "run": 1715.5670646759083,
+        "rise": 1820.0,
+        "radius": 1823.1786102114484,
+        "monotone": true,
+        "A": [
+          25382.510069878164,
+          -1098.813285971858,
+          1800.0
+        ],
+        "B": [
+          26700.0,
+          0.0,
+          3620.0
+        ]
+      },
+      {
+        "run": 1803.4688796871433,
+        "rise": 1820.0,
+        "radius": 1820.0757645285362,
+        "monotone": true,
+        "A": [
+          28000.0,
+          -1250.0,
+          1800.0
+        ],
+        "B": [
+          26700.0,
+          0.0,
+          3620.0
+        ]
+      },
+      {
+        "run": 1803.4688796871433,
+        "rise": 1820.0,
+        "radius": 1820.0757645285362,
+        "monotone": true,
+        "A": [
+          28000.0,
+          1250.0,
+          1800.0
+        ],
+        "B": [
+          26700.0,
+          0.0,
+          3620.0
+        ]
+      },
+      {
+        "run": 1715.5670646759113,
+        "rise": 1820.0,
+        "radius": 1823.178610211448,
+        "monotone": true,
+        "A": [
+          25382.51006987816,
+          1098.8132859718587,
+          1800.0
+        ],
+        "B": [
+          26700.0,
+          0.0,
+          3620.0
+        ]
+      },
+      {
+        "run": 1732.7723451163456,
+        "rise": 2350.0,
+        "radius": 2459.9307647155447,
+        "monotone": true,
+        "A": [
+          28600.0,
+          -1250.0,
+          1800.0
+        ],
+        "B": [
+          29800.0,
+          0.0,
+          4150.0
+        ]
+      },
+      {
+        "run": 1732.7723451163456,
+        "rise": 2350.0,
+        "radius": 2459.9307647155447,
+        "monotone": true,
+        "A": [
+          31000.0,
+          -1250.0,
+          1800.0
+        ],
+        "B": [
+          29800.0,
+          0.0,
+          4150.0
+        ]
+      },
+      {
+        "run": 1732.7723451163456,
+        "rise": 2350.0,
+        "radius": 2459.9307647155447,
+        "monotone": true,
+        "A": [
+          31000.0,
+          1250.0,
+          1800.0
+        ],
+        "B": [
+          29800.0,
+          0.0,
+          4150.0
+        ]
+      },
+      {
+        "run": 1732.7723451163456,
+        "rise": 2350.0,
+        "radius": 2459.9307647155447,
+        "monotone": true,
+        "A": [
+          28600.0,
+          1250.0,
+          1800.0
+        ],
+        "B": [
+          29800.0,
+          0.0,
+          4150.0
+        ]
+      },
+      {
+        "run": 1732.7723451163456,
+        "rise": 2600.0,
+        "radius": 2817.017488625866,
+        "monotone": true,
+        "A": [
+          31000.0,
+          -1250.0,
+          1800.0
+        ],
+        "B": [
+          32200.0,
+          0.0,
+          4400.0
+        ]
+      },
+      {
+        "run": 1732.7723451163456,
+        "rise": 2600.0,
+        "radius": 2817.017488625866,
+        "monotone": true,
+        "A": [
+          33400.0,
+          -1250.0,
+          1800.0
+        ],
+        "B": [
+          32200.0,
+          0.0,
+          4400.0
+        ]
+      },
+      {
+        "run": 1732.7723451163456,
+        "rise": 2600.0,
+        "radius": 2817.017488625866,
+        "monotone": true,
+        "A": [
+          33400.0,
+          1250.0,
+          1800.0
+        ],
+        "B": [
+          32200.0,
+          0.0,
+          4400.0
+        ]
+      },
+      {
+        "run": 1732.7723451163456,
+        "rise": 2600.0,
+        "radius": 2817.017488625866,
+        "monotone": true,
+        "A": [
+          31000.0,
+          1250.0,
+          1800.0
+        ],
+        "B": [
+          32200.0,
+          0.0,
+          4400.0
+        ]
+      },
+      {
+        "run": 1328.5330255586423,
+        "rise": 2750.0,
+        "radius": 3510.45093368222,
+        "monotone": true,
+        "A": [
+          33400.0,
+          -1250.0,
+          1800.0
+        ],
+        "B": [
+          33850.0,
+          0.0,
+          4550.0
+        ]
+      },
+      {
+        "run": 1050.5910675286398,
+        "rise": 2750.0,
+        "radius": 4124.459963074414,
+        "monotone": true,
+        "A": [
+          34134.73156536559,
+          -1011.2712429686843,
+          1800.0
+        ],
+        "B": [
+          33850.0,
+          0.0,
+          4550.0
+        ]
+      },
+      {
+        "run": 833.7034359818556,
+        "rise": 2750.0,
+        "radius": 4952.3374036734,
+        "monotone": true,
+        "A": [
+          34588.82064536894,
+          -386.27124296868425,
+          1800.0
+        ],
+        "B": [
+          33850.0,
+          0.0,
+          4550.0
+        ]
+      },
+      {
+        "run": 833.7034359818556,
+        "rise": 2750.0,
+        "radius": 4952.3374036734,
+        "monotone": true,
+        "A": [
+          34588.82064536894,
+          386.27124296868425,
+          1800.0
+        ],
+        "B": [
+          33850.0,
+          0.0,
+          4550.0
+        ]
+      },
+      {
+        "run": 1050.5910675286398,
+        "rise": 2750.0,
+        "radius": 4124.459963074414,
+        "monotone": true,
+        "A": [
+          34134.73156536559,
+          1011.2712429686843,
+          1800.0
+        ],
+        "B": [
+          33850.0,
+          0.0,
+          4550.0
+        ]
+      },
+      {
+        "run": 1328.5330255586423,
+        "rise": 2750.0,
+        "radius": 3510.45093368222,
+        "monotone": true,
+        "A": [
+          33400.0,
+          1250.0,
+          1800.0
+        ],
+        "B": [
+          33850.0,
+          0.0,
+          4550.0
+        ]
+      }
+    ],
+    "source_mesh_count": 253,
+    "reimport_mesh_count": 253,
+    "reimport_world_bounds_error": 0.0,
+    "roof_off_mesh_count": 240
+  },
+  "checks": {
+    "all_web_boundaries_match_defined_arch_and_rib_curves": true,
+    "matching_shaft_and_arch_sections": true,
+    "all_rib_circular_branches_monotone": true,
+    "roof_above_web_extrados": true,
+    "two_chapel_bays": true,
+    "five_sided_apse": true,
+    "five_ambulatory_webs_four_ground_bearings": true,
+    "entrance_soffit_R02_retained": true,
+    "entry_depth_R02_retained": true,
+    "old_outer_ring_not_imported": true,
+    "GLB_geometry_count_retained": true,
+    "GLB_world_bounds_within_0_01_native": true,
+    "finite_mesh_coordinates": true,
+    "nondegenerate_mesh_faces": true,
+    "roof_off_export_has_no_roof_objects": true,
+    "designed_profile_polygons_valid": true,
+    "two_bays_have_eight_web_panels": true,
+    "input_plan_hash_unchanged": true
+  },
+  "limitations": [
+    "new profiles are designed experimental sections, not historical tracings or approved U/D profiles",
+    "middle interface XY only; actual saved vault elevations not reconciled",
+    "five-web crown/arch load transfer not structurally certified",
+    "web surfaces are boundary-interpolated trials, not historical V13 webs",
+    "missing F5ZL-C support schedule",
+    "companion chapels and main-cathedral roof/window clearance outside this axial-only model",
+    "core/shaft meshes intentionally overlap; not a boolean-unioned fabrication mesh"
+  ]
+}
