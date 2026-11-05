@@ -1,0 +1,30 @@
+{
+  "PDF_sheets": [
+    {
+      "sheet": 1,
+      "A3_landscape": true,
+      "outside_text_blocks": 0
+    },
+    {
+      "sheet": 2,
+      "A3_landscape": true,
+      "outside_text_blocks": 0
+    },
+    {
+      "sheet": 3,
+      "A3_landscape": true,
+      "outside_text_blocks": 0
+    }
+  ],
+  "GLB_nodes": 209,
+  "architecture_meshes": 151,
+  "display_only_plan_guides": 58,
+  "GLB_positions_finite": true,
+  "SVG_XML_valid": true,
+  "visual_review": "All 3 final PDF sheets and both native renders inspected.",
+  "hashes": {
+    "F5ZP_X02_R06_OVERALL_CONTEXT_REVIEW.pdf": "b03c374356ce15af6a693ec71987f58ed03eeed0d16ba93752b502291bd4efb4",
+    "F5ZP_X02_R06_CONTEXT_DIAGRAM.glb": "198ebd29d14cc2acd198377b00f72dd4b73970fa1a228c3860bd1af0c10c58c0",
+    "F5ZP_X02_R06_CONTEXT_REVIEW.blend": "e249ac3eb70f3eb6350ab5338b2aeb686466fc794ab8a9974c7b5eaf33cc1efc"
+  }
+}
