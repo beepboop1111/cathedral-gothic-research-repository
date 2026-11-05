@@ -1,0 +1,37 @@
+{
+  "id": "C01",
+  "status": "PROVISIONAL CONNECTION PROPOSAL; NOT AN APPROVED OPENING",
+  "preferred_threshold_native": [
+    0,
+    10901
+  ],
+  "intended_internal_arrival_native": [
+    0,
+    9700
+  ],
+  "external_route": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -24423.076923076922,
+        13762.769230769229
+      ],
+      [
+        0.0,
+        13762.769230769229
+      ],
+      [
+        0.0,
+        10901.0
+      ]
+    ]
+  },
+  "route_length_native_units": 27284.84615384615,
+  "portal_clear_width_source_units": 1200,
+  "framed_portal_outer_width_source_units": 1968,
+  "typical_nave_root_gap_source_units": 1320,
+  "source_G40": "/home/christopher/Desktop/Cathedral_F5ZP_G40_Working.blend",
+  "cathedral_geometry_changed": false,
+  "registration": "Precinct-only inverse X01 transform; cathedral source geometry unscaled. Shared coordinate registration remains provisional.",
+  "hold": "Portal is an unapproved uncut G40 study; verify backing opening and internal route before adopting. Gate hall remains unfixed. F5ZL-C unresolved."
+}
