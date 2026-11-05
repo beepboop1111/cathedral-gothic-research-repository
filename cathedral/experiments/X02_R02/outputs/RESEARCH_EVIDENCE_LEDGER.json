@@ -1,0 +1,70 @@
+[
+  {
+    "id": "P01",
+    "type": "project research reviewed",
+    "source": "sources/01_Cathedral_Cloisters_and_Attached_Buildings.md",
+    "finding": "Cloister adjacency, attached ranges, separate access hierarchies, chapter vestibule and two distinct cloister programs were already researched.",
+    "use": "Carry relationships forward; do not reopen general north/south historic plausibility as a missing fact."
+  },
+  {
+    "id": "P02",
+    "type": "retrieved user decisions - original transcript not packaged",
+    "source": "Cathedral Cloister Comparison, 2026-11-03 13:35 and 14:28 UTC",
+    "finding": "3.5 m L-shaped gallery; 22 x 26 m north cloister, 15 x 19 m garden; 9 x 12 m chapter hall plus 3 m polygonal termination; refectory north, dormitory east, dedicated night route.",
+    "use": "Restore the 3.5 m planning module in the new experiment; retain accepted program. This is not proof of final source-model approval."
+  },
+  {
+    "id": "H01",
+    "type": "primary text rechecked",
+    "source": "Viollet-le-Duc, Dictionnaire raisonne, III, Cloitre, printed p.442, figs.27-28",
+    "url": "https://fr.wikisource.org/wiki/Page:Viollet-le-Duc_-_Dictionnaire_raisonn%C3%A9_de_l%E2%80%99architecture_fran%C3%A7aise_du_XIe_au_XVIe_si%C3%A8cle,_1854-1868,_tome_3.djvu/445",
+    "finding": "Noyon wall-side rib supports use corbels to limit projections into the walk.",
+    "use": "Research basis for a circulation-conscious support strategy; no masonry capacity or actual corbel design inferred."
+  },
+  {
+    "id": "H02",
+    "type": "primary text rechecked",
+    "source": "Viollet-le-Duc, III, Cloitre, opening discussion",
+    "url": "https://fr.wikisource.org/wiki/Dictionnaire_raisonn%C3%A9_de_l%E2%80%99architecture_fran%C3%A7aise_du_XIe_au_XVIe_si%C3%A8cle/Clo%C3%AEtre",
+    "finding": "His historical synthesis recognizes cathedral cloisters on either side of the nave and distinguishes communal from more secluded institutional spaces.",
+    "use": "Supports keeping the north study viable; does not choose its site for this project."
+  },
+  {
+    "id": "H03",
+    "type": "institutional source rechecked",
+    "source": "Durham Cathedral, The Cloister",
+    "url": "https://www.durhamcathedral.co.uk/explore/the-cathedral-building-and-grounds/cloisters",
+    "finding": "The cloister connects nave, chapter house and refectory and acts as a daily circulation hub.",
+    "use": "Plan a continuous community circuit with named room thresholds."
+  },
+  {
+    "id": "H04",
+    "type": "institutional source rechecked",
+    "source": "Westminster Abbey, The Cloisters",
+    "url": "https://www.westminster-abbey.org/history/explore-our-history/the-cloisters",
+    "finding": "East walk accesses chapter house and dormitory/library; a separate passage reaches the Little Cloister.",
+    "use": "Maintain direct chapter access and a distinct private/secondary route."
+  },
+  {
+    "id": "H05",
+    "type": "previous project research + current search-index corroboration only",
+    "source": "Salisbury Cathedral Archive, The Salisbury Chapter House",
+    "url": "https://salisbury.art.virginia.edu/pdf/PZBSalisburyChapterHouse.pdf",
+    "finding": "Indexed text describes east walk -> two-bay vestibule -> chapter house. Direct page/PDF retrieval failed in this run.",
+    "use": "Supports the vestibule sequence. The proposed 4.5 x 3.5 m modules are our design, not measured Salisbury geometry."
+  },
+  {
+    "id": "L01",
+    "type": "legacy proposal, not current authority",
+    "source": "Library CATHEDRAL_F5I_CLOISTER_CHECKPOINT.json, libfile_9ba7fea921ec8191b52e6417e7855c22",
+    "finding": "Older F5I proposal already records east-walk chapter vestibule, dedicated upper stair and independent transept entry. Its dimensions and coordinate convention differ.",
+    "use": "Relationship history only; do not reuse 960-unit walks, chapter radius or old coordinates."
+  },
+  {
+    "id": "I01",
+    "type": "new experimental interpretation",
+    "source": "build_r02.py",
+    "finding": "Offset the 3.5 m gallery center 0.40 m east; define a 9 x 3.5 m vestibule in two 4.5 m planning bays and a night-lobby functional zone.",
+    "use": "Concrete R02 proposal for architectural review; no new dimension lock."
+  }
+]
