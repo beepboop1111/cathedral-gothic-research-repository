@@ -1,0 +1,17 @@
+measurement,value,units
+garth_area_m2,285.000000000,see suffix
+R05_roof_projection_on_garth_m2,0.000000000,see suffix
+chapter_court_R03_area_m2,37.301515190,see suffix
+chapter_court_projected_R05_roof_cover_m2,15.211787771,see suffix
+chapter_court_remaining_uncovered_by_R05_m2,22.089727419,see suffix
+chapter_court_R05_cover_percent,40.780616267,see suffix
+N4_route_min_2D_root_margin_m,0.195600000,see suffix
+R05_roof_min_2D_root_distance_m,8.137500000,see suffix
+main_vs_chapter_outer_peak_difference_m,0.500000000,see suffix
+NORTH_MAIN_outer_peak,12.28,m
+NORTH_NECK_outer_peak,10.03,m
+UPPER_LINK_outer_peak,7.489999999999999,m
+NIGHT_RANGE_outer_peak,9.329999999999998,m
+STAIR_TURRET_outer_peak,9.73,m
+VESTIBULE_EAST_outer_peak,5.93,m
+CHAPTER_HOUSE_outer_peak,11.78,m
