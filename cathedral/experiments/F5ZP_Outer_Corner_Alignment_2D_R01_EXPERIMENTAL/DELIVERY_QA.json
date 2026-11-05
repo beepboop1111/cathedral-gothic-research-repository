@@ -1,0 +1,10 @@
+{
+  "svg_parse_passed": 2,
+  "numeric_passed": 27,
+  "numeric_failed": 0,
+  "visual_review": [
+    "T2 before tiny endpoint snap, layout unchanged",
+    "T6 corrected preview inspected"
+  ],
+  "physical_units": "native only; SI unresolved"
+}

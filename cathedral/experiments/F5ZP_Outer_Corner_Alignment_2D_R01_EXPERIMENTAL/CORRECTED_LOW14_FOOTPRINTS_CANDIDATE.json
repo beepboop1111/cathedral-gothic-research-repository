@@ -1,0 +1,818 @@
+{
+  "plan_units": "native project units; SI unset",
+  "vaults": {
+    "L3-01": {
+      "parent_sector": "T1",
+      "middle_bay": "M_A7",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          20259.119740108905,
+          -5284.798763394146
+        ],
+        [
+          20275.56053298784,
+          -6656.7465218381885
+        ],
+        [
+          21493.085217683605,
+          -6448.341300890247
+        ],
+        [
+          21456.23058052803,
+          -4986.3255083705235
+        ]
+      ]
+    },
+    "L3-02": {
+      "parent_sector": "T1",
+      "middle_bay": "M_A7",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          21456.23058052803,
+          -4986.3255083705235
+        ],
+        [
+          21493.085217683605,
+          -6448.341300890247
+        ],
+        [
+          22710.60990237937,
+          -6239.936079942306
+        ],
+        [
+          22653.341420947156,
+          -4687.852253346901
+        ]
+      ]
+    },
+    "L3-03": {
+      "parent_sector": "T2",
+      "middle_bay": "M_A6",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          22653.341420947156,
+          -4687.852253346901
+        ],
+        [
+          22710.60990237937,
+          -6239.936079942306
+        ],
+        [
+          24667.7096649137,
+          -5215.794878321537
+        ],
+        [
+          23557.362464654572,
+          -3915.7453406638697
+        ]
+      ]
+    },
+    "L3-04": {
+      "parent_sector": "T2",
+      "middle_bay": "M_A6",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          23557.362464654572,
+          -3915.7453406638697
+        ],
+        [
+          24667.7096649137,
+          -5215.794878321537
+        ],
+        [
+          26431.93672582503,
+          -3311.7158548289153
+        ],
+        [
+          24461.383508361992,
+          -3143.638427980838
+        ]
+      ]
+    },
+    "L3-05": {
+      "parent_sector": "T3",
+      "middle_bay": "M_A5",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          24461.383508361992,
+          -3143.638427980838
+        ],
+        [
+          26431.93672582503,
+          -3311.7158548289153
+        ],
+        [
+          26853.113630747837,
+          -2230.6672424251474
+        ],
+        [
+          24921.946789120077,
+          -2121.225856976348
+        ]
+      ]
+    },
+    "L3-06": {
+      "parent_sector": "T3",
+      "middle_bay": "M_A5",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          24921.946789120077,
+          -2121.225856976348
+        ],
+        [
+          26853.113630747837,
+          -2230.6672424251474
+        ],
+        [
+          27274.29053567064,
+          -1149.618630021379
+        ],
+        [
+          25382.510069878164,
+          -1098.813285971858
+        ]
+      ]
+    },
+    "L3-07": {
+      "parent_sector": "T4",
+      "middle_bay": "M_A4",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          25382.510069878164,
+          -1098.813285971858
+        ],
+        [
+          27274.29053567064,
+          -1149.618630021379
+        ],
+        [
+          27274.29053567064,
+          -3.410605131648481e-13
+        ],
+        [
+          25382.51006987816,
+          3.410605131648481e-13
+        ]
+      ]
+    },
+    "L3-08": {
+      "parent_sector": "T4",
+      "middle_bay": "M_A4",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          25382.51006987816,
+          3.410605131648481e-13
+        ],
+        [
+          27274.29053567064,
+          -3.410605131648481e-13
+        ],
+        [
+          27274.29053567064,
+          1149.6186300213783
+        ],
+        [
+          25382.51006987816,
+          1098.8132859718587
+        ]
+      ]
+    },
+    "L3-09": {
+      "parent_sector": "T5",
+      "middle_bay": "M_A3",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          25382.51006987816,
+          1098.8132859718587
+        ],
+        [
+          27274.29053567064,
+          1149.6186300213783
+        ],
+        [
+          26853.113630747837,
+          2230.667242425148
+        ],
+        [
+          24921.946789120077,
+          2121.225856976349
+        ]
+      ]
+    },
+    "L3-10": {
+      "parent_sector": "T5",
+      "middle_bay": "M_A3",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          24921.946789120077,
+          2121.225856976349
+        ],
+        [
+          26853.113630747837,
+          2230.667242425148
+        ],
+        [
+          26431.93672582503,
+          3311.715854828917
+        ],
+        [
+          24461.383508361992,
+          3143.638427980839
+        ]
+      ]
+    },
+    "L3-11": {
+      "parent_sector": "T6",
+      "middle_bay": "M_A2",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          24461.383508361992,
+          3143.638427980839
+        ],
+        [
+          26431.93672582503,
+          3311.715854828917
+        ],
+        [
+          24667.709664913695,
+          5215.794878321537
+        ],
+        [
+          23557.362464654572,
+          3915.74534066387
+        ]
+      ]
+    },
+    "L3-12": {
+      "parent_sector": "T6",
+      "middle_bay": "M_A2",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          23557.362464654572,
+          3915.74534066387
+        ],
+        [
+          24667.709664913695,
+          5215.794878321537
+        ],
+        [
+          22710.60990237937,
+          6239.936079942306
+        ],
+        [
+          22653.341420947156,
+          4687.852253346901
+        ]
+      ]
+    },
+    "L3-13": {
+      "parent_sector": "T7",
+      "middle_bay": "M_A1",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          22653.341420947156,
+          4687.852253346901
+        ],
+        [
+          22710.60990237937,
+          6239.936079942306
+        ],
+        [
+          21493.085217683605,
+          6448.341300890247
+        ],
+        [
+          21456.23058052803,
+          4986.3255083705235
+        ]
+      ]
+    },
+    "L3-14": {
+      "parent_sector": "T7",
+      "middle_bay": "M_A1",
+      "status": "EXPERIMENTAL_2D_FOOTPRINT",
+      "height_status": "LOWER_THAN_INNER_AND_MIDDLE; exact levels unresolved",
+      "vertices": [
+        [
+          21456.23058052803,
+          4986.3255083705235
+        ],
+        [
+          21493.085217683605,
+          6448.341300890247
+        ],
+        [
+          20275.56053298784,
+          6656.7465218381885
+        ],
+        [
+          20259.119740108905,
+          5284.798763394146
+        ]
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "sector": "T1",
+      "middle_bay": "M_A7",
+      "lower_vaults": [
+        "L3-01",
+        "L3-02"
+      ],
+      "window_above_pair": "W1",
+      "inner_midpoint": [
+        21456.23058052803,
+        -4986.3255083705235
+      ],
+      "outer_receiver": [
+        21493.085217683605,
+        -6448.341300890247
+      ],
+      "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+      "exact_vertical_levels": null
+    },
+    {
+      "sector": "T2",
+      "middle_bay": "M_A6",
+      "lower_vaults": [
+        "L3-03",
+        "L3-04"
+      ],
+      "window_above_pair": "W2",
+      "inner_midpoint": [
+        23557.362464654572,
+        -3915.7453406638697
+      ],
+      "outer_receiver": [
+        24667.7096649137,
+        -5215.794878321537
+      ],
+      "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+      "exact_vertical_levels": null
+    },
+    {
+      "sector": "T3",
+      "middle_bay": "M_A5",
+      "lower_vaults": [
+        "L3-05",
+        "L3-06"
+      ],
+      "window_above_pair": "W3",
+      "inner_midpoint": [
+        24921.946789120077,
+        -2121.225856976348
+      ],
+      "outer_receiver": [
+        26853.113630747837,
+        -2230.6672424251474
+      ],
+      "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+      "exact_vertical_levels": null
+    },
+    {
+      "sector": "T4",
+      "middle_bay": "M_A4",
+      "lower_vaults": [
+        "L3-07",
+        "L3-08"
+      ],
+      "window_above_pair": "W4",
+      "inner_midpoint": [
+        25382.51006987816,
+        3.410605131648481e-13
+      ],
+      "outer_receiver": [
+        27274.29053567064,
+        -3.410605131648481e-13
+      ],
+      "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+      "exact_vertical_levels": null
+    },
+    {
+      "sector": "T5",
+      "middle_bay": "M_A3",
+      "lower_vaults": [
+        "L3-09",
+        "L3-10"
+      ],
+      "window_above_pair": "W5",
+      "inner_midpoint": [
+        24921.946789120077,
+        2121.225856976349
+      ],
+      "outer_receiver": [
+        26853.113630747837,
+        2230.667242425148
+      ],
+      "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+      "exact_vertical_levels": null
+    },
+    {
+      "sector": "T6",
+      "middle_bay": "M_A2",
+      "lower_vaults": [
+        "L3-11",
+        "L3-12"
+      ],
+      "window_above_pair": "W6",
+      "inner_midpoint": [
+        23557.362464654572,
+        3915.74534066387
+      ],
+      "outer_receiver": [
+        24667.709664913695,
+        5215.794878321537
+      ],
+      "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+      "exact_vertical_levels": null
+    },
+    {
+      "sector": "T7",
+      "middle_bay": "M_A1",
+      "lower_vaults": [
+        "L3-13",
+        "L3-14"
+      ],
+      "window_above_pair": "W7",
+      "inner_midpoint": [
+        21456.23058052803,
+        4986.3255083705235
+      ],
+      "outer_receiver": [
+        21493.085217683605,
+        6448.341300890247
+      ],
+      "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+      "exact_vertical_levels": null
+    }
+  ],
+  "protected_inner_middle": {
+    "I_A1": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I7 (south-first)",
+      "vertices": [
+        [
+          20238.59492861673,
+          2932.8883203472146
+        ],
+        [
+          20248.64789751086,
+          4084.8444557171397
+        ],
+        [
+          22099.243085065114,
+          3623.4392535330358
+        ],
+        [
+          21567.308682618353,
+          2601.6027737117242
+        ]
+      ]
+    },
+    "I_A2": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I6 (south-first)",
+      "vertices": [
+        [
+          21567.308682618353,
+          2601.6027737117242
+        ],
+        [
+          22099.243085065114,
+          3623.4392535330358
+        ],
+        [
+          23496.755275621334,
+          2429.8510838792295
+        ],
+        [
+          22570.7121721903,
+          1744.6152335416843
+        ]
+      ]
+    },
+    "I_A3": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I5 (south-first)",
+      "vertices": [
+        [
+          22570.7121721903,
+          1744.6152335416843
+        ],
+        [
+          23496.755275621334,
+          2429.8510838792295
+        ],
+        [
+          24208.732948997596,
+          849.3192569905474
+        ],
+        [
+          23081.90691295225,
+          609.8049891684885
+        ]
+      ]
+    },
+    "I_A4": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I4 (south-first)",
+      "vertices": [
+        [
+          23081.90691295225,
+          609.8049891684885
+        ],
+        [
+          24208.732948997596,
+          849.3192569905474
+        ],
+        [
+          24208.732948997596,
+          -849.3192569905469
+        ],
+        [
+          23081.906912952254,
+          -609.8049891684882
+        ]
+      ]
+    },
+    "I_A5": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I3 (south-first)",
+      "vertices": [
+        [
+          23081.906912952254,
+          -609.8049891684882
+        ],
+        [
+          24208.732948997596,
+          -849.3192569905469
+        ],
+        [
+          23496.755275621334,
+          -2429.8510838792286
+        ],
+        [
+          22570.7121721903,
+          -1744.6152335416837
+        ]
+      ]
+    },
+    "I_A6": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I2 (south-first)",
+      "vertices": [
+        [
+          22570.7121721903,
+          -1744.6152335416837
+        ],
+        [
+          23496.755275621334,
+          -2429.8510838792286
+        ],
+        [
+          22099.243085065114,
+          -3623.4392535330358
+        ],
+        [
+          21567.308682618353,
+          -2601.6027737117242
+        ]
+      ]
+    },
+    "I_A7": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I1 (south-first)",
+      "vertices": [
+        [
+          21567.308682618353,
+          -2601.6027737117242
+        ],
+        [
+          22099.243085065114,
+          -3623.4392535330358
+        ],
+        [
+          20248.64789751086,
+          -4084.8444557171397
+        ],
+        [
+          20238.59492861673,
+          -2932.8883203472146
+        ]
+      ]
+    },
+    "M_A1": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M7 (south-first)",
+      "vertices": [
+        [
+          20248.64789751086,
+          4084.8444557171397
+        ],
+        [
+          20259.119740108905,
+          5284.798763394146
+        ],
+        [
+          22653.341420947156,
+          4687.852253346901
+        ],
+        [
+          22099.243085065114,
+          3623.4392535330358
+        ]
+      ]
+    },
+    "M_A2": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M6 (south-first)",
+      "vertices": [
+        [
+          22099.243085065114,
+          3623.4392535330358
+        ],
+        [
+          22653.341420947156,
+          4687.852253346901
+        ],
+        [
+          24461.383508361992,
+          3143.638427980839
+        ],
+        [
+          23496.755275621334,
+          2429.8510838792295
+        ]
+      ]
+    },
+    "M_A3": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M5 (south-first)",
+      "vertices": [
+        [
+          23496.755275621334,
+          2429.8510838792295
+        ],
+        [
+          24461.383508361992,
+          3143.638427980839
+        ],
+        [
+          25382.51006987816,
+          1098.8132859718587
+        ],
+        [
+          24208.732948997596,
+          849.3192569905474
+        ]
+      ]
+    },
+    "M_A4": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M4 (south-first)",
+      "vertices": [
+        [
+          24208.732948997596,
+          849.3192569905474
+        ],
+        [
+          25382.51006987816,
+          1098.8132859718587
+        ],
+        [
+          25382.510069878164,
+          -1098.813285971858
+        ],
+        [
+          24208.732948997596,
+          -849.3192569905469
+        ]
+      ]
+    },
+    "M_A5": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M3 (south-first)",
+      "vertices": [
+        [
+          24208.732948997596,
+          -849.3192569905469
+        ],
+        [
+          25382.510069878164,
+          -1098.813285971858
+        ],
+        [
+          24461.383508361992,
+          -3143.638427980838
+        ],
+        [
+          23496.755275621334,
+          -2429.8510838792286
+        ]
+      ]
+    },
+    "M_A6": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M2 (south-first)",
+      "vertices": [
+        [
+          23496.755275621334,
+          -2429.8510838792286
+        ],
+        [
+          24461.383508361992,
+          -3143.638427980838
+        ],
+        [
+          22653.341420947156,
+          -4687.852253346901
+        ],
+        [
+          22099.243085065114,
+          -3623.4392535330358
+        ]
+      ]
+    },
+    "M_A7": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M1 (south-first)",
+      "vertices": [
+        [
+          22099.243085065114,
+          -3623.4392535330358
+        ],
+        [
+          22653.341420947156,
+          -4687.852253346901
+        ],
+        [
+          20259.119740108905,
+          -5284.798763394146
+        ],
+        [
+          20248.64789751086,
+          -4084.8444557171397
+        ]
+      ]
+    }
+  },
+  "relative_height_requirement": "Third layer significantly lower than inner and middle; one upper window over the two lower entrances in each bay",
+  "vertical_dimensions": null,
+  "nine_exterior_compartments": "Separate Study D program retained as context; not the third-layer vault count",
+  "elevation_plot_coordinates": "dimensionless illustration only, never architectural height inputs"
+}

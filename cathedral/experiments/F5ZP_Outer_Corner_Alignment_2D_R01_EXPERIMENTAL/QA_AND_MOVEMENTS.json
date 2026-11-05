@@ -1,0 +1,194 @@
+{
+  "status": "EXPERIMENTAL_2D_ONLY",
+  "measurements": [
+    {
+      "sector": "T2",
+      "old_corner": [
+        24847.714978705837,
+        -5078.752650760288
+      ],
+      "new_corner": [
+        24667.7096649137,
+        -5215.794878321537
+      ],
+      "old_lateral_offset": 225.87892167572252,
+      "new_lateral_offset": 6.540517200536056e-13,
+      "movement": 226.23546390509927,
+      "new_normal_depth": 1709.6782461876246,
+      "new_ellipse_parameter_deg": 38.41735131958493,
+      "fixed_chapel_junction": [
+        25860.59021156529,
+        -6180.286454859365
+      ],
+      "source_input_hashes": {
+        "LOW14_GEOMETRY.json": "03a5ee4ca4ac0b09e02f62ab4046a12d856685f11c15fc6a1512c33aac5e9491",
+        "PLAN_GEOMETRY.json": "779ef8ef889b8b6f818c93329b24a7e124d072372ffd413ad16cc52fa21cab14"
+      }
+    },
+    {
+      "sector": "T6",
+      "old_corner": [
+        24847.714978705837,
+        5078.752650760287
+      ],
+      "new_corner": [
+        24667.709664913695,
+        5215.794878321537
+      ],
+      "old_lateral_offset": -225.87892167572392,
+      "new_lateral_offset": 1.3767417820548613e-12,
+      "movement": 226.2354639051027,
+      "new_normal_depth": 1709.6782461876237,
+      "new_ellipse_parameter_deg": 141.5826486804151,
+      "fixed_chapel_junction": [
+        25860.59021156529,
+        6180.285266289133
+      ],
+      "source_input_hashes": {
+        "LOW14_GEOMETRY.json": "03a5ee4ca4ac0b09e02f62ab4046a12d856685f11c15fc6a1512c33aac5e9491",
+        "PLAN_GEOMETRY.json": "779ef8ef889b8b6f818c93329b24a7e124d072372ffd413ad16cc52fa21cab14"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "T2 offset removed",
+      "pass_": true,
+      "value": 6.540517200536056e-13
+    },
+    {
+      "name": "T2 ellipse preserved",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "T2 candidate polygons valid",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "T2 middle frontage unchanged",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "T2 chapel body unchanged",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "T2 no overlap passage/chapel neck",
+      "pass_": true,
+      "value": 0.0
+    },
+    {
+      "name": "T2 no overlap passage/window compartment",
+      "pass_": true,
+      "value": 0.0
+    },
+    {
+      "name": "T2 no overlap chapel neck/window compartment",
+      "pass_": true,
+      "value": 0.0
+    },
+    {
+      "name": "T2 continuous chapel frontage",
+      "pass_": true,
+      "value": 2208.8695504017173
+    },
+    {
+      "name": "T2 continuous window frontage",
+      "pass_": true,
+      "value": 2595.7684915890445
+    },
+    {
+      "name": "T2 continuous side junction",
+      "pass_": true,
+      "value": 1534.0169510731841
+    },
+    {
+      "name": "T6 offset removed",
+      "pass_": true,
+      "value": 1.3767417820548613e-12
+    },
+    {
+      "name": "T6 ellipse preserved",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "T6 candidate polygons valid",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "T6 middle frontage unchanged",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "T6 chapel body unchanged",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "T6 no overlap passage/chapel neck",
+      "pass_": true,
+      "value": 0.0
+    },
+    {
+      "name": "T6 no overlap passage/window compartment",
+      "pass_": true,
+      "value": 0.0
+    },
+    {
+      "name": "T6 no overlap chapel neck/window compartment",
+      "pass_": true,
+      "value": 0.0
+    },
+    {
+      "name": "T6 continuous chapel frontage",
+      "pass_": true,
+      "value": 2208.869550401713
+    },
+    {
+      "name": "T6 continuous window frontage",
+      "pass_": true,
+      "value": 2595.7684915890463
+    },
+    {
+      "name": "T6 continuous side junction",
+      "pass_": true,
+      "value": 1534.0162037766488
+    },
+    {
+      "name": "All inner/middle source cells preserved",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "Unaffected passage sectors preserved",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "Fourteen low footprints retained",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "Mirrored corrected corner X",
+      "pass_": true,
+      "value": null
+    },
+    {
+      "name": "Mirrored corrected corner Y",
+      "pass_": true,
+      "value": null
+    }
+  ],
+  "passed": 27,
+  "failed": 0,
+  "physical_m_per_native_unit": null,
+  "missing_F5ZL_C_support_schedule": "UNRESOLVED"
+}
