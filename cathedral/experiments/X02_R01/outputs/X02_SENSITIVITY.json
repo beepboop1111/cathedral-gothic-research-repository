@@ -1,0 +1,61 @@
+{
+  "N4_root_width_ceiling_is_not_design_approval": true,
+  "metrics": {
+    "N4_portal_X_m": -34.2277,
+    "N6_reservation_X_m": -24.867700000000003,
+    "N4_wall_face_Z_m": 12.0625,
+    "N4_root_gap_m": 0.19559999999999889,
+    "garden_area_m2": 47.57534999999999,
+    "garden_root_gap_m": 0.23750000000000074,
+    "N5_conditional_chapel_overlap_m2": 2.035320000000016,
+    "ceremony_sweep_root_overlap_m2": 0.0,
+    "ceremony_sweep_garden_overlap_m2": 0.0,
+    "ceremony_outside_known_route_domain_m2": 0.0,
+    "night_outside_known_route_domain_m2": 0.0,
+    "night_sweep_root_overlap_m2": 0.0,
+    "ceremony_night_sweep_overlap_m2": 0.0,
+    "stair_reservation_outside_east_wing_m2": 0.0,
+    "ceremony_centerline_length_m": 41.1652,
+    "night_centerline_length_m": 13.037500000000001,
+    "conditional_N4_root_screen_width_ceiling_m": 1.5912071554175284,
+    "retained_X01_root_count": 12,
+    "south_cloister_area_m2": 452.47999999999996,
+    "north_cloister_area_m2": 572,
+    "cloister_area_increase_percent": 26.41442715700142,
+    "south_garden_area_m2": 203.28,
+    "north_garden_area_m2": 285,
+    "north_known_massing_union_m2": 1199.5
+  },
+  "CH_N5_tests": [
+    {
+      "west_growth_m": 0,
+      "N4_throat_overlap_m2": 0.0,
+      "status": "CONDITIONAL RECTANGLE TEST ONLY - NOT CHAPEL RECOVERY"
+    },
+    {
+      "west_growth_m": 0.5,
+      "N4_throat_overlap_m2": 0.0,
+      "status": "CONDITIONAL RECTANGLE TEST ONLY - NOT CHAPEL RECOVERY"
+    },
+    {
+      "west_growth_m": 1,
+      "N4_throat_overlap_m2": 0.0,
+      "status": "CONDITIONAL RECTANGLE TEST ONLY - NOT CHAPEL RECOVERY"
+    },
+    {
+      "west_growth_m": 1.454,
+      "N4_throat_overlap_m2": 1.49213974509621e-14,
+      "status": "CONDITIONAL RECTANGLE TEST ONLY - NOT CHAPEL RECOVERY"
+    },
+    {
+      "west_growth_m": 1.5,
+      "N4_throat_overlap_m2": 0.09660000000001359,
+      "status": "CONDITIONAL RECTANGLE TEST ONLY - NOT CHAPEL RECOVERY"
+    },
+    {
+      "west_growth_m": 2,
+      "N4_throat_overlap_m2": 1.1466000000000134,
+      "status": "CONDITIONAL RECTANGLE TEST ONLY - NOT CHAPEL RECOVERY"
+    }
+  ]
+}
