@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "original byte preservation",
+    "exact duplicate aliases",
+    "original names retained",
+    "image dimensions read without resave",
+    "unknown source metadata left unresolved",
+    "existing output protected"
+  ],
+  "status": "PASS",
+  "inherited_catalog_byte_comparisons": 9,
+  "source_page_IDs_preserved": 1449,
+  "claim_IDs_preserved": 1549,
+  "binary_originals_uploaded_to_github": false,
+  "incoming_batch_received": false
+}
