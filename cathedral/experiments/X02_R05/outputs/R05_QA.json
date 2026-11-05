@@ -1,0 +1,4418 @@
+{
+  "id": "F5ZP_X02_R05",
+  "status": "EXPERIMENTAL ARCHITECTURAL SET-OUT AND ROOF COMPOSITION",
+  "parent_R04_SHA256": "54e2066ba97b2b787f2976b07c055fa9a4053087a9d3504f88617a06618c52a5",
+  "metrics": {
+    "bearing_stations_Z_m": [
+      27.65,
+      32.6,
+      35.4,
+      40.25
+    ],
+    "girder_centers_X_m": [
+      -29.7,
+      -27.6
+    ],
+    "piers": 8,
+    "pier_size_m": [
+      0.7,
+      0.7,
+      2.97
+    ],
+    "girders": 6,
+    "girder_section_m": [
+      0.3,
+      0.45
+    ],
+    "bearing_length_m": 0.35,
+    "nominal_seat_area_m2": 0.105,
+    "clear_spans_m": [
+      4.25,
+      2.1,
+      4.15
+    ],
+    "west_vestibule_clear_width_m": 2.1,
+    "west_vestibule_clear_height_m": 2.97,
+    "reserved_stair_plane_m": 5.7,
+    "roof_min_over_upper_landing_m": 6.9979166666666615,
+    "upper_landing_min_roof_headroom_m": 3.3979166666666614,
+    "min_tread_roof_headroom_m": 3.880739418167261,
+    "upper_flat_ceiling_m": 6.3,
+    "upper_room_clear_height_m": 2.7,
+    "roof_skin_vertical_thickness_m": 0.18,
+    "mesh_objects": 151,
+    "GLB_bytes": 276792
+  },
+  "checks": [
+    {
+      "id": "R04_VERIFIED_BYTES",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G1WS",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G1WS",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G1WN",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G1WN",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G1ES",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G1ES",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G1EN",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G1EN",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G2WS",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G2WS",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G2WN",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G2WN",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G2ES",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G2ES",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G2EN",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G2EN",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G3WS",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G3WS",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G3WN",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G3WN",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G3ES",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G3ES",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SEAT_CONTAINED_G3EN",
+      "result": "PASS",
+      "detail": "350 mm seat, nominal contact area 0.105 m2; capacity unverified."
+    },
+    {
+      "id": "SEAT_AREA_G3EN",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "VESTIBULE_1_8M_ROUTE_NO_PIERS",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "VESTIBULE_LOCAL_CLEAR_WIDTH",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "WEST_CLEAR_HEIGHT",
+      "result": "PASS",
+      "detail": "Floor 3.600, deck 180 mm, girder 450 mm."
+    },
+    {
+      "id": "VESTIBULE_CLEAR_HEIGHT_TARGET",
+      "result": "PASS",
+      "detail": "Ground route is flat-headed in the western crossing zone."
+    },
+    {
+      "id": "ROOF_ENVELOPE_COVERS_RAW",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_COVERS_residential_range",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_COVERS_night_range",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_COVERS_stair_turret",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_COVERS_chapter_house",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_COVERS_chapter_vestibule",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_COVERS_LINK",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_0",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_NORTH_MAIN_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_NORTH_NECK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_1_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_NORTH_NECK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_MAIN_2_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_1_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NORTH_NECK_2_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_1_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_UPPER_LINK_2_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_1_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_NIGHT_RANGE_2_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_1_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_9",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_2_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_10",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_3_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_11",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_4_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_12",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_5_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_13",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_6_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_14",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_7_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_15",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_8_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_8_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_8_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_8_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_8_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_8_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_8_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_8_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_8_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_STAIR_TURRET_8_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_16",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_1_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_1_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_1_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_1_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_1_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_1_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_1_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_1_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_1_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_17",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_2_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_2_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_2_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_2_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_2_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_2_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_2_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_VESTIBULE_EAST_2_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_18",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_1_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_1_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_1_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_1_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_1_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_1_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_1_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_19",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_2_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_2_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_2_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_2_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_2_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_2_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_20",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_3_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_3_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_3_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_3_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_3_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_21",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_4_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_4_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_4_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_4_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_22",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_5_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_5_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_5_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_23",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_6_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_6_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_24",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_NO_PLAN_OVERLAP_CHAPTER_HOUSE_7_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_FACE_VALID_25",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "STAIR_ROOF_COVERS_LANDING",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "STAIR_ROOF_ABOVE_RESERVED_PLANE",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "LANDING_ACTUAL_ROOF_CLEARANCE",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_9",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_10",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_11",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_12",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_13",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_14",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_15",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_16",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_17",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_18",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOF_HEADROOM_TREAD_19",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOM_ROOF_ABOVE_CEILING_U01 Chamber 1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOM_ROOF_ABOVE_CEILING_U04 Chamber 4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOM_ROOF_ABOVE_CEILING_U02 Chamber 2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOM_ROOF_ABOVE_CEILING_U05 Chamber 5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOM_ROOF_ABOVE_CEILING_U03 Chamber 3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "ROOM_ROOF_ABOVE_CEILING_U06 Chamber 6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "GROUND_VESTIBULE_ACTUAL_3D_VOLUME_CLEAR",
+      "result": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "UPPER_PASSAGE_ACTUAL_3D_VOLUME_CLEAR",
+      "result": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study_3",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study_4",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study_5",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study_6",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study_7",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study_8",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study_9",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study_9",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study_9",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_ground_wall_study_10",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_ground_wall_study_10",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_ground_wall_study_10",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_upper_wall_study",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_upper_wall_study",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_upper_wall_study",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_upper_wall_study_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_upper_wall_study_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_upper_wall_study_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_upper_wall_study_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_upper_wall_study_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_upper_wall_study_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_upper_wall_study_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_upper_wall_study_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_upper_wall_study_3",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_upper_wall_study_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_upper_wall_study_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_upper_wall_study_4",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_upper_wall_study_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_upper_wall_study_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_upper_wall_study_5",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_upper_wall_study_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_upper_wall_study_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_upper_wall_study_6",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_upper_wall_study_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_upper_wall_study_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_upper_wall_study_7",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_upper_floor",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_upper_floor",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_upper_floor",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Ground_floor",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Ground_floor",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Ground_floor",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Ground_floor_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Ground_floor_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Ground_floor_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Ground_floor_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Ground_floor_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Ground_floor_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Chapter_ground_floor",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Chapter_ground_floor",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Chapter_ground_floor",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_stair_newel",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_stair_newel",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_stair_newel",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_3",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_4",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_5",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_6",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_7",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_8",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_9",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_9",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_9",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_10",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_10",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_10",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_11",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_11",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_11",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_12",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_12",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_12",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_13",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_13",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_13",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_14",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_14",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_14",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_15",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_15",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_15",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_16",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_16",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_16",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_17",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_17",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_17",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_18",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_18",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_18",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_R04_tread_19",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_R04_tread_19",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_R04_tread_19",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_house_wall_study",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_house_wall_study",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_house_wall_study",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_house_roof_closure_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_house_roof_closure_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_house_roof_closure_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_house_roof_closure_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_house_roof_closure_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_house_roof_closure_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_house_roof_closure_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_house_roof_closure_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_house_roof_closure_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_house_roof_closure_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_house_roof_closure_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_house_roof_closure_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_house_roof_closure_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_house_roof_closure_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_house_roof_closure_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_house_roof_closure_CHAPTER_HOUSE_5_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_house_roof_closure_CHAPTER_HOUSE_5_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_house_roof_closure_CHAPTER_HOUSE_5_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_house_roof_closure_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_house_roof_closure_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_house_roof_closure_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_house_roof_closure_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_house_roof_closure_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_house_roof_closure_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_house_roof_closure_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_house_roof_closure_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_house_roof_closure_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_vestibule_west_below_link",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_vestibule_west_below_link",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_vestibule_west_below_link",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_vestibule_west_below_link_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_vestibule_west_below_link_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_vestibule_west_below_link_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_vestibule_wall_study",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_vestibule_wall_study",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_vestibule_wall_study",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_vestibule_wall_study_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_vestibule_wall_study_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_vestibule_wall_study_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_vestibule_roof_closure_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_vestibule_roof_closure_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_vestibule_roof_closure_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_vestibule_roof_closure_UPPER_LINK_2_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_vestibule_roof_closure_UPPER_LINK_2_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_vestibule_roof_closure_UPPER_LINK_2_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_vestibule_roof_closure_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_vestibule_roof_closure_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_vestibule_roof_closure_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_vestibule_roof_closure_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_vestibule_roof_closure_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_vestibule_roof_closure_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_vestibule_roof_closure_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_vestibule_roof_closure_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_vestibule_roof_closure_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_chapter_vestibule_roof_closure_CHAPTER_HOUSE_5_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_chapter_vestibule_roof_closure_CHAPTER_HOUSE_5_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_chapter_vestibule_roof_closure_CHAPTER_HOUSE_5_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_P1W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_P1W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_P1W",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_P1E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_P1E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_P1E",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_P2W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_P2W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_P2W",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_P2E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_P2E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_P2E",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_P3W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_P3W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_P3W",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_P3E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_P3E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_P3E",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_P4W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_P4W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_P4W",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_P4E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_P4E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_P4E",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_G1W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_G1W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_G1W",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_G1E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_G1E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_G1E",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_G2W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_G2W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_G2W",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_G2E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_G2E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_G2E",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_G3W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_G3W",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_G3W",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_G3E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_G3E",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_G3E",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_NORTH_MAIN_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_NORTH_MAIN_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_NORTH_MAIN_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_NORTH_MAIN_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_NORTH_MAIN_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_NORTH_MAIN_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_NORTH_NECK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_NORTH_NECK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_NORTH_NECK_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_NORTH_NECK_1_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_NORTH_NECK_1_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_NORTH_NECK_1_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_NIGHT_RANGE_2_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_NIGHT_RANGE_2_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_NIGHT_RANGE_2_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_bearing_wall_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_bearing_wall_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_bearing_wall_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_28.20",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_28.20",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_28.20",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_28.80",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_28.80",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_28.80",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_29.40",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_29.40",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_29.40",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_30.00",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_30.00",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_30.00",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_30.60",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_30.60",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_30.60",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_31.20",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_31.20",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_31.20",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_31.80",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_31.80",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_31.80",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_32.40",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_32.40",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_32.40",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_33.00",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_33.00",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_33.00",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_33.60",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_33.60",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_33.60",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_34.20",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_34.20",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_34.20",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_34.80",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_34.80",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_34.80",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_35.40",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_35.40",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_35.40",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_36.00",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_36.00",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_36.00",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_36.60",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_36.60",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_36.60",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_37.20",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_37.20",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_37.20",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_37.80",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_37.80",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_37.80",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_38.40",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_38.40",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_38.40",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_39.00",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_39.00",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_39.00",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Link_joist_39.60",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Link_joist_39.60",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Link_joist_39.60",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_NORTH_MAIN_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_NORTH_MAIN_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_NORTH_MAIN_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_NORTH_MAIN_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_NORTH_MAIN_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_NORTH_MAIN_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_NORTH_NECK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_NORTH_NECK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_NORTH_NECK_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_NIGHT_RANGE_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_STAIR_TURRET_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_STAIR_TURRET_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_STAIR_TURRET_4",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_STAIR_TURRET_5",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_STAIR_TURRET_6",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_STAIR_TURRET_8",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_CHAPTER_HOUSE_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_CHAPTER_HOUSE_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_CHAPTER_HOUSE_3",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_CHAPTER_HOUSE_4",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_CHAPTER_HOUSE_5",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_CHAPTER_HOUSE_6",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_CHAPTER_HOUSE_7",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_CHAPTER_HOUSE_8",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_NORTH_MAIN_1_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_NORTH_MAIN_1_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_NORTH_MAIN_1_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_NORTH_MAIN_2_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_NORTH_MAIN_2_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_NORTH_MAIN_2_NORTH_NECK_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_NORTH_NECK_1_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_NORTH_NECK_1_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_NORTH_NECK_1_UPPER_LINK_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_NORTH_NECK_1_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_NORTH_NECK_1_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_NORTH_NECK_1_UPPER_LINK_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_UPPER_LINK_2_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_UPPER_LINK_2_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_UPPER_LINK_2_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_UPPER_LINK_2_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_UPPER_LINK_2_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_UPPER_LINK_2_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_NIGHT_RANGE_1_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_NIGHT_RANGE_1_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_NIGHT_RANGE_1_STAIR_TURRET_3",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_STAIR_TURRET_6_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_STAIR_TURRET_6_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_STAIR_TURRET_6_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_NIGHT_RANGE_2_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_NIGHT_RANGE_2_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_NIGHT_RANGE_2_STAIR_TURRET_7",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_STAIR_TURRET_7_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_STAIR_TURRET_7_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_STAIR_TURRET_7_NIGHT_RANGE_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_CHAPTER_HOUSE_5_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_CHAPTER_HOUSE_5_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_CHAPTER_HOUSE_5_VESTIBULE_EAST_1",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "MESH_FINITE_Roof_step_CHAPTER_HOUSE_5_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_NONDEGENERATE_Roof_step_CHAPTER_HOUSE_5_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "MESH_CLOSED_Roof_step_CHAPTER_HOUSE_5_VESTIBULE_EAST_2",
+      "result": "PASS",
+      "detail": "Each object is a closed shell; separate objects may intentionally contact."
+    },
+    {
+      "id": "GLB_LENGTH",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SOURCE_UNCHANGED",
+      "result": "PASS",
+      "detail": ""
+    }
+  ],
+  "pass_count": 872,
+  "fail_count": 0,
+  "limits": [
+    "Pier, girder, joist and bearing dimensions are unverified structural sizing assumptions; loads, deflection, connections, foundations and capacity not certified.",
+    "Western vestibule uses flat timber ceiling under link; no low pointed masonry arch imposed. Eastern vestibule remains taller.",
+    "Roof clearance checked against this generated roof skin only; future rafters, ties, linings and services must retain the reserved envelope.",
+    "Roof flashings, gutters, valleys, drainage and weatherproof junction details remain design work.",
+    "3D walls are schematic extrusions of R04 plan cuts; full window/door heads, room ceilings and historic details are not modeled.",
+    "No approved cathedral geometry or working vault generator changed. F5ZL-C missing support schedule remains unresolved."
+  ]
+}
