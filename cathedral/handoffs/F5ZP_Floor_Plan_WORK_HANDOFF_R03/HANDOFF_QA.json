@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "no_active_compartment_bodies": true,
+    "no_active_vertical_trials": true,
+    "source_cells_exact": true,
+    "fourteen_lower_footprints": true,
+    "lower_vertices_exact": true,
+    "source_evidence_hashes_match": true,
+    "preview_svg_parses": true
+  },
+  "status": "PASS",
+  "new_geometry_created": false,
+  "architectural_promotion": false
+}
