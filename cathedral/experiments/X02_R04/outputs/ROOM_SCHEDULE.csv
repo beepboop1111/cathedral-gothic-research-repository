@@ -1,0 +1,12 @@
+level,room,net_area_m2
+GROUND,G01 Reading parlour,11.1250
+GROUND,G02 Common room,26.2550
+GROUND,G03 House office,14.2100
+GROUND,G04 Linen store,14.2100
+GROUND,G05 Workroom,14.2100
+UPPER,U01 Chamber 1,14.5367
+UPPER,U04 Chamber 4,14.2100
+UPPER,U02 Chamber 2,14.5367
+UPPER,U05 Chamber 5,14.2100
+UPPER,U03 Chamber 3,14.5367
+UPPER,U06 Chamber 6,14.2100
