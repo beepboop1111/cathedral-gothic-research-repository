@@ -1,0 +1,359 @@
+{
+  "revision": "X02_R03",
+  "status": "REOPENED ARCHITECTURAL DESIGN STUDY",
+  "checks": [
+    {
+      "id": "VALID_refectory",
+      "pass": true,
+      "detail": "Defined concept footprint."
+    },
+    {
+      "id": "VALID_kitchen",
+      "pass": true,
+      "detail": "Defined concept footprint."
+    },
+    {
+      "id": "VALID_west_range",
+      "pass": true,
+      "detail": "Defined concept footprint."
+    },
+    {
+      "id": "VALID_residential_range",
+      "pass": true,
+      "detail": "Defined concept footprint."
+    },
+    {
+      "id": "VALID_chapter_house",
+      "pass": true,
+      "detail": "Defined concept footprint."
+    },
+    {
+      "id": "VALID_chapter_vestibule",
+      "pass": true,
+      "detail": "Defined concept footprint."
+    },
+    {
+      "id": "VALID_night_range",
+      "pass": true,
+      "detail": "Defined concept footprint."
+    },
+    {
+      "id": "VALID_stair_turret",
+      "pass": true,
+      "detail": "Defined concept footprint."
+    },
+    {
+      "id": "VALID_gate_hall",
+      "pass": true,
+      "detail": "Defined concept footprint."
+    },
+    {
+      "id": "WALL_VALID_refectory",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "WALL_VALID_kitchen",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "WALL_VALID_west_range",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "WALL_VALID_residential_range",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "WALL_VALID_chapter_house",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "WALL_VALID_chapter_vestibule",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "WALL_VALID_night_range",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "WALL_VALID_stair_turret",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "WALL_VALID_gate_hall",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "WALL_VALID_service_link",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "WALL_VALID_cloister",
+      "pass": true,
+      "detail": "Valid concept wall and opening geometry."
+    },
+    {
+      "id": "N4_ROOT_SCREEN_UNCHANGED",
+      "pass": true,
+      "detail": "Same candidate throat; no approved door or clearance claim."
+    },
+    {
+      "id": "ENTRY_GARDEN_ROOT_SCREEN",
+      "pass": true,
+      "detail": "Retained 12-root screen only."
+    },
+    {
+      "id": "NEW_BODIES_ROOT_SCREEN",
+      "pass": true,
+      "detail": "New precinct bodies avoid the screened roots."
+    },
+    {
+      "id": "GATE_HALL_GARTH_CLEAR",
+      "pass": true,
+      "detail": "Gate hall stops inside the south covered walk."
+    },
+    {
+      "id": "GATE_HALL_ENTRY_GARDEN_CLEAR",
+      "pass": true,
+      "detail": "Arrival garden kept out of the gate hall."
+    },
+    {
+      "id": "VESTIBULE_JOINS_CHAPTER",
+      "pass": true,
+      "detail": "Short two-bay link joins octagon west face."
+    },
+    {
+      "id": "VESTIBULE_JOINS_WALK",
+      "pass": true,
+      "detail": "Chapter approach directly from east walk."
+    },
+    {
+      "id": "CLOISTER_ARCADE_COUNT",
+      "pass": true,
+      "detail": "28 conceptual arcade bays: 6+8+6+8, intentionally proposed anew."
+    },
+    {
+      "id": "SEPARATE_refectory_kitchen",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_refectory_west_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_refectory_residential_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_refectory_chapter_house",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_refectory_chapter_vestibule",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_refectory_night_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_refectory_stair_turret",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_refectory_gate_hall",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_kitchen_west_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_kitchen_residential_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_kitchen_chapter_house",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_kitchen_chapter_vestibule",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_kitchen_night_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_kitchen_stair_turret",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_kitchen_gate_hall",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_west_range_residential_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_west_range_chapter_house",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_west_range_chapter_vestibule",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_west_range_night_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_west_range_stair_turret",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_west_range_gate_hall",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_residential_range_chapter_house",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_residential_range_chapter_vestibule",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_residential_range_night_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_residential_range_stair_turret",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_residential_range_gate_hall",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_chapter_house_chapter_vestibule",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_chapter_house_night_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_chapter_house_stair_turret",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_chapter_house_gate_hall",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_chapter_vestibule_night_range",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_chapter_vestibule_stair_turret",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_chapter_vestibule_gate_hall",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_night_range_gate_hall",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SEPARATE_stair_turret_gate_hall",
+      "pass": true,
+      "detail": "Non-overlapping bodies, area overlap 0.00000000 m2."
+    },
+    {
+      "id": "SOURCE_R02_UNCHANGED",
+      "pass": true,
+      "detail": "R02 retained byte-for-byte."
+    }
+  ],
+  "pass_count": 64,
+  "fail_count": 0,
+  "authority": "User authorized reconsidering the layout and earlier locks. This is a new design proposal; adoption not implied.",
+  "source_sha256": "dd8443da12f990ead6db19a63e7cb0c494a95568e256d1bab4c9cc7e0df30cc4",
+  "units": "metres; 1 SVG coordinate unit = 1 m",
+  "design_values": {
+    "chapter_across_flats_m": 12,
+    "chapter_area_m2": 119.29350596345137,
+    "chapter_vestibule_m": [
+      6.5,
+      3.5
+    ],
+    "cloister_outer_m": [
+      22,
+      26
+    ],
+    "cloister_garden_m": [
+      15,
+      19
+    ],
+    "arcade_bays": 28,
+    "wall_thickness_study_m": 0.45,
+    "chapter_wall_study_m": 0.6
+  },
+  "not_validated": [
+    "masonry capacity",
+    "finished door/window clearances",
+    "actual CH-N5 exterior",
+    "new stair rise/height",
+    "site boundaries",
+    "roof and flying-buttress clearance"
+  ],
+  "preservation": "No vault generator, cathedral geometry, original research or previous scheme edited."
+}
