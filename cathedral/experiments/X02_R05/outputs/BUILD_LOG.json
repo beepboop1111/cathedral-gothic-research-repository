@@ -1,0 +1,45 @@
+{
+  "pass": 872,
+  "fail": 0,
+  "metrics": {
+    "bearing_stations_Z_m": [
+      27.65,
+      32.6,
+      35.4,
+      40.25
+    ],
+    "girder_centers_X_m": [
+      -29.7,
+      -27.6
+    ],
+    "piers": 8,
+    "pier_size_m": [
+      0.7,
+      0.7,
+      2.97
+    ],
+    "girders": 6,
+    "girder_section_m": [
+      0.3,
+      0.45
+    ],
+    "bearing_length_m": 0.35,
+    "nominal_seat_area_m2": 0.105,
+    "clear_spans_m": [
+      4.25,
+      2.1,
+      4.15
+    ],
+    "west_vestibule_clear_width_m": 2.1,
+    "west_vestibule_clear_height_m": 2.97,
+    "reserved_stair_plane_m": 5.7,
+    "roof_min_over_upper_landing_m": 6.9979166666666615,
+    "upper_landing_min_roof_headroom_m": 3.3979166666666614,
+    "min_tread_roof_headroom_m": 3.880739418167261,
+    "upper_flat_ceiling_m": 6.3,
+    "upper_room_clear_height_m": 2.7,
+    "roof_skin_vertical_thickness_m": 0.18,
+    "mesh_objects": 151,
+    "GLB_bytes": 276792
+  }
+}
