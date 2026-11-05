@@ -1,0 +1,291 @@
+{
+  "revision": "X02_R02",
+  "status": "EXPERIMENTAL PLANNING PROPOSAL FOR REVIEW",
+  "checks": [
+    {
+      "id": "RETAINED_wall",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_cloister_outer",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_cloister_garden",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_east_wing",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_chapter_hall",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_refectory",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_new_garden",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_chapel_reference",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_night_route",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-34433-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-32597-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-30797-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-28997-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-27197-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-25397-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-23597-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-21797-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-19997-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-18197-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-16397-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_ROOT-NV-R3-14597-N",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_NIGHT_R2",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_CHAPTER_R3",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_NIGHT_1p2m_SWEEP",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "RETAINED_NIGHT_STAIR_RESERVATION",
+      "result": "PASS",
+      "evidence": "R01 geometry identical within 1e-10 m; no source-body relocation."
+    },
+    {
+      "id": "VALID_n4_link",
+      "result": "PASS",
+      "evidence": "Valid nonempty polygon; no automatic repair."
+    },
+    {
+      "id": "VALID_CHAPTER_VESTIBULE",
+      "result": "PASS",
+      "evidence": "Valid nonempty polygon; no automatic repair."
+    },
+    {
+      "id": "VALID_NIGHT_STAIR_LOBBY_ZONE",
+      "result": "PASS",
+      "evidence": "Valid nonempty polygon; no automatic repair."
+    },
+    {
+      "id": "VALID_CONTROLLED_ENTRY_LOBBY",
+      "result": "PASS",
+      "evidence": "Valid nonempty polygon; no automatic repair."
+    },
+    {
+      "id": "link_root_overlap_m2",
+      "result": "PASS",
+      "evidence": "0.0000000000 m2; conditional X01 geometry only."
+    },
+    {
+      "id": "link_garden_overlap_m2",
+      "result": "PASS",
+      "evidence": "0.0000000000 m2; conditional X01 geometry only."
+    },
+    {
+      "id": "conditional_chapel_overlap_m2",
+      "result": "PASS",
+      "evidence": "0.0000000000 m2; conditional X01 geometry only."
+    },
+    {
+      "id": "ceremony_garden_overlap_m2",
+      "result": "PASS",
+      "evidence": "0.0000000000 m2; conditional X01 geometry only."
+    },
+    {
+      "id": "ceremony_root_overlap_m2",
+      "result": "PASS",
+      "evidence": "0.0000000000 m2; conditional X01 geometry only."
+    },
+    {
+      "id": "ceremony_outside_domain_m2",
+      "result": "PASS",
+      "evidence": "0.0000000000 m2; conditional X01 geometry only."
+    },
+    {
+      "id": "refectory_outside_domain_m2",
+      "result": "PASS",
+      "evidence": "0.0000000000 m2; conditional X01 geometry only."
+    },
+    {
+      "id": "refectory_garden_overlap_m2",
+      "result": "PASS",
+      "evidence": "0.0000000000 m2; conditional X01 geometry only."
+    },
+    {
+      "id": "VESTIBULE_INSIDE_RANGE",
+      "result": "PASS",
+      "evidence": "31.5 m2 vestibule reserved inside the unchanged east wing."
+    },
+    {
+      "id": "NIGHT_ZONE_INSIDE_RANGE",
+      "result": "PASS",
+      "evidence": "59.4 m2 functional room zone; not a designed stair."
+    },
+    {
+      "id": "EXISTING_STAIR_RESERVE_RETAINED",
+      "result": "PASS",
+      "evidence": "R01 hypothetical stair box retained within larger night/lobby functional zone."
+    },
+    {
+      "id": "ENTRY_LOBBY_IN_WALK",
+      "result": "PASS",
+      "evidence": "Controlled-entry reservation uses south walk, no garden intrusion."
+    },
+    {
+      "id": "VESTIBULE_TOUCHES_WALK",
+      "result": "PASS",
+      "evidence": "East walk meets vestibule at X=-30."
+    },
+    {
+      "id": "VESTIBULE_TOUCHES_HALL",
+      "result": "PASS",
+      "evidence": "Vestibule meets hall at X=-21."
+    },
+    {
+      "id": "GALLERY_TOUCHES_WALK",
+      "result": "PASS",
+      "evidence": "External gallery meets south walk at Z=18.9."
+    },
+    {
+      "id": "GARDEN_MARGIN_RETAINED",
+      "result": "PASS",
+      "evidence": "0.35 m planning margin retained by +0.40 m center offset."
+    },
+    {
+      "id": "N4_THROAT_RETAINED",
+      "result": "PASS",
+      "evidence": "Same 195.6 mm root-only screening gap as R01."
+    },
+    {
+      "id": "SOUTH_NOT_PLACED",
+      "result": "PASS",
+      "evidence": "No guessed southern site polygon or replacement baseline."
+    },
+    {
+      "id": "SOURCE_BYTES_UNCHANGED",
+      "result": "PASS",
+      "evidence": "All retained source SHA-256 values unchanged."
+    }
+  ],
+  "pass_count": 48,
+  "fail_count": 0,
+  "metrics": {
+    "gallery_width_R01_m": 2.7,
+    "gallery_width_R02_m": 3.5,
+    "gallery_center_shift_east_m": 0.4,
+    "portal_center_X_m": -34.2277,
+    "gallery_center_X_m": -33.8277,
+    "throat_width_retained_m": 1.2,
+    "link_area_R01_m2": 14.561250000000014,
+    "link_area_R02_m2": 17.95125,
+    "link_root_gap_m": 0.19559999999999889,
+    "link_garden_gap_m": 0.35000000000000137,
+    "link_root_overlap_m2": 0.0,
+    "link_garden_overlap_m2": 0.0,
+    "conditional_chapel_overlap_m2": 0.0,
+    "ceremony_garden_overlap_m2": 0.0,
+    "ceremony_root_overlap_m2": 0.0,
+    "ceremony_outside_domain_m2": 0.0,
+    "refectory_outside_domain_m2": 0.0,
+    "refectory_garden_overlap_m2": 0.0,
+    "vestibule_length_m": 9,
+    "vestibule_width_m": 3.5,
+    "vestibule_area_m2": 31.5,
+    "night_lobby_zone_area_m2": 59.40000000000001,
+    "entry_lobby_area_m2": 12.25,
+    "screened_root_count": 12
+  },
+  "source_hashes_before": {
+    "01_Cathedral_Cloisters_and_Attached_Buildings.md": "aa8d33e404ef9d4f239ec454e13d22c55ceceacc1c6ec799afcb4ad1fe7ee749",
+    "02_Gothic_Cathedral_Floorplans_and_Proportions.md": "a03f3bd9648de09e7cf101ab807d7240811e65ca2d1364e9e60dd694f6f3ac37",
+    "R01_X02_GEOMETRY.json": "5e39ca5ba8c51c66e550fba6702ef1206705fca52d947292183acacf6af9f93d",
+    "R01_X02_QA.json": "678dcfc7444b66c6f2fb95bc75cc7d75a50f3c9ec57164854b80616b68df9602",
+    "00_README_Research_Bibliography_and_Status.md": "8eefe0cc48647236a25bb7cba9493bf7a9d8c70d1a95fb25f05318186b32a3dd"
+  },
+  "source_hashes_after": {
+    "01_Cathedral_Cloisters_and_Attached_Buildings.md": "aa8d33e404ef9d4f239ec454e13d22c55ceceacc1c6ec799afcb4ad1fe7ee749",
+    "02_Gothic_Cathedral_Floorplans_and_Proportions.md": "a03f3bd9648de09e7cf101ab807d7240811e65ca2d1364e9e60dd694f6f3ac37",
+    "R01_X02_GEOMETRY.json": "5e39ca5ba8c51c66e550fba6702ef1206705fca52d947292183acacf6af9f93d",
+    "R01_X02_QA.json": "678dcfc7444b66c6f2fb95bc75cc7d75a50f3c9ec57164854b80616b68df9602",
+    "00_README_Research_Bibliography_and_Status.md": "8eefe0cc48647236a25bb7cba9493bf7a9d8c70d1a95fb25f05318186b32a3dd"
+  },
+  "architectural_approval": false,
+  "structural_validation": false,
+  "actual_chapel_clearance_verified": false
+}
