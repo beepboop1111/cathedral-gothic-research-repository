@@ -1,0 +1,25 @@
+measurement,value,units_from_key,scope
+N4_portal_X_m,-34.2277,see measurement suffix,experimental 2D screening only
+N6_reservation_X_m,-24.867700000000003,see measurement suffix,experimental 2D screening only
+N4_wall_face_Z_m,12.0625,see measurement suffix,experimental 2D screening only
+N4_root_gap_m,0.19559999999999889,see measurement suffix,experimental 2D screening only
+garden_area_m2,47.57534999999999,see measurement suffix,experimental 2D screening only
+garden_root_gap_m,0.23750000000000074,see measurement suffix,experimental 2D screening only
+N5_conditional_chapel_overlap_m2,2.035320000000016,see measurement suffix,experimental 2D screening only
+ceremony_sweep_root_overlap_m2,0.0,see measurement suffix,experimental 2D screening only
+ceremony_sweep_garden_overlap_m2,0.0,see measurement suffix,experimental 2D screening only
+ceremony_outside_known_route_domain_m2,0.0,see measurement suffix,experimental 2D screening only
+night_outside_known_route_domain_m2,0.0,see measurement suffix,experimental 2D screening only
+night_sweep_root_overlap_m2,0.0,see measurement suffix,experimental 2D screening only
+ceremony_night_sweep_overlap_m2,0.0,see measurement suffix,experimental 2D screening only
+stair_reservation_outside_east_wing_m2,0.0,see measurement suffix,experimental 2D screening only
+ceremony_centerline_length_m,41.1652,see measurement suffix,experimental 2D screening only
+night_centerline_length_m,13.037500000000001,see measurement suffix,experimental 2D screening only
+conditional_N4_root_screen_width_ceiling_m,1.5912071554175284,see measurement suffix,experimental 2D screening only
+retained_X01_root_count,12,see measurement suffix,experimental 2D screening only
+south_cloister_area_m2,452.47999999999996,see measurement suffix,experimental 2D screening only
+north_cloister_area_m2,572,see measurement suffix,experimental 2D screening only
+cloister_area_increase_percent,26.41442715700142,see measurement suffix,experimental 2D screening only
+south_garden_area_m2,203.28,see measurement suffix,experimental 2D screening only
+north_garden_area_m2,285,see measurement suffix,experimental 2D screening only
+north_known_massing_union_m2,1199.5,see measurement suffix,experimental 2D screening only
