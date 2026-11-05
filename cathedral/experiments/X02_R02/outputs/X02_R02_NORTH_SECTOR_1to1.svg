@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57000mm" height="60000mm" viewBox="-56 -60 57 60">
+<title>X02 R02 experimental north-sector layout; physical 1:1; 1 coordinate unit = 1 metre</title>
+<g id="wall">
+<path d="M -9.0545000,-11.8129000 L -9.0545000,-12.0625000 L -52.0169000,-12.0625000 L -52.0169000,-11.8129000 L -9.0545000,-11.8129000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="cloister_outer">
+<path d="M -30.0000000,-18.9000000 L -30.0000000,-44.9000000 L -52.0000000,-44.9000000 L -52.0000000,-18.9000000 L -30.0000000,-18.9000000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="cloister_garden">
+<path d="M -33.5000000,-22.4000000 L -33.5000000,-41.4000000 L -48.5000000,-41.4000000 L -48.5000000,-22.4000000 L -33.5000000,-22.4000000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="east_wing">
+<path d="M -21.0000000,-22.9000000 L -21.0000000,-55.9000000 L -30.0000000,-55.9000000 L -30.0000000,-22.9000000 L -21.0000000,-22.9000000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="chapter_hall">
+<path d="M -21.0000000,-29.5000000 L -21.0000000,-38.5000000 L -9.0000000,-38.5000000 L -6.0000000,-37.0000000 L -6.0000000,-31.0000000 L -9.0000000,-29.5000000 L -21.0000000,-29.5000000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="refectory">
+<path d="M -32.0000000,-44.9000000 L -32.0000000,-54.9000000 L -52.0000000,-54.9000000 L -52.0000000,-44.9000000 L -32.0000000,-44.9000000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="new_garden">
+<path d="M -35.9277000,-14.2500000 L -35.9277000,-18.7500000 L -46.5000000,-18.7500000 L -46.5000000,-14.2500000 L -35.9277000,-14.2500000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="chapel_reference">
+<path d="M -29.1785000,-12.0625000 L -29.1785000,-14.3089000 L -32.1737000,-14.3089000 L -32.1737000,-12.0625000 L -29.1785000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="n4_link">
+<path d="M -33.6277000,-12.0625000 L -34.8277000,-12.0625000 L -34.8277000,-14.1625000 L -35.5777000,-15.1625000 L -35.5777000,-18.9000000 L -32.0777000,-18.9000000 L -32.0777000,-15.1625000 L -33.6277000,-14.1625000 L -33.6277000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="night_route">
+<path d="M -24.2677000,-12.0625000 L -25.4677000,-12.0625000 L -25.4677000,-14.1625000 L -25.6177000,-14.1625000 L -25.6177000,-22.9000000 L -24.1177000,-22.9000000 L -24.1177000,-14.1625000 L -24.2677000,-14.1625000 L -24.2677000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-34433-N">
+<path d="M -44.5549000,-12.0625000 L -44.5549000,-12.4785000 L -44.9709000,-12.4785000 L -44.9709000,-12.0625000 L -44.5549000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-32597-N">
+<path d="M -42.6673000,-12.0625000 L -42.0849000,-12.0625000 L -41.9601000,-14.0125000 L -42.7921000,-14.0125000 L -42.6673000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-30797-N">
+<path d="M -39.8281000,-12.0625000 L -39.8281000,-12.4785000 L -40.2441000,-12.4785000 L -40.2441000,-12.0625000 L -39.8281000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-28997-N">
+<path d="M -37.9873000,-12.0625000 L -37.4049000,-12.0625000 L -37.2801000,-14.0125000 L -38.1121000,-14.0125000 L -37.9873000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-27197-N">
+<path d="M -35.1481000,-12.0625000 L -35.1481000,-12.4785000 L -35.5641000,-12.4785000 L -35.5641000,-12.0625000 L -35.1481000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-25397-N">
+<path d="M -33.3073000,-12.0625000 L -32.7249000,-12.0625000 L -32.6001000,-14.0125000 L -33.4321000,-14.0125000 L -33.3073000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-23597-N">
+<path d="M -30.4681000,-12.0625000 L -30.4681000,-12.4785000 L -30.8841000,-12.4785000 L -30.8841000,-12.0625000 L -30.4681000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-21797-N">
+<path d="M -28.6273000,-12.0625000 L -28.0449000,-12.0625000 L -27.9201000,-14.0125000 L -28.7521000,-14.0125000 L -28.6273000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-19997-N">
+<path d="M -25.7881000,-12.0625000 L -25.7881000,-12.4785000 L -26.2041000,-12.4785000 L -26.2041000,-12.0625000 L -25.7881000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-18197-N">
+<path d="M -23.9473000,-12.0625000 L -23.3649000,-12.0625000 L -23.2401000,-14.0125000 L -24.0721000,-14.0125000 L -23.9473000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-16397-N">
+<path d="M -21.1081000,-12.0625000 L -21.1081000,-12.4785000 L -21.5241000,-12.4785000 L -21.5241000,-12.0625000 L -21.1081000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-14597-N">
+<path d="M -19.2673000,-12.0625000 L -18.6849000,-12.0625000 L -18.5601000,-14.0125000 L -19.3921000,-14.0125000 L -19.2673000,-12.0625000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="CEREMONY_R1">
+<path d="M -34.2277000,-12.0625000 L -34.2277000,-14.4625000 L -33.8277000,-15.1625000 L -33.8277000,-20.6500000 L -31.7500000,-20.6500000 L -31.7500000,-34.0000000 L -15.0000000,-34.0000000" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="NIGHT_R2">
+<path d="M -24.8677000,-12.0625000 L -24.8677000,-25.1000000" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="NIGHT_STAIR_RESERVATION">
+<path d="M -23.6677000,-23.9000000 L -23.6677000,-26.3000000 L -26.0677000,-26.3000000 L -26.0677000,-23.9000000 L -23.6677000,-23.9000000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="CHAPTER_VESTIBULE">
+<path d="M -21.0000000,-32.2500000 L -21.0000000,-35.7500000 L -30.0000000,-35.7500000 L -30.0000000,-32.2500000 L -21.0000000,-32.2500000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="NIGHT_STAIR_LOBBY_ZONE">
+<path d="M -21.0000000,-22.9000000 L -21.0000000,-29.5000000 L -30.0000000,-29.5000000 L -30.0000000,-22.9000000 L -21.0000000,-22.9000000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="CONTROLLED_ENTRY_LOBBY">
+<path d="M -32.0777000,-18.9000000 L -32.0777000,-22.4000000 L -35.5777000,-22.4000000 L -35.5777000,-18.9000000 L -32.0777000,-18.9000000 Z" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<g id="REFECTORY_ROUTE">
+<path d="M -31.7500000,-34.0000000 L -31.7500000,-43.1500000 L -42.0000000,-43.1500000 L -42.0000000,-48.0000000" fill="none" stroke="#a33737" stroke-width=".035" stroke-dasharray=".18 .10"/>
+</g>
+<text x="-41" y="-32" font-family="sans-serif" text-anchor="middle" font-size=".45">CLOISTER / GARDEN RETAINED</text>
+<text x="-33.8277" y="-17" font-family="sans-serif" text-anchor="middle" font-size=".45">3.50m GALLERY</text>
+<text x="-25.5" y="-34" font-family="sans-serif" text-anchor="middle" font-size=".45">9 x 3.5m VESTIBULE</text>
+<text x="-25.5" y="-27" font-family="sans-serif" text-anchor="middle" font-size=".45">NIGHT LOBBY / STAIR ZONE</text>
+<text x="-42" y="-50" font-family="sans-serif" text-anchor="middle" font-size=".45">REFECTORY</text>
+</svg>
