@@ -1,0 +1,16 @@
+{
+  "master_reference": {
+    "branch": "cathedral/governance-r01",
+    "blob_sha": "1d7e358ff7562fcc64088854baa2abd3d31a729e"
+  },
+  "parent_experiment": "X02_R01",
+  "retained_sources": {
+    "01_Cathedral_Cloisters_and_Attached_Buildings.md": "aa8d33e404ef9d4f239ec454e13d22c55ceceacc1c6ec799afcb4ad1fe7ee749",
+    "02_Gothic_Cathedral_Floorplans_and_Proportions.md": "a03f3bd9648de09e7cf101ab807d7240811e65ca2d1364e9e60dd694f6f3ac37",
+    "R01_X02_GEOMETRY.json": "5e39ca5ba8c51c66e550fba6702ef1206705fca52d947292183acacf6af9f93d",
+    "R01_X02_QA.json": "678dcfc7444b66c6f2fb95bc75cc7d75a50f3c9ec57164854b80616b68df9602",
+    "00_README_Research_Bibliography_and_Status.md": "8eefe0cc48647236a25bb7cba9493bf7a9d8c70d1a95fb25f05318186b32a3dd"
+  },
+  "historical_report_archive": "project_sources/01-Research_03_Research_and_Tools.zip; F5ZP_Cloister_and_Cathedral_Plan_Research_Start/research_reports/",
+  "original_sources_modified": false
+}
