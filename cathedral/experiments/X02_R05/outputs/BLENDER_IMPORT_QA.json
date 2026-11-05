@@ -1,0 +1,19 @@
+{
+  "Blender_version": "5.0.1",
+  "mesh_objects": 151,
+  "mesh_validation_changes": [],
+  "bounds_native_Z_up_m": {
+    "min": [
+      -30.25,
+      -55.650001525878906,
+      -0.15000000596046448
+    ],
+    "max": [
+      -11.199999809265137,
+      -22.149999618530273,
+      12.279999732971191
+    ]
+  },
+  "units": "metres",
+  "saved_blend": "/home/christopher/Desktop/F5ZP_X02_R05_BEARINGS_AND_ROOFS/outputs/F5ZP_X02_R05_EDITABLE.blend"
+}
