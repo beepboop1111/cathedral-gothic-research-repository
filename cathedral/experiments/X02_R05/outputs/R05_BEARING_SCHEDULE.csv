@@ -1,0 +1,13 @@
+seat,pier,length_m,nominal_area_m2,status
+G1W_S,P1W,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G1W_N,P2W,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G1E_S,P1E,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G1E_N,P2E,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G2W_S,P2W,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G2W_N,P3W,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G2E_S,P2E,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G2E_N,P3E,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G3W_S,P3W,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G3W_N,P4W,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G3E_S,P3E,.350,.105,EXPERIMENTAL sizing; capacity unresolved
+G3E_N,P4E,.350,.105,EXPERIMENTAL sizing; capacity unresolved
