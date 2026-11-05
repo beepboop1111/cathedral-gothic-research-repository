@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "archives_preserved_sha256": 4,
+  "png_crc_and_decode_passes": 443,
+  "new_unique_pngs": 439,
+  "exact_duplicate_occurrences_retained": 4,
+  "folder_blank_label_files_retained": 236,
+  "limited_tone_candidates_flagged": 1,
+  "inherited_catalog_files_byte_unchanged": 9,
+  "model_or_generator_changes": false,
+  "historical_geometry_approval": false,
+  "meaux_original_identified": false,
+  "previews": "4 derived JPEG contact sheets, original PNGs unchanged",
+  "visual_review": "Source sample sheet plus Brandon and mixed Gothic overview inspected; not an exhaustive figure or edition audit"
+}

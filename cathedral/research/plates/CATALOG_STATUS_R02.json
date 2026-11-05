@@ -1,0 +1,61 @@
+{
+  "status": "R02: four uploaded archives catalogued and PNGs verified; no geometry changes",
+  "catalogued_file_occurrences": 697,
+  "unique_byte_assets": 693,
+  "inherited_page_records": 1449,
+  "inherited_claim_records": 1549,
+  "inherited_source_keys": 19,
+  "batches": [
+    {
+      "batch_id": "BRANDON_V2_UPLOAD_R02",
+      "manifest": "batches/BRANDON_V2_UPLOAD_R02/BATCH_MANIFEST.json",
+      "occurrences": 133,
+      "original_source_sha256": "b777c5d3264542ae0d153a3adbc1ababbb5858e047211d680bff1abfb0c3eecb",
+      "original_library_url": "https://chatgpt.com/library?file_id=libfile_1967b8ea51148191b6a36b2108472d16&account_id=personal"
+    },
+    {
+      "batch_id": "COLLINGS_V2_UPLOAD_R02",
+      "manifest": "batches/COLLINGS_V2_UPLOAD_R02/BATCH_MANIFEST.json",
+      "occurrences": 151,
+      "original_source_sha256": "a70ce5de5d378c069d3ab5058d5c66098bcb5a3a6c5bc422109e59eac24b0247",
+      "original_library_url": "https://chatgpt.com/library?file_id=libfile_385b1297d408819187974caeac94ef49&account_id=personal"
+    },
+    {
+      "batch_id": "EXISTING_PLATES_ARCHIVE_R01",
+      "manifest": "batches/EXISTING_PLATES_ARCHIVE_R01/BATCH_MANIFEST.json",
+      "occurrences": 229,
+      "original_source_sha256": "3f15d6800b60d796eb930762d166d51c5ec20c3600b714e7b14865a69a0d430e",
+      "original_library_url": null
+    },
+    {
+      "batch_id": "EXISTING_RESEARCH_ARCHIVE_R01",
+      "manifest": "batches/EXISTING_RESEARCH_ARCHIVE_R01/BATCH_MANIFEST.json",
+      "occurrences": 25,
+      "original_source_sha256": "c899b7df3fe0ccd6ee4b048ab4e4fe540b4646179f38779f837b7551a76e8b44",
+      "original_library_url": null
+    },
+    {
+      "batch_id": "GOTHIC_PLATES_UPLOAD_R02",
+      "manifest": "batches/GOTHIC_PLATES_UPLOAD_R02/BATCH_MANIFEST.json",
+      "occurrences": 111,
+      "original_source_sha256": "8cb27c1a792f0ae86dde08ad23a0cfd56ae0f4c7d09029f233938cfe8c160dd9",
+      "original_library_url": "https://chatgpt.com/library?file_id=libfile_d2384b3dfed8819188728b627995ba2f&account_id=personal"
+    },
+    {
+      "batch_id": "PALEY_UPLOAD_R02",
+      "manifest": "batches/PALEY_UPLOAD_R02/BATCH_MANIFEST.json",
+      "occurrences": 48,
+      "original_source_sha256": "4a1ccbb34916640a68473216afc6f43242a6fb2924b60b0ef689dfaa5f4845c6",
+      "original_library_url": "https://chatgpt.com/library?file_id=libfile_26b39a8892848191907c95f5a7f94327&account_id=personal"
+    }
+  ],
+  "new_batch_received": true,
+  "new_png_occurrences": 443,
+  "new_unique_images": 439,
+  "folder_blank_labels_retained": 236,
+  "original_bytes_uploaded_to_github": false,
+  "full_resolution_originals_linked_from_existing_uploads": true,
+  "original_images_modified": false,
+  "geometry_generated": false,
+  "meaux_original_plate_identified": false
+}

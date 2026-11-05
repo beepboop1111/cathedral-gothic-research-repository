@@ -1,0 +1,13 @@
+{
+  "kind": "user_uploaded_book_plate_archive",
+  "uploaded_name": "paley.zip",
+  "library_file_id": "libfile_26b39a8892848191907c95f5a7f94327",
+  "source_url": "https://chatgpt.com/library?file_id=libfile_26b39a8892848191907c95f5a7f94327&account_id=personal",
+  "new_user_batch": true,
+  "book_title": null,
+  "edition": null,
+  "volume": null,
+  "bibliographic_status": "UNRESOLVED: archive labels are collection hints, not verified editions",
+  "original_storage": "Existing uploaded archive; persistent Library identity supplied with attachment",
+  "binary_originals_in_github": false
+}

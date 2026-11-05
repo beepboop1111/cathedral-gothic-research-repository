@@ -1,8 +1,8 @@
-# Cathedral historical plate catalog — R01
+# Cathedral historical plate catalog — R02 intake
 
 **Reference organization only. Original images, working tracery, generators and approved cathedral geometry are unchanged.**
 
-This catalog is ready for the next uploaded book-plate batch. Its seed is the recovered **existing** consolidated research catalog: **1,449 indexed atlas-page records, 1,549 research claims, 19 source keys**. These are different record types, not 1,549 individually verified historical geometry assets. Existing page and claim IDs are preserved.
+The four new archives are now catalogued. Start with [Uploaded plates R02](UPLOAD_R02.md) for previews, original ZIP links and the verified file list. Its seed is the recovered **existing** consolidated research catalog: **1,449 indexed atlas-page records, 1,549 research claims, 19 source keys**. These are different record types, not 1,549 individually verified historical geometry assets. Existing page and claim IDs are preserved.
 
 ## Open here
 
@@ -14,7 +14,7 @@ This catalog is ready for the next uploaded book-plate batch. Its seed is the re
 | Retain unresolved historical issues | [RESEARCH_ISSUES.csv](inherited_consolidated/catalogue/RESEARCH_ISSUES.csv) |
 | See the prior catalog's scope and limits | [Recovered README](inherited_consolidated/README.md) |
 | Locate exact available source files by checksum | [Batch manifests](batches/) |
-| Confirm current intake / GitHub storage status | [CATALOG_STATUS_R01.json](CATALOG_STATUS_R01.json) |
+| Confirm current intake / GitHub storage status | [CATALOG_STATUS_R02.json](CATALOG_STATUS_R02.json) |
 | Register another batch without editing images | [Intake script](tools/index_plate_batch_R01.py) |
 
 ## Low-interruption workflow
@@ -24,11 +24,11 @@ This catalog is ready for the next uploaded book-plate batch. Its seed is the re
 3. Associate source metadata and existing page/claim IDs as evidence becomes available. PDF page index, printed book page, plate number and figure number are separate fields. Source acquisition and full-resolution storage are recorded independently from historical validation.
 4. Open only the needed source pages for active work. Keep crops, grayscale cleanup, measured SVGs, comparison overlays and 3D results versioned separately, linked back to the original asset ID. Adding a batch never regenerates a model.
 
-The current intake manifests index **254 available image/PDF/SVG/archive file occurrences** from the two already attached research archives. These include source pages, atlases, contact sheets and prior derivatives; they are not 254 newly received plates or automatically approved originals. Nested archives are listed, not recursively expanded.
+The seed R01 intake manifests index **254 available image/PDF/SVG/archive file occurrences** from the two earlier research archives. R02 adds **443 PNG occurrences**, yielding **697 file occurrences / 693 exact-byte-unique assets** in the combined catalog. These include source pages, atlases, contact sheets and prior derivatives; they are not 254 newly received plates or automatically approved originals. Nested archives are listed, not recursively expanded.
 
 ## Original bytes and large-file storage
 
-The full-resolution binary originals remain in the named, hash-identified project source archives. **This GitHub commit stores catalogs, provenance and intake code; it does not claim those binary originals were uploaded to GitHub.** The incoming large set has not yet appeared in this session's attachment list.
+The full-resolution binary originals remain in the named, hash-identified project source archives. **This GitHub commit stores catalogs, provenance and intake code; it does not claim those binary originals were uploaded to GitHub.** The four new full-resolution archives are linked in [Uploaded plates R02](UPLOAD_R02.md).
 
 For future binary hosting, Git LFS or release/source-archive links keep high-resolution scans out of ordinary Git history. Use the route supported by the actual connected upload capability when the batch is available. LFS is **not activated by this setup**; never commit stand-alone LFS pointers unless their corresponding objects have actually uploaded and been retrieved successfully. No repository LFS settings, billing settings or existing `.gitattributes` are changed here.
 
