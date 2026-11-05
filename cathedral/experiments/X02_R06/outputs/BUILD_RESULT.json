@@ -1,0 +1,56 @@
+{
+  "QA_pass": 12,
+  "PDF": "F5ZP_X02_R06_OVERALL_CONTEXT_REVIEW.pdf",
+  "metrics": {
+    "garth_dimensions_m": [
+      15,
+      19
+    ],
+    "garth_area_m2": 285.0,
+    "R05_roof_projection_on_garth_m2": 0.0,
+    "chapter_court_R03_area_m2": 37.301515190165,
+    "chapter_court_projected_R05_roof_cover_m2": 15.211787771341298,
+    "chapter_court_remaining_uncovered_by_R05_m2": 22.089727418823703,
+    "chapter_court_R05_cover_percent": 40.780616266633785,
+    "N4_route_min_2D_root_margin_m": 0.19559999999999889,
+    "R05_roof_min_2D_root_distance_m": 8.1375,
+    "main_vs_chapter_outer_peak_difference_m": 0.5,
+    "heights": [
+      {
+        "roof": "NORTH_MAIN",
+        "underside_peak_m": 12.1,
+        "outer_peak_m": 12.28
+      },
+      {
+        "roof": "NORTH_NECK",
+        "underside_peak_m": 9.85,
+        "outer_peak_m": 10.03
+      },
+      {
+        "roof": "UPPER_LINK",
+        "underside_peak_m": 7.31,
+        "outer_peak_m": 7.489999999999999
+      },
+      {
+        "roof": "NIGHT_RANGE",
+        "underside_peak_m": 9.149999999999999,
+        "outer_peak_m": 9.329999999999998
+      },
+      {
+        "roof": "STAIR_TURRET",
+        "underside_peak_m": 9.55,
+        "outer_peak_m": 9.73
+      },
+      {
+        "roof": "VESTIBULE_EAST",
+        "underside_peak_m": 5.75,
+        "outer_peak_m": 5.93
+      },
+      {
+        "roof": "CHAPTER_HOUSE",
+        "underside_peak_m": 11.6,
+        "outer_peak_m": 11.78
+      }
+    ]
+  }
+}
