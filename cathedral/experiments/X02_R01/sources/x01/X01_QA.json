@@ -1,0 +1,181 @@
+{
+  "id": "F5ZP-E5-S2-N4-NORTH-GATE-X01",
+  "status": "SEPARATE EXPERIMENTAL PLANNING OUTPUT ONLY - NO SOURCE GEOMETRY CHANGED OR PORTALS CUT",
+  "coordinate_system": "X east; Z north; Y height; 1 model unit = 1 mm; drawings in metres",
+  "source_checksums": {
+    "F5ZM_C_JSON": "6b3f35c35aeca588cbb8c7c81498bb9fbc58c92e30f4a0b63372f2940312a597",
+    "UG_VAULT_GENERATOR": "eb68a0c16ca5dadea3f055c03c32376fee6408c5c4935dc3de7bbc68a12c45f6",
+    "E5_R3_NOTES": "73d3e974846f39ed09453dc95fce5dd0fbe41617a4df688f902975c50cd123bb",
+    "E5_C3_L1_HANDOFF": "17f81329f56c7803743189e9235cebcb6ddeeec64773c608ce034e2b83b0b995"
+  },
+  "baseline_separation": {
+    "E5_C3_L1": "PROTECTED SOUTH monastic house/cloister at Z -69 to -35; never moved or overwritten",
+    "E5_R3": "EXPERIMENTAL NORTH monastery/cloister Z +18.9 to +44.9, used here solely as a candidate",
+    "E5_S2": "EXPANDED CATHEDRAL EXPERIMENT, not an approved replacement for source F5ZP"
+  },
+  "reference_geometry": {
+    "N4_fullbay_x_m": [
+      -37.6961,
+      -33.0161
+    ],
+    "N5_fullbay_x_m": [
+      -33.0161,
+      -28.3361
+    ],
+    "N6_fullbay_x_m": [
+      -28.3361,
+      -23.6561
+    ],
+    "R0_R1_R2_R3_z_m": [
+      3.8129,
+      6.4129,
+      9.0129,
+      11.8129
+    ],
+    "north_wall_outer_face_z_m": 12.0625,
+    "principal_buttress_tip_z_m": 14.0125,
+    "secondary_buttress_tip_z_m": 12.4785,
+    "CH_N5_source_vault_mm": [
+      2304,
+      1728
+    ],
+    "CH_N5_scaled_vault_trial_m": [
+      2.9952,
+      2.2464
+    ],
+    "CH_N5_test_rectangle": [
+      -32.1737,
+      12.0625,
+      -29.1785,
+      14.3089
+    ],
+    "chapel_test_limitation": "vault dimensions are not established chapel exterior footprint, position, or total projection"
+  },
+  "candidate_comparison": {
+    "N5_west": {
+      "x_m": -31.8045,
+      "wall_face_support_gap_m": 1.8408,
+      "chapel_trial_overlap_sqm": 2.0353,
+      "finding": "DO NOT CLEAR: overlaps conditional scaled CH-N5 projection"
+    },
+    "N4_east": {
+      "x_m": -34.2277,
+      "wall_face_support_gap_m": 1.8408,
+      "chapel_trial_min_clearance_from_throat_m": 1.454,
+      "closest_R1_R2_trial_envelope_margin_m": 0.1954,
+      "finding": "PREFERRED EXPERIMENTAL PORTAL; no root or assumed chapel test rectangle overlap"
+    },
+    "N6_east_night_reservation": {
+      "x_m": -24.8677,
+      "wall_face_support_gap_m": 1.8408,
+      "finding": "separate private route reservation; not a selected or cleared wall opening"
+    }
+  },
+  "planning_widths": {
+    "throat_m": 1.2,
+    "widened_gallery_m": 2.7,
+    "original_E5_R3_gallery_m": 3.5,
+    "R1_R2_envelopes_m": 0.666,
+    "R3_gap_width_m": 1.8408,
+    "N4_root_gap_to_throat_m": 0.1956,
+    "N4_root_gap_at_wall_m": 0.3204
+  },
+  "checks": {
+    "N4_gate_throat": {
+      "name": "N4_gate_throat",
+      "footprint_area_sqm": 2.52,
+      "root_overlaps_sqm": {},
+      "minimum_root_gap_m": 0.1956,
+      "overlaps_wall_sqm": 0.0,
+      "overlaps_chapel_test_sqm": 0.0,
+      "overlaps_cloister_outer_sqm": 0.0
+    },
+    "N4_gallery_transition": {
+      "name": "N4_gallery_transition",
+      "footprint_area_sqm": 1.95,
+      "root_overlaps_sqm": {},
+      "minimum_root_gap_m": 0.2465,
+      "overlaps_wall_sqm": 0.0,
+      "overlaps_chapel_test_sqm": 0.0,
+      "overlaps_cloister_outer_sqm": 0.0
+    },
+    "N4_gallery_full": {
+      "name": "N4_gallery_full",
+      "footprint_area_sqm": 10.0913,
+      "root_overlaps_sqm": {},
+      "minimum_root_gap_m": 1.15,
+      "overlaps_wall_sqm": 0.0,
+      "overlaps_chapel_test_sqm": 0.0,
+      "overlaps_cloister_outer_sqm": 0.0
+    },
+    "N4_combined_link": {
+      "name": "N4_combined_link",
+      "footprint_area_sqm": 14.5613,
+      "root_overlaps_sqm": {},
+      "minimum_root_gap_m": 0.1956,
+      "overlaps_wall_sqm": 0.0,
+      "overlaps_chapel_test_sqm": 0.0,
+      "overlaps_cloister_outer_sqm": 0.0
+    },
+    "N5_original_candidate_throat": {
+      "name": "N5_original_candidate_throat",
+      "footprint_area_sqm": 2.52,
+      "root_overlaps_sqm": {},
+      "minimum_root_gap_m": 0.1956,
+      "overlaps_wall_sqm": 0.0,
+      "overlaps_chapel_test_sqm": 2.0353,
+      "overlaps_cloister_outer_sqm": 0.0
+    },
+    "N6_night_throat_reservation": {
+      "name": "N6_night_throat_reservation",
+      "footprint_area_sqm": 2.52,
+      "root_overlaps_sqm": {},
+      "minimum_root_gap_m": 0.1956,
+      "overlaps_wall_sqm": 0.0,
+      "overlaps_chapel_test_sqm": 0.0,
+      "overlaps_cloister_outer_sqm": 0.0
+    },
+    "N6_night_corridor_reservation": {
+      "name": "N6_night_corridor_reservation",
+      "footprint_area_sqm": 13.1062,
+      "root_overlaps_sqm": {},
+      "minimum_root_gap_m": 0.1568,
+      "overlaps_wall_sqm": 0.0,
+      "overlaps_chapel_test_sqm": 0.0,
+      "overlaps_cloister_outer_sqm": 0.0
+    },
+    "N4_relocated_entrance_garden": {
+      "name": "N4_relocated_entrance_garden",
+      "footprint_area_sqm": 47.5753,
+      "root_overlaps_sqm": {},
+      "minimum_root_gap_m": 0.2375,
+      "overlaps_wall_sqm": 0.0,
+      "overlaps_chapel_test_sqm": 0.0,
+      "overlaps_cloister_outer_sqm": 0.0
+    },
+    "E5_R3_old_entrance_garden": {
+      "name": "E5_R3_old_entrance_garden",
+      "footprint_area_sqm": 108.9,
+      "root_overlaps_sqm": {
+        "ROOT-NV-R3-30797-N": 0.173056,
+        "ROOT-NV-R3-28997-N": 1.37904,
+        "ROOT-NV-R3-27197-N": 0.173056,
+        "ROOT-NV-R3-25397-N": 1.37904,
+        "ROOT-NV-R3-23597-N": 0.173056
+      },
+      "minimum_root_gap_m": 0.0,
+      "overlaps_wall_sqm": 2.7456,
+      "overlaps_chapel_test_sqm": 4.883,
+      "overlaps_cloister_outer_sqm": 0.0
+    }
+  },
+  "source_authority_warnings": [
+    "At every door line the original source wall is still continuous: no actual opening, jamb, lintel, roof or stair geometry is authorized.",
+    "Source F5ZM-C roots have been scaled and shifted in this E5-S2 experiment; their original footprint locations are preserved in the source.",
+    "CH-N5 is definitely a named chapel vault, but its real exterior chapel body is not in the support-root schedule.",
+    "N4 throat uses conceptual 1.2m clear screening width; masonry portals/capitals may reduce it.",
+    "Night route at N6 east is reserved to preserve circulation separation; it is not a tested chapel-free or approved cathedral doorway.",
+    "The relocated garden in X01 changes ONLY the E5-R3 exploratory garden, not protected E5-C3-L1 gardens.",
+    "No site levels, rainwater routing, daylight model, human accessibility/egress, foundations, or 3D collisions are certified."
+  ]
+}
