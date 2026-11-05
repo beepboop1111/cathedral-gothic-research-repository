@@ -1,0 +1,232 @@
+{
+  "path": "/home/christopher/Desktop/Cathedral_F5ZP_G40_Working.blend",
+  "SHA256": "9b1d1fac567be1fea1c527582e8be2ad89f6464cae549d582b2e0f6bf7f7a2a9",
+  "objects": 399,
+  "mesh_objects": 377,
+  "units_system": "NONE",
+  "unit_scale_length": 1.0,
+  "world_bounds": {
+    "min": [
+      -9360.0,
+      -11669.0,
+      -48.0
+    ],
+    "max": [
+      10751.0,
+      11669.0,
+      17000.0
+    ]
+  },
+  "collections": [
+    {
+      "name": "00_CURRENT_G40_REVIEW",
+      "objects": 2
+    },
+    {
+      "name": "25_G40I2_TERMINAL_WALL_WINGS_TRIAL_HEIGHT",
+      "objects": 4
+    },
+    {
+      "name": "26_G40I2_PROTECTED_BUTTRESS_ROOTS_TRIAL_HEIGHT",
+      "objects": 12
+    },
+    {
+      "name": "27_G40I3A2_NORTH_ENTRANCE_CLEARANCE_STUDY_NO_CUT",
+      "objects": 1
+    },
+    {
+      "name": "28_G40I3A3_PORTAL_SUPPORT_JAMBS_AND_OGIVE_SOURCE_RETAIN",
+      "objects": 4
+    },
+    {
+      "name": "30_G40I3A3_GALLERY_B_G5_ROOM_BYPASS_PROPOSED",
+      "objects": 9
+    },
+    {
+      "name": "35_G40I3A9_FULL_THREE_ARCH_REPLACEMENT_WALL_PREVIEW_ONLY",
+      "objects": 1
+    },
+    {
+      "name": "36_G40I3A9_TRUE_VERTICAL_TANGENT_ARCH_PROFILES",
+      "objects": 3
+    },
+    {
+      "name": "41_G40J3_J5_NORTH_TRANCEPT_GROUND_CONSTRUCTION_REVIEW",
+      "objects": 11
+    },
+    {
+      "name": "42_G40K1_SYMMETRIC_THREE_ARCH_ARCADE_V1",
+      "objects": 1
+    },
+    {
+      "name": "43_G40K1_THREE_ARCH_CONTINUOUS_MOULDING_RESPONDS",
+      "objects": 6
+    },
+    {
+      "name": "44_G40K1_SOURCE_ASYMMETRIC_32_UNITS_REFERENCE_HIDDEN",
+      "objects": 1
+    },
+    {
+      "name": "45_G40K2_JOINED_CENTRAL_PORTAL_AND_REAR_ARCADE_DERIVED",
+      "objects": 2
+    },
+    {
+      "name": "46_G40K3_COMPOUND_PIERS_AND_TAPERED_ENTRY_CHEEKS",
+      "objects": 10
+    },
+    {
+      "name": "47_G40K4_TRACED_FRENCH_GOTHIC_TWO_ORDER_MOULDINGS",
+      "objects": 12
+    },
+    {
+      "name": "48_G40K5_GALLERY_B_CANDIDATE_FLOORS_AND_CORBELS",
+      "objects": 11
+    },
+    {
+      "name": "51_G40L1_DIRECT_NORTH_TRANSEPT_FIRST_FLOOR_PROPOSAL",
+      "objects": 5
+    },
+    {
+      "name": "52_G40L1_UPPER_STAIR_AND_CHOIR_LINKS_UNBUILT",
+      "objects": 3
+    },
+    {
+      "name": "53_G40L2_NORTH_TRANSVERSE_GALLERY_PROVISIONAL_SUPPORTS",
+      "objects": 10
+    },
+    {
+      "name": "54_G40L3_TALL_NORTH_TOWER_UPPER_DOOR_DERIVED",
+      "objects": 2
+    },
+    {
+      "name": "55_G40L4_EAST_CHOIR_FIRST_FLOOR_PROPOSED_ROUTE",
+      "objects": 4
+    },
+    {
+      "name": "56_G40L234_PRESERVED_SOURCES_AND_CUTTERS_HIDDEN",
+      "objects": 1
+    },
+    {
+      "name": "57_G40L5_BEARING_PADS_AND_GOTHIC_SPRINGSTONE_REVIEW",
+      "objects": 8
+    },
+    {
+      "name": "58_G40L6_NORTH_GALLERY_FIRST_FLOOR_PARAPETS",
+      "objects": 4
+    },
+    {
+      "name": "59_G40L7_TRACED_GOTHIC_NORTH_TRIFORIUM_OPENINGS",
+      "objects": 13
+    },
+    {
+      "name": "60_G40L567_UNION_JOINT_AND_FLOOR_AUDIT",
+      "objects": 4
+    },
+    {
+      "name": "61_G40M1_CROSSING_TO_CHOIR_POINTED_PORTAL",
+      "objects": 4
+    },
+    {
+      "name": "62_G40M2_CHOIR_FIRST_FLOOR_TWO_FURTHER_BAYS",
+      "objects": 8
+    },
+    {
+      "name": "63_G40M3_LOWER_CHOIR_GOTHIC_WEB_PANELS",
+      "objects": 20
+    },
+    {
+      "name": "64_G40M3_LOWER_CHOIR_OGIVES_AND_DOUBLEAUX",
+      "objects": 31
+    },
+    {
+      "name": "65_G40M2_DERIVED_WATERTIGHT_FIRST_FLOOR_CONTINUATION",
+      "objects": 3
+    },
+    {
+      "name": "67_G40M4_EXPOSED_EAST_SPRINGERS_CORRECTED_DERIVED",
+      "objects": 2
+    },
+    {
+      "name": "68_G40M5_REVISED_CROSSING_PORTAL_AND_CLEAR_NORTH_TURNS",
+      "objects": 4
+    },
+    {
+      "name": "70_G40P1_TRUE_G5_T2_UPPER_HALL_FLOORS_AND_RESPONDS",
+      "objects": 12
+    },
+    {
+      "name": "71_G40P2_T2_LOWER_LARGE_RIBBED_VAULTS",
+      "objects": 26
+    },
+    {
+      "name": "72_G40P3_WEST_EAST_G5_GREAT_VAULTED_UPPER_ROOMS",
+      "objects": 31
+    },
+    {
+      "name": "73_G40P4_T1_FACING_LOGGIA_AND_VAULTED_ROOM_JOINTS",
+      "objects": 4
+    },
+    {
+      "name": "74_G40P5_GREAT_NORTH_T1_HIGH_VAULT_HIDDEN_UNVERIFIED",
+      "objects": 13
+    },
+    {
+      "name": "75_G40P2B_REAR_ARCADE_RESPECTING_T2_LOWER_VAULTS_AND_PIERS",
+      "objects": 42
+    },
+    {
+      "name": "76_G40Q2_NORTH_TWIN_FACADE_TOWER_1TO1_WIREFRAME_ENVELOPES",
+      "objects": 6
+    },
+    {
+      "name": "77_G40Q2_LATERAL_VAULTED_ROOM_RESERVATION_GUIDES",
+      "objects": 2
+    },
+    {
+      "name": "78_G40Q2_TRANSEPT_OPEN_VOLUME_AND_STAIR_LINK_GUIDES",
+      "objects": 3
+    },
+    {
+      "name": "79_G40Q2_OPTIONAL_TOWER_SPIRES_NOT_HEIGHT_APPROVED_HIDDEN",
+      "objects": 2
+    }
+  ],
+  "example_mesh_names": [
+    "G40I3A5__E_REAR_PIER_CRITICAL_SECTION_GUIDE_NOT_STONE",
+    "G40I3A5__W_REAR_PIER_CRITICAL_SECTION_GUIDE_NOT_STONE",
+    "G40I3A5__W_SPLAYED_MASONRY_RETURN_Y0_TO3500",
+    "G40I3A5__E_SPLAYED_MASONRY_RETURN_Y0_TO3500",
+    "G40I3A6__E_LOWER_GOTHIC_PIER_RETURN_CHEEK_Y0_2600",
+    "G40I3A6__W_LOWER_GOTHIC_PIER_RETURN_CHEEK_Y0_2600",
+    "G40I3A7__E_RESPOND_INFILL_1_Y2600_3500",
+    "G40I3A7__E_RESPOND_INFILL_2_Y2600_3500",
+    "G40I3A7__W_RESPOND_INFILL_1_Y2600_3500",
+    "G40I3A7__W_RESPOND_INFILL_2_Y2600_3500",
+    "G40J1__01_NORTH_LOWER_TOWER_45_WALL_Y0_4950",
+    "G40J1__02_CENTRAL_NEWEL_R100",
+    "G40J1__03_GOTHIC_SPIRAL_STEPS_01_33",
+    "G40J1__04_GOTHIC_SPIRAL_STEPS_34_66",
+    "G40J1__05_UPPER_LANDING_SOURCE_SAFE_INWARD_EXTENSION",
+    "G40J1__06_GROUND_DOOR_480_WIDE_1950_FULL_HEADROOM_NO_CUT",
+    "G40J2__02_OUTSIDE_CURVED_PASSAGE_WALL_LEFT_96_TRIAL",
+    "G40J2__03_OUTSIDE_CURVED_PASSAGE_WALL_RIGHT_96_TRIAL",
+    "G40F_OPTION_C_FOUR_SOURCE_G24_POINTED_PANEL_REPLACEMENTS_1to16",
+    "G40F_OPTION_C_G24_G25_ALL_FOUR_PORTALS_SOURCE_SWAP_1to16",
+    "G40F_PROVISIONAL_HIGH_ENGAGED_RETURNS_ADD_ON_NOT_APPROVED_1to16",
+    "G40G__CASE_C_ROOF_HYPOTHESIS_SW",
+    "G40G__CASE_C_ROOF_HYPOTHESIS_SE",
+    "G40G__CASE_C_ROOF_HYPOTHESIS_NW",
+    "G40G__CASE_C_ROOF_HYPOTHESIS_NE",
+    "G40_BOTH_TRANSEPTS_EXACT_G24_G39_CANDIDATE_STAIR_AND_GALLERY_1to16",
+    "G40G__UPPER_JUNCTION_KEEP_OUT_SW",
+    "G40G__UPPER_JUNCTION_KEEP_OUT_SE",
+    "G40G__UPPER_JUNCTION_KEEP_OUT_NW",
+    "G40G__UPPER_JUNCTION_KEEP_OUT_NE",
+    "CATHEDRAL_F5ZP_G23_OWTM_JUNCTION_NORTH_END_ONLY_COORDINATION",
+    "G32_C_BOTH_TRANSEPTS_ARCHITECTURAL_1to16",
+    "G33_G34_COMBINED_PROPOSALS_1to16(1)",
+    "G34_PORTAL_HEADS_1to16",
+    "G36_EXTERIOR_AND_STAIRS_SOURCE_AWARE_1to16"
+  ],
+  "limits": "Existing G40 development scene screened read-only; no certified registration to the X01/R02 precinct frame or full cathedral silhouette inferred."
+}
