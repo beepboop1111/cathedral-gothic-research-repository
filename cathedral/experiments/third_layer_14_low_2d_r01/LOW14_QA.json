@@ -1,0 +1,320 @@
+{
+  "status": "EXPERIMENTAL_2D_USER_CORRECTION",
+  "checks": [
+    {
+      "name": "14 third-layer vault footprints",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "7 paired bays/windows",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "14 inner/middle cells retained",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Two vaults in T1",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Original sector coverage T1",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "No double-covered vault area T1",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "Valid quadrilateral L3-01",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-01",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid quadrilateral L3-02",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-02",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Two vaults in T2",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Original sector coverage T2",
+      "pass": true,
+      "value": 1.3969838619232178e-09
+    },
+    {
+      "name": "No double-covered vault area T2",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "Valid quadrilateral L3-03",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-03",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid quadrilateral L3-04",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-04",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Two vaults in T3",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Original sector coverage T3",
+      "pass": true,
+      "value": 3.899913281202316e-09
+    },
+    {
+      "name": "No double-covered vault area T3",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "Valid quadrilateral L3-05",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-05",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid quadrilateral L3-06",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-06",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Two vaults in T4",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Original sector coverage T4",
+      "pass": true,
+      "value": 1.9987297236582135e-09
+    },
+    {
+      "name": "No double-covered vault area T4",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "Valid quadrilateral L3-07",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-07",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid quadrilateral L3-08",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-08",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Two vaults in T5",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Original sector coverage T5",
+      "pass": true,
+      "value": 1.979060471057892e-09
+    },
+    {
+      "name": "No double-covered vault area T5",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "Valid quadrilateral L3-09",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-09",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid quadrilateral L3-10",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-10",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Two vaults in T6",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Original sector coverage T6",
+      "pass": true,
+      "value": 1.3969838619232178e-09
+    },
+    {
+      "name": "No double-covered vault area T6",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "Valid quadrilateral L3-11",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-11",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid quadrilateral L3-12",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-12",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Two vaults in T7",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Original sector coverage T7",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "No double-covered vault area T7",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "Valid quadrilateral L3-13",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-13",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid quadrilateral L3-14",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Half-bay receiving rhythm L3-14",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "T2 division uses original outer receiver",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "T6 division uses original outer receiver",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Parent unchanged PLAN_GEOMETRY.json",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Parent unchanged T2_GEOMETRY.json",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "SVG parses ONE_WINDOW_TWO_ENTRANCES.svg",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "SVG parses LOW14_NATIVE_COORDINATES.svg",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "SVG parses THIRD_LAYER_14_PLAN.svg",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "SVG parses T2_TWO_LOWER_VAULTS.svg",
+      "pass": true,
+      "value": null
+    }
+  ],
+  "passed": 60,
+  "failed": 0,
+  "parent_paths_unavailable": [],
+  "third_layer_count": 14,
+  "two_per_bay": true,
+  "third_layer_significantly_lower": true,
+  "exact_spring": null,
+  "exact_crown": null,
+  "window_sill": null,
+  "window_head": null,
+  "clear_opening_width": null,
+  "physical_m_per_native_unit": null,
+  "3D_generated": false,
+  "approved_geometry_modified": false,
+  "structural_validation": false
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "sector": "T1",
+    "middle_bay": "M_A7",
+    "lower_vaults": [
+      "L3-01",
+      "L3-02"
+    ],
+    "window_above_pair": "W1",
+    "inner_midpoint": [
+      21456.23058052803,
+      -4986.3255083705235
+    ],
+    "outer_receiver": [
+      21493.085217683605,
+      -6448.341300890247
+    ],
+    "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+    "exact_vertical_levels": null
+  },
+  {
+    "sector": "T2",
+    "middle_bay": "M_A6",
+    "lower_vaults": [
+      "L3-03",
+      "L3-04"
+    ],
+    "window_above_pair": "W2",
+    "inner_midpoint": [
+      23557.362464654572,
+      -3915.7453406638697
+    ],
+    "outer_receiver": [
+      24847.714978705837,
+      -5078.752650760288
+    ],
+    "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+    "exact_vertical_levels": null
+  },
+  {
+    "sector": "T3",
+    "middle_bay": "M_A5",
+    "lower_vaults": [
+      "L3-05",
+      "L3-06"
+    ],
+    "window_above_pair": "W3",
+    "inner_midpoint": [
+      24921.946789120077,
+      -2121.225856976348
+    ],
+    "outer_receiver": [
+      26853.113630747837,
+      -2230.6672424251474
+    ],
+    "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+    "exact_vertical_levels": null
+  },
+  {
+    "sector": "T4",
+    "middle_bay": "M_A4",
+    "lower_vaults": [
+      "L3-07",
+      "L3-08"
+    ],
+    "window_above_pair": "W4",
+    "inner_midpoint": [
+      25382.51006987816,
+      3.410605131648481e-13
+    ],
+    "outer_receiver": [
+      27274.29053567064,
+      -3.410605131648481e-13
+    ],
+    "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+    "exact_vertical_levels": null
+  },
+  {
+    "sector": "T5",
+    "middle_bay": "M_A3",
+    "lower_vaults": [
+      "L3-09",
+      "L3-10"
+    ],
+    "window_above_pair": "W5",
+    "inner_midpoint": [
+      24921.946789120077,
+      2121.225856976349
+    ],
+    "outer_receiver": [
+      26853.113630747837,
+      2230.667242425148
+    ],
+    "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+    "exact_vertical_levels": null
+  },
+  {
+    "sector": "T6",
+    "middle_bay": "M_A2",
+    "lower_vaults": [
+      "L3-11",
+      "L3-12"
+    ],
+    "window_above_pair": "W6",
+    "inner_midpoint": [
+      23557.362464654572,
+      3915.74534066387
+    ],
+    "outer_receiver": [
+      24847.714978705837,
+      5078.752650760287
+    ],
+    "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+    "exact_vertical_levels": null
+  },
+  {
+    "sector": "T7",
+    "middle_bay": "M_A1",
+    "lower_vaults": [
+      "L3-13",
+      "L3-14"
+    ],
+    "window_above_pair": "W7",
+    "inner_midpoint": [
+      21456.23058052803,
+      4986.3255083705235
+    ],
+    "outer_receiver": [
+      21493.085217683605,
+      6448.341300890247
+    ],
+    "new_inner_receiver": "Low intermediate receiving line proposed; no final pier/shaft dimensions established",
+    "exact_vertical_levels": null
+  }
+]
