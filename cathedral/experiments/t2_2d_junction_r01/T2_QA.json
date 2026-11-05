@@ -1,0 +1,180 @@
+{
+  "status": "EXPERIMENTAL_2D_ONLY",
+  "checks": [
+    {
+      "name": "Valid polygon T2",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid polygon middle_A6",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid polygon D2_neck",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid polygon D2_body",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Valid polygon D3_candidate",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Five T2 receivers",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Exactly two inner receivers",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Original M_A6 / T2 full shared edge",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "D2 neck full frontage",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "D2 neck full body entry",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "D3 aligned full frontage",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "D3 correction within recovered-source uncertainty",
+      "pass": true,
+      "value": 0.000494200272058839
+    },
+    {
+      "name": "D3 other corners unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "D2/T2 no positive-area overlap",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "D3/T2 no positive-area overlap",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Plan branch intersection inside T2",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Branch inside T2 1",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Branch inside T2 2",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Branch inside T2 3",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Branch inside T2 4",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Branch inside T2 5",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Parent unchanged PLAN_GEOMETRY.json",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Parent unchanged CHECKPOINT.md",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Parent unchanged build_plan.py",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "SVG parses T2_NATIVE_COORDINATES.svg",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "SVG parses T2_ENLARGED_PLAN.svg",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "SVG parses T2_INTERFACE_DETAIL.svg",
+      "pass": true,
+      "value": null
+    }
+  ],
+  "passed": 27,
+  "failed": 0,
+  "metrics": {
+    "shared_middle_frontage": 2377.732644414651,
+    "D2_passage_frontage": 2432.193467524175,
+    "D3_passage_frontage": 2373.2209299222027,
+    "D2_body_entry_face": 2962.8133433100006,
+    "min_inner_to_outer_boundary_separation": 1391.116899840585,
+    "separation_points": [
+      [
+        22653.341420947156,
+        -4687.852253346901
+      ],
+      [
+        23317.4916679233,
+        -5910.190454690378
+      ]
+    ],
+    "T2_plan_area": 5613561.875592358,
+    "D2_neck_area": 3912959.301971305,
+    "D3_raw_to_candidate_endpoint_displacements": [
+      0.00043048237120827814,
+      0.000494200272058839
+    ],
+    "D3_max_displacement": 0.000494200272058839,
+    "boss_plan": [
+      23830.667863157647,
+      -4259.078690861384
+    ],
+    "clear_walking_width": null,
+    "note": "Boundary separation is a plan set-out distance; wall/arch/profile thicknesses and physical SI calibration are not established."
+  },
+  "parent_paths_unavailable_on_this_host": [],
+  "approved_geometry_changed": false,
+  "new_inner_piers": 0,
+  "3D_geometry_generated": false,
+  "structural_validation": false,
+  "physical_m_per_unit": null,
+  "D2_neck": "R04 experimental candidate, not approved",
+  "D3_delta": "Two candidate entry corners aligned to unchanged T2: source-vector recovery correction below 0.005. Parent source unchanged."
+}

@@ -1,0 +1,7 @@
+point,X,Y,role
+I1,22653.341420947156,-4687.852253346901,existing inner receiver
+O1,22710.60990237937,-6239.936079942306,existing outer receiver
+O2,24847.714978705837,-5078.752650760288,existing extra outer receiver
+O3,26431.93672582503,-3311.7158548289153,existing outer receiver
+I2,24461.383508361992,-3143.638427980838,existing inner receiver
+B,23830.667863157647,-4259.078690861384,plan diagonal intersection; no height or carved boss implied
