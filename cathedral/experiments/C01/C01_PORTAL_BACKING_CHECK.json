@@ -1,0 +1,128 @@
+{
+  "id": "C01_PORTAL_BACKING_CHECK",
+  "status": "READ-ONLY GEOMETRIC SCREEN; CONNECTION NOT YET USABLE",
+  "source": "/home/christopher/Desktop/Cathedral_F5ZP_G40_Working.blend",
+  "source_sha256": "9b1d1fac567be1fea1c527582e8be2ad89f6464cae549d582b2e0f6bf7f7a2a9",
+  "source_unchanged": true,
+  "units": "native full architectural project units; no conversion applied",
+  "portal_clear_span_between_trial_jambs": 1200,
+  "blocking_backing_Y_interval": [
+    9950,
+    10901
+  ],
+  "backing_depth": 951,
+  "sample_X_positions": [
+    -450,
+    0,
+    450
+  ],
+  "sample_heights": [
+    100,
+    1500,
+    2100,
+    3000
+  ],
+  "current_context_ray_results": [
+    {
+      "X": -450,
+      "height": 100,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": -450,
+      "height": 1500,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": -450,
+      "height": 2100,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": -450,
+      "height": 3000,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": 0,
+      "height": 100,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": 0,
+      "height": 1500,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": 0,
+      "height": 2100,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": 0,
+      "height": 3000,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": 450,
+      "height": 100,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": 450,
+      "height": 1500,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": 450,
+      "height": 2100,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    },
+    {
+      "X": 450,
+      "height": 3000,
+      "wall_surface_Y_hits": [
+        10901,
+        9950
+      ]
+    }
+  ],
+  "preferred_rear_arcade_ray_results": [],
+  "interpretation": "All 12 current-context rays cross front backing surfaces at 10901/9950. No further hits to Y9100 on these sampled paths. Preferred rear arcade has no hits on these rays. Samples do not prove a complete clear walking volume or continuous floor.",
+  "structural_hold": "Saved return/pier records flag critical source-pier weakness near elevation 2620 and incomplete upper support. No structural adequacy or approved cut inferred.",
+  "next_step": "Separate local derived opening study with backing, jambs, rear piers and bearing retained; establish a complete clearance volume and support arrangement before adoption. Do not move monastery gate hall yet.",
+  "protected": "No source geometry, generator, floor layout or roof changed. F5ZL-C remains unresolved."
+}
