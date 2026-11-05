@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57000mm" height="60000mm" viewBox="-56 -60 57 60">
+<title>X02 R01 north-sector experimental plan - 1 SVG unit = 1 metre; physical SVG 1:1</title>
+<desc>Dashed red = uncertain / experimental. Dashed gray = axes. No approved source geometry changed. Whole precinct and chapel exterior not recovered.</desc>
+<path d="M -56,0 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-5 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-10 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-15 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-20 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-25 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-30 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-35 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-40 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-45 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-50 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-55 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -56,-60 H 1" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -55,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -50,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -45,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -40,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -35,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -30,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -25,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -20,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -15,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -10,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M -5,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<path d="M 0,0 V -60" fill="none" stroke="#a3a3a3" stroke-width="0.014" stroke-dasharray=".12 .12"/>
+<g id="wall" data-authority="RETAINED_X01_EXPERIMENT">
+<path d="M -9.05450000,-11.81290000 L -9.05450000,-12.06250000 L -52.01690000,-12.06250000 L -52.01690000,-11.81290000 L -9.05450000,-11.81290000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="cloister_outer" data-authority="RETAINED_X01_EXPERIMENT">
+<path d="M -30.00000000,-18.90000000 L -30.00000000,-44.90000000 L -52.00000000,-44.90000000 L -52.00000000,-18.90000000 L -30.00000000,-18.90000000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="cloister_garden" data-authority="RETAINED_X01_EXPERIMENT">
+<path d="M -33.50000000,-22.40000000 L -33.50000000,-41.40000000 L -48.50000000,-41.40000000 L -48.50000000,-22.40000000 L -33.50000000,-22.40000000 Z" fill="#f6f6f6" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="east_wing" data-authority="RETAINED_X01_EXPERIMENT">
+<path d="M -21.00000000,-22.90000000 L -21.00000000,-55.90000000 L -30.00000000,-55.90000000 L -30.00000000,-22.90000000 L -21.00000000,-22.90000000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="chapter_hall" data-authority="RETAINED_X01_EXPERIMENT">
+<path d="M -21.00000000,-29.50000000 L -21.00000000,-38.50000000 L -9.00000000,-38.50000000 L -6.00000000,-37.00000000 L -6.00000000,-31.00000000 L -9.00000000,-29.50000000 L -21.00000000,-29.50000000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="refectory" data-authority="RETAINED_X01_EXPERIMENT">
+<path d="M -32.00000000,-44.90000000 L -32.00000000,-54.90000000 L -52.00000000,-54.90000000 L -52.00000000,-44.90000000 L -32.00000000,-44.90000000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="new_garden" data-authority="RETAINED_X01_EXPERIMENT">
+<path d="M -35.92770000,-14.25000000 L -35.92770000,-18.75000000 L -46.50000000,-18.75000000 L -46.50000000,-14.25000000 L -35.92770000,-14.25000000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="chapel_reference" data-authority="RETAINED_X01_EXPERIMENT">
+<path d="M -29.17850000,-12.06250000 L -29.17850000,-14.30890000 L -32.17370000,-14.30890000 L -32.17370000,-12.06250000 L -29.17850000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="n4_link" data-authority="RETAINED_X01_EXPERIMENT">
+<path d="M -33.62770000,-12.06250000 L -34.82770000,-12.06250000 L -34.82770000,-14.16250000 L -35.57770000,-15.16250000 L -35.57770000,-18.90000000 L -32.87770000,-18.90000000 L -32.87770000,-15.16250000 L -33.62770000,-14.16250000 L -33.62770000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="night_route" data-authority="RETAINED_X01_EXPERIMENT">
+<path d="M -24.26770000,-12.06250000 L -25.46770000,-12.06250000 L -25.46770000,-14.16250000 L -25.61770000,-14.16250000 L -25.61770000,-22.90000000 L -24.11770000,-22.90000000 L -24.11770000,-14.16250000 L -24.26770000,-14.16250000 L -24.26770000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-34433-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -44.55490000,-12.06250000 L -44.55490000,-12.47850000 L -44.97090000,-12.47850000 L -44.97090000,-12.06250000 L -44.55490000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-32597-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -42.66730000,-12.06250000 L -42.08490000,-12.06250000 L -41.96010000,-14.01250000 L -42.79210000,-14.01250000 L -42.66730000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-30797-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -39.82810000,-12.06250000 L -39.82810000,-12.47850000 L -40.24410000,-12.47850000 L -40.24410000,-12.06250000 L -39.82810000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-28997-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -37.98730000,-12.06250000 L -37.40490000,-12.06250000 L -37.28010000,-14.01250000 L -38.11210000,-14.01250000 L -37.98730000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-27197-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -35.14810000,-12.06250000 L -35.14810000,-12.47850000 L -35.56410000,-12.47850000 L -35.56410000,-12.06250000 L -35.14810000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-25397-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -33.30730000,-12.06250000 L -32.72490000,-12.06250000 L -32.60010000,-14.01250000 L -33.43210000,-14.01250000 L -33.30730000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-23597-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -30.46810000,-12.06250000 L -30.46810000,-12.47850000 L -30.88410000,-12.47850000 L -30.88410000,-12.06250000 L -30.46810000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-21797-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -28.62730000,-12.06250000 L -28.04490000,-12.06250000 L -27.92010000,-14.01250000 L -28.75210000,-14.01250000 L -28.62730000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-19997-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -25.78810000,-12.06250000 L -25.78810000,-12.47850000 L -26.20410000,-12.47850000 L -26.20410000,-12.06250000 L -25.78810000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-18197-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -23.94730000,-12.06250000 L -23.36490000,-12.06250000 L -23.24010000,-14.01250000 L -24.07210000,-14.01250000 L -23.94730000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-16397-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -21.10810000,-12.06250000 L -21.10810000,-12.47850000 L -21.52410000,-12.47850000 L -21.52410000,-12.06250000 L -21.10810000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="ROOT-NV-R3-14597-N" data-authority="RETAINED_X01_TRANSFORMED_ROOT">
+<path d="M -19.26730000,-12.06250000 L -18.68490000,-12.06250000 L -18.56010000,-14.01250000 L -19.39210000,-14.01250000 L -19.26730000,-12.06250000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<g id="CEREMONY_R1" data-authority="X02_HYPOTHESIS">
+<path d="M -34.22770000,-12.06250000 L -34.22770000,-20.65000000 L -31.75000000,-20.65000000 L -31.75000000,-34.00000000 L -15.00000000,-34.00000000" fill="none" fill-rule="evenodd" stroke="#a33737" stroke-width="0.055" stroke-dasharray=".18 .10"/>
+</g>
+<g id="NIGHT_R2" data-authority="X02_HYPOTHESIS">
+<path d="M -24.86770000,-12.06250000 L -24.86770000,-25.10000000" fill="none" fill-rule="evenodd" stroke="#a33737" stroke-width="0.055" stroke-dasharray=".18 .10"/>
+</g>
+<g id="CHAPTER_R3" data-authority="X02_HYPOTHESIS">
+<path d="M -31.75000000,-34.00000000 L -15.00000000,-34.00000000" fill="none" fill-rule="evenodd" stroke="#a33737" stroke-width="0.055" stroke-dasharray=".18 .10"/>
+</g>
+<g id="NIGHT_STAIR_RESERVATION" data-authority="X02_HYPOTHESIS">
+<path d="M -23.66770000,-23.90000000 L -23.66770000,-26.30000000 L -26.06770000,-26.30000000 L -26.06770000,-23.90000000 L -23.66770000,-23.90000000 Z" fill="#fff4f3" fill-rule="evenodd" stroke="#a33737" stroke-width="0.028" stroke-dasharray=".18 .10"/>
+</g>
+<text x="-41" y="-32" font-family="sans-serif" font-size=".45" fill="#202529">E5-R3 NORTH CLOISTER / EXPERIMENT</text>
+<text x="-26" y="-43" font-family="sans-serif" font-size=".45" fill="#202529">EAST WING</text>
+<text x="-15" y="-34" font-family="sans-serif" font-size=".45" fill="#202529">CHAPTER HALL</text>
+<text x="-42" y="-50" font-family="sans-serif" font-size=".45" fill="#202529">REFECTORY</text>
+<text x="-41" y="-16.5" font-family="sans-serif" font-size=".45" fill="#202529">GARDEN 47.58 m2</text>
+<text x="-31" y="-13.3" font-family="sans-serif" font-size=".45" fill="#202529">CH-N5 TEST ONLY</text>
+<text x="-43" y="-5" font-family="sans-serif" font-size=".45" fill="#202529">PARTIAL E5-S2 NAVE CONTEXT</text>
+<text x="-53" y="-58" font-family="sans-serif" font-size=".45" fill="#202529">X02 R01 - SECTOR ONLY; NO BASELINE PROMOTION</text>
+</svg>
