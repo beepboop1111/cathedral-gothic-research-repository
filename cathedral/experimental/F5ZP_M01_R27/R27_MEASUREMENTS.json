@@ -1,0 +1,2177 @@
+{
+  "status": "EXPERIMENTAL_M01_OPEN",
+  "source": "/home/christopher/Desktop/F5ZP_M01_R21_EXPERIMENTAL_20261105/F5ZP_M01_R21_B_PORTABLE_EXPERIMENTAL.blend",
+  "source_hashes_before": {
+    "/home/christopher/Desktop/F5ZP_M01_R21_EXPERIMENTAL_20261105/F5ZP_M01_R21_B_PORTABLE_EXPERIMENTAL.blend": "69cb086540450358b159d44f9df2d31fc0e00f9605a2bffea6b20a5a8815b881",
+    "/home/christopher/Desktop/newgen_F5ZN_A_CHEVET_STUDY_1to1.blend": "d5ef438c269c99dc27052d26a1885f7965065d52ea51162cca4329d4419174bc",
+    "/home/christopher/Desktop/F5ZP_M01_R15_R20_EXPERIMENTAL_20261105/F5ZP_M01_R15_R20_EXPERIMENTAL_V03.blend": "c1273df02f4a0c6d7db100169b184bef76227c6e0d1df1400951fc22d7fa6527"
+  },
+  "source_hashes_after": {
+    "/home/christopher/Desktop/F5ZP_M01_R21_EXPERIMENTAL_20261105/F5ZP_M01_R21_B_PORTABLE_EXPERIMENTAL.blend": "69cb086540450358b159d44f9df2d31fc0e00f9605a2bffea6b20a5a8815b881",
+    "/home/christopher/Desktop/newgen_F5ZN_A_CHEVET_STUDY_1to1.blend": "d5ef438c269c99dc27052d26a1885f7965065d52ea51162cca4329d4419174bc",
+    "/home/christopher/Desktop/F5ZP_M01_R15_R20_EXPERIMENTAL_20261105/F5ZP_M01_R15_R20_EXPERIMENTAL_V03.blend": "c1273df02f4a0c6d7db100169b184bef76227c6e0d1df1400951fc22d7fa6527"
+  },
+  "all_original_object_signatures_unchanged": true,
+  "units": "1:1 project native; metres per unit unresolved",
+  "coordinate_system": "X east Y north Z up; center (20213,0); azimuth clockwise from +Y",
+  "receivers": [
+    {
+      "kind": "ENGAGED",
+      "station": 40,
+      "name": "R27_ENGAGED_40",
+      "wall_axis_source": "R18_NORTH_CONNECTOR_CHEEK_1",
+      "landing": [
+        24468.25390625,
+        5071.2138671875,
+        2300
+      ],
+      "axis_xy": [
+        0.9579214453697205,
+        0.2870303988456726
+      ],
+      "footprint": [
+        [
+          24332.125,
+          4998.79833984375
+        ],
+        [
+          25304.51171875,
+          5290.16259765625
+        ],
+        [
+          25211.5234375,
+          5600.49853515625
+        ],
+        [
+          24239.13671875,
+          5309.13427734375
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 431.95742297172546,
+      "stem_width": 323.9680672287941,
+      "stem_length": 863.9148459434509,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 54.31473922729492,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_NORTH_CONNECTOR_CHEEK_1",
+          "triangle_pairs": 6
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "ENGAGED",
+      "station": 60,
+      "name": "R27_ENGAGED_60",
+      "wall_axis_source": "R18_NORTH_CONNECTOR_CHEEK_0",
+      "landing": [
+        25946.087890625,
+        3310,
+        2300
+      ],
+      "axis_xy": [
+        0.854756772518158,
+        0.5190287828445435
+      ],
+      "footprint": [
+        [
+          25940.26171875,
+          3112.42236328125
+        ],
+        [
+          26557.376953125,
+          3487.149658203125
+        ],
+        [
+          26437.783203125,
+          3684.101318359375
+        ],
+        [
+          25820.66796875,
+          3309.3740234375
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 307.22452545166016,
+      "stem_width": 230.41839408874512,
+      "stem_length": 614.4490509033203,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 64.98270416259766,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_NORTH_CONNECTOR_CHEEK_0",
+          "triangle_pairs": 7
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "ENGAGED",
+      "station": 80,
+      "name": "R27_ENGAGED_80",
+      "wall_axis_source": "R18_AXIAL_CONNECTOR_CHEEK_1",
+      "landing": [
+        26732.427734375,
+        1149.5509033203125,
+        2300
+      ],
+      "axis_xy": [
+        0.9987248778343201,
+        -0.05048388987779617
+      ],
+      "footprint": [
+        [
+          26601.865234375,
+          1104.5889892578125
+        ],
+        [
+          27461.041015625,
+          1061.1591796875
+        ],
+        [
+          27474.90234375,
+          1335.364013671875
+        ],
+        [
+          26615.7265625,
+          1378.793701171875
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 366.07309579849243,
+      "stem_width": 274.5548218488693,
+      "stem_length": 732.1461915969849,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 63.360103607177734,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_AXIAL_CONNECTOR_CHEEK_1",
+          "triangle_pairs": 8
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "ENGAGED",
+      "station": 100,
+      "name": "R27_ENGAGED_100",
+      "wall_axis_source": "R18_AXIAL_CONNECTOR_CHEEK_0",
+      "landing": [
+        26732.427734375,
+        -1149.5509033203125,
+        2300
+      ],
+      "axis_xy": [
+        0.9987248778343201,
+        0.05048388987779617
+      ],
+      "footprint": [
+        [
+          26615.7265625,
+          -1378.793701171875
+        ],
+        [
+          27474.90234375,
+          -1335.364013671875
+        ],
+        [
+          27461.041015625,
+          -1061.1591796875
+        ],
+        [
+          26601.865234375,
+          -1104.5889892578125
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 366.07309579849243,
+      "stem_width": 274.5548218488693,
+      "stem_length": 732.1461915969849,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 63.360069274902344,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_AXIAL_CONNECTOR_CHEEK_0",
+          "triangle_pairs": 8
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "ENGAGED",
+      "station": 120,
+      "name": "R27_ENGAGED_120",
+      "wall_axis_source": "R18_SOUTH_CONNECTOR_CHEEK_1",
+      "landing": [
+        25946.087890625,
+        -3310,
+        2300
+      ],
+      "axis_xy": [
+        0.854756772518158,
+        -0.5190287828445435
+      ],
+      "footprint": [
+        [
+          25820.66796875,
+          -3309.3740234375
+        ],
+        [
+          26437.783203125,
+          -3684.101318359375
+        ],
+        [
+          26557.376953125,
+          -3487.149658203125
+        ],
+        [
+          25940.26171875,
+          -3112.42236328125
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 307.22452545166016,
+      "stem_width": 230.41839408874512,
+      "stem_length": 614.4490509033203,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 64.98333740234375,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_SOUTH_CONNECTOR_CHEEK_1",
+          "triangle_pairs": 7
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "ENGAGED",
+      "station": 140,
+      "name": "R27_ENGAGED_140",
+      "wall_axis_source": "R18_SOUTH_CONNECTOR_CHEEK_0",
+      "landing": [
+        24468.25390625,
+        -5071.2138671875,
+        2300
+      ],
+      "axis_xy": [
+        0.9579214453697205,
+        -0.2870303988456726
+      ],
+      "footprint": [
+        [
+          24239.13671875,
+          -5309.13427734375
+        ],
+        [
+          25211.5234375,
+          -5600.49853515625
+        ],
+        [
+          25304.51171875,
+          -5290.16259765625
+        ],
+        [
+          24332.125,
+          -4998.79833984375
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 431.95742297172546,
+      "stem_width": 323.9680672287941,
+      "stem_length": 863.9148459434509,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 54.31460189819336,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_SOUTH_CONNECTOR_CHEEK_0",
+          "triangle_pairs": 6
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "T_PLAN",
+      "station": 40,
+      "name": "R27_T_PLAN_40",
+      "wall_axis_source": "R18_NORTH_CONNECTOR_CHEEK_1",
+      "landing": [
+        24468.25390625,
+        5071.2138671875,
+        2300
+      ],
+      "axis_xy": [
+        0.9579214453697205,
+        0.2870303988456726
+      ],
+      "footprint": [
+        [
+          24332.125,
+          4998.79833984375
+        ],
+        [
+          25304.51171875,
+          5290.16259765625
+        ],
+        [
+          25118.53515625,
+          5910.83447265625
+        ],
+        [
+          24808.19921875,
+          5817.845703125
+        ],
+        [
+          24901.1875,
+          5507.509765625
+        ],
+        [
+          24239.13671875,
+          5309.13427734375
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 431.95742297172546,
+      "stem_width": 323.9680672287941,
+      "stem_length": 863.9148459434509,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 54.31473922729492,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_NORTH_CONNECTOR_CHEEK_1",
+          "triangle_pairs": 6
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "T_PLAN",
+      "station": 60,
+      "name": "R27_T_PLAN_60",
+      "wall_axis_source": "R18_NORTH_CONNECTOR_CHEEK_0",
+      "landing": [
+        25946.087890625,
+        3310,
+        2300
+      ],
+      "axis_xy": [
+        0.854756772518158,
+        0.5190287828445435
+      ],
+      "footprint": [
+        [
+          25940.26171875,
+          3112.42236328125
+        ],
+        [
+          26360.423828125,
+          3367.555908203125
+        ],
+        [
+          26480.017578125,
+          3170.604248046875
+        ],
+        [
+          26676.970703125,
+          3290.197998046875
+        ],
+        [
+          26437.783203125,
+          3684.101318359375
+        ],
+        [
+          25820.66796875,
+          3309.3740234375
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 307.22452545166016,
+      "stem_width": 230.41839408874512,
+      "stem_length": 614.4490509033203,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 64.98270416259766,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_NORTH_CONNECTOR_CHEEK_0",
+          "triangle_pairs": 7
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "T_PLAN",
+      "station": 80,
+      "name": "R27_T_PLAN_80",
+      "wall_axis_source": "R18_AXIAL_CONNECTOR_CHEEK_1",
+      "landing": [
+        26732.427734375,
+        1149.5509033203125,
+        2300
+      ],
+      "axis_xy": [
+        0.9987248778343201,
+        -0.05048388987779617
+      ],
+      "footprint": [
+        [
+          26601.865234375,
+          1104.5889892578125
+        ],
+        [
+          27461.041015625,
+          1061.1591796875
+        ],
+        [
+          27488.76171875,
+          1609.568603515625
+        ],
+        [
+          27214.556640625,
+          1623.42919921875
+        ],
+        [
+          27200.697265625,
+          1349.224609375
+        ],
+        [
+          26615.7265625,
+          1378.793701171875
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 366.07309579849243,
+      "stem_width": 274.5548218488693,
+      "stem_length": 732.1461915969849,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 63.360103607177734,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_AXIAL_CONNECTOR_CHEEK_1",
+          "triangle_pairs": 8
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "T_PLAN",
+      "station": 100,
+      "name": "R27_T_PLAN_100",
+      "wall_axis_source": "R18_AXIAL_CONNECTOR_CHEEK_0",
+      "landing": [
+        26732.427734375,
+        -1149.5509033203125,
+        2300
+      ],
+      "axis_xy": [
+        0.9987248778343201,
+        0.05048388987779617
+      ],
+      "footprint": [
+        [
+          26615.7265625,
+          -1378.793701171875
+        ],
+        [
+          27200.697265625,
+          -1349.224609375
+        ],
+        [
+          27214.556640625,
+          -1623.42919921875
+        ],
+        [
+          27488.76171875,
+          -1609.568603515625
+        ],
+        [
+          27461.041015625,
+          -1061.1591796875
+        ],
+        [
+          26601.865234375,
+          -1104.5889892578125
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 366.07309579849243,
+      "stem_width": 274.5548218488693,
+      "stem_length": 732.1461915969849,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 63.360069274902344,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_AXIAL_CONNECTOR_CHEEK_0",
+          "triangle_pairs": 8
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "T_PLAN",
+      "station": 120,
+      "name": "R27_T_PLAN_120",
+      "wall_axis_source": "R18_SOUTH_CONNECTOR_CHEEK_1",
+      "landing": [
+        25946.087890625,
+        -3310,
+        2300
+      ],
+      "axis_xy": [
+        0.854756772518158,
+        -0.5190287828445435
+      ],
+      "footprint": [
+        [
+          25820.66796875,
+          -3309.3740234375
+        ],
+        [
+          26437.783203125,
+          -3684.101318359375
+        ],
+        [
+          26676.970703125,
+          -3290.197998046875
+        ],
+        [
+          26480.017578125,
+          -3170.604248046875
+        ],
+        [
+          26360.423828125,
+          -3367.555908203125
+        ],
+        [
+          25940.26171875,
+          -3112.42236328125
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 307.22452545166016,
+      "stem_width": 230.41839408874512,
+      "stem_length": 614.4490509033203,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 64.98333740234375,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_SOUTH_CONNECTOR_CHEEK_1",
+          "triangle_pairs": 7
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "T_PLAN",
+      "station": 140,
+      "name": "R27_T_PLAN_140",
+      "wall_axis_source": "R18_SOUTH_CONNECTOR_CHEEK_0",
+      "landing": [
+        24468.25390625,
+        -5071.2138671875,
+        2300
+      ],
+      "axis_xy": [
+        0.9579214453697205,
+        -0.2870303988456726
+      ],
+      "footprint": [
+        [
+          24239.13671875,
+          -5309.13427734375
+        ],
+        [
+          24901.1875,
+          -5507.509765625
+        ],
+        [
+          24808.19921875,
+          -5817.845703125
+        ],
+        [
+          25118.53515625,
+          -5910.83447265625
+        ],
+        [
+          25304.51171875,
+          -5290.16259765625
+        ],
+        [
+          24332.125,
+          -4998.79833984375
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 431.95742297172546,
+      "stem_width": 323.9680672287941,
+      "stem_length": 863.9148459434509,
+      "pad_landing_inside_receiver": true,
+      "nearest_cheek_distance_at_landing": 54.31460189819336,
+      "wall_surface_intersections": [
+        {
+          "wall": "R18_SOUTH_CONNECTOR_CHEEK_0",
+          "triangle_pairs": 6
+        }
+      ],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "DETACHED",
+      "station": 40,
+      "name": "R27_DETACHED_40",
+      "wall_axis_source": "R18_NORTH_CONNECTOR_CHEEK_1",
+      "landing": [
+        24468.25390625,
+        5071.2138671875,
+        2300
+      ],
+      "axis_xy": [
+        0.9579214453697205,
+        0.2870303988456726
+      ],
+      "footprint": [
+        [
+          25378.72265625,
+          5794.95751953125
+        ],
+        [
+          25792.50390625,
+          5918.9423828125
+        ],
+        [
+          25668.517578125,
+          6332.7236328125
+        ],
+        [
+          25254.736328125,
+          6208.73876953125
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 431.95742297172546,
+      "stem_width": 323.9680672287941,
+      "stem_length": 863.9148459434509,
+      "pad_landing_inside_receiver": false,
+      "nearest_cheek_distance_at_landing": 54.31473922729492,
+      "wall_surface_intersections": [],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "DETACHED",
+      "station": 60,
+      "name": "R27_DETACHED_60",
+      "wall_axis_source": "R18_NORTH_CONNECTOR_CHEEK_0",
+      "landing": [
+        25946.087890625,
+        3310,
+        2300
+      ],
+      "axis_xy": [
+        0.854756772518158,
+        0.5190287828445435
+      ],
+      "footprint": [
+        [
+          26841.78125,
+          3314.74267578125
+        ],
+        [
+          27104.3828125,
+          3474.200927734375
+        ],
+        [
+          26944.923828125,
+          3736.80322265625
+        ],
+        [
+          26682.322265625,
+          3577.344970703125
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 307.22452545166016,
+      "stem_width": 230.41839408874512,
+      "stem_length": 614.4490509033203,
+      "pad_landing_inside_receiver": false,
+      "nearest_cheek_distance_at_landing": 64.98270416259766,
+      "wall_surface_intersections": [],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "DETACHED",
+      "station": 80,
+      "name": "R27_DETACHED_80",
+      "wall_axis_source": "R18_AXIAL_CONNECTOR_CHEEK_1",
+      "landing": [
+        26732.427734375,
+        1149.5509033203125,
+        2300
+      ],
+      "axis_xy": [
+        0.9987248778343201,
+        -0.05048388987779617
+      ],
+      "footprint": [
+        [
+          27664.923828125,
+          1468.9552001953125
+        ],
+        [
+          28030.53125,
+          1450.4744873046875
+        ],
+        [
+          28049.01171875,
+          1816.080810546875
+        ],
+        [
+          27683.404296875,
+          1834.5615234375
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 366.07309579849243,
+      "stem_width": 274.5548218488693,
+      "stem_length": 732.1461915969849,
+      "pad_landing_inside_receiver": false,
+      "nearest_cheek_distance_at_landing": 63.360103607177734,
+      "wall_surface_intersections": [],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "DETACHED",
+      "station": 100,
+      "name": "R27_DETACHED_100",
+      "wall_axis_source": "R18_AXIAL_CONNECTOR_CHEEK_0",
+      "landing": [
+        26732.427734375,
+        -1149.5509033203125,
+        2300
+      ],
+      "axis_xy": [
+        0.9987248778343201,
+        0.05048388987779617
+      ],
+      "footprint": [
+        [
+          27683.404296875,
+          -1834.5615234375
+        ],
+        [
+          28049.01171875,
+          -1816.080810546875
+        ],
+        [
+          28030.53125,
+          -1450.4744873046875
+        ],
+        [
+          27664.923828125,
+          -1468.9552001953125
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 366.07309579849243,
+      "stem_width": 274.5548218488693,
+      "stem_length": 732.1461915969849,
+      "pad_landing_inside_receiver": false,
+      "nearest_cheek_distance_at_landing": 63.360069274902344,
+      "wall_surface_intersections": [],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "DETACHED",
+      "station": 120,
+      "name": "R27_DETACHED_120",
+      "wall_axis_source": "R18_SOUTH_CONNECTOR_CHEEK_1",
+      "landing": [
+        25946.087890625,
+        -3310,
+        2300
+      ],
+      "axis_xy": [
+        0.854756772518158,
+        -0.5190287828445435
+      ],
+      "footprint": [
+        [
+          26682.322265625,
+          -3577.344970703125
+        ],
+        [
+          26944.923828125,
+          -3736.80322265625
+        ],
+        [
+          27104.3828125,
+          -3474.200927734375
+        ],
+        [
+          26841.78125,
+          -3314.74267578125
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 307.22452545166016,
+      "stem_width": 230.41839408874512,
+      "stem_length": 614.4490509033203,
+      "pad_landing_inside_receiver": false,
+      "nearest_cheek_distance_at_landing": 64.98333740234375,
+      "wall_surface_intersections": [],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    },
+    {
+      "kind": "DETACHED",
+      "station": 140,
+      "name": "R27_DETACHED_140",
+      "wall_axis_source": "R18_SOUTH_CONNECTOR_CHEEK_0",
+      "landing": [
+        24468.25390625,
+        -5071.2138671875,
+        2300
+      ],
+      "axis_xy": [
+        0.9579214453697205,
+        -0.2870303988456726
+      ],
+      "footprint": [
+        [
+          25254.736328125,
+          -6208.73876953125
+        ],
+        [
+          25668.517578125,
+          -6332.7236328125
+        ],
+        [
+          25792.50390625,
+          -5918.9423828125
+        ],
+        [
+          25378.72265625,
+          -5794.95751953125
+        ]
+      ],
+      "top_z": 3900,
+      "trial_pad_width": 431.95742297172546,
+      "stem_width": 323.9680672287941,
+      "stem_length": 863.9148459434509,
+      "pad_landing_inside_receiver": false,
+      "nearest_cheek_distance_at_landing": 54.31460189819336,
+      "wall_surface_intersections": [],
+      "roof_surface_intersections": [],
+      "sampled_vertical_roof_gap_min": null,
+      "roof_sample_hit_count": 0,
+      "nonmanifold_edges": 0,
+      "approved_bearing": false
+    }
+  ],
+  "passage_sections": [
+    {
+      "chapel": "NORTH",
+      "depth": 0,
+      "variant": "BASELINE",
+      "center": [
+        25207.171875,
+        4190.60693359375
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.473500433985,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 0,
+      "variant": "ENGAGED",
+      "center": [
+        25207.171875,
+        4190.60693359375
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.473500433985,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 0,
+      "variant": "T_PLAN",
+      "center": [
+        25207.171875,
+        4190.60693359375
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.473500433985,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 0,
+      "variant": "DETACHED",
+      "center": [
+        25207.171875,
+        4190.60693359375
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.473500433985,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 500,
+      "variant": "BASELINE",
+      "center": [
+        25590.193359375,
+        4512.00048828125
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 2062.0580065111917,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 500,
+      "variant": "ENGAGED",
+      "center": [
+        25590.193359375,
+        4512.00048828125
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 2062.0579090695464,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 500,
+      "variant": "T_PLAN",
+      "center": [
+        25590.193359375,
+        4512.00048828125
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 2062.0579090695464,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 500,
+      "variant": "DETACHED",
+      "center": [
+        25590.193359375,
+        4512.00048828125
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 2062.0580065111917,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 1000,
+      "variant": "BASELINE",
+      "center": [
+        25973.216796875,
+        4833.39453125
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1923.3235884172636,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 1000,
+      "variant": "ENGAGED",
+      "center": [
+        25973.216796875,
+        4833.39453125
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1923.3235884172636,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 1000,
+      "variant": "T_PLAN",
+      "center": [
+        25973.216796875,
+        4833.39453125
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1923.3235884172636,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "NORTH",
+      "depth": 1000,
+      "variant": "DETACHED",
+      "center": [
+        25973.216796875,
+        4833.39453125
+      ],
+      "direction": [
+        0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1923.3235884172636,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 0,
+      "variant": "BASELINE",
+      "center": [
+        26732.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.4743606433403,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 0,
+      "variant": "ENGAGED",
+      "center": [
+        26732.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.4743606433403,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 0,
+      "variant": "T_PLAN",
+      "center": [
+        26732.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.4743606433403,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 0,
+      "variant": "DETACHED",
+      "center": [
+        26732.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.4743606433403,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 500,
+      "variant": "BASELINE",
+      "center": [
+        27232.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 2145.430395008337,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 500,
+      "variant": "ENGAGED",
+      "center": [
+        27232.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 2145.430349928288,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 500,
+      "variant": "T_PLAN",
+      "center": [
+        27232.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 2145.430349928288,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 500,
+      "variant": "DETACHED",
+      "center": [
+        27232.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 2145.430395008337,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 1000,
+      "variant": "BASELINE",
+      "center": [
+        27732.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 2094.8820342688,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 1000,
+      "variant": "ENGAGED",
+      "center": [
+        27732.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 2094.8820342688,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 1000,
+      "variant": "T_PLAN",
+      "center": [
+        27732.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 2094.8820342688,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "AXIAL",
+      "depth": 1000,
+      "variant": "DETACHED",
+      "center": [
+        27732.427734375,
+        0
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "z": 1500,
+      "central_clear_width": 2094.8820342688,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 0,
+      "variant": "BASELINE",
+      "center": [
+        25207.171875,
+        -4190.60693359375
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.473500433985,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 0,
+      "variant": "ENGAGED",
+      "center": [
+        25207.171875,
+        -4190.60693359375
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.473500433985,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 0,
+      "variant": "T_PLAN",
+      "center": [
+        25207.171875,
+        -4190.60693359375
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.473500433985,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 0,
+      "variant": "DETACHED",
+      "center": [
+        25207.171875,
+        -4190.60693359375
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1994.473500433985,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 500,
+      "variant": "BASELINE",
+      "center": [
+        25590.193359375,
+        -4512.00048828125
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 2062.0580065111917,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 500,
+      "variant": "ENGAGED",
+      "center": [
+        25590.193359375,
+        -4512.00048828125
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 2062.0579090695464,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 500,
+      "variant": "T_PLAN",
+      "center": [
+        25590.193359375,
+        -4512.00048828125
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 2062.0579090695464,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 500,
+      "variant": "DETACHED",
+      "center": [
+        25590.193359375,
+        -4512.00048828125
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 2062.0580065111917,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 1000,
+      "variant": "BASELINE",
+      "center": [
+        25973.216796875,
+        -4833.39453125
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1923.3235884172636,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 1000,
+      "variant": "ENGAGED",
+      "center": [
+        25973.216796875,
+        -4833.39453125
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1923.3235884172636,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 1000,
+      "variant": "T_PLAN",
+      "center": [
+        25973.216796875,
+        -4833.39453125
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1923.3235884172636,
+      "search_limit_each_side": 2000
+    },
+    {
+      "chapel": "SOUTH",
+      "depth": 1000,
+      "variant": "DETACHED",
+      "center": [
+        25973.216796875,
+        -4833.39453125
+      ],
+      "direction": [
+        -0.6427876353263855,
+        -0.7660444378852844
+      ],
+      "z": 1500,
+      "central_clear_width": 1923.3235884172636,
+      "search_limit_each_side": 2000
+    }
+  ],
+  "baseline_plan_polygons": {
+    "R18_NORTH_WALL_1": [
+      [
+        25513.76367,
+        5647.65674
+      ],
+      [
+        25629.89258,
+        5515.40527
+      ],
+      [
+        26683.56641,
+        6440.62109
+      ],
+      [
+        26567.43945,
+        6572.87256
+      ]
+    ],
+    "R18_NORTH_WALL_2": [
+      [
+        26602.03906,
+        6591.56055
+      ],
+      [
+        26648.9668,
+        6421.93262
+      ],
+      [
+        27419.13672,
+        6635.01172
+      ],
+      [
+        27372.21094,
+        6804.64014
+      ]
+    ],
+    "R18_NORTH_WALL_3": [
+      [
+        27351.95508,
+        6643.4541
+      ],
+      [
+        28097.04883,
+        6216.91699
+      ],
+      [
+        28184.48828,
+        6369.65967
+      ],
+      [
+        27439.39258,
+        6796.19727
+      ]
+    ],
+    "R18_NORTH_WALL_4": [
+      [
+        28059.38477,
+        6259.80859
+      ],
+      [
+        28386.01562,
+        5465.82324
+      ],
+      [
+        28548.78125,
+        5532.78223
+      ],
+      [
+        28222.15234,
+        6326.76807
+      ]
+    ],
+    "R18_NORTH_WALL_5": [
+      [
+        28075.4668,
+        4797.37451
+      ],
+      [
+        28237.60156,
+        4728.90771
+      ],
+      [
+        28548.4668,
+        5465.06982
+      ],
+      [
+        28386.33008,
+        5533.53613
+      ]
+    ],
+    "R18_NORTH_WALL_6": [
+      [
+        27531.48438,
+        4189.19531
+      ],
+      [
+        27663.32422,
+        4072.60107
+      ],
+      [
+        28222.45508,
+        4704.84375
+      ],
+      [
+        28090.61523,
+        4821.43848
+      ]
+    ],
+    "R18_NORTH_WALL_7": [
+      [
+        27058.00781,
+        3913.6377
+      ],
+      [
+        27147.71289,
+        3762.21289
+      ],
+      [
+        27642.25586,
+        4055.18604
+      ],
+      [
+        27552.55273,
+        4206.60986
+      ]
+    ],
+    "R18_NORTH_CONNECTOR_CHEEK_0": [
+      [
+        25968.12305,
+        3398.9126
+      ],
+      [
+        26036.63477,
+        3286.08398
+      ],
+      [
+        27038.14453,
+        3894.22461
+      ],
+      [
+        26969.63281,
+        4007.05322
+      ]
+    ],
+    "R18_NORTH_CONNECTOR_CHEEK_1": [
+      [
+        24491.08984,
+        5184.22852
+      ],
+      [
+        24528.97852,
+        5057.7832
+      ],
+      [
+        25689.74609,
+        5405.59375
+      ],
+      [
+        25651.85742,
+        5532.04004
+      ]
+    ],
+    "R18_AXIAL_WALL_1": [
+      [
+        27983.74805,
+        1336.48621
+      ],
+      [
+        28016.25195,
+        1163.51379
+      ],
+      [
+        28581.17383,
+        1269.67419
+      ],
+      [
+        28548.66992,
+        1442.64661
+      ]
+    ],
+    "R18_AXIAL_WALL_2": [
+      [
+        28561.08984,
+        1268.2439
+      ],
+      [
+        30996.16797,
+        1162.0835
+      ],
+      [
+        31003.83203,
+        1337.9165
+      ],
+      [
+        28568.75391,
+        1444.0769
+      ]
+    ],
+    "R18_AXIAL_WALL_3": [
+      [
+        31000,
+        1162
+      ],
+      [
+        33400,
+        1162
+      ],
+      [
+        33400,
+        1338
+      ],
+      [
+        31000,
+        1338
+      ]
+    ],
+    "R18_AXIAL_WALL_4": [
+      [
+        33375.82422,
+        1165.38586
+      ],
+      [
+        34075.82422,
+        965.38586
+      ],
+      [
+        34124.17578,
+        1134.61414
+      ],
+      [
+        33424.17578,
+        1334.61414
+      ]
+    ],
+    "R18_AXIAL_WALL_5": [
+      [
+        34020.22266,
+        1012.85968
+      ],
+      [
+        34509.04297,
+        -37.1403
+      ],
+      [
+        34668.59766,
+        37.1403
+      ],
+      [
+        34179.77734,
+        1087.14026
+      ]
+    ],
+    "R18_AXIAL_WALL_6": [
+      [
+        34020.22266,
+        -1012.85968
+      ],
+      [
+        34179.77734,
+        -1087.14026
+      ],
+      [
+        34668.59766,
+        -37.1403
+      ],
+      [
+        34509.04297,
+        37.1403
+      ]
+    ],
+    "R18_AXIAL_WALL_7": [
+      [
+        33375.82422,
+        -1165.38586
+      ],
+      [
+        33424.17578,
+        -1334.61414
+      ],
+      [
+        34124.17578,
+        -1134.61414
+      ],
+      [
+        34075.82422,
+        -965.38586
+      ]
+    ],
+    "R18_AXIAL_WALL_8": [
+      [
+        31000,
+        -1338
+      ],
+      [
+        33400,
+        -1338
+      ],
+      [
+        33400,
+        -1162
+      ],
+      [
+        31000,
+        -1162
+      ]
+    ],
+    "R18_AXIAL_WALL_9": [
+      [
+        28561.08984,
+        -1268.2439
+      ],
+      [
+        28568.75391,
+        -1444.0769
+      ],
+      [
+        31003.83203,
+        -1337.9165
+      ],
+      [
+        30996.16797,
+        -1162.0835
+      ]
+    ],
+    "R18_AXIAL_WALL_10": [
+      [
+        27983.74805,
+        -1336.48621
+      ],
+      [
+        28548.66992,
+        -1442.64661
+      ],
+      [
+        28581.17383,
+        -1269.67419
+      ],
+      [
+        28016.25195,
+        -1163.51379
+      ]
+    ],
+    "R18_AXIAL_CONNECTOR_CHEEK_0": [
+      [
+        26793.10742,
+        -1094.92212
+      ],
+      [
+        26799.77148,
+        -1226.75391
+      ],
+      [
+        28003.33203,
+        -1165.91589
+      ],
+      [
+        27996.66797,
+        -1034.08411
+      ]
+    ],
+    "R18_AXIAL_CONNECTOR_CHEEK_1": [
+      [
+        26793.10742,
+        1094.92212
+      ],
+      [
+        27996.66797,
+        1034.08411
+      ],
+      [
+        28003.33203,
+        1165.91589
+      ],
+      [
+        26799.77148,
+        1226.75391
+      ]
+    ],
+    "R18_SOUTH_WALL_1": [
+      [
+        25513.76367,
+        -5647.65674
+      ],
+      [
+        26567.43945,
+        -6572.87256
+      ],
+      [
+        26683.56641,
+        -6440.62109
+      ],
+      [
+        25629.89258,
+        -5515.40527
+      ]
+    ],
+    "R18_SOUTH_WALL_2": [
+      [
+        26602.03906,
+        -6591.56055
+      ],
+      [
+        27372.21094,
+        -6804.64014
+      ],
+      [
+        27419.13672,
+        -6635.01172
+      ],
+      [
+        26648.9668,
+        -6421.93262
+      ]
+    ],
+    "R18_SOUTH_WALL_3": [
+      [
+        27351.95508,
+        -6643.4541
+      ],
+      [
+        27439.39258,
+        -6796.19727
+      ],
+      [
+        28184.48828,
+        -6369.65967
+      ],
+      [
+        28097.04883,
+        -6216.91699
+      ]
+    ],
+    "R18_SOUTH_WALL_4": [
+      [
+        28059.38477,
+        -6259.80859
+      ],
+      [
+        28222.15234,
+        -6326.76807
+      ],
+      [
+        28548.78125,
+        -5532.78223
+      ],
+      [
+        28386.01562,
+        -5465.82324
+      ]
+    ],
+    "R18_SOUTH_WALL_5": [
+      [
+        28075.4668,
+        -4797.37451
+      ],
+      [
+        28386.33008,
+        -5533.53613
+      ],
+      [
+        28548.4668,
+        -5465.06982
+      ],
+      [
+        28237.60156,
+        -4728.90771
+      ]
+    ],
+    "R18_SOUTH_WALL_6": [
+      [
+        27531.48438,
+        -4189.19531
+      ],
+      [
+        28090.61523,
+        -4821.43848
+      ],
+      [
+        28222.45508,
+        -4704.84375
+      ],
+      [
+        27663.32422,
+        -4072.60107
+      ]
+    ],
+    "R18_SOUTH_WALL_7": [
+      [
+        27058.00781,
+        -3913.6377
+      ],
+      [
+        27552.55273,
+        -4206.60986
+      ],
+      [
+        27642.25586,
+        -4055.18604
+      ],
+      [
+        27147.71289,
+        -3762.21289
+      ]
+    ],
+    "R18_SOUTH_CONNECTOR_CHEEK_0": [
+      [
+        24491.08984,
+        -5184.22852
+      ],
+      [
+        25651.85742,
+        -5532.04004
+      ],
+      [
+        25689.74609,
+        -5405.59375
+      ],
+      [
+        24528.97852,
+        -5057.7832
+      ]
+    ],
+    "R18_SOUTH_CONNECTOR_CHEEK_1": [
+      [
+        25968.12305,
+        -3398.9126
+      ],
+      [
+        26969.63281,
+        -4007.05322
+      ],
+      [
+        27038.14453,
+        -3894.22461
+      ],
+      [
+        26036.63477,
+        -3286.08398
+      ]
+    ],
+    "TRIAL_PAD_O_40": [
+      [
+        24247.28906,
+        5041.23486
+      ],
+      [
+        24477.10156,
+        4848.39893
+      ],
+      [
+        24689.2207,
+        5101.19336
+      ],
+      [
+        24459.4082,
+        5294.0293
+      ]
+    ],
+    "TRIAL_PAD_O_60": [
+      [
+        25728.19336,
+        3357.40381
+      ],
+      [
+        25878.19336,
+        3097.59619
+      ],
+      [
+        26163.98242,
+        3262.59619
+      ],
+      [
+        26013.98242,
+        3522.40381
+      ]
+    ],
+    "TRIAL_PAD_O_80": [
+      [
+        26543.88672,
+        1268.62024
+      ],
+      [
+        26595.98047,
+        973.17786
+      ],
+      [
+        26920.9668,
+        1030.48169
+      ],
+      [
+        26868.87305,
+        1325.92407
+      ]
+    ],
+    "TRIAL_PAD_O_100": [
+      [
+        26543.88672,
+        -1268.62024
+      ],
+      [
+        26868.87305,
+        -1325.92407
+      ],
+      [
+        26920.9668,
+        -1030.48169
+      ],
+      [
+        26595.98047,
+        -973.17786
+      ]
+    ],
+    "TRIAL_PAD_O_120": [
+      [
+        25728.19336,
+        -3357.40381
+      ],
+      [
+        26013.98242,
+        -3522.40381
+      ],
+      [
+        26163.98242,
+        -3262.59619
+      ],
+      [
+        25878.19336,
+        -3097.59619
+      ]
+    ],
+    "TRIAL_PAD_O_140": [
+      [
+        24247.28906,
+        -5041.23486
+      ],
+      [
+        24459.4082,
+        -5294.0293
+      ],
+      [
+        24689.2207,
+        -5101.19336
+      ],
+      [
+        24477.10156,
+        -4848.39893
+      ]
+    ]
+  },
+  "unresolved": [
+    "No approved receiving-face authority/F5ZL-C schedule",
+    "Z3900 receiver height and widths are trial assumptions",
+    "No high-vault thrust endpoints or flyer profiles recovered: no flyers fabricated",
+    "No structural capacity or foundation assessment",
+    "No whole cathedral clearance proof",
+    "700-unit spring difference preserved, unresolved",
+    "Sampled roof gaps do not prove full envelope clearance",
+    "BVH surface intersections do not prove bonded masonry or detect all containment",
+    "B remains unapproved; protected generator identity still unresolved",
+    "R22 corrected comparator diagnosis retained separately; no V13 fit asserted"
+  ]
+}
