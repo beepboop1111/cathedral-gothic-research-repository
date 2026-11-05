@@ -1,0 +1,26 @@
+{
+  "source_bay": "M_A4 / T4",
+  "vaults": [
+    "L3-07",
+    "L3-08"
+  ],
+  "bay_axis_to_axis": 2197.626571943717,
+  "each_half_bay": 1098.8132859718585,
+  "each_trial_clear_opening": 906.8132859718585,
+  "central_trial_receiver": 192,
+  "end_receiver_inside_each_bay": 96.0,
+  "window_clear_width": 576,
+  "window_clear_height": 704,
+  "lower_opening_outer_crown": 2786.3634961617954,
+  "window_frame_outer_head": 3872.4100543134537,
+  "window_frame_bottom": 2976,
+  "web_top_to_frame_bottom": 96,
+  "min_window_frame_to_upper_planning_limit": 71.58994568654634,
+  "third_to_middle_boss_drop": 1480,
+  "middle_chordal_plan_depth": 1173.7771208805643,
+  "third_layer_plan_depth": 1891.780465792479,
+  "absolute_section_X": 25382.51006987816,
+  "radial_section_Y": 0,
+  "window_offset_along_wall": 0,
+  "physical_m_per_native_unit": null
+}

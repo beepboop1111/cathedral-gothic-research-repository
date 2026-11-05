@@ -1,0 +1,170 @@
+{
+  "status": "EXPERIMENTAL_2D_TRIAL_FOR_ONE_BAY",
+  "passed": 19,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Regular bay chosen, T4",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Equal paired plan frontages",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Full source chord matches radius/span",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Clear openings and shared jambs close bay",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Lower spring below source spring",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Lower rib crown below source crown",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Opening ring below low rib crown",
+      "pass": true,
+      "value": 2786.3634961617954
+    },
+    {
+      "name": "Low web allowance above rib crown",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Window frame above low web allowance",
+      "pass": true,
+      "value": 96
+    },
+    {
+      "name": "Window outer frame below upper planning envelope",
+      "pass": true,
+      "value": 71.58994568654634
+    },
+    {
+      "name": "Window centered above paired entrances",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Window cap solves declared head",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Lower arches solve declared clear crowns",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Packaged source matches LOW14_GEOMETRY.json",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Parent unchanged LOW14_GEOMETRY.json",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Packaged source matches F5ZK_C.json",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "Parent unchanged F5ZK_C.json",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "SVG parses RADIAL_SECTION_BB_AND_PLAN.svg",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "SVG parses DIMENSIONED_BAY_SECTION_AA.svg",
+      "pass": true,
+      "value": null
+    }
+  ],
+  "metrics": {
+    "source_bay": "M_A4 / T4",
+    "vaults": [
+      "L3-07",
+      "L3-08"
+    ],
+    "bay_axis_to_axis": 2197.626571943717,
+    "each_half_bay": 1098.8132859718585,
+    "each_trial_clear_opening": 906.8132859718585,
+    "central_trial_receiver": 192,
+    "end_receiver_inside_each_bay": 96.0,
+    "window_clear_width": 576,
+    "window_clear_height": 704,
+    "lower_opening_outer_crown": 2786.3634961617954,
+    "window_frame_outer_head": 3872.4100543134537,
+    "window_frame_bottom": 2976,
+    "web_top_to_frame_bottom": 96,
+    "min_window_frame_to_upper_planning_limit": 71.58994568654634,
+    "third_to_middle_boss_drop": 1480,
+    "middle_chordal_plan_depth": 1173.7771208805643,
+    "third_layer_plan_depth": 1891.780465792479,
+    "absolute_section_X": 25382.51006987816,
+    "radial_section_Y": 0,
+    "window_offset_along_wall": 0,
+    "physical_m_per_native_unit": null
+  },
+  "parameters": {
+    "scope": "ONE regular T4 / M_A4 bay only; L3-07 and L3-08; unapproved height trial",
+    "units": "native project units; physical SI conversion unresolved",
+    "lower_opening_spring": 2112,
+    "lower_opening_intrados_crown": 2688,
+    "third_layer_boss_rib_crown": 2816,
+    "third_layer_web_top_allowance": 2880,
+    "end_receiver_full_trial_width": 192,
+    "central_receiver_trial_width": 192,
+    "lower_arch_ring_trial_normal_depth": 96,
+    "window_clear_sill": 3072,
+    "window_arch_spring": 3456,
+    "window_clear_head": 3776,
+    "window_clear_width": 576,
+    "window_frame_trial_depth": 96,
+    "upper_reference_arch_vertical_planning_reserve": 192,
+    "status": "EXPERIMENTAL: values chosen for this review, not recovered approved third-layer heights",
+    "reserve_status": "192 is a conservative planning deduction using the recorded R2 profile envelope; it is not a measured intrados or a reconstructed moulding",
+    "propagate_to_other_bays": false,
+    "physical_m_per_native_unit": null
+  },
+  "source_datums": {
+    "spring_y": 3000,
+    "boss_rib_crown_y": 4296,
+    "upper_web_reference_y": 4394,
+    "gallery_soffit_y": 4425,
+    "gallery_floor_y": 4521
+  },
+  "source_R2_reference": {
+    "spring": 3000,
+    "apex": 4136,
+    "profile": [
+      168,
+      192
+    ],
+    "profile_intrados_unverified": true
+  },
+  "actual_vault_web_sections_recovered": false,
+  "actual_clearance_to_existing_moulding_verified": false,
+  "structural_capacity_verified": false,
+  "approved_geometry_changed": false,
+  "propagated_to_other_bays": false
+}

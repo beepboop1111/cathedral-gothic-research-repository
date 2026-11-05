@@ -1,0 +1,17 @@
+datum,native_elevation,authority
+Ground,0,REFERENCE
+Lower entrance spring,2112,TRIAL
+Lower entrance clear crown,2688,TRIAL
+Third-layer rib/boss crown,2816,TRIAL
+Third-layer web top allowance,2880,TRIAL
+Window frame bottom,2976,DERIVED TRIAL
+Existing inner/middle spring,3000,SOURCE
+Window clear sill,3072,TRIAL
+Window arch spring,3456,TRIAL
+Window clear head,3776,TRIAL
+Window frame outer head,3872.4100543134537,DERIVED TRIAL
+R2 center planning limit,3944,PLANNING ONLY
+R2 reference arch apex,4136,SOURCE
+Inner/middle rib/boss crown,4296,SOURCE
+Gallery soffit,4425,SOURCE
+Gallery floor,4521,SOURCE

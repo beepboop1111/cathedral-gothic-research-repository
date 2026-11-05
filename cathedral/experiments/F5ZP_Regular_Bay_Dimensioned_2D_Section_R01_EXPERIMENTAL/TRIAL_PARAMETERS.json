@@ -1,0 +1,21 @@
+{
+  "scope": "ONE regular T4 / M_A4 bay only; L3-07 and L3-08; unapproved height trial",
+  "units": "native project units; physical SI conversion unresolved",
+  "lower_opening_spring": 2112,
+  "lower_opening_intrados_crown": 2688,
+  "third_layer_boss_rib_crown": 2816,
+  "third_layer_web_top_allowance": 2880,
+  "end_receiver_full_trial_width": 192,
+  "central_receiver_trial_width": 192,
+  "lower_arch_ring_trial_normal_depth": 96,
+  "window_clear_sill": 3072,
+  "window_arch_spring": 3456,
+  "window_clear_head": 3776,
+  "window_clear_width": 576,
+  "window_frame_trial_depth": 96,
+  "upper_reference_arch_vertical_planning_reserve": 192,
+  "status": "EXPERIMENTAL: values chosen for this review, not recovered approved third-layer heights",
+  "reserve_status": "192 is a conservative planning deduction using the recorded R2 profile envelope; it is not a measured intrados or a reconstructed moulding",
+  "propagate_to_other_bays": false,
+  "physical_m_per_native_unit": null
+}
