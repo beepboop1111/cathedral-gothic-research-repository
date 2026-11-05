@@ -1,0 +1,13 @@
+{
+  "Blender_version": "5.0.1",
+  "R05_source_sha256": "0af24a9369925c36618b7afc9aa4407d7cee20c60ae46ba33c9a6dba3861d917",
+  "R05_source_objects_preserved": 118,
+  "saved_objects": 179,
+  "units_system": "NONE",
+  "scale_length": 1.0,
+  "source_G40_sha256": "9b1d1fac567be1fea1c527582e8be2ad89f6464cae549d582b2e0f6bf7f7a2a9",
+  "result": "/home/christopher/Desktop/F5ZP_Registration_Contact_R03_EXPERIMENTAL/F5ZP_Registration_Contact_R03.blend",
+  "result_sha256": "4e3cedf885387b8fa584373e4cdd08ad2b04aa475117fccfd1239cb4f9036420",
+  "rendered": true,
+  "Exhibit_available": false
+}

@@ -1,0 +1,20 @@
+{
+  "source_r05_nodes": 118,
+  "study_geometries": 134,
+  "reimport_geometries": 134,
+  "bounds": [
+    [
+      -9360.0,
+      0.0,
+      -11669.0
+    ],
+    [
+      27062.0,
+      18125.3203125,
+      11669.0
+    ]
+  ],
+  "physical_scale_applied": false,
+  "glTF_expression": "(X,Zheight,-Ynorth)",
+  "Exhibit_inspected": false
+}

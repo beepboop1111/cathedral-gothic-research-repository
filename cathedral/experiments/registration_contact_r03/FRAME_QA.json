@@ -1,0 +1,17 @@
+{
+  "governance_scene_note": "G40 declares X east / Z north / Y vertical",
+  "measured_saved_geometry": "Principal G40 mesh world coordinates are X east / Y north / Z up",
+  "principal_object_matrices": "identity for G40 context/replacements; 16x object transform already applied for choir floor",
+  "evidence_landmarks": {
+    "transept_terminal_plan_y": [
+      -10709,
+      10709
+    ],
+    "lower_portal_floor_z": 0,
+    "gallery_soffit_z": 4854,
+    "gallery_floor_z": 4950,
+    "maximum_height_z": 17000
+  },
+  "study_mapping": "IDENTITY for captured G40 world vertices; no global axis swap",
+  "scope": "Per-object transforms used; stale global note cannot normalize every mixed asset."
+}

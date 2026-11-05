@@ -1,0 +1,480 @@
+{
+  "reopened": true,
+  "source_R05_mesh_curve_objects": 118,
+  "matching": 118,
+  "checks": [
+    {
+      "name": "NE_CORE_AND_ENTIRE_J11_SOLID",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_UPPER_CORE_PLACEHOLDER",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_WEB_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_WEB_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_WEB_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_WEB_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_4",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_5",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_6",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J12_7",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_WEB_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_WEB_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_WEB_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_WEB_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_4",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_5",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_6",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_J13_7",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_CORE_AND_ENTIRE_J11_SOLID",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_UPPER_CORE_PLACEHOLDER",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_WEB_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_WEB_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_WEB_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_WEB_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_4",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_5",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_6",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J12_7",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_WEB_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_WEB_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_WEB_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_WEB_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_4",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_5",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_6",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_J13_7",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_CORE_AND_ENTIRE_J11_SOLID",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_UPPER_CORE_PLACEHOLDER",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_WEB_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_WEB_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_WEB_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_WEB_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_4",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_5",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_6",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J12_7",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_WEB_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_WEB_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_WEB_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_WEB_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_4",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_5",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_6",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_J13_7",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_CORE_AND_ENTIRE_J11_SOLID",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_UPPER_CORE_PLACEHOLDER",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_WEB_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_WEB_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_WEB_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_WEB_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_4",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_5",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_6",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J12_7",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_WEB_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_WEB_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_WEB_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_WEB_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_0",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_2",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_3",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_4",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_5",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_6",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_J13_7",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "HIGH_FRAME_north",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "HIGH_FRAME_south",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "HIGH_FRAME_east",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "HIGH_FRAME_west",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "HIGH_DIAGONAL_NE",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_ADJACENT_OGIVE_Q_OR_N",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NE_ADJACENT_OGIVE_T1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_ADJACENT_OGIVE_Q_OR_N",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SE_ADJACENT_OGIVE_T1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_ADJACENT_OGIVE_Q_OR_N",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "SW_ADJACENT_OGIVE_T1",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "HIGH_DIAGONAL_NW",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_ADJACENT_OGIVE_Q_OR_N",
+      "identical_world_geometry": true
+    },
+    {
+      "name": "NW_ADJACENT_OGIVE_T1",
+      "identical_world_geometry": true
+    }
+  ],
+  "source_files_modified": false
+}

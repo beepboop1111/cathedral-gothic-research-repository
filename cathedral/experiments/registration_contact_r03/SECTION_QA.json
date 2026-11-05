@@ -1,0 +1,1326 @@
+{
+  "method": "actual triangle/plane section segments at 11 heights; exact 2D trace distances; no polygon healing",
+  "rows": [
+    {
+      "corner": "NE",
+      "Z": 100,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 104242.54069958505,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 100,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 18453.296424341654,
+      "section_trace_gap": 6400.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 100,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 100,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 104242.54069958505,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 100,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 18453.296424341654,
+      "section_trace_gap": 6400.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 100,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 100,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 104242.54069958505,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 100,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 18453.296424341654,
+      "section_trace_gap": 6400.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 100,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 100,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 104242.54069958505,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 100,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 18453.296424341654,
+      "section_trace_gap": 6400.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 100,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 2616,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 101074.3780189912,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 2616,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147306442057,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 2616,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 2616,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 101074.3780189912,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 2616,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147306442057,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 2616,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 2616,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 101074.3780189912,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 2616,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147306442057,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 2616,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 2616,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 101074.3780189912,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 2616,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147306442057,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 2616,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 2999.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 113872.1022377655,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 2999.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147307482694,
+      "section_trace_gap": 6255.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 2999.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 2999.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 113872.1022377655,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 2999.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147307482694,
+      "section_trace_gap": 6255.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 2999.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 2999.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 113872.1022377655,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 2999.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147307482694,
+      "section_trace_gap": 6255.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 2999.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 2999.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 113872.1022377655,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 2999.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147307482694,
+      "section_trace_gap": 6255.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 2999.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 3000.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 113872.58578848882,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 3000.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147307483025,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 3000.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 3000.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 113872.58578848882,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 3000.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147307483025,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 3000.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 3000.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 113872.58578848882,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 3000.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147307483025,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 3000.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 3000.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 113872.58578848882,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 3000.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147307483025,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 3000.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4296,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 264837.13042093447,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4296,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147310995508,
+      "section_trace_gap": 6255.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4296,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4296,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 264837.13042093447,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4296,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147310995508,
+      "section_trace_gap": 6255.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4296,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4296,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 264837.13042093447,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4296,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147310995508,
+      "section_trace_gap": 6255.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4296,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4296,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 264837.13042093447,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4296,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.147310995508,
+      "section_trace_gap": 6255.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4296,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4391.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 284758.77866421064,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4391.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.14731125521,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4391.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4391.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 284758.77866421064,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4391.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.14731125521,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4391.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4391.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 284758.77866421064,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4391.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.14731125521,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4391.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4391.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 284758.77866421064,
+      "section_trace_gap": 4072.935059634514,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4391.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 21895.14731125521,
+      "section_trace_gap": 6256.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4391.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 6400.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4392.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 284761.75004161894,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4392.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 21895.147311256012,
+      "section_trace_gap": 6960.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4392.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4392.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 284761.75004161894,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4392.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 21895.147311256012,
+      "section_trace_gap": 6960.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4392.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4392.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 284761.75004161894,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4392.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 21895.147311256012,
+      "section_trace_gap": 6960.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4392.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4392.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 284761.75004161894,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4392.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 21895.147311256012,
+      "section_trace_gap": 6960.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4392.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4521,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 304742.5409437269,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4521,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 21895.147311605324,
+      "section_trace_gap": 6959.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4521,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4521,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 304742.5409437269,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4521,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 21895.147311605324,
+      "section_trace_gap": 6959.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4521,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4521,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 304742.5409437269,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4521,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 21895.147311605324,
+      "section_trace_gap": 6959.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4521,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4521,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 304742.5409437269,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4521,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 21895.147311605324,
+      "section_trace_gap": 6959.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4521,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4854.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 152114.5409437256,
+      "section_trace_gap": 4515.994021253792,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4854.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 56861.12845974429,
+      "section_trace_gap": 6189.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4854.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 18098.0,
+      "section_trace_gap": 2649.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": 0
+    },
+    {
+      "corner": "NW",
+      "Z": 4854.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 152114.5409437256,
+      "section_trace_gap": 4515.994021253792,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4854.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 56861.12845974429,
+      "section_trace_gap": 6189.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4854.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 18098.0,
+      "section_trace_gap": 5521.886090820781,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": 0
+    },
+    {
+      "corner": "SE",
+      "Z": 4854.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 152114.5409437256,
+      "section_trace_gap": 4515.994021253792,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4854.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 56861.12845974429,
+      "section_trace_gap": 6189.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4854.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 18098.0,
+      "section_trace_gap": 8515.000000000002,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": 0
+    },
+    {
+      "corner": "SW",
+      "Z": 4854.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 152114.5409437256,
+      "section_trace_gap": 4515.994021253792,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4854.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 56861.12845974429,
+      "section_trace_gap": 6189.0,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4854.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 18098.0,
+      "section_trace_gap": 9796.900019904255,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": 0
+    },
+    {
+      "corner": "NE",
+      "Z": 4950.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 111173.4442422612,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4950.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 26194.406365687788,
+      "section_trace_gap": 6189.000000000001,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 4950.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4950.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 111173.4442422612,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4950.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 26194.406365687788,
+      "section_trace_gap": 6189.000000000001,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 4950.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4950.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 111173.4442422612,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4950.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 26194.406365687788,
+      "section_trace_gap": 6189.000000000001,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 4950.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4950.1,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 111173.4442422612,
+      "section_trace_gap": 5068.541407545173,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4950.1,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 26194.406365687788,
+      "section_trace_gap": 6189.000000000001,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 4950.1,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 13499.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 9000.0,
+      "section_trace_gap": 7327.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 13499.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NE",
+      "Z": 13499.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 13499.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 9000.0,
+      "section_trace_gap": 7327.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 13499.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "NW",
+      "Z": 13499.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 13499.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 9000.0,
+      "section_trace_gap": 7327.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 13499.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SE",
+      "Z": 13499.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 13499.9,
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 9000.0,
+      "section_trace_gap": 7327.999999999999,
+      "intersection_trace_length": 0.0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 13499.9,
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    },
+    {
+      "corner": "SW",
+      "Z": 13499.9,
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "R05_trace_length": 3584.0,
+      "source_trace_length": 0.0,
+      "section_trace_gap": null,
+      "intersection_trace_length": 0,
+      "material_overlap_area": null
+    }
+  ],
+  "interpretation": "No recorded boundary contact over sampled heights. Nonclosed masonry volumes, unsampled physical material and missing solids remain unresolved."
+}

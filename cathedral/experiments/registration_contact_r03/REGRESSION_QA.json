@@ -1,0 +1,757 @@
+{
+  "checks": [
+    {
+      "name": "analytic box separation [5, 0, 0]",
+      "expected": 3.0,
+      "actual": 3.0,
+      "pass": true
+    },
+    {
+      "name": "analytic box separation [5, 6, 0]",
+      "expected": 5.0,
+      "actual": 5.0,
+      "pass": true
+    },
+    {
+      "name": "analytic box separation [0, 0, 0]",
+      "expected": 0.0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "name": "analytic box separation [2, 0, 0]",
+      "expected": 0.0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "name": "skew interior edge minimum",
+      "actual": 2.0,
+      "expected": 2.0,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_ADJACENT_OGIVE_T1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_ADJACENT_OGIVE_Q_OR_N",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression HIGH_DIAGONAL_NW",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_ADJACENT_OGIVE_T1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_ADJACENT_OGIVE_Q_OR_N",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_ADJACENT_OGIVE_T1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_ADJACENT_OGIVE_Q_OR_N",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_ADJACENT_OGIVE_T1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_ADJACENT_OGIVE_Q_OR_N",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression HIGH_DIAGONAL_NE",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression HIGH_FRAME_west",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression HIGH_FRAME_east",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression HIGH_FRAME_south",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression HIGH_FRAME_north",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_7",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_6",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_5",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_4",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_WEB_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_WEB_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_WEB_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J13_WEB_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_7",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_6",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_5",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_4",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_WEB_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_WEB_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_WEB_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_J12_WEB_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_UPPER_CORE_PLACEHOLDER",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SW_CORE_AND_ENTIRE_J11_SOLID",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_7",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_6",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_5",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_4",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_WEB_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_WEB_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_WEB_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J13_WEB_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_7",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_6",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_5",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_4",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_WEB_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_WEB_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_WEB_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_J12_WEB_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_UPPER_CORE_PLACEHOLDER",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NW_CORE_AND_ENTIRE_J11_SOLID",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_7",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_6",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_5",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_4",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_WEB_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_WEB_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_WEB_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J13_WEB_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_7",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_6",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_5",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_4",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_WEB_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_WEB_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_WEB_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_J12_WEB_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_UPPER_CORE_PLACEHOLDER",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression SE_CORE_AND_ENTIRE_J11_SOLID",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_7",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_6",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_5",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_4",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_WEB_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_WEB_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_WEB_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J13_WEB_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_7",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_6",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_5",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_4",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_WEB_3",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_WEB_2",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_WEB_1",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_J12_WEB_0",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_UPPER_CORE_PLACEHOLDER",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "R05 vertex regression NE_CORE_AND_ENTIRE_J11_SOLID",
+      "max_coordinate_error": 0.0,
+      "faces_identical": true,
+      "pass": true
+    },
+    {
+      "name": "SVG XML CROSSING_CONTACT_PLANS.svg",
+      "pass": true
+    },
+    {
+      "name": "SVG XML CROSSING_SECTIONS.svg",
+      "pass": true
+    },
+    {
+      "name": "SVG XML CHEVET_REGISTRATION.svg",
+      "pass": true
+    }
+  ],
+  "passed": 126,
+  "failed": 0,
+  "scope": "Technical and numerical only. Architectural/structural approval not implied."
+}

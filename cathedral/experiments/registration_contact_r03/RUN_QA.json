@@ -1,0 +1,12 @@
+{
+  "status": "EXPERIMENTAL; evidence-limited completion",
+  "saved_chevet_nodes_checked": 24,
+  "guide_registration": "PASS",
+  "physical_units": "UNRESOLVED",
+  "saved_surface_pairs_checked": 24,
+  "disjoint_pairs": 24,
+  "complete_installed_contact": "UNRESOLVED",
+  "approved_geometry_changed": false,
+  "F5ZL_C_supports": "MISSING",
+  "technical": "Completed script, SVG/PNG generation and GLB reimport; see validation addendum for Blender checks"
+}

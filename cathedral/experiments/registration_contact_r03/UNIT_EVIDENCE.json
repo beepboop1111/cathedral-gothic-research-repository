@@ -1,0 +1,35 @@
+{
+  "physical_m_per_native_unit": null,
+  "status": "UNRESOLVED",
+  "geometry_rescaled": false,
+  "evidence": [
+    {
+      "source": "/home/christopher/Desktop/Research_03_Research_and_Tools/03_Research_and_Tools/F5ZP_E5_R1_New_Chat_Handoff(1).md",
+      "sha256": "87d40ccd6dbffede2a99ad4d05da815f6350682bc960fbfe52906f1a781a1987",
+      "declaration": "Native model scale 1 unit = 1 mm",
+      "candidate_m_per_unit": 0.001,
+      "limitation": "Prior precinct handoff declaration; no independent measured physical dimension tied to actual F5ZE/F5ZN-A endpoints. Repeated downstream X01 declarations are the same lineage."
+    },
+    {
+      "source": "/home/christopher/Desktop/newgen_F5ZN_A_CHEVET_STUDY_1to1.blend",
+      "sha256": "d5ef438c269c99dc27052d26a1885f7965065d52ea51162cca4329d4419174bc",
+      "declaration": "1 Blender world unit = 1 Minecraft block",
+      "scene_unit_system": "NONE",
+      "scale_length": 1.0,
+      "limitation": "Not a measured SI calibration; conflicts with millimetre declaration and cannot certify metres."
+    },
+    {
+      "source": "F5ZP X02 / E5-S2 experimental precinct placement",
+      "candidate_m_per_unit": 0.0013,
+      "limitation": "130 percent design experiment applied to a fragment, not a unit conversion for approved cathedral geometry. Rejected for global calibration."
+    },
+    {
+      "source": "F5ZK-C architectural reference PDF and recovered F5ZE/F5ZN-A JSON",
+      "declaration": "Full-scale project units; 1:1",
+      "limitation": "Preserves native numerical scale but supplies no independent physical SI length."
+    }
+  ],
+  "confirmation_gate": "Require a physical length with identifiable saved native endpoints and independent second dimension or explicit dimensional contract linking these exact baselines. Repeated derived unit labels are not independent checks.",
+  "excluded": ["historical drawing pixels", "LittleTiles grid as scale", "Blender scale_length alone", "glTF metre convention as evidence of architectural intent"],
+  "exports": "Native numerical magnitudes retained in GLB and Blender. GLB glTF coordinate convention does not establish SI calibration."
+}

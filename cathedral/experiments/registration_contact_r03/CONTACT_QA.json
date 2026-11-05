@@ -1,0 +1,490 @@
+{
+  "tolerance": 0.002,
+  "method": "triangle vertex-face / edge-edge / segment-face exact minimum with AABB pruning; not AABB contact",
+  "physical_m_per_unit": null,
+  "rows": [
+    {
+      "r05": "SW_UPPER_CORE_PLACEHOLDER",
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "surface_gap": 4515.994021253792,
+      "r05_point": [
+        -3381.0,
+        -3381.0,
+        4854.0
+      ],
+      "source_point": [
+        -6000.0,
+        -7060.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SW_UPPER_CORE_PLACEHOLDER",
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "surface_gap": 6189.0,
+      "r05_point": [
+        -2837.0,
+        -3381.0,
+        7120.0
+      ],
+      "source_point": [
+        -2837.0,
+        -9570.0,
+        7120.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SW_UPPER_CORE_PLACEHOLDER",
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "surface_gap": 9796.900019904255,
+      "r05_point": [
+        -2485.0,
+        -2485.0,
+        4950.0
+      ],
+      "source_point": [
+        2360.0,
+        6030.0,
+        4950.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": 0,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": true,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SW_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "surface_gap": 3568.0938888992255,
+      "r05_point": [
+        -4085.0,
+        -4085.0,
+        4392.0
+      ],
+      "source_point": [
+        -6000.0,
+        -7060.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SW_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "surface_gap": 5504.422676357622,
+      "r05_point": [
+        -2933.0,
+        -4085.0,
+        4392.0
+      ],
+      "source_point": [
+        -2933.0,
+        -9570.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SW_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "surface_gap": 9807.787416130102,
+      "r05_point": [
+        -2485.0,
+        -2485.0,
+        4392.0
+      ],
+      "source_point": [
+        2360.0,
+        6030.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": 0,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": true,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NW_UPPER_CORE_PLACEHOLDER",
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "surface_gap": 4515.994021253792,
+      "r05_point": [
+        -3381.0,
+        3381.0,
+        4854.0
+      ],
+      "source_point": [
+        -6000.0,
+        7060.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NW_UPPER_CORE_PLACEHOLDER",
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "surface_gap": 6189.0,
+      "r05_point": [
+        -2837.0,
+        3381.0,
+        7120.0
+      ],
+      "source_point": [
+        -2837.0,
+        9570.0,
+        7120.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NW_UPPER_CORE_PLACEHOLDER",
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "surface_gap": 5521.886090820781,
+      "r05_point": [
+        -2485.0,
+        3381.0,
+        4950.0
+      ],
+      "source_point": [
+        2360.0,
+        6030.0,
+        4950.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": 0,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": true,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NW_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "surface_gap": 3568.0938888992255,
+      "r05_point": [
+        -4085.0,
+        4085.0,
+        4392.0
+      ],
+      "source_point": [
+        -6000.0,
+        7060.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NW_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "surface_gap": 5504.422676357622,
+      "r05_point": [
+        -2933.0,
+        4085.0,
+        4392.0
+      ],
+      "source_point": [
+        -2933.0,
+        9570.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NW_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "surface_gap": 5541.179477331519,
+      "r05_point": [
+        -2485.0,
+        3381.0,
+        4392.0
+      ],
+      "source_point": [
+        2360.0,
+        6030.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": 0,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": true,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SE_UPPER_CORE_PLACEHOLDER",
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "surface_gap": 4515.994021253792,
+      "r05_point": [
+        3381.0,
+        -3381.0,
+        4950.0
+      ],
+      "source_point": [
+        6000.0,
+        -7060.0,
+        4950.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SE_UPPER_CORE_PLACEHOLDER",
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "surface_gap": 6189.0,
+      "r05_point": [
+        3029.0,
+        -3381.0,
+        7120.0
+      ],
+      "source_point": [
+        3029.0,
+        -9570.0,
+        7120.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SE_UPPER_CORE_PLACEHOLDER",
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "surface_gap": 8515.0,
+      "r05_point": [
+        3381.0,
+        -2485.0,
+        4933.199177236887
+      ],
+      "source_point": [
+        3381.0,
+        6030.0,
+        4933.199177236887
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": 0,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": true,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SE_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "surface_gap": 3568.0938888992255,
+      "r05_point": [
+        4085.0,
+        -4085.0,
+        4392.0
+      ],
+      "source_point": [
+        6000.0,
+        -7060.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SE_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "surface_gap": 5504.422676357622,
+      "r05_point": [
+        2933.0,
+        -4085.0,
+        4392.0
+      ],
+      "source_point": [
+        2933.0,
+        -9570.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "SE_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "surface_gap": 8527.524201079701,
+      "r05_point": [
+        3381.0,
+        -2485.0,
+        4392.0
+      ],
+      "source_point": [
+        3381.0,
+        6030.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": 0,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": true,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NE_UPPER_CORE_PLACEHOLDER",
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "surface_gap": 4515.994021253792,
+      "r05_point": [
+        3381.0,
+        3381.0,
+        4854.0
+      ],
+      "source_point": [
+        6000.0,
+        7060.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NE_UPPER_CORE_PLACEHOLDER",
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "surface_gap": 6189.0,
+      "r05_point": [
+        3029.0,
+        3381.0,
+        7120.0
+      ],
+      "source_point": [
+        3029.0,
+        9570.0,
+        7120.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NE_UPPER_CORE_PLACEHOLDER",
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "surface_gap": 2649.0,
+      "r05_point": [
+        3381.0,
+        3381.0,
+        4933.199177236887
+      ],
+      "source_point": [
+        3381.0,
+        6030.0,
+        4933.199177236887
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": 0,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": true,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NE_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40F__G40_CONTEXT_MINUS_G24_ORIGINAL",
+      "surface_gap": 3568.0938888992255,
+      "r05_point": [
+        4085.0,
+        4085.0,
+        4392.0
+      ],
+      "source_point": [
+        6000.0,
+        7060.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NE_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40F__OPTION_C_G24_G25_REPLACEMENTS",
+      "surface_gap": 5504.422676357622,
+      "r05_point": [
+        2933.0,
+        4085.0,
+        4392.0
+      ],
+      "source_point": [
+        2933.0,
+        9570.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": null,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": false,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    },
+    {
+      "r05": "NE_CORE_AND_ENTIRE_J11_SOLID",
+      "source": "G40M2_DERIVED_FULL_CHOIR_FIRST_FLOOR_X2360_TO_X10709_JOIN",
+      "surface_gap": 1999.1170551020768,
+      "r05_point": [
+        4085.0,
+        4085.0,
+        4392.0
+      ],
+      "source_point": [
+        4085.0,
+        6030.0,
+        4854.0
+      ],
+      "surface_contact_area": 0,
+      "overlap_volume": 0,
+      "relation": "DISJOINT_SAVED_SURFACES",
+      "source_watertight": true,
+      "scope": "saved fragment only; missing intervening masonry not inferred; volume null where nonclosed source cannot define interior"
+    }
+  ],
+  "complete_adjoining_pier_wall_inventory": "UNRESOLVED: no installed nave/choir/crossing piers recovered; G40 is a transept fragment plus choir floor trial",
+  "load_capacity": "UNRESOLVED",
+  "F5ZL_C_248_support_schedule": "MISSING"
+}
