@@ -1,0 +1,8 @@
+roof,form,plate_or_eave_underside_m,ridge_or_apex_underside_m,pitch_deg
+NORTH_MAIN,gable,6.35,12.1,45.0
+NORTH_NECK,gable,6.35,9.85,45.0
+UPPER_LINK,gable,6.35,7.31,38.659808254090095
+NIGHT_RANGE,gable,6.35,9.149999999999999,45.0
+STAIR_TURRET,octagonal pavilion,6.05,9.55,facet planes in JSON
+VESTIBULE_EAST,gable,4.0,5.75,45.0
+CHAPTER_HOUSE,octagonal pavilion,5.3,11.6,facet planes in JSON
