@@ -1,0 +1,238 @@
+{
+  "status": "EXPERIMENTAL_2D_ONLY",
+  "passed": 27,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Input integrity F5ZK_C.json",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Input integrity LOW14_GEOMETRY.json",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Input integrity REGULAR_BAY_TRIAL_PARAMETERS.json",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "T2 Footprints valid",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "T2 Paired footprints do not overlap",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "T2 Middle footprint not encroached",
+      "passed": true,
+      "value": 1.3969838619232178e-09
+    },
+    {
+      "name": "T2 Full middle frontage shared",
+      "passed": true,
+      "value": 2377.732644414651
+    },
+    {
+      "name": "T2 Two equal frontages",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "T2 Opening and receiver faces close bay",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "T2 Positive opening width",
+      "passed": true,
+      "value": 996.8663222073255
+    },
+    {
+      "name": "T2 Window frame under planning envelope",
+      "passed": true,
+      "value": 71.58994568654634
+    },
+    {
+      "name": "T2 Window frame above web allowance",
+      "passed": true,
+      "value": 96
+    },
+    {
+      "name": "T2 Lower crown below higher crown",
+      "passed": true,
+      "value": 1480
+    },
+    {
+      "name": "T2 Skewed division retained",
+      "passed": true,
+      "value": 225.87892167572252
+    },
+    {
+      "name": "T6 Footprints valid",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "T6 Paired footprints do not overlap",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "T6 Middle footprint not encroached",
+      "passed": true,
+      "value": 1.3969838619232178e-09
+    },
+    {
+      "name": "T6 Full middle frontage shared",
+      "passed": true,
+      "value": 2377.7326444146506
+    },
+    {
+      "name": "T6 Two equal frontages",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "T6 Opening and receiver faces close bay",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "T6 Positive opening width",
+      "passed": true,
+      "value": 996.8663222073253
+    },
+    {
+      "name": "T6 Window frame under planning envelope",
+      "passed": true,
+      "value": 71.58994568654634
+    },
+    {
+      "name": "T6 Window frame above web allowance",
+      "passed": true,
+      "value": 96
+    },
+    {
+      "name": "T6 Lower crown below higher crown",
+      "passed": true,
+      "value": 1480
+    },
+    {
+      "name": "T6 Skewed division retained",
+      "passed": true,
+      "value": -225.87892167572392
+    },
+    {
+      "name": "T2/T6 mirrored dimensions",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "T2/T6 opposite skew",
+      "passed": true,
+      "value": null
+    }
+  ],
+  "measurements": [
+    {
+      "bay": "T2",
+      "middle_bay": "M_A6",
+      "lower_vaults": [
+        "L3-03",
+        "L3-04"
+      ],
+      "bay_frontage": 2377.732644414651,
+      "half_frontage": 1188.8663222073255,
+      "trial_clear_opening_each": 996.8663222073255,
+      "trial_central_receiver_face": 192,
+      "trial_shared_end_receiver_face": 192,
+      "shared_division_length": 1737.1227975753832,
+      "division_normal_depth": 1722.3746185423017,
+      "division_tangential_offset": 225.87892167572252,
+      "division_skew_degrees": 7.471353990806269,
+      "normal_cut_plan_depth": 1674.4333730977135,
+      "lower_cell_areas": [
+        2715569.307282191,
+        2897992.5683101695
+      ],
+      "outer_receiving_edge_lengths": [
+        2432.193467524175,
+        2373.2209299222027
+      ],
+      "middle_contact_length": 2377.732644414651,
+      "middle_overlap_area": 1.3969838619232178e-09,
+      "lower_overlap_area": 0.0,
+      "window_upper_planning_margin": 71.58994568654634,
+      "window_frame_to_web_allowance": 96,
+      "physical_m_per_native_unit": null
+    },
+    {
+      "bay": "T6",
+      "middle_bay": "M_A2",
+      "lower_vaults": [
+        "L3-11",
+        "L3-12"
+      ],
+      "bay_frontage": 2377.7326444146506,
+      "half_frontage": 1188.8663222073253,
+      "trial_clear_opening_each": 996.8663222073253,
+      "trial_central_receiver_face": 192,
+      "trial_shared_end_receiver_face": 192,
+      "shared_division_length": 1737.1227975753823,
+      "division_normal_depth": 1722.3746185423004,
+      "division_tangential_offset": -225.87892167572392,
+      "division_skew_degrees": -7.471353990806321,
+      "normal_cut_plan_depth": 1674.433373097713,
+      "lower_cell_areas": [
+        2897992.5683101662,
+        2715569.30728219
+      ],
+      "outer_receiving_edge_lengths": [
+        2373.2209299222004,
+        2432.1934675241755
+      ],
+      "middle_contact_length": 2377.7326444146506,
+      "middle_overlap_area": 1.3969838619232178e-09,
+      "lower_overlap_area": 0.0,
+      "window_upper_planning_margin": 71.58994568654634,
+      "window_frame_to_web_allowance": 96,
+      "physical_m_per_native_unit": null
+    }
+  ],
+  "inherited_trial_parameters": {
+    "scope": "ONE regular T4 / M_A4 bay only; L3-07 and L3-08; unapproved height trial",
+    "units": "native project units; physical SI conversion unresolved",
+    "lower_opening_spring": 2112,
+    "lower_opening_intrados_crown": 2688,
+    "third_layer_boss_rib_crown": 2816,
+    "third_layer_web_top_allowance": 2880,
+    "end_receiver_full_trial_width": 192,
+    "central_receiver_trial_width": 192,
+    "lower_arch_ring_trial_normal_depth": 96,
+    "window_clear_sill": 3072,
+    "window_arch_spring": 3456,
+    "window_clear_head": 3776,
+    "window_clear_width": 576,
+    "window_frame_trial_depth": 96,
+    "upper_reference_arch_vertical_planning_reserve": 192,
+    "status": "EXPERIMENTAL: values chosen for this review, not recovered approved third-layer heights",
+    "reserve_status": "192 is a conservative planning deduction using the recorded R2 profile envelope; it is not a measured intrados or a reconstructed moulding",
+    "propagate_to_other_bays": false,
+    "physical_m_per_native_unit": null
+  },
+  "approved_geometry_changed": false,
+  "new_height_application": "T2 and T6 trial drawings only",
+  "unresolved": [
+    "Physical SI conversion",
+    "Wall thickness and actual arch intrados",
+    "Actual 3D contacts and vault-web sections",
+    "Structural adequacy and architectural approval",
+    "Missing F5ZL-C support schedule"
+  ]
+}

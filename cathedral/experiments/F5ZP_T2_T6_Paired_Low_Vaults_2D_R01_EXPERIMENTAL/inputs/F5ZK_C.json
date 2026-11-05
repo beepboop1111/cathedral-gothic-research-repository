@@ -1,0 +1,550 @@
+{
+  "revision": "F5ZK-C",
+  "status": "working architectural identity for curved chevet ambulatory families",
+  "source_authorities": [
+    "F5ZJ ambulatory family topology",
+    "F5ZK-B lower/gallery vertical coordination"
+  ],
+  "families": {
+    "AMB-I": {
+      "radii": [
+        2933.0,
+        4085.0
+      ],
+      "radial_depth": 1152.0,
+      "ogive": [
+        144,
+        160
+      ],
+      "radial_doubleau": [
+        160,
+        176
+      ],
+      "boss": [
+        304,
+        184
+      ],
+      "role": "inner chevet ambulatory; strongest visual relationship to choir arcade"
+    },
+    "AMB-M": {
+      "radii": [
+        4085.0,
+        5285.0
+      ],
+      "radial_depth": 1200.0,
+      "ogive": [
+        152,
+        168
+      ],
+      "radial_doubleau": [
+        168,
+        184
+      ],
+      "boss": [
+        320,
+        200
+      ],
+      "role": "middle chevet ambulatory; processional middle ring"
+    },
+    "AMB-O": {
+      "radii": [
+        5285.0,
+        6657.0
+      ],
+      "radial_depth": 1372.0,
+      "ogive": [
+        160,
+        176
+      ],
+      "radial_doubleau": [
+        176,
+        192
+      ],
+      "boss": [
+        336,
+        216
+      ],
+      "role": "outer chevet ambulatory; widest ring and strongest radial bay-boundary ribs"
+    }
+  },
+  "bay_boundaries_deg": [
+    0.5,
+    27.5,
+    53.5,
+    78.0,
+    102.0,
+    126.5,
+    152.5,
+    179.5
+  ],
+  "bay_spans_deg": [
+    27.0,
+    26.0,
+    24.5,
+    24.0,
+    24.5,
+    26.0,
+    27.0
+  ],
+  "vertical_placement": {
+    "spring_y": 3000,
+    "boss_rib_crown_y": 4296,
+    "upper_web_reference_y": 4394,
+    "gallery_soffit_y": 4425,
+    "gallery_floor_y": 4521
+  },
+  "shared_annular_arches": {
+    "R0": {
+      "radius": 2933.0,
+      "profile": [
+        176,
+        208
+      ],
+      "type": "inner choir/chevet arcade arch",
+      "shared_between": "choir vessel and AMB-I"
+    },
+    "R1": {
+      "radius": 4085.0,
+      "profile": [
+        160,
+        184
+      ],
+      "type": "shared annular separator arch",
+      "shared_between": "AMB-I and AMB-M"
+    },
+    "R2": {
+      "radius": 5285.0,
+      "profile": [
+        168,
+        192
+      ],
+      "type": "shared annular separator arch",
+      "shared_between": "AMB-M and AMB-O"
+    },
+    "R3": {
+      "radius": 6657.0,
+      "profile": [
+        136,
+        160
+      ],
+      "type": "outer wall formeret",
+      "shared_between": "AMB-O and exterior wall"
+    }
+  },
+  "arch_derivation": {
+    "radial_doubleau": "rise = 0.72 \u00d7 radial ring depth, rounded to nearest 16",
+    "annular_boundary": "rise = min(0.56 \u00d7 actual chord span, 1136), rounded to nearest 16",
+    "annular_cap_reason": "maintains at least 160 vertical separation below boss/rib crown while coordinating under gallery",
+    "pointed_geometry": "solve as true symmetric two-centered pointed arch from endpoints and derived apex; no post-generation clipping"
+  },
+  "boss_rule": {
+    "plan_angle": "exact angular center of each A1-A7 bay",
+    "plan_radius_formula": "cos(span/2) \u00d7 (2*Rin*Rout/(Rin+Rout))",
+    "meaning": "exact intersection of chordal plan diagonals",
+    "not_allowed": [
+      "arithmetic mid-radius",
+      "bounding-box center"
+    ],
+    "vertical_y": 4296,
+    "termination": "ogives terminate into separate boss collar"
+  },
+  "tas_de_charge": {
+    "bottom_y": 2616,
+    "spring_y": 3000,
+    "height": 384,
+    "courses": 4,
+    "course_height": 96,
+    "rule": "services remain vertical below springing; no fan/easing; merge only within tas zone"
+  },
+  "cells": [
+    {
+      "family": "AMB-I",
+      "bay": "A1",
+      "span_deg": 27.0,
+      "center_deg": 14.0,
+      "inner_radius": 2933.0,
+      "outer_radius": 4085.0,
+      "radial_depth": 1152.0,
+      "radial_doubleau_apex_y": 3832,
+      "inner_annular_chord": 1369.39,
+      "outer_annular_chord": 1907.25,
+      "inner_annular_apex_y": 3768,
+      "outer_annular_apex_y": 4072,
+      "boss_plan_radius": 3320.11,
+      "boss_plan_angle_deg": 14.0,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-I",
+      "bay": "A2",
+      "span_deg": 26.0,
+      "center_deg": 40.5,
+      "inner_radius": 2933.0,
+      "outer_radius": 4085.0,
+      "radial_depth": 1152.0,
+      "radial_doubleau_apex_y": 3832,
+      "inner_annular_chord": 1319.56,
+      "outer_annular_chord": 1837.85,
+      "inner_annular_apex_y": 3736,
+      "outer_annular_apex_y": 4024,
+      "boss_plan_radius": 3326.94,
+      "boss_plan_angle_deg": 40.5,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-I",
+      "bay": "A3",
+      "span_deg": 24.5,
+      "center_deg": 65.75,
+      "inner_radius": 2933.0,
+      "outer_radius": 4085.0,
+      "radial_depth": 1152.0,
+      "radial_doubleau_apex_y": 3832,
+      "inner_annular_chord": 1244.63,
+      "outer_annular_chord": 1733.49,
+      "inner_annular_apex_y": 3704,
+      "outer_annular_apex_y": 3976,
+      "boss_plan_radius": 3336.71,
+      "boss_plan_angle_deg": 65.75,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-I",
+      "bay": "A4",
+      "span_deg": 24.0,
+      "center_deg": 90.0,
+      "inner_radius": 2933.0,
+      "outer_radius": 4085.0,
+      "radial_depth": 1152.0,
+      "radial_doubleau_apex_y": 3832,
+      "inner_annular_chord": 1219.61,
+      "outer_annular_chord": 1698.64,
+      "inner_annular_apex_y": 3688,
+      "outer_annular_apex_y": 3944,
+      "boss_plan_radius": 3339.84,
+      "boss_plan_angle_deg": 90.0,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-I",
+      "bay": "A5",
+      "span_deg": 24.5,
+      "center_deg": 114.25,
+      "inner_radius": 2933.0,
+      "outer_radius": 4085.0,
+      "radial_depth": 1152.0,
+      "radial_doubleau_apex_y": 3832,
+      "inner_annular_chord": 1244.63,
+      "outer_annular_chord": 1733.49,
+      "inner_annular_apex_y": 3704,
+      "outer_annular_apex_y": 3976,
+      "boss_plan_radius": 3336.71,
+      "boss_plan_angle_deg": 114.25,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-I",
+      "bay": "A6",
+      "span_deg": 26.0,
+      "center_deg": 139.5,
+      "inner_radius": 2933.0,
+      "outer_radius": 4085.0,
+      "radial_depth": 1152.0,
+      "radial_doubleau_apex_y": 3832,
+      "inner_annular_chord": 1319.56,
+      "outer_annular_chord": 1837.85,
+      "inner_annular_apex_y": 3736,
+      "outer_annular_apex_y": 4024,
+      "boss_plan_radius": 3326.94,
+      "boss_plan_angle_deg": 139.5,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-I",
+      "bay": "A7",
+      "span_deg": 27.0,
+      "center_deg": 166.0,
+      "inner_radius": 2933.0,
+      "outer_radius": 4085.0,
+      "radial_depth": 1152.0,
+      "radial_doubleau_apex_y": 3832,
+      "inner_annular_chord": 1369.39,
+      "outer_annular_chord": 1907.25,
+      "inner_annular_apex_y": 3768,
+      "outer_annular_apex_y": 4072,
+      "boss_plan_radius": 3320.11,
+      "boss_plan_angle_deg": 166.0,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-M",
+      "bay": "A1",
+      "span_deg": 27.0,
+      "center_deg": 14.0,
+      "inner_radius": 4085.0,
+      "outer_radius": 5285.0,
+      "radial_depth": 1200.0,
+      "radial_doubleau_apex_y": 3864,
+      "inner_annular_chord": 1907.25,
+      "outer_annular_chord": 2467.52,
+      "inner_annular_apex_y": 4072,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 4480.84,
+      "boss_plan_angle_deg": 14.0,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-M",
+      "bay": "A2",
+      "span_deg": 26.0,
+      "center_deg": 40.5,
+      "inner_radius": 4085.0,
+      "outer_radius": 5285.0,
+      "radial_depth": 1200.0,
+      "radial_doubleau_apex_y": 3864,
+      "inner_annular_chord": 1837.85,
+      "outer_annular_chord": 2377.73,
+      "inner_annular_apex_y": 4024,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 4490.05,
+      "boss_plan_angle_deg": 40.5,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-M",
+      "bay": "A3",
+      "span_deg": 24.5,
+      "center_deg": 65.75,
+      "inner_radius": 4085.0,
+      "outer_radius": 5285.0,
+      "radial_depth": 1200.0,
+      "radial_doubleau_apex_y": 3864,
+      "inner_annular_chord": 1733.49,
+      "outer_annular_chord": 2242.72,
+      "inner_annular_apex_y": 3976,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 4503.24,
+      "boss_plan_angle_deg": 65.75,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-M",
+      "bay": "A4",
+      "span_deg": 24.0,
+      "center_deg": 90.0,
+      "inner_radius": 4085.0,
+      "outer_radius": 5285.0,
+      "radial_depth": 1200.0,
+      "radial_doubleau_apex_y": 3864,
+      "inner_annular_chord": 1698.64,
+      "outer_annular_chord": 2197.63,
+      "inner_annular_apex_y": 3944,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 4507.46,
+      "boss_plan_angle_deg": 90.0,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-M",
+      "bay": "A5",
+      "span_deg": 24.5,
+      "center_deg": 114.25,
+      "inner_radius": 4085.0,
+      "outer_radius": 5285.0,
+      "radial_depth": 1200.0,
+      "radial_doubleau_apex_y": 3864,
+      "inner_annular_chord": 1733.49,
+      "outer_annular_chord": 2242.72,
+      "inner_annular_apex_y": 3976,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 4503.24,
+      "boss_plan_angle_deg": 114.25,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-M",
+      "bay": "A6",
+      "span_deg": 26.0,
+      "center_deg": 139.5,
+      "inner_radius": 4085.0,
+      "outer_radius": 5285.0,
+      "radial_depth": 1200.0,
+      "radial_doubleau_apex_y": 3864,
+      "inner_annular_chord": 1837.85,
+      "outer_annular_chord": 2377.73,
+      "inner_annular_apex_y": 4024,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 4490.05,
+      "boss_plan_angle_deg": 139.5,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-M",
+      "bay": "A7",
+      "span_deg": 27.0,
+      "center_deg": 166.0,
+      "inner_radius": 4085.0,
+      "outer_radius": 5285.0,
+      "radial_depth": 1200.0,
+      "radial_doubleau_apex_y": 3864,
+      "inner_annular_chord": 1907.25,
+      "outer_annular_chord": 2467.52,
+      "inner_annular_apex_y": 4072,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 4480.84,
+      "boss_plan_angle_deg": 166.0,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-O",
+      "bay": "A1",
+      "span_deg": 27.0,
+      "center_deg": 14.0,
+      "inner_radius": 5285.0,
+      "outer_radius": 6657.0,
+      "radial_depth": 1372.0,
+      "radial_doubleau_apex_y": 3992,
+      "inner_annular_chord": 2467.52,
+      "outer_annular_chord": 3108.09,
+      "inner_annular_apex_y": 4136,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 5729.38,
+      "boss_plan_angle_deg": 14.0,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-O",
+      "bay": "A2",
+      "span_deg": 26.0,
+      "center_deg": 40.5,
+      "inner_radius": 5285.0,
+      "outer_radius": 6657.0,
+      "radial_depth": 1372.0,
+      "radial_doubleau_apex_y": 3992,
+      "inner_annular_chord": 2377.73,
+      "outer_annular_chord": 2995.0,
+      "inner_annular_apex_y": 4136,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 5741.17,
+      "boss_plan_angle_deg": 40.5,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-O",
+      "bay": "A3",
+      "span_deg": 24.5,
+      "center_deg": 65.75,
+      "inner_radius": 5285.0,
+      "outer_radius": 6657.0,
+      "radial_depth": 1372.0,
+      "radial_doubleau_apex_y": 3992,
+      "inner_annular_chord": 2242.72,
+      "outer_annular_chord": 2824.93,
+      "inner_annular_apex_y": 4136,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 5758.03,
+      "boss_plan_angle_deg": 65.75,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-O",
+      "bay": "A4",
+      "span_deg": 24.0,
+      "center_deg": 90.0,
+      "inner_radius": 5285.0,
+      "outer_radius": 6657.0,
+      "radial_depth": 1372.0,
+      "radial_doubleau_apex_y": 3992,
+      "inner_annular_chord": 2197.63,
+      "outer_annular_chord": 2768.14,
+      "inner_annular_apex_y": 4136,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 5763.43,
+      "boss_plan_angle_deg": 90.0,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-O",
+      "bay": "A5",
+      "span_deg": 24.5,
+      "center_deg": 114.25,
+      "inner_radius": 5285.0,
+      "outer_radius": 6657.0,
+      "radial_depth": 1372.0,
+      "radial_doubleau_apex_y": 3992,
+      "inner_annular_chord": 2242.72,
+      "outer_annular_chord": 2824.93,
+      "inner_annular_apex_y": 4136,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 5758.03,
+      "boss_plan_angle_deg": 114.25,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-O",
+      "bay": "A6",
+      "span_deg": 26.0,
+      "center_deg": 139.5,
+      "inner_radius": 5285.0,
+      "outer_radius": 6657.0,
+      "radial_depth": 1372.0,
+      "radial_doubleau_apex_y": 3992,
+      "inner_annular_chord": 2377.73,
+      "outer_annular_chord": 2995.0,
+      "inner_annular_apex_y": 4136,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 5741.17,
+      "boss_plan_angle_deg": 139.5,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    },
+    {
+      "family": "AMB-O",
+      "bay": "A7",
+      "span_deg": 27.0,
+      "center_deg": 166.0,
+      "inner_radius": 5285.0,
+      "outer_radius": 6657.0,
+      "radial_depth": 1372.0,
+      "radial_doubleau_apex_y": 3992,
+      "inner_annular_chord": 2467.52,
+      "outer_annular_chord": 3108.09,
+      "inner_annular_apex_y": 4136,
+      "outer_annular_apex_y": 4136,
+      "boss_plan_radius": 5729.38,
+      "boss_plan_angle_deg": 166.0,
+      "boss_y": 4296,
+      "boss_xy_rule": "exact intersection of the two chordal plan diagonals"
+    }
+  ],
+  "web_rule": {
+    "local_ridge": "derive each severy independently from boss to its own radial/annular boundary apex",
+    "global_bulge_percentage": false,
+    "manual_sag_correction": false,
+    "inherited_ridge_geometry": false,
+    "gallery_coordination": "solve web under gallery envelope; do not hard-clip after generation",
+    "upper_web_reference_y": 4394,
+    "soffit_y": 4425,
+    "reference_clearance": 31
+  },
+  "scope": "AMB-I/AMB-M/AMB-O only; straight choir is F5ZK-B; crossing transition CH-J/J1 follows"
+}

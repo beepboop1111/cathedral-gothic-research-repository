@@ -1,0 +1,18 @@
+{
+  "svg_checks": [
+    {
+      "file": "T2_PLAN_AND_ELEVATION.svg",
+      "xml_parse": true
+    },
+    {
+      "file": "T6_PLAN_AND_ELEVATION.svg",
+      "xml_parse": true
+    }
+  ],
+  "png_visual_review": [
+    "T2 initial sheet, annotation subsequently adjusted",
+    "T6 final sheet, matching revised annotation layout"
+  ],
+  "numerical_checks": 27,
+  "failed": 0
+}
