@@ -1,0 +1,48 @@
+{
+  "PDF_pages": [
+    {
+      "sheet": 1,
+      "size_mm": [
+        297.0,
+        420.0
+      ],
+      "outside_text_blocks": 0
+    },
+    {
+      "sheet": 2,
+      "size_mm": [
+        420.0,
+        297.0
+      ],
+      "outside_text_blocks": 0
+    },
+    {
+      "sheet": 3,
+      "size_mm": [
+        297.0,
+        420.0
+      ],
+      "outside_text_blocks": 0
+    },
+    {
+      "sheet": 4,
+      "size_mm": [
+        420.0,
+        297.0
+      ],
+      "outside_text_blocks": 0
+    }
+  ],
+  "SVG_XML_valid": [
+    "R05_ROOF_PLAN_1to1.svg",
+    "R05_BEARING_PLAN_1to1.svg"
+  ],
+  "GLB_meshes": 151,
+  "Blender_meshes": 151,
+  "Blender_no_repairs": true,
+  "GLB_Blender_axis_bounds_max_error_m": 0.0,
+  "PDF_SHA256": "d9ac5dc2e376fef14e6d1f33fc715928ee48dad2e9e372bd8c8435543f4caac0",
+  "GLB_SHA256": "27ce4251d9492e1f703656215984dbd16b0f3fe94c08916616ab3477745c33b1",
+  "BLEND_SHA256": "9e2319de780c999500d2070e3ffbf4cb6a902efa19ae2d3f69123d2ca98ad648",
+  "visual_review": "All four final sheets and native model render inspected."
+}
