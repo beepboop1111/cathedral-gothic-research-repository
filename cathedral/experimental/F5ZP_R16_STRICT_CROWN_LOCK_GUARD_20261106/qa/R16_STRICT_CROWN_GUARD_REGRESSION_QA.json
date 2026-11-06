@@ -1,0 +1,8 @@
+{
+  "tests_run": 25,
+  "failures": [],
+  "errors": [],
+  "all_passed": true,
+  "source": "Real 4-sector V4 and 6-sector R07 plus synthetic 3/5/8 families",
+  "architectural_status": "Strict generator policy tests only; no approved cathedral geometry changed"
+}
