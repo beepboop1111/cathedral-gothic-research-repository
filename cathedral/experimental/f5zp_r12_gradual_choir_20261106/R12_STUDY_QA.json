@@ -1,0 +1,72 @@
+{
+  "status": "R12 EXPERIMENTAL 2D GRAPHIC/ARCHITECTURAL IDEA; NOT APPROVED",
+  "r11_sha256": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+  "baseline_features": 289,
+  "actual_r11_geom_changed": false,
+  "nave_200_junctions": 7,
+  "choir_270_junctions": 3,
+  "same_separator_axes_aligned": true,
+  "Q1_Q2_main_gap": 1160,
+  "Q1_Q2_actual_aisle_gap": 470,
+  "Q1_Q2_axis_offset": -25,
+  "Q1_Q2_conceptual_core_width": 235,
+  "remaining_reservation_flanks_west_east": [
+    142.5,
+    92.5
+  ],
+  "consequential_warning": "235 conceptual core designation is NOT a verified physical masonry support or future opening",
+  "clear_area_overlap_with_concept": 0.0,
+  "all_concept_within_existing_masonry": true,
+  "recomputed_vault_geometry": "NONE",
+  "invariants_from_R11": {
+    "masonry_valid": true,
+    "masonry_clear_overlap": 0.0,
+    "max_clear_area_change_vs_R12C": 9.313225746154785e-10,
+    "main_regular_bay_gaps": {
+      "N2_to_N3": 520.0,
+      "N3_to_N4": 520.0,
+      "N4_to_N5": 520.0,
+      "N5_to_N6": 520.0,
+      "N6_to_N7": 520.0,
+      "N7_to_N8": 520.0,
+      "N8_to_N9": 520.0,
+      "Q2_to_Q3": 520.0,
+      "Q3_to_Q4": 520.0,
+      "Q4_to_Q5": 520.0
+    },
+    "choir_separator_alignment_error": 0.0,
+    "choir_paired_gaps": {
+      "Q2": 495.0,
+      "Q3": 250.0,
+      "Q4": 250.0,
+      "Q5": 285.0
+    },
+    "choir_aisle_interbay_gaps": {
+      "Q2-Q3_N_A1": 270.0,
+      "Q2-Q3_N_A2": 270.0,
+      "Q2-Q3_N_A3": 270.0,
+      "Q2-Q3_S_A1": 270.0,
+      "Q2-Q3_S_A2": 270.0,
+      "Q2-Q3_S_A3": 270.0,
+      "Q3-Q4_N_A1": 270.0,
+      "Q3-Q4_N_A2": 270.0,
+      "Q3-Q4_N_A3": 270.0,
+      "Q3-Q4_S_A1": 270.0,
+      "Q3-Q4_S_A2": 270.0,
+      "Q3-Q4_S_A3": 270.0,
+      "Q4-Q5_N_A1": 270.0,
+      "Q4-Q5_N_A2": 270.0,
+      "Q4-Q5_N_A3": 270.0,
+      "Q4-Q5_S_A1": 270.0,
+      "Q4-Q5_S_A2": 270.0,
+      "Q4-Q5_S_A3": 270.0
+    },
+    "arcade_measurement_max_error": 0.014801999999974669
+  },
+  "existing_issues": [
+    "Crossing, west termination, Q1-Q2 support configuration provisional",
+    "Axial chapel native 2D outline not registered",
+    "F5ZL-C support schedule unresolved",
+    "No pier load-path, door opening, structural capacity, or historical design validation"
+  ]
+}
