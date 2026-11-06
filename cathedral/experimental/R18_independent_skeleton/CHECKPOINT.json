@@ -1,0 +1,224 @@
+{
+  "status": "EXPERIMENTAL_NOT_APPROVED",
+  "baseline": "R17 V02; R17 junction audit R01; R07 circular rib and bounded web method",
+  "remote_directory": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R18_INDEPENDENT_SKELETON_MATCHED_WEBS_EXPERIMENTAL",
+  "remote_archive": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R18_INDEPENDENT_SKELETON_MATCHED_WEBS_EXPERIMENTAL.zip",
+  "QA": {
+    "status": "EXPERIMENTAL_SKELETON_FIRST_GEOMETRIC_STUDY",
+    "scale": "native 1:1; X/Y plan, Z elevation",
+    "studies": [
+      {
+        "family": "QUAD",
+        "settings": {
+          "vault_type": "QUAD",
+          "custom_sectors": 7,
+          "quality": "FINAL",
+          "radius": 1200,
+          "spring_Z": 3000,
+          "arch_rise_ratio": 0.7200000286102295,
+          "crown_mode": "AUTO",
+          "crown_Z": 4400,
+          "crown_locked": false,
+          "irregularity": 0,
+          "rotation_degrees": 0,
+          "meridian_exponent": 1.75,
+          "dome_lift": 0.30000001192092896,
+          "cap_enabled": false,
+          "cap_Z": 4700
+        },
+        "crown_Z": 4319.631011759006,
+        "highest_apex_Z": 4221.880566443524,
+        "geometry_tests": {
+          "rib_fit_max_native": 0,
+          "arch_fit_max_native": 1.6077746776921858e-13,
+          "seam_gap_native": 0,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges_gt2": 0,
+          "open_perimeter_edges": 512,
+          "expected_perimeter_edges": 512,
+          "euler_characteristic": 1,
+          "peak_above_crown_native": 0,
+          "max_displacement_vs_R17_native": 328.92766066813465
+        },
+        "triangles": 65536,
+        "boundary_arches_unchanged": true,
+        "crown_unchanged": true
+      }
+    ],
+    "six_sector_admissibility": {
+      "family": "HEXA",
+      "status": "REJECTED_WITH_CROWN_PRESERVED",
+      "reason": "Circular branch requires rise >= radial run; no automatic fallback"
+    },
+    "regression": [
+      {
+        "n": 3,
+        "irregularity": 0,
+        "result": "PASS",
+        "tests": {
+          "rib_fit_max_native": 0,
+          "arch_fit_max_native": 2.3437142008433856e-13,
+          "seam_gap_native": 0,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges_gt2": 0,
+          "open_perimeter_edges": 96,
+          "expected_perimeter_edges": 96,
+          "euler_characteristic": 1,
+          "peak_above_crown_native": 0,
+          "max_displacement_vs_R17_native": 353.01178374311803
+        }
+      },
+      {
+        "n": 3,
+        "irregularity": 0.15,
+        "result": "PASS",
+        "tests": {
+          "rib_fit_max_native": 0,
+          "arch_fit_max_native": 4.62671908852022e-13,
+          "seam_gap_native": 0,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges_gt2": 0,
+          "open_perimeter_edges": 96,
+          "expected_perimeter_edges": 96,
+          "euler_characteristic": 1,
+          "peak_above_crown_native": 0,
+          "max_displacement_vs_R17_native": 391.34119183779376
+        }
+      },
+      {
+        "n": 4,
+        "irregularity": 0,
+        "result": "PASS",
+        "tests": {
+          "rib_fit_max_native": 0,
+          "arch_fit_max_native": 1.6077746776921858e-13,
+          "seam_gap_native": 0,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges_gt2": 0,
+          "open_perimeter_edges": 128,
+          "expected_perimeter_edges": 128,
+          "euler_characteristic": 1,
+          "peak_above_crown_native": 0,
+          "max_displacement_vs_R17_native": 328.92765694189984
+        }
+      },
+      {
+        "n": 4,
+        "irregularity": 0.15,
+        "result": "PASS",
+        "tests": {
+          "rib_fit_max_native": 0,
+          "arch_fit_max_native": 2.6812987050722663e-13,
+          "seam_gap_native": 0,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges_gt2": 0,
+          "open_perimeter_edges": 128,
+          "expected_perimeter_edges": 128,
+          "euler_characteristic": 1,
+          "peak_above_crown_native": 0,
+          "max_displacement_vs_R17_native": 371.0534394151018
+        }
+      },
+      {
+        "n": 5,
+        "irregularity": 0,
+        "result": "REJECT_UNSUPPORTED_CIRCULAR_BRANCH",
+        "reason": "Circular branch requires rise >= radial run; no automatic fallback"
+      },
+      {
+        "n": 5,
+        "irregularity": 0.15,
+        "result": "REJECT_UNSUPPORTED_CIRCULAR_BRANCH",
+        "reason": "Circular branch requires rise >= radial run; no automatic fallback"
+      },
+      {
+        "n": 6,
+        "irregularity": 0,
+        "result": "REJECT_UNSUPPORTED_CIRCULAR_BRANCH",
+        "reason": "Circular branch requires rise >= radial run; no automatic fallback"
+      },
+      {
+        "n": 6,
+        "irregularity": 0.15,
+        "result": "REJECT_UNSUPPORTED_CIRCULAR_BRANCH",
+        "reason": "Circular branch requires rise >= radial run; no automatic fallback"
+      },
+      {
+        "n": 7,
+        "irregularity": 0,
+        "result": "REJECT_UNSUPPORTED_CIRCULAR_BRANCH",
+        "reason": "Circular branch requires rise >= radial run; no automatic fallback"
+      },
+      {
+        "n": 7,
+        "irregularity": 0.15,
+        "result": "REJECT_UNSUPPORTED_CIRCULAR_BRANCH",
+        "reason": "Circular branch requires rise >= radial run; no automatic fallback"
+      },
+      {
+        "n": 8,
+        "irregularity": 0,
+        "result": "REJECT_UNSUPPORTED_CIRCULAR_BRANCH",
+        "reason": "Circular branch requires rise >= radial run; no automatic fallback"
+      },
+      {
+        "n": 8,
+        "irregularity": 0.15,
+        "result": "REJECT_UNSUPPORTED_CIRCULAR_BRANCH",
+        "reason": "Circular branch requires rise >= radial run; no automatic fallback"
+      }
+    ],
+    "guard_tests": {
+      "below_apex_rejected": "CROWN_BELOW_ARCH_APEX_HARD_STOP: R18_NEGATIVE_TEST crown Z=4220.880517890354 is below highest arch apex Z=4221.880517890354. LOCKED_GEOMETRY_WARNING: all original arches, ribs, plan, boss records and generator source remain protected and unchanged.",
+      "locked_auto_rejected": "LOCKED_CROWN_MUST_BE_MANUALLY_SPECIFIED; do not autoselect"
+    },
+    "protected_SHA256_before": {
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_core.py": "58cc8805c6bf8cf17ecbf74cdafc55a05d529f904dc7d9184986ac4c3e0ff079",
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_experimental_workspace.py": "ecc51215e97c85be2a52e2f2ad1541db6abfaf9b70bad836ae90f37ba3cb19f7",
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/blender/F5ZP_R17_FAST_VAULT_WORKSPACE_REVIEW_READY_V02_EXPERIMENTAL.blend": "77b4858f62c25e4d678e37f19d390b403a7cab7931fda225571c50fda26baaeb",
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_POLYGONAL_APSE_V4_SKELETON_R07_EXPERIMENTAL/scripts/build_R07_polygonal_skeleton_and_webs.py": "8cf5ec9e229ce2a8dae4ab2bbde38663cbbd11fe92d5693fb4bc58cdaf9acd5f",
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_vendor/strict_crown_guard.py": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05",
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_vendor/guarded_vault_adapter.py": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee"
+    },
+    "protected_SHA256_after": {
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_core.py": "58cc8805c6bf8cf17ecbf74cdafc55a05d529f904dc7d9184986ac4c3e0ff079",
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_experimental_workspace.py": "ecc51215e97c85be2a52e2f2ad1541db6abfaf9b70bad836ae90f37ba3cb19f7",
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/blender/F5ZP_R17_FAST_VAULT_WORKSPACE_REVIEW_READY_V02_EXPERIMENTAL.blend": "77b4858f62c25e4d678e37f19d390b403a7cab7931fda225571c50fda26baaeb",
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_POLYGONAL_APSE_V4_SKELETON_R07_EXPERIMENTAL/scripts/build_R07_polygonal_skeleton_and_webs.py": "8cf5ec9e229ce2a8dae4ab2bbde38663cbbd11fe92d5693fb4bc58cdaf9acd5f",
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_vendor/strict_crown_guard.py": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05",
+      "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_vendor/guarded_vault_adapter.py": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee"
+    },
+    "protected_sources_unchanged": true,
+    "warnings": [
+      "LOCKED_GEOMETRY_WARNING_ALWAYS: no protected geometry edited",
+      "R18 groins intentionally differ from R17; no approval promotion",
+      "Thin guides are not physical rib solids; web is open intrados, not masonry shell",
+      "No profile sweep, springer trim, bearing or structural acceptance",
+      "Circular method rejects rise < radial run instead of inventing a fallback"
+    ],
+    "next_task": "Review independent rib set-out; then verified profile orientation, soffit contact and separate springer-junction experiment"
+  },
+  "GLB_readback": {
+    "status": "PASS",
+    "GLB_imported_in_Blender": "5.0.1",
+    "bounds_native_1to1": [
+      [
+        -1200,
+        1200
+      ],
+      [
+        -1200,
+        1200
+      ],
+      [
+        3000,
+        4319.630859375
+      ]
+    ],
+    "web_triangles": 65536,
+    "max_allowed_roundtrip_tolerance_native": 0.001,
+    "physical_rib_solids": false,
+    "analytic_spring_tangents": "boundary arches and independent groins vertical at spring; does not prove physical joint"
+  },
+  "next": "Review four-sector independent rib set-out. Six-sector circle inadmissible at preserved crown; resolve independent low-rise rib set-out before fitted solids. Then verified profiles, soffit contact, separate springer joint."
+}
