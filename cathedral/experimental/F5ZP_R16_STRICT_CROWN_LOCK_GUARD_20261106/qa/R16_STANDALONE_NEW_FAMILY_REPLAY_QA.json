@@ -1,0 +1,39 @@
+{
+  "status": "PASS_R16_FULL_ISOLATED_3_5_8_FAMILY_REPLAY_IDENTICAL",
+  "separate_temp_folder_source_only": true,
+  "source_R01_original_generator_not_modified": true,
+  "new_family_meshing_and_crown_guard": true,
+  "exact_3_STL_and_3_GLB_SHA256_reproduced": 6,
+  "files": [
+    {
+      "sectors": 3,
+      "format": "stl",
+      "sha256_identical": true
+    },
+    {
+      "sectors": 3,
+      "format": "glb",
+      "sha256_identical": true
+    },
+    {
+      "sectors": 5,
+      "format": "stl",
+      "sha256_identical": true
+    },
+    {
+      "sectors": 5,
+      "format": "glb",
+      "sha256_identical": true
+    },
+    {
+      "sectors": 8,
+      "format": "stl",
+      "sha256_identical": true
+    },
+    {
+      "sectors": 8,
+      "format": "glb",
+      "sha256_identical": true
+    }
+  ]
+}
