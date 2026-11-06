@@ -1,0 +1,101 @@
+{
+  "status": "R17_FULL_BLENDER_UI_INTEGRATION_PASS",
+  "source_R16_unchanged_SHA256": {
+    "strict_crown_guard.py": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05",
+    "guarded_vault_adapter.py": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee",
+    "r17_core.py": "58cc8805c6bf8cf17ecbf74cdafc55a05d529f904dc7d9184986ac4c3e0ff079",
+    "r17_experimental_workspace.py": "ecc51215e97c85be2a52e2f2ad1541db6abfaf9b70bad836ae90f37ba3cb19f7"
+  },
+  "source_V01_blend_unchanged_SHA256": "46ca116c8a35f2fe7bd06bd639b43648333b7c8fe42ab18931cae54e274344d3",
+  "persistent_addon_enabled": true,
+  "five_reusable_shared_geometry_scenes": true,
+  "vault_test_families": [
+    {
+      "family": "TRI",
+      "n": 3,
+      "quality": "FAST",
+      "seconds": 0.028,
+      "triangles": 3072,
+      "crown_Z": 4616.211313781136,
+      "highest_apex_Z": 4496.491957204756,
+      "web_peak_Z": 4616.211313781136
+    },
+    {
+      "family": "QUAD",
+      "n": 4,
+      "quality": "FAST",
+      "seconds": 0.035,
+      "triangles": 4096,
+      "crown_Z": 4319.631011759006,
+      "highest_apex_Z": 4221.880566443524,
+      "web_peak_Z": 4319.631011759006
+    },
+    {
+      "family": "PENTA",
+      "n": 5,
+      "quality": "FAST",
+      "seconds": 0.049,
+      "triangles": 5120,
+      "crown_Z": 4096.948392827117,
+      "highest_apex_Z": 4015.692956321404,
+      "web_peak_Z": 4096.948392827117
+    },
+    {
+      "family": "HEXA",
+      "n": 6,
+      "quality": "FAST",
+      "seconds": 0.051,
+      "triangles": 6144,
+      "crown_Z": 3933.120037078858,
+      "highest_apex_Z": 3864.000034332276,
+      "web_peak_Z": 3933.120037078858
+    },
+    {
+      "family": "OCTA",
+      "n": 8,
+      "quality": "FAST",
+      "seconds": 0.068,
+      "triangles": 8192,
+      "crown_Z": 3714.1791571959543,
+      "highest_apex_Z": 3661.2769974036614,
+      "web_peak_Z": 3714.1791571959543
+    },
+    {
+      "family": "CUSTOM",
+      "n": 7,
+      "quality": "FAST",
+      "seconds": 0.06,
+      "triangles": 7168,
+      "crown_Z": 3967.904003766793,
+      "highest_apex_Z": 3896.2074108951783,
+      "web_peak_Z": 3967.904003766793
+    },
+    {
+      "family": "QUAD",
+      "n": 4,
+      "quality": "FINAL",
+      "seconds": 0.413,
+      "triangles": 65536,
+      "crown_Z": 4319.631011759006,
+      "highest_apex_Z": 4221.880566443524,
+      "web_peak_Z": 4319.631011759006
+    },
+    {
+      "family": "QUAD",
+      "quality": "LEVEL_VALID_WARNING",
+      "highest_apex_Z": 4221.880517890354
+    }
+  ],
+  "quality_FAST_divisions": 32,
+  "quality_FINAL_divisions": 128,
+  "FINAL_quad_triangles": 65536,
+  "level_crown_warns": true,
+  "below_arch_apex_rejected_without_mesh_change": true,
+  "locked_crown_AUTO_rejected_without_mesh_change": true,
+  "live_1to1_GLB_export_verified": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/outputs/R17_BUILD_027_OPEN_INTRADOS_1TO1.glb",
+  "versioned_checkpoint_saved": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/blender/R17_FAST_VAULT_WORKSPACE_CHECKPOINT_001_EXPERIMENTAL.blend",
+  "approved_architecture_modified": false,
+  "technical_validation_passed": true,
+  "geometric_validation_passed": true,
+  "structural_or_historical_approval": false
+}
