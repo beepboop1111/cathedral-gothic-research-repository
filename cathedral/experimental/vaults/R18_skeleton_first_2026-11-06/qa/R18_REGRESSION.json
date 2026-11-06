@@ -1,0 +1,335 @@
+{
+  "status": "R18_EXPERIMENTAL_REGRESSION_PASS",
+  "tests_passed": 11,
+  "tests": [
+    {
+      "family": "TRI",
+      "sectors": 3,
+      "quality": "FAST",
+      "irregularity": 0.07,
+      "seconds": 0.027,
+      "test_status": "PASS",
+      "QA": {
+        "status": "GEOMETRIC_QA_PASS_SYNTHETIC",
+        "residuals_native": {
+          "boundary": 0.0,
+          "rib_left": 0.0,
+          "rib_right": 0.0,
+          "shared_groin": 0.0,
+          "boss": 0.0,
+          "web_overshoot": 0.0,
+          "web_below_radial_baseline": 0.0
+        },
+        "R17_to_R18_groin_max_delta_native": 378.0526651170185,
+        "mesh_vertices": 1585,
+        "triangles": 3072,
+        "Euler_open_intrados": 1,
+        "boundary_edges": 96,
+        "apex_Z": 4548.791899813114,
+        "crown_Z": 4672.695251798163,
+        "web_peak_Z": 4672.695251798163,
+        "NOT_VALIDATED": [
+          "actual cathedral layout",
+          "roof cover",
+          "historical rib section",
+          "physical springer joins",
+          "structural loads"
+        ]
+      },
+      "R16_codes": [
+        "LOCKED_GEOMETRY_WARNING_ALWAYS",
+        "NO_CAP_CLEARANCE_VERIFICATION"
+      ]
+    },
+    {
+      "family": "QUAD",
+      "sectors": 4,
+      "quality": "FAST",
+      "irregularity": 0.0,
+      "seconds": 0.029,
+      "test_status": "PASS",
+      "QA": {
+        "status": "GEOMETRIC_QA_PASS_SYNTHETIC",
+        "residuals_native": {
+          "boundary": 0.0,
+          "rib_left": 0.0,
+          "rib_right": 0.0,
+          "shared_groin": 0.0,
+          "boss": 0.0,
+          "web_overshoot": 0.0,
+          "web_below_radial_baseline": 0.0
+        },
+        "R17_to_R18_groin_max_delta_native": 340.25876575523307,
+        "mesh_vertices": 2113,
+        "triangles": 4096,
+        "Euler_open_intrados": 1,
+        "boundary_edges": 128,
+        "apex_Z": 4221.880517890354,
+        "crown_Z": 4319.630959321582,
+        "web_peak_Z": 4319.630959321582,
+        "NOT_VALIDATED": [
+          "actual cathedral layout",
+          "roof cover",
+          "historical rib section",
+          "physical springer joins",
+          "structural loads"
+        ]
+      },
+      "R16_codes": [
+        "LOCKED_GEOMETRY_WARNING_ALWAYS",
+        "NO_CAP_CLEARANCE_VERIFICATION"
+      ]
+    },
+    {
+      "family": "PENTA",
+      "sectors": 5,
+      "quality": "FAST",
+      "irregularity": 0.07,
+      "seconds": 0.033,
+      "test_status": "PASS",
+      "QA": {
+        "status": "GEOMETRIC_QA_PASS_SYNTHETIC",
+        "residuals_native": {
+          "boundary": 0.0,
+          "rib_left": 0.0,
+          "rib_right": 0.0,
+          "shared_groin": 0.0,
+          "boss": 0.0,
+          "web_overshoot": 0.0,
+          "web_below_radial_baseline": 0.0
+        },
+        "R17_to_R18_groin_max_delta_native": 325.8667305297754,
+        "mesh_vertices": 2641,
+        "triangles": 5120,
+        "Euler_open_intrados": 1,
+        "boundary_edges": 160,
+        "apex_Z": 4083.1569723978246,
+        "crown_Z": 4169.80953018965,
+        "web_peak_Z": 4169.80953018965,
+        "NOT_VALIDATED": [
+          "actual cathedral layout",
+          "roof cover",
+          "historical rib section",
+          "physical springer joins",
+          "structural loads"
+        ]
+      },
+      "R16_codes": [
+        "LOCKED_GEOMETRY_WARNING_ALWAYS",
+        "NO_CAP_CLEARANCE_VERIFICATION"
+      ]
+    },
+    {
+      "family": "HEXA",
+      "sectors": 6,
+      "quality": "FAST",
+      "irregularity": 0.12,
+      "seconds": 0.039,
+      "test_status": "PASS",
+      "QA": {
+        "status": "GEOMETRIC_QA_PASS_SYNTHETIC",
+        "residuals_native": {
+          "boundary": 0.0,
+          "rib_left": 0.0,
+          "rib_right": 0.0,
+          "shared_groin": 0.0,
+          "boss": 0.0,
+          "web_overshoot": 0.0,
+          "web_below_radial_baseline": 0.0
+        },
+        "R17_to_R18_groin_max_delta_native": 282.1168378080383,
+        "mesh_vertices": 3169,
+        "triangles": 6144,
+        "Euler_open_intrados": 1,
+        "boundary_edges": 192,
+        "apex_Z": 3971.12618032049,
+        "crown_Z": 4048.8162747461292,
+        "web_peak_Z": 4048.8162747461292,
+        "NOT_VALIDATED": [
+          "actual cathedral layout",
+          "roof cover",
+          "historical rib section",
+          "physical springer joins",
+          "structural loads"
+        ]
+      },
+      "R16_codes": [
+        "LOCKED_GEOMETRY_WARNING_ALWAYS",
+        "NO_CAP_CLEARANCE_VERIFICATION"
+      ]
+    },
+    {
+      "family": "CUSTOM",
+      "sectors": 7,
+      "quality": "FAST",
+      "irregularity": 0.11,
+      "seconds": 0.046,
+      "test_status": "PASS",
+      "QA": {
+        "status": "GEOMETRIC_QA_PASS_SYNTHETIC",
+        "residuals_native": {
+          "boundary": 0.0,
+          "rib_left": 0.0,
+          "rib_right": 0.0,
+          "shared_groin": 0.0,
+          "boss": 0.0,
+          "web_overshoot": 0.0,
+          "web_below_radial_baseline": 0.0
+        },
+        "R17_to_R18_groin_max_delta_native": 195.10123749139757,
+        "mesh_vertices": 3697,
+        "triangles": 7168,
+        "Euler_open_intrados": 1,
+        "boundary_edges": 224,
+        "apex_Z": 3838.435152270994,
+        "crown_Z": 3905.5099644526736,
+        "web_peak_Z": 3905.5099644526736,
+        "NOT_VALIDATED": [
+          "actual cathedral layout",
+          "roof cover",
+          "historical rib section",
+          "physical springer joins",
+          "structural loads"
+        ]
+      },
+      "R16_codes": [
+        "LOCKED_GEOMETRY_WARNING_ALWAYS",
+        "NO_CAP_CLEARANCE_VERIFICATION"
+      ]
+    },
+    {
+      "family": "OCTA",
+      "sectors": 8,
+      "quality": "FAST",
+      "irregularity": 0.09,
+      "seconds": 0.053,
+      "test_status": "PASS",
+      "QA": {
+        "status": "GEOMETRIC_QA_PASS_SYNTHETIC",
+        "residuals_native": {
+          "boundary": 0.0,
+          "rib_left": 0.0,
+          "rib_right": 0.0,
+          "shared_groin": 0.0,
+          "boss": 0.0,
+          "web_overshoot": 0.0,
+          "web_below_radial_baseline": 0.0
+        },
+        "R17_to_R18_groin_max_delta_native": 131.83476971730852,
+        "mesh_vertices": 4225,
+        "triangles": 8192,
+        "Euler_open_intrados": 1,
+        "boundary_edges": 256,
+        "apex_Z": 3726.5669116295994,
+        "crown_Z": 3784.6922645599675,
+        "web_peak_Z": 3784.6922645599675,
+        "NOT_VALIDATED": [
+          "actual cathedral layout",
+          "roof cover",
+          "historical rib section",
+          "physical springer joins",
+          "structural loads"
+        ]
+      },
+      "R16_codes": [
+        "LOCKED_GEOMETRY_WARNING_ALWAYS",
+        "NO_CAP_CLEARANCE_VERIFICATION"
+      ]
+    },
+    {
+      "family": "QUAD",
+      "sectors": 4,
+      "quality": "FINAL",
+      "irregularity": 0.0,
+      "seconds": 0.184,
+      "test_status": "PASS",
+      "QA": {
+        "status": "GEOMETRIC_QA_PASS_SYNTHETIC",
+        "residuals_native": {
+          "boundary": 0.0,
+          "rib_left": 0.0,
+          "rib_right": 0.0,
+          "shared_groin": 0.0,
+          "boss": 0.0,
+          "web_overshoot": 0.0,
+          "web_below_radial_baseline": 0.0
+        },
+        "R17_to_R18_groin_max_delta_native": 340.25876575523307,
+        "mesh_vertices": 33025,
+        "triangles": 65536,
+        "Euler_open_intrados": 1,
+        "boundary_edges": 512,
+        "apex_Z": 4221.880517890354,
+        "crown_Z": 4319.630959321582,
+        "web_peak_Z": 4319.630959321582,
+        "NOT_VALIDATED": [
+          "actual cathedral layout",
+          "roof cover",
+          "historical rib section",
+          "physical springer joins",
+          "structural loads"
+        ]
+      },
+      "R16_codes": [
+        "LOCKED_GEOMETRY_WARNING_ALWAYS",
+        "NO_CAP_CLEARANCE_VERIFICATION"
+      ]
+    },
+    {
+      "family": "HEXA",
+      "sectors": 6,
+      "quality": "FINAL",
+      "irregularity": 0.08,
+      "seconds": 0.278,
+      "test_status": "PASS",
+      "QA": {
+        "status": "GEOMETRIC_QA_PASS_SYNTHETIC",
+        "residuals_native": {
+          "boundary": 0.0,
+          "rib_left": 0.0,
+          "rib_right": 0.0,
+          "shared_groin": 0.0,
+          "boss": 0.0,
+          "web_overshoot": 0.0,
+          "web_below_radial_baseline": 0.0
+        },
+        "R17_to_R18_groin_max_delta_native": 240.68934287930142,
+        "mesh_vertices": 49537,
+        "triangles": 98304,
+        "Euler_open_intrados": 1,
+        "boundary_edges": 768,
+        "apex_Z": 3935.0659895380154,
+        "crown_Z": 4009.8712687010566,
+        "web_peak_Z": 4009.8712687010566,
+        "NOT_VALIDATED": [
+          "actual cathedral layout",
+          "roof cover",
+          "historical rib section",
+          "physical springer joins",
+          "structural loads"
+        ]
+      },
+      "R16_codes": [
+        "LOCKED_GEOMETRY_WARNING_ALWAYS",
+        "NO_CAP_CLEARANCE_VERIFICATION"
+      ]
+    }
+  ],
+  "negative_and_warning_cases": {
+    "below_apex": "REJECTED_AS_REQUIRED",
+    "locked_crown_auto": "REJECTED_AS_REQUIRED",
+    "exact_level_warning": "PASSED_WITH_WARNING"
+  },
+  "total_seconds": 0.72,
+  "R16_guard_and_original_R17_hashes": {
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_core.py": "58cc8805c6bf8cf17ecbf74cdafc55a05d529f904dc7d9184986ac4c3e0ff079",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_experimental_workspace.py": "ecc51215e97c85be2a52e2f2ad1541db6abfaf9b70bad836ae90f37ba3cb19f7",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_vendor/strict_crown_guard.py": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_vendor/guarded_vault_adapter.py": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/blender/F5ZP_R17_FAST_VAULT_WORKSPACE_REVIEW_READY_V02_EXPERIMENTAL.blend": "77b4858f62c25e4d678e37f19d390b403a7cab7931fda225571c50fda26baaeb"
+  },
+  "original_cathedral_generators_untouched": true,
+  "architectural_validation": false,
+  "historical_validation": false,
+  "structural_validation": false
+}
