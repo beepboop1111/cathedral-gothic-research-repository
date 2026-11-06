@@ -1,0 +1,18 @@
+{
+  "vault_generator.py": {
+    "original_path": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/src/vault_generator.py",
+    "sha256": "0434b70a888061d1d9a416723555333bc226e12ddb8f227b5abe621b7dce4c31"
+  },
+  "gothic_kernel_source.py": {
+    "original_path": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/src/gothic_kernel_source.py",
+    "sha256": "684358b76d19db21c71647d89d670810145414bc4ae9cf0c72651490462e84ce"
+  },
+  "CHAPEL_TWO_BAYS_4296_POINTED_SKELETON_ZERO_BULGE.json": {
+    "original_path": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_V4_SKELETON_R06_EXPERIMENTAL/configs/CHAPEL_TWO_BAYS_4296_POINTED_SKELETON_ZERO_BULGE.json",
+    "sha256": "42f5d60b9fe90e563fbe6c4a352cf4fd923f6439d428f14ee6db5b7554fc2b19"
+  },
+  "R14_TWO_TYPES_REDLINE.json": {
+    "original_path": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_APSE_R14_BOTH_USER_RED_TYPES_EXPERIMENTAL/configs/R14_TWO_TYPES_REDLINE.json",
+    "sha256": "12d30e085582523b6a0a6c7d02353ca3b465e0a0009e673e73f5658bf0cf8a72"
+  }
+}
