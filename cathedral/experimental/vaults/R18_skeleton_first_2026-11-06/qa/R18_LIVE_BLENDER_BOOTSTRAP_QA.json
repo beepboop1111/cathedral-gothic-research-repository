@@ -1,0 +1,42 @@
+{
+  "status": "R18_LIVE_BLENDER_V01_VALIDATED_EXPERIMENTAL",
+  "source_R17_V02_hash_preserved": true,
+  "source_R17_and_R16_SHA256": {
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/blender/F5ZP_R17_FAST_VAULT_WORKSPACE_REVIEW_READY_V02_EXPERIMENTAL.blend": "77b4858f62c25e4d678e37f19d390b403a7cab7931fda225571c50fda26baaeb",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_core.py": "58cc8805c6bf8cf17ecbf74cdafc55a05d529f904dc7d9184986ac4c3e0ff079",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_experimental_workspace.py": "ecc51215e97c85be2a52e2f2ad1541db6abfaf9b70bad836ae90f37ba3cb19f7",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_vendor/strict_crown_guard.py": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_vendor/guarded_vault_adapter.py": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee"
+  },
+  "new_R18_blend": "/home/christopher/Downloads/F5ZP_R18_INDEPENDENT_GROIN_WEB_TEST_EXPERIMENTAL/blender/F5ZP_R18_SKELETON_FIRST_LIVE_V01_EXPERIMENTAL.blend",
+  "new_R18_blend_SHA256": "6d69b38ecd1280d29b28a0e02510dd33127bd018b63ea88f4ec7ccdb10b5fd49",
+  "addon_installed": "/home/christopher/.config/blender/5.0/scripts/addons/r18_live.py",
+  "addon_enabled": true,
+  "glb_exported": "/home/christopher/Downloads/F5ZP_R18_INDEPENDENT_GROIN_WEB_TEST_EXPERIMENTAL/outputs/R18_BUILD_001_WEB_ONLY_1TO1.glb",
+  "review_cameras": [
+    {
+      "scene": "R17_REVIEW_AXON",
+      "path": "/home/christopher/Downloads/F5ZP_R18_INDEPENDENT_GROIN_WEB_TEST_EXPERIMENTAL/review/R18_axon.png",
+      "bytes": 1032830
+    },
+    {
+      "scene": "R17_REVIEW_PLAN",
+      "path": "/home/christopher/Downloads/F5ZP_R18_INDEPENDENT_GROIN_WEB_TEST_EXPERIMENTAL/review/R18_plan.png",
+      "bytes": 1027988
+    },
+    {
+      "scene": "R17_REVIEW_INTERIOR",
+      "path": "/home/christopher/Downloads/F5ZP_R18_INDEPENDENT_GROIN_WEB_TEST_EXPERIMENTAL/review/R18_underside.png",
+      "bytes": 1032778
+    },
+    {
+      "scene": "R17_REVIEW_SECTION",
+      "path": "/home/christopher/Downloads/F5ZP_R18_INDEPENDENT_GROIN_WEB_TEST_EXPERIMENTAL/review/R18_section.png",
+      "bytes": 1034757
+    }
+  ],
+  "generator_r18_distinct_from_approved": true,
+  "architectural_validation": false,
+  "historical_validation": false,
+  "structural_validation": false
+}
