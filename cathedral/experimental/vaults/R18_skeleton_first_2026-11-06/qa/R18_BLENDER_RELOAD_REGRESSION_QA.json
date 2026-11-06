@@ -1,0 +1,21 @@
+{
+  "status": "R18_BLENDER_FRESH_PROCESS_TEST_PASS",
+  "tests": {
+    "custom_7_sector": {
+      "status": "PASS",
+      "triangles": 7168
+    },
+    "below_apex_hard_stop_preserved_mesh": "PASS",
+    "locked_crown_auto_hard_stop": "PASS",
+    "final_6_irregular": {
+      "status": "PASS",
+      "triangles": 98304
+    },
+    "gltf_round_trip": "PASS",
+    "versioned_blend_checkpoint": "PASS"
+  },
+  "sha_preserved": true,
+  "validated_6_sector_glb": "/home/christopher/Downloads/F5ZP_R18_INDEPENDENT_GROIN_WEB_TEST_EXPERIMENTAL/outputs/R18_BUILD_004_WEB_ONLY_1TO1.glb",
+  "new_blender_checkpoint": "/home/christopher/Downloads/F5ZP_R18_INDEPENDENT_GROIN_WEB_TEST_EXPERIMENTAL/blender/R18_SKELETON_FIRST_CHECKPOINT_001_EXPERIMENTAL.blend",
+  "original_R17_and_R18_V01_not_overwritten": true
+}
