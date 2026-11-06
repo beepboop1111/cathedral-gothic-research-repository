@@ -1,0 +1,39 @@
+{
+  "status": "PASS_R17_EXPERIMENTAL_SEXPARTITE_1_TO_16",
+  "family": "rectangular Gothic sexpartite double-bay, not polygonal radial apse",
+  "architectural_historical_source": "hypothetical topology, not measured original",
+  "scale_asset": 0.0625,
+  "blender_scale_multiplier": 16,
+  "six_cells": 6,
+  "diagonal_groin_ribs": 4,
+  "intermediate_transverse_rib_halves": 2,
+  "true_two_centered_boundary_pointed_arches": 6,
+  "boundary_apex_max_Z": 4320,
+  "central_crown_Z": 4700.0,
+  "crown_above_highest_apex": 380,
+  "prebuild_and_postbuild_R16_pass": true,
+  "R16_report_warning_codes": [
+    "LOCKED_GEOMETRY_WARNING_ALWAYS",
+    "NO_CAP_CLEARANCE_VERIFICATION"
+  ],
+  "locked_files_unchanged": true,
+  "unresolved_support_schedule": "F5ZL-C",
+  "mesh_geometry_qa": {
+    "shared_arch_groin_interface_gap_native": 0.0,
+    "max_meridian_sag_native": 0.0,
+    "triangles": 42624,
+    "vertices": 21505,
+    "Euler": 1,
+    "winding_consistent": true,
+    "open_intrados_intentional": true
+  },
+  "R16_protected_source_sha256": {
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_SEXPARTITE_DOUBLE_BAY_1_TO_16_EXPERIMENTAL/R16_dependency/src/strict_crown_guard.py": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_SEXPARTITE_DOUBLE_BAY_1_TO_16_EXPERIMENTAL/R16_dependency/src/guarded_vault_adapter.py": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_SEXPARTITE_DOUBLE_BAY_1_TO_16_EXPERIMENTAL/R16_dependency/reference/vault_generator.py": "0434b70a888061d1d9a416723555333bc226e12ddb8f227b5abe621b7dce4c31",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_SEXPARTITE_DOUBLE_BAY_1_TO_16_EXPERIMENTAL/R16_dependency/reference/gothic_kernel_source.py": "684358b76d19db21c71647d89d670810145414bc4ae9cf0c72651490462e84ce"
+  },
+  "scaled_GLB_sha256": "2b5c425525bf50b2d3dfe39301c2369143b308c67c6b792a4a09e3e6bd5279cb",
+  "clinical_architectural_stone_structure_validation": "NOT ATTEMPTED",
+  "approval": "UNAPPROVED EXPERIMENT"
+}
