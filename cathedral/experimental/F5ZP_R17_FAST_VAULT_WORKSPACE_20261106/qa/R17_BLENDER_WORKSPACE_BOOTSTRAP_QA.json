@@ -1,0 +1,22 @@
+{
+  "status": "R17_WORKSPACE_INITIAL_BLEND_SAVED_EXPERIMENTAL",
+  "file": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/blender/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_V01_EXPERIMENTAL.blend",
+  "addon_registered_during_creation": true,
+  "all_review_scenes": [
+    "R17_WORKSPACE",
+    "R17_REVIEW_AXON",
+    "R17_REVIEW_PLAN",
+    "R17_REVIEW_INTERIOR",
+    "R17_REVIEW_SECTION"
+  ],
+  "single_shared_geometry_collection": "R17_EXPERIMENTAL_GEOMETRY",
+  "live_panel_id": "R17_PT_main",
+  "source_R16_vendor_SHA_verified": {
+    "strict_crown_guard.py": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05",
+    "guarded_vault_adapter.py": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee",
+    "r17_core.py": "f882b492badc1f7484bf3d7588f222a7abc71488bc4314c6446633552a1a0299",
+    "r17_experimental_workspace.py": "a57a0c3adcc6b743df85383ff2a7b007491252a82b8a087687e80260c6706ee8"
+  },
+  "first_build_r16_guarded": true,
+  "locked_source_geometry_modified": false
+}
