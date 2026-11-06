@@ -1,0 +1,65 @@
+{
+  "status": "R17_QUALITY_AND_SOURCE_ONLY_REPLAY_PASS",
+  "five_irregular_types_FAST_FINAL_same_skeleton": true,
+  "all_FAST_vertices_subset_of_FINAL": true,
+  "independent_source_only_HEXA_mesh_sha256_exact": "483a29ddff782cb1d5cdf7f15a1dcfd636ee4d83459a4b2907d5cdf614895a39",
+  "source_full_copies_external_project_dependency": false,
+  "source_baseline_modified": false,
+  "type_tests": [
+    {
+      "topology": "TRI",
+      "n": 3,
+      "same_boundary_arch_coordinates": true,
+      "same_centerline_and_boss": true,
+      "all_FAST_samples_identical_in_FINAL": true,
+      "FAST_mesh_SHA256": "60fdd8cf7ef3f84a4d8bd042c4e10c552238fc5cb2ffedceae5747d3f3373315",
+      "FINAL_mesh_SHA256": "ad2aa17d389c239aae924520e31438acacddae1afd5aa833f4c9fad9461c62ae",
+      "crown_Z": 4713.514384921842,
+      "highest_boundary_apex_Z": 4586.58739344615
+    },
+    {
+      "topology": "QUAD",
+      "n": 4,
+      "same_boundary_arch_coordinates": true,
+      "same_centerline_and_boss": true,
+      "all_FAST_samples_identical_in_FINAL": true,
+      "FAST_mesh_SHA256": "3aa41b8c826eafff1917cb367c4ca9ef8be94c43e6f39dfc0e44e45fbabf6268",
+      "FINAL_mesh_SHA256": "68d410bf35bd545d326c5d13e404d09eb38863dc56bda49779b6390c7d66c417",
+      "crown_Z": 4446.849692395239,
+      "highest_boundary_apex_Z": 4339.675641106703
+    },
+    {
+      "topology": "PENTA",
+      "n": 5,
+      "same_boundary_arch_coordinates": true,
+      "same_centerline_and_boss": true,
+      "all_FAST_samples_identical_in_FINAL": true,
+      "FAST_mesh_SHA256": "2bc0bebc476eb19b44f364d7d22a7403e396a9e73fd2f52991054d5b6f105455",
+      "FINAL_mesh_SHA256": "824a63614903ddb503342cde9817118b4ea95fe37d3122ea83a3835ea6bbb96c",
+      "crown_Z": 4222.568213375085,
+      "highest_boundary_apex_Z": 4132.00760497693
+    },
+    {
+      "topology": "HEXA",
+      "n": 6,
+      "same_boundary_arch_coordinates": true,
+      "same_centerline_and_boss": true,
+      "all_FAST_samples_identical_in_FINAL": true,
+      "FAST_mesh_SHA256": "483a29ddff782cb1d5cdf7f15a1dcfd636ee4d83459a4b2907d5cdf614895a39",
+      "FINAL_mesh_SHA256": "ef01e322107c3f0c99ad29ac80359e09046a57c35f9ffba9dcf30ad400a52b6d",
+      "crown_Z": 4048.8162747461292,
+      "highest_boundary_apex_Z": 3971.12618032049
+    },
+    {
+      "topology": "OCTA",
+      "n": 8,
+      "same_boundary_arch_coordinates": true,
+      "same_centerline_and_boss": true,
+      "all_FAST_samples_identical_in_FINAL": true,
+      "FAST_mesh_SHA256": "f0a2b9e88b433f792657a489ce5ee79be5ae6c0c7ee5740dc91168a2d846dd83",
+      "FINAL_mesh_SHA256": "d6ec7408035b08a771100d70006657a66a80a0a731cb7cbdb7b9df24aecc7b11",
+      "crown_Z": 3808.59187395495,
+      "highest_boundary_apex_Z": 3748.696179587917
+    }
+  ]
+}
