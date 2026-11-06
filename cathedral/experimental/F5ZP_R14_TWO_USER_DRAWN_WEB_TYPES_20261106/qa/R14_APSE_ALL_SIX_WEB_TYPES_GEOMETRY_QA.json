@@ -1,0 +1,68 @@
+{
+  "status": "R14_TWO_USER_DRAWN_APSE_WEB_TYPES_COMPLETE_EXPERIMENTAL",
+  "Type_A_user_accepted_sectors": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "Type_A_curve_reference_R12B_sector02_unchanged": true,
+  "Type_A_webs_exactly_reused": {
+    "0": {
+      "source_curve": "R13_TYPE_A_SECTOR00_USER_ACCEPTED_CURVE_WORLD_1to1.csv",
+      "analytic_difference_native": 9.094947017729282e-13
+    },
+    "1": {
+      "source_curve": "R13_TYPE_A_SECTOR01_USER_ACCEPTED_CURVE_WORLD_1to1.csv",
+      "analytic_difference_native": 9.094947017729282e-13
+    },
+    "2": {
+      "source_curve": "R13_TYPE_A_SECTOR02_USER_ACCEPTED_CURVE_WORLD_1to1.csv",
+      "analytic_difference_native": 9.094947017729282e-13
+    },
+    "3": {
+      "source_curve": "R13_TYPE_A_SECTOR03_USER_ACCEPTED_CURVE_WORLD_1to1.csv",
+      "analytic_difference_native": 9.094947017729282e-13
+    },
+    "4": {
+      "source_curve": "R13_TYPE_A_SECTOR04_USER_ACCEPTED_CURVE_WORLD_1to1.csv",
+      "analytic_difference_native": 9.094947017729282e-13
+    }
+  },
+  "Type_B_unique_user_redrawn_sector": 5,
+  "Type_B_stroke_image_sha256": "4af754705830af5510eca74bb05e5255dfd550bad9c14f2802cfd50df73deaff",
+  "Type_B_redline_C1_hermite_fit_RMS_native": 0.5895248447378003,
+  "Type_B_peak_Z": 4337.1348464619505,
+  "Type_B_max_evaluated_web_Z": 4337.1348464619505,
+  "Type_B_cap_clearance_meridian_native": 3.865153538049526,
+  "Type_B_cap_clearance_whole_web_native": 3.865153538049526,
+  "Type_A_cap_conflict_still_native": 29.341134563052947,
+  "boss_height_Z": 4296,
+  "fixed_skeleton_plan_errors": {
+    "perimeter_pointed_arches": 0.0,
+    "all_six_groins": 0.0,
+    "bosses_Z4296": 0.0,
+    "all_five_Type_A_webs": 0.0,
+    "Type_B_user_curve_match": 0.0,
+    "plan_XY": 0.0
+  },
+  "mesh_winding_consistent": true,
+  "mesh_watertight": false,
+  "mesh_Euler_characteristic": 1,
+  "triangles": 98304,
+  "max_csv_meridian_to_STL_grid_error_native": 0.0019635997194826153,
+  "TypeB_meridian_csv": "R14_SECTOR05_TYPE_B_USER_RED_MERIDIAN_WORLD_1to1.csv",
+  "TypeB_meridian_csv_sha256": "363654f421b6e6c0199fd8d11f2b74cea568f7b587b3e4447daaa4b597fa810b",
+  "Source_R13_Blender_SHA256_preserved": "1713a00150067921c6308edaa068befcf2ce05affb29582989edd502b589b0c3",
+  "source_STL_1to16": "R14_FIVE_TYPE_A_PLUS_USER_RED_TYPE_B_OPEN_INTRADOS_1to16.stl",
+  "STL_SHA256": "6017269d3c4f99265e2446bc2c5ccc5a8755af66bdae8b05d80d81b8c28c88f5",
+  "fullscale_GLTF": "R14_TWO_USER_DRAWN_APSE_WEB_TYPES_FULL_1to1_EXPERIMENTAL.glb",
+  "geometry_scope": "only unique sector05 interior red meridian changed",
+  "masonry_or_roof_approval": "NOT APPROVED; whole-vault closed shell impossible under existing Type A cap",
+  "structural_validation": "NOT PERFORMED",
+  "evidence_source": "the actual marked user 2048x1284 pixel image, see local image-fit registration",
+  "Type_B_approval_status": "Pending user review of modeled sector 05, not promoted"
+}
+
+[executed on device: MR.COMPUTER (c5066a3f-7c79-446e-8649-efbb75d9e7d4)]
