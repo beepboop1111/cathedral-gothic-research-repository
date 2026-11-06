@@ -1,0 +1,525 @@
+{
+  "checkpoint": {
+    "parameters": {
+      "revision": "R04_LENGTHWISE_LOCAL_CANDIDATE",
+      "status": "EXPERIMENTAL_REQUIRES_USER_DECISION",
+      "ordinary_support": 320,
+      "main_clear_length": 3600,
+      "lower_clear_length": 1800,
+      "main_full_clear_width": 5866,
+      "A1_clear_width": 1152,
+      "source_parent": "R03 transverse 320 reservation study",
+      "source_parent_commit": "d1ff36a0777bbb05918956c10712170d175f52e3",
+      "rules": [
+        "All masonry outside reserved spaces",
+        "No profiles investigated",
+        "No source models changed"
+      ],
+      "major_longitudinal_reservation_status": "PROPOSED EXCEPTION; not approved"
+    },
+    "measurements": {
+      "main_uniform_320_pitch": 3920,
+      "lower_320_pitch": 4240,
+      "pitch_mismatch": 320,
+      "candidate_common_pitch": 4240,
+      "proposed_major_length": 640,
+      "major_transverse_width": 320,
+      "ordinary_square": 320,
+      "main_to_lower_bearing_offset": 160
+    },
+    "decision_needed": "Permit a 640-long by 320-transverse major junction reservation while ordinary subsidiary reservations remain 320; no approval inferred",
+    "geometry": {
+      "type": "FeatureCollection",
+      "coordinates": "local X east Y north; not geodetic",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "main_clear_1",
+            "role": "UNCHANGED_DIMENSIONS_EXPERIMENTAL_LOCATION"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  3920,
+                  -5866
+                ],
+                [
+                  3920,
+                  0
+                ],
+                [
+                  320,
+                  0
+                ],
+                [
+                  320,
+                  -5866
+                ],
+                [
+                  3920,
+                  -5866
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "main_clear_2",
+            "role": "UNCHANGED_DIMENSIONS_EXPERIMENTAL_LOCATION"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  8160,
+                  -5866
+                ],
+                [
+                  8160,
+                  0
+                ],
+                [
+                  4560,
+                  0
+                ],
+                [
+                  4560,
+                  -5866
+                ],
+                [
+                  8160,
+                  -5866
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "A1_clear_1",
+            "role": "UNCHANGED_DIMENSIONS_EXPERIMENTAL_LOCATION"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  1960,
+                  320
+                ],
+                [
+                  1960,
+                  1472
+                ],
+                [
+                  160,
+                  1472
+                ],
+                [
+                  160,
+                  320
+                ],
+                [
+                  1960,
+                  320
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "A1_clear_2",
+            "role": "UNCHANGED_DIMENSIONS_EXPERIMENTAL_LOCATION"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  4080,
+                  320
+                ],
+                [
+                  4080,
+                  1472
+                ],
+                [
+                  2280,
+                  1472
+                ],
+                [
+                  2280,
+                  320
+                ],
+                [
+                  4080,
+                  320
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "A1_clear_3",
+            "role": "UNCHANGED_DIMENSIONS_EXPERIMENTAL_LOCATION"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  6200,
+                  320
+                ],
+                [
+                  6200,
+                  1472
+                ],
+                [
+                  4400,
+                  1472
+                ],
+                [
+                  4400,
+                  320
+                ],
+                [
+                  6200,
+                  320
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "A1_clear_4",
+            "role": "UNCHANGED_DIMENSIONS_EXPERIMENTAL_LOCATION"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  8320,
+                  320
+                ],
+                [
+                  8320,
+                  1472
+                ],
+                [
+                  6520,
+                  1472
+                ],
+                [
+                  6520,
+                  320
+                ],
+                [
+                  8320,
+                  320
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "reservation_1",
+            "role": "PROPOSED_MAJOR"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  320,
+                  0
+                ],
+                [
+                  320,
+                  320
+                ],
+                [
+                  -320,
+                  320
+                ],
+                [
+                  -320,
+                  0
+                ],
+                [
+                  320,
+                  0
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "reservation_2",
+            "role": "PROPOSED_MAJOR"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  4560,
+                  0
+                ],
+                [
+                  4560,
+                  320
+                ],
+                [
+                  3920,
+                  320
+                ],
+                [
+                  3920,
+                  0
+                ],
+                [
+                  4560,
+                  0
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "reservation_3",
+            "role": "PROPOSED_MAJOR"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  8800,
+                  0
+                ],
+                [
+                  8800,
+                  320
+                ],
+                [
+                  8160,
+                  320
+                ],
+                [
+                  8160,
+                  0
+                ],
+                [
+                  8800,
+                  0
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "reservation_4",
+            "role": "SELECTED_320_ORDINARY"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  2280,
+                  0
+                ],
+                [
+                  2280,
+                  320
+                ],
+                [
+                  1960,
+                  320
+                ],
+                [
+                  1960,
+                  0
+                ],
+                [
+                  2280,
+                  0
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "reservation_5",
+            "role": "SELECTED_320_ORDINARY"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  6520,
+                  0
+                ],
+                [
+                  6520,
+                  320
+                ],
+                [
+                  6200,
+                  320
+                ],
+                [
+                  6200,
+                  0
+                ],
+                [
+                  6520,
+                  0
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "QA": {
+      "result": "PASS",
+      "passed": 24,
+      "total": 24,
+      "tests": [
+        {
+          "name": "main 1 exact size",
+          "pass": true
+        },
+        {
+          "name": "main 2 exact size",
+          "pass": true
+        },
+        {
+          "name": "lower 1 exact size",
+          "pass": true
+        },
+        {
+          "name": "lower 2 exact size",
+          "pass": true
+        },
+        {
+          "name": "lower 3 exact size",
+          "pass": true
+        },
+        {
+          "name": "lower 4 exact size",
+          "pass": true
+        },
+        {
+          "name": "zero positive-area intrusion",
+          "pass": true
+        },
+        {
+          "name": "all exported polygons valid",
+          "pass": true
+        },
+        {
+          "name": "major main-facing gap is 640",
+          "pass": true
+        },
+        {
+          "name": "lower intercell gaps all 320",
+          "pass": true
+        },
+        {
+          "name": "two rhythms share exact period",
+          "pass": true
+        },
+        {
+          "name": "ordinary main rhythm does not align",
+          "pass": true,
+          "difference": 320
+        },
+        {
+          "name": "major 1 reserved boundary point -320.0,0",
+          "pass": true
+        },
+        {
+          "name": "major 1 reserved boundary point 320.0,0",
+          "pass": true
+        },
+        {
+          "name": "major 1 reserved boundary point -160.0,320",
+          "pass": true
+        },
+        {
+          "name": "major 1 reserved boundary point 160.0,320",
+          "pass": true
+        },
+        {
+          "name": "major 2 reserved boundary point 3920.0,0",
+          "pass": true
+        },
+        {
+          "name": "major 2 reserved boundary point 4560.0,0",
+          "pass": true
+        },
+        {
+          "name": "major 2 reserved boundary point 4080.0,320",
+          "pass": true
+        },
+        {
+          "name": "major 2 reserved boundary point 4400.0,320",
+          "pass": true
+        },
+        {
+          "name": "major 3 reserved boundary point 8160.0,0",
+          "pass": true
+        },
+        {
+          "name": "major 3 reserved boundary point 8800.0,0",
+          "pass": true
+        },
+        {
+          "name": "major 3 reserved boundary point 8320.0,320",
+          "pass": true
+        },
+        {
+          "name": "major 3 reserved boundary point 8640.0,320",
+          "pass": true
+        }
+      ]
+    },
+    "limits": [
+      "Candidate only; major 640 exception requires user decision",
+      "Boundary-point contact is not physical bearing or structural validation",
+      "Only main/A1 interface drawn; no curved chevet or crossing changed",
+      "Existing approved vault coordinates and generators untouched",
+      "F5ZL-C support schedule remains unresolved"
+    ]
+  },
+  "generator": "\"\"\"Plan-only coordination of unchanged high/lower clear rectangles. No profiles.\"\"\"\nfrom pathlib import Path\nimport json, zipfile, xml.etree.ElementTree as ET\nimport matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\nfrom matplotlib.patches import Rectangle\nfrom shapely.geometry import box, Point, mapping\nfrom shapely.ops import unary_union\n\nR=Path(__file__).resolve().parent\nP=R/'PARAMETERS.json'\nif P.exists(): c=json.loads(P.read_text())\nelse:\n    q=R.parent/'F5ZP_Inward_Masonry_R03_320_STRIP/parameters.json'\n    prior=json.loads(q.read_text())\n    c={'revision':'R04_LENGTHWISE_LOCAL_CANDIDATE','status':'EXPERIMENTAL_REQUIRES_USER_DECISION',\n       'ordinary_support':prior['user_selected_support_base_reservation'],\n       'main_clear_length':3600,'lower_clear_length':1800,\n       'main_full_clear_width':prior['main_vessel_clear_width'],\n       'A1_clear_width':prior['aisle_clear_widths'][0],\n       'source_parent':'R03 transverse 320 reservation study',\n       'source_parent_commit':'d1ff36a0777bbb05918956c10712170d175f52e3',\n       'rules':['All masonry outside reserved spaces','No profiles investigated','No source models changed'],\n       'major_longitudinal_reservation_status':'PROPOSED EXCEPTION; not approved'}\n    P.write_text(json.dumps(c,indent=2)+'\\n')\ns=c['ordinary_support'];low=c['lower_clear_length'];high=c['main_clear_length']\npitch=2*(low+s);major=pitch-high;offset=(major-s)/2\nassert (s,low,high,pitch,major,offset)==(320,1800,3600,4240,640,160)\nfeatures=[];tests=[]\ndef check(name,ok,**kw):tests.append({'name':name,'pass':bool(ok),**kw})\ndef feature(name,g,role):\n    features.append({'type':'Feature','properties':{'id':name,'role':role},'geometry':mapping(g)})\nmain=[];lower=[];supports=[];major_stations=[i*pitch for i in range(3)]\nfor i in range(2):\n    a=i*pitch\n    # The main vessel graphic is cropped to its north edge; full geometry is retained below.\n    main.append(box(a+major/2,-c['main_full_clear_width'],a+major/2+high,0))\n    for j in range(2):\n        x=a+s/2+j*(low+s)\n        lower.append(box(x,s,x+low,s+c['A1_clear_width']))\nfor i,x in enumerate(major_stations):\n    supports.append(box(x-major/2,0,x+major/2,s))\nfor i in range(2):\n    x=i*pitch+low+s\n    supports.append(box(x-s/2,0,x+s/2,s))\nfor i,g in enumerate(main):\n    feature(f'main_clear_{i+1}',g,'UNCHANGED_DIMENSIONS_EXPERIMENTAL_LOCATION')\n    check(f'main {i+1} exact size',g.bounds[2]-g.bounds[0]==high and g.bounds[3]-g.bounds[1]==c['main_full_clear_width'])\nfor i,g in enumerate(lower):\n    feature(f'A1_clear_{i+1}',g,'UNCHANGED_DIMENSIONS_EXPERIMENTAL_LOCATION')\n    check(f'lower {i+1} exact size',g.bounds[2]-g.bounds[0]==low and g.bounds[3]-g.bounds[1]==c['A1_clear_width'])\nfor i,g in enumerate(supports):feature(f'reservation_{i+1}',g,'PROPOSED_MAJOR' if i<3 else 'SELECTED_320_ORDINARY')\nclear=unary_union(main+lower);occupied=unary_union(supports)\ncheck('zero positive-area intrusion',clear.intersection(occupied).area==0)\ncheck('all exported polygons valid',all(g.is_valid for g in main+lower+supports))\ncheck('major main-facing gap is 640',main[1].bounds[0]-main[0].bounds[2]==major)\ncheck('lower intercell gaps all 320',all(b.bounds[0]-a.bounds[2]==s for a,b in zip(lower[:-1],lower[1:])))\ncheck('two rhythms share exact period',high+major==2*low+2*s==pitch)\ncheck('ordinary main rhythm does not align',high+s!=pitch,difference=pitch-(high+s))\n# Distinct corner bearing points meet opposite edges of one reserved major rectangle.\nfor i,a in enumerate(major_stations):\n    for x,y in [(a-major/2,0),(a+major/2,0),(a-s/2,s),(a+s/2,s)]:\n        check(f'major {i+1} reserved boundary point {x},{y}',supports[i].boundary.distance(Point(x,y))==0)\nreport={'parameters':c,'measurements':{'main_uniform_320_pitch':high+s,'lower_320_pitch':pitch,\n          'pitch_mismatch':pitch-(high+s),'candidate_common_pitch':pitch,\n          'proposed_major_length':major,'major_transverse_width':s,'ordinary_square':s,\n          'main_to_lower_bearing_offset':offset},\n        'decision_needed':'Permit a 640-long by 320-transverse major junction reservation while ordinary subsidiary reservations remain 320; no approval inferred',\n        'geometry':{'type':'FeatureCollection','coordinates':'local X east Y north; not geodetic','features':features},\n        'QA':{'result':'PASS' if all(t['pass'] for t in tests) else 'FAIL','passed':sum(t['pass'] for t in tests),'total':len(tests),'tests':tests},\n        'limits':['Candidate only; major 640 exception requires user decision','Boundary-point contact is not physical bearing or structural validation','Only main/A1 interface drawn; no curved chevet or crossing changed','Existing approved vault coordinates and generators untouched','F5ZL-C support schedule remains unresolved']}\nassert report['QA']['result']=='PASS'\n(R/'CHECKPOINT.json').write_text(json.dumps(report,indent=2)+'\\n')\nplt.rcParams.update({'font.family':'DejaVu Sans','font.size':10})\nfig=plt.figure(figsize=(15,8));ax=fig.add_axes([.06,.30,.90,.48])\nfig.text(.045,.94,'LENGTHWISE COORDINATION  /  UNCHANGED VAULT SIZES',fontsize=17,weight='bold')\nfig.text(.045,.888,'Candidate: shared 4240 rhythm, ordinary reservations 320, proposed major-junction reservation 640 × 320.',fontsize=11)\nBLUE,TAN,RED,GRAY='#dfeef5','#e4c99e','#b43c36','#7c858a'\nfor i,g in enumerate(main):\n    x,y,x2,y2=g.bounds\n    ax.add_patch(Rectangle((x,-1100),high,1100,facecolor=BLUE,edgecolor='#263138',lw=1))\n    ax.text((x+x2)/2,-550,f'Main vault {i+1}: 3600 clear\\nNorth edge shown; full width 5866 unchanged',ha='center',va='center',fontsize=9)\nfor i,g in enumerate(lower):\n    x,y,x2,y2=g.bounds\n    ax.add_patch(Rectangle((x,y),x2-x,y2-y,facecolor=BLUE,edgecolor='#263138',lw=1))\n    ax.text((x+x2)/2,(y+y2)/2,f'Lower cell {i+1}\\n1800 × 1152 clear',ha='center',va='center',fontsize=9)\nfor i,g in enumerate(supports):\n    x,y,x2,y2=g.bounds\n    ax.add_patch(Rectangle((x,y),x2-x,y2-y,facecolor=TAN,edgecolor=RED,ls='--',lw=1))\n    ax.text((x+x2)/2,160,str(int(x2-x)),ha='center',va='center',fontsize=8,color=RED)\nfor x in major_stations:\n    ax.plot([x,x],[-1400,1750],color=GRAY,ls='--',lw=.65)\nfor i in range(2):\n    a=i*pitch\n    ax.annotate('',xy=(a,-1450),xytext=(a+pitch,-1450),arrowprops={'arrowstyle':'|-|','lw':.75})\n    ax.text(a+pitch/2,-1400,'4240 between major station axes',ha='center',va='bottom',fontsize=9)\nax.annotate('160 offset between main and lower\\nclear-space corners at each major junction',\n            xy=(pitch+160,320),xytext=(pitch,2050),ha='center',fontsize=9,color=RED,\n            arrowprops={'arrowstyle':'->','color':RED,'lw':.75})\nax.set(xlim=(-650,9130),ylim=(-1750,2450),aspect='equal');ax.axis('off')\nfig.text(.045,.235,'WHY 320 EVERYWHERE DOES NOT REPEAT',fontsize=10,weight='bold')\nfig.text(.045,.19,'Main row: 3600 + 320 = 3920. Lower row: 1800 + 320 + 1800 + 320 = 4240. Difference: 320 per major bay.',fontsize=10)\nfig.text(.045,.13,'The candidate keeps all clear rectangles unchanged and uses different bearing points on opposite faces of a larger major reservation.\\nThis is a plan-space proposal only. No pier profile, actual masonry contact, load path or structural capacity has been established.',fontsize=9,linespacing=1.5)\nfig.text(.045,.045,'FOR USER REVIEW • The 640 major reservation is an explicit proposed exception. Nothing is applied to the master plan.',fontsize=10,color=RED)\nfig.savefig(R/'R04_LENGTHWISE_COMPARISON.png',dpi=160);plt.close(fig)\nroot=ET.Element('svg',{'xmlns':'http://www.w3.org/2000/svg','viewBox':'-650 -2200 9780 8500','width':'1150','height':'1000','data-units':'1 SVG user unit = 1 native project unit'})\nET.SubElement(root,'title').text='R04 full 2D reservations; all locations experimental; main/A1 interface only'\ngrp=ET.SubElement(root,'g',{'transform':'scale(1,-1)'})\nfor f in features:\n    fixed=f['properties']['id'].startswith(('main','A1'))\n    attrs={'points':' '.join(f'{x},{y}' for x,y in f['geometry']['coordinates'][0]),\n           'fill':BLUE if fixed else TAN,'stroke':'#263138' if fixed else RED,'stroke-width':'1','vector-effect':'non-scaling-stroke','id':f['properties']['id']}\n    if not fixed:attrs['stroke-dasharray']='6 4'\n    ET.SubElement(grp,'polygon',attrs)\nET.ElementTree(root).write(R/'R04_FULL_NATIVE.svg',encoding='unicode',xml_declaration=True)\nET.parse(R/'R04_FULL_NATIVE.svg')\nassert json.loads((R/'CHECKPOINT.json').read_text())==json.loads(json.dumps(report))\nprint(json.dumps({'measurements':report['measurements'],'QA':{k:v for k,v in report['QA'].items() if k!='tests'}},indent=2))\n",
+  "readme": "# R04 — lengthwise coordination, for review\n\nThe user selected a 320 ordinary complete support/base reservation and asked to proceed without profiles. The accepted clearance rule keeps all masonry, shafts and bases outside the full reserved vault spaces. No profile research or modeling is performed here.\n\nThis bounded experiment compares the N6 main-vessel reference clear length of 3600 with two 1800 lower-vault clear lengths. The ordinary support width is 320. Using 320 at every boundary gives a main-vessel pitch of 3920 and a paired lower-vault pitch of 4240, a 320 discrepancy per major bay. It cannot be called a single aligned repeating grid.\n\n## Candidate requiring a user decision\n\nKeep the common pitch at 4240. This gives each 3600 main vault a **640 longitudinal boundary gap**, while each 1800 lower cell keeps a 320 gap. At the main/A1 interface, reserve a major junction rectangle **640 along X by 320 across Y**; intermediate ordinary reservations remain **320×320**. All clear rectangles keep their size. Their corner bearing points differ by 160 along X on opposite faces of the major reservation.\n\nThe extra length is a deliberate proposed exception at major stations, not a silent increase in the selected ordinary 320 allowance. The 320 transverse band from R03 stays unchanged, so R03's local transverse width chain is not enlarged by this proposal. No final pier shape is designed, nor is the major reservation adequate merely because it has room in plan.\n\nTwo consecutive common-pitch modules are drawn to check repeatability. Their main clear rectangles have local X ranges 320–3920 and 4560–8160. The lower rectangles are 160–1960, 2280–4080, 4400–6200 and 6520–8320. Main-vessel width is 5866 and A1 width is 1152. Only the north main/A1 interface is drawn. The PNG crops the main vessel to its north edge for legibility; the native SVG and checkpoint preserve its full width. This is not a generated vault model.\n\nAll of these locations are new experimental placements. No original model is translated or saved over, no original vault shape is resized, and no approved coordinate array or generator is changed. F5ZK-C/F5ZN-A, all 14 saved ambulatory vaults, Pass 6J and V13 originals remain protected. The missing F5ZL-C support schedule remains unresolved. The curved chevet and crossing are excluded.\n\n## Validation and limits\n\nChecks cover exact dimensions, polygon validity, zero positive-area masonry/reservation intrusion, ordinary and major gap widths, common pitch, and the distinct main/lower corner points lying on the major reservation boundary. Boundary-point contact is only a 2D coordination check; it does not prove physical bearing, spring-cluster bonding, profile fit or structural capacity. Saved JSON round-tripped and native SVG parsed. The rendered PNG is visually inspected before delivery.\n\nThe current proposed exception needs user review before any master-plan application. If the user requires every major junction also to remain within a complete 320-long envelope, this 4240 common-pitch candidate is not selected; the separate main/lower rhythms must remain unresolved pending another plan arrangement. Neither vault size may be stretched to conceal the discrepancy.\n\nReuses the R03 parameter record and dimensions already recovered during this ongoing study; no repeated source archive scans. Master Reference was read earlier in the same inward-development workflow and remains provisional. The R03 parent commit is recorded in PARAMETERS.json. Reproduce with `python build_lengthwise.py` (matplotlib and shapely). Once PARAMETERS.json exists, reproduction is self-contained. Numerical/native units remain 1:1; physical SI conversion is unresolved.\n"
+}
