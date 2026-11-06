@@ -1,0 +1,14 @@
+{
+  "strict_crown_guard.py": {
+    "path": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R16_STRICT_CROWN_LOCK_GUARD_EXPERIMENTAL/src/strict_crown_guard.py",
+    "sha256": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05"
+  },
+  "guarded_vault_adapter.py": {
+    "path": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R16_STRICT_CROWN_LOCK_GUARD_EXPERIMENTAL/src/guarded_vault_adapter.py",
+    "sha256": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee"
+  },
+  "R16_FINAL_RELEASE_SHA256_MANIFEST.json": {
+    "path": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R16_STRICT_CROWN_LOCK_GUARD_EXPERIMENTAL/qa/R16_FINAL_RELEASE_SHA256_MANIFEST.json",
+    "sha256": "4be66301bbbe8bbfd6a0572d76136604d59692ba34d7a2e4c0801492499db315"
+  }
+}
