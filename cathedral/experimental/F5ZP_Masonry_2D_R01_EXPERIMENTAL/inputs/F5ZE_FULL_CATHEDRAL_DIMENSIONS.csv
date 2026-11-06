@@ -1,0 +1,30 @@
+ID,AREA,MEASUREMENT,VALUE,START,END,SOURCE
+N1,Nave,Longitudinal bay depth,3744,-40013,-36269,F5ZE original global-coordinate JSON
+N2,Nave,Longitudinal bay depth,3672,-36269,-32597,F5ZE original global-coordinate JSON
+N3,Nave,Longitudinal bay depth,3600,-32597,-28997,F5ZE original global-coordinate JSON
+N4,Nave,Longitudinal bay depth,3600,-28997,-25397,F5ZE original global-coordinate JSON
+N5,Nave,Longitudinal bay depth,3600,-25397,-21797,F5ZE original global-coordinate JSON
+N6,Nave,Longitudinal bay depth,3600,-21797,-18197,F5ZE original global-coordinate JSON
+N7,Nave,Longitudinal bay depth,3600,-18197,-14597,F5ZE original global-coordinate JSON
+N8,Nave,Longitudinal bay depth,3744,-14597,-10853,F5ZE original global-coordinate JSON
+N9,Nave,Longitudinal bay depth,3888,-10853,-6965,F5ZE original global-coordinate JSON
+N10,Nave,Longitudinal bay depth,4032,-6965,-2933,F5ZE original global-coordinate JSON
+C1,Choir,Longitudinal bay depth,4032,2933,6965,F5ZE original global-coordinate JSON
+C2,Choir,Longitudinal bay depth,3744,6965,10709,F5ZE original global-coordinate JSON
+C3,Choir,Longitudinal bay depth,3456,10709,14165,F5ZE original global-coordinate JSON
+C4,Choir,Longitudinal bay depth,3168,14165,17333,F5ZE original global-coordinate JSON
+C5,Choir,Longitudinal bay depth,2880,17333,20213,F5ZE original global-coordinate JSON
+NT1,North transept,Transverse bay depth,4032,2933,6965,F5ZE original global-coordinate JSON
+NT2,North transept,Transverse bay depth,3744,6965,10709,F5ZE original global-coordinate JSON
+ST1,South transept,Transverse bay depth,4032,-2933,-6965,F5ZE original global-coordinate JSON
+ST2,South transept,Transverse bay depth,3744,-6965,-10709,F5ZE original global-coordinate JSON
+R0,Main plan,Band radial coordinate,2933,,,F5ZE global-coordinate JSON
+R1,Main plan,Band radial coordinate,4085,,,F5ZE global-coordinate JSON
+R2,Main plan,Band radial coordinate,5429,,,F5ZE global-coordinate JSON
+R3,Main plan,Band radial coordinate,6965,,,F5ZE global-coordinate JSON
+West facade X,Key datum,Native project units,-40013,,,F5ZE global-coordinate JSON
+Crossing center X,Key datum,Native project units,0,,,F5ZE global-coordinate JSON
+Crossing center Y,Key datum,Native project units,0,,,F5ZE global-coordinate JSON
+Crossing side length,Key datum,Native project units,5866,,,F5ZE global-coordinate JSON
+Chevet center X,Key datum,Native project units,20213,,,F5ZE global-coordinate JSON
+Transept terminal |Y|,Key datum,Native project units,10709,,,F5ZE global-coordinate JSON

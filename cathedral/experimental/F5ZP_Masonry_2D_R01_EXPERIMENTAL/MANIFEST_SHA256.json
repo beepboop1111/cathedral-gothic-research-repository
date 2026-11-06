@@ -1,0 +1,132 @@
+[
+  {
+    "path": "CONFIG.json",
+    "bytes": 1188,
+    "sha256": "f6d112abf0f1bda3e986b850838d1d9d28ecce45b25f9cb5164ed2ca5017000a"
+  },
+  {
+    "path": "README.md",
+    "bytes": 12356,
+    "sha256": "0b85ef5bd6e1e1dd8c7ebcc767503abd0a27c6a621b16df4807b711560e98826"
+  },
+  {
+    "path": "build_masonry_study.py",
+    "bytes": 22520,
+    "sha256": "fee8532f7bac475198a8a0e504c3b64b18c271a1a49ff15dbfacf2705521cc80"
+  },
+  {
+    "path": "inputs/CATHEDRAL_MASTER_REFERENCE_R01.md",
+    "bytes": 15013,
+    "sha256": "fcc02f6010cde5fe015580acd25f0914580ef261ddbe361d2ac4f1e06e06cc5a"
+  },
+  {
+    "path": "inputs/CURRENT_R07_HANDOFF.md",
+    "bytes": 4091,
+    "sha256": "873df4fdc099eb2451ad460c7e09faed1638d926afd73be8091ab04926be5376"
+  },
+  {
+    "path": "inputs/F5ZE_FULL_CATHEDRAL_DIMENSIONS.csv",
+    "bytes": 2529,
+    "sha256": "4996f4cec84fb91b90d2b4567f11582d8f18ecb3ae147b88315e28a300112ee3"
+  },
+  {
+    "path": "inputs/F5ZE_GLOBAL_COORDINATES.json",
+    "bytes": 2675,
+    "sha256": "389caec4d2deee00bc53f8dda8b2f428aa32b0e219a54ac7da9737638344f001"
+  },
+  {
+    "path": "inputs/F5ZN_A_COMPREHENSIVE_FLOOR_PLAN_CHECKPOINT.json",
+    "bytes": 1949,
+    "sha256": "97014cf07fccf1d5ed91e78b5cb20d557d55931cfd706921d46342a35dabb352"
+  },
+  {
+    "path": "inputs/R07_PLAN_CELLS_COMPACT.json",
+    "bytes": 5062,
+    "sha256": "d7b2f622f87ad3f597a529bdcaeb8d3b2c43e779fe55aa6c8ab206211fb8885a"
+  },
+  {
+    "path": "inputs/RECOVERED_SOURCE_EXTRACT.json",
+    "bytes": 17224,
+    "sha256": "6a684495edaf26042067e315103fc3f8ccce357df5383de6355bd2e6e889c14e"
+  },
+  {
+    "path": "outputs/01_WHOLE_CATHEDRAL_MASONRY.png",
+    "bytes": 330860,
+    "sha256": "55b169a9b7e5bb7a50129ec1588c4daf8400fd754f28e498a2cd5459a72d15c9"
+  },
+  {
+    "path": "outputs/01_WHOLE_CATHEDRAL_MASONRY_SHEET.svg",
+    "bytes": 32832,
+    "sha256": "acbfe5f2c09cfe8224adf70872baa16931f9ab05b1cc7caf2dfb2db3bc230068"
+  },
+  {
+    "path": "outputs/02_AXIAL_CHAPEL_THICKNESS_COMPARISON.png",
+    "bytes": 273302,
+    "sha256": "a612ea2b69df193f23cfbdc3760d0ef4c57a11fa291f1092de9e3b9e86416014"
+  },
+  {
+    "path": "outputs/02_AXIAL_CHAPEL_THICKNESS_COMPARISON_SHEET.svg",
+    "bytes": 19941,
+    "sha256": "39b6d2b1426f70b04ca4569cbbaa11381fe0face712bfee1bea6f251981c4a87"
+  },
+  {
+    "path": "outputs/03_SPACE_AND_MASONRY_RULES.png",
+    "bytes": 184722,
+    "sha256": "d3933b1bb1377c69995b9b6449d4535417288df1313734d46c9305af84cb1a8b"
+  },
+  {
+    "path": "outputs/03_SPACE_AND_MASONRY_RULES_SHEET.svg",
+    "bytes": 12506,
+    "sha256": "194ab802f63c848025e39a4401d73ba7cb8f1f9b584422c35fdeabe387f3bee0"
+  },
+  {
+    "path": "outputs/AXIAL_CHAPEL_NATIVE_1TO1.svg",
+    "bytes": 1501,
+    "sha256": "41e35d3c0e565a84dcbb8377bffb53877ed7430b406604935e18543842f3e629"
+  },
+  {
+    "path": "outputs/INDEPENDENT_EXPORT_QA.json",
+    "bytes": 4322,
+    "sha256": "5fd89fb5efbc63d694fef7f00ebf8f2869cde98d695cf47f9dec37f5ad788787"
+  },
+  {
+    "path": "outputs/INPUT_SHA256_UNCHANGED.json",
+    "bytes": 879,
+    "sha256": "796146c79a91392ad7e3cb4b41e47e37a556ec855cc71294ecdaa153ac284a50"
+  },
+  {
+    "path": "outputs/MASTER_PLAN_NATIVE_1TO1.svg",
+    "bytes": 6801,
+    "sha256": "7f8d1cb115d58d436427baa0cd27f69f831ccc15388aa35a5bf0f770f052e699"
+  },
+  {
+    "path": "outputs/MEASUREMENTS.json",
+    "bytes": 687,
+    "sha256": "9bf9ead3a23d604f17496d5c608852738c135826b8d94f9ebcd2a0f57353061d"
+  },
+  {
+    "path": "outputs/NUMERICAL_QA.json",
+    "bytes": 5905,
+    "sha256": "7c8734caa97240ed9a99eddf504a80f50523bad2e13e09d783ecaba3a70473ef"
+  },
+  {
+    "path": "outputs/PLAN_GEOMETRY_NATIVE.geojson",
+    "bytes": 18887,
+    "sha256": "df073d127f0fc3d3ce807ee361a800b1a646396f4368171ae869217fb1deafa9"
+  },
+  {
+    "path": "outputs/PROTECTED_VAULT_COORDINATES.json",
+    "bytes": 6863,
+    "sha256": "9b1b95266ff119a9324ebdb708914b69f091c5de171f66e17a473b7af3a03090"
+  },
+  {
+    "path": "outputs/THICKNESS_COMPARISON.csv",
+    "bytes": 504,
+    "sha256": "8cd4f40168d8b9dd068482da948c64f2dae6229c39461daa799efc899220d6f0"
+  },
+  {
+    "path": "verify_exports.py",
+    "bytes": 3250,
+    "sha256": "f36e47b289b871c22a168b67971ee6917f1cdf2b3c28a9d154c771056d1a6506"
+  }
+]

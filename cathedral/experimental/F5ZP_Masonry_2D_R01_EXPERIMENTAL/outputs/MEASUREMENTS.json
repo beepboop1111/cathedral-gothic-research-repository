@@ -1,0 +1,17 @@
+{
+  "baseline_axial_reach": 74601.82064536895,
+  "proposed_axial_reach": 75171.82064536895,
+  "axial_increase": 570,
+  "axial_increase_percent": 0.764056419895677,
+  "nave_reserved_width": 13930,
+  "nave_outside_width": 14570,
+  "nave_increase_percent": 4.594400574300072,
+  "transept_terminal_reserved_reach": 21418,
+  "transept_terminal_outside_reach": 22058,
+  "chapel_reserved_width": 2500,
+  "chapel_outside_width": 3000,
+  "chapel_nose_reference_X": 34588.82064536894,
+  "chapel_nose_with_250_X": 34838.82064536894,
+  "whole_building_total_extent": "UNRESOLVED: other chapels/towers/porches/shoulders not fully recovered",
+  "source_compact_max_difference": 0.005866998041135735
+}

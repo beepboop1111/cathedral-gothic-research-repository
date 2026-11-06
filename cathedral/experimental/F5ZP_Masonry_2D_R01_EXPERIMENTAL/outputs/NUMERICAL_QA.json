@@ -1,0 +1,246 @@
+{
+  "result": "PASS",
+  "scope": "technical and 2D geometric reservation checks only",
+  "checks_passed": 49,
+  "checks_count": 49,
+  "checks": [
+    {
+      "check": "14 protected polygons valid",
+      "pass": true
+    },
+    {
+      "check": "exact protected source coordinates and IDs round trip",
+      "pass": true
+    },
+    {
+      "check": "all ten nave station differences",
+      "pass": true
+    },
+    {
+      "check": "all five choir station differences",
+      "pass": true
+    },
+    {
+      "check": "seven retained inner-middle shared edges",
+      "pass": true,
+      "edge_lengths": [
+        1907.248622702747,
+        1837.850113989377,
+        1733.4915815181657,
+        1698.6385139810943,
+        1733.4915815181653,
+        1837.8501139893776,
+        1907.248622702747
+      ]
+    },
+    {
+      "check": "R07 rear interface remains fixed",
+      "pass": true,
+      "max_error": 0.0
+    },
+    {
+      "check": "compact R07 coordinates agree at stated 0.01 precision",
+      "pass": true,
+      "max_distance": 0.005866998041135735
+    },
+    {
+      "check": "t=170 no reserved-space area consumed",
+      "pass": true,
+      "intrusion_area": 0.0
+    },
+    {
+      "check": "t=170 wall polygons valid",
+      "pass": true
+    },
+    {
+      "check": "t=170 chapel outside width exact",
+      "pass": true
+    },
+    {
+      "check": "t=170 apse normal offset exact",
+      "pass": true
+    },
+    {
+      "check": "t=170 face midpoint lies in outward band 1",
+      "pass": true
+    },
+    {
+      "check": "t=170 face midpoint lies in outward band 2",
+      "pass": true
+    },
+    {
+      "check": "t=170 face midpoint lies in outward band 3",
+      "pass": true
+    },
+    {
+      "check": "t=170 face midpoint lies in outward band 4",
+      "pass": true
+    },
+    {
+      "check": "t=170 face midpoint lies in outward band 5",
+      "pass": true
+    },
+    {
+      "check": "t=170 face midpoint lies in outward band 6",
+      "pass": true
+    },
+    {
+      "check": "t=170 face midpoint lies in outward band 7",
+      "pass": true
+    },
+    {
+      "check": "t=170 chapel entrance is uncapped",
+      "pass": true
+    },
+    {
+      "check": "t=170 main east join is uncapped",
+      "pass": true
+    },
+    {
+      "check": "t=250 no reserved-space area consumed",
+      "pass": true,
+      "intrusion_area": 0.0
+    },
+    {
+      "check": "t=250 wall polygons valid",
+      "pass": true
+    },
+    {
+      "check": "t=250 chapel outside width exact",
+      "pass": true
+    },
+    {
+      "check": "t=250 apse normal offset exact",
+      "pass": true
+    },
+    {
+      "check": "t=250 face midpoint lies in outward band 8",
+      "pass": true
+    },
+    {
+      "check": "t=250 face midpoint lies in outward band 9",
+      "pass": true
+    },
+    {
+      "check": "t=250 face midpoint lies in outward band 10",
+      "pass": true
+    },
+    {
+      "check": "t=250 face midpoint lies in outward band 11",
+      "pass": true
+    },
+    {
+      "check": "t=250 face midpoint lies in outward band 12",
+      "pass": true
+    },
+    {
+      "check": "t=250 face midpoint lies in outward band 13",
+      "pass": true
+    },
+    {
+      "check": "t=250 face midpoint lies in outward band 14",
+      "pass": true
+    },
+    {
+      "check": "t=250 chapel entrance is uncapped",
+      "pass": true
+    },
+    {
+      "check": "t=250 main east join is uncapped",
+      "pass": true
+    },
+    {
+      "check": "t=320 no reserved-space area consumed",
+      "pass": true,
+      "intrusion_area": 0.0
+    },
+    {
+      "check": "t=320 wall polygons valid",
+      "pass": true
+    },
+    {
+      "check": "t=320 chapel outside width exact",
+      "pass": true
+    },
+    {
+      "check": "t=320 apse normal offset exact",
+      "pass": true
+    },
+    {
+      "check": "t=320 face midpoint lies in outward band 15",
+      "pass": true
+    },
+    {
+      "check": "t=320 face midpoint lies in outward band 16",
+      "pass": true
+    },
+    {
+      "check": "t=320 face midpoint lies in outward band 17",
+      "pass": true
+    },
+    {
+      "check": "t=320 face midpoint lies in outward band 18",
+      "pass": true
+    },
+    {
+      "check": "t=320 face midpoint lies in outward band 19",
+      "pass": true
+    },
+    {
+      "check": "t=320 face midpoint lies in outward band 20",
+      "pass": true
+    },
+    {
+      "check": "t=320 face midpoint lies in outward band 21",
+      "pass": true
+    },
+    {
+      "check": "t=320 chapel entrance is uncapped",
+      "pass": true
+    },
+    {
+      "check": "t=320 main east join is uncapped",
+      "pass": true
+    },
+    {
+      "check": "face normal distances accurate",
+      "pass": true,
+      "max_error": 2.6574298317427747e-12
+    },
+    {
+      "check": "600-deep threshold retained",
+      "pass": true
+    },
+    {
+      "check": "two original 2400-deep bays retained",
+      "pass": true
+    }
+  ],
+  "measurements": {
+    "baseline_axial_reach": 74601.82064536895,
+    "proposed_axial_reach": 75171.82064536895,
+    "axial_increase": 570,
+    "axial_increase_percent": 0.764056419895677,
+    "nave_reserved_width": 13930,
+    "nave_outside_width": 14570,
+    "nave_increase_percent": 4.594400574300072,
+    "transept_terminal_reserved_reach": 21418,
+    "transept_terminal_outside_reach": 22058,
+    "chapel_reserved_width": 2500,
+    "chapel_outside_width": 3000,
+    "chapel_nose_reference_X": 34588.82064536894,
+    "chapel_nose_with_250_X": 34838.82064536894,
+    "whole_building_total_extent": "UNRESOLVED: other chapels/towers/porches/shoulders not fully recovered",
+    "source_compact_max_difference": 0.005866998041135735
+  },
+  "architectural_approval": false,
+  "historical_dimension_validation": false,
+  "structural_validation": false,
+  "physical_metre_conversion": null,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "shapely": "2.2.0",
+    "matplotlib": "3.10.8"
+  }
+}

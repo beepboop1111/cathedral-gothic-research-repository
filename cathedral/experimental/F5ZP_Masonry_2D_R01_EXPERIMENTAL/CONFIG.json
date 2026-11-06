@@ -1,0 +1,26 @@
+{
+  "revision": "F5ZP-MASONRY-2D-R01",
+  "status": "EXPERIMENTAL_FOR_ARCHITECTURAL_REVIEW",
+  "units": "native project units, numerical 1:1; metres per unit unresolved",
+  "trial_thicknesses": [170, 250, 320],
+  "proposed_schedule": {
+    "ordinary_chapel_and_enclosure": 250,
+    "main_cathedral_perimeter": 320,
+    "internal_piers_responds_buttresses": null
+  },
+  "choir_outer_preview": {
+    "start_half_width": 6965,
+    "end_half_width": 6657,
+    "interpolation": "linear preview only; full bay-by-bay source not recovered",
+    "authority": "MP-02 page 3 endpoint description, not a new lock"
+  },
+  "rules": [
+    "Outward additive offset from the reserved-space perimeter; never center the wall on it",
+    "Preserve all source bay coordinates, dimensions, IDs, angles and shared interfaces",
+    "No masonry strip on the shared inner/middle arch boundaries",
+    "No cap across the choir-to-chevet interface or axial chapel entrance",
+    "No invented outer chevet closure, companion chapel, pier or buttress footprint",
+    "No new vaults, webs, heights, 3D models or generator replacement",
+    "Wall bands are plan reservations before door/window and bearing design"
+  ]
+}

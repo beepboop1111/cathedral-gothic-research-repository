@@ -1,0 +1,131 @@
+{
+  "status": "READ_ONLY_RECOVERED_F5ZE_DIMENSIONS_FROM_MR_COMPUTER; NOT APPROVED_REPLACEMENT",
+  "main_source_file": "F5ZE_GLOBAL_COORDINATE_DATA.json",
+  "main_source_sha256": "3c30934df8663e0e13903eca30e192aa9a4313f2822dfcb49615ef51ef06e84f",
+  "master_plan_source_file": "CATHEDRAL_F5ZE_FULL_CORRECTED_MASTER_PLAN.json",
+  "master_plan_source_sha256": "378d3a7875b98ac0a03c2425ebf71427c9cf9deeb2d33b15d5ae760a65e5d354",
+  "mp02_pdf_source_sha256_prefix": "f1424c8293086e72e985",
+  "full_atlas": "F5ZP_MP02_MASTER_ARCHITECTURAL_FLOOR_PLAN_REVIEW_ATLAS.pdf (2026-11-02, 8 pages, on MR COMPUTER)",
+  "coordinate_system": "X east, Y north, crossing center (0,0); native 1:1 numerical project units; physical conversion unresolved",
+  "nave": {
+    "count": 10,
+    "depths": [
+      3744,
+      3672,
+      3600,
+      3600,
+      3600,
+      3600,
+      3600,
+      3744,
+      3888,
+      4032
+    ],
+    "x_stations": [
+      -40013,
+      -36269,
+      -32597,
+      -28997,
+      -25397,
+      -21797,
+      -18197,
+      -14597,
+      -10853,
+      -6965,
+      -2933
+    ]
+  },
+  "choir": {
+    "count": 5,
+    "depths": [
+      4032,
+      3744,
+      3456,
+      3168,
+      2880
+    ],
+    "x_stations": [
+      2933,
+      6965,
+      10709,
+      14165,
+      17333,
+      20213
+    ],
+    "chevet_center": [
+      20213,
+      0
+    ]
+  },
+  "crossing": {
+    "center": [
+      0,
+      0
+    ],
+    "square_side": 5866,
+    "half_width": 2933,
+    "bounds_x": [
+      -2933,
+      2933
+    ],
+    "bounds_y": [
+      -2933,
+      2933
+    ]
+  },
+  "transepts": {
+    "per_arm_depths": [
+      4032,
+      3744
+    ],
+    "north_stations": [
+      2933,
+      6965,
+      10709
+    ],
+    "south_stations": [
+      -2933,
+      -6965,
+      -10709
+    ],
+    "terminals_y": [
+      -10709,
+      10709
+    ]
+  },
+  "radial_bands": {
+    "R0": 2933,
+    "R1": 4085,
+    "R2": 5429,
+    "R3": 6965
+  },
+  "radial_band_widths": [
+    1152,
+    1344,
+    1536
+  ],
+  "reference_plan_chevet_atlas": {
+    "inner_radii": [
+      2933,
+      4085,
+      5285
+    ],
+    "unequal_angular_spans_degrees": [
+      27,
+      26,
+      24.5,
+      24,
+      24.5,
+      26,
+      27
+    ],
+    "Q1_junction_offset_unresolved": 29,
+    "historical_atlas_outer_program": "7\u20137\u20139 WORKING Study D; superseded for current chapel design"
+  },
+  "safeguards": [
+    "R07 orange chapel and recovered R06 approach remain the active experimental axial handoff",
+    "Do not use older Study D 7-7-9 outer ring as an approved current constraint",
+    "F5ZK-C and F5ZN-A and their generators remain untouched",
+    "F5ZL-C support schedule missing; no structural approval"
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "status": "READ_ONLY_SOURCE_EXTRACT_NOT_NEW_AUTHORITY",
+  "baseline_path": "/home/christopher/Downloads/Gothic_2D_Chat_Complete_Archive_2026-11-05/Axial_Chapel_R03_EXPERIMENTAL/axial_chapel_r03/inputs/BASELINE.json",
+  "baseline_sha256": "066027d5fa0e673b5c267718e906d105c86272b6358fcc8bf2a33a5d3fa92a19",
+  "cells": {
+    "I_A1": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I7 (south-first)",
+      "vertices": [
+        [
+          20238.59492861673,
+          2932.8883203472146
+        ],
+        [
+          20248.64789751086,
+          4084.8444557171397
+        ],
+        [
+          22099.243085065114,
+          3623.4392535330358
+        ],
+        [
+          21567.308682618353,
+          2601.6027737117242
+        ]
+      ]
+    },
+    "I_A2": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I6 (south-first)",
+      "vertices": [
+        [
+          21567.308682618353,
+          2601.6027737117242
+        ],
+        [
+          22099.243085065114,
+          3623.4392535330358
+        ],
+        [
+          23496.755275621334,
+          2429.8510838792295
+        ],
+        [
+          22570.7121721903,
+          1744.6152335416843
+        ]
+      ]
+    },
+    "I_A3": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I5 (south-first)",
+      "vertices": [
+        [
+          22570.7121721903,
+          1744.6152335416843
+        ],
+        [
+          23496.755275621334,
+          2429.8510838792295
+        ],
+        [
+          24208.732948997596,
+          849.3192569905474
+        ],
+        [
+          23081.90691295225,
+          609.8049891684885
+        ]
+      ]
+    },
+    "I_A4": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I4 (south-first)",
+      "vertices": [
+        [
+          23081.90691295225,
+          609.8049891684885
+        ],
+        [
+          24208.732948997596,
+          849.3192569905474
+        ],
+        [
+          24208.732948997596,
+          -849.3192569905469
+        ],
+        [
+          23081.906912952254,
+          -609.8049891684882
+        ]
+      ]
+    },
+    "I_A5": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I3 (south-first)",
+      "vertices": [
+        [
+          23081.906912952254,
+          -609.8049891684882
+        ],
+        [
+          24208.732948997596,
+          -849.3192569905469
+        ],
+        [
+          23496.755275621334,
+          -2429.8510838792286
+        ],
+        [
+          22570.7121721903,
+          -1744.6152335416837
+        ]
+      ]
+    },
+    "I_A6": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I2 (south-first)",
+      "vertices": [
+        [
+          22570.7121721903,
+          -1744.6152335416837
+        ],
+        [
+          23496.755275621334,
+          -2429.8510838792286
+        ],
+        [
+          22099.243085065114,
+          -3623.4392535330358
+        ],
+        [
+          21567.308682618353,
+          -2601.6027737117242
+        ]
+      ]
+    },
+    "I_A7": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "I",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D I1 (south-first)",
+      "vertices": [
+        [
+          21567.308682618353,
+          -2601.6027737117242
+        ],
+        [
+          22099.243085065114,
+          -3623.4392535330358
+        ],
+        [
+          20248.64789751086,
+          -4084.8444557171397
+        ],
+        [
+          20238.59492861673,
+          -2932.8883203472146
+        ]
+      ]
+    },
+    "M_A1": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M7 (south-first)",
+      "vertices": [
+        [
+          20248.64789751086,
+          4084.8444557171397
+        ],
+        [
+          20259.119740108905,
+          5284.798763394146
+        ],
+        [
+          22653.341420947156,
+          4687.852253346901
+        ],
+        [
+          22099.243085065114,
+          3623.4392535330358
+        ]
+      ]
+    },
+    "M_A2": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M6 (south-first)",
+      "vertices": [
+        [
+          22099.243085065114,
+          3623.4392535330358
+        ],
+        [
+          22653.341420947156,
+          4687.852253346901
+        ],
+        [
+          24461.383508361992,
+          3143.638427980839
+        ],
+        [
+          23496.755275621334,
+          2429.8510838792295
+        ]
+      ]
+    },
+    "M_A3": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M5 (south-first)",
+      "vertices": [
+        [
+          23496.755275621334,
+          2429.8510838792295
+        ],
+        [
+          24461.383508361992,
+          3143.638427980839
+        ],
+        [
+          25382.51006987816,
+          1098.8132859718587
+        ],
+        [
+          24208.732948997596,
+          849.3192569905474
+        ]
+      ]
+    },
+    "M_A4": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M4 (south-first)",
+      "vertices": [
+        [
+          24208.732948997596,
+          849.3192569905474
+        ],
+        [
+          25382.51006987816,
+          1098.8132859718587
+        ],
+        [
+          25382.510069878164,
+          -1098.813285971858
+        ],
+        [
+          24208.732948997596,
+          -849.3192569905469
+        ]
+      ]
+    },
+    "M_A5": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M3 (south-first)",
+      "vertices": [
+        [
+          24208.732948997596,
+          -849.3192569905469
+        ],
+        [
+          25382.510069878164,
+          -1098.813285971858
+        ],
+        [
+          24461.383508361992,
+          -3143.638427980838
+        ],
+        [
+          23496.755275621334,
+          -2429.8510838792286
+        ]
+      ]
+    },
+    "M_A6": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M2 (south-first)",
+      "vertices": [
+        [
+          23496.755275621334,
+          -2429.8510838792286
+        ],
+        [
+          24461.383508361992,
+          -3143.638427980838
+        ],
+        [
+          22653.341420947156,
+          -4687.852253346901
+        ],
+        [
+          22099.243085065114,
+          -3623.4392535330358
+        ]
+      ]
+    },
+    "M_A7": {
+      "status": "PROTECTED_SOURCE_SET_OUT",
+      "group": "M",
+      "source": "F5ZK-C numeric identity / saved F5ZN-A guide",
+      "aliases": "MP01D M1 (south-first)",
+      "vertices": [
+        [
+          22099.243085065114,
+          -3623.4392535330358
+        ],
+        [
+          22653.341420947156,
+          -4687.852253346901
+        ],
+        [
+          20259.119740108905,
+          -5284.798763394146
+        ],
+        [
+          20248.64789751086,
+          -4084.8444557171397
+        ]
+      ]
+    }
+  },
+  "chapel_builder": {
+    "path": "/home/christopher/Downloads/Gothic_2D_Chat_Complete_Archive_2026-11-05/Axial_Chapel_R03_EXPERIMENTAL/axial_chapel_r03/build_chapel.py",
+    "sha256": "20f4829794624a6fa72f65663ee93c49225959eaa047256bfe685c12730cee5c",
+    "lines_184_201": "# Chapel walls: actual open lancet apertures, separately editable, with simple mullions.\ndef wall(name,A,C,eave=4100):\n A=np.array(A,dtype=float);C=np.array(C,dtype=float);H=unit(C-A);length=np.linalg.norm(C-A);N=np.array([-H[1],H[0],0]);center=(A+C)/2\n if np.dot(N,center-np.array([32000,0,0]))<0:N=-N\n def coords(p):return [A+H*u+N*v+Z*z for u,v,z in p]\n def block(s0,s1,z0,z1):\n  p=[(s0,0,z0),(s1,0,z0),(s1,170,z0),(s0,170,z0),(s0,0,z1),(s1,0,z1),(s1,170,z1),(s0,170,z1)];return mesh(name+'_WALL',coords(p),[(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)],'stone','WALLS')\n margin=min(240,length*.18);span=length-2*margin;wsp=1800.;wcrown=3150. if length>1500 else 3200.;block(0,length,0,550);block(0,margin,550,eave);block(length-margin,length,550,eave)\n win=fullarc(np.array([0.,0.,spring]),np.array([span,0.,spring]),wcrown);curve=[(margin+win(t)[0],win(t)[2]) for t in np.linspace(0,1,65)];poly=curve+[(length-margin,eave),(margin,eave)];n=len(poly);v=coords([(u,side,z) for side in [0,170] for u,z in poly]);faces=[tuple(range(n-1,-1,-1)),tuple(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)];mesh(name+'_SPANDREL',v,faces,'stone','WALLS')\n for t in [1/3,2/3]:\n  u=margin+span*t;block(u-22,u+22,550,win(t)[2])\n # Non-structural glass surface recessed outside aperture, removable.\n glass=[(margin,550)]+curve+[(length-margin,550)];mesh(name+'_GLASS',coords([(u,90,z) for u,z in glass]),[tuple(range(len(glass)))],'glass','WALLS')\nfor sign in [-1,1]:\n for bi,(a,b) in enumerate([(28600.,31000.),(31000.,33400.)]):wall('SIDE_'+str(sign)+'_BAY'+str(bi+1),[a,sign*half,0],[b,sign*half,0])\nfor j in range(5):wall('APSE_FACE_'+str(j),apse[j]-Z*spring,apse[j+1]-Z*spring)\n# Threshold lateral backing walls are separate from the compound moulded shafts.\nfor sign in [-1,1]:prism('THRESHOLD_RETURN_'+str(sign),[(28000,sign*1250),(28600,sign*1250),(28600,sign*1500),(28000,sign*1500)],0,4100,'stone','WALLS')"
+  },
+  "CATHEDRAL_F5ZE_FULL_CORRECTED_MASTER_PLAN.json": {
+    "archive": "F5ZP_R07_FULL_CATHEDRAL_PLAN_ADDENDUM_R01.zip",
+    "sha256": "378d3a7875b98ac0a03c2425ebf71427c9cf9deeb2d33b15d5ae760a65e5d354",
+    "data": {
+      "revision": "F5ZE",
+      "status": "full corrected 2D master floor plan after F5ZD propagation",
+      "coordinate_system": {
+        "crossing_center": [
+          0,
+          0
+        ],
+        "east": "+X",
+        "north": "+Y"
+      },
+      "bay_authority": {
+        "nave_west_to_crossing": [
+          3744,
+          3672,
+          3600,
+          3600,
+          3600,
+          3600,
+          3600,
+          3744,
+          3888,
+          4032
+        ],
+        "choir_crossing_to_chevet": [
+          4032,
+          3744,
+          3456,
+          3168,
+          2880
+        ],
+        "transept_each_arm_crossing_to_terminal": [
+          4032,
+          3744
+        ]
+      },
+      "local_junction_lock": {
+        "N10": 4032,
+        "Q1": 4032,
+        "north_T1": 4032,
+        "south_T1": 4032,
+        "three_lower_modules": [
+          1152,
+          1344,
+          1536
+        ],
+        "R0": 2933,
+        "R1": 4085,
+        "R2": 5429,
+        "R3": 6965
+      },
+      "propagated_shifts": {
+        "west_facade_x_old": -38933,
+        "west_facade_x_new": -40013,
+        "west_facade_shift": -1080,
+        "chevet_center_x_old": 18773,
+        "chevet_center_x_new": 20213,
+        "chevet_shift": 1440,
+        "transept_terminal_abs_old": 10133,
+        "transept_terminal_abs_new": 10709,
+        "terminal_shift": 576
+      },
+      "retained_design_systems": {
+        "west_front": "F5P translated to new west facade datum",
+        "two_stage_buttress_system": "F5V moved to new bay stations",
+        "transept_terminal_complexes": "F5W moved to new terminal datums",
+        "chevet_expansion": "F5X translated to new chevet datum",
+        "exceptional_nave_chapels": [
+          "CH-S2 at N2",
+          "CH-N5 at N5"
+        ],
+        "inhabited_buttresses": [
+          "IB-WN N3/N4 north",
+          "IB-CS N6/N7 south",
+          "IB-EN N9/N10 north",
+          "IB-QS Q3/Q4 south"
+        ]
+      },
+      "schematic_only": {
+        "service_wing_connection": "Q2-Q4 south side; no exact footprint invented",
+        "cloister_connection": "south transept/cloister side; no exact footprint invented"
+      },
+      "next_step": "F5ZF regenerate the complete 2D vault topology from this corrected F5ZE plan"
+    }
+  },
+  "F5ZE_GLOBAL_COORDINATE_DATA.json": {
+    "archive": "F5ZP_R07_FULL_CATHEDRAL_PLAN_ADDENDUM_R01.zip",
+    "sha256": "3c30934df8663e0e13903eca30e192aa9a4313f2822dfcb49615ef51ef06e84f",
+    "data": {
+      "authority": "F5ZE",
+      "coordinate_system": {
+        "crossing_center": [
+          0,
+          0
+        ],
+        "east": "+X",
+        "north": "+Y"
+      },
+      "units": "full-scale project units",
+      "source_file": "CATHEDRAL_F5ZE_FULL_CORRECTED_MASTER_PLAN.json",
+      "nave": {
+        "bay_depths_N1_to_N10": [
+          3744,
+          3672,
+          3600,
+          3600,
+          3600,
+          3600,
+          3600,
+          3744,
+          3888,
+          4032
+        ],
+        "x_stations_west_to_crossing": [
+          -40013,
+          -36269,
+          -32597,
+          -28997,
+          -25397,
+          -21797,
+          -18197,
+          -14597,
+          -10853,
+          -6965,
+          -2933
+        ]
+      },
+      "crossing": {
+        "center": [
+          0,
+          0
+        ],
+        "half_width": 2933,
+        "edges": {
+          "west": -2933,
+          "east": 2933,
+          "south": -2933,
+          "north": 2933
+        }
+      },
+      "choir": {
+        "bay_depths_Q1_to_Q5": [
+          4032,
+          3744,
+          3456,
+          3168,
+          2880
+        ],
+        "x_stations_crossing_to_chevet": [
+          2933,
+          6965,
+          10709,
+          14165,
+          17333,
+          20213
+        ],
+        "chevet_center": [
+          20213,
+          0
+        ]
+      },
+      "transepts": {
+        "bay_depths_T1_T2": [
+          4032,
+          3744
+        ],
+        "north_y_stations": [
+          2933,
+          6965,
+          10709
+        ],
+        "south_y_stations": [
+          -2933,
+          -6965,
+          -10709
+        ],
+        "terminal_abs": 10709
+      },
+      "radial_lines": {
+        "R0": 2933,
+        "R1": 4085,
+        "R2": 5429,
+        "R3": 6965
+      },
+      "junction_modules": [
+        1152,
+        1344,
+        1536
+      ],
+      "propagated_shifts": {
+        "west_facade_x_old": -38933,
+        "west_facade_x_new": -40013,
+        "west_facade_shift": -1080,
+        "chevet_center_x_old": 18773,
+        "chevet_center_x_new": 20213,
+        "chevet_shift": 1440,
+        "transept_terminal_abs_old": 10133,
+        "transept_terminal_abs_new": 10709,
+        "terminal_shift": 576
+      },
+      "schematic_only": {
+        "service_wing_connection": "Q2-Q4 south side; no exact footprint invented",
+        "cloister_connection": "south transept/cloister side; no exact footprint invented"
+      }
+    }
+  },
+  "R07_CURRENT_PLAN_GEOMETRY.json": {
+    "archive": "F5ZP_AXIAL_PLAN_HANDOFF_R07_EXPERIMENTAL.zip",
+    "sha256": "6687e9d004b5b7b1ffa2590ad8f224d6c9df2e4343c9b0a69b1ac1942b30b317",
+    "data": {
+      "status": "R07_EXPERIMENTAL_PLAN_ONLY",
+      "rear_chord": [
+        [
+          25382.51006987816,
+          1098.8132859718587
+        ],
+        [
+          25382.510069878164,
+          -1098.813285971858
+        ]
+      ],
+      "r03_geometry": {
+        "threshold": [
+          28000,
+          28600
+        ],
+        "chapel_bays": [
+          [
+            28600,
+            31000
+          ],
+          [
+            31000,
+            33400
+          ]
+        ],
+        "half_width": 1250,
+        "apse_angles_degrees": [
+          -90,
+          -54,
+          -18,
+          18,
+          54,
+          90
+        ],
+        "apse_radius": 1250,
+        "apse_west_x": 33400,
+        "apse_boss": [
+          33850,
+          0
+        ]
+      },
+      "original_sources": {
+        "R06_blend": "/home/christopher/Desktop/F5ZP_R03_RAISED_APPROACH_R06_EXPERIMENTAL/F5ZP_R03_RAISED_APPROACH_R06_EXPERIMENTAL.blend",
+        "R06_blend_sha256": "b2f19c260a3f37921aa7303fe3aa6761eb674be727fd605d7d0e2b2341913388",
+        "R06_QA": "/home/christopher/Desktop/F5ZP_R03_RAISED_APPROACH_R06_EXPERIMENTAL/QA.json",
+        "R02_plan": "/home/christopher/Desktop/F5ZP_AXIAL_INWARD_ARCH_RIB_R02_EXPERIMENTAL/PLAN_R02_PROJECTION_DATA.json",
+        "R02_plan_sha256": "a4bde11799f4538b2621f250063b95752ae784e2e244b3a39b237e9154ad71e0",
+        "R03_baseline": "/home/christopher/Downloads/Gothic_2D_Chat_Complete_Archive_2026-11-05/Axial_Chapel_R03_EXPERIMENTAL/axial_chapel_r03/inputs/BASELINE.json",
+        "R03_baseline_sha256": "066027d5fa0e673b5c267718e906d105c86272b6358fcc8bf2a33a5d3fa92a19"
+      },
+      "scope": "actual R06 plan projection, R03 chapel original position in orange, F5ZN A protected rib guide; no new geometry"
+    }
+  }
+}

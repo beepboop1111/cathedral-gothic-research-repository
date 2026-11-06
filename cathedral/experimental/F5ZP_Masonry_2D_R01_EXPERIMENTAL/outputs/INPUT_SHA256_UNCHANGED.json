@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "inputs_before_equal_after": true,
+  "sha256": {
+    "inputs/R07_PLAN_CELLS_COMPACT.json": "d7b2f622f87ad3f597a529bdcaeb8d3b2c43e779fe55aa6c8ab206211fb8885a",
+    "inputs/F5ZE_GLOBAL_COORDINATES.json": "389caec4d2deee00bc53f8dda8b2f428aa32b0e219a54ac7da9737638344f001",
+    "inputs/CURRENT_R07_HANDOFF.md": "873df4fdc099eb2451ad460c7e09faed1638d926afd73be8091ab04926be5376",
+    "inputs/F5ZE_FULL_CATHEDRAL_DIMENSIONS.csv": "4996f4cec84fb91b90d2b4567f11582d8f18ecb3ae147b88315e28a300112ee3",
+    "inputs/F5ZN_A_COMPREHENSIVE_FLOOR_PLAN_CHECKPOINT.json": "97014cf07fccf1d5ed91e78b5cb20d557d55931cfd706921d46342a35dabb352",
+    "inputs/RECOVERED_SOURCE_EXTRACT.json": "6a684495edaf26042067e315103fc3f8ccce357df5383de6355bd2e6e889c14e",
+    "inputs/CATHEDRAL_MASTER_REFERENCE_R01.md": "fcc02f6010cde5fe015580acd25f0914580ef261ddbe361d2ac4f1e06e06cc5a"
+  }
+}

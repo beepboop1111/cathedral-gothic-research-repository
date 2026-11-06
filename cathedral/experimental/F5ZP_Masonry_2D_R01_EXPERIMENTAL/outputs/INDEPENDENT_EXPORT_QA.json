@@ -1,0 +1,176 @@
+{
+  "result": "PASS",
+  "checks_passed": 38,
+  "checks_count": 38,
+  "max_native_svg_coordinate_error": 4.774847184307873e-08,
+  "checks": [
+    {
+      "check": "GeoJSON feature IDs unique",
+      "pass": true
+    },
+    {
+      "check": "all saved polygon geometries valid",
+      "pass": true
+    },
+    {
+      "check": "I_A1 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "I_A2 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "I_A3 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "I_A4 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "I_A5 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "I_A6 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "I_A7 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "M_A1 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "M_A2 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "M_A3 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "M_A4 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "M_A5 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "M_A6 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "M_A7 exact source vertices in actual GeoJSON",
+      "pass": true
+    },
+    {
+      "check": "exported masonry consumes zero reservation area",
+      "pass": true,
+      "area": 0.0
+    },
+    {
+      "check": "exported nave wall outer width",
+      "pass": true
+    },
+    {
+      "check": "exported chapel wall outer width",
+      "pass": true
+    },
+    {
+      "check": "exported chapel entrance open",
+      "pass": true
+    },
+    {
+      "check": "exported choir east interface open",
+      "pass": true
+    },
+    {
+      "check": "native SVG reflects Y once",
+      "pass": true
+    },
+    {
+      "check": "I_A1 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 3.4884578781202435e-08
+    },
+    {
+      "check": "I_A2 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 3.4884578781202435e-08
+    },
+    {
+      "check": "I_A3 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 4.774847184307873e-08
+    },
+    {
+      "check": "I_A4 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 4.774847184307873e-08
+    },
+    {
+      "check": "I_A5 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 4.774483386427164e-08
+    },
+    {
+      "check": "I_A6 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 3.4884578781202435e-08
+    },
+    {
+      "check": "I_A7 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 3.4884578781202435e-08
+    },
+    {
+      "check": "M_A1 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 4.715548129752278e-08
+    },
+    {
+      "check": "M_A2 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 4.715548129752278e-08
+    },
+    {
+      "check": "M_A3 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 3.8005964597687125e-08
+    },
+    {
+      "check": "M_A4 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 2.1838786778971553e-08
+    },
+    {
+      "check": "M_A5 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 3.8005964597687125e-08
+    },
+    {
+      "check": "M_A6 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 4.715548129752278e-08
+    },
+    {
+      "check": "M_A7 native SVG matches source",
+      "pass": true,
+      "max_coordinate_error": 4.715548129752278e-08
+    },
+    {
+      "check": "five SVG files parse",
+      "pass": true
+    },
+    {
+      "check": "every input still matches pre-build hash",
+      "pass": true
+    }
+  ],
+  "visual_review": "Three PNG sheets inspected; chapel dimension label overlap corrected before final inspection."
+}

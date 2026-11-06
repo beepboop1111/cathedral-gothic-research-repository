@@ -1,0 +1,98 @@
+{
+  "revision": "F5ZN-A",
+  "status": "comprehensive compiled architectural floor-plan reference",
+  "units": "1:1 project units",
+  "origin": [
+    0,
+    0
+  ],
+  "positive_axes": {
+    "+X": "east",
+    "+Y": "north"
+  },
+  "nave_stations": [
+    -40013,
+    -36269,
+    -32597,
+    -28997,
+    -25397,
+    -21797,
+    -18197,
+    -14597,
+    -10853,
+    -6965,
+    -2933
+  ],
+  "choir_stations": [
+    2933,
+    6965,
+    10709,
+    14165,
+    17333,
+    20213
+  ],
+  "transept_stations_abs": [
+    2933,
+    6965,
+    8837,
+    10709
+  ],
+  "chevet_center": [
+    20213,
+    0
+  ],
+  "chevet_ring_radii": [
+    2933,
+    4085,
+    5285,
+    6657,
+    6849
+  ],
+  "chevet_boundary_angles_local": [
+    0.5,
+    27.5,
+    53.5,
+    78,
+    102,
+    126.5,
+    152.5,
+    179.5
+  ],
+  "chevet_bay_order": [
+    "W",
+    "C",
+    "W",
+    "AXIAL C",
+    "W",
+    "C",
+    "W"
+  ],
+  "low_storey_stack": {
+    "spring": 3000,
+    "boss": 4296,
+    "gallery_floor": 4521
+  },
+  "high_storey_stack": {
+    "high_spring": 13500,
+    "ordinary_choir_boss": 16225,
+    "gallery_floor": 4950
+  },
+  "physical_supports_source": "CATHEDRAL_F5ZL_C_PHYSICAL_SUPPORTS.csv",
+  "physical_supports_count": 248,
+  "deferred_receive_count": 102,
+  "outer_wall_source": "F5ZM-B and F5ZM-C",
+  "flying_root_source": "F5ZM-C",
+  "landing_authority": "F5ZM-D; flyer curves not yet generated",
+  "scope_warnings": [
+    "outer wall solids are structural envelopes; actual openings must be subtracted during 3D build",
+    "westwork and transept porches shown as schematic reservations",
+    "high and lower vault X layers must never be merged",
+    "flyer path generation not yet completed",
+    "lower and high gallery floor datums conflict; preserved separately"
+  ],
+  "files": [
+    "CATHEDRAL_F5ZN_A_COMPREHENSIVE_FLOOR_PLAN_MASTER.png",
+    "CATHEDRAL_F5ZN_A_COMPREHENSIVE_FLOOR_PLAN_VAULTS.png",
+    "CATHEDRAL_F5ZN_A_COMPREHENSIVE_FLOOR_PLAN_STRUCTURE.png"
+  ]
+}
