@@ -1,0 +1,11 @@
+{
+  "status": "R17_REVIEW_READY_NEW_V02_BLENDER_SAVED",
+  "V02_blend": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/blender/F5ZP_R17_FAST_VAULT_WORKSPACE_REVIEW_READY_V02_EXPERIMENTAL.blend",
+  "prior_V01_checkpoint_SHA256_preserved": "8144b8b49cda40a69e843a1b84da33720baf901dd25c57d345face09a523c84d",
+  "geometry_identical_to_prior_checkpoint": true,
+  "persistent_sidebar_enabled_via_installed_addon": true,
+  "clearer_background_setup": true,
+  "plan_camera_framing_fixed": true,
+  "five_camera_scenes_reused": true,
+  "embedded_source_matches_current_R17_addon": true
+}
