@@ -1,0 +1,126 @@
+{
+  "checkpoint": {
+    "parameters": {
+      "revision": "R06_N10_NW_CORNER_LOCAL_EXPERIMENT",
+      "ordinary": 320,
+      "major": 640,
+      "main_half_width": 2933,
+      "N9_clear_length": 3888,
+      "N10_clear_length": 4032,
+      "crossing_clear_side": 5866,
+      "north_T1_clear_length": 4032,
+      "corner_modules": [
+        1152,
+        1344,
+        1536
+      ],
+      "source_catalog_path": "/home/christopher/Downloads/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/ug_vault_generator_F5ZE.py",
+      "source_catalog_sha256": "c55628d9ddfe45af66b5349eaa3edad8008a9bcae0cb78873e61a49d9e306835",
+      "source_excerpt_lines": "508–515: modules form a 3×3 rectangular corner matrix, repeated by rotation in four corners",
+      "parent_commit": "b61d8c4fedf5b0a2c1daa75d5218d831672694f2",
+      "selected_rules": [
+        "All masonry outside full reserved vault spaces",
+        "Ordinary 320, major 640×320",
+        "No profiles"
+      ],
+      "proposal": "800-long N9/N10 transition, retaining 640 at the crossing",
+      "proposal_status": "FOR_USER_REVIEW_NOT_APPROVED",
+      "scope": "One northwest corner plus adjacent N9/N10 and north T1 clear reservations; no master-plan propagation"
+    },
+    "measurements": {
+      "J1_clear_face_envelope": 4672,
+      "N10_X": [
+        -7605,
+        -3573
+      ],
+      "N9_east_clear_face_X": -8405,
+      "proposed_transition_X": 800,
+      "crossing_gap_X": 640,
+      "main_vs_corner_offsets": [
+        -320,
+        320
+      ],
+      "alternative_keep_transition_640": {
+        "N10_X": [
+          -7765,
+          -3733
+        ],
+        "crossing_gap_X": 800
+      },
+      "corner_reservation_area": 307200
+    },
+    "QA": {
+      "result": "PASS",
+      "tests": [
+        {
+          "check": "19 unchanged clear rectangles",
+          "pass": true
+        },
+        {
+          "check": "all original clear rectangle dimensions",
+          "pass": true
+        },
+        {
+          "check": "zero masonry intrusion",
+          "pass": true,
+          "area": 0
+        },
+        {
+          "check": "all polygons valid",
+          "pass": true
+        },
+        {
+          "check": "crossing square fixed",
+          "pass": true
+        },
+        {
+          "check": "matrix clear-face envelope is 4672",
+          "pass": true
+        },
+        {
+          "check": "N9 to J1 lower gap is 320",
+          "pass": true
+        },
+        {
+          "check": "proposed main transition is 800",
+          "pass": true
+        },
+        {
+          "check": "crossing approach clear gap is 640",
+          "pass": true
+        },
+        {
+          "check": "two turning strips share one 320 square",
+          "pass": true
+        },
+        {
+          "check": "corner reservation meets crossing point",
+          "pass": true
+        },
+        {
+          "check": "corner reservation meets N10 point",
+          "pass": true
+        },
+        {
+          "check": "corner reservation meets T1 point",
+          "pass": true
+        },
+        {
+          "check": "corner reservation meets J1 point",
+          "pass": true
+        }
+      ]
+    },
+    "limits": [
+      "Only a local NW corner study",
+      "Boundary-point contact is not physical bearing validation",
+      "800 transition requires a user decision",
+      "No profiles or actual support capacity assessed",
+      "No approved model or master coordinates modified",
+      "Other crossing corners, choir and transepts are not integrated",
+      "F5ZL-C schedule remains missing"
+    ]
+  },
+  "generator": "\"\"\"N10 / NW crossing-corner reservation study. No profiles or saved-model edits.\"\"\"\nfrom pathlib import Path\nimport json, hashlib, xml.etree.ElementTree as ET\nimport matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\nfrom matplotlib.patches import Polygon as PatchPolygon\nfrom shapely.geometry import box, mapping, Point\nfrom shapely.ops import unary_union\n\nR=Path(__file__).resolve().parent;P=R/'PARAMETERS.json'\nif P.exists():c=json.loads(P.read_text())\nelse:\n    c={'revision':'R06_N10_NW_CORNER_LOCAL_EXPERIMENT','ordinary':320,'major':640,\n       'main_half_width':2933,'N9_clear_length':3888,'N10_clear_length':4032,\n       'crossing_clear_side':5866,'north_T1_clear_length':4032,'corner_modules':[1152,1344,1536],\n       'source_catalog_path':'/home/christopher/Downloads/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/ug_vault_generator_F5ZE.py',\n       'source_catalog_sha256':'c55628d9ddfe45af66b5349eaa3edad8008a9bcae0cb78873e61a49d9e306835',\n       'source_excerpt_lines':'508–515: modules form a 3×3 rectangular corner matrix, repeated by rotation in four corners',\n       'parent_commit':'b61d8c4fedf5b0a2c1daa75d5218d831672694f2',\n       'selected_rules':['All masonry outside full reserved vault spaces','Ordinary 320, major 640×320','No profiles'],\n       'proposal':'800-long N9/N10 transition, retaining 640 at the crossing',\n       'proposal_status':'FOR_USER_REVIEW_NOT_APPROVED',\n       'scope':'One northwest corner plus adjacent N9/N10 and north T1 clear reservations; no master-plan propagation'}\n    P.write_text(json.dumps(c,indent=2)+'\\n')\ns=c['ordinary'];M=c['major'];h=c['main_half_width'];mods=c['corner_modules']\nassert sum(mods)==c['N10_clear_length']==4032\nbands=[];a=h\nfor i,w in enumerate(mods,1):\n    bands.append({'i':i,'support':[a,a+s],'clear':[a+s,a+s+w]});a+=s+w\nnear=bands[0]['clear'][0];far=bands[-1]['clear'][1]\n# Keep N10/T1 symmetric about the three-cell envelope, with 320 offsets at both ends.\nn10e=-h-M;n10w=n10e-c['N10_clear_length']\nt1s=h+M;t1n=t1s+c['north_T1_clear_length']\n# Retain the selected R05 lower-aisle end gap and N9 main/lower 160 offset.\nn9_lower_east=-far-s\nn9e=n9_lower_east-(M-s)/2;n9w=n9e-c['N9_clear_length']\nwest_gap=n10w-n9e\nassert (near,far,n10w,n10e,n9e,west_gap)==(3253,7925,-7605,-3573,-8405,800)\nitems=[]\ndef add(name,g,role,**meta):items.append({'name':name,'g':g,'role':role,**meta})\nadd('Crossing',box(-h,-h,h,h),'CLEAR',expected=(5866,5866))\nadd('N10',box(n10w,-h,n10e,h),'CLEAR',expected=(4032,5866))\nadd('N9',box(n9w,-h,n9e,h),'CLEAR',expected=(3888,5866))\nadd('North T1',box(-h,t1s,h,t1n),'CLEAR',expected=(5866,4032))\nfor b in bands:\n    yl,yu=b['clear']\n    for col in bands:\n        xl,xu=col['clear']\n        add(f\"J1 R{b['i']}C{col['i']}\",box(-xu,yl,-xl,yu),'CLEAR',expected=(mods[col['i']-1],mods[b['i']-1]))\n    # The last regular N9 bay retains its two clear lower halves in every row.\n    old_end_axis=n9e+M/2;old_start_axis=old_end_axis-(c['N9_clear_length']+M)\n    for j in range(2):\n        x=old_start_axis+s/2+j*(c['N9_clear_length']/2+s)\n        add(f\"N9 A{b['i']} half {j+1}\",box(x,yl,x+c['N9_clear_length']/2,yu),'CLEAR',expected=(1944,mods[b['i']-1]))\n# Main/A1 transition reservations and the crossing corner union of perpendicular strips.\nadd('N9/N10 transition',box(n9e,h,n10w,h+s),'PROPOSED_800')\ncorner=unary_union([box(n10e,h,-h,h+s),box(-h-s,h,-h,t1s)])\nadd('NW crossing corner',corner,'TURNING_640_STRIPS')\n# Junction-node reservations of the lower 3×3 matrix; no continuous floor walls.\naxes=[h]+[b['support'][0] for b in bands[1:]]+[far]\n# Nodes are at the intersections of the clear-separating bands, not at shared source grid lines.\ngaps=[(h,h+s)]+[b['support'] for b in bands[1:]]+[(far,far+s)]\nfor iy,(y0,y1) in enumerate(gaps):\n    for ix,(x0,x1) in enumerate(gaps):\n        g=box(-x1,y0,-x0,y1)\n        if ix==0 and iy==0:continue # already included in the joined crossing-corner reservation\n        if ix==3 and iy==0:continue # included in the 800 transition reservation\n        add(f'Lower node {iy}-{ix}',g,'ORDINARY_320')\n# N9 intermediate ordinary node, plus the far regular major reservation, for context.\noldend=n9e+M/2;oldstart=oldend-(c['N9_clear_length']+M);mid=(oldend+oldstart)/2\nfor b in bands:\n    y0,y1=b['support']\n    for label,x,width in [('N9 mid',mid,s),('N9 west',oldstart,M if b['i']==1 else s)]:\n        add(f\"{label} row {b['i']}\",box(x-width/2,y0,x+width/2,y1),'MAJOR_640' if width==M else 'ORDINARY_320')\ntests=[]\ndef check(name,ok,**kw):tests.append({'check':name,'pass':bool(ok),**kw})\nclear=[a for a in items if a['role']=='CLEAR'];stone=[a for a in items if a['role']!='CLEAR']\ncheck('19 unchanged clear rectangles',len(clear)==19)\ncheck('all original clear rectangle dimensions',all((a['g'].bounds[2]-a['g'].bounds[0],a['g'].bounds[3]-a['g'].bounds[1])==a['expected'] for a in clear))\nintrusion=unary_union([a['g'] for a in clear]).intersection(unary_union([a['g'] for a in stone])).area\ncheck('zero masonry intrusion',intrusion==0,area=intrusion)\ncheck('all polygons valid',all(a['g'].is_valid for a in items))\ncheck('crossing square fixed',next(a['g'] for a in items if a['name']=='Crossing').bounds==(-2933,-2933,2933,2933))\ncheck('matrix clear-face envelope is 4672',far-near==4672)\ncheck('N9 to J1 lower gap is 320',(-far)-n9_lower_east==s)\ncheck('proposed main transition is 800',west_gap==800)\ncheck('crossing approach clear gap is 640',(-h)-n10e==M and t1s-h==M)\ncheck('two turning strips share one 320 square',corner.area==2*M*s-s*s)\nfor label,p in [('crossing',(-h,h)),('N10',(n10e,h)),('T1',(-h,t1s)),('J1',(-near,near))]:\n    check('corner reservation meets '+label+' point',corner.boundary.distance(Point(p))==0)\nreport={'parameters':c,'measurements':{'J1_clear_face_envelope':far-near,'N10_X':[n10w,n10e],\n         'N9_east_clear_face_X':n9e,'proposed_transition_X':west_gap,'crossing_gap_X':M,\n         'main_vs_corner_offsets':[(-far)-n10w,(-near)-n10e],\n         'alternative_keep_transition_640':{'N10_X':[n10w-160,n10e-160],'crossing_gap_X':800},\n         'corner_reservation_area':corner.area},\n        'features':[{'type':'Feature','properties':{k:v for k,v in a.items() if k!='g'},'geometry':mapping(a['g'])} for a in items],\n        'QA':{'result':'PASS' if all(t['pass'] for t in tests) else 'FAIL','tests':tests},\n        'limits':['Only a local NW corner study','Boundary-point contact is not physical bearing validation','800 transition requires a user decision','No profiles or actual support capacity assessed','No approved model or master coordinates modified','Other crossing corners, choir and transepts are not integrated','F5ZL-C schedule remains missing']}\nassert report['QA']['result']=='PASS',[t for t in tests if not t['pass']]\n(R/'CHECKPOINT.json').write_text(json.dumps(report,indent=2)+'\\n')\nassert json.loads((R/'CHECKPOINT.json').read_text())==json.loads(json.dumps(report))\nCOL={'CLEAR':'#dfeef5','PROPOSED_800':'#d4aa6e','TURNING_640_STRIPS':'#d4aa6e','ORDINARY_320':'#ead0a7','MAJOR_640':'#ead0a7'}\nplt.rcParams.update({'font.family':'DejaVu Sans','font.size':9})\nfig=plt.figure(figsize=(16,10));ax=fig.add_axes([.055,.19,.90,.66])\nfig.text(.045,.945,'N10 → CROSSING  /  PRESERVE THE NINE-CELL CORNER MATRIX',fontsize=17,weight='bold')\nfig.text(.045,.90,'Candidate: 800 at the N9/N10 transition; two 640 × 320 strips join around the crossing corner. No profiles.',fontsize=11)\nfor a in items:\n    g=a['g'];polys=list(g.geoms) if hasattr(g,'geoms') else [g]\n    for p in polys:\n        ax.add_patch(PatchPolygon(list(p.exterior.coords),facecolor=COL[a['role']],edgecolor='#263138' if a['role']=='CLEAR' else '#b43c36',lw=.7,ls='-' if a['role']=='CLEAR' else '--'))\n    if a['role']=='CLEAR':\n        x,y=g.centroid.coords[0];w,d=a['expected']\n        label=a['name']+f'\\n{w:g} × {d:g}'\n        ax.text(x,y,label,ha='center',va='center',fontsize=8 if a['name'].startswith(('J1','N9 A')) else 10)\nax.annotate('800 proposed transition\\nordinary rows remain 320',xy=((n9e+n10w)/2,h+160),xytext=((n9e+n10w)/2,8750),ha='center',color='#b43c36',fontsize=10,\n            arrowprops={'arrowstyle':'->','color':'#b43c36','lw':.8})\nax.annotate('Joined 640 × 320 strips\\ncut-out preserves the nearest lower cell',xy=(-3253,3253),xytext=(200,8500),ha='center',color='#b43c36',fontsize=10,\n            arrowprops={'arrowstyle':'->','color':'#b43c36','lw':.8})\nax.set(xlim=(-13500,4000),ylim=(-3600,9200),aspect='equal');ax.axis('off')\nfig.text(.045,.13,'4032 main N10 vault remains unchanged. Three lower modules: 1152 + 320 + 1344 + 320 + 1536 = 4672 clear-face envelope.',fontsize=10)\nfig.text(.045,.085,'The former regular-nave 160 bearing offset becomes 320 here. The additional 160 is placed at the N9/N10 junction to keep the crossing gap at 640.',fontsize=9)\nfig.text(.045,.035,'LOCAL EXPERIMENT • 800 is a proposed exception for user review. No master-plan shifts, profiles or structural validation.',fontsize=9,color='#b43c36')\nfig.savefig(R/'R06_N10_CROSSING.png',dpi=160);plt.close(fig)\nroot=ET.Element('svg',{'xmlns':'http://www.w3.org/2000/svg','viewBox':'-13500 -9200 17500 12800','width':'1400','height':'1024','data-units':'1 SVG user unit = 1 native project unit'})\nET.SubElement(root,'title').text='N10 NW crossing-corner experiment; 800 transition unapproved'\ngrp=ET.SubElement(root,'g',{'transform':'scale(1,-1)'})\nfor i,a in enumerate(items):\n    g=a['g'];polys=list(g.geoms) if hasattr(g,'geoms') else [g]\n    for p in polys:\n        attrs={'points':' '.join(f'{x},{y}' for x,y in p.exterior.coords),'fill':COL[a['role']],\n               'stroke':'#263138' if a['role']=='CLEAR' else '#b43c36','stroke-width':'1','vector-effect':'non-scaling-stroke','data-name':a['name']}\n        if a['role']!='CLEAR':attrs['stroke-dasharray']='6 4'\n        ET.SubElement(grp,'polygon',attrs)\nET.ElementTree(root).write(R/'R06_N10_NATIVE.svg',encoding='unicode',xml_declaration=True)\nET.parse(R/'R06_N10_NATIVE.svg')\nprint(json.dumps({'measurements':report['measurements'],'result':report['QA']['result'],'checks':len(tests)},indent=2))\n",
+  "readme": "# R06 — N10 / northwest crossing-corner reservations\n\nThe user accepted the regular N2–N9 reservation layout and its 5120-unit added station-chain length, then requested the N10/crossing study. This package is a **local experiment**, not a master-plan update. Profiles remain excluded. All clear vault reservations are protected from masonry intrusion.\n\n## Specific source recovered\n\nOnly the relevant junction catalogue excerpt was read on MR COMPUTER: `ug_vault_generator_F5ZE.py`, lines 508–515. It defines a 3×3 corner matrix from 1152 / 1344 / 1536 modules, repeated by rotation at four crossing corners. Source path and SHA-256 are in PARAMETERS.json. The catalogue is secondary dimensional/topological evidence, not an approved replacement generator; no incompatible chevet settings from that script are adopted.\n\nThe existing F5ZE grid supplies N10 high clear length 4032, crossing clear square 5866, north T1 high clear length 4032 and N9 high clear length 3888. The 4032 module chain equals 1152+1344+1536. With two internal 320 reservations, its clear-face-to-clear-face envelope becomes **4672**. The source grid itself did not certify finished floor clearances; full clear reservations are the user's chosen interpretation for this study.\n\n## Proposed local resolution\n\n- Keep the crossing clear square at X/Y±2933 in this experimental registration.\n- N10 remains 4032×5866, at X−7605→−3573.\n- North T1 remains 5866×4032, at Y3573→7605.\n- The lower corner matrix retains all nine original cell sizes, with clear bands 3253–4405 / 4725–6069 / 6389–7925 along north and corresponding negative X bands toward west. This orientation is a proposed registration matching the inner-to-outer module order, not a recovered approved saved-model placement.\n- Two perpendicular **640×320 reservation strips** join at the NW crossing corner. Their union leaves the 320×320 outer corner cut out, preserving the nearest lower cell completely. This is a space envelope, not a designed pier. It has area 307200 native units².\n- The regular N9 lower aisle ends 320 before the new corner's west clear face. Its accepted main/lower offset is 160; the N10/corner offset is 320. Keeping the crossing gap at 640 consequently gives a **proposed 800-long ×320-transverse reservation at N9/N10**. This is 160 more than the selected ordinary major-junction allowance and requires a user decision.\n\nThe additional length can alternatively be placed toward the crossing: move the experimental N10 reservation 160 west, retaining 640 at N9/N10 but requiring 800 at the crossing. This alternative is recorded arithmetically in the checkpoint, not rendered or fully geometry-validated. The illustrated proposal keeps the N10/north-T1 arrangement rotationally balanced around this corner and places the extra 160 at the outer transition.\n\nThe local N9 placement is only a registration of an unchanged reservation proxy. It is not an actual movement of the R05 model or any approved source object. Full anchoring of the accepted N2–N9 assembly awaits the junction decision. Other crossing corners, the choir, full transept arms and exterior wall closures are not integrated here. No overall cathedral extents are claimed.\n\n## Validation\n\nNineteen clear rectangles are included: N9, N10, crossing, north T1, nine corner cells, and six N9 lower cells. All dimensions are exact; masonry reservation intrusion area is zero. The fixed crossing bounds, internal gaps, 800 transition, 640 crossing approach, valid polygons and corner reservation boundary points are checked. JSON round-tripped and SVG parsed; the PNG is inspected before delivery. Boundary-point contact is only a 2D reservation check, not proof of physical bearing or structural adequacy.\n\nThe 800 proposal is not approved. F5ZK-C/F5ZN-A, saved vaults, working generators, Pass 6J, V13 originals and original master coordinates are untouched. F5ZL-C's missing support schedule remains unresolved. The source Master Reference was read earlier in this ongoing development workflow and remains provisional; no repeated broad archive scan was needed.\n\nReproduce with `python build_junction.py` (matplotlib, shapely); PARAMETERS.json makes the package self-contained. Native SVG uses one user unit per project unit; physical metre conversion remains unresolved. Next decision: place the extra 160 at the N9/N10 transition, retaining the illustrated 640 crossing approach, before propagating this junction.\n"
+}
