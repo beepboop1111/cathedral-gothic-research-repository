@@ -1,0 +1,51 @@
+{
+  "status": "EXPERIMENTAL STEP2 2D footprint studies; no design approval",
+  "inputs_sha256": {
+    "R12C": "4c6f5c3d16959e516032902e663c978c4b0b982c2c2261c0fe6bbce82db04307",
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R14_step1": "e11121472b8a8491536e16a9852eb72645e1e39368c66058487c99400b0cc706"
+  },
+  "baseline_changed": false,
+  "source_r11_unchanged": true,
+  "source_r13_optionB_unchanged": true,
+  "recovered_unmodified_supports": [
+    "Q1_Q2_major_1",
+    "Q1_Q2_major_-1",
+    "Q1_Q2_step_132",
+    "Q1_Q2_step_133"
+  ],
+  "partially_outside_reconciled_only_in_separate_candidates": [
+    "Q1_Q2_step_134",
+    "Q1_Q2_step_135",
+    "E_N_Lower node 3-3",
+    "E_S_Lower node 3-3"
+  ],
+  "outermost_not_fitted_or_moved": [
+    "Q1_Q2_step_136",
+    "Q1_Q2_step_137"
+  ],
+  "main_axis_x": 4505,
+  "recovered_major_support_axis_x": 4325.0,
+  "major_support_offset_from_main_axis": -180.0,
+  "candidate_feature_counts": {
+    "P_PRESERVE": 12,
+    "Q_INTEGRATED_RIM": 14
+  },
+  "unmodified_recovered_support_count": 4,
+  "seven_B_openings_preserved": true,
+  "all_candidate_regions_within_R11_retained_masonry": true,
+  "candidate_intrusion_into_original_vaults": 0,
+  "candidate_intrusion_into_R13_B_openings": 0,
+  "physical_235_pier_width_approved": false,
+  "structural_capacity_validated": false,
+  "issues": [
+    "Only four saved support footprints are unchanged and geometric-compatible.",
+    "Clipping the outer historical support polygons does not verify their architectural function.",
+    "Both far-outer source footprints lie outside current R11 envelope; no replacement source schedule is available.",
+    "R13-B doorway voids were designed in plan only; arch springing, tas-de-charge and pier interfaces not determined.",
+    "Original major support strips are offset 180 west from the main bay axis.",
+    "Masonry continuity does not prove bearing load or structural adequacy.",
+    "F5ZL-C support schedule remains unresolved."
+  ]
+}
