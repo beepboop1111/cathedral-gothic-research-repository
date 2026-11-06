@@ -1,0 +1,193 @@
+{
+  "revision": "R09_CHOIR_AUTHORITY_RECOVERY",
+  "status": "RECOVERED_TAPER_WITH_PROPOSED_Q1_Q2_RESERVATIONS",
+  "source_ids": {
+    "readme": "libfile_da233c47f0c881918ffb411ff2be98cc",
+    "q3_authority": "libfile_e3c8866e0f388191bf62426c6ff6905b"
+  },
+  "source_readme": "CATHEDRAL F5ZK-B — CH-A1 / CH-A2 / CH-A3 STRAIGHT CHOIR ARCADE + AMBULATORY IDENTITY\n\nSCOPE\nQ2-Q5 only.\nQ1 lower vaulting remains CH-J / J1 and is not part of this schedule.\n\nAPPROVED LOWER / GALLERY VERTICAL STACK\nspring Y = 3000\nrib/boss crown Y = 4296\nupper web crown/reference ~= Y 4394\ngallery soffit Y = 4425\ngallery floor Y = 4521\n\nThe three straight choir lower families intentionally share these datums because\nthey form one continuous lower storey beneath the gallery. Their architectural\nidentity is differentiated by actual span geometry, arch apices, profiles,\nshared boundary types and bosses rather than arbitrary crown staggering.\n\nPLAN FAMILIES\nCH-A1\nR0 2933 -> R1 4085\nFixed radial width = 1152\nRECT_QUAD\n\nCH-A2\nR1 fixed at 4085 -> tapered R2\nR2 stations for Q2-Q5:\n[5400, 5371, 5343, 5314, 5285]\nTAPER_QUAD\n\nCH-A3\ntapered R2 -> tapered R3\nR3 stations for Q2-Q5:\n[6903, 6842, 6780, 6719, 6657]\nTAPER_QUAD\n\nPER-BAY HALF-CELL SUMMARY\nQ2: half 1872; A1 1152; A2 1315->1286; A3 1503->1471\nQ3: half 1728; A1 1152; A2 1286->1258; A3 1471->1437\nQ4: half 1584; A1 1152; A2 1258->1229; A3 1437->1405\nQ5: half 1440; A1 1152; A2 1229->1200; A3 1405->1372\n\nBOUNDARY ARCH DERIVATION\nTransverse doubleau rise:\n0.72 x local radial span, rounded to nearest 16.\n\nLongitudinal boundary-arch rise:\n0.64 x actual plan-edge length, rounded to nearest 16.\n\nAll of these ratios remain above half-span, so the solved two-centered arches\nremain genuinely pointed rather than semicircular/depressed.\n\nSHARED LONGITUDINAL ARCHES\nR0 inner choir arcade:\n176 x 208\nRichest lower longitudinal arch.\n\nR1 shared CH-A1 / CH-A2:\n160 x 184\nONE physical separator/arcade arch.\n\nR2 shared CH-A2 / CH-A3:\n168 x 192\nONE physical separator/arcade arch.\n\nR3 outer wall formeret:\n136 x 160\nSimplified engaged wall rib.\n\nRIB FAMILY\nCH-A1\nogive 144 x 160\nintermediate doubleau 152 x 168\nmajor doubleau 160 x 176\nboss diameter 288, sculptural drop 176\n\nCH-A2\nogive 152 x 168\nintermediate doubleau 160 x 176\nmajor doubleau 168 x 184\nboss diameter 304, sculptural drop 192\n\nCH-A3\nogive 160 x 176\nintermediate doubleau 168 x 184\nmajor doubleau 176 x 192\nboss diameter 320, sculptural drop 208\n\nAll three retain the same conservative Gothic moulding language:\ncentral roll/keel, flanking hollows, narrow fillets, downward-facing articulated soffit.\n\nBOSS PLACEMENT\nCH-A1 rectangular cells:\nplan center.\n\nCH-A2 / CH-A3 tapered cells:\nexact intersection of the two actual plan diagonals.\nDo not use the bounding-box center.\n\nAll bosses are separate objects.\nOgives terminate into the boss collar rather than crossing through each other.\n\nTAS-DE-CHARGE\nY 2616 -> 3000\nheight = 384\n4 courses x 96\nNo lateral fan.\nNo easing.\nService centerlines remain vertical below springing.\nControlled overlap only inside the tas-de-charge.\n\nWEB RULE\nRaw web/carrier geometry remains authoritative.\nNo global bulge percentage.\nNo manual sag correction.\nEach severy derives its own ridge from the boss/crown to its local boundary-arch apex.\n\nThe upper web reference is approximately Y 4394, only\n31 below the gallery soffit Y 4425.\nTherefore this lower family does NOT permit unconstrained upward web overshoot.\n\nNEXT\nF5ZK-C — AMB-I / AMB-M / AMB-O curved chevet ambulatory architectural identity.",
+  "source_q3_plan": {
+    "revision": "F5ZK-B1",
+    "scale_label": "1:16",
+    "scope": "Q3 west half — complete CH-A1 + CH-A2 + CH-A3 continuous lower storey",
+    "families": {
+      "CH-A1": {
+        "corners_full": [
+          [
+            0,
+            2933
+          ],
+          [
+            1728,
+            2933
+          ],
+          [
+            1728,
+            4085
+          ],
+          [
+            0,
+            4085
+          ]
+        ]
+      },
+      "CH-A2": {
+        "corners_full": [
+          [
+            0,
+            4085
+          ],
+          [
+            1728,
+            4085
+          ],
+          [
+            1728,
+            5357
+          ],
+          [
+            0,
+            5371
+          ]
+        ]
+      },
+      "CH-A3": {
+        "corners_full": [
+          [
+            0,
+            5371
+          ],
+          [
+            1728,
+            5357
+          ],
+          [
+            1728,
+            6811
+          ],
+          [
+            0,
+            6842
+          ]
+        ]
+      }
+    }
+  },
+  "schedule": [
+    {
+      "bay": "Q2",
+      "half": 1872,
+      "r2": [
+        5400,
+        5371
+      ],
+      "r3": [
+        6903,
+        6842
+      ],
+      "a1": [
+        1152,
+        1152
+      ],
+      "a2": [
+        1315,
+        1286
+      ],
+      "a3": [
+        1503,
+        1471
+      ]
+    },
+    {
+      "bay": "Q3",
+      "half": 1728,
+      "r2": [
+        5371,
+        5343
+      ],
+      "r3": [
+        6842,
+        6780
+      ],
+      "a1": [
+        1152,
+        1152
+      ],
+      "a2": [
+        1286,
+        1258
+      ],
+      "a3": [
+        1471,
+        1437
+      ]
+    },
+    {
+      "bay": "Q4",
+      "half": 1584,
+      "r2": [
+        5343,
+        5314
+      ],
+      "r3": [
+        6780,
+        6719
+      ],
+      "a1": [
+        1152,
+        1152
+      ],
+      "a2": [
+        1258,
+        1229
+      ],
+      "a3": [
+        1437,
+        1405
+      ]
+    },
+    {
+      "bay": "Q5",
+      "half": 1440,
+      "r2": [
+        5314,
+        5285
+      ],
+      "r3": [
+        6719,
+        6657
+      ],
+      "a1": [
+        1152,
+        1152
+      ],
+      "a2": [
+        1229,
+        1200
+      ],
+      "a3": [
+        1405,
+        1372
+      ]
+    }
+  ],
+  "checks": {
+    "q3_a1": true,
+    "q3_R2_west": true,
+    "q3_R2_mid": true,
+    "q3_R3_west": true,
+    "q3_R3_mid": true,
+    "chevet_inner_middle_R2_retained": true,
+    "q1_R2_step": true,
+    "q1_outer_step": true
+  },
+  "proposal": {
+    "main_Q1_Q2_X": 800,
+    "R2_separator_Y": 349,
+    "outer_respond_Y": 312,
+    "outer_wall_join_Y": 382,
+    "status": "LOCAL_EXCEPTION_FOR_REVIEW_NOT_APPLIED",
+    "reason": "Envelope union across the 29/62 source steps; preserves each original clear-face position"
+  },
+  "preserved": "All R08 geometry and all original models unchanged; no profiles; no Q2-Q5 assembly generated"
+}
