@@ -1,0 +1,118 @@
+{
+  "checkpoint": {
+    "revision": "R11_CHEVET_INTERFACE_AUDIT",
+    "status": "ANCHOR_DECISION_REQUIRED_NOT_APPLIED",
+    "current": {
+      "crossing_center": [
+        0,
+        0
+      ],
+      "chevet_center": [
+        20213,
+        0
+      ],
+      "overlapping_working_clear_reservations": [
+        {
+          "id": "Q5_MAIN",
+          "area": 6589704.429161264
+        },
+        {
+          "id": "Q5_N_A1_1",
+          "area": 1658880
+        },
+        {
+          "id": "Q5_S_A1_1",
+          "area": 1658880
+        },
+        {
+          "id": "Q5_N_A2_1",
+          "area": 449275.07970754197
+        },
+        {
+          "id": "Q5_S_A2_1",
+          "area": 449275.07970754197
+        },
+        {
+          "id": "Q5_N_A1_2",
+          "area": 1419641.7431954187
+        },
+        {
+          "id": "Q5_S_A1_2",
+          "area": 1419641.7431954185
+        },
+        {
+          "id": "Q5_N_A2_2",
+          "area": 5568.591355992799
+        },
+        {
+          "id": "Q5_S_A2_2",
+          "area": 5568.591355992799
+        }
+      ],
+      "affected_protected_cells": [
+        "I_A1",
+        "I_A2",
+        "I_A3",
+        "I_A4",
+        "I_A5",
+        "I_A6",
+        "I_A7",
+        "M_A1",
+        "M_A2",
+        "M_A3",
+        "M_A5",
+        "M_A6",
+        "M_A7"
+      ],
+      "overlap_union_area": 13656435.25767917
+    },
+    "candidate_A": {
+      "anchor": "protected chevet fixed",
+      "working_translation_X": -4000,
+      "crossing_center": [
+        -4000,
+        0
+      ],
+      "chevet_center": [
+        20213,
+        0
+      ],
+      "Q5_main_east_face_X": 19573,
+      "Q5_lower_east_face_X": 19733,
+      "main_east_face_to_original_tangent_datum": 640,
+      "minimum_clear_polygon_distance": 508.36914304701276,
+      "all_working_geometry_overlap_with_protected": 0
+    },
+    "candidate_B": {
+      "anchor": "crossing fixed",
+      "working_translation_X": 0,
+      "protected_chevet_translation_X": 4000,
+      "crossing_center": [
+        0,
+        0
+      ],
+      "chevet_center": [
+        24213,
+        0
+      ],
+      "all_working_geometry_overlap_with_shifted_chevet": 0
+    },
+    "QA": "PASS: candidate relative placements remove overlap; 197 working and 14 protected cell shapes preserved rigidly",
+    "limits": [
+      "Neither candidate applied to source or master geometry",
+      "Distance is polygon separation, not certified circulation clearance",
+      "New transition bays/masonry not generated",
+      "Transverse source-to-choir offsets and shared bearing arrangements remain unresolved",
+      "No profiles or structural validation; F5ZL-C missing"
+    ],
+    "sources": {
+      "protected_original_baseline_sha256": "066027d5fa0e673b5c267718e906d105c86272b6358fcc8bf2a33a5d3fa92a19",
+      "input_hashes": {
+        "/workspace/scratch/5b1d6591e461/F5ZP_R10_Tapered_Choir/CHECKPOINT.json": "861ff6212a64cb03239088da5f36dd7e21c0cdf9ba01976207d058a6cfd4c0ab",
+        "/workspace/scratch/5b1d6591e461/F5ZP_Masonry_2D_R01_EXPERIMENTAL/inputs/RECOVERED_SOURCE_EXTRACT.json": "6a684495edaf26042067e315103fc3f8ccce357df5383de6355bd2e6e889c14e"
+      }
+    }
+  },
+  "generator": "from pathlib import Path\nimport json,hashlib,zipfile\nimport matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\nfrom matplotlib.patches import Polygon as Patch\nfrom shapely.geometry import Polygon,shape,mapping\nfrom shapely.ops import unary_union\nfrom shapely.affinity import translate\nR=Path(__file__).resolve().parent;I=R/'INPUTS.json'\nif I.exists():data=json.loads(I.read_text())\nelse:\n p=R.parent/'F5ZP_R10_Tapered_Choir/CHECKPOINT.json';q=R.parent/'F5ZP_Masonry_2D_R01_EXPERIMENTAL/inputs/RECOVERED_SOURCE_EXTRACT.json'\n a=p.read_bytes();b=q.read_bytes();s=json.loads(b)\n data={'working':json.loads(a),'protected_cells':s['cells'],'source_baseline_sha256':s['baseline_sha256'],'input_hashes':{str(p):hashlib.sha256(a).hexdigest(),str(q):hashlib.sha256(b).hexdigest()}}\n I.write_text(json.dumps(data,separators=(',',':')))\ncells={n:Polygon(v['vertices']) for n,v in data['protected_cells'].items()};protected=unary_union(list(cells.values()))\nworking=[(f['properties']['id'],f['properties']['role'],shape(f['geometry'])) for f in data['working']['features']]\nclear=[(n,g) for n,r,g in working if r=='CLEAR'];stone=[g for n,r,g in working if r!='CLEAR']\noverlaps=[{'id':n,'area':g.intersection(protected).area} for n,g in clear if g.intersection(protected).area>1e-6]\naffected=[n for n,g in cells.items() if any(g.intersection(a).area>1e-6 for _,a in clear)]\noffset=-4000\ncandidate=[(n,r,translate(g,xoff=offset)) for n,r,g in working]\nnewclear=[g for n,r,g in candidate if r=='CLEAR'];newstone=[g for n,r,g in candidate if r!='CLEAR']\nassert unary_union(newclear+newstone).intersection(protected).area==0\nassert len(cells)==14 and len(newclear)==197\nassert all(translate(h,xoff=4000).equals(g) for (_,_,g),(_,_,h) in zip(working,candidate))\nassert all(unary_union([g for _,g in clear]+stone).intersection(translate(g,xoff=4000)).area==0 for g in cells.values())\nend_main=next(g.bounds[2] for n,g in clear if n=='Q5_MAIN')\nassert end_main+offset==19573 and 20213-(end_main+offset)==640\nreport={'revision':'R11_CHEVET_INTERFACE_AUDIT','status':'ANCHOR_DECISION_REQUIRED_NOT_APPLIED',\n 'current':{'crossing_center':[0,0],'chevet_center':[20213,0],'overlapping_working_clear_reservations':overlaps,'affected_protected_cells':affected,'overlap_union_area':unary_union([g for _,g in clear]).intersection(protected).area},\n 'candidate_A':{'anchor':'protected chevet fixed','working_translation_X':-4000,'crossing_center':[-4000,0],'chevet_center':[20213,0],'Q5_main_east_face_X':19573,'Q5_lower_east_face_X':19733,'main_east_face_to_original_tangent_datum':640,'minimum_clear_polygon_distance':min(g.distance(protected) for g in newclear),'all_working_geometry_overlap_with_protected':0},\n 'candidate_B':{'anchor':'crossing fixed','working_translation_X':0,'protected_chevet_translation_X':4000,'crossing_center':[0,0],'chevet_center':[24213,0],'all_working_geometry_overlap_with_shifted_chevet':0},\n 'QA':'PASS: candidate relative placements remove overlap; 197 working and 14 protected cell shapes preserved rigidly',\n 'limits':['Neither candidate applied to source or master geometry','Distance is polygon separation, not certified circulation clearance','New transition bays/masonry not generated','Transverse source-to-choir offsets and shared bearing arrangements remain unresolved','No profiles or structural validation; F5ZL-C missing'],\n 'sources':{'protected_original_baseline_sha256':data['source_baseline_sha256'],'input_hashes':data['input_hashes']}}\n(R/'CHECKPOINT.json').write_text(json.dumps(report,indent=2)+'\\n')\nfig,axes=plt.subplots(1,2,figsize=(16,10));fig.subplots_adjust(left=.06,right=.96,top=.85,bottom=.20,wspace=.16)\nfor ax,items,title in [(axes[0],working,'CURRENT REGISTRATION: OVERLAP'),(axes[1],candidate,'CANDIDATE A: CHEVET FIXED, WESTERN ASSEMBLY −4000')]:\n for n,r,g in items:\n  if not n.startswith('Q5'):continue\n  for p in (list(g.geoms) if hasattr(g,'geoms') else [g]):ax.add_patch(Patch(list(p.exterior.coords),facecolor='#dcecf5' if r=='CLEAR' else '#e2caa6',edgecolor='#38617a',lw=.7))\n for n,g in cells.items():\n  ax.add_patch(Patch(list(g.exterior.coords),facecolor='#dcead5',edgecolor='#263138',alpha=.7,lw=.8))\n if ax==axes[0]:\n  cross=unary_union([g for _,g in clear]).intersection(protected)\n  for p in (list(cross.geoms) if hasattr(cross,'geoms') else [cross]):\n   if p.geom_type=='Polygon':ax.add_patch(Patch(list(p.exterior.coords),facecolor='#b43c36',edgecolor='none',alpha=.7))\n ax.axvline(20213,color='#81898c',ls='--',lw=.8)\n ax.set(xlim=(16000,26500),ylim=(-8200,8200),aspect='equal');ax.set_title(title,fontsize=10,pad=15)\n ax.tick_params(labelsize=8);ax.set_xlabel('Project X east');ax.set_ylabel('Project Y north')\nfig.suptitle('Q5 → PROTECTED CHEVET  /  REGISTRATION CHECK',fontsize=17,weight='bold',y=.95)\nfig.text(.06,.89,'Blue: working Q5 reservations. Green: original 14 inner/middle cells. Red: overlapping clear spaces.',fontsize=11)\nfig.text(.06,.13,'The −4000 candidate preserves every cell shape and removes all working/protected polygon overlap.\\nIt changes the crossing-to-chevet spacing and therefore requires an anchor decision before integration.',fontsize=11,linespacing=1.5)\nfig.text(.06,.045,'CANDIDATES ONLY • No source geometry moved. Separation does not establish a connected vault, passage or load-bearing junction.',fontsize=9,color='#b43c36')\nfig.savefig(R/'R11_CHEVET_INTERFACE.png',dpi=160);plt.close(fig)\nprint(json.dumps({k:v for k,v in report.items() if k!='sources'},indent=2))\n",
+  "readme": "# R11 — protected chevet interface audit\n\nThis checks the R10 experimental nave/crossing/choir registration against all 14 exact saved F5ZN-A inner/middle plan cells recovered from the original R03 input. Both use the crossing-origin project frame. Only those two existing local source records were read. No new source search, profile work or generator recovery was needed.\n\n## Finding\n\nR10's internal zero-intrusion checks did not include the protected ambulatory. Comparing the two now shows nine Q5 clear reservations overlapping thirteen protected cells. This is an interface failure of the current experimental registration, not a change or defect introduced into the original vault models. It cannot be accepted as a completed join.\n\nThe protected chevet centre is X20213. The expanded choir's Q5 main clear east face is X23573; the lower east face is X23733. Adding masonry has increased the crossing-to-choir chain, so holding both original crossing and chevet locations no longer gives a compatible join.\n\n## Concrete anchor choices — neither applied\n\n| Choice | Crossing centre X | Chevet centre X | Proposed operation |\n|---|---:|---:|---|\n| A — keep protected chevet fixed | −4000 | 20213 | Translate the whole western experimental assembly 4000 west |\n| B — keep crossing fixed | 0 | 24213 | Translate the entire protected chevet reference 4000 east, requiring explicit permission |\n\nThese have the same relative geometry. In A, Q5's main east face becomes X19573 and its lower face X19733. The 4000 shift equals the 3360 accumulated increase of the main east face beyond the original tangent datum plus a proposed 640 axial approach reservation. It is a study allowance, not a minimum optimized translation or an approved new junction.\n\nBoth candidate relative placements have zero positive-area overlap between **all** existing working polygons and all protected inner/middle cells. All 197 working clear shapes and 14 protected shapes remain rigidly unchanged. A's minimum clear-polygon separation is approximately 508.369 native units; that is a set-distance measurement, not a guaranteed clear passage width or bearing dimension. The protected source hashes and input hashes are in CHECKPOINT.json.\n\nCandidate A retains all original chevet coordinates, but relocates the crossing within the current coordinate frame. Candidate B retains crossing (0,0), but explicitly changes the protected chevet coordinates. Neither is silently promoted. A source/model write is not performed for either candidate. The comparison is computed from copies in memory only.\n\n## What remains unresolved after choosing an anchor\n\nThis removes overlap; it does not create the connecting architecture. The expanded choir's A1/A2 row offsets differ transversely from the protected original ring entries. Separate transition-space/masonry arrangements, passage continuity and actual receiving relationships still need plan development. Existing source bay/ring adjacency and shared arch profiles remain protected. No original vault is stretched, clipped or resized, and the discarded outer ambulatory is not reinstated.\n\nOnly Q5 and the original 14 cells are displayed for legibility; the candidate overlap checks include every R10 working polygon. Original master geometry, generators, V13 originals and Pass 6J remain untouched. F5ZL-C remains missing. No historical, structural, physical bearing or connected-vault validation is claimed.\n\nReproduce with `python build_audit.py` (matplotlib, shapely). INPUTS.json includes exact parents. Native numerical scale is 1:1; physical metre conversion remains unresolved. Next required decision is which anchor to retain before developing transition bays. Global registration must not change without that decision.\n"
+}
