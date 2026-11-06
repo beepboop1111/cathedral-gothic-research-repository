@@ -1,0 +1,46 @@
+{
+  "status": "PASS_R16_STRICT_CROWN_GUARDED_REAL_EXPORT_3_5_8_SECTOR_FAMILIES",
+  "synthetic_vault_types_only": true,
+  "all_existing_cathedral_sources_unchanged": true,
+  "proposals_are_not_architectural_designs": true,
+  "source_sha256_originals": {
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R16_STRICT_CROWN_LOCK_GUARD_EXPERIMENTAL/reference/vault_generator.py": "0434b70a888061d1d9a416723555333bc226e12ddb8f227b5abe621b7dce4c31",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R16_STRICT_CROWN_LOCK_GUARD_EXPERIMENTAL/reference/gothic_kernel_source.py": "684358b76d19db21c71647d89d670810145414bc4ae9cf0c72651490462e84ce"
+  },
+  "below_apex_candidate_rejected_before_build": true,
+  "new_family_tests": [
+    {
+      "topology": "SYNTHETIC_ONLY",
+      "sectors": 3,
+      "crown_Z": 4400.0,
+      "highest_apex_Z": 4250.0,
+      "rise_above_apex": 150.0,
+      "export_folder": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R16_STRICT_CROWN_LOCK_GUARD_EXPERIMENTAL/outputs/SYNTHETIC_3_SECTOR_GUARD_TEST",
+      "prebuild_passed": true,
+      "postbuild_passed": true,
+      "lock_report_included": true
+    },
+    {
+      "topology": "SYNTHETIC_ONLY",
+      "sectors": 5,
+      "crown_Z": 4400.0,
+      "highest_apex_Z": 4250.0,
+      "rise_above_apex": 150.0,
+      "export_folder": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R16_STRICT_CROWN_LOCK_GUARD_EXPERIMENTAL/outputs/SYNTHETIC_5_SECTOR_GUARD_TEST",
+      "prebuild_passed": true,
+      "postbuild_passed": true,
+      "lock_report_included": true
+    },
+    {
+      "topology": "SYNTHETIC_ONLY",
+      "sectors": 8,
+      "crown_Z": 4400.0,
+      "highest_apex_Z": 4250.0,
+      "rise_above_apex": 150.0,
+      "export_folder": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R16_STRICT_CROWN_LOCK_GUARD_EXPERIMENTAL/outputs/SYNTHETIC_8_SECTOR_GUARD_TEST",
+      "prebuild_passed": true,
+      "postbuild_passed": true,
+      "lock_report_included": true
+    }
+  ]
+}
