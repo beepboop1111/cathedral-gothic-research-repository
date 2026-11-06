@@ -1,0 +1,171 @@
+{
+  "checkpoint": {
+    "parameters": {
+      "revision": "R03_TRANSVERSE_320_RESERVATIONS",
+      "status": "EXPERIMENTAL_LOCAL_STRIP",
+      "user_selected_support_base_reservation": 320,
+      "clearance_rule": "All masonry, shafts and bases outside full reserved vault spaces",
+      "main_vessel_clear_width": 5866,
+      "aisle_clear_widths": [
+        1152,
+        1344,
+        1536
+      ],
+      "outer_respond_allowance": 250,
+      "outer_wall_allowance": 320,
+      "outer_allowances_status": "Retained working assumptions; not selected support profiles",
+      "source_file": "F5ZE_GLOBAL_COORDINATES.json",
+      "source_sha256": "389caec4d2deee00bc53f8dda8b2f428aa32b0e219a54ac7da9737638344f001",
+      "source_reference_half_width": 6965,
+      "scope": "Transverse allocation through three ordinary aisle rows only; no longitudinal propagation, no curved chevet or crossing sizing",
+      "profile_investigation": false,
+      "approved_models_modified": false
+    },
+    "segments": [
+      {
+        "name": "South Wall",
+        "role": "wall",
+        "low": -8495,
+        "high": -8175,
+        "width": 320
+      },
+      {
+        "name": "South Outer respond",
+        "role": "respond",
+        "low": -8175,
+        "high": -7925,
+        "width": 250
+      },
+      {
+        "name": "South A3",
+        "role": "clear",
+        "low": -7925,
+        "high": -6389,
+        "width": 1536
+      },
+      {
+        "name": "South Support 3",
+        "role": "support",
+        "low": -6389,
+        "high": -6069,
+        "width": 320
+      },
+      {
+        "name": "South A2",
+        "role": "clear",
+        "low": -6069,
+        "high": -4725,
+        "width": 1344
+      },
+      {
+        "name": "South Support 2",
+        "role": "support",
+        "low": -4725,
+        "high": -4405,
+        "width": 320
+      },
+      {
+        "name": "South A1",
+        "role": "clear",
+        "low": -4405,
+        "high": -3253,
+        "width": 1152
+      },
+      {
+        "name": "South Support 1",
+        "role": "support",
+        "low": -3253,
+        "high": -2933,
+        "width": 320
+      },
+      {
+        "name": "Main vessel",
+        "role": "clear",
+        "low": -2933,
+        "high": 2933,
+        "width": 5866
+      },
+      {
+        "name": "Support 1",
+        "role": "support",
+        "low": 2933,
+        "high": 3253,
+        "width": 320
+      },
+      {
+        "name": "A1",
+        "role": "clear",
+        "low": 3253,
+        "high": 4405,
+        "width": 1152
+      },
+      {
+        "name": "Support 2",
+        "role": "support",
+        "low": 4405,
+        "high": 4725,
+        "width": 320
+      },
+      {
+        "name": "A2",
+        "role": "clear",
+        "low": 4725,
+        "high": 6069,
+        "width": 1344
+      },
+      {
+        "name": "Support 3",
+        "role": "support",
+        "low": 6069,
+        "high": 6389,
+        "width": 320
+      },
+      {
+        "name": "A3",
+        "role": "clear",
+        "low": 6389,
+        "high": 7925,
+        "width": 1536
+      },
+      {
+        "name": "Outer respond",
+        "role": "respond",
+        "low": 7925,
+        "high": 8175,
+        "width": 250
+      },
+      {
+        "name": "Wall",
+        "role": "wall",
+        "low": 8175,
+        "high": 8495,
+        "width": 320
+      }
+    ],
+    "measurements": {
+      "north_outer_face_Y": 8495,
+      "south_outer_face_Y": -8495,
+      "outside_width": 16990,
+      "original_reserved_band_width": 13930,
+      "R01_outside_width": 14570,
+      "increase_over_R01": 2420,
+      "north_A3_clear_outer_Y": 7925,
+      "source_clear_widths_preserved": true,
+      "profile_work_performed": false,
+      "longitudinal_coordination": "UNRESOLVED: two lower clear cells 1800+1800 plus a 320 intermediate reservation span 3920 between outer clear faces; original main-vessel reference bay is 3600. No high-vault span or station chain changed."
+    },
+    "qa": {
+      "result": "PASS",
+      "tests": [
+        "All three source aisle widths unchanged on both sides",
+        "Main vessel width unchanged",
+        "Six support strips exactly 320",
+        "Adjacent strips meet without overlap",
+        "Outside dimension chain equals 16990",
+        "No profile investigation or master geometry edits"
+      ]
+    }
+  },
+  "generator": "from pathlib import Path\nimport json, hashlib, zipfile, xml.etree.ElementTree as ET\nimport matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\nfrom matplotlib.patches import Rectangle\n\nR=Path(__file__).resolve().parent\nP=R/'parameters.json'\nif P.exists():\n    c=json.loads(P.read_text())\nelse:\n    p=R.parent/'F5ZP_Inward_Masonry_R02_N6_EXPERIMENTAL/inputs/F5ZE_GLOBAL_COORDINATES.json'\n    raw=p.read_bytes();g=json.loads(raw)\n    c={'revision':'R03_TRANSVERSE_320_RESERVATIONS','status':'EXPERIMENTAL_LOCAL_STRIP',\n       'user_selected_support_base_reservation':320,\n       'clearance_rule':'All masonry, shafts and bases outside full reserved vault spaces',\n       'main_vessel_clear_width':2*g['radial_bands']['R0'],\n       'aisle_clear_widths':g['radial_band_widths'],\n       'outer_respond_allowance':250,'outer_wall_allowance':320,\n       'outer_allowances_status':'Retained working assumptions; not selected support profiles',\n       'source_file':'F5ZE_GLOBAL_COORDINATES.json','source_sha256':hashlib.sha256(raw).hexdigest(),\n       'source_reference_half_width':g['radial_bands']['R3'],\n       'scope':'Transverse allocation through three ordinary aisle rows only; no longitudinal propagation, no curved chevet or crossing sizing',\n       'profile_investigation':False,'approved_models_modified':False}\n    P.write_text(json.dumps(c,indent=2)+'\\n')\ns=c['user_selected_support_base_reservation'];h=c['main_vessel_clear_width']/2\nsegments=[{'name':'Main vessel','role':'clear','low':-h,'high':h,'width':2*h}]\ny=h;positive=[]\nfor i,w in enumerate(c['aisle_clear_widths'],1):\n    for label,role,width in [(f'Support {i}','support',s),(f'A{i}','clear',w)]:\n        positive.append({'name':label,'role':role,'low':y,'high':y+width,'width':width});y+=width\nfor label,role,w in [('Outer respond','respond',c['outer_respond_allowance']),('Wall','wall',c['outer_wall_allowance'])]:\n    positive.append({'name':label,'role':role,'low':y,'high':y+w,'width':w});y+=w\nsegments += positive+[dict(a,name='South '+a['name'],low=-a['high'],high=-a['low']) for a in positive]\nsegments.sort(key=lambda a:a['low'])\nexpected=[1152,1344,1536]\nassert [a['width'] for a in positive if a['role']=='clear']==expected\nassert all(a['high']==b['low'] for a,b in zip(segments[:-1],segments[1:]))\nassert sum(a['width'] for a in segments)==2*y==16990\nassert sum(a['width'] for a in segments if a['role']=='support')==6*320\nassert all(a['width']==320 for a in segments if a['role']=='support')\nassert len(segments)==17\nm={'north_outer_face_Y':y,'south_outer_face_Y':-y,'outside_width':2*y,\n   'original_reserved_band_width':2*c['source_reference_half_width'],\n   'R01_outside_width':14570,'increase_over_R01':2*y-14570,\n   'north_A3_clear_outer_Y':next(a['high'] for a in positive if a['name']=='A3'),\n   'source_clear_widths_preserved':True,'profile_work_performed':False,\n   'longitudinal_coordination':'UNRESOLVED: two lower clear cells 1800+1800 plus a 320 intermediate reservation span 3920 between outer clear faces; original main-vessel reference bay is 3600. No high-vault span or station chain changed.'}\ndata={'parameters':c,'segments':segments,'measurements':m,\n      'qa':{'result':'PASS','tests':['All three source aisle widths unchanged on both sides','Main vessel width unchanged','Six support strips exactly 320','Adjacent strips meet without overlap','Outside dimension chain equals 16990','No profile investigation or master geometry edits']}}\n(R/'CHECKPOINT.json').write_text(json.dumps(data,indent=2)+'\\n')\nfig,ax=plt.subplots(figsize=(16,5.8));fig.subplots_adjust(left=.04,right=.98,top=.72,bottom=.33)\nfig.text(.04,.92,'INWARD RESERVATIONS  /  320 SELECTED FOR THE ORDINARY SUPPORT ROWS',fontsize=14,weight='bold')\nfig.text(.04,.855,'Transverse width chain at N6. Main vessel and all six aisle clear widths remain unchanged.',fontsize=11)\ncolors={'clear':'#e0edf4','support':'#e6cba1','respond':'#f3e6d2','wall':'#c6ae87'}\nfor a in segments:\n    clear=a['role']=='clear'\n    ax.add_patch(Rectangle((a['low'],0),a['width'],1200,facecolor=colors[a['role']],\n                           edgecolor='#263138' if clear else '#b43c36',ls='-' if clear else '--',lw=.8))\n    if clear:\n        label=('Main vessel\\n5866' if a['name']=='Main vessel' else a['name'].replace('South ','')+'\\n'+str(a['width']))\n        ax.text((a['low']+a['high'])/2,600,label,ha='center',va='center',fontsize=9)\n    else:\n        ax.text((a['low']+a['high'])/2,600,str(a['width']),rotation=90,ha='center',va='center',fontsize=8)\nax.annotate('',xy=(-y,-550),xytext=(y,-550),arrowprops={'arrowstyle':'|-|','lw':.8})\nax.text(0,-480,'16,990 outside width — including the retained 250 respond + 320 wall on each side',ha='center',fontsize=10)\nax.text(-y,1450,'SOUTH',fontsize=9,ha='left');ax.text(y,1450,'NORTH',fontsize=9,ha='right')\nax.set(xlim=(-9000,9000),ylim=(-1000,1850),aspect='equal');ax.axis('off')\nfig.text(.04,.24,'North-side chain from the centreline:',weight='bold',fontsize=10)\nfig.text(.04,.19,'2933 vessel half + 320 + 1152 A1 + 320 + 1344 A2 + 320 + 1536 A3 + 250 respond + 320 wall = 8495',fontsize=10)\nfig.text(.04,.10,'320 is a space reservation including the base; no pier profiles are designed. These bands allocate width and are not continuous solid arcade walls.',fontsize=9)\nfig.text(.04,.04,'LOCAL EXPERIMENT • No full-plan shifts. Longitudinal bay alignment remains the next coordination check.',fontsize=9,color='#b43c36')\nfig.savefig(R/'R03_320_TRANSVERSE_RESERVATIONS.png',dpi=160);plt.close(fig)\n# Native XY plan strip. Its arbitrary 1200 X length shows transverse allocation only.\nroot=ET.Element('svg',{'xmlns':'http://www.w3.org/2000/svg','viewBox':'-100 -9000 1400 18000',\n                     'width':'140','height':'1800','data-units':'1 SVG user unit = 1 native project unit'})\nET.SubElement(root,'title').text='R03 transverse allocation strip only; arbitrary 1200-long X slice, Y north'\ngrp=ET.SubElement(root,'g',{'transform':'scale(1,-1)'})\nfor i,a in enumerate(segments):\n    at={'x':'0','y':str(a['low']),'width':'1200','height':str(a['width']),'fill':colors[a['role']],\n        'stroke':'#263138' if a['role']=='clear' else '#b43c36','stroke-width':'1','vector-effect':'non-scaling-stroke','id':f'band_{i}'}\n    if a['role']!='clear':at['stroke-dasharray']='6 4'\n    ET.SubElement(grp,'rect',at)\nET.ElementTree(root).write(R/'R03_TRANSVERSE_NATIVE.svg',encoding='unicode',xml_declaration=True)\nET.parse(R/'R03_TRANSVERSE_NATIVE.svg')\nassert json.loads((R/'CHECKPOINT.json').read_text())==data\nprint(json.dumps(m,indent=2))\n",
+  "readme": "# R03 — 320-unit inward reservations\n\nThe user selected 320 for the complete ordinary support/base space allowance and explicitly requested no profile investigation. The previously accepted rule keeps all masonry, shafts and bases outside the reserved vault spaces. These are accepted study instructions, not approval of a finished pier or a new cathedral layout.\n\nThis bounded experiment moves inward through three ordinary straight nave aisle rows, then mirrors the transverse allocation. It preserves the main vessel's 5866 reference width and the 1152 / 1344 / 1536 clear aisle widths. Each intervening support row receives one 320-unit reservation, counted once. The reservation adjoining the main vessel is a plan-space placeholder; it does not establish the adequacy of its high-vault support.\n\nThe clear width decisions follow the user's instruction; source grids did not independently certify finished floor clearances. Original saved geometry remains unchanged. In this separate experiment, aisle locations move outward to accommodate reservations while their widths remain fixed.\n\nThe retained 250 outer respond allowance and 320 external wall are working assumptions from R02. The user selected the 320 support allowance; that does not independently validate the respond depth, outer wall or high-vessel/crossing supports. No actual profile, rib, arch, base or capacity was investigated.\n\n## North-side dimension chain\n\n| Zone | Y start | Y end | Width |\n|---|---:|---:|---:|\n| Main-vessel half | 0 | 2933 | 2933 |\n| Support reservation 1 | 2933 | 3253 | 320 |\n| A1 clear | 3253 | 4405 | 1152 |\n| Support reservation 2 | 4405 | 4725 | 320 |\n| A2 clear | 4725 | 6069 | 1344 |\n| Support reservation 3 | 6069 | 6389 | 320 |\n| A3 clear | 6389 | 7925 | 1536 |\n| Outer respond allowance | 7925 | 8175 | 250 |\n| Outer wall allowance | 8175 | 8495 | 320 |\n\nSouth is the mirror. Conditional outside width: **16990**, compared with **14570** in R01's external-wall-only study. The difference is **2420**, comprising six internal 320 strips and two 250 respond allowances. This is a transverse sample, not the complete cathedral's maximum extent.\n\n## Next coordination check\n\nThe longitudinal lower cadence has two clear cells of 1800. A 320 intermediate support reservation makes their combined clear-face-to-clear-face envelope **3920**. The original main-vessel reference bay is **3600**. R02's repeating lower module between end-support centres is **4240** after also allocating half an end support at each end. These are different measurements.\n\nThey cannot be treated as one uniform updated grid without checking where main and subsidiary springing/support lines fall. This package therefore does not repeat the 4240 module through the high vessel, stretch any 3600 vault, resize the lower cells, or propagate a new nave station chain. Next prepare a plan-only comparison of major and subsidiary support stations, preserving both vault sizes; pier profiles remain outside scope. Any experimental offset must be labelled, rather than silently moving protected models.\n\n## Evidence and validation\n\nReuses the already recovered F5ZE dimensions bundled in R02; its SHA-256 is recorded in parameters.json. R02 parent checkpoint: GitHub commit `9846d82831805cb0fcb83c20a88b7f94ffcd5896`. Governance was recovered during this ongoing inward-development task; no repeated archive reads were needed.\n\nDimension-chain checks passed: six aisle widths, main-vessel width, six 320 support strips, no overlapping strip interiors, symmetry and total outside width. Saved JSON round-tripped; native SVG parsed. The PNG is visually inspected separately. These are technical and local 2D geometric checks, not architectural, historical or structural approval.\n\nThe graphic is a transverse dimension chain, not an elevation. The native SVG is an XY plan-allocation strip with an arbitrary 1200-long X slice; its bands do not assert full solid masonry walls between aisles. One SVG user unit equals one project unit; no physical metre conversion is established.\n\nNo F5ZK-C/F5ZN-A or saved chevet geometry, approved generator, V13 original or Pass 6J record is changed. F5ZL-C's missing support schedule remains unresolved. Crossing, curved chevet, exceptional chapels and longitudinal propagation are excluded.\n\nReproduce with `python build_strip.py` (matplotlib). After the first build, parameters.json makes the script self-contained.\n"
+}
