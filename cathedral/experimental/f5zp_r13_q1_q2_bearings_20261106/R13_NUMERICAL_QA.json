@@ -1,0 +1,110 @@
+{
+  "status": "EXPERIMENTAL 2D PASSAGE AND BEARING OPTIONS; NOT APPROVED",
+  "input": "/home/christopher/Downloads/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/R11_FULL_COORDINATED_2D_EXPERIMENTAL/F5ZP_R11_COORDINATED_NATIVE_2D.geojson",
+  "R11_SHA256": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+  "R11_feature_count": 289,
+  "original_vault_count": 218,
+  "original_vault_area_sum": 836018229.7922558,
+  "source_vaults_changed": false,
+  "Q1_Q2_main_separator_axis_x": 4505.0,
+  "Q1_Q2_main_gap_native": 1160,
+  "Q1_Q2_aisle_gap_native": 470,
+  "Q1_Q2_aisle_axis_offset_from_main_native": -25,
+  "virtual_visible_core_width_native": 235,
+  "summary": [
+    {
+      "option": "A_CONSERVATIVE",
+      "main_clear_width": 4986.0,
+      "aisle_clear_widths": [
+        752.0,
+        895.0,
+        994.0
+      ],
+      "aisle_jamb_each": [
+        200,
+        210,
+        240
+      ],
+      "main_jamb_each": 440,
+      "major_to_A1_solid_band": 960.0,
+      "A1_A2_solid_band": 607.0,
+      "A2_A3_solid_band": 771.0,
+      "legacy_support_reference_collisions": [],
+      "removed_masonry_area": 8266300.0,
+      "legacy_pier_reference_notes": "Old R12C support overlays unregistered at revised bays",
+      "no_intrusion_into_original_clear_polygons": true,
+      "masonry_remainder_valid": true
+    },
+    {
+      "option": "B_BALANCED",
+      "main_clear_width": 5146.0,
+      "aisle_clear_widths": [
+        832.0,
+        995.0,
+        1034.0
+      ],
+      "aisle_jamb_each": [
+        160,
+        160,
+        220
+      ],
+      "main_jamb_each": 360,
+      "major_to_A1_solid_band": 840.0,
+      "A1_A2_solid_band": 517.0,
+      "A2_A3_solid_band": 701.0,
+      "legacy_support_reference_collisions": [],
+      "removed_masonry_area": 8658700.0,
+      "legacy_pier_reference_notes": "Old R12C support overlays unregistered at revised bays",
+      "no_intrusion_into_original_clear_polygons": true,
+      "masonry_remainder_valid": true
+    },
+    {
+      "option": "C_OPEN",
+      "main_clear_width": 5306.0,
+      "aisle_clear_widths": [
+        912.0,
+        1075.0,
+        1234.0
+      ],
+      "aisle_jamb_each": [
+        120,
+        120,
+        120
+      ],
+      "main_jamb_each": 280,
+      "major_to_A1_solid_band": 720.0,
+      "A1_A2_solid_band": 437.0,
+      "A2_A3_solid_band": 561.0,
+      "legacy_support_reference_collisions": [
+        {
+          "reference": "Q1_Q2_step_132",
+          "area": 9920.0
+        },
+        {
+          "reference": "Q1_Q2_step_133",
+          "area": 9920.0
+        }
+      ],
+      "removed_masonry_area": 9182700.0,
+      "legacy_pier_reference_notes": "Old R12C support overlays unregistered at revised bays",
+      "no_intrusion_into_original_clear_polygons": true,
+      "masonry_remainder_valid": true
+    }
+  ],
+  "technical_checks": {
+    "7_passages_per_option": true,
+    "each_opening_touches_west_and_east_source_vault_faces": true,
+    "all_voids_within_existing_R11_choir_masonry": true,
+    "all_original_vault_intersection_areas": 0,
+    "R11_original_geojson_unchanged_SHA256": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "all_cut_masonry_valid": true,
+    "235_visual_respond_only_on_existing_material": true
+  },
+  "source_uncertainties": [
+    "Old R12C support refs are not registered to current R11 adjusted cells; collision flags are indicative.",
+    "F5ZL-C support schedule remains missing.",
+    "Native project scale 1:1; physical conversion unresolved.",
+    "No verified historic arch section or structural jamb/support capacity.",
+    "These openings remove experimental reserved masonry only in alternative models; not in R11 baseline."
+  ]
+}
