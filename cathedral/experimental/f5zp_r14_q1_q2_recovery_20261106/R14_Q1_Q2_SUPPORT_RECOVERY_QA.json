@@ -1,0 +1,34 @@
+{
+  "status": "R14 STEP 1 COMPLETE \u2014 SUPPORT RECOVERY ONLY, EXPERIMENTAL",
+  "source_SHA256": {
+    "R12C_original": "4c6f5c3d16959e516032902e663c978c4b0b982c2c2261c0fe6bbce82db04307",
+    "R11_current": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13_option_B": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R12C_blender_inventory": "2eceaedf14c068e68745755d5f5861078eb422a6bc46a4cf99fe2423ed301401"
+  },
+  "saved_blender_file": "/home/christopher/Downloads/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/F5ZP_R12C_FULL_PLAN_EXPERIMENTAL.blend",
+  "saved_blender_SHA256": "b903c8d57e11bd99dd275e19046c2b18757c847479c5684d141afa5b61ed003c",
+  "recovered_object_count": 20,
+  "recovered_support_count": 10,
+  "allocation_lane_count": 10,
+  "support_class_counts": {
+    "GEOMETRICALLY_COMPATIBLE": 4,
+    "PARTIALLY_OUTSIDE_REBUILT_MASONRY": 4,
+    "OUTSIDE_REBUILT_MASONRY": 2
+  },
+  "support_vs_option_B_openings_overlap_area": 0,
+  "support_vs_R11_clear_vaults_overlap_area": 0,
+  "old_object_blender_coordinates_identical_to_source_geojson": true,
+  "original_R11_and_R13_unchanged": true,
+  "classification_basis": "2D footprint subsets of R11 rebuilt masonry; no load path, area or capacity endorsement",
+  "unresolved": [
+    "F5ZL-C support schedule not available.",
+    "Q1-Q2 source support status labels do not independently certify approval.",
+    "Two uppermost step footprints no longer fit R11 choir masonry envelope.",
+    "Four other outer step/lower node footprints are partly outside R11 masonry envelope.",
+    "Allocation lane geometry is historical reserve and must not be interpreted as current load-bearing masonry.",
+    "Actual pier-bearing connectivity and arch springing cannot be certified from 2D footprints.",
+    "Recent Q1-Q2 openings remain experimental, not approved."
+  ],
+  "future_step": "Review geometry registration/architectural decisions before designing new bearing footprints; no step 2 performed."
+}
