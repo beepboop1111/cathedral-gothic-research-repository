@@ -1,0 +1,315 @@
+{
+  "status": "F5ZP_R17_EXPERIMENTAL_FAST_UNIVERSAL_VAULT_WORKSPACE_VALIDATED",
+  "created_utc": "2026-11-06T22:28:34.120685+00:00",
+  "workflow": "One-click procedural Blender, R16 pre/post guard and automatic warnings",
+  "persistent_addon_enabled_on_MR_COMPUTER": true,
+  "family_count_tested": 6,
+  "families": [
+    "TRI",
+    "QUAD",
+    "PENTA",
+    "HEXA",
+    "OCTA",
+    "CUSTOM_7"
+  ],
+  "custom_supported_range_sectors": [
+    3,
+    12
+  ],
+  "quality_FAST_subdivisions": 32,
+  "quality_FINAL_subdivisions": 128,
+  "source_only_quality_invariance_families": 5,
+  "measured_rebuild_time_seconds_4_sector_FAST": 0.035,
+  "measured_rebuild_time_seconds_4_sector_FINAL": 0.413,
+  "strict_crown_below_arch_apex_rejects_before_build": true,
+  "exact_level_crown_warning_tested": true,
+  "locked_crown_not_auto_changed": true,
+  "automatic_locked_geometry_warnings_in_all_builds": true,
+  "last_valid_mesh_survives_rejection": true,
+  "source_R16_SHA256_preserved": true,
+  "original_cathedral_and_F5ZN_A_generator_unchanged": true,
+  "arch_skeleton_plan_1to1": true,
+  "output_GLTF_validated": true,
+  "shared_review_scenes": 5,
+  "final_BLENDER_file": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/blender/F5ZP_R17_FAST_VAULT_WORKSPACE_REVIEW_READY_V02_EXPERIMENTAL.blend",
+  "github_experimental_branch": "cathedral/f5zp-r17-fast-vault-workspace-experimental-20261106",
+  "github_last_source_qa_commit": "33d712b67df3",
+  "masonry_cover_status": "not established; open experimental intrados only",
+  "historical_validation": false,
+  "structural_validation": false,
+  "architectural_approval": false,
+  "files": {
+    "README_R17_FAST_UNIVERSAL_VAULT_WORKSPACE.md": {
+      "bytes": 10477,
+      "sha256": "9cac7691296649014a06ec4207324ec8b6bf7e514bdb64513fc6e517fb159637"
+    },
+    "addon/r17_core.py": {
+      "bytes": 7311,
+      "sha256": "58cc8805c6bf8cf17ecbf74cdafc55a05d529f904dc7d9184986ac4c3e0ff079"
+    },
+    "addon/r17_experimental_workspace.py": {
+      "bytes": 25417,
+      "sha256": "ecc51215e97c85be2a52e2f2ad1541db6abfaf9b70bad836ae90f37ba3cb19f7"
+    },
+    "addon/r17_vendor/guarded_vault_adapter.py": {
+      "bytes": 8235,
+      "sha256": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee"
+    },
+    "addon/r17_vendor/strict_crown_guard.py": {
+      "bytes": 9271,
+      "sha256": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05"
+    },
+    "addon/r17_vendor_sha256.json": {
+      "bytes": 195,
+      "sha256": "459bc04a653e490eb5660bdca77282641743aee713c8e8b16309659bf064726a"
+    },
+    "blender/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_V01_EXPERIMENTAL.blend": {
+      "bytes": 219960,
+      "sha256": "46ca116c8a35f2fe7bd06bd639b43648333b7c8fe42ab18931cae54e274344d3"
+    },
+    "blender/F5ZP_R17_FAST_VAULT_WORKSPACE_REVIEW_READY_V02_EXPERIMENTAL.blend": {
+      "bytes": 1654633,
+      "sha256": "77b4858f62c25e4d678e37f19d390b403a7cab7931fda225571c50fda26baaeb"
+    },
+    "blender/R17_FAST_VAULT_WORKSPACE_CHECKPOINT_001_EXPERIMENTAL.blend": {
+      "bytes": 1653304,
+      "sha256": "8144b8b49cda40a69e843a1b84da33720baf901dd25c57d345face09a523c84d"
+    },
+    "configs/R17_R16_ORIGINAL_PROTECTION.json": {
+      "bytes": 932,
+      "sha256": "06d22bfc7287845e8f0dd3041238e667a412abf5b00bfe7e17c4c8e855552f4d"
+    },
+    "outputs/R17_BUILD_001_QA.json": {
+      "bytes": 7133,
+      "sha256": "41c808eb6edb7fbd8fcaa757805b9b5a5a2a6bc93a30ef2e7282ecf7713f44d5"
+    },
+    "outputs/R17_BUILD_002_QA.json": {
+      "bytes": 7133,
+      "sha256": "995a074a4694d50b231bd0f5f720ebb72c3fd34e37e0e6694e910d3c50ca5998"
+    },
+    "outputs/R17_BUILD_003_QA.json": {
+      "bytes": 6825,
+      "sha256": "6ff82990d1f7b46c91885ba4fb61a5023ea0f94dfeded90cff1a6af65f365bc0"
+    },
+    "outputs/R17_BUILD_004_QA.json": {
+      "bytes": 7133,
+      "sha256": "995a074a4694d50b231bd0f5f720ebb72c3fd34e37e0e6694e910d3c50ca5998"
+    },
+    "outputs/R17_BUILD_005_QA.json": {
+      "bytes": 7431,
+      "sha256": "4e2c173cb30aaa1af973d9e1777301096a3a39976281586e6ab37253cf762566"
+    },
+    "outputs/R17_BUILD_006_QA.json": {
+      "bytes": 7723,
+      "sha256": "2bc595dc02a16a2a0b9cff9f01c9937b38576bc319557c31b177156787811c45"
+    },
+    "outputs/R17_BUILD_007_QA.json": {
+      "bytes": 8306,
+      "sha256": "de95eca5e266978e23d86caa90a64ac740168e1af2386c2e47d730f713ae37b5"
+    },
+    "outputs/R17_BUILD_008_QA.json": {
+      "bytes": 8038,
+      "sha256": "8ba9e894c79f206ca1d7122b8cdc982914bcb30a1f168407e0bcf268b51dad71"
+    },
+    "outputs/R17_BUILD_009_QA.json": {
+      "bytes": 7139,
+      "sha256": "b7710534d730722c1fe30a7dd5aa44698e4a558ad919ee8be1452c68b79637c1"
+    },
+    "outputs/R17_BUILD_010_QA.json": {
+      "bytes": 6825,
+      "sha256": "af9be395288a0270959ae84281a2f354b5288e120dd513253998c63485c04935"
+    },
+    "outputs/R17_BUILD_011_QA.json": {
+      "bytes": 7133,
+      "sha256": "effe3491792cce9c5470dab6f10a897867ceeaa8808acb30e24f25190eeb50bc"
+    },
+    "outputs/R17_BUILD_012_QA.json": {
+      "bytes": 7431,
+      "sha256": "42d5bc75ebefbac59cb91f4b8358175a8a081a1eb34f8ce579fc3fe5e691f5da"
+    },
+    "outputs/R17_BUILD_013_QA.json": {
+      "bytes": 7723,
+      "sha256": "d72ff206fb300f4aa94cdb88c051159dd1c752aedc2544f2123d2e86c525f099"
+    },
+    "outputs/R17_BUILD_014_QA.json": {
+      "bytes": 8306,
+      "sha256": "a49e332a34ee8b8e1702a6bdb4645886fa6fc939a0c554f3431ce3eac9a83bb3"
+    },
+    "outputs/R17_BUILD_015_QA.json": {
+      "bytes": 8038,
+      "sha256": "b993fb3f9bad6decefa62fe1f9d937237c1f18547ccb10c25f3da1bdd5d7a6c7"
+    },
+    "outputs/R17_BUILD_016_QA.json": {
+      "bytes": 7139,
+      "sha256": "f8c1e3ce5cbf50175eb58a956c9de4e62702ad560d5f4b5593c1586301bedd35"
+    },
+    "outputs/R17_BUILD_017_QA.json": {
+      "bytes": 8058,
+      "sha256": "a9f4395ab9fafe572666b0de2f5847c76c3f6d9c4b9df1506325e9016c5062fe"
+    },
+    "outputs/R17_BUILD_018_QA.json": {
+      "bytes": 6825,
+      "sha256": "af9be395288a0270959ae84281a2f354b5288e120dd513253998c63485c04935"
+    },
+    "outputs/R17_BUILD_019_QA.json": {
+      "bytes": 7133,
+      "sha256": "effe3491792cce9c5470dab6f10a897867ceeaa8808acb30e24f25190eeb50bc"
+    },
+    "outputs/R17_BUILD_020_QA.json": {
+      "bytes": 7431,
+      "sha256": "42d5bc75ebefbac59cb91f4b8358175a8a081a1eb34f8ce579fc3fe5e691f5da"
+    },
+    "outputs/R17_BUILD_021_QA.json": {
+      "bytes": 7723,
+      "sha256": "d72ff206fb300f4aa94cdb88c051159dd1c752aedc2544f2123d2e86c525f099"
+    },
+    "outputs/R17_BUILD_022_QA.json": {
+      "bytes": 8306,
+      "sha256": "a49e332a34ee8b8e1702a6bdb4645886fa6fc939a0c554f3431ce3eac9a83bb3"
+    },
+    "outputs/R17_BUILD_023_QA.json": {
+      "bytes": 8038,
+      "sha256": "b993fb3f9bad6decefa62fe1f9d937237c1f18547ccb10c25f3da1bdd5d7a6c7"
+    },
+    "outputs/R17_BUILD_024_QA.json": {
+      "bytes": 7139,
+      "sha256": "f8c1e3ce5cbf50175eb58a956c9de4e62702ad560d5f4b5593c1586301bedd35"
+    },
+    "outputs/R17_BUILD_025_QA.json": {
+      "bytes": 8058,
+      "sha256": "a9f4395ab9fafe572666b0de2f5847c76c3f6d9c4b9df1506325e9016c5062fe"
+    },
+    "outputs/R17_BUILD_026_QA.json": {
+      "bytes": 7139,
+      "sha256": "f8c1e3ce5cbf50175eb58a956c9de4e62702ad560d5f4b5593c1586301bedd35"
+    },
+    "outputs/R17_BUILD_027_OPEN_INTRADOS_1TO1.glb": {
+      "bytes": 1187272,
+      "sha256": "88bb09369e4a64608db641aaf07380baaff057bd0120740b8d3944c6db99ef20"
+    },
+    "outputs/R17_BUILD_027_QA.json": {
+      "bytes": 7149,
+      "sha256": "d7c5f032e40f166c3828665799f8d71d80cb59fbd5c4f152402f7263da969ccb"
+    },
+    "outputs/R17_BUILD_028_OPEN_INTRADOS_1TO1.glb": {
+      "bytes": 114404,
+      "sha256": "a935acef22db613f6d1a26b6088d863b45e04b43eac4a52282f6d91415b3080f"
+    },
+    "outputs/R17_BUILD_028_QA.json": {
+      "bytes": 7733,
+      "sha256": "086eab3e7d93b01de69fcb0fcb717f12464e16e59333f392751bf0d705f0e227"
+    },
+    "qa/R17_ADDON_V02_UPDATE_SOURCE_PRESERVED.json": {
+      "bytes": 1097,
+      "sha256": "457082c5cea4f9c7c86f57360b0f4843bd24abea18f54f9758400dec1a02454c"
+    },
+    "qa/R17_BLENDER_ADDON_INSTALL_QA.json": {
+      "bytes": 741,
+      "sha256": "9fad484bb5bcf4ea8849b5df3b5bbbcc4f8972c76ebaa110fb64ec1320a80ede"
+    },
+    "qa/R17_BLENDER_OPERATOR_TEST_CONSOLE.log": {
+      "bytes": 1939,
+      "sha256": "6527cdd70f33afc19b2e925b288cb8d066df1d350bfd81db17a31bdad2463684"
+    },
+    "qa/R17_BLENDER_OPERATOR_TEST_V02_CONSOLE.log": {
+      "bytes": 1555,
+      "sha256": "4eb4d3e5806c64010514bf498c6e93303320edddcfde7ee8aabbcb7a0a6638fe"
+    },
+    "qa/R17_BLENDER_OPERATOR_TEST_V03_CONSOLE.log": {
+      "bytes": 2306,
+      "sha256": "3a9f3ae4774d2cf69df90f6c86a0bdefd0928876eae3c857bf286e5abc5ca203"
+    },
+    "qa/R17_BLENDER_WORKSPACE_BOOTSTRAP_QA.json": {
+      "bytes": 1101,
+      "sha256": "d597e34d8a2122a27555e9c2bcd9224c635da972589e3956893bc7ff7ebcc995"
+    },
+    "qa/R17_CROSS_SCENE_REBUILD_EXPORT_QA.json": {
+      "bytes": 353,
+      "sha256": "e63c0070406e43223aac0889ac72a784cd5a96ff486011ae226eb132bbfd152e"
+    },
+    "qa/R17_FULL_1TO1_GLB_READBACK_QA.json": {
+      "bytes": 516,
+      "sha256": "ce6c8a27730a4b61212759f7882b46cdaa42797bacf00aec1a1fdd14bb814d28"
+    },
+    "qa/R17_FULL_BLENDER_OPERATOR_REGRESSION_QA.json": {
+      "bytes": 3414,
+      "sha256": "669c3e0ad51d975a3936959abcf52ccb638d0a88b8d61deaa615c15b574f4aa4"
+    },
+    "qa/R17_QUALITY_EQUIVALENCE_SOURCE_REPLAY_QA.json": {
+      "bytes": 2724,
+      "sha256": "00c0212cf1803c1ce3e038443a416040bd50502ec93c9a3d2a8182cc1ea38816"
+    },
+    "qa/R17_REVIEW_V02_SOURCE_PROTECTION_QA.json": {
+      "bytes": 678,
+      "sha256": "538ae05a0b8aa87506230bc6b49bf04c1feba55472fe5c83f0e47f2644d8eb1f"
+    },
+    "references/pre_R17_v02_r17_core.py": {
+      "bytes": 7288,
+      "sha256": "f882b492badc1f7484bf3d7588f222a7abc71488bc4314c6446633552a1a0299"
+    },
+    "references/pre_R17_v02_r17_experimental_workspace.py": {
+      "bytes": 25225,
+      "sha256": "a57a0c3adcc6b743df85383ff2a7b007491252a82b8a087687e80260c6706ee8"
+    },
+    "screenshots/R17_REVIEW_AXON_0001.png": {
+      "bytes": 720223,
+      "sha256": "bb800c194eb0dfba90990a84ee1e8e8785ebdcd0834cb2cbcc9c5a1520a59e03"
+    },
+    "screenshots/R17_REVIEW_INTERIOR_0001.png": {
+      "bytes": 698705,
+      "sha256": "95f2a6c0e05ec56d771c8a95994586dba92de5b6b4d0694e4ab525030c54e9a5"
+    },
+    "screenshots/R17_REVIEW_PLAN_0001.png": {
+      "bytes": 932853,
+      "sha256": "0868f1f130869dee44ac24aeffc5b82e9b1eb8ded18023a190d457ea0092c851"
+    },
+    "screenshots/R17_REVIEW_SECTION_0001.png": {
+      "bytes": 749099,
+      "sha256": "a93e7b9423e97ceaad835371b9af8d25c59346c946ec93efe14178f72fa0279b"
+    },
+    "screenshots/R17_V02_FOUR_CAMERA_ARCHITECTURAL_REVIEW.png": {
+      "bytes": 474259,
+      "sha256": "421cd35dce7cccbc0ff41df052947c444d3426fbefde69a83726e2a64ce34c0a"
+    },
+    "screenshots/R17_V02_R17_REVIEW_AXON_0001.png": {
+      "bytes": 1471002,
+      "sha256": "2269117ac221e8edd90a05e1a3bce6085c39e61a9b6e74236c9ab0c2f024b83f"
+    },
+    "screenshots/R17_V02_R17_REVIEW_INTERIOR_0001.png": {
+      "bytes": 1497001,
+      "sha256": "15caf2512b2f00221b33bb6868f2345195ff40e7ba69ce365f80214a0a942425"
+    },
+    "screenshots/R17_V02_R17_REVIEW_PLAN_0001.png": {
+      "bytes": 1461391,
+      "sha256": "2b29adcdbebc2663d453f01ca3ff57d7f2a581f86d7f0e7164eb5324de3dbd5d"
+    },
+    "screenshots/R17_V02_R17_REVIEW_SECTION_0001.png": {
+      "bytes": 1522107,
+      "sha256": "9e2707001efbad80b631c724e6e9b4db196e21f5ce3bc07d954115472e73c517"
+    },
+    "scripts/bootstrap_R17_workspace.py": {
+      "bytes": 6656,
+      "sha256": "45f9b240bbb7581b88797741191367850f37dcaf3a6b5a33ac36da16adeae6e2"
+    },
+    "scripts/finalize_R17_review_v02.py": {
+      "bytes": 3870,
+      "sha256": "5459d5f5759bd4102cce4d70faedb722810879152e8cbe182215e09cf55f6e3d"
+    },
+    "scripts/install_R17_blender_addon.py": {
+      "bytes": 1981,
+      "sha256": "82c89bb6a5922681c8d601a49c99053d6b76e22965d05563ad33cb70cf688386"
+    },
+    "scripts/package_R17_release.py": {
+      "bytes": 6126,
+      "sha256": "143cfb0dd2754334414de8c3dfecc173e8d0625155cf9fb1f1500f8b325d8995"
+    },
+    "tests/test_R17_blender_live_ops.py": {
+      "bytes": 7550,
+      "sha256": "71a2b1cedbbb6630f2569af46ce91e79f6fba39f3c453abb65880bb8f680d07d"
+    },
+    "tests/test_R17_quality_scale_and_replay.py": {
+      "bytes": 3987,
+      "sha256": "85926971776e82b8e023644c338400b457818216e27bf25dc2a602ec058ef3a2"
+    }
+  }
+}
