@@ -1,0 +1,21 @@
+{
+  "revision": "R02_N6_CLEARANCE_EXPERIMENT",
+  "status": "EXPERIMENTAL_NOT_A_PIER_DESIGN",
+  "user_decision": "All masonry, shafts and bases stay outside reserved vault space",
+  "source": "F5ZE native grid, N6 north outer aisle A3",
+  "source_sha256": "389caec4d2deee00bc53f8dda8b2f428aa32b0e219a54ac7da9737638344f001",
+  "cell_length": 1800,
+  "cell_width": 1536,
+  "source_west_X": -21797,
+  "source_inner_Y": 5429,
+  "trial_complete_support_envelopes": [
+    320,
+    480,
+    640
+  ],
+  "outer_respond_reservation": 250,
+  "perimeter_wall_thickness": 320,
+  "respond_reservation_status": "illustrative allowance, actual profile/base projection not recovered",
+  "scope": "two clear outer-aisle cells; adjacent A2 edge anchored; no propagation",
+  "semantics": "Original set-out sizes reused as clear reservations by user instruction, not historical proof of original floor clearance"
+}

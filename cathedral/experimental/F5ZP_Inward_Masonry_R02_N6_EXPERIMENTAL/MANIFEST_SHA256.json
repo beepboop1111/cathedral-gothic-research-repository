@@ -1,0 +1,50 @@
+[
+  {
+    "path": "CONFIG.json",
+    "sha256": "48cf2a5f044cdbb7860b6c81c7f7e6adbdc7a1084fbf422fc19e5383ff20e274"
+  },
+  {
+    "path": "README.md",
+    "sha256": "31845b304d738b7c3befaae59719506a9cc5ef3e5591b48584ff56ff0e8df61c"
+  },
+  {
+    "path": "build_study.py",
+    "sha256": "0c36cb16d48d1183514fb0727b540f552bd0268dd928b03fdd021dab44db8ff5"
+  },
+  {
+    "path": "inputs/F5ZE_GLOBAL_COORDINATES.json",
+    "sha256": "389caec4d2deee00bc53f8dda8b2f428aa32b0e219a54ac7da9737638344f001"
+  },
+  {
+    "path": "outputs/MEASUREMENTS.csv",
+    "sha256": "8af4d22c5af7e78610f58697f6dc52544684e13a38688ae92eb64868ba4f071f"
+  },
+  {
+    "path": "outputs/MEASUREMENTS.json",
+    "sha256": "b6b76341b64dd55585eea6183530245423bee5ca8edad90f7189a90fc8d737df"
+  },
+  {
+    "path": "outputs/N6_CLEAR_SPACE_COMPARISON.png",
+    "sha256": "af18d380786815c5822c51c31c20262e7e32324f052036e9b4d01d54a1c6a1df"
+  },
+  {
+    "path": "outputs/N6_TRIAL_320_NATIVE.svg",
+    "sha256": "3e96b22344f6870be41607c8a9fdec91080b4e59e137c5d0638a9445ae1db86d"
+  },
+  {
+    "path": "outputs/N6_TRIAL_480_NATIVE.svg",
+    "sha256": "79390585299fdf24a2455cf018af458e096e18db8324e08a9a5bf53408d9645f"
+  },
+  {
+    "path": "outputs/N6_TRIAL_640_NATIVE.svg",
+    "sha256": "c5c85a1fa98cd85cd822cea982c0833c5dedf06fc50913f62e9a086861dfbae3"
+  },
+  {
+    "path": "outputs/PLAN_GEOMETRY.json",
+    "sha256": "e8e6a767fe422e20b60cea172c661ff92ffd4889477d01d1dc38b79a2872fa96"
+  },
+  {
+    "path": "outputs/QA.json",
+    "sha256": "b278ab853d92dae8e5853c144fa351e0464896ca538e78dda41f01224d2c271f"
+  }
+]

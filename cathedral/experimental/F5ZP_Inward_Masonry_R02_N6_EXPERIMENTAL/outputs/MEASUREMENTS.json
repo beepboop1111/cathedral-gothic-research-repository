@@ -1,0 +1,53 @@
+[
+  {
+    "support_envelope": 320,
+    "clear_cell_length": 1800,
+    "clear_cell_width": 1536,
+    "cell_to_cell_pitch": 2120,
+    "two_cell_module_between_end_support_centres": 4240,
+    "increase_over_3600_reference_module": 640,
+    "allocated_inner_arcade_strip": 320,
+    "outer_respond_allowance": 250,
+    "outer_wall_thickness": 320,
+    "adjacent_A2_edge_to_outer_wall": 2426,
+    "outward_increase_over_R01_wall_position": 570,
+    "outer_wall_Y_if_A2_edge_anchored": 7855,
+    "notional_east_end_support_X": -17557,
+    "full_three_support_review_extent_X": 4560,
+    "status": "LOCAL_EXPERIMENT_NOT_APPLIED_TO_MASTER_PLAN"
+  },
+  {
+    "support_envelope": 480,
+    "clear_cell_length": 1800,
+    "clear_cell_width": 1536,
+    "cell_to_cell_pitch": 2280,
+    "two_cell_module_between_end_support_centres": 4560,
+    "increase_over_3600_reference_module": 960,
+    "allocated_inner_arcade_strip": 480,
+    "outer_respond_allowance": 250,
+    "outer_wall_thickness": 320,
+    "adjacent_A2_edge_to_outer_wall": 2586,
+    "outward_increase_over_R01_wall_position": 730,
+    "outer_wall_Y_if_A2_edge_anchored": 8015,
+    "notional_east_end_support_X": -17237,
+    "full_three_support_review_extent_X": 5040,
+    "status": "LOCAL_EXPERIMENT_NOT_APPLIED_TO_MASTER_PLAN"
+  },
+  {
+    "support_envelope": 640,
+    "clear_cell_length": 1800,
+    "clear_cell_width": 1536,
+    "cell_to_cell_pitch": 2440,
+    "two_cell_module_between_end_support_centres": 4880,
+    "increase_over_3600_reference_module": 1280,
+    "allocated_inner_arcade_strip": 640,
+    "outer_respond_allowance": 250,
+    "outer_wall_thickness": 320,
+    "adjacent_A2_edge_to_outer_wall": 2746,
+    "outward_increase_over_R01_wall_position": 890,
+    "outer_wall_Y_if_A2_edge_anchored": 8175,
+    "notional_east_end_support_X": -16917,
+    "full_three_support_review_extent_X": 5520,
+    "status": "LOCAL_EXPERIMENT_NOT_APPLIED_TO_MASTER_PLAN"
+  }
+]

@@ -1,0 +1,4 @@
+support_envelope,clear_cell_length,clear_cell_width,cell_to_cell_pitch,two_cell_module_between_end_support_centres,increase_over_3600_reference_module,allocated_inner_arcade_strip,outer_respond_allowance,outer_wall_thickness,adjacent_A2_edge_to_outer_wall,outward_increase_over_R01_wall_position,outer_wall_Y_if_A2_edge_anchored,notional_east_end_support_X,full_three_support_review_extent_X,status
+320,1800,1536,2120,4240,640,320,250,320,2426,570,7855,-17557,4560,LOCAL_EXPERIMENT_NOT_APPLIED_TO_MASTER_PLAN
+480,1800,1536,2280,4560,960,480,250,320,2586,730,8015,-17237,5040,LOCAL_EXPERIMENT_NOT_APPLIED_TO_MASTER_PLAN
+640,1800,1536,2440,4880,1280,640,250,320,2746,890,8175,-16917,5520,LOCAL_EXPERIMENT_NOT_APPLIED_TO_MASTER_PLAN

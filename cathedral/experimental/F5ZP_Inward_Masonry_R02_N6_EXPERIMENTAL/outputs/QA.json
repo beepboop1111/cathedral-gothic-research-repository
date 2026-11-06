@@ -1,0 +1,128 @@
+{
+  "result": "PASS",
+  "passed": 30,
+  "total": 30,
+  "checks": [
+    {
+      "check": "320 cell 1 exact retained size",
+      "pass": true
+    },
+    {
+      "check": "320 cell 2 exact retained size",
+      "pass": true
+    },
+    {
+      "check": "320 no positive masonry intrusion",
+      "pass": true
+    },
+    {
+      "check": "320 valid reservations",
+      "pass": true
+    },
+    {
+      "check": "320 shared gap equals one complete support envelope",
+      "pass": true
+    },
+    {
+      "check": "320 west support ends at first cell",
+      "pass": true
+    },
+    {
+      "check": "320 internal support fills middle gap",
+      "pass": true
+    },
+    {
+      "check": "320 wall outside respond allowance",
+      "pass": true
+    },
+    {
+      "check": "320 module counts shared supports once",
+      "pass": true
+    },
+    {
+      "check": "480 cell 1 exact retained size",
+      "pass": true
+    },
+    {
+      "check": "480 cell 2 exact retained size",
+      "pass": true
+    },
+    {
+      "check": "480 no positive masonry intrusion",
+      "pass": true
+    },
+    {
+      "check": "480 valid reservations",
+      "pass": true
+    },
+    {
+      "check": "480 shared gap equals one complete support envelope",
+      "pass": true
+    },
+    {
+      "check": "480 west support ends at first cell",
+      "pass": true
+    },
+    {
+      "check": "480 internal support fills middle gap",
+      "pass": true
+    },
+    {
+      "check": "480 wall outside respond allowance",
+      "pass": true
+    },
+    {
+      "check": "480 module counts shared supports once",
+      "pass": true
+    },
+    {
+      "check": "640 cell 1 exact retained size",
+      "pass": true
+    },
+    {
+      "check": "640 cell 2 exact retained size",
+      "pass": true
+    },
+    {
+      "check": "640 no positive masonry intrusion",
+      "pass": true
+    },
+    {
+      "check": "640 valid reservations",
+      "pass": true
+    },
+    {
+      "check": "640 shared gap equals one complete support envelope",
+      "pass": true
+    },
+    {
+      "check": "640 west support ends at first cell",
+      "pass": true
+    },
+    {
+      "check": "640 internal support fills middle gap",
+      "pass": true
+    },
+    {
+      "check": "640 wall outside respond allowance",
+      "pass": true
+    },
+    {
+      "check": "640 module counts shared supports once",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged",
+      "pass": true
+    },
+    {
+      "check": "exported feature count",
+      "pass": true
+    },
+    {
+      "check": "exported geometry round trip",
+      "pass": true
+    }
+  ],
+  "validation_scope": "technical and 2D rectangular reservation geometry only; no architectural/historical/structural approval"
+}
