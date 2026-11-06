@@ -1,0 +1,20 @@
+{
+  "status": "R17_GLB_READBACK_PASS",
+  "file": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/outputs/R17_BUILD_027_OPEN_INTRADOS_1TO1.glb",
+  "mesh_count": 1,
+  "triangles": 65536,
+  "scene_world_axis_bounds": [
+    [
+      -1200.0,
+      3000.0,
+      -1200.0
+    ],
+    [
+      1200.0,
+      4319.630859375,
+      1200.0
+    ]
+  ],
+  "real_world_scale_not_normalized": true,
+  "open_intrados_expected": true
+}
