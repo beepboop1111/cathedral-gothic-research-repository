@@ -1,0 +1,78 @@
+{
+  "revision": "F5ZP_R14_TYPE_A_RETAINED_TYPE_B_FROM_USER_STROKE_EXPERIMENTAL",
+  "source_R13_directory": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_APSE_R13_TWO_CONNECTION_TYPES_EXPERIMENTAL",
+  "source_R13_generator_sha256": "ec61ce05fe00a3887506b6bfc3fa2848af0e19c58ba17de3d831c6a9cb21fff7",
+  "source_R13_blend_sha256": "1713a00150067921c6308edaa068befcf2ce05affb29582989edd502b589b0c3",
+  "source_R13_config_sha256": "d32266bc09211c3c1439a314e8d72363364919d67aa42c718177b3625940e6da",
+  "source_marked_user_file": "Sector_05_Draw_Red_Line(1).png",
+  "source_image_sha256": "4af754705830af5510eca74bb05e5255dfd550bad9c14f2802cfd50df73deaff",
+  "user_fitted_257point_curve_csv_sha256": "363654f421b6e6c0199fd8d11f2b74cea568f7b587b3e4447daaa4b597fa810b",
+  "source_image_resolution": [
+    2048,
+    1284
+  ],
+  "original_template_resolution": [
+    2200,
+    1380
+  ],
+  "original_anchor_A_px": [
+    450,
+    702
+  ],
+  "original_anchor_B_px": [
+    1710,
+    702
+  ],
+  "native_units_per_template_pixel": 0.35714285714285715,
+  "source_red_line_fitting": "bright red per-x median centerline, Gaussian smoothing (sigma 3 pixels), 4 C1 cubic Hermite intervals; original endpoints snapped exactly to Z4296",
+  "fit_RMS_native": 0.5895248447378003,
+  "sector_05_C1_knots_s": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "sector_05_C1_knots_Z": [
+    4296,
+    4327.916441112841,
+    4337.1348464619505,
+    4326.542784908244,
+    4296
+  ],
+  "sector_05_C1_knots_dZds": [
+    248.06776980122208,
+    81.46028109874591,
+    -2.5264549333594396e-12,
+    -93.9238990076537,
+    -145.07386279752617
+  ],
+  "sector_05_peak_Z": 4337.1348464619505,
+  "sector_05_arch_apex": [
+    33400,
+    0,
+    4296
+  ],
+  "sector_05_crown": [
+    33850,
+    0,
+    4296
+  ],
+  "sector_05_plan_length_native": 450,
+  "protected_type_A_sectors": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "new_type_B_sector": 5,
+  "original_arches_groins_floorplan_and_boss_Z": 4296,
+  "provisional_haunch_cap_Z": 4341,
+  "Type_A_roof_cap_conflict_unresolved": true,
+  "Type_B_meridian_cap_clearance_native": 3.865153538049526,
+  "whole_ap_se_mesh_status": "intentional OPEN intrados, five Type A bays still exceed provisional flat cap",
+  "approval_status": "experimental Type B user-drawn shape, no architectural/roof structural promotion"
+}
+
+[executed on device: MR.COMPUTER (c5066a3f-7c79-446e-8649-efbb75d9e7d4)]
