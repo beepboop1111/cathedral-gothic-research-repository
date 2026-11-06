@@ -1,0 +1,331 @@
+{
+  "checkpoint": {
+    "parameters": {
+      "revision": "R05_N2_N9_RESERVATION_LAYOUT",
+      "status": "EXPERIMENTAL_LOCAL_COORDINATES",
+      "source_sha256": "389caec4d2deee00bc53f8dda8b2f428aa32b0e219a54ac7da9737638344f001",
+      "source": "F5ZE_GLOBAL_COORDINATES.json, already recovered",
+      "parent_commit": "31b9791074d43696e28aed5fe37bee55745466e8",
+      "selected_ordinary_reservation": 320,
+      "selected_major_X": 640,
+      "selected_major_Y": 320,
+      "selected_rule": "All masonry, shafts and bases outside full reserved vault spaces",
+      "user_acceptance": "yes proceed, following the R04 640-major / 320-ordinary comparison",
+      "main_width": 5866,
+      "aisle_widths": [
+        1152,
+        1344,
+        1536
+      ],
+      "bay_depths": {
+        "N2": 3672,
+        "N3": 3600,
+        "N4": 3600,
+        "N5": 3600,
+        "N6": 3600,
+        "N7": 3600,
+        "N8": 3744,
+        "N9": 3888
+      },
+      "outer_respond": 250,
+      "outer_wall": 320,
+      "outer_allowances_status": "Retained study assumptions",
+      "scope": "N2-N9 only; local major-station origin 0, not a moved master-plan datum",
+      "profiles_investigated": false,
+      "source_models_modified": false
+    },
+    "bay_schedule": [
+      {
+        "bay": "N2",
+        "clear_main_length": 3672,
+        "clear_lower_length": 1836,
+        "station_west": 0,
+        "station_east": 4312,
+        "pitch": 4312,
+        "intermediate_station": 2156,
+        "main_clear_X": [
+          320,
+          3992
+        ],
+        "lower_clear_X": [
+          [
+            160,
+            1996
+          ],
+          [
+            2316,
+            4152
+          ]
+        ]
+      },
+      {
+        "bay": "N3",
+        "clear_main_length": 3600,
+        "clear_lower_length": 1800,
+        "station_west": 4312,
+        "station_east": 8552,
+        "pitch": 4240,
+        "intermediate_station": 6432,
+        "main_clear_X": [
+          4632,
+          8232
+        ],
+        "lower_clear_X": [
+          [
+            4472,
+            6272
+          ],
+          [
+            6592,
+            8392
+          ]
+        ]
+      },
+      {
+        "bay": "N4",
+        "clear_main_length": 3600,
+        "clear_lower_length": 1800,
+        "station_west": 8552,
+        "station_east": 12792,
+        "pitch": 4240,
+        "intermediate_station": 10672,
+        "main_clear_X": [
+          8872,
+          12472
+        ],
+        "lower_clear_X": [
+          [
+            8712,
+            10512
+          ],
+          [
+            10832,
+            12632
+          ]
+        ]
+      },
+      {
+        "bay": "N5",
+        "clear_main_length": 3600,
+        "clear_lower_length": 1800,
+        "station_west": 12792,
+        "station_east": 17032,
+        "pitch": 4240,
+        "intermediate_station": 14912,
+        "main_clear_X": [
+          13112,
+          16712
+        ],
+        "lower_clear_X": [
+          [
+            12952,
+            14752
+          ],
+          [
+            15072,
+            16872
+          ]
+        ]
+      },
+      {
+        "bay": "N6",
+        "clear_main_length": 3600,
+        "clear_lower_length": 1800,
+        "station_west": 17032,
+        "station_east": 21272,
+        "pitch": 4240,
+        "intermediate_station": 19152,
+        "main_clear_X": [
+          17352,
+          20952
+        ],
+        "lower_clear_X": [
+          [
+            17192,
+            18992
+          ],
+          [
+            19312,
+            21112
+          ]
+        ]
+      },
+      {
+        "bay": "N7",
+        "clear_main_length": 3600,
+        "clear_lower_length": 1800,
+        "station_west": 21272,
+        "station_east": 25512,
+        "pitch": 4240,
+        "intermediate_station": 23392,
+        "main_clear_X": [
+          21592,
+          25192
+        ],
+        "lower_clear_X": [
+          [
+            21432,
+            23232
+          ],
+          [
+            23552,
+            25352
+          ]
+        ]
+      },
+      {
+        "bay": "N8",
+        "clear_main_length": 3744,
+        "clear_lower_length": 1872,
+        "station_west": 25512,
+        "station_east": 29896,
+        "pitch": 4384,
+        "intermediate_station": 27704,
+        "main_clear_X": [
+          25832,
+          29576
+        ],
+        "lower_clear_X": [
+          [
+            25672,
+            27544
+          ],
+          [
+            27864,
+            29736
+          ]
+        ]
+      },
+      {
+        "bay": "N9",
+        "clear_main_length": 3888,
+        "clear_lower_length": 1944,
+        "station_west": 29896,
+        "station_east": 34424,
+        "pitch": 4528,
+        "intermediate_station": 32160,
+        "main_clear_X": [
+          30216,
+          34104
+        ],
+        "lower_clear_X": [
+          [
+            30056,
+            32000
+          ],
+          [
+            32320,
+            34264
+          ]
+        ]
+      }
+    ],
+    "transverse_bands": [
+      {
+        "row": 1,
+        "support_low": 2933,
+        "support_high": 3253,
+        "clear_low": 3253,
+        "clear_high": 4405,
+        "width": 1152
+      },
+      {
+        "row": 2,
+        "support_low": 4405,
+        "support_high": 4725,
+        "clear_low": 4725,
+        "clear_high": 6069,
+        "width": 1344
+      },
+      {
+        "row": 3,
+        "support_low": 6069,
+        "support_high": 6389,
+        "clear_low": 6389,
+        "clear_high": 7925,
+        "width": 1536
+      }
+    ],
+    "measurements": {
+      "reference_clear_lengths_sum": 29304,
+      "repeating_station_chain_length": 34424,
+      "added_station_chain_length": 5120,
+      "growth_percent": 17.472017472017473,
+      "full_support_review_extent_X": 35064,
+      "outside_width": 16990,
+      "clear_reservations": 104,
+      "masonry_reservations": 138
+    },
+    "QA": {
+      "result": "PASS",
+      "checks": [
+        {
+          "check": "104 clear vault reservations",
+          "pass": true
+        },
+        {
+          "check": "8 main / 96 lower",
+          "pass": true
+        },
+        {
+          "check": "all exact original clear dimensions",
+          "pass": true
+        },
+        {
+          "check": "no masonry consumes clear reservation area",
+          "pass": true,
+          "area": 0
+        },
+        {
+          "check": "all polygons valid",
+          "pass": true
+        },
+        {
+          "check": "unique stable IDs",
+          "pass": true
+        },
+        {
+          "check": "18 major reservations",
+          "pass": true
+        },
+        {
+          "check": "84 ordinary reservations",
+          "pass": true
+        },
+        {
+          "check": "34 outer respond allowances",
+          "pass": true
+        },
+        {
+          "check": "shared major stations counted once",
+          "pass": true
+        },
+        {
+          "check": "both rhythms match in every bay",
+          "pass": true
+        },
+        {
+          "check": "every adjacent bay shares one station",
+          "pass": true
+        },
+        {
+          "check": "transverse outside width unchanged from R03",
+          "pass": true
+        },
+        {
+          "check": "length chain",
+          "pass": true
+        }
+      ]
+    },
+    "limits": [
+      "No global/master-plan registration or propagation",
+      "N1 westwork, N10 crossing approach, exceptional chapels and buttresses excluded",
+      "No profiles, physical bearings or structural capacity assessed",
+      "250 outer respond and 320 wall remain working allowances",
+      "F5ZL-C support schedule unresolved"
+    ]
+  },
+  "generator": "\"\"\"Regular nave reservation layout. No profiles and no source-model writes.\"\"\"\nfrom pathlib import Path\nimport json, hashlib, zipfile, xml.etree.ElementTree as ET\nimport matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\nfrom matplotlib.patches import Rectangle\nfrom shapely.geometry import box,mapping,shape\nfrom shapely.ops import unary_union\n\nR=Path(__file__).resolve().parent;P=R/'PARAMETERS.json'\nif P.exists():c=json.loads(P.read_text())\nelse:\n    p=R.parent/'F5ZP_Inward_Masonry_R02_N6_EXPERIMENTAL/inputs/F5ZE_GLOBAL_COORDINATES.json'\n    raw=p.read_bytes();g=json.loads(raw)\n    c={'revision':'R05_N2_N9_RESERVATION_LAYOUT','status':'EXPERIMENTAL_LOCAL_COORDINATES',\n       'source_sha256':hashlib.sha256(raw).hexdigest(),'source':'F5ZE_GLOBAL_COORDINATES.json, already recovered',\n       'parent_commit':'31b9791074d43696e28aed5fe37bee55745466e8',\n       'selected_ordinary_reservation':320,'selected_major_X':640,'selected_major_Y':320,\n       'selected_rule':'All masonry, shafts and bases outside full reserved vault spaces',\n       'user_acceptance':'yes proceed, following the R04 640-major / 320-ordinary comparison',\n       'main_width':2*g['radial_bands']['R0'],'aisle_widths':g['radial_band_widths'],\n       'bay_depths':{f'N{i+1}':v for i,v in enumerate(g['nave']['depths']) if 1<=i<=8},\n       'outer_respond':250,'outer_wall':320,'outer_allowances_status':'Retained study assumptions',\n       'scope':'N2-N9 only; local major-station origin 0, not a moved master-plan datum',\n       'profiles_investigated':False,'source_models_modified':False}\n    P.write_text(json.dumps(c,indent=2)+'\\n')\ns=c['selected_ordinary_reservation'];major=c['selected_major_X'];h=c['main_width']/2\nassert (s,major,c['selected_major_Y'])==(320,640,320)\nbands=[];y=h\nfor i,w in enumerate(c['aisle_widths'],1):\n    bands.append({'row':i,'support_low':y,'support_high':y+s,'clear_low':y+s,'clear_high':y+s+w,'width':w});y+=s+w\nouter_clear=y;respond_outer=y+c['outer_respond'];outside=respond_outer+c['outer_wall']\nstations=[0];schedule=[]\nfor name,d in c['bay_depths'].items():\n    a=stations[-1];pitch=d+major;b=a+pitch;stations.append(b)\n    schedule.append({'bay':name,'clear_main_length':d,'clear_lower_length':d/2,'station_west':a,'station_east':b,\n                     'pitch':pitch,'intermediate_station':a+d/2+s,'main_clear_X':[a+major/2,b-major/2],\n                     'lower_clear_X':[[a+s/2,a+s/2+d/2],[a+d/2+1.5*s,b-s/2]]})\nall_lower_stations=sorted(stations+[a['intermediate_station'] for a in schedule])\nfeatures=[]\ndef add(name,g,role,**kw):features.append({'type':'Feature','properties':{'id':name,'role':role,**kw},'geometry':mapping(g)})\nfor a in schedule:\n    add(a['bay']+'_MAIN',box(a['main_clear_X'][0],-h,a['main_clear_X'][1],h),'CLEAR',bay=a['bay'],expected_X=a['clear_main_length'],expected_Y=2*h)\n    for side,sign in [('N',1),('S',-1)]:\n        for b in bands:\n            lo,hi=(b['clear_low'],b['clear_high']) if sign==1 else (-b['clear_high'],-b['clear_low'])\n            for j,(x0,x1) in enumerate(a['lower_clear_X'],1):\n                add(f\"{a['bay']}_{side}_A{b['row']}_{j}\",box(x0,lo,x1,hi),'CLEAR',bay=a['bay'],expected_X=a['clear_lower_length'],expected_Y=b['width'])\nfor side,sign in [('N',1),('S',-1)]:\n    for b in bands:\n        lo,hi=(b['support_low'],b['support_high']) if sign==1 else (-b['support_high'],-b['support_low'])\n        for i,x in enumerate(all_lower_stations):\n            is_major=b['row']==1 and x in stations\n            width=major if is_major else s\n            add(f\"{side}_ROW{b['row']}_NODE{i}\",box(x-width/2,lo,x+width/2,hi),'MAJOR_RESERVATION' if is_major else 'ORDINARY_RESERVATION')\n    lo,hi=(outer_clear,respond_outer) if sign==1 else (-respond_outer,-outer_clear)\n    for i,x in enumerate(all_lower_stations):add(f'{side}_RESPOND_{i}',box(x-s/2,lo,x+s/2,hi),'RESPOND_ALLOWANCE')\n    lo,hi=(respond_outer,outside) if sign==1 else (-outside,-respond_outer)\n    add(side+'_WALL',box(-major/2,lo,stations[-1]+major/2,hi),'WALL_ALLOWANCE')\ntests=[]\ndef check(name,ok,**kw):tests.append({'check':name,'pass':bool(ok),**kw})\nclear=[f for f in features if f['properties']['role']=='CLEAR'];stone=[f for f in features if f['properties']['role']!='CLEAR']\ncheck('104 clear vault reservations',len(clear)==104)\ncheck('8 main / 96 lower',sum(f['properties']['id'].endswith('_MAIN') for f in clear)==8)\ncheck('all exact original clear dimensions',all(shape(f['geometry']).bounds[2]-shape(f['geometry']).bounds[0]==f['properties']['expected_X'] and shape(f['geometry']).bounds[3]-shape(f['geometry']).bounds[1]==f['properties']['expected_Y'] for f in clear))\nintrusion=unary_union([shape(f['geometry']) for f in clear]).intersection(unary_union([shape(f['geometry']) for f in stone])).area\ncheck('no masonry consumes clear reservation area',intrusion==0,area=intrusion)\ncheck('all polygons valid',all(shape(f['geometry']).is_valid for f in features))\ncheck('unique stable IDs',len({f['properties']['id'] for f in features})==len(features))\ncheck('18 major reservations',sum(f['properties']['role']=='MAJOR_RESERVATION' for f in features)==18)\ncheck('84 ordinary reservations',sum(f['properties']['role']=='ORDINARY_RESERVATION' for f in features)==84)\ncheck('34 outer respond allowances',sum(f['properties']['role']=='RESPOND_ALLOWANCE' for f in features)==34)\ncheck('shared major stations counted once',len(stations)==9 and len(all_lower_stations)==17)\ncheck('both rhythms match in every bay',all(a['pitch']==a['clear_main_length']+major==2*(a['clear_lower_length']+s) for a in schedule))\ncheck('every adjacent bay shares one station',all(a['station_east']==b['station_west'] for a,b in zip(schedule[:-1],schedule[1:])))\ncheck('transverse outside width unchanged from R03',2*outside==16990)\nbase=sum(c['bay_depths'].values());delta=len(schedule)*major\ncheck('length chain',stations[-1]==base+delta)\nreport={'parameters':c,'bay_schedule':schedule,'transverse_bands':bands,\n        'measurements':{'reference_clear_lengths_sum':base,'repeating_station_chain_length':stations[-1],\n                        'added_station_chain_length':delta,'growth_percent':100*delta/base,\n                        'full_support_review_extent_X':stations[-1]+major,'outside_width':2*outside,\n                        'clear_reservations':len(clear),'masonry_reservations':len(stone)},\n        'geometry':{'type':'FeatureCollection','coordinate_system':'local native XY; X east, Y north; not geodetic','features':features},\n        'QA':{'result':'PASS' if all(t['pass'] for t in tests) else 'FAIL','checks':tests},\n        'limits':['No global/master-plan registration or propagation','N1 westwork, N10 crossing approach, exceptional chapels and buttresses excluded','No profiles, physical bearings or structural capacity assessed','250 outer respond and 320 wall remain working allowances','F5ZL-C support schedule unresolved']}\nassert report['QA']['result']=='PASS'\n(R/'CHECKPOINT.json').write_text(json.dumps(report,indent=2)+'\\n')\nassert json.loads((R/'CHECKPOINT.json').read_text())==json.loads(json.dumps(report))\nplt.rcParams.update({'font.family':'DejaVu Sans','font.size':9})\nfig=plt.figure(figsize=(16,10.5));ax=fig.add_axes([.05,.20,.92,.66])\nfig.text(.045,.945,'REGULAR NAVE N2–N9  /  SELECTED MASONRY RESERVATIONS',fontsize=17,weight='bold')\nfig.text(.045,.90,'640 × 320 major junctions; 320 × 320 ordinary supports. Every clear vault rectangle keeps its original size.',fontsize=11)\ncolors={'CLEAR':'#e1edf4','MAJOR_RESERVATION':'#d3ad72','ORDINARY_RESERVATION':'#ead1a8','RESPOND_ALLOWANCE':'#f2e5d1','WALL_ALLOWANCE':'#bfa77e'}\nfor f in features:\n    x,y,x2,y2=shape(f['geometry']).bounds;role=f['properties']['role'];isclear=role=='CLEAR'\n    ax.add_patch(Rectangle((x,y),x2-x,y2-y,facecolor=colors[role],edgecolor='#263138' if isclear else '#b43c36',lw=.5,ls='-' if isclear else '--'))\nfor a in schedule:\n    mid=(a['station_west']+a['station_east'])/2\n    ax.text(mid,0,f\"{a['bay']}\\n{a['clear_main_length']} clear\\n{a['pitch']} pitch\",ha='center',va='center',fontsize=8)\n    ax.plot([a['station_west']]*2,[-outside-200,outside+200],color='#81898c',ls='--',lw=.4)\n    ax.text(mid,outside+700,f\"2 × {a['clear_lower_length']:g}\",ha='center',fontsize=8)\nfor side,sign in [('N',1),('S',-1)]:\n    for b in bands:ax.text(-750,sign*(b['clear_low']+b['clear_high'])/2,f\"{side} A{b['row']}\\n{b['width']}\",ha='right',va='center',fontsize=8)\nax.annotate('',xy=(0,-outside-1100),xytext=(stations[-1],-outside-1100),arrowprops={'arrowstyle':'|-|','lw':.8})\nax.text(stations[-1]/2,-outside-1000,f\"{stations[-1]:,} between terminal major-station axes\",ha='center',va='bottom',fontsize=10)\nax.set(xlim=(-2300,stations[-1]+700),ylim=(-outside-1800,outside+1600),aspect='equal');ax.axis('off')\nfig.text(.045,.135,f\"104 clear vault reservations checked • 16,990 outside transverse allocation • +{delta:,} added along the eight-bay station chain\",fontsize=10,weight='bold')\nfig.text(.045,.085,'Tan/red dashed areas reserve masonry space; they are not finished pier shapes. Full terminal supports are shown and are shared with future adjacent work.\\nLocal coordinates only: the westwork, N10 transition, crossing and existing cathedral models have not been moved.',fontsize=9,linespacing=1.6)\nfig.text(.045,.025,'EXPERIMENTAL ASSEMBLY • No profiles investigated. Geometric clearance checks do not establish structural capacity.',fontsize=9,color='#b43c36')\nfig.savefig(R/'R05_NAVE_RESERVATIONS.png',dpi=160);plt.close(fig)\nroot=ET.Element('svg',{'xmlns':'http://www.w3.org/2000/svg','viewBox':f'-1000 {-outside-500} {stations[-1]+2000} {2*outside+1000}','width':'1800','height':'900','data-units':'1 SVG user unit = 1 native project unit'})\nET.SubElement(root,'title').text='N2-N9 reservation assembly; experimental local coordinates'\ngrp=ET.SubElement(root,'g',{'transform':'scale(1,-1)'})\nfor f in features:\n    x,y,x2,y2=shape(f['geometry']).bounds;role=f['properties']['role']\n    at={'id':f['properties']['id'],'x':str(x),'y':str(y),'width':str(x2-x),'height':str(y2-y),'fill':colors[role],\n        'stroke':'#263138' if role=='CLEAR' else '#b43c36','stroke-width':'1','vector-effect':'non-scaling-stroke'}\n    if role!='CLEAR':at['stroke-dasharray']='6 4'\n    ET.SubElement(grp,'rect',at)\nET.ElementTree(root).write(R/'R05_NAVE_NATIVE.svg',encoding='unicode',xml_declaration=True)\nET.parse(R/'R05_NAVE_NATIVE.svg')\nprint(json.dumps({'measurements':report['measurements'],'checks':len(tests),'result':report['QA']['result']},indent=2))\n",
+  "readme": "# R05 — regular nave reservation assembly N2–N9\n\nThe user accepted R04's 640-long ×320-transverse major junction reservation, while ordinary intermediate reservations stay 320×320. This records an accepted **space-allocation choice**, not a completed or structurally validated pier. No profiles are investigated.\n\n## Bounded extension\n\nEight regular nave bays use their recovered F5ZE clear lengths: N2 3672; N3–N7 3600 each; N8 3744; N9 3888. Each lower aisle uses two clear cells of half its parent bay length. Six aisle rows retain widths 1152 / 1344 / 1536, mirrored north/south; the main vessel remains 5866 wide. The user-selected rule keeps all masonry, shafts and bases outside these full clear reservations. Original source grids did not independently certify those dimensions as finished floor clearances; that interpretation is the accepted instruction for this experiment.\n\nEach major pitch is `main clear length + 640 = 2 × (lower clear length + 320)`. Distinct clear-space corner points on opposite faces of major junctions retain the R04 160 longitudinal offset. Only the main/A1 interface needs the long 640 major reservation. The other lower-aisle support rows retain 320-long reservations at all nodes. Shared junctions are generated once per row and station.\n\nThe two retained outer allowances are 250 for the respond/base projection and 320 for the perimeter wall; neither has been measured from a fitted profile. Outside transverse allocation stays **16990** from R03. Those assumptions remain visibly separate from the selected ordinary/major reservations.\n\n## Results\n\nThere are **8 main + 96 lower = 104 clear rectangles**, **18 major** and **84 ordinary** support reservations, **34 outer respond** allowances and **2 wall** bands. Every clear rectangle retains its original dimensions. No positive-area masonry intrusion occurs.\n\nSum of source clear bay lengths: **29304**. New repeating major-axis chain: **34424**, adding **5120** across eight bays (17.472%); this is not a new whole-cathedral length. The complete terminal support review extent is **35064**, because the full outer halves of both terminal major reservations are shown. These are distinct measurements.\n\nThe layout uses a local major-axis origin of zero. It is **not registered to or saved over the master cathedral**. No existing vault object or approved coordinate is translated. The 104 rectangles are new reservation proxies, not regenerated meshes. F5ZK-C/F5ZN-A, the 14 saved ambulatory vaults, working generators, Pass 6J and V13 originals remain untouched. F5ZL-C supports remain unresolved.\n\nN1 westwork, N10 crossing approach, exceptional chapels, inhabited buttresses and exterior buttresses are not integrated here. Existing attachment coordinates are not silently carried onto the expanded grid. Choir, transept and curved chevet are outside this extension. End conditions are unvalidated.\n\n## QA and reproduction\n\nThe script checks clear dimensions and counts; unique IDs; polygon validity; zero positive-area masonry intrusion; shared station counting; exact main/lower pitch equality in every bay; transverse/longitudinal totals; saved JSON round trip and native SVG parsing. Inspect the PNG separately. These are technical and local geometric checks, not architectural approval, historical reconstruction or structural assessment. Future springing contacts, bearings and connections remain unproved.\n\nReuses the already recovered F5ZE coordinate file from R02; its hash and R04 parent checkpoint commit are recorded in PARAMETERS.json. No new archive or historical research was needed. Master Reference was read earlier in this ongoing inward-development workflow and remains provisional. Reproduce with `python build_nave.py` (matplotlib, shapely); after PARAMETERS.json is present, the package is self-contained. Native SVG: one SVG user unit per project unit, X east/Y north. Physical SI conversion remains unresolved.\n\nNext bounded task: a plan-only N10/crossing-approach coordination study, retaining its original high-vault size and its distinct lower-cell/junction topology. Do not assume that the ordinary two-half-cell rule applies at that special junction. Pause to review the junction before extending this grid into the crossing.\n"
+}
