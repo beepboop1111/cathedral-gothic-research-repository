@@ -1,0 +1,600 @@
+{
+  "status": "EXPERIMENTAL_GEOMETRIC_PASS",
+  "skeleton": {
+    "status": "PASS",
+    "vault_count": 15,
+    "arch_components": 38,
+    "shared_registry": {
+      "n1_0:n1_1": [
+        "V01",
+        "V02"
+      ],
+      "n0_1:n1_1": [
+        "V01",
+        "V06"
+      ],
+      "n2_0:n2_1": [
+        "V02",
+        "V03"
+      ],
+      "n1_1:n2_1": [
+        "V02",
+        "V07"
+      ],
+      "n3_0:n3_1": [
+        "V03",
+        "V04"
+      ],
+      "n2_1:n3_1": [
+        "V03",
+        "V08"
+      ],
+      "n4_0:n4_1": [
+        "V04",
+        "V05"
+      ],
+      "n3_1:n4_1": [
+        "V04",
+        "V09"
+      ],
+      "n4_1:n5_1": [
+        "V05",
+        "V10"
+      ],
+      "n1_1:n1_2": [
+        "V06",
+        "V07"
+      ],
+      "n0_2:n1_2": [
+        "V06",
+        "V11"
+      ],
+      "n2_1:n2_2": [
+        "V07",
+        "V08"
+      ],
+      "n1_2:n2_2": [
+        "V07",
+        "V12"
+      ],
+      "n3_1:n3_2": [
+        "V08",
+        "V09"
+      ],
+      "n2_2:n3_2": [
+        "V08",
+        "V13"
+      ],
+      "n4_1:n4_2": [
+        "V09",
+        "V10"
+      ],
+      "n3_2:n4_2": [
+        "V09",
+        "V14"
+      ],
+      "n4_2:n5_2": [
+        "V10",
+        "V15"
+      ],
+      "n1_2:n1_3": [
+        "V11",
+        "V12"
+      ],
+      "n2_2:n2_3": [
+        "V12",
+        "V13"
+      ],
+      "n3_2:n3_3": [
+        "V13",
+        "V14"
+      ],
+      "n4_2:n4_3": [
+        "V14",
+        "V15"
+      ]
+    },
+    "endpoint_residual": 0.0,
+    "boss_residual": 0.0,
+    "unexpected_centerline_collisions": [],
+    "intended_node_junctions": 446,
+    "nonincident_projected_crossings": 0,
+    "minimum_crossing_Z_separation": null,
+    "skeleton_samples_per_component": 129,
+    "validation_before_any_web": true,
+    "plan_partition": {
+      "pair_count": 105,
+      "maximum_interior_overlap": 4.547473508864641e-13,
+      "method": "Convex separating axes; all web triangles must have positive signed XY area"
+    }
+  },
+  "webs": {
+    "V01": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 200.7368523149886,
+      "minimum_signed_XY_area": 185.76564610221283,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1150,
+      "boss": [
+        488.6213909833629,
+        463.63591984867605,
+        1150
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V02": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 209.13664442490054,
+      "minimum_signed_XY_area": 179.4708928720753,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1195,
+      "boss": [
+        1424.5124626161303,
+        476.1637389331512,
+        1195
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V03": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 202.99363150851983,
+      "minimum_signed_XY_area": 183.74851732523985,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1240,
+      "boss": [
+        2306.6704827674157,
+        471.53356615012285,
+        1240
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V04": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 225.43932367938535,
+      "minimum_signed_XY_area": 189.7988209766748,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1285,
+      "boss": [
+        3191.459205031491,
+        460.5134831886425,
+        1285
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V05": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 250.18730534675956,
+      "minimum_signed_XY_area": 211.13615654222232,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1330,
+      "boss": [
+        4119.985160233771,
+        453.4404567174268,
+        1330
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V06": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 216.64881377833765,
+      "minimum_signed_XY_area": 184.62939679149113,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1240,
+      "boss": [
+        512.7548940054911,
+        1329.9398751894255,
+        1240
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V07": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 211.2225428960014,
+      "minimum_signed_XY_area": 172.8416837969331,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1285,
+      "boss": [
+        1402.4550311616445,
+        1351.912507868491,
+        1285
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V08": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 229.78343133629443,
+      "minimum_signed_XY_area": 192.10218719385514,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1330,
+      "boss": [
+        2271.661470053779,
+        1364.0040629565915,
+        1330
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V09": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 193.65548367157353,
+      "minimum_signed_XY_area": 175.6796236302548,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1150,
+      "boss": [
+        3184.30882315261,
+        1364.6565117891428,
+        1150
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V10": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 206.65286846500155,
+      "minimum_signed_XY_area": 196.08659364901746,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1195,
+      "boss": [
+        4138.920916333072,
+        1362.1534365661494,
+        1195
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V11": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 227.56505710789972,
+      "minimum_signed_XY_area": 186.34402920380143,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1330,
+      "boss": [
+        498.30749785449615,
+        2220.039592588039,
+        1330
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V12": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 196.96450068889985,
+      "minimum_signed_XY_area": 190.99764135850972,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1150,
+      "boss": [
+        1359.6657730403203,
+        2229.0395207472384,
+        1150
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V13": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 213.60913914613005,
+      "minimum_signed_XY_area": 197.381424303602,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1195,
+      "boss": [
+        2252.7386398054705,
+        2243.04471318799,
+        1195
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V14": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 215.2404299015717,
+      "minimum_signed_XY_area": 191.88149563481826,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1240,
+      "boss": [
+        3204.7265923618675,
+        2251.3394904391307,
+        1240
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    },
+    "V15": {
+      "residuals_native": {
+        "arch": 0.0,
+        "groin": 0.0,
+        "groin_seam": 0.0,
+        "boss": 0.0,
+        "meridian": 0.0
+      },
+      "vertices": 2113,
+      "triangles": 4096,
+      "Euler": 1,
+      "boundary_edges": 128,
+      "minimum_triangle_area": 219.4683875338095,
+      "minimum_signed_XY_area": 189.8572104605807,
+      "mesh_interface_stations": 33,
+      "peak_Z": 1285,
+      "boss": [
+        4166.010229062848,
+        2254.151507779088,
+        1285
+      ],
+      "peak_above_boss": 0,
+      "self_intersection": "Excluded by positive XY triangle Jacobians and convex fan partition; open height field"
+    }
+  },
+  "actual_float32_arch_residual_native": 0.00024732061740681023,
+  "matched_shared_mesh_stations": 726,
+  "shared_mesh_neighbor_gap_native": 0.0,
+  "reused_webs": [],
+  "generated_webs": [
+    "V01",
+    "V02",
+    "V03",
+    "V04",
+    "V05",
+    "V06",
+    "V07",
+    "V08",
+    "V09",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15"
+  ],
+  "divisions": 32,
+  "triangles": 61440,
+  "elapsed_seconds": 1.161855990998447,
+  "technical": "Build passed; fresh session and GLB checks recorded separately",
+  "geometric": "Open surfaces: convex disjoint plans, positive XY triangle areas, disk topology, skeleton and sampled mesh interfaces",
+  "architectural": "Synthetic test only; not approved cathedral set-out",
+  "historical": "R12B normalized meridian lineage only; new network not historically validated",
+  "structural": "NOT ASSESSED; no thickness, loads, roofs or neighboring cathedral solids",
+  "F5ZL_C": "UNRESOLVED",
+  "regression": {
+    "no_op_reused": 15,
+    "one_crown_edit_regenerated": [
+      "V01"
+    ],
+    "unaffected_meshes_reused": 14,
+    "invalid_crown_preserved_last_valid_meshes": true,
+    "restoration_exact": true,
+    "shared_arch_rigid_translation_max_residual": 4.547473508864641e-13,
+    "source_hashes_unchanged": true,
+    "UI_crown_edit_reused_14_unaffected_webs": true
+  },
+  "fresh_session": {
+    "loaded_all_15_webs": true,
+    "sidebar_registered": true,
+    "automatic_update_callback_scheduled": true,
+    "automatic_rejection_kept_last_valid_meshes": true,
+    "GLB_readback": {
+      "V01": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V02": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V03": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V04": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V05": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V06": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V07": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V08": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V09": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V10": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V11": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V12": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V13": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V14": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      },
+      "V15": {
+        "bounds_error": 0.0,
+        "missing_vertex_positions": 0,
+        "triangles": 4096
+      }
+    },
+    "saved_geometry_not_regenerated": true,
+    "protected_hashes_unchanged": true
+  }
+}
