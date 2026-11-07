@@ -1,0 +1,42 @@
+{
+  "status": "GEOMETRIC QA PASS \u2014 ARCHITECTURAL PROPORTIONS FOR REVIEW ONLY",
+  "sources_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R18": "420619045472dd3e6fca1ff1f82fdad28cff6ef8e39fd474f7e49a0c1eda4894"
+  },
+  "A_B_geometry_identical": true,
+  "preserved_vault_clear_polygons": 218,
+  "preserved_option_B_passages": 7,
+  "preserved_R18_references": 22,
+  "no_area_intrusions": true,
+  "source_files_unchanged": true,
+  "main_axis_x": 4505,
+  "aisle_axis_x": 4480,
+  "historic_major_x_range": [
+    3925,
+    4725
+  ],
+  "east_remaining_x_range": [
+    4725,
+    5085
+  ],
+  "historic_east_shared_contact_length": 320,
+  "visual_width_x": 235,
+  "visual_left_margin_at_aisle": 142.5,
+  "visual_right_margin_at_aisle": 92.5,
+  "197_y_band_allows_x_width_235_annotation": true,
+  "197_y_band_allows_235_diameter_circle": false,
+  "321_y_band_allows_235_diameter_circle": true,
+  "circular_respond_design_is_only_a_hypothetical_fit_test": true,
+  "historical_validation": false,
+  "architectural_validation": false,
+  "structural_validation": false,
+  "unresolved": [
+    "197 native units in Y constrain any future circular 235-diameter respond; no circular respond has been specified.",
+    "235 is a visual X emphasis, not an approved pier diameter or minimum structure.",
+    "R18 has four separate junction groups per side; openings separate them.",
+    "Original x3925..4725 major footprint remains asymmetrical about organizing axis x4505.",
+    "F5ZL-C support schedule absent; physical conversion, arch springings, load paths unresolved."
+  ]
+}
