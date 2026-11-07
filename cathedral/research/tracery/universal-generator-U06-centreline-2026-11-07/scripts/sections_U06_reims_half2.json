@@ -1,0 +1,971 @@
+{
+ "reims_nave_aisle_N11_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_aisle_N12_N15_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_aisle_N16_N17_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_aisle_N18_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_aisle_N19_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_clerestory_C10_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_clerestory_C11n_C15n_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_clerestory_C11s_C15s_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_clerestory_C16n_C17n_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_clerestory_C16s_C17s_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_clerestory_C18n_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_clerestory_C18s_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_clerestory_C19n_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_nave_clerestory_C19s_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_transept_aisle_N10_2_w_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_transept_aisle_S10_2_w_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_transept_aisle_S10_2_s_U06": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ }
+}

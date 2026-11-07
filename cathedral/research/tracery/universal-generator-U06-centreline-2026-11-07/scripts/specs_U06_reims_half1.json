@@ -1,0 +1,304 @@
+[
+ {
+  "id": "reims_chevet_U06",
+  "type": "centreline",
+  "title": "Reims chevet: general rule, survey median of C1_e, C1_ne, C1_se, N5_3_n, N4_3_e, N5_3_ne, N5_3_nw, S4_3_e, S4_3_se, S5_3_s, S5_3_sw (Hillson ADS 2024)",
+  "units": "mm from the trace's dashed line, axis at 0 (bars, sill, depth TRIAL)",
+  "tolerance": 0.5,
+  "centrelines": {
+   "rule": "general",
+   "params": {
+    "axis": 0,
+    "span": 2888.7,
+    "apex": 4356.9,
+    "f": 1.01222,
+    "light_span": 1399.8,
+    "mullion_gap": 23.8,
+    "spring": -38.8,
+    "lancet_r": 1200.8,
+    "oculus_z": 2079.2
+   }
+  },
+  "bars": {
+   "main": 220,
+   "light": 180,
+   "oculus": 180
+  },
+  "sill": -1500,
+  "sill_band": 250,
+  "spandrels": "pierced",
+  "fork_fill": 30,
+  "section": {
+   "depth": 300,
+   "chamfer": 40
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 2,
+   "oculus": 1
+  }
+ },
+ {
+  "id": "reims_choir_aisle_blind_N6e_U06",
+  "type": "centreline",
+  "title": "Reims choir aisle blind N6e: general rule, survey median of N6_e (Hillson ADS 2024)",
+  "units": "mm from the trace's dashed line, axis at 0 (bars, sill, depth TRIAL)",
+  "tolerance": 0.5,
+  "centrelines": {
+   "rule": "general",
+   "params": {
+    "axis": 0,
+    "span": 4947.8,
+    "apex": 4478.1,
+    "f": 0.93109,
+    "light_span": 2305.0,
+    "mullion_gap": 45.0,
+    "spring": 148.4,
+    "lancet_r": 2177.3,
+    "oculus_z": 2803.4
+   }
+  },
+  "bars": {
+   "main": 352,
+   "light": 288,
+   "oculus": 288
+  },
+  "sill": -1500,
+  "sill_band": 250,
+  "spandrels": "pierced",
+  "fork_fill": 30,
+  "section": {
+   "depth": 300,
+   "chamfer": 40
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 2,
+   "oculus": 1
+  }
+ },
+ {
+  "id": "reims_choir_aisle_N6n_U06",
+  "type": "centreline",
+  "title": "Reims choir aisle N6n: general rule, survey median of N6_n (Hillson ADS 2024)",
+  "units": "mm from the trace's dashed line, axis at 0 (bars, sill, depth TRIAL)",
+  "tolerance": 0.5,
+  "centrelines": {
+   "rule": "general",
+   "params": {
+    "axis": 0,
+    "span": 3441.4,
+    "apex": 4514.5,
+    "f": 0.98777,
+    "light_span": 1516.9,
+    "mullion_gap": 55.6,
+    "spring": 43.1,
+    "lancet_r": 1513.1,
+    "oculus_z": 2417.5
+   }
+  },
+  "bars": {
+   "main": 261,
+   "light": 214,
+   "oculus": 214
+  },
+  "sill": -1500,
+  "sill_band": 250,
+  "spandrels": "pierced",
+  "fork_fill": 30,
+  "section": {
+   "depth": 300,
+   "chamfer": 40
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 2,
+   "oculus": 1
+  }
+ },
+ {
+  "id": "reims_choir_clerestory_C6n_U06",
+  "type": "centreline",
+  "title": "Reims choir clerestory C6n: general rule, survey median of C6_n (Hillson ADS 2024)",
+  "units": "mm from the trace's dashed line, axis at 0 (bars, sill, depth TRIAL)",
+  "tolerance": 0.5,
+  "centrelines": {
+   "rule": "general",
+   "params": {
+    "axis": 0,
+    "span": 4814.7,
+    "apex": 6649.7,
+    "f": 1.0741,
+    "light_span": 2294.3,
+    "mullion_gap": 71.7,
+    "spring": 29.2,
+    "lancet_r": 2033.7,
+    "oculus_z": 3477.1
+   }
+  },
+  "bars": {
+   "main": 352,
+   "light": 288,
+   "oculus": 288
+  },
+  "sill": -1500,
+  "sill_band": 250,
+  "spandrels": "pierced",
+  "fork_fill": 30,
+  "section": {
+   "depth": 300,
+   "chamfer": 40
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 2,
+   "oculus": 1
+  }
+ },
+ {
+  "id": "reims_choir_clerestory_C7_U06",
+  "type": "centreline",
+  "title": "Reims choir clerestory C7: general rule, survey median of C7_n, C7_s (Hillson ADS 2024)",
+  "units": "mm from the trace's dashed line, axis at 0 (bars, sill, depth TRIAL)",
+  "tolerance": 0.5,
+  "centrelines": {
+   "rule": "general",
+   "params": {
+    "axis": 0,
+    "span": 6090.5,
+    "apex": 6474.8,
+    "f": 0.93075,
+    "light_span": 2872.8,
+    "mullion_gap": 94.0,
+    "spring": 144.7,
+    "lancet_r": 2332.9,
+    "oculus_z": 3762.9
+   }
+  },
+  "bars": {
+   "main": 352,
+   "light": 288,
+   "oculus": 288
+  },
+  "sill": -1500,
+  "sill_band": 250,
+  "spandrels": "pierced",
+  "fork_fill": 30,
+  "section": {
+   "depth": 300,
+   "chamfer": 40
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 2,
+   "oculus": 1
+  }
+ },
+ {
+  "id": "reims_choir_clerestory_C8_U06",
+  "type": "centreline",
+  "title": "Reims choir clerestory C8: general rule, survey median of C8_n, C8_s (Hillson ADS 2024)",
+  "units": "mm from the trace's dashed line, axis at 0 (bars, sill, depth TRIAL)",
+  "tolerance": 0.5,
+  "centrelines": {
+   "rule": "general",
+   "params": {
+    "axis": 0,
+    "span": 7721.1,
+    "apex": 6376.0,
+    "f": 0.98367,
+    "light_span": 3426.9,
+    "mullion_gap": 392.8,
+    "spring": 15.2,
+    "lancet_r": 2833.1,
+    "oculus_z": 3761.4
+   }
+  },
+  "bars": {
+   "main": 352,
+   "light": 288,
+   "oculus": 288,
+   "mullion": 681
+  },
+  "sill": -1500,
+  "sill_band": 250,
+  "spandrels": "pierced",
+  "fork_fill": 30,
+  "section": {
+   "depth": 300,
+   "chamfer": 40
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 2,
+   "oculus": 1
+  }
+ },
+ {
+  "id": "reims_transept_aisle_S82s_U06",
+  "type": "centreline",
+  "title": "Reims transept aisle S82s: general rule, survey median of S8_2_s (Hillson ADS 2024)",
+  "units": "mm from the trace's dashed line, axis at 0 (bars, sill, depth TRIAL)",
+  "tolerance": 0.5,
+  "centrelines": {
+   "rule": "general",
+   "params": {
+    "axis": 0,
+    "span": 4637.7,
+    "apex": 4771.7,
+    "f": 1.14801,
+    "light_span": 2075.5,
+    "mullion_gap": 23.8,
+    "spring": 114.2,
+    "lancet_r": 1671.6,
+    "oculus_z": 2644.5
+   }
+  },
+  "bars": {
+   "main": 352,
+   "light": 288,
+   "oculus": 288
+  },
+  "sill": -1500,
+  "sill_band": 250,
+  "spandrels": "pierced",
+  "fork_fill": 30,
+  "section": {
+   "depth": 300,
+   "chamfer": 40
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 2,
+   "oculus": 1
+  }
+ }
+]

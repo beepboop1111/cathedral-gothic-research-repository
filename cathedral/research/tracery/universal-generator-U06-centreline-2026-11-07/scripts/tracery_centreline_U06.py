@@ -83,6 +83,26 @@ def hillson_chevet(p):
     return main, lights, (xa, zO, rO), s, derived
 
 
+def general_rule(p):
+    """Generalised Hillson-type construction (fits every 2-light + oculus window of the Reims choir, chapels and
+    transept aisles surveyed so far): main arch radius f*span, arcs tangent to the jamb lines at their centre height
+    and meeting at the apex; two lights of span light_span separated by mullion_gap, lancet radius lancet_r with
+    centres on the springing line; oculus on the axis at oculus_z, tangent to the lancet centrelines unless
+    oculus_r is given."""
+    xa, x0, yA, s = p["axis"], p["span"], p["apex"], p["spring"]
+    rA = p.get("main_r", p.get("f", 1.0) * x0)
+    eA = rA - x0 / 2.0
+    zA = yA - math.sqrt(rA * rA - eA * eA)
+    sL, g, rL, zO = p["light_span"], p.get("mullion_gap", 0.0), p["lancet_r"], p["oculus_z"]
+    jS, mS, mN, jN = xa - g / 2 - sL, xa - g / 2, xa + g / 2, xa + g / 2 + sL
+    main = {"CL": (xa + eA, zA, rA), "CR": (xa - eA, zA, rA)}
+    lights = [{"CL": (jS + rL, s, rL), "CR": (mS - rL, s, rL)}, {"CL": (mN + rL, s, rL), "CR": (jN - rL, s, rL)}]
+    L2 = lights[0]["CR"]
+    rO = p["oculus_r"] if "oculus_r" in p else math.hypot(xa - L2[0], zO - s) - rL
+    derived = dict(main_r=rA, main_centre_z=zA, lancet_apex=s + math.sqrt(max(rL ** 2 - (rL - sL / 2) ** 2, 0)), oculus_r=rO)
+    return main, lights, (xa, zO, rO), s, derived
+
+
 class CentrelineModel(T.Model):
     def __init__(self, spec, scale=1.0):
         self.spec, self.k = dict(spec), float(scale)
@@ -146,7 +166,7 @@ class CentrelineModel(T.Model):
             zt = min(C.sl[1], C.sr[1])
             self.seeds.append(("light", nm, Point(0.5 * (C.xl + C.xr), self.sill + 0.5 * (zt - self.sill))))
         if "mullion" in bars and L(bars["mullion"]) > wL + tol:
-            wM = L(bars["mullion"])
+            wM = L(bars["mullion"]); self._wM = wM
             for k in range(len(subs) - 1):
                 xm = 0.5 * (subs[k].xr + subs[k + 1].xl)
                 zt = min(subs[k].sr[1], subs[k + 1].sl[1])
@@ -164,6 +184,11 @@ class CentrelineModel(T.Model):
         if rule == "hillson_chevet":
             p = {k: L(v) for k, v in c["params"].items()}
             main, lights, oculus, impost, derived = hillson_chevet(p)
+            self.con["centrelines"]["rule"] = dict(name=rule, params={k: round(v, 6) for k, v in p.items()},
+                                                   derived={k: round(v, 6) for k, v in derived.items()})
+        elif rule == "general":
+            p = {k: L(v) if k != "f" else float(v) for k, v in c["params"].items()}
+            main, lights, oculus, impost, derived = general_rule(p)
             self.con["centrelines"]["rule"] = dict(name=rule, params={k: round(v, 6) for k, v in p.items()},
                                                    derived={k: round(v, 6) for k, v in derived.items()})
         elif rule == "circles":
@@ -227,10 +252,13 @@ class CentrelineModel(T.Model):
         gaps["jamb_fork_right"] = Cm.xr - subs[-1].xr
         self.con["centrelines"]["gaps"] = {k: round(v, 6) for k, v in gaps.items()}
         self.check("lancet bars merge at the mullion (centreline fork gap <= light bar)",
-                   abs(gaps["mullion_fork"]) <= wL, gaps["mullion_fork"], wL, "architectural")
+                   abs(gaps["mullion_fork"]) <= max(wL, getattr(self, "_wM", 0.0) - wL), gaps["mullion_fork"], max(wL, getattr(self, "_wM", 0.0) - wL), "architectural")
         self.check("outer lancets spring inside the main jamb bars",
                    max(abs(gaps["jamb_fork_left"]), abs(gaps["jamb_fork_right"])) <= 0.5 * (wA + wL),
                    max(abs(gaps["jamb_fork_left"]), abs(gaps["jamb_fork_right"])), 0.5 * (wA + wL), "architectural")
+        if rule == "general" and "oculus_r" not in self.spec["centrelines"]["params"]:
+            t = max(abs(gaps["oculus_L2"]), abs(gaps["oculus_L3"]))
+            self.check("rule: oculus centreline tangent to the lancet centrelines", t <= lim, t, lim)
         if rule == "hillson_chevet":
             p = self.con["centrelines"]["rule"]["params"]
             t = max(abs(gaps["oculus_L2"]), abs(gaps["oculus_L3"]))

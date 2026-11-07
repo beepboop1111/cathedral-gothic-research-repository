@@ -314,6 +314,9 @@ class Jointed:
                         out.append(Point(top).buffer(r))
         return out
 
+    def _free_in(self, seg, member_buf, zones):
+        return seg.within(member_buf) and not any(z.intersects(seg) for z in zones)
+
     def _free(self, seg, member_buf):
         return seg.within(member_buf) and not any(z.intersects(seg) for z in self.zones)
 
@@ -322,29 +325,43 @@ class Jointed:
         p = np.array([c.x, c.z])
         return LineString([p + (ri - self.e) * u, p + (ro + self.e) * u])
 
-    def _arch_joints(self, name, left, right, crown, member, region):
+    def _arch_joints(self, name, left, right, crown, member, region, zones=None):
         """Voussoir joints: greedy along the left half (springing -> apex), mirrored by fraction on
         the right half; crown joint if free. left/right = (circle, r_in, r_out, th_from, th_to)."""
         buf = member.buffer(1.5 * self.e)
+        zs = self.zones if zones is None else zones  # U06 opt-in: frame arch may ignore junction keep-outs
         cL, ri, ro, a0, a1 = left
         rm, n = 0.5 * (ri + ro), 600
         stot = abs(a1 - a0) * rm
         last, ts = 0.0, []
         for th in np.linspace(a0, a1, n)[1:-1]:
             sv = abs(th - a0) * rm
-            if sv - last >= 0.9 * self.vous and stot - sv >= self.lmin and self._free(self._radial(cL, ri, ro, th), buf):
+            if sv - last >= 0.9 * self.vous and stot - sv >= self.lmin and self._free_in(self._radial(cL, ri, ro, th), buf, zs):
                 ts.append((th - a0) / (a1 - a0))
                 last = sv
         cR, rri, rro, b0, b1 = right
+        blocked = False
         for t in ts:
             self._add(region, "voussoir", name, self._radial(cL, ri, ro, a0 + t * (a1 - a0)), cL)
             th = b1 + t * (b0 - b1)
             sg = self._radial(cR, rri, rro, th)
-            if self._free(sg, buf):
+            if self._free_in(sg, buf, zs):
                 self._add(region, "voussoir", name, sg, cR)
             else:
+                blocked = True
                 self.notes.append(f"{name}: mirrored joint blocked (asymmetric)")
-        if crown is not None and self._free(crown, buf) and (stot - (ts[-1] * stot if ts else 0)) >= self.lmin:
+        if self.js.get("free_right") and (blocked or not ts):  # U06 opt-in: own greedy pass on the right half
+            self.joints = [j for j in self.joints if not (j["member"] == name and j["kind"] == "voussoir"
+                                                          and j["centre"] == (cR.x, cR.z) and cR is not cL)]
+            rmR = 0.5 * (rri + rro)
+            stR, lastR = abs(b0 - b1) * rmR, 0.0
+            for th in np.linspace(b1, b0, n)[1:-1]:
+                sv = abs(th - b1) * rmR
+                sg = self._radial(cR, rri, rro, th)
+                if sv - lastR >= 0.9 * self.vous and stR - sv >= self.lmin and self._free_in(sg, buf, zs):
+                    self._add(region, "voussoir", name, sg, cR)
+                    lastR = sv
+        if crown is not None and self._free_in(crown, buf, zs) and (stot - (ts[-1] * stot if ts else 0)) >= self.lmin:
             self._add(region, "crown", name, crown, None)
 
     def _add(self, region, kind, name, seg, centre):
@@ -381,10 +398,13 @@ class Jointed:
                                         math.atan2(W.apex[1] - W.CL.z, W.apex[0] - W.CL.x)),
                               (W.CR, W.CR.r, O.CR.r, math.atan2(W.apex[1] - W.CR.z, W.apex[0] - W.CR.x),
                                math.atan2(W.sr[1] - W.CR.z, W.sr[0] - W.CR.x)),
-                              LineString([(W.apex[0], W.apex[1] - e), (O.apex[0], O.apex[1] + e)]), frame, "frame")
+                              LineString([(W.apex[0], W.apex[1] - e), (O.apex[0], O.apex[1] + e)]), frame, "frame",
+                              zones=[] if self.js.get("frame_zone_joints") else None)
             if b0[2] - b0[0] > self.sill_max:
                 fill = m.spec["fill"]
                 nn = int(fill["n"])
+                if self.js.get("sill_split"):
+                    nn = max(nn, math.ceil((b0[2] - b0[0]) / self.sill_max))
                 for k in range(1, nn):
                     x = W.xl + k * (W.xr - W.xl) / nn
                     self._add("frame", "sill", "sill", LineString([(x, b0[1] - e), (x, m.sill + e)]), None)
@@ -406,18 +426,32 @@ class Jointed:
                     if "foil" in c:
                         angs = [math.atan2(l[1] - cz, l[0] - cx) for l in c["foil"]["lobes"]]
                     else:
-                        angs = list(np.linspace(0, 2 * math.pi, 16, endpoint=False))
+                        nr = 16 if not self.js.get("ring_dense") else 8 * max(16, math.ceil(2 * math.pi * rho / self.vous))
+                        angs = list(np.linspace(0, 2 * math.pi, nr, endpoint=False))
                     buf = self.mem[nm + ".ring"]["poly"].buffer(1.5 * e)
+                    if self.js.get("ring_zone_joints"):  # U06 opt-in: ring clipped where it runs along the frame
+                        buf = self.mem[nm + ".ring"]["poly"].union(self.mem["frame"]["poly"]).buffer(1.5 * e)
                     acc = []
-                    for th in sorted(a % (2 * math.pi) for a in angs):
+                    rz = self.js.get("ring_zone_joints")
+                    def rseg(th):
                         sg = self._radial(T.Circle(cx, cz, rho), rho - b, rho, th)
-                        if self._free(sg, buf) and (not acc or (th - acc[-1]) * (rho - b / 2) >= self.lmin):
+                        if not rz:
+                            return sg
+                        lg = self._radial(T.Circle(cx, cz, rho), rho - b, rho + 4 * b, th).intersection(buf)
+                        parts = [p for p in getattr(lg, "geoms", [lg]) if p.geom_type == "LineString" and not p.is_empty]
+                        return min(parts, key=lambda p: p.distance(sg)) if parts else sg
+                    for th in sorted(a % (2 * math.pi) for a in angs):
+                        sg = rseg(th)
+                        gap = self.lmin if not (self.js.get("ring_dense") and "foil" not in c) else 0.9 * self.vous
+                        if self._free_in(sg, buf, [] if self.js.get("ring_zone_joints") else self.zones) and (not acc or (th - acc[-1]) * (rho - b / 2) >= gap):
                             acc.append(th)
                     if len(acc) > 1 and (acc[0] + 2 * math.pi - acc[-1]) * (rho - b / 2) < self.lmin:
                         acc.pop()
                     for th in acc:
-                        self._add("tracery", "ring", nm, self._radial(T.Circle(cx, cz, rho), rho - b, rho, th),
-                                  T.Circle(cx, cz, rho))
+                        sg = rseg(th)
+                        self._add("tracery", "ring", nm, sg, T.Circle(cx, cz, rho))
+                        if rz and sg.length > b + 3 * e:  # cut the fused frame strip too
+                            self._add("frame", "voussoir", "frame", sg, T.Circle(cx, cz, rho))
                 elif "centre_line" in c:  # intersecting arc: radial joints from its foot upward
                     cc = T.Circle(*c["centre_line"])
                     b = c["band"]
