@@ -30,3 +30,5 @@ Black continuous = supported traced contours; gray dashed = construction; red da
 
 ## Protected boundaries
 No modifications to F5ZK-C, F5ZN-A, working inner/middle ambulatory generator, Pass 6J, QF-001 approved construction or historical scans. F5ZL-C support schedule remains unresolved. Experimental construction is not automatically approved.
+
+- `universal-generator-U06-centreline-2026-11-07/` — U06 centreline mode (EXPERIMENTAL): tracery laid out on interdos centrelines (Hillson rule or survey circles), run through unchanged U01-U03; Reims chevet-chapel windows from Hillson, ADS 2024.

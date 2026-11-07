@@ -1,0 +1,173 @@
+{
+ "reims_n53n_hillson_figure": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_c1e_hillson_fit": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "reims_c1e_survey": {
+  "note": "TRIAL sections copied from bar_2light_sexfoil; no Reims section data",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ }
+}

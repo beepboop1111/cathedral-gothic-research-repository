@@ -1,0 +1,157 @@
+[
+ {
+  "id": "reims_n53n_hillson_figure",
+  "type": "centreline",
+  "title": "Reims N5.3.n (chevet chapel): Hillson's published construction, his figure's numbers",
+  "units": "mm, Hillson's datum (bars, sill, depth TRIAL)",
+  "centrelines": {
+   "rule": "hillson_chevet",
+   "params": {
+    "axis": 0,
+    "span": 2796,
+    "apex": 4535,
+    "spring": 107,
+    "oculus_z": 2268
+   }
+  },
+  "tolerance": 0.5,
+  "bars": {
+   "main": 220,
+   "light": 180,
+   "oculus": 180
+  },
+  "sill": -1500,
+  "sill_band": 250,
+  "spandrels": "pierced",
+  "fork_fill": 30,
+  "section": {
+   "depth": 300,
+   "chamfer": 40
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 2,
+   "oculus": 1
+  }
+ },
+ {
+  "id": "reims_c1e_hillson_fit",
+  "type": "centreline",
+  "title": "Reims C1.e (axial chapel): Hillson's construction fitted to his survey (5 values)",
+  "units": "mm from the trace's dashed line, axis at 0 (bars, sill, depth TRIAL)",
+  "centrelines": {
+   "rule": "hillson_chevet",
+   "params": {
+    "axis": 0,
+    "span": 2891.8,
+    "apex": 4350.0,
+    "spring": -173.6,
+    "oculus_z": 2028.2
+   }
+  },
+  "tolerance": 0.5,
+  "bars": {
+   "main": 220,
+   "light": 180,
+   "oculus": 180
+  },
+  "sill": -1500,
+  "sill_band": 250,
+  "spandrels": "pierced",
+  "fork_fill": 30,
+  "section": {
+   "depth": 300,
+   "chamfer": 40
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 2,
+   "oculus": 1
+  }
+ },
+ {
+  "id": "reims_c1e_survey",
+  "type": "centreline",
+  "title": "Reims C1.e (axial chapel): surveyed centreline circles (Hillson, ADS 2024), free fits",
+  "units": "mm from the trace's dashed line, x from the fitted Hillson axis (bars, sill, depth TRIAL)",
+  "centrelines": {
+   "rule": "circles",
+   "source": "Hillson, Windows on the Past (ADS 2024), trace C1.e; 102 markers",
+   "impost": 0,
+   "main": {
+    "CL": [
+     1667.2,
+     1634.0,
+     3193.8
+    ],
+    "CR": [
+     -1512.3,
+     1794.7,
+     2970.9
+    ]
+   },
+   "lights": [
+    {
+     "CL": [
+      -101.5,
+      -296.1,
+      1399.1
+     ],
+     "CR": [
+      -1145.4,
+      -126.0,
+      1154.6
+     ]
+    },
+    {
+     "CL": [
+      1338.8,
+      -154.2,
+      1311.4
+     ],
+     "CR": [
+      213.0,
+      -168.9,
+      1219.0
+     ]
+    }
+   ],
+   "oculus": [
+    6.4,
+    2018.9,
+    1287.8
+   ]
+  },
+  "tolerance": 0.5,
+  "bars": {
+   "main": 220,
+   "light": 180,
+   "oculus": 180
+  },
+  "sill": -1500,
+  "sill_band": 250,
+  "spandrels": "pierced",
+  "fork_fill": 30,
+  "section": {
+   "depth": 300,
+   "chamfer": 40
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 2,
+   "oculus": 1
+  }
+ }
+]

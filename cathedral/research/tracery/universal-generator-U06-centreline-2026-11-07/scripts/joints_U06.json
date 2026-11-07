@@ -1,0 +1,35 @@
+{
+ "reims_n53n_hillson_figure": {
+  "note": "TRIAL, from bar_2light_sexfoil with shorter voussoirs and junction keep-out = 1.0 x narrower bar: the copied values (520 / 220 / 1.6) left 3.1-3.4 m stones where forked bars merge",
+  "joint_width": 6,
+  "course": 420,
+  "voussoir": 360,
+  "min_block": 180,
+  "keepout": 120,
+  "sill_max": 2400,
+  "max_block": 2500,
+  "keepout_factor": 1.0
+ },
+ "reims_c1e_hillson_fit": {
+  "note": "TRIAL, from bar_2light_sexfoil with shorter voussoirs and junction keep-out = 1.0 x narrower bar: the copied values (520 / 220 / 1.6) left 3.1-3.4 m stones where forked bars merge",
+  "joint_width": 6,
+  "course": 420,
+  "voussoir": 360,
+  "min_block": 180,
+  "keepout": 120,
+  "sill_max": 2400,
+  "max_block": 2500,
+  "keepout_factor": 1.0
+ },
+ "reims_c1e_survey": {
+  "note": "TRIAL, from bar_2light_sexfoil with shorter voussoirs and junction keep-out = 1.0 x narrower bar: the copied values (520 / 220 / 1.6) left 3.1-3.4 m stones where forked bars merge",
+  "joint_width": 6,
+  "course": 420,
+  "voussoir": 360,
+  "min_block": 180,
+  "keepout": 120,
+  "sill_max": 2400,
+  "max_block": 2500,
+  "keepout_factor": 1.0
+ }
+}
