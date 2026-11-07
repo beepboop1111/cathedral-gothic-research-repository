@@ -1,0 +1,127 @@
+{
+  "status": "R18 COORDINATED 2D STUDY ONLY; ARCHITECTURAL AND STRUCTURAL APPROVAL PENDING",
+  "source_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R16": "d7ecdb297bf234c9d4a5e401f6297f76053e4d3335a52e0de750baf4c7111486",
+    "R17": "ebeab0f1b23d072556f8c3cff7f4ea7c698ba2bc756cd13c6fcd83f777367823"
+  },
+  "R11_unchanged": true,
+  "R13_B_unchanged": true,
+  "R16_14_source_strips_unchanged": true,
+  "R17_8_source_regions_unchanged": true,
+  "features_in_integrated_set": 22,
+  "integrated_area": 3079720.0,
+  "north_south_group_geometry": {
+    "N": {
+      "geometry": "MultiPolygon",
+      "separate_junction_blocks": 4
+    },
+    "S": {
+      "geometry": "MultiPolygon",
+      "separate_junction_blocks": 4
+    }
+  },
+  "all_connection_lengths_positive": true,
+  "connection_count": 16,
+  "positive_area_overlaps_between_annotated_features": 0,
+  "overlap_pairs": [],
+  "narrowness_is_geometric_not_structural": true,
+  "bridge_sections": [
+    {
+      "side": "N",
+      "region": "N_MAJOR_ORIGINAL_800",
+      "x_span": 800.0,
+      "y_span": 320.0,
+      "total_area": 256000.0,
+      "min_bbox_dimension": 320.0,
+      "remark": "Original 800 and east 360 preserve main-axis 4505 reference"
+    },
+    {
+      "side": "N",
+      "region": "N_EAST_360",
+      "x_span": 360.0,
+      "y_span": 320.0,
+      "total_area": 115200.0,
+      "min_bbox_dimension": 320.0,
+      "remark": "Original 800 and east 360 preserve main-axis 4505 reference"
+    },
+    {
+      "side": "N",
+      "region": "N_A1_TO_A2",
+      "x_span": 470.0,
+      "y_span": 197.0,
+      "total_area": 92590.0,
+      "min_bbox_dimension": 197.0,
+      "remark": "197-unit A1-A2 existing narrow band"
+    },
+    {
+      "side": "N",
+      "region": "N_A2_TO_A3",
+      "x_span": 470.0,
+      "y_span": 321.0,
+      "total_area": 150870.0,
+      "min_bbox_dimension": 321.0,
+      "remark": "321-unit effective Q1-A2/A3 stagger, not general 292 schedule"
+    },
+    {
+      "side": "S",
+      "region": "S_MAJOR_ORIGINAL_800",
+      "x_span": 800.0,
+      "y_span": 320.0,
+      "total_area": 256000.0,
+      "min_bbox_dimension": 320.0,
+      "remark": "Original 800 and east 360 preserve main-axis 4505 reference"
+    },
+    {
+      "side": "S",
+      "region": "S_EAST_360",
+      "x_span": 360.0,
+      "y_span": 320.0,
+      "total_area": 115200.0,
+      "min_bbox_dimension": 320.0,
+      "remark": "Original 800 and east 360 preserve main-axis 4505 reference"
+    },
+    {
+      "side": "S",
+      "region": "S_A1_TO_A2",
+      "x_span": 470.0,
+      "y_span": 197.0,
+      "total_area": 92590.0,
+      "min_bbox_dimension": 197.0,
+      "remark": "197-unit A1-A2 existing narrow band"
+    },
+    {
+      "side": "S",
+      "region": "S_A2_TO_A3",
+      "x_span": 470.0,
+      "y_span": 321.0,
+      "total_area": 150870.0,
+      "min_bbox_dimension": 321.0,
+      "remark": "321-unit effective Q1-A2/A3 stagger, not general 292 schedule"
+    }
+  ],
+  "visual_emphasis": {
+    "x0": 4387.5,
+    "x1": 4622.5,
+    "width": 235.0,
+    "center_x": 4505,
+    "aisle_center_x": 4480,
+    "center_offset_to_aisle_x": 25,
+    "extends_to_west_of_aisle_center": 92.5,
+    "extends_to_east_of_aisle_center": 142.5,
+    "overlap_current_integrated_reservation_area": 1070660.0,
+    "status": "NON_STRUCTURAL_GRAPHIC_ONLY"
+  },
+  "no_intrusion_into_vaults_or_B_openings": true,
+  "issues": [
+    "Each side has FOUR separate masonry junction blocks in this extracted contact-reference layer, separated by retained opening clear spaces; no continuous chain of solid bearing faces across all aisle rows is claimed.",
+    "Original major rectangle and east continuation are distinct annotations within R11 reserved masonry; not a certified joint.",
+    "A1-A2 bridge is 197 native units; no safe structural threshold established.",
+    "A2-A3 effective bridge is 321 at this staggered junction rather than standard 292.",
+    "235-unit facing is an organizing graphic, not a supported pier width.",
+    "R16 face contacts are planar only; no springing, arch elevations, courses or masonry bonding.",
+    "Q1-Q2 aisle axis remains 25 units west of main separator reference.",
+    "F5ZL-C support schedule remains unresolved."
+  ]
+}
