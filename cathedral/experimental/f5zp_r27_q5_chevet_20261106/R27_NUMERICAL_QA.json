@@ -1,0 +1,58 @@
+{
+  "status": "R27 TECHNICAL AND 2D GEOMETRIC CHECKS PASS; AXIAL AND OPEN-PASSAGE ARCHITECTURE UNRESOLVED",
+  "source_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R26": "7b80281d6fb744c2fb956d5e58b22444a7d5558c2c1c424226469114c652517f",
+    "R24_APPROVAL": "507d66119b8f42cdb4a2843b835a67422268a1dd161fc498f92017827cf765ab"
+  },
+  "source_files_unchanged": true,
+  "approved_baseline_protected": true,
+  "original_chevet_inner_bay_count_in_R11": 7,
+  "original_chevet_middle_bay_count_in_R11": 7,
+  "original_chevet_T_ring_bay_count_in_R11": 7,
+  "note": "R11 currently carries seven T-ring polygon records; does NOT certify completion of separately discussed paired 14-vault lower outer rhythm.",
+  "chevet_bay_identity_and_geometry_unchanged": true,
+  "choir_and_chevet_masonry_union_connected": true,
+  "geometric_source_masonry_shared_face_length": 9699.259396,
+  "source_masonry_common_seam_y_ranges": [
+    [
+      -7782.629698,
+      -2933.0
+    ],
+    [
+      2933.0,
+      7782.629698
+    ]
+  ],
+  "number_of_vault_pair_2D_reserved_masonry_bridges": 6,
+  "all_six_bridge_regions_inside_existing_union_masonry": true,
+  "each_bridge_touches_original_Q5_and_corresponding_chevet_vault_face": true,
+  "all_protected_vault_spaces_and_existing_R13_passages_unchanged": true,
+  "main_Q5_east_vault_face_X": 19893,
+  "choir_masonry_terminal_east_X": 20213,
+  "central_terminal_masonry_depth_X": 320,
+  "unpierced_centerline_masonry_band_between_X": [
+    19893,
+    20213
+  ],
+  "chevet_masonry_continues_on_centerline_from_X": 23081.906913,
+  "axial_unclassified_centerline_between_masonry_regions": 2868.906913,
+  "no_axial_opening_defined": true,
+  "A1_A2_A3_actual_open_passages_not_yet_defined": true,
+  "structural_support_capacity_verified": false,
+  "validation": {
+    "technical": "PASS: original inputs hashed; output ZIP checked; reproducible generated figures",
+    "geometric": "PASS: six 2D face connectors non-overlapping with clear vaults and inside reserved masonry; seam measured",
+    "architectural": "INCOMPLETE: six connections are solid masonry reservations, not designed passages; main axial opening is unpierced",
+    "historical": "NOT ASSESSED: no new vault or source plate interpretation",
+    "structural": "NOT ASSESSED: no live supports, thrust or bearing capacity"
+  },
+  "open_items": [
+    "The actual axial passage through existing 320-thick terminal band requires separate design approval.",
+    "Six side masonry connectors would require proportioned architectural openings and receiving geometry before being described as passages.",
+    "F5ZL-C support schedule remains missing.",
+    "Outer paired 14-vault rhythm is not established by seven T-ring polygons in the current saved R11 source.",
+    "Q5\u2013chevet ring geometry and approved source authority have not been modified."
+  ]
+}
