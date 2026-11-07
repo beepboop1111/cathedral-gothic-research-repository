@@ -1,0 +1,41 @@
+{
+  "status": "R25 2D TECHNICAL AND GEOMETRIC CHECKS PASS; NEW CHOIR TAPER STUDY NOT APPROVED",
+  "input_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R23": "a185cbf5c792494f19a655ac0a5ca5c37ad4422399751da36b999e4dae2c9ba2",
+    "R24": "77f981e08d36d0a7c44bc5c520327f3179759e8577ef29bf7e7f6597d873aab6"
+  },
+  "protected_vaults_unchanged": 218,
+  "R13_B_passages_unchanged": 7,
+  "R24_Option_A_approval_scope": "2D visual proportions only, Q1\u2013Q2",
+  "Q1_Q2_approved_visual_axis_X": 4505,
+  "Q1_Q2_visual_depth_X": 960,
+  "actual_face_gap_X": 1160,
+  "Q2_Q5_separator_centers_X": [
+    9089,
+    13065,
+    16753
+  ],
+  "Q2_Q5_original_main_masonry_depth_X": 520,
+  "Q2_Q5_original_aisle_masonry_depth_X": 270,
+  "measured_in_plan_gaps": 21,
+  "experimental_transition_faces": 6,
+  "all_regions_within_existing_masonry": true,
+  "no_protected_vault_clashes": true,
+  "no_R13_entrance_intrusions": true,
+  "all_27_features_geometrically_valid": true,
+  "no_source_model_modified": true,
+  "new_choir_visual_transitions_approved": false,
+  "technical_validation": "Pass: programmatic source, export and regression checks",
+  "geometric_validation": "Pass: vertical face intervals, nonzero edge contact, available masonry",
+  "architectural_validation": "R24 visual arrangement user approved; Q2\u2013Q5 new tapers pending review",
+  "historical_validation": "No historical construction verified",
+  "structural_validation": "No pier capacity or load path verified",
+  "unresolved": [
+    "F5ZL-C support schedule missing",
+    "R24 visual-facing approval is not approval of a physical 960-wide pier",
+    "Q2\u2013Q5 tapers are review annotations and do not replace actual wall masonry",
+    "Q5 to curved chevet interface not assessed in R25"
+  ]
+}
