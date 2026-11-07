@@ -1,0 +1,60 @@
+{
+  "classification": "USER_CONFIRMED_ARCHITECTURAL_INTENT",
+  "model_source_sha256": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+  "chancel_polygonal_face_count": 7,
+  "chancel_inner_face_vertices": [
+    [
+      20238.594929,
+      -2932.88832
+    ],
+    [
+      21567.308683,
+      -2601.602774
+    ],
+    [
+      22570.712172,
+      -1744.615234
+    ],
+    [
+      23081.906913,
+      -609.804989
+    ],
+    [
+      23081.906913,
+      609.804989
+    ],
+    [
+      22570.712172,
+      1744.615234
+    ],
+    [
+      21567.308683,
+      2601.602774
+    ],
+    [
+      20238.594929,
+      2932.88832
+    ]
+  ],
+  "axial_sanctuary_to_inner_wall_x": [
+    23081.906913,
+    23401.906913
+  ],
+  "confirmed_centerline_wall_depth": 320,
+  "v11_clear_vault_polygon_count": 218,
+  "ring_bays_in_R11": {
+    "I": 7,
+    "M": 7,
+    "T": 7
+  },
+  "superseded_interpretations": [
+    "R27 seven walls/doorways",
+    "R28 trial openings",
+    "R29 open through all ambulatory boundaries"
+  ],
+  "preserved_approvals": [
+    "R24 Option A Q1\u2013Q2 visual proportions only"
+  ],
+  "geometric_status": "verified from source",
+  "structural_status": "unverified"
+}
