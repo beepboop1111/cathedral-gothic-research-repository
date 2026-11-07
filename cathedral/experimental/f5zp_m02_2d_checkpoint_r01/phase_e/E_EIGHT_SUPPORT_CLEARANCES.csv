@@ -1,0 +1,9 @@
+junction,source,protected_clearance_native,finite_chancel_wall_contact_native,physically_approved_pier
+END_S,Phase B R03 moderate visual only,140.02099,[179.97621],False
+C1,Phase B R03 moderate visual only,140.01542,"[179.97621, 179.97707]",False
+C2,Phase B R03 moderate visual only,140.00098,"[179.97707, 179.9942]",False
+C3,Phase B R03 moderate visual only,140.0,"[179.9942, 180.0002]",False
+C4,Phase B R03 moderate visual only,140.0,"[180.0002, 179.9942]",False
+C5,Phase B R03 moderate visual only,140.00098,"[179.9942, 179.97707]",False
+C6,Phase B R03 moderate visual only,140.01542,"[179.97707, 179.97621]",False
+END_N,Phase B R03 moderate visual only,140.02099,[179.97621],False
