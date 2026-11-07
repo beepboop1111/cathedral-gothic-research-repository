@@ -1,0 +1,30 @@
+{
+  "status": "R20 EXPERIMENTAL 2D CENTRAL OPENING STUDY",
+  "sources_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f"
+  },
+  "all_source_geometry_unchanged": true,
+  "vault_polygons_unchanged": 218,
+  "six_aisle_openings_identical_to_R13_B": true,
+  "main_opening_width_in_plan_Y_original": 5146,
+  "main_opening_width_in_plan_Y_trial": 4000,
+  "main_opening_depth_in_plan_X_unchanged": 1160,
+  "main_clear_reduction": 1146,
+  "main_side_end_masonry_original_each": 360,
+  "main_side_end_masonry_trial_each": 933,
+  "main_masonry_added_to_end_each": 573,
+  "masonry_return_area_total": 1329360.0,
+  "trial_main_fits_R11_masonry": true,
+  "new_void_intersects_clear_vaults_area": 0.0,
+  "main_axis_x": 4505,
+  "architectural_approval": false,
+  "structural_validation": false,
+  "historical_validation": false,
+  "limitations": [
+    "Proportions and visual dominance still require architectural review.",
+    "R16/R17 prior measured main jamb lengths 360 refer to R13 B. R20 has 933 reserved at each end; do not silently relabel old physical bearing checks.",
+    "No arch heights, springing, masonry bonding or loading were assessed.",
+    "R11, R13 and all earlier experimental outputs remain unchanged."
+  ]
+}
