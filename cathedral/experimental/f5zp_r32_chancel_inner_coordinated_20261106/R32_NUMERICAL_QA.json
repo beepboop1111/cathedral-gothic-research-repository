@@ -1,0 +1,56 @@
+{
+  "checkpoint": "R32 chancel first-wall to seven inner ambulatory bay coordination",
+  "baseline": "R11 vault polygons, R31 open interior, R30 user-confirmed intent",
+  "input_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R30": "93b005de5d228405f67513e6abc24e2658315dad12464f491c7288c6e8a3737b",
+    "R31": "553f3a168a52ba1dea183425af436d4319bae2f25bd40878789a44a37d668e86",
+    "R29B": "a512fb7b1537204e7da04138404f8df27da1214eab9ed2b0969462c7df876d34"
+  },
+  "source_unchanged": true,
+  "R11_vault_count": 218,
+  "seven_chancel_faces_confirmed": true,
+  "matched_source_inner_ambulatory_vaults": 7,
+  "all_seven_source_face_separations_perpendicular_native": 320,
+  "source_face_and_vault_inner_edge_lengths_identical": true,
+  "source_wall_band_polygons_inside_R11_chevet_masonry": true,
+  "face_end_condition": [
+    "I_A7 and I_A1 source face offset endpoints include ~39.3 units tangent slip; direct vertex-to-vertex connector is 322.4, but perpendicular band remains 320",
+    "Five interior faces have 320 unit perpendicular and endpoint displacement"
+  ],
+  "intermediate_inner_polygon_corner_count": 6,
+  "offset_vault_face_junction_chord_gaps_native": [
+    185.15249,
+    139.884189,
+    134.428916,
+    134.428916,
+    139.884189,
+    185.15249
+  ],
+  "geometric_triangle_source_masonry_outside_areas": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "end_connections_to_straight_choir_supports_unresolved": 2,
+  "architectural_scope": "User's confirmed seven-faced open sanctuary, physical first 320 wall boundary, protected I ring seven vaults",
+  "new_masonry_created": false,
+  "source_support_geometry_modified": false,
+  "validation": {
+    "technical": "PASS: file hash regression, CSV, GeoJSON, PNG+SVG parse and ZIP integrity",
+    "geometric": "PASS: seven source-matched vault faces, 320 perpendicular wall strips, measured six corner offsets",
+    "architectural": "Open sanctuary and first boundary user-confirmed; six joint node supports and ends still require coordination",
+    "historical": "NOT assessed",
+    "structural": "NOT assessed; source corner nodes and gaps do not prove piers"
+  },
+  "unresolved": [
+    "6 corner junctions have neighboring vault-face endpoints that do not coincide; no pier footprints authorized.",
+    "2 ends of seven-facet chain need transverse integration with straight choir arcade.",
+    "The working F5ZN-A inner/middle vault generator was not run or replaced.",
+    "F5ZL-C support schedule missing and outer paired 14-bay design unresolved."
+  ],
+  "inner_corner_reference_nodes_not_new_piers": 6
+}
