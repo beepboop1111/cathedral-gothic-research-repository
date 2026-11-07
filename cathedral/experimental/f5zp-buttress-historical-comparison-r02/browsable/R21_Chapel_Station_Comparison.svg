@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1130">
+<rect width="1400" height="1130" fill="white"/>
+<text x="50" y="65" font-size="34" font-family="sans-serif">R21 chapel stations — comparison schematic, NOT surveyed footprint</text>
+<text x="50" y="102" font-size="21" font-family="sans-serif">Reference: world X east / Y north; azimuth clockwise from north. Rings schematic only.</text>
+<circle cx="700" cy="660" r="250" fill="none" stroke="#888" stroke-dasharray="6 10" stroke-width="2"/>
+<circle cx="700" cy="660" r="380" fill="none" stroke="#888" stroke-dasharray="6 10" stroke-width="2"/>
+<circle cx="700" cy="660" r="475" fill="none" stroke="#888" stroke-dasharray="6 10" stroke-width="2"/>
+<line x1="700" y1="660" x2="945.00" y2="235.65" stroke="#aaa" stroke-dasharray="5 8"/>
+<text x="942" y="205" font-size="24" font-family="sans-serif" fill="#333">30°</text>
+<line x1="700" y1="660" x2="1075.36" y2="345.03" stroke="#aaa" stroke-dasharray="5 8"/>
+<text x="1082" y="323" font-size="24" font-family="sans-serif" fill="#333">50°</text>
+<line x1="700" y1="660" x2="1160.45" y2="492.41" stroke="#aaa" stroke-dasharray="5 8"/>
+<text x="1173" y="480" font-size="24" font-family="sans-serif" fill="#333">70°</text>
+<line x1="700" y1="660" x2="1190.00" y2="660.00" stroke="#aaa" stroke-dasharray="5 8"/>
+<text x="1205" y="660" font-size="24" font-family="sans-serif" fill="#333">90°</text>
+<line x1="700" y1="660" x2="1160.45" y2="827.59" stroke="#aaa" stroke-dasharray="5 8"/>
+<text x="1173" y="840" font-size="24" font-family="sans-serif" fill="#333">110°</text>
+<line x1="700" y1="660" x2="1075.36" y2="974.97" stroke="#aaa" stroke-dasharray="5 8"/>
+<text x="1082" y="997" font-size="24" font-family="sans-serif" fill="#333">130°</text>
+<line x1="700" y1="660" x2="945.00" y2="1084.35" stroke="#aaa" stroke-dasharray="5 8"/>
+<text x="942" y="1115" font-size="24" font-family="sans-serif" fill="#333">150°</text>
+<circle cx="1044.7" cy="370.7" r="56" fill="none" stroke="#111" stroke-width="5"/>
+<circle cx="1150.0" cy="660.0" r="56" fill="none" stroke="#111" stroke-width="5"/>
+<circle cx="1044.7" cy="949.3" r="56" fill="none" stroke="#111" stroke-width="5"/>
+<circle cx="1108.8" cy="511.2" r="45" fill="none" stroke="#c43434" stroke-dasharray="10 8" stroke-width="4"/>
+<circle cx="1108.8" cy="808.8" r="45" fill="none" stroke="#c43434" stroke-dasharray="10 8" stroke-width="4"/>
+<rect x="60" y="946" width="26" height="26" fill="none" stroke="#111" stroke-width="4"/><text x="100" y="969" font-family="sans-serif" font-size="22">R21 B (50/90/130), recommended experimental candidate</text>
+<rect x="60" y="987" width="26" height="26" fill="none" stroke="#c43434" stroke-dasharray="6 4" stroke-width="4"/><text x="100" y="1010" font-family="sans-serif" font-size="22">R21 A companion stations (70/110); axial 90 shared</text>
+<text x="60" y="1072" font-family="sans-serif" font-size="19">No pier footprint, flyer spring, support volume or physical scale is implied.</text>
+</svg>

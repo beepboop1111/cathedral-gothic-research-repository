@@ -1,0 +1,112 @@
+[
+  {
+    "variant": "A",
+    "stations_deg": [
+      70,
+      90,
+      110
+    ],
+    "feature": "receiving_wall",
+    "status": "unverified",
+    "known_cross_chapel_surface_intersection_pairs": 9
+  },
+  {
+    "variant": "A",
+    "stations_deg": [
+      70,
+      90,
+      110
+    ],
+    "feature": "flyer_landing",
+    "status": "unverified",
+    "known_cross_chapel_surface_intersection_pairs": 9
+  },
+  {
+    "variant": "A",
+    "stations_deg": [
+      70,
+      90,
+      110
+    ],
+    "feature": "upper_roof_clearance",
+    "status": "unverified",
+    "known_cross_chapel_surface_intersection_pairs": 9
+  },
+  {
+    "variant": "A",
+    "stations_deg": [
+      70,
+      90,
+      110
+    ],
+    "feature": "ambulatory_access",
+    "status": "unverified",
+    "known_cross_chapel_surface_intersection_pairs": 9
+  },
+  {
+    "variant": "A",
+    "stations_deg": [
+      70,
+      90,
+      110
+    ],
+    "feature": "load_path",
+    "status": "unverified",
+    "known_cross_chapel_surface_intersection_pairs": 9
+  },
+  {
+    "variant": "B",
+    "stations_deg": [
+      50,
+      90,
+      130
+    ],
+    "feature": "receiving_wall",
+    "status": "unverified",
+    "known_cross_chapel_surface_intersection_pairs": 0
+  },
+  {
+    "variant": "B",
+    "stations_deg": [
+      50,
+      90,
+      130
+    ],
+    "feature": "flyer_landing",
+    "status": "unverified",
+    "known_cross_chapel_surface_intersection_pairs": 0
+  },
+  {
+    "variant": "B",
+    "stations_deg": [
+      50,
+      90,
+      130
+    ],
+    "feature": "upper_roof_clearance",
+    "status": "unverified",
+    "known_cross_chapel_surface_intersection_pairs": 0
+  },
+  {
+    "variant": "B",
+    "stations_deg": [
+      50,
+      90,
+      130
+    ],
+    "feature": "ambulatory_access",
+    "status": "unverified",
+    "known_cross_chapel_surface_intersection_pairs": 0
+  },
+  {
+    "variant": "B",
+    "stations_deg": [
+      50,
+      90,
+      130
+    ],
+    "feature": "load_path",
+    "status": "unverified",
+    "known_cross_chapel_surface_intersection_pairs": 0
+  }
+]
