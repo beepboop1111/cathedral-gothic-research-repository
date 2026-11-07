@@ -1,0 +1,43 @@
+{
+  "source_size_px": [
+    630,
+    1021
+  ],
+  "architectural_scale_verified": false,
+  "source_figure_dimensions_visible": [
+    "4,50",
+    "6,45",
+    "46,50 jusqu au sol"
+  ],
+  "dimension_calibration_status": "labels legible; no common exact calibration adopted because printed interval origins, projection and scan geometry not verified",
+  "comparisons": {
+    "upper": {
+      "x_intersection_range_px": [
+        276,
+        336
+      ],
+      "min_ink_geometry_separation_px": 11.0,
+      "max_ink_geometry_separation_px": 27.0,
+      "median_separation_px": 17.0,
+      "no_crossing_in_measured_core": true,
+      "nonincreasing_y_fraction_up": 1.0,
+      "nonincreasing_y_fraction_lower": 0.9833333333333333,
+      "note": "Only image-space gap between line-tracing candidates; NOT physical masonry thickness"
+    },
+    "lower": {
+      "x_intersection_range_px": [
+        276,
+        334
+      ],
+      "min_ink_geometry_separation_px": 16.0,
+      "max_ink_geometry_separation_px": 24.0,
+      "median_separation_px": 19.0,
+      "no_crossing_in_measured_core": true,
+      "nonincreasing_y_fraction_up": 0.9310344827586207,
+      "nonincreasing_y_fraction_lower": 1.0,
+      "note": "Only image-space gap between line-tracing candidates; NOT physical masonry thickness"
+    }
+  },
+  "visual_classification": "upper and lower exposed main-span masonry rails; short spans beyond pier A excluded; springing and wall junction not reconstructed",
+  "interpretation": "Experimental, independent of Ungewitter figure 912. No historical compass centers or pier geometries approved."
+}
