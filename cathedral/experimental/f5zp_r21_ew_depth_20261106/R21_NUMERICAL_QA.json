@@ -1,0 +1,67 @@
+{
+  "status": "R21 GRAPHICAL 2D COMPARISON: PASS; ACTUAL GEOMETRY NOT MODIFIED",
+  "source_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R19": "d05fc503fbfbe98bdef7575e6cd862dc75c9f28279bb3e7460b80ee01199b495"
+  },
+  "original_main_clear_vault_west_X": 3925,
+  "original_main_clear_vault_east_X": 5085,
+  "original_gap_X": 1160,
+  "design_organizing_axis_X": 4505,
+  "trial_spans": [
+    {
+      "label": "R19 EXISTING",
+      "proposed_EW_separator_depth": 1160,
+      "reference_main_axis_X": 4505.0,
+      "trial_west_X": 3925.0,
+      "trial_east_X": 5085.0,
+      "inset_from_existing_west_face": 0.0,
+      "inset_from_existing_east_face": 0.0,
+      "six_aisle_X_depths_unchanged": 470,
+      "vault_positions_unchanged": true,
+      "status": "VISUAL ENVELOPE ONLY"
+    },
+    {
+      "label": "SMALL CORRECTION",
+      "proposed_EW_separator_depth": 1120,
+      "reference_main_axis_X": 4505.0,
+      "trial_west_X": 3945.0,
+      "trial_east_X": 5065.0,
+      "inset_from_existing_west_face": 20.0,
+      "inset_from_existing_east_face": 20.0,
+      "six_aisle_X_depths_unchanged": 470,
+      "vault_positions_unchanged": true,
+      "status": "VISUAL ENVELOPE ONLY"
+    },
+    {
+      "label": "STRONGER CORRECTION",
+      "proposed_EW_separator_depth": 1080,
+      "reference_main_axis_X": 4505.0,
+      "trial_west_X": 3965.0,
+      "trial_east_X": 5045.0,
+      "inset_from_existing_west_face": 40.0,
+      "inset_from_existing_east_face": 40.0,
+      "six_aisle_X_depths_unchanged": 470,
+      "vault_positions_unchanged": true,
+      "status": "VISUAL ENVELOPE ONLY"
+    }
+  ],
+  "R11_clear_vault_polygon_count": 218,
+  "R13_B_entrance_void_count": 7,
+  "all_six_aisle_openings_unchanged": true,
+  "proposed_physical_wall_change": false,
+  "conceptual_fit_only": true,
+  "source_files_unchanged": true,
+  "technical_validation": true,
+  "geometric_overlay_validation": true,
+  "architectural_approval": false,
+  "historical_validation": false,
+  "structural_validation": false,
+  "known_limitation": "Both protected main vault faces remain at X3925/5085. The 1120/1080 envelopes are inset from them by 20/40 on each side. They are NOT smaller existing gaps and would require a separate architectural change to make real.",
+  "unresolved": [
+    "F5ZL-C schedule remains missing.",
+    "No load-bearing pier or pointed-arch elevation changed.",
+    "Decision needed whether small revision is an apparent masonry profile versus repositioned bay boundaries."
+  ]
+}
