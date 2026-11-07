@@ -1,0 +1,53 @@
+{
+  "title": "R31 seven-faced continuous nave, crossing, choir, chancel 1:1 2D",
+  "classification": "USER-CONFIRMED ARCHITECTURAL SPATIAL INTENT, PROTECTED GEOMETRY NOT MODIFIED",
+  "open_polygon_type": "Polygon",
+  "source_files_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R30": "93b005de5d228405f67513e6abc24e2658315dad12464f491c7288c6e8a3737b",
+    "R29B": "a512fb7b1537204e7da04138404f8df27da1214eab9ed2b0969462c7df876d34"
+  },
+  "R11_original_clear_vault_polygons": 218,
+  "main_vault_cells_covered": 15,
+  "crossing_arm_boundaries_covered": true,
+  "chancel_terminal_measured_straight_face_count": 7,
+  "source_chancel_7_faces_extracted_byte_exact": true,
+  "chancel_face_lengths": [
+    1369.390504,
+    1319.562885,
+    1244.634225,
+    1219.609978,
+    1244.634225,
+    1319.562885,
+    1369.390504
+  ],
+  "open_interior_area_native_sq": 450589944.9812,
+  "open_interior_bounds": [
+    -45029.0,
+    -7605.0,
+    23081.906912952254,
+    7605.0
+  ],
+  "first_real_sanctuary_inner_wall_y0_x": [
+    23081.906912952254,
+    23401.906912952254
+  ],
+  "first_real_sanctuary_inner_wall_y0_width": 320,
+  "Q5_transverse_planning_divider_not_physical_wall": true,
+  "seven_chevet_bay_identities_preserved": true,
+  "source_R11_unmodified": true,
+  "drawing_legend": "Purple fill = continuous main interior. Seven magenta facets = sanctuary boundary. Orange = actual 320 wall only at Y0 section. Gray dashed = vault/masonry planning dividers.",
+  "validation": {
+    "technical": "Source hash regression; GeoJSON/CSV/PNG/SVG/ZIP checks passed",
+    "geometric": "Exact R11 faceted chain, 7 faces, polygon validity, crossing+nave/choir coverage; first wall Y0 320",
+    "architectural": "User-confirmed spatial intent; polygons are plan interpretation, detailed supports unverified",
+    "historical": "Not assessed",
+    "structural": "Not assessed \u2014 vault/pier bearings and true wall path remain subject to design"
+  },
+  "unresolved": [
+    "This is floor-space depiction, not an approved physical wall / pier layout.",
+    "Seven inner/middle/T ring vault plan polygons remain source scheduling; independently described paired 14-outer vaults unresolved.",
+    "F5ZL-C support schedule missing.",
+    "Exact complete sanctuary wall thickness outside centerline not established by this task."
+  ]
+}
