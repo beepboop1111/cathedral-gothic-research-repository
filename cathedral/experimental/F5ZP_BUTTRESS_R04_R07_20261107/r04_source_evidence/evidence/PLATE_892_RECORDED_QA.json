@@ -1,0 +1,15 @@
+{
+  "status": "EXPERIMENTAL_COARSE_RASTER_FIT",
+  "rms_px": 3.0024716296396665,
+  "max_residual_px": 4.578346430960323,
+  "radius_px": 622.1731503148765,
+  "circle_center_px": [
+    1461.180824414875,
+    1390.9708113846596
+  ],
+  "study_span": 5000,
+  "depth": 420,
+  "pick_count": 8,
+  "pick_uncertainty_px": 5,
+  "physical_scale": null
+}

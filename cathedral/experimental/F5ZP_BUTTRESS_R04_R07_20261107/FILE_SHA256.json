@@ -1,0 +1,132 @@
+[
+  {
+    "path": "README.md",
+    "size_bytes": 3306,
+    "sha256": "caf1bc2eb4ef5f61b2e44aba91290377ea0e5cd797d1a48247579573154452ce"
+  },
+  {
+    "path": "r04_source_evidence/FUNCTION_INDEX.md",
+    "size_bytes": 848,
+    "sha256": "75750147f2d054ff31e4b0568f01fd34eee0ca39fad7f566c4bd978fb02cfec5"
+  },
+  {
+    "path": "r04_source_evidence/HANDOFF.md",
+    "size_bytes": 6159,
+    "sha256": "b5736f01156d78af4adc1ee628def79a4d9a721fe957b461b338d8c15fab69e3"
+  },
+  {
+    "path": "r04_source_evidence/SCRIPT_REGISTER.md",
+    "size_bytes": 1579,
+    "sha256": "5562806b2c12b2f1c82994cfece1cd9cf5a528bb50172edc35bc64a0be121e2e"
+  },
+  {
+    "path": "r04_source_evidence/SHA256SUMS.txt",
+    "size_bytes": 3063,
+    "sha256": "3087e597adcaca5bb512a992d8bdbfd569131361dcf0f00c24657194e1c8bd1e"
+  },
+  {
+    "path": "r04_source_evidence/WORKFLOWS.md",
+    "size_bytes": 4063,
+    "sha256": "2230f02777124f6ee4054b1b8307fe1fd04b5363077748d211d823e597251b01"
+  },
+  {
+    "path": "r04_source_evidence/current/base_r01.py",
+    "size_bytes": 7298,
+    "sha256": "ac59a26daad933dcf44a4aaf6d859812959796ed7fadc434979132ae649930be"
+  },
+  {
+    "path": "r04_source_evidence/current/flying_buttress_r02.py",
+    "size_bytes": 39658,
+    "sha256": "29e3612f2b11cffd1e000c0a2a95904b0f08da9f852ecf58d292cd8615439aa1"
+  },
+  {
+    "path": "r04_source_evidence/evidence/HANDOFF_TEST_RESULTS.json",
+    "size_bytes": 610,
+    "sha256": "7bd289736f10423ffea658efc582a06550ad59bc04720234c0323991ccb06d0a"
+  },
+  {
+    "path": "r04_source_evidence/evidence/PLATE_892_RECORDED_QA.json",
+    "size_bytes": 340,
+    "sha256": "3155f8bc98e8997b02e31f8fcd7719c24b14c2f0174b3988e070a32104216e5a"
+  },
+  {
+    "path": "r04_source_evidence/sources/COMPARISON_REPORT.md",
+    "size_bytes": 7466,
+    "sha256": "15a27ad067bc95617b17ed003dcf567c1b73b7a355ee5940f863fa2a01bf8ee9"
+  },
+  {
+    "path": "r04_source_evidence/sources/REVIEW_NOTES.md",
+    "size_bytes": 2229,
+    "sha256": "11bfb0a4a7490d505f3346ce253ccbf426460471baf3aed10a64ca0a93856be5"
+  },
+  {
+    "path": "r04_source_evidence/sources/SOURCE_REGISTER.csv",
+    "size_bytes": 16205,
+    "sha256": "a00babd6ebf45f479383eaf8b60f70ca2ab7c16cd8311c162767ba2e15d2e43b"
+  },
+  {
+    "path": "r04_source_evidence/sources/make_comparison.py",
+    "size_bytes": 5232,
+    "sha256": "bea1ff8d6d2efc8c78277c36d46f3412cd8482051c95b4f50e9bab10d4489309"
+  },
+  {
+    "path": "r04_source_evidence/sources/ungewitter_v2_p087.png",
+    "size_bytes": 1396517,
+    "sha256": "009bf969b98d4969f4fab07f76ec4a3651f9daeb5acc86032d1d0e3c78ac081a"
+  },
+  {
+    "path": "r04_source_evidence/tests/test_modular.py",
+    "size_bytes": 4166,
+    "sha256": "771f015f2a578bb698818b67276d467548e88e072895b163caca7787f29e2951"
+  },
+  {
+    "path": "r04_source_evidence/tests/test_plate_892.py",
+    "size_bytes": 2744,
+    "sha256": "5344777809aecdfb8bbd7c2bdfac665396ea3c08e08203db40f5db2513904eb9"
+  },
+  {
+    "path": "r04_source_evidence/tests/test_research_system.py",
+    "size_bytes": 3328,
+    "sha256": "0619696b5738224ffcccd9195e360e7b3c6226c321a545c63fc9d21ce505b316"
+  },
+  {
+    "path": "r06/FIG892_R06_UNCHANGED_GEOMETRY.glb",
+    "size_bytes": 57888,
+    "sha256": "2de711af6c3d3d5114db62e7a88cfe2e9944dce8077a8a42c9431062d85a02d6"
+  },
+  {
+    "path": "r06/R05_R06_RESEARCH_FINDINGS.md",
+    "size_bytes": 1609,
+    "sha256": "cad1776a9dd6d797ee9f16aaa9181795932e33fa69abd529e0a418106d26f824"
+  },
+  {
+    "path": "r06/R06_RECORDED_BEARING_QA.json",
+    "size_bytes": 1005,
+    "sha256": "80b61513f58b443b8e8360311d1e1b9248fc941bb8b401db55d5cc9f2f5c1cdf"
+  },
+  {
+    "path": "r07/F5ZP_R07_CHEVET_90_PAIRED_FLYERS_1TO1_EXPERIMENTAL.glb",
+    "size_bytes": 617808,
+    "sha256": "8955afeb8ab1d7c406526c3ddfaef60e5a1ec5a7c8fdc41bff205ffe8adf0cf5"
+  },
+  {
+    "path": "r07/R07_GEOMETRY_AND_LIMITATIONS.md",
+    "size_bytes": 2433,
+    "sha256": "7cb81e7c36f2b13ddf4619e6c4613070423e52e644919b33a03e24be6d7fb773"
+  },
+  {
+    "path": "r07/R07_MEASURED_QA.json",
+    "size_bytes": 2275,
+    "sha256": "f4eb5f3a44ff51ab12f72a2a6b2585dcd6be9d6fc565f3475cb27b164e02d3b7"
+  },
+  {
+    "path": "r07/scripts/build_r07_testbay.py",
+    "size_bytes": 7044,
+    "sha256": "3ad3ee6258eda77363da6a0876293d70c07181eccffbb06b850c69c08eec9294"
+  },
+  {
+    "path": "r07/scripts/check_bvh_source_collisions.py",
+    "size_bytes": 1024,
+    "sha256": "c8155dfc304fc1fd9f11742fe729435241de55cfd59cf09a0e3161636caf7cc3"
+  }
+]

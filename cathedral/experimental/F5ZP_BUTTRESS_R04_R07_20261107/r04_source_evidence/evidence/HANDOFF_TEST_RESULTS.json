@@ -1,0 +1,17 @@
+{
+  "runtime": "Blender 4.3.2",
+  "commands": [
+    "blender -b --factory-startup --python-exit-code 1 --python tests/test_modular.py",
+    "blender -b --factory-startup --python-exit-code 1 --python tests/test_research_system.py",
+    "blender -b --factory-startup --python-exit-code 1 --python tests/test_plate_892.py"
+  ],
+  "exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "modular": "COMBINED_TEST_PASS",
+  "research": "COMBINED_R03_TEST_PASS; all 3 variants passed",
+  "plate": "PLATE_892_TEST_PASS",
+  "validation": "technical and scoped geometric only; not architectural, historical or structural approval"
+}

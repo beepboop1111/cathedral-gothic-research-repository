@@ -1,0 +1,20 @@
+{
+  "status": "EXPERIMENTAL_GEOMETRIC_QA_ONLY",
+  "provenance": "R06 user-provided handoff/recorded QA, independently reviewed; not rerun for this upload",
+  "input_sha256": "2de711af6c3d3d5114db62e7a88cfe2e9944dce8077a8a42c9431062d85a02d6",
+  "method": "XZ projected prism intersection area times shared Y depth for convex extruded experimental members",
+  "overlap_volumes_study_units_cubed": {
+    "outer_seat_to_arch": 8028644.797092407,
+    "inner_seat_to_arch": 7627138.606504006,
+    "outer_seat_to_receiver": 8231413.732910156,
+    "inner_seat_to_wall": 12285000.0,
+    "outer_seat_to_receiver_total_course_intersection": 11919600.0
+  },
+  "all_four_geometric_contact_tests_positive": true,
+  "component_count": 48,
+  "all_components_watertight": true,
+  "historical_scale_calibrated": false,
+  "cathedral_units_verified": false,
+  "adapter_tests_reported_passed": 4,
+  "limitation": "Positive volumes != verified bearing, masonry bonding, historic dimensions, load path or structural adequacy"
+}

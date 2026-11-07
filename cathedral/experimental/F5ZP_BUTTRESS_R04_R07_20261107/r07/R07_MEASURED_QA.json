@@ -1,0 +1,53 @@
+{
+  "status": "EXPERIMENTAL_R21_B_NONAPPROVED_SUPPORT_CONTEXT",
+  "date": "2026-11-07",
+  "source": "R21_B_EXPERIMENTAL GLB (not cathedral architectural approval)",
+  "source_sha256": "2ae1341c50256d64261014017b802535d10d245815315db32123a6fabe05f1ac",
+  "model_sha256": "8955afeb8ab1d7c406526c3ddfaef60e5a1ec5a7c8fdc41bff205ffe8adf0cf5",
+  "coordinate_system": "F5ZP native 1:1 Y-up; unit-to-metre calibration unverified",
+  "R21_source_components_unchanged": 16,
+  "new_generated_meshes": 60,
+  "roundtrip_components": 76,
+  "two_paired_flyers": {
+    "90_A": {
+      "trial_pier": "R5285 A78.0",
+      "trial_outer_pad": "O80",
+      "seat_to_trial_pier_overlap_native_units3": 531193.8996456132,
+      "seat_to_trial_pad_overlap_native_units3": 2636427.302139047,
+      "first_voussoir_to_outer_seat_overlap_native_units3": 458222.504723591,
+      "last_voussoir_to_inner_seat_overlap_native_units3": 139944.7276233647,
+      "new_component_watertight": true,
+      "tangential_bounds_native_units": [
+        -1269.9461707804337,
+        -1156.8297918384192
+      ]
+    },
+    "90_B": {
+      "trial_pier": "R5285 A102.0",
+      "trial_outer_pad": "O100",
+      "seat_to_trial_pier_overlap_native_units3": 531193.8996456132,
+      "seat_to_trial_pad_overlap_native_units3": 2636427.302139047,
+      "first_voussoir_to_outer_seat_overlap_native_units3": 458222.504723591,
+      "last_voussoir_to_inner_seat_overlap_native_units3": 139944.7276233647,
+      "new_component_watertight": true,
+      "tangential_bounds_native_units": [
+        1156.8297918384192,
+        1269.9461707804337
+      ]
+    }
+  },
+  "positive_contact_checks": 8,
+  "blender_5_0_1_import": "passed",
+  "blender_BVH_source_vs_new_triangles_tested": 720,
+  "blender_BVH_detected_crossings": 0,
+  "collision_scope": "Surface triangle intersections against 12 saved source objects; no enclosed-volume or full cathedral test",
+  "all_new_meshes_watertight": true,
+  "historical": "R05 curve candidate normalized and morphed; NOT calibrated Ungewitter geometry",
+  "unresolved": [
+    "F5ZL-C 248-support schedule missing",
+    "Receiving faces are TRIAL not approved",
+    "Masonry bonding/loads/capacity not tested",
+    "No full cathedral clearance audit"
+  ],
+  "approved_geometry_modified": false
+}
