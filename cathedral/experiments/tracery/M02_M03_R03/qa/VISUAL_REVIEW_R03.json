@@ -1,0 +1,21 @@
+{
+  "models_visually_inspected": [
+    "meaux",
+    "haina_1264",
+    "haina_1265",
+    "chalons"
+  ],
+  "matched_views": [
+    "front reference/candidate",
+    "oblique reference/candidate"
+  ],
+  "figures": [
+    "comparisons/MEAUX_M02_R03_COMPARISON.png",
+    "comparisons/FOUR_WINDOW_REGRESSION_R03.png",
+    "semantic/semantic_source_comparison_R03.png"
+  ],
+  "evidence": "Rendered mesh geometry inspected using image views; unchanged silhouettes, cusp locations, apertures, thin connections and moulding/groove linework at matched scale. Numerical section metrics are supplied separately.",
+  "renderer": "Blender Workbench 4.3.2",
+  "no_exhibit_claim": true,
+  "no_architectural_or_historical_approval": true
+}

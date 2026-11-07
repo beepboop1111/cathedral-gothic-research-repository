@@ -1,0 +1,31 @@
+{
+  "status": "Catalog prepared from already attached archives; incoming large batch not yet received here",
+  "inherited_page_records": 1449,
+  "inherited_claim_records": 1549,
+  "inherited_source_keys": 19,
+  "catalogued_asset_occurrences": 254,
+  "unique_byte_assets": 254,
+  "exact_duplicate_occurrences": 0,
+  "sources": [
+    {
+      "batch_id": "EXISTING_PLATES_ARCHIVE_R01",
+      "source_name": "02-Research_02_Plates_and_Illustrations.zip",
+      "manifest": "batches/EXISTING_PLATES_ARCHIVE_R01/BATCH_MANIFEST.json",
+      "archive_sha256": "3f15d6800b60d796eb930762d166d51c5ec20c3600b714e7b14865a69a0d430e",
+      "occurrences": 229,
+      "unique_byte_assets": 229
+    },
+    {
+      "batch_id": "EXISTING_RESEARCH_ARCHIVE_R01",
+      "source_name": "01-Research_03_Research_and_Tools.zip",
+      "manifest": "batches/EXISTING_RESEARCH_ARCHIVE_R01/BATCH_MANIFEST.json",
+      "archive_sha256": "c899b7df3fe0ccd6ee4b048ab4e4fe540b4646179f38779f837b7551a76e8b44",
+      "occurrences": 25,
+      "unique_byte_assets": 25
+    }
+  ],
+  "original_bytes_uploaded_to_github": false,
+  "original_images_modified": false,
+  "new_batch_received": false,
+  "geometry_generated": false
+}

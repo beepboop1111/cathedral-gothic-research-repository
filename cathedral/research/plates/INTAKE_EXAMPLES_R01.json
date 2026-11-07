@@ -1,0 +1,29 @@
+{
+  "status": "EXAMPLE ONLY; no associations applied",
+  "origin_example": {
+    "kind": "user_uploaded_book_plate_batch",
+    "uploaded_name": "original_batch_name.zip",
+    "library_file_id": null,
+    "source_file_id": null,
+    "source_url": null,
+    "book_title": null,
+    "edition": null,
+    "volume": null,
+    "new_user_batch": true,
+    "binary_hosting_status": "pending actual upload verification"
+  },
+  "per_file_metadata_example": {
+    "exact/original_filename.png": {
+      "source_role": "historical_scan_candidate",
+      "source_key": null,
+      "original_pdf_page": null,
+      "printed_page": null,
+      "plate": null,
+      "figure": null,
+      "master_page_ids": [],
+      "parent_asset_id": null,
+      "source_url": null,
+      "trace_paths": []
+    }
+  }
+}

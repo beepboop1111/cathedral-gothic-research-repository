@@ -1,0 +1,30 @@
+[
+  {
+    "name": "meaux",
+    "SVG_xml_parses": true,
+    "selectable_paths": 7705,
+    "unique_ids": true,
+    "matches_json_faces": true
+  },
+  {
+    "name": "haina_1264",
+    "SVG_xml_parses": true,
+    "selectable_paths": 3434,
+    "unique_ids": true,
+    "matches_json_faces": true
+  },
+  {
+    "name": "haina_1265",
+    "SVG_xml_parses": true,
+    "selectable_paths": 5029,
+    "unique_ids": true,
+    "matches_json_faces": true
+  },
+  {
+    "name": "chalons",
+    "SVG_xml_parses": true,
+    "selectable_paths": 3515,
+    "unique_ids": true,
+    "matches_json_faces": true
+  }
+]

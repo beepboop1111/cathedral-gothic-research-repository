@@ -1,0 +1,45 @@
+{
+  "status": "EXPERIMENTAL, not promoted",
+  "complete_binary_bundle": {
+    "filename": "Gothic_Tracery_M02_M03_R03_EXPERIMENTAL_CHECKPOINT.zip",
+    "library_file_id": "libfile_f681eefa035481919ca04be37c1b0573",
+    "url": "https://chatgpt.com/library?file_id=libfile_f681eefa035481919ca04be37c1b0573&account_id=personal",
+    "sha256": "76e6744e8228547886200fd476ff037af5f3c2b7d926174c7d45b5f126d9d376",
+    "bytes": 288596609
+  },
+  "delivered_files": [
+    {
+      "filename": "Gothic_Tracery_M02_M03_R03_EXPERIMENTAL_CHECKPOINT.zip",
+      "library_file_id": "libfile_f681eefa035481919ca04be37c1b0573",
+      "url": "https://chatgpt.com/library?file_id=libfile_f681eefa035481919ca04be37c1b0573&account_id=personal"
+    },
+    {
+      "filename": "meaux_M02_R03.glb",
+      "library_file_id": "libfile_5884c69968488191b9c589331eea63ac",
+      "url": "https://chatgpt.com/library?file_id=libfile_5884c69968488191b9c589331eea63ac&account_id=personal"
+    },
+    {
+      "filename": "meaux_M02_R03.stl",
+      "library_file_id": "libfile_1018a6d1dfec81918de881276fb801fd",
+      "url": "https://chatgpt.com/library?file_id=libfile_1018a6d1dfec81918de881276fb801fd&account_id=personal"
+    },
+    {
+      "filename": "MEAUX_M02_R03_COMPARISON.png",
+      "library_file_id": "libfile_46f0c71b3330819185cbdc9a9ef392e7",
+      "url": "https://chatgpt.com/library?file_id=libfile_46f0c71b3330819185cbdc9a9ef392e7&account_id=personal"
+    },
+    {
+      "filename": "FOUR_WINDOW_REGRESSION_R03.png",
+      "library_file_id": "libfile_2cd13bed8cf08191a4848001a4d2d56c",
+      "url": "https://chatgpt.com/library?file_id=libfile_2cd13bed8cf08191a4848001a4d2d56c&account_id=personal"
+    },
+    {
+      "filename": "TRACERY_R03_REVIEW.md",
+      "library_file_id": "libfile_7817bdb72a948191b4ce8f5de96508ee",
+      "url": "https://chatgpt.com/library?file_id=libfile_7817bdb72a948191b4ce8f5de96508ee&account_id=personal"
+    }
+  ],
+  "repository_scope": "Versioned text scripts, QA and checkpoint only. Full original inputs, models, SVG registers, comparison images and Blender scene are in the complete hash-identified binary bundle.",
+  "protected_architecture_changed": false,
+  "approved_generators_replaced": false
+}

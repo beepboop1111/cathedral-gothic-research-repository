@@ -1,0 +1,42 @@
+[
+  {
+    "window": "meaux",
+    "face_count": 7705,
+    "map_openings": 48,
+    "repeat_and_reordered_labels": "PASS",
+    "full_image_coverage": "PASS",
+    "manual_decision_replay": "PASS",
+    "opening_faces_exact_2x_identity": 48,
+    "original_map_changed": false
+  },
+  {
+    "window": "haina_1264",
+    "face_count": 3434,
+    "map_openings": 21,
+    "repeat_and_reordered_labels": "PASS",
+    "full_image_coverage": "PASS",
+    "manual_decision_replay": "PASS",
+    "opening_faces_exact_2x_identity": 21,
+    "original_map_changed": false
+  },
+  {
+    "window": "haina_1265",
+    "face_count": 5029,
+    "map_openings": 30,
+    "repeat_and_reordered_labels": "PASS",
+    "full_image_coverage": "PASS",
+    "manual_decision_replay": "PASS",
+    "opening_faces_exact_2x_identity": 30,
+    "original_map_changed": false
+  },
+  {
+    "window": "chalons",
+    "face_count": 3515,
+    "map_openings": 19,
+    "repeat_and_reordered_labels": "PASS",
+    "full_image_coverage": "PASS",
+    "manual_decision_replay": "PASS",
+    "opening_faces_exact_2x_identity": 19,
+    "original_map_changed": false
+  }
+]

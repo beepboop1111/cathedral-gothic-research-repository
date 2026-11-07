@@ -1,0 +1,106 @@
+{
+  "device": "MR.COMPUTER",
+  "access": "read-only hash and mesh inventory",
+  "files": [
+    {
+      "path": "/home/christopher/Downloads/meaux(2).stl",
+      "mtime_utc": "2026-11-05T06:14:00.985449+00:00",
+      "sha256": "b32116fb36a59217d6d47c5a7d07328776010e83ad32e0851fc6be4650517ba8",
+      "faces": 1138024,
+      "vertices": 568931,
+      "bounds": [
+        [
+          4.163431167602539,
+          0.0639801025390625,
+          0.07133294641971588
+        ],
+        [
+          144.10708618164062,
+          125.18596649169922,
+          6.0
+        ]
+      ],
+      "volume": 47263.76463597029,
+      "euler": -74,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 6,
+      "degenerate_area_under_1e-10": 7,
+      "vertex_geometry_sha256_float32": "e17db060660a60ed681e9dd30de01df18cb832a2d5ff2cf65ef1c08b1969aba1"
+    },
+    {
+      "path": "/home/christopher/Downloads/haina_1264(1).stl",
+      "mtime_utc": "2026-11-05T06:14:03.499460+00:00",
+      "sha256": "d836628b6b4d2714da47e79018a0f737781a688a81a50fdad8ae17a697bcbca0",
+      "faces": 1692084,
+      "vertices": 845983,
+      "bounds": [
+        [
+          2.0529227256774902,
+          0.0665283203125,
+          0.07133294641971588
+        ],
+        [
+          144.68931579589844,
+          219.93601989746094,
+          6.0
+        ]
+      ],
+      "volume": 76325.93792300996,
+      "euler": -3,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 34,
+      "degenerate_area_under_1e-10": 56,
+      "vertex_geometry_sha256_float32": "4ea467173dfe79934965fe41e5820454d5ddcf5309ce9a15dbef93783d2c9064"
+    },
+    {
+      "path": "/home/christopher/Downloads/haina_1265.stl",
+      "mtime_utc": "2026-11-05T06:14:04.292463+00:00",
+      "sha256": "d3d768e3cba796a0cdcbdb39cfbb3b9626b8368f070930d5321e23422e126598",
+      "faces": 1577612,
+      "vertices": 788745,
+      "bounds": [
+        [
+          -0.18602046370506287,
+          7.657989501953125,
+          0.07133294641971588
+        ],
+        [
+          141.36912536621094,
+          189.54244995117188,
+          6.0
+        ]
+      ],
+      "volume": 72196.7451047252,
+      "euler": -55,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 6,
+      "degenerate_area_under_1e-10": 10,
+      "vertex_geometry_sha256_float32": "87e1417714e85bd24f5a1f515bc3172799427b0f1e5727dfa19966987b976a90"
+    },
+    {
+      "path": "/home/christopher/Downloads/chalons(2).stl",
+      "mtime_utc": "2026-11-05T06:14:00.782448+00:00",
+      "sha256": "0ce0b2355b7d01f7cb3342cb784177d47310b6bc3c67824d73ecd29a15a740b8",
+      "faces": 662720,
+      "vertices": 331326,
+      "bounds": [
+        [
+          -0.18602046370506287,
+          0.0639801025390625,
+          0.07133294641971588
+        ],
+        [
+          147.64515686035156,
+          74.86062622070312,
+          6.0
+        ]
+      ],
+      "volume": 22103.41934768614,
+      "euler": -34,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_area_under_1e-10": 4,
+      "vertex_geometry_sha256_float32": "dba6f5abadbf7c4ce5d496515dd09d8189d952d4d8c38dc14342245e22f87f05"
+    }
+  ]
+}

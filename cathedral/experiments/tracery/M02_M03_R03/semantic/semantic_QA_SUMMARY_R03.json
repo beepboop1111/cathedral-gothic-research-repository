@@ -1,0 +1,93 @@
+{
+  "version": "M03-R03-experimental",
+  "unit_tests_passed": 9,
+  "unit_test_evidence": {
+    "tests_run": 9,
+    "failures": 0,
+    "errors": 0,
+    "success": true,
+    "test_sha256": "86a5207b0d8457064d0e2f80951833b51506e014467e794408262f9b0917f5ec",
+    "implementation_sha256": "7b112268859680eb883f1b015ce138305da1e045d4a88b76af9a0d33aae12701"
+  },
+  "benchmark_windows": [
+    {
+      "window": "meaux",
+      "face_count": 7705,
+      "map_openings": 48,
+      "repeat_and_reordered_labels": "PASS",
+      "full_image_coverage": "PASS",
+      "manual_decision_replay": "PASS",
+      "opening_faces_exact_2x_identity": 48,
+      "original_map_changed": false
+    },
+    {
+      "window": "haina_1264",
+      "face_count": 3434,
+      "map_openings": 21,
+      "repeat_and_reordered_labels": "PASS",
+      "full_image_coverage": "PASS",
+      "manual_decision_replay": "PASS",
+      "opening_faces_exact_2x_identity": 21,
+      "original_map_changed": false
+    },
+    {
+      "window": "haina_1265",
+      "face_count": 5029,
+      "map_openings": 30,
+      "repeat_and_reordered_labels": "PASS",
+      "full_image_coverage": "PASS",
+      "manual_decision_replay": "PASS",
+      "opening_faces_exact_2x_identity": 30,
+      "original_map_changed": false
+    },
+    {
+      "window": "chalons",
+      "face_count": 3515,
+      "map_openings": 19,
+      "repeat_and_reordered_labels": "PASS",
+      "full_image_coverage": "PASS",
+      "manual_decision_replay": "PASS",
+      "opening_faces_exact_2x_identity": 19,
+      "original_map_changed": false
+    }
+  ],
+  "svg_exports": [
+    {
+      "name": "meaux",
+      "SVG_xml_parses": true,
+      "selectable_paths": 7705,
+      "unique_ids": true,
+      "matches_json_faces": true
+    },
+    {
+      "name": "haina_1264",
+      "SVG_xml_parses": true,
+      "selectable_paths": 3434,
+      "unique_ids": true,
+      "matches_json_faces": true
+    },
+    {
+      "name": "haina_1265",
+      "SVG_xml_parses": true,
+      "selectable_paths": 5029,
+      "unique_ids": true,
+      "matches_json_faces": true
+    },
+    {
+      "name": "chalons",
+      "SVG_xml_parses": true,
+      "selectable_paths": 3515,
+      "unique_ids": true,
+      "matches_json_faces": true
+    }
+  ],
+  "original_maps_modified": false,
+  "historical_validation": false,
+  "architectural_approval": false,
+  "limitations": [
+    "Raster face count includes tiny scan islands, not architectural panels.",
+    "Moulding labels are low-confidence hypotheses without physical depth.",
+    "Exact2x scaling tested; arbitrary edited/resampled correspondence is not guaranteed.",
+    "Source-map opening counts do not establish mesh through-hole counts."
+  ]
+}

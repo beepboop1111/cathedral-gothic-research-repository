@@ -1,0 +1,77 @@
+{
+  "status": "Inherited research register, not independently renewed historical verification",
+  "files": [
+    {
+      "path": "inherited_consolidated/README.md",
+      "source_archive": "Research_03_Research_and_Tools.zip",
+      "source_entry": "03_Research_and_Tools/F5ZP_Master_Architectural_Plate_Library_CONSOLIDATED/README.md",
+      "sha256": "851c00bdb6fe98239ff72a2a4a72baa1fa608dd853019d0b0851ddd2d3f7a34b",
+      "bytes": 4026,
+      "byte_identical": true
+    },
+    {
+      "path": "inherited_consolidated/reports/BUILD_METRICS.json",
+      "source_archive": "Research_03_Research_and_Tools.zip",
+      "source_entry": "03_Research_and_Tools/F5ZP_Master_Architectural_Plate_Library_CONSOLIDATED/reports/BUILD_METRICS.json",
+      "sha256": "193d8f2e0226b1d8de862799e3041ccd3232eb535062f0fa4ad277c223e9c8e3",
+      "bytes": 10540,
+      "byte_identical": true
+    },
+    {
+      "path": "inherited_consolidated/catalogue/MASTER_PAGES.csv",
+      "source_archive": "Research_03_Research_and_Tools.zip",
+      "source_entry": "03_Research_and_Tools/F5ZP_Master_Architectural_Plate_Library_CONSOLIDATED/catalogue/MASTER_PAGES.csv",
+      "sha256": "51fe7a645fd47e4ab44fd3e60b507e9b6b5c11b018099cafd3473128032af668",
+      "bytes": 627614,
+      "byte_identical": true
+    },
+    {
+      "path": "inherited_consolidated/catalogue/MASTER_CLAIMS.csv",
+      "source_archive": "Research_03_Research_and_Tools.zip",
+      "source_entry": "03_Research_and_Tools/F5ZP_Master_Architectural_Plate_Library_CONSOLIDATED/catalogue/MASTER_CLAIMS.csv",
+      "sha256": "90a54b3e1371124a9d82a2e7292b1395007351d59c950e03ed443ee321292e24",
+      "bytes": 715989,
+      "byte_identical": true
+    },
+    {
+      "path": "inherited_consolidated/catalogue/SOURCE_COVERAGE.csv",
+      "source_archive": "Research_03_Research_and_Tools.zip",
+      "source_entry": "03_Research_and_Tools/F5ZP_Master_Architectural_Plate_Library_CONSOLIDATED/catalogue/SOURCE_COVERAGE.csv",
+      "sha256": "885f13dcb9b289e01aad526db5d168d006dec970ce8cd89ea356001bc18a771f",
+      "bytes": 2985,
+      "byte_identical": true
+    },
+    {
+      "path": "inherited_consolidated/catalogue/RESEARCH_ISSUES.csv",
+      "source_archive": "Research_03_Research_and_Tools.zip",
+      "source_entry": "03_Research_and_Tools/F5ZP_Master_Architectural_Plate_Library_CONSOLIDATED/catalogue/RESEARCH_ISSUES.csv",
+      "sha256": "954071db7f86b4a3aa59fd788bb9e41e5c8fcb82e60896f6a7f3a67797c4fc2b",
+      "bytes": 1970,
+      "byte_identical": true
+    },
+    {
+      "path": "inherited_consolidated/catalogue/CURATED_VIEW_ATLAS_MAP.csv",
+      "source_archive": "Research_03_Research_and_Tools.zip",
+      "source_entry": "03_Research_and_Tools/F5ZP_Master_Architectural_Plate_Library_CONSOLIDATED/catalogue/CURATED_VIEW_ATLAS_MAP.csv",
+      "sha256": "f866d7b7700b40131088d7ed7ebca8825ef9468c32defa466b67af45af8646f7",
+      "bytes": 12458,
+      "byte_identical": true
+    },
+    {
+      "path": "inherited_consolidated/catalogue/PRIORITY_REVIEW_QUEUE.csv",
+      "source_archive": "Research_03_Research_and_Tools.zip",
+      "source_entry": "03_Research_and_Tools/F5ZP_Master_Architectural_Plate_Library_CONSOLIDATED/catalogue/PRIORITY_REVIEW_QUEUE.csv",
+      "sha256": "205a07856478349d25a1412911d7606dfa917e1cdd53f956197af7732810eecb",
+      "bytes": 51552,
+      "byte_identical": true
+    },
+    {
+      "path": "inherited_consolidated/catalogue/PHASE2_CROSSWALK.csv",
+      "source_archive": "Research_03_Research_and_Tools.zip",
+      "source_entry": "03_Research_and_Tools/F5ZP_Master_Architectural_Plate_Library_CONSOLIDATED/catalogue/PHASE2_CROSSWALK.csv",
+      "sha256": "e1f4417cd7f719e0f2329efc05e673d7bfb62f0efc0284d62f66188d361516c7",
+      "bytes": 22759,
+      "byte_identical": true
+    }
+  ]
+}

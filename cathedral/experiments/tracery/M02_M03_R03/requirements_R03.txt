@@ -1,0 +1,9 @@
+numpy==2.3.5
+scipy==1.17.0
+Pillow==13.0.0
+scikit-image==0.26.0
+trimesh==5.2.0
+shapely==2.2.0
+rtree==1.4.1
+pymeshlab==2025.7.post1
+matplotlib==3.10.8

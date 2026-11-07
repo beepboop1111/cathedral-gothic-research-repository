@@ -1,0 +1,136 @@
+{
+  "status": "INTAKE_COMPLETE; reference files, no geometry approval",
+  "archives": [
+    {
+      "batch_id": "PALEY_UPLOAD_R02",
+      "archive": "paley.zip",
+      "pngs": 48,
+      "folder_blank_labels": 24,
+      "other_pngs": 24,
+      "decoded_pngs": 48,
+      "minimum_luminance_levels": 111,
+      "maximum_dimensions_px": [
+        1525,
+        2455
+      ],
+      "overview": "previews/R02/paley_overview_R02.jpg",
+      "archive_library_url": "https://chatgpt.com/library?file_id=libfile_26b39a8892848191907c95f5a7f94327&account_id=personal"
+    },
+    {
+      "batch_id": "BRANDON_V2_UPLOAD_R02",
+      "archive": "brandon_v2.zip",
+      "pngs": 133,
+      "folder_blank_labels": 99,
+      "other_pngs": 34,
+      "decoded_pngs": 133,
+      "minimum_luminance_levels": 124,
+      "maximum_dimensions_px": [
+        2835,
+        3605
+      ],
+      "overview": "previews/R02/brandon_v2_overview_R02.jpg",
+      "archive_library_url": "https://chatgpt.com/library?file_id=libfile_1967b8ea51148191b6a36b2108472d16&account_id=personal"
+    },
+    {
+      "batch_id": "COLLINGS_V2_UPLOAD_R02",
+      "archive": "collings_v2.zip",
+      "pngs": 151,
+      "folder_blank_labels": 113,
+      "other_pngs": 38,
+      "decoded_pngs": 151,
+      "minimum_luminance_levels": 30,
+      "maximum_dimensions_px": [
+        2505,
+        3338
+      ],
+      "overview": "previews/R02/collings_v2_overview_R02.jpg",
+      "archive_library_url": "https://chatgpt.com/library?file_id=libfile_385b1297d408819187974caeac94ef49&account_id=personal"
+    },
+    {
+      "batch_id": "GOTHIC_PLATES_UPLOAD_R02",
+      "archive": "gothic_plates.zip",
+      "pngs": 111,
+      "folder_blank_labels": 0,
+      "other_pngs": 111,
+      "decoded_pngs": 111,
+      "minimum_luminance_levels": 5,
+      "maximum_dimensions_px": [
+        2835,
+        3668
+      ],
+      "overview": "previews/R02/gothic_plates_overview_R02.jpg",
+      "archive_library_url": "https://chatgpt.com/library?file_id=libfile_d2384b3dfed8819188728b627995ba2f&account_id=personal"
+    }
+  ],
+  "png_occurrences": 443,
+  "unique_byte_assets": 439,
+  "exact_duplicate_occurrences": 4,
+  "folder_blank_labels": 236,
+  "all_png_decode_and_crc": "PASS",
+  "duplicate_groups": [
+    {
+      "sha256": "1790beb7af71f742ce7f25ab55cd96e8bef907c0a6cd5a0ecb7ca675088c7609",
+      "occurrences": [
+        {
+          "archive": "paley.zip",
+          "entry": "paley/paley_p153.png"
+        },
+        {
+          "archive": "gothic_plates.zip",
+          "entry": "plates/paley/paley_p153.png"
+        }
+      ]
+    },
+    {
+      "sha256": "f2cf7640aed6ff0e506fbb2dbdde2a2d97220083389515877cdcb68e06ce4662",
+      "occurrences": [
+        {
+          "archive": "brandon_v2.zip",
+          "entry": "brandon_v2/brandon_v2_p157.png"
+        },
+        {
+          "archive": "gothic_plates.zip",
+          "entry": "plates/brandon_v2/brandon_v2_p157.png"
+        }
+      ]
+    },
+    {
+      "sha256": "fadf4fe50fd968e199ecaa56f9327f68a551b2d6fca909679d7579e88d0a7df4",
+      "occurrences": [
+        {
+          "archive": "brandon_v2.zip",
+          "entry": "brandon_v2/brandon_v2_p169.png"
+        },
+        {
+          "archive": "gothic_plates.zip",
+          "entry": "plates/brandon_v2/brandon_v2_p169.png"
+        }
+      ]
+    },
+    {
+      "sha256": "4ec27c3c62684f400f6006d593b3ff26264c245003dbdf290a6b24dc2223bab6",
+      "occurrences": [
+        {
+          "archive": "collings_v2.zip",
+          "entry": "collings_v2/collings_v2_p155.png"
+        },
+        {
+          "archive": "gothic_plates.zip",
+          "entry": "plates/collings_v2/collings_v2_p155.png"
+        }
+      ]
+    }
+  ],
+  "original_images_modified": false,
+  "all_original_archives_have_persistent_library_links": true,
+  "binary_originals_uploaded_to_github": false,
+  "previews_are_derivative_resampled_browsing_views": true,
+  "meaux_source_identified": false,
+  "limited_tone_review_candidates": [
+    {
+      "archive": "gothic_plates.zip",
+      "entry": "plates/fawcett/fawcett_p123.png",
+      "luminance_levels": 5
+    }
+  ]
+}
