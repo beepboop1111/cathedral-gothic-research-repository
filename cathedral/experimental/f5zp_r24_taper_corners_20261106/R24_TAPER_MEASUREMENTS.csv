@@ -1,0 +1,7 @@
+option,side,max_side_angle_from_transverse_deg,extra_corner_deflection_deg,visible_face_area,R23_baseline_difference_area,join_to_960_core,join_to_A1_470,source_main_vault_contact_each,960_visual_core_direct_vault_contact,encroaches_on_vault_or_entrance,physical_masonry_modified
+A_DIRECT,N,40.156,0,228800.0,0.0,960.0,470.0,360,0,False,False
+A_DIRECT,S,40.156,0,228800.0,0.0,960.0,470.0,360,0,False,False
+B_SHOULDER_50,N,45.0,45.0,241050.0,12250.0,960.0,470.0,360,0,False,False
+B_SHOULDER_50,S,45.0,45.0,241050.0,12250.0,960.0,470.0,360,0,False,False
+C_AISLE_NECK_60,N,46.081,46.081,214100.0,14700.0,960.0,470.0,360,0,False,False
+C_AISLE_NECK_60,S,46.081,46.081,214100.0,14700.0,960.0,470.0,360,0,False,False
