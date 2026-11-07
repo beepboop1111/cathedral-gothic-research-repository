@@ -1,0 +1,9 @@
+version,subject,status,measurement_or_result,limitation
+R01,initial tracery,experimental,source-aligned SVG,arc construction unverified
+R02,wall masonry,experimental,coursing and joints,not individual stone survey
+R03,three-layer apertures,experimental,2 lancets plus 7 rose voids; 6/6 checks,2.7 px separation provisional
+R04,twin-arch central connection,experimental,5 px minimum separation; 10/10 checks,source-pixel units
+R05,V08 section sweeps,experimental,3 watertight solids per GLB; 10/10 checks,12 px-equivalent depth uncalibrated
+R06,roll and rebate comparative trials,experimental,13/13 checks reported,not measured St Leu profiles
+R06,Moore Figure 139a,historical-source-attributed,St Leu chamfered mullion section,not Fig80 calibrated section
+R07,Moore profile and interface follow-up,reported-experimental,8 tests and 1 px correction reported,actual package not recovered
