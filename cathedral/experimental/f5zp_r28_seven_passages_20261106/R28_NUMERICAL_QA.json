@@ -1,0 +1,43 @@
+{
+  "milestone": "R28 \u2014 Q5 axial + six curved chevet side openings, 2D experimental",
+  "status": "TECHNICAL AND 2D GEOMETRIC PASS; ARCHITECTURAL APPROVAL PENDING",
+  "source_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R27": "7b640f82ed5fce073f84b764f771dcc411fcfb13b0c164619bc870c9cfe6993b",
+    "R27_QA": "128d1392b4dfdf99c0a479dc800955121390625e8928ea1524589b04ad038517"
+  },
+  "source_geometry_unchanged": true,
+  "source_R11_vaults_unchanged": 218,
+  "source_seven_bay_I_M_T_ring_identities_unchanged": true,
+  "original_R13_Q1_Q2_passages_unchanged": 7,
+  "trial_openings_count": 7,
+  "trial_central_clear_width_Y": 2200,
+  "central_320_X_wall_depth_original_and_unchanged": 320,
+  "axial_terminal_masonry_remaining_Y_per_end": 1833,
+  "six_side_trim_fraction_each": 0.15,
+  "six_side_open_fraction": 0.7,
+  "passage_candidates_nonoverlapping": true,
+  "all_candidate_cuts_inside_original_masonry": true,
+  "all_candidate_cuts_avoid_protected_vault_spaces": true,
+  "each_side_candidate_touches_two_actual_vault_clear_boundaries": true,
+  "all_6_Q5_face_retained_end_margins_at_least_170": true,
+  "choir_chevet_source_seam_total_length": 9699.259396401709,
+  "choir_chevet_seam_remaining_after_trial_cuts": 4485.760478,
+  "hypothetical_remainder_valid_geometry": true,
+  "axial_approach_width_2200_chevet_masonry_conflict_area": 108250.061292,
+  "axial_corridor_continuity_validated": false,
+  "axial_opening_would_breach_the_solid_Q5_terminal_wall": true,
+  "technical_validation": "PASS: output file QA and preserved input hashes",
+  "geometric_validation": "PASS: trial cuts fit original R11 wall reservation, do not enter vault clear spaces, have measured Q5/chevet face contact",
+  "architectural_validation": "PROVISIONAL: actual 2D openings not yet approved; central approach still conflicts with inner chevet ring wall",
+  "historical_validation": "NOT VERIFIED: no plate-derived jamb profiles, proportion claims or tracery",
+  "structural_validation": "NOT VERIFIED: load paths, pier stability and lintel/arch capacity unavailable",
+  "outstanding": [
+    "Opening clearance through terminal Q5 band is only the first axial threshold; the route farther east needs curved chevet masonry/doorway coordination.",
+    "No source masonry permanently cut: proposals are separate experimental overlay polygons.",
+    "Side-wall margins 15% at each end are proportional studies, not minimum structural supports.",
+    "Existing R11 T-ring has 7 polygons, not proof of independent outer 14-vault paired design.",
+    "F5ZL-C support schedule missing."
+  ]
+}
