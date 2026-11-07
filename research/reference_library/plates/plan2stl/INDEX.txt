@@ -1,0 +1,52 @@
+plan2stl plates - unedited 300 dpi page renders, file names are PDF page numbers
+
+1_solid_piers_with_ribs  (best fit: piers drawn solid black, ribs drawn on)
+  viollet_v04_p087  apse/ambulatory plan, black piers, radiating ribs
+  viollet_v04_p164  apse of Rieux, black piers + ribs (fig. 86)
+  viollet_v04_p196  whole church plan, black piers, rib diagonals (fig. 102)
+  viollet_v04_p211  choir plan with apse, black piers + ribs (fig. 109)
+  viollet_v04_p237  square vaulted building, 4 bays with ribs (fig. 123)
+  viollet_v04_p461  crypt plan, St-Avit Orleans
+  viollet_v04_p463  crypt plan with many columns
+  viollet_v04_p465  rotunda crypt plan, ring of columns
+  viollet_v04_p468  crypt plan (top half of page; bottom is a perspective)
+  viollet_v04_p475  round kitchen plan, ribbed (Cuisine entry)
+  viollet_v04_p477  round kitchen plan, half plan / half section
+  viollet_v04_p480  octagonal kitchen with apsidal hearths, ribbed
+  viollet_v04_p484  round kitchen plan, ribs + piers
+  viollet_v04_p487  square hall, 3x3 bays on columns, ribbed
+  viollet_v04_p489  square kitchen, 4 columns, ribbed
+  moore_p116        Fig. 33, vault of apsidal aisle, Pontoise (piers shaded)
+  moore_p117        Fig. 34, vaults of apsidal aisle, St. Denis
+
+2_rib_plans_line_only  (ribs as lines, piers as outlines or dots - fine for the rib lattice)
+  moore_p200        Figs. 84-85, apse rib plans St. Germer, Noyon
+  moore_p201        Fig. 86, apse rib plan, Paris
+  moore_p202        Fig. 87, apse rib plan, Chartres
+  moore_p203        Fig. 88, apse rib plan, Amiens
+  moore_p207        Fig. 91, Paris vaults of apsidal aisle (cells shaded)
+  viollet_v09_p522  apse vault plan, Notre-Dame Paris, columns drawn round
+  viollet_v09_p524  square bay with diagonals (fig. 27, small)
+  viollet_v09_p528  quarter plan, Amiens crossing vault, tiercerons + liernes (fig. 30)
+  viollet_v09_p529  small rib plans and boss details (fig. 31)
+  viollet_v09_p539  lierne vault quarter plan with keystones (fig. 36)
+  viollet_v09_p543  star vault quarter plan (fig. 39), has projection lines
+  viollet_v09_p551  star vault plan with keystones
+  viollet_v09_p556  half plan of star/net vault with keystones (fig. 45), has construction arcs
+
+3_pier_footprints  (single pier / impost plans - for extruding a pier or vault_web_gen footprints)
+  moore_p125        Fig. 37, Senlis pier
+  moore_p159        Figs. 55-56, impost plans incl. 6th pier Paris
+  moore_p160        Figs. 57-58, impost plans incl. 7th pier Paris
+  moore_p179        Fig. 69, Beauvais pier
+  moore_p253        Fig. 111, Lincoln choir pier
+  moore_p324        Fig. 136, Florence pier
+  viollet_v04_p162  pier plan with rib springers (fig. 85)
+  viollet_v04_p183  black pier plans with rib directions (fig. 97)
+  viollet_v09_p548  Narbonne choir pier section with ribs (fig. 41)
+  brandon_v2_p229   quatrefoil pier plan, bottom right (hatched)
+  brandon_v2_p249   quatrefoil and pier plans (hatched)
+  collings_v2_p179  quatrefoil pier plans (hatched)
+  collings_v2_p183  quatrefoil pier plans (hatched)
+  collings_v2_p219  small octagonal / quatrefoil pier plans
+  collings_v2_p243  tower plan with buttresses (grey fill)

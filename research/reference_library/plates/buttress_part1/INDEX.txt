@@ -1,0 +1,49 @@
+Buttress and flying buttress plates - unedited 300 dpi page renders (PDF page numbers)
+
+1_flying_buttresses  (best geometry: arch + upright buttress + pinnacle)
+  glossary_companion_p241  MEASURED PLATE "Buttresses - Flying": 8 flying buttress elevations (Salisbury, Westminster, etc.). Best single page.
+  moore_p181   Fig. 71, flying buttress, St. Martin, Laon
+  moore_p182   Fig. 72, apse of St. Leu d'Esserent
+  moore_p183   Fig. 73, nave of St. Leu d'Esserent
+  moore_p185   Fig. 74, nave of Noyon
+  moore_p186   Fig. 75, apse of Soissons
+  moore_p187   Fig. 76, nave of Amiens (double-arch system with pinnacle)
+  moore_p188   Fig. 77, apse of Reims (two-tier buttress)
+  moore_p045   Fig. 7, section of the Abbaye-aux-Hommes - the earliest "flying buttress" as a section
+  viollet_v04_p193  Fig. 101 ter, large flying buttress elevation (Beauvais/Amiens, with the pier)
+  parker_p223  Fotheringhay flying buttresses, perspective (no measured geometry)
+
+2_buttress_elevations  (upright buttresses, front/side elevations, often with set-offs)
+  glossary_companion_p239  MEASURED PLATE "Buttresses": 13 elevations (Canterbury, Lincoln, Salisbury ...)
+  viollet_v04_p144  Dijon, elevation with buttresses and window (fig. 75)
+  viollet_v04_p147  fig. 77, buttress elevation with set-offs
+  viollet_v04_p296  Contre-fort entry, Romanesque buttress elevations
+  viollet_v04_p297  figs. 3-4, buttress elevations with a person for scale
+  viollet_v04_p299  fig. 6, buttress with window opening
+  viollet_v04_p300  fig. 7, corbelled buttress head
+  viollet_v04_p301  fig. 8, tall stepped buttress
+  viollet_v04_p302  fig. 9, Beauvais (St-Etienne), angle buttress elevation
+  viollet_v04_p307  fig. 13, engaged-column buttress
+  viollet_v04_p316  fig. 21, buttress with pinnacle cluster
+  parker_p078 / p175   Norman flat buttress, Decorated buttresses (small engravings)
+  brandon_v1_p096-098  Buttress chapter: Early English to Perpendicular buttresses (engravings in text)
+  brandon_v2_p233   Decorated plate 17: buttress elevations in stone courses
+  brandon_v2_p241   Decorated plate 18: buttress elevation with plans and sections
+  collings_v2_p239  Aisle buttresses, Puxley/Pucklechurch, with mouldings
+  collings_v2_p243  Tower west entrance with angle buttresses and plan
+  collings_v2_p255  Buttresses from N. aisle St Neots and a diagonal buttress, with plans
+
+3_plans_and_sections
+  viollet_v04_p304  figs. 10-11, plans of corner buttresses
+  viollet_v04_p309  fig. 15, plan of apse chapels with buttress plan
+  viollet_v04_p313  fig. 18, T-shaped buttress plan (solid black - works in plan2stl)
+  viollet_v04_p315  fig. 20, buttress plan with diagonal pinnacles
+  viollet_v04_p150  fig. 79, section through the Dijon wall, vault and buttress
+  viollet_v04_p085  fig. 40, nave section with flying buttress, scale figure
+  moore_p044        Figs. 3-6, plans/elevations of early buttresses
+
+4_statics_diagrams  (thrust-line and force geometry for flying buttresses)
+  viollet_v04_p051  fig. 26, thrust geometry of the arc-boutant
+  viollet_v04_p192  fig. 101, how the flying buttresses meet the vault (Beauvais)
+
+Already in the earlier plan2stl zip and also relevant here: viollet_v04_p196 (church plan with buttress piers), viollet_v04_p183 (figs. 96-97 pier plans), moore_p179 (Fig. 69, Beauvais pier plan).

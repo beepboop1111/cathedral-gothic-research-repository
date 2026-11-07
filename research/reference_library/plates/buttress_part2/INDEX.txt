@@ -1,0 +1,46 @@
+Buttress plates, part 2 - unedited 300 dpi page renders (PDF page numbers)
+Same folder scheme as buttress_plates.zip.
+
+1_flying_buttresses
+  viollet_v01_p089-p107, p109  "Arc-boutant" entry, figs. 49-70: the full development of the flying buttress,
+                               Romanesque to late Gothic. Highlights:
+    p093  fig. 54, Chartres nave flying buttresses (wheel-spoke type), perspective
+    p098  fig. 61, full section with two tiers of flyers and pinnacles, dimensioned (46.50 m to ground)
+    p100  fig. 62, double flyer with intermediate pier
+    p101  fig. 63, flyer with pierced tracery web
+    p103  figs. 64-65, Narbonne / Saint-Denis type sections
+    p104  fig. 66, flyer on a tall culee, with thrust line
+    p105  fig. 67, flyer with tracery (text discusses Troyes)
+    p106  fig. 68, Paris type double flyer
+    p107  fig. 69, late Gothic flyers with big pinnacles
+    p109  fig. 70 bis, buttress pier with flyer, section
+  ungewitter_v2_p087  Tafel LXXXIV "Die Strebebogen": Worms, Freiburg, Strasbourg - measured, with sections of the flyer (best plate)
+  ungewitter_v2_p093  Tafel LXXXV "Die Strebebogen": Reims, Dijon, Jung St. Peter Strasbourg
+  ungewitter_v2_p099  Tafel LXXXVI flyer water channels (gutters along the flyer) and details
+  ungewitter_v2_p109  Tafel LXXXVII intermediate piers of flyers + "Berechnung eines Strebesystems" (worked calculation section)
+  ungewitter_v2_p113  Tafel LXXXVIII triforium development, includes flyer sections
+  ungewitter_v1_p267  Tafel XLI, flyer thrust-line constructions + flyer elevations
+  ungewitter_v1_p279  Tafel XLII, basilica cross-sections with flyers (Strasbourg, Cologne type) + force diagrams
+
+2_buttress_elevations
+  ungewitter_v1_p223  Tafel XXXVII "Aufriss der Strebepfeiler": buttress profiles (outlines with set-offs) + pier strength
+  ungewitter_v2_p187  Tafel CI "Ausbildung der Strebepfeiler": buttress tops, set-offs, gablets
+  ungewitter_v2_p195  Tafel CII "Reichere Ausbildung der Strebepfeiler": rich buttresses with niches and statues
+  ungewitter_v2_p201  Tafel CIII pinnacles and gables (Fiale und Wimperge), with plans
+  ungewitter_v2_p205  Tafel CIV "Ausbildung der Fialen": pinnacles, with plans
+  ungewitter_v2_p211  Tafel CV pinnacles (Reims, Rouen), with plans
+
+3_plans_and_sections
+  viollet_v01_p097   fig. 60, solid black plan of pier + flyer heads (plan2stl-ready)
+  viollet_v01_p108   fig. 70, solid black plan of buttress system (plan2stl-ready)
+  viollet_v01_p110   figs. 72-73, solid black buttress plans (plan2stl-ready)
+  ungewitter_v1_p219 Tafel XXXVI "Grundriss/Aufriss der Widerlagswande": wall + buttress plans and elevations
+  ungewitter_v2_p029 Tafel LXXV church cross-section (Wetter choir)
+  ungewitter_v2_p067 Tafel LXXXI hall church cross-sections
+  ungewitter_v2_p131 Tafel XCII choir and transept of the basilica, buttress plans
+  ungewitter_v2_p379 Tafel CXXXV tower build-up, corner buttress plans
+
+4_statics_diagrams
+  viollet_v01_p092   fig. 53, flyer thrust diagrams
+  ungewitter_v1_p231 Tafel XXXVIII size of the vault thrust (thrust-line constructions)
+  ungewitter_v1_p245 Tafel XXXIX pressure distribution on piers/buttress footings
