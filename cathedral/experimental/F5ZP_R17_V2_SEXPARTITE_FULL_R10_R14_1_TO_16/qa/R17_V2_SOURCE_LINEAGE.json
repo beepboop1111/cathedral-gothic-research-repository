@@ -1,0 +1,22 @@
+{
+  "R10": {
+    "original": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_V4_AND_POLYGON_R10_TANGENT_CONTROLLED_MERIDIANS_EXPERIMENTAL/scripts/generate_R10_tangent_hermite_meridians.py",
+    "archived": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_V2_SEXPARTITE_FULL_R10_R14_1_TO_16_EXPERIMENTAL/reference/R10_R14/R10_generate_R10_tangent_hermite_meridians.py",
+    "sha256": "3f2329a43d7ad03c0f5d9705735c459d46db3d41a89bfdfeecd4e6ef9f51e0cc"
+  },
+  "R13": {
+    "original": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_APSE_R13_TWO_CONNECTION_TYPES_EXPERIMENTAL/scripts/build_R13_five_matching_webs.py",
+    "archived": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_V2_SEXPARTITE_FULL_R10_R14_1_TO_16_EXPERIMENTAL/reference/R10_R14/R13_build_R13_five_matching_webs.py",
+    "sha256": "ec61ce05fe00a3887506b6bfc3fa2848af0e19c58ba17de3d831c6a9cb21fff7"
+  },
+  "R14": {
+    "original": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_APSE_R14_BOTH_USER_RED_TYPES_EXPERIMENTAL/scripts/build_R14_two_user_drawn_web_types.py",
+    "archived": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_V2_SEXPARTITE_FULL_R10_R14_1_TO_16_EXPERIMENTAL/reference/R10_R14/R14_build_R14_two_user_drawn_web_types.py",
+    "sha256": "c56ed391277421356ef591ac9e487c64bad358d4bea4e2d257847e8284e6a434"
+  },
+  "R17_V1_SKELETON": {
+    "original": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_SEXPARTITE_DOUBLE_BAY_1_TO_16_EXPERIMENTAL/scripts/build_R17_sexpartite.py",
+    "archived": "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_V2_SEXPARTITE_FULL_R10_R14_1_TO_16_EXPERIMENTAL/reference/R10_R14/R17_V1_SKELETON_build_R17_sexpartite.py",
+    "sha256": "cae307bac96addf831b77ad2d74a4496ba6a92884b4def5635f16dd6d993f7fa"
+  }
+}
