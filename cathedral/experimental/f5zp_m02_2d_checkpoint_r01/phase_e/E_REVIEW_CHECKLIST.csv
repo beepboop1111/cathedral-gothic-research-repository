@@ -1,0 +1,17 @@
+check,result,detail
+218 source valid vault cells,PASS,No empty/invalid/zero area polygons
+R11 unique vault-overlap scan,PASS,"30 adjacent bounding box pairs checked; 0 positive-area overlaps, 0 line contacts"
+Continuous open nave/crossing/choir/chancel,PASS,15 main vault clear cells plus crossing north/south arms covered by single continuous purple area
+Exactly seven chancel inner facets,PASS,"8 source vertices, 7 true straight facets"
+320 first chancel-to-inner wall,PASS,"Seven source parallel strips, on-axis width 320"
+Original ambulatory rhythm,PASS,"7 I, 7 M, 7 T source polygons, 197 and 292 normal gaps"
+Explicit removal of 14 outer trial cells,PASS,No trial outer cells or divider lines in Phase D source
+Chevet mirrored footprint geometry,PASS,7 source ring cells in all 3 rings reflect across central axis
+Six+two candidate supports do not intrude,PASS,8 provisional moderate construction envelope sites clear protected vaults and open interior
+Large saved masonry reservations represent built walls,NOT VALIDATED,R11 layers status EXPERIMENTAL; must not conflate with physical masonry
+Architectural pier/arch bearing placement,UNRESOLVED,Reference 8 sites not approved structural piers
+Lower fourteen-vault architectural program,EXCLUDED,Phase C trial remains separate; not part of floor plan
+F5ZL-C support schedule,MISSING,Not invented
+Physical units conversion,UNRESOLVED,native 1:1 coordinates; physical conversion not verified
+Historical validation,NOT ASSESSED,No plate-based approval from geometry alone
+Structural validation,NOT ASSESSED,"No capacity, construction sequencing or masonry-bond assessment"
