@@ -1,0 +1,7 @@
+junction,side,main_x_start,main_x_end,aisle_x_start,aisle_x_end,reference_axis_x,main_depth_x,aisle_depth_x,transverse_band_y,rectangular_facing_area,taper_facing_area,rectangular_extra_shoulder_area,rectangular_shoulders_each_x,direct_taper_side_slope_angle_deg,entrance_R24_reference_side_slope_angle_deg,main_endpoint_contact_both_options,aisle_endpoint_contact_both_options,intrudes_vault_clear,intrudes_entrance_void,rectangle_has_sharp_90_degree_width_step,direct_taper_has_single_oblique_face,physical_geometry_changed
+Q2–Q3,N,8829.0,9349.0,8954.0,9224.0,9089.0,520,270,320,166400.0,126400.0,40000.0,125,21.3369,37.4386,520,270,False,False,True,True,False
+Q2–Q3,S,8829.0,9349.0,8954.0,9224.0,9089.0,520,270,320,166400.0,126400.0,40000.0,125,21.3369,37.4386,520,270,False,False,True,True,False
+Q3–Q4,N,12805.0,13325.0,12930.0,13200.0,13065.0,520,270,320,166400.0,126400.0,40000.0,125,21.3369,37.4386,520,270,False,False,True,True,False
+Q3–Q4,S,12805.0,13325.0,12930.0,13200.0,13065.0,520,270,320,166400.0,126400.0,40000.0,125,21.3369,37.4386,520,270,False,False,True,True,False
+Q4–Q5,N,16493.0,17013.0,16618.0,16888.0,16753.0,520,270,320,166400.0,126400.0,40000.0,125,21.3369,37.4386,520,270,False,False,True,True,False
+Q4–Q5,S,16493.0,17013.0,16618.0,16888.0,16753.0,520,270,320,166400.0,126400.0,40000.0,125,21.3369,37.4386,520,270,False,False,True,True,False
