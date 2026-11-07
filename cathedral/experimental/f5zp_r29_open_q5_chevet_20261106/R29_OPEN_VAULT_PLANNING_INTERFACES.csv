@@ -1,0 +1,7 @@
+planning_interface,source_Q5_face,source_curved_chevet_face,source_min_face_distance_native_units,architectural_reading,doorway_required
+A1_N,Q5_N_A1_2,I_A1_R12C,224.886016,OPEN SPACE / planning gap — NOT a physical masonry thickness,False
+A1_S,Q5_S_A1_2,I_A7_R12C,224.886016,OPEN SPACE / planning gap — NOT a physical masonry thickness,False
+A2_N,Q5_N_A2_2,M_A1_R12C,259.127562,OPEN SPACE / planning gap — NOT a physical masonry thickness,False
+A2_S,Q5_S_A2_2,M_A7_R12C,259.127562,OPEN SPACE / planning gap — NOT a physical masonry thickness,False
+A3_N,Q5_N_A3_2,T_A1_R12C,305.452516,OPEN SPACE / planning gap — NOT a physical masonry thickness,False
+A3_S,Q5_S_A3_2,T_A7_R12C,305.452516,OPEN SPACE / planning gap — NOT a physical masonry thickness,False
