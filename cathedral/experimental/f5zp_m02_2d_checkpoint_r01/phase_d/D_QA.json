@@ -1,0 +1,42 @@
+{
+  "milestone": "M02 Phase D",
+  "status": "2D masonry and reservation coordination complete; proposed supports unapproved",
+  "source_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R30": "93b005de5d228405f67513e6abc24e2658315dad12464f491c7288c6e8a3737b",
+    "R31": "553f3a168a52ba1dea183425af436d4319bae2f25bd40878789a44a37d668e86",
+    "B3": "90880a06fb18f848c4c63d583b85024a3cbeb3a629e837ee0eb3e9c5d4de782b",
+    "B3QA": "049f0ee35a95ea0b690920b96576d5ed09dd492087d7a930e0472f4dfdc4ec46",
+    "CQA": "d6e7151d0ad316ee70cc2fc06e8d92909c19c04eed3508a7a0a7be177f319b59"
+  },
+  "original_R11_clear_vaults": 218,
+  "source_chevet_7_7_7_retained": true,
+  "experimental_outer_14_cells_excluded_from_floor_plan": true,
+  "first_sanctuary_to_inner_wall_faces": 7,
+  "first_wall_perpendicular_width": 320,
+  "source_masonry_overlaps_open_zone": [
+    25106480.0,
+    21586880.0,
+    0.0
+  ],
+  "provisional_support_sites": 8,
+  "provisional_supports_selected_for_architecture": 0,
+  "provisional_support_vault_overlap_area": 0.0,
+  "provisional_support_open_overlap_area": 1.1598247404603081e-10,
+  "source_I_M_separator_7_bays_native": 197,
+  "source_M_T_separator_7_bays_native": 292,
+  "validation": {
+    "technical": "PASS hash/integrity/export",
+    "geometric": "PASS chancel wall strips, source rings, reservations",
+    "architectural": "OPEN sanctuary and first 320 wall user-confirmed; support profiles provisional",
+    "historical": "NOT assessed",
+    "structural": "NOT assessed"
+  },
+  "unresolved": [
+    "8 real pier/bearing designs and masonry joins",
+    "Source R11 masonry-reservation layers not all physical walls",
+    "F5ZL-C missing support schedule",
+    "Physical unit conversion unverified",
+    "14 outer subdivisions explicitly excluded pending approval"
+  ]
+}
