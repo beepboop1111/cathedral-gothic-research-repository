@@ -1,0 +1,32 @@
+{
+  "version": "R29B \u2014 CORRECTED FIRST WALL LOCATION (supersedes overly broad R29 open-area wording)",
+  "user_clarification": "not exactly the first wall starts at the first 320 width sanctuary to inner layer",
+  "status": "USER-CONFIRMED ARCHITECTURAL INTENT; specific central axial cross-section checked against saved 2D geometry",
+  "planning_region": "Q5 and the open sanctuary approach BEFORE the sanctuary-to-inner-layer wall",
+  "first_actual_wall": "SANCTUARY_TO_INNER_LAYER_320",
+  "on_axis_y": 0,
+  "first_wall_west_x": 23081.906913,
+  "first_wall_east_x": 23401.906913,
+  "first_wall_width_on_axis_x": 320.0,
+  "Q5_end_x": 19893,
+  "prior_X19893_to_20213_320": "planning reservation only, not physical wall, per user correction",
+  "source_mapping": "CHEVET_MASONRY_R10 polygon has 320 X intersection at Y0 adjoining I_A4_R12C",
+  "other_ring_divider_physical_status": "NOT RESOLVED HERE; do not generalize open-all-the-way-through",
+  "R28_doorway_proposals": "superseded, not approved",
+  "source_SHA256": {
+    "F5ZP_R11_COORDINATED_NATIVE_2D.geojson": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R29_CORRECTED_ARCHITECTURAL_INTERPRETATION.json": "fc93fdf68c37127ddfd55aa282fb182fbbdd9feac712e559d0a6498209ddcc3e"
+  },
+  "validation": {
+    "technical": "PASS source hashes and artifact exports",
+    "geometric": "PASS centerline 320 wall cross-section and next inner-vault start",
+    "architectural": "User confirms FIRST wall at sanctuary\u2013inner boundary; actual doorway/support design unapproved",
+    "historical": "NOT assessed",
+    "structural": "NOT assessed"
+  },
+  "source_geom_modified": false,
+  "unresolved": [
+    "Wall full 2D shape outside the confirmed axial section needs architectural detailing",
+    "F5ZL-C support schedule missing"
+  ]
+}
