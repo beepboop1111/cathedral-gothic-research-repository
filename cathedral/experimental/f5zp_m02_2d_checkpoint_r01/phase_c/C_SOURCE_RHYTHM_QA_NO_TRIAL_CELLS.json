@@ -1,0 +1,76 @@
+{
+  "milestone": "F5ZP M02 PHASE C \u2014 AMBULATORY RHYTHM COORDINATION",
+  "status": "2D_GEOMETRIC_COORDINATION_COMPLETE; OUTER PAIRED 14-CELL DESIGN EXPERIMENTAL",
+  "protected_sources_unchanged": true,
+  "source_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R30": "93b005de5d228405f67513e6abc24e2658315dad12464f491c7288c6e8a3737b",
+    "R31": "553f3a168a52ba1dea183425af436d4319bae2f25bd40878789a44a37d668e86",
+    "R32": "ba4c9319e27308624df2e34dda765b21f4ac523dc8aa5ee2ad161c3d9be5a9a8",
+    "R33": "2de0b1328ecdfc3551790b6fd903328c1a25429b85431794babc270d5d6fc00e",
+    "M02_B_FINAL": "049f0ee35a95ea0b690920b96576d5ed09dd492087d7a930e0472f4dfdc4ec46"
+  },
+  "original_R11_CLEAR_polygon_count": 218,
+  "authoritative_existing_source_chevet_ring_counts": {
+    "inner": 7,
+    "middle": 7,
+    "third": 7
+  },
+  "proposed_source_based_trial_plan_cell_counts": {
+    "inner": 7,
+    "middle": 7,
+    "third_subdivided": 14
+  },
+  "source_21_chevet_polygons_recovered": true,
+  "trial_28_cell_2d_overlay_generated": true,
+  "source_pairs_and_bounds": {
+    "all_7_I_to_M_normal_separators_native": 197,
+    "all_7_M_to_T_normal_separators_native": 292,
+    "all_7_ring_facing_edges_length_matched": true,
+    "end_bays_vertex_to_vertex_offset_note": "At bays 1 and 7 the endpoints are tangentially shifted; matching perpendicular band distances remain exactly 197 and 292 native units.",
+    "original_T_outer_surface_area_preserved_exactly_by_trial_splits": true,
+    "mirror_symmetry_north_south": true,
+    "outer_split_line_profiles": "straight 2D design/construction guide, NOT a validated Gothic arch or rib"
+  },
+  "adjacent_bay_gap_source_2d_all_rings": [
+    184.892298,
+    139.881192,
+    134.428596,
+    134.428596,
+    139.881192,
+    184.892298,
+    298.716619,
+    225.995552,
+    217.186201,
+    217.186201,
+    225.995552,
+    298.716619,
+    467.430841,
+    353.63714,
+    339.852295,
+    339.852295,
+    353.63714,
+    467.430841
+  ],
+  "programmatic_vault_rhythm_2d": "7+7+14 conceptual double lower bay plan using 7 original outer T polygons retained unchanged",
+  "unconfirmed_architecture": [
+    "Actual paired outer vault webs, groin and arch shapes",
+    "The outer layer being lower than the inner/middle: vertical positions not contained in this 2D source",
+    "Window above each pair of lower entrances: design intention only, not actual 2D plan proof",
+    "Pier bearing capacity, masonry joining, lower door thresholds and exterior buttress",
+    "Shared Gothic arch profiles for seven I-M interfaces and any paired outer dividing arches"
+  ],
+  "validation": {
+    "technical": "PASS regression SHA256, reproducible CSV/GeoJSON/PNG/ZIP",
+    "geometric": "PASS exact source 7+7+7 correspondence, seven 197/292 separators, split containment, 14 area-conserving cells, symmetry",
+    "architectural": "Partial: user-intended 7+7+14 LOWER rhythm represented as experimental 2D guide only; actual outer bay architecture not approved",
+    "historical": "NOT assessed",
+    "structural": "NOT assessed: load-bearing, pier interfaces and roof/window requirements unresolved"
+  },
+  "blocked_items": [
+    "No recovered source establishing 14 distinct approved third-ring vault web/arch footprints: only 7 source T polygons.",
+    "The lower level vertical offset, vault springing/crown heights and upper-window placement not defined in these 2D polygon files.",
+    "F5ZL-C support schedule still missing; structural feasibility not established."
+  ],
+  "phase_c_handoff": "2D rhythm coordination and experimental 7+7+14 trial done locally. Keep outer ring experimental until architectural and section approval."
+}
