@@ -1,0 +1,23 @@
+{
+  "note": "EXPERIMENTAL hand-picked seeds for the included generated black-line study, not geometry from the historical scan. Review against image before approval.",
+  "palette": {
+    "outer": "#7832C9",
+    "frame": "#2449BE",
+    "middle": "#3B91E6",
+    "inner": "#70D4ED",
+    "ring": "#FFD34E",
+    "deep": "#F07837",
+    "open": "#FFA142",
+    "closed": "#85D95B"
+  },
+  "seeds": [
+    {"x": 146, "y": 370, "class": "open"},
+    {"x": 291, "y": 660, "class": "open"},
+    {"x": 380, "y": 1397, "class": "open"},
+    {"x": 173, "y": 1860, "class": "open"},
+    {"x": 520, "y": 1850, "class": "open"},
+    {"x": 326, "y": 439, "class": "closed"},
+    {"x": 552, "y": 684, "class": "closed"},
+    {"x": 569, "y": 1123, "class": "closed"}
+  ]
+}

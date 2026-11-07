@@ -1,0 +1,17 @@
+{
+  "source_sha256": "76c5faf25f29cfbe151eaf2b21c721b21d4e21536b12510ff13585336fb5fd69",
+  "source_dimensions_px": [
+    2048,
+    1414
+  ],
+  "method": "whole-page source pixel ink converted to vector horizontal runs; supplemental dashed axes as independently switchable SVG layer",
+  "threshold": 220,
+  "min_connected_component_area": 3,
+  "ink_pixels_retained": 139734,
+  "source_trace_iou": 0.9999856870911875,
+  "source_trace_recall": 0.9999856870911875,
+  "vector_svg_note": "scan-faithful vectorized ink, NOT smooth recovered compass arc geometry",
+  "color_rules": "black source outline; light gray dashed guides; no red because no speculative constructions",
+  "source_unchanged": true,
+  "geometry_approved": false
+}

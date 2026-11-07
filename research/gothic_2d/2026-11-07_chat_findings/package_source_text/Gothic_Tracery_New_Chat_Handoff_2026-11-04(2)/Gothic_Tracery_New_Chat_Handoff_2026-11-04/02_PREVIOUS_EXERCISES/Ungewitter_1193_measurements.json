@@ -1,0 +1,161 @@
+{
+  "source_image": "/mnt/data/1UM_II_p277_pointed_arch_setout.png",
+  "source_sha256": "bcb7ef7fe44577d7378399245dd5000c249ea29d9578765dcf58edc41e9b3f24",
+  "figure": 1193,
+  "trace_scope": "Four arc segments only; exclude neighboring figures 1194\u20131198",
+  "source_image_size_px": [
+    660,
+    485
+  ],
+  "image_units": "unalibrated pixel locations",
+  "circles": {
+    "LOWER_LEFT": {
+      "cx_px": 72.84501978941907,
+      "cy_px": 185.6425423254789,
+      "r_px": 44.658602097244,
+      "fit_rmse_px": 0.2608402214663028,
+      "angular_range_deg_image": [
+        185,
+        267
+      ],
+      "sample_count": 82,
+      "source_status": "Circle fitted to an ink segment; complete circle is an extension, not full historical ink"
+    },
+    "UPPER_LEFT": {
+      "cx_px": 115.55156434838877,
+      "cy_px": 142.2512265342167,
+      "r_px": 42.89958818701706,
+      "fit_rmse_px": 0.25665629260817036,
+      "angular_range_deg_image": [
+        184,
+        267
+      ],
+      "sample_count": 82,
+      "source_status": "Circle fitted to an ink segment; complete circle is an extension, not full historical ink"
+    },
+    "UPPER_RIGHT": {
+      "cx_px": 115.54333658191129,
+      "cy_px": 129.518420020744,
+      "r_px": 43.00750669452947,
+      "fit_rmse_px": 0.25021921907814587,
+      "angular_range_deg_image": [
+        273,
+        353
+      ],
+      "sample_count": 82,
+      "source_status": "Circle fitted to an ink segment; complete circle is an extension, not full historical ink"
+    },
+    "LOWER_RIGHT": {
+      "cx_px": 155.829114386562,
+      "cy_px": 188.19846157310985,
+      "r_px": 44.38364277066513,
+      "fit_rmse_px": 0.24961854998746177,
+      "angular_range_deg_image": [
+        275,
+        352
+      ],
+      "sample_count": 82,
+      "source_status": "Circle fitted to an ink segment; complete circle is an extension, not full historical ink"
+    }
+  },
+  "intersections": [
+    {
+      "id": "LOWER_LEFT__UPPER_LEFT__1",
+      "a": "LOWER_LEFT",
+      "b": "UPPER_LEFT",
+      "x_px": 117.50040499332727,
+      "y_px": 185.10652593529764
+    },
+    {
+      "id": "LOWER_LEFT__UPPER_LEFT__2",
+      "a": "LOWER_LEFT",
+      "b": "UPPER_LEFT",
+      "x_px": 72.67068849043935,
+      "y_px": 140.98428049322482
+    },
+    {
+      "id": "LOWER_LEFT__UPPER_RIGHT__1",
+      "a": "LOWER_LEFT",
+      "b": "UPPER_RIGHT",
+      "x_px": 115.53395406243413,
+      "y_px": 172.52592569182804
+    },
+    {
+      "id": "LOWER_LEFT__UPPER_RIGHT__2",
+      "a": "LOWER_LEFT",
+      "b": "UPPER_RIGHT",
+      "x_px": 74.09717202198073,
+      "y_px": 141.00149780290462
+    },
+    {
+      "id": "LOWER_LEFT__LOWER_RIGHT__1",
+      "a": "LOWER_LEFT",
+      "b": "LOWER_RIGHT",
+      "x_px": 113.9890890689888,
+      "y_px": 203.00791892369674
+    },
+    {
+      "id": "LOWER_LEFT__LOWER_RIGHT__2",
+      "a": "LOWER_LEFT",
+      "b": "LOWER_RIGHT",
+      "x_px": 114.97979787981915,
+      "y_px": 170.84216339273846
+    },
+    {
+      "id": "UPPER_LEFT__UPPER_RIGHT__1",
+      "a": "UPPER_LEFT",
+      "b": "UPPER_RIGHT",
+      "x_px": 158.0252768686234,
+      "y_px": 136.22143289229842
+    },
+    {
+      "id": "UPPER_LEFT__UPPER_RIGHT__2",
+      "a": "UPPER_LEFT",
+      "b": "UPPER_RIGHT",
+      "x_px": 73.07009456041112,
+      "y_px": 136.27632977621352
+    },
+    {
+      "id": "UPPER_LEFT__LOWER_RIGHT__1",
+      "a": "UPPER_LEFT",
+      "b": "LOWER_RIGHT",
+      "x_px": 111.5634088490333,
+      "y_px": 184.96503322864064
+    },
+    {
+      "id": "UPPER_LEFT__LOWER_RIGHT__2",
+      "a": "UPPER_LEFT",
+      "b": "LOWER_RIGHT",
+      "x_px": 158.4198214682379,
+      "y_px": 143.89049409082773
+    },
+    {
+      "id": "UPPER_RIGHT__LOWER_RIGHT__1",
+      "a": "UPPER_RIGHT",
+      "b": "LOWER_RIGHT",
+      "x_px": 114.31133680067475,
+      "y_px": 172.50827706422615
+    },
+    {
+      "id": "UPPER_RIGHT__LOWER_RIGHT__2",
+      "a": "UPPER_RIGHT",
+      "b": "LOWER_RIGHT",
+      "x_px": 156.10482235178225,
+      "y_px": 143.81567514963336
+    }
+  ],
+  "intersections_visible_in_study": 11,
+  "important_note": "Upper left and upper right arc are distinct vertically offset governing circles; do not impose a single upper center. Digitization is preliminary from low resolution plate crop.",
+  "styles": {
+    "historical_image": "original black/gray, no overpainting",
+    "recovered_full_circles": "dotted black",
+    "circle_centers": "green",
+    "intersections": "red",
+    "axes": "thin dashed light gray"
+  },
+  "limitations": [
+    "Small historical raster: fitted centers and radii require checking on higher resolution original",
+    "Arc-circle intersections are theoretical, not all used as Gothic arch junction points",
+    "No pointed arches, 3D or new rotation introduced"
+  ]
+}

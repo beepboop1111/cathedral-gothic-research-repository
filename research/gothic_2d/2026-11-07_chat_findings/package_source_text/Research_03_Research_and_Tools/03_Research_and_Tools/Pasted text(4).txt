@@ -1,0 +1,195 @@
+
+Pasted text(3).txtDocument
+all .zips are in recent project files
+from artifact_tool import Workbook, SpreadsheetFile
+from pathlib import Path
+import csv,json
+base=Path('/mnt/data/Cathedral_Master_Plate_Library_Phase2')
+cat=base/'catalogues'
+metrics=json.loads((base/'documentation'/'Build_Metrics.json').read_text())
+def load_csv(name):
+    with open(cat/name,encoding='utf-8-sig',newline='') as f:
+        return list(csv.DictReader(f))
+data_sheets=[
+    ("Archive Inventory","Source_Archive_Inventory.csv"),
+    ("Plate Register","Master_Plate_Register_SEED.csv"),
+    ("Generator Index","Generator_Compatibility_Index_SEED.csv"),
+    ("Priority Shortlist","Priority_Extraction_Shortlist_SEED.csv"),
+    ("Original Sources","Original_PDF_Source_Inventory.csv"),
+    ("Verification Issues","Coverage_and_Verification_Issues.csv"),
+]
+w=Workbook.create()
+summary=w.worksheets.add("Overview")
+summary.get_range("A1:F2").merge()
+summary.get_range("A1").values=[["F5ZP  |  MASTER ARCHITECTURAL PLATE LIBRARY"]]
+summary.get_range("A1:F2").format={"fill":"#15304A","font":{"bold":True,"color":"#FFFFFF","size":17},"row_height":24}
+summary.get_range("A4:F4").merge()
+summary.get_range("A4").values=[["PHASE 2  /  WORKING SOURCE RECONCILIATION - 03 NOV 2026"]]
+summary.get_range("A4:F4").format={"fill":"#DDEAF2","font":{"bold":True,"color":"#143A57","size":11},"row_height":27}
+overview=[
+["Located Library ZIP packages",metrics['archive_count'],"All filenames found in /Research/"],
+["ZIPs with readable raw contents",metrics['archive_raw_contents_accessible'],"Blocked: files cannot be materialized"],
+["Mounted historical PDFs",metrics['source_pdfs_accessible'],"Includes Volume X index and English translation"],
+["Seed plate/reference rows",metrics['seed_plate_rows'],"NOT a merged ZIP-derived master catalogue"],
+["Illustrated atlas source pages",metrics['source_page_atlas_entries'],"Source pages copied from original PDFs"],
+["Generator compatibility mappings",metrics['generator_index_rows'],"Script primary or secondary"],
+]
+summary.get_range("A6:C11").values=overview
+summary.get_range("A6:A11").format={"font":{"bold":True,"color":"#1B354B"},"row_height":27}
+summary.get_range("B6:B11").format={"font":{"bold":True,"color":"#06677E","size":14},"horizontal_alignment":"center"}
+summary.get_range("C6:C11").format={"font":{"color":"#526779"}}
+summary.get_range("A13:F13").merge()
+summary.get_range("A13").values=[["IMPORTANT: Archive inventory recovered; internal ZIP register reconciliation remains pending."]]
+summary.get_range("A13:F13").format={"fill":"#FFF0CF","font":{"bold":True,"color":"#8C4C0A"},"row_height":30}
+summary.get_range("A15:F18").merge()
+summary.get_range("A15").values=[["Keep archive and book source identities separate from design geometry. Unknown pages, figure numbers, and measured scales remain explicitly unverified. F5ZP master floor plan, vaults, ribs, piers, and chevet geometry were not changed."]]
+summary.get_range("A15:F18").format={"fill":"#F3F7FA","font":{"color":"#344B5C","size":11},"wrap_text":True,"vertical_alignment":"center"}
+for col,width in [("A",35),("B",20),("C",68),("D",11),("E",11),("F",11)]:
+    summary.get_range(f"{col}:{col}").format.column_width=width
+summary.freeze_panes.freeze_rows(4)
+for sheet_name,filename in data_sheets:
+    rows=load_csv(filename)
+    sh=w.worksheets.add(sheet_name)
+    headers=list(rows[0].keys())
+    ncol=len(headers);nrow=len(rows)
+    matrix=[headers]+[[r.get(h,"") for h in headers] for r in rows]
+    sh.get_range_by_indexes(0,0,len(matrix),ncol).values=matrix
+    hdr=sh.get_range_by_indexes(0,0,1,ncol)
+    hdr.format={"fill":"#15304A","font":{"bold":True,"color":"#FFFFFF","size":10},"row_height":35,"wrap_text":True,"vertical_alignment":"center"}
+    sh.freeze_panes.freeze_rows(1)
+    for j,head in enumerate(headers):
+        colrange=sh.get_range_by_indexes(0,j,nrow+1,1)
+        if head in ("Plate_ID","Priority","Script","Role","PDF_Page","Printed_Page","Atlas_Page","Size_Bytes","File_Size_Bytes","PDF_Page_Count"):
+            width=18
+        elif head in ("Notes","Action","Evidence","Subject","Original_PDF","Source_File","Archive_Name","Library_Path","Reported_Coverage","Provenance_Status","Status"):
+            width=43
+        elif head in ("Book","Category","Chapter_or_Article","Source_File","Original_Page_Image"):
+            width=32
+        else:
+            width=23
+        colrange.format.column_width=width
+    # visually striping is independent of actual values; use alternating white/ice
+    if nrow>0:
+        sh.get_range_by_indexes(1,0,nrow,ncol).format.row_height=24
+    # create named Excel tables for column filtering and sorting, when reasonable
+    safe={"Archive Inventory":"Archives","Plate Register":"SeedPlates","Generator Index":"GeneratorMap",
+          "Priority Shortlist":"Shortlist","Original Sources":"PDFSources","Verification Issues":"IssueTracker"}
+    try:
+        sh.tables.add(sh.get_range_by_indexes(0,0,nrow+1,ncol),True,safe[sheet_name])
+    except Exception as e:
+        print("table creation issue",sheet_name,str(e)[:150])
+    if sheet_name=="Plate Register":
+        # highlights seed provenance, not certified verified
+        pass
+print(w.inspect({"kind":"table","range":"Overview!A4:C11","include":"values","table_max_rows":12,"table_max_cols":3}).ndjson[:1400])
+output=base/'catalogues'/'F5ZP_Master_Plate_Library_WORKING.xlsx'
+SpreadsheetFile.export_xlsx(w).save(str(output))
+print("SAVED",output,output.stat().st_size)
+
+{"kind":"table","sheet":"Overview","address":"A4:C11","rows":8,"cols":3,"values":[["PHASE 2  /  WORKING SOURCE RECONCILIATION - 03 NOV 2026",null,null],[null,null,null],["Located Library ZIP packages",11,"All filenames found in /Research/"],["ZIPs with readable raw contents",0,"Blocked: files cannot be materialized"],["Mounted historical PDFs",20,"Includes Volume X index and English translation"],["Seed plate/reference rows",89,"NOT a merged ZIP-derived master catalogue"],["Illustrated atlas source pages",20,"Source pages copied from original PDFs"],["Generator compatibility mappings",122,"Script primary or secondary"]]}
+
+---------------------------------------------------------------------------
+PermissionError                           Traceback (most recent call last)
+Cell In[1], line 83
+     79         # highlights seed provenance, not certified verified
+     80         pass
+     81 print(w.inspect({"kind":"table","range":"Overview!A4:C11","include":"values","table_max_rows":12,"table_max_cols":3}).ndjson[:1400])
+     82 output=base/'catalogues'/'F5ZP_Master_Plate_Library_WORKING.xlsx'
+---> 83 SpreadsheetFile.export_xlsx(w).save(str(output))
+     84 print("SAVED",output,output.stat().st_size)
+
+File /tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py:69, in Blob.save(self, path)
+     66 'Could not get source, probably due dynamically evaluated source code.'
+
+PermissionError: [Errno 13] Permission denied: '/mnt/data/Cathedral_Master_Plate_Library_Phase2/catalogues/F5ZP_Master_Plate_Library_WORKING.xlsx'
+
+from pathlib import Path
+from artifact_tool import SpreadsheetFile
+out=Path("/mnt/data/Cathedral_Master_Plate_Library_Phase2/catalogues/F5ZP_Master_Plate_Library_WORKING.xlsx")
+SpreadsheetFile.export_xlsx(w).save(str(out))
+print(out.exists(),out.stat().st_size)
+
+True 46183
+
+print(w.inspect({"kind":"table","range":"Archive Inventory!A1:H4","include":"values","table_max_rows":4,"table_max_cols":8}).ndjson[:1250])
+print(w.inspect({"kind":"table","range":"Plate Register!A1:I5","include":"values","table_max_rows":5,"table_max_cols":9}).ndjson[:1250])
+print(w.inspect({"kind":"match","search_term":"#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A","options":{"use_regex":True,"max_results":20},"summary":"final formula error scan"}).ndjson[:800])
+
+{"kind":"table","sheet":"Archive Inventory","address":"A1:H4","rows":4,"cols":8,"values":[["Archive_Name","Library_Path","File_Size_Bytes","Library_Created_UTC","Collection","Reported_Coverage","Exists_In_Library","Original_ZIP_Bytes_Accessible"],["Hay_Symmetrical_Beauty_Plate_Selection_Package.zip","/Research/Hay_Symmetrical_Beauty_Plate_Selection_Package.zip","3650774","2026-11-03T17:52:15.000Z","David Ramsay Hay","98 recovered illustrated leaves / 100 stated, discrepancy unresolved","Yes","No"],["Worringer_Gothic_Plate_Selection_Package.zip","/Research/Worringer_Gothic_Plate_Selection_Package.zip","1537407","2026-11-03T17:51:52.000Z","Wilhelm Worringer","27 numbered plates and frontispiece, earlier survey","Yes","No"],["Fawcett_Gothic_Mouldings_Plate_Selection_Package.zip","/Research/Fawcett_Gothic_Mouldings_Plate_Selection_Package.zip","9347954","2026-11-03T17:51:19.000Z","Fawcett","21 full plates and 48 supplementary pages, earlier survey","Yes","No"]]}
+{"kind":"table","sheet":"Plate Register","address":"A1:I5","rows":5,"cols":9,"values":[["Plate_ID","Author","Book","Volume","Chapter_or_Article","Original_Plate","Figure","Printed_Page","PDF_Page"],["UM-II-PDF269","Ungewitter–Mohrmann","Lehrbuch der gotischen Konstruktionen","II","Window tracery / Fenstermaßwerk","unknown","unknown","unknown","269"],["UM-II-PDF273","Ungewitter–Mohrmann","Lehrbuch der gotischen Konstruktionen","II","Window tracery / Fenstermaßwerk","unknown","unknown","unknown","273"],["UM-II-PDF277","Ungewitter–Mohrmann","Lehrbuch der gotischen Konstruktionen","II","Window tracery / Fenstermaßwerk","unknown","unknown","unknown","277"],["UM-II-PDF281","Ungewitter–Mohrmann","Lehrbuch der gotischen Konstruktionen","II","Window tracery / Fenstermaßwerk","unknown","unknown","unknown","281"]]}
+{"kind":"notice","message":"Cell search matched 0 entries."}
+
+import csv
+from pathlib import Path
+base=Path('/mnt/data/Cathedral_Master_Plate_Library_Phase2')
+with open(base/'catalogues'/'Master_Plate_Register_SEED.csv',encoding='utf-8-sig',newline='') as f:
+    register=list(csv.DictReader(f))
+sh=w.worksheets.get_item("Plate Register")
+sh.get_range("J2:J90").values=[[r.get("Atlas_Page","unknown")] for r in register]
+for sheet_name,filename in [("Atlas Page Index","Source_Page_Atlas_Index.csv"),("Duplicate Audit","Duplicate_Audit_Seed.csv")]:
+    with open(base/'catalogues'/filename,encoding='utf-8-sig',newline='') as f:
+        values=list(csv.DictReader(f))
+    headers=list(values[0].keys())
+    tab=w.worksheets.add(sheet_name)
+    tab.get_range_by_indexes(0,0,len(values)+1,len(headers)).values=[headers]+[[row[h] for h in headers] for row in values]
+    tab.get_range_by_indexes(0,0,1,len(headers)).format={"fill":"#15304A","font":{"bold":True,"color":"#FFFFFF"},"row_height":35,"wrap_text":True}
+    tab.freeze_panes.freeze_rows(1)
+    for j,h in enumerate(headers):
+        tab.get_range_by_indexes(0,j,len(values)+1,1).format.column_width=(40 if h in ("Original_PDF","Interpretation","Original_Image","Provenance_Status") else 23)
+output=base/'catalogues'/'F5ZP_Master_Plate_Library_WORKING.xlsx'
+SpreadsheetFile.export_xlsx(w).save(str(output))
+print("xlsx",output.stat().st_size)
+print(w.inspect({"kind":"table","range":"Plate Register!I1:K7","include":"values","table_max_rows":7,"table_max_cols":3}).ndjson[:980])
+
+xlsx 49178
+{"kind":"table","sheet":"Plate Register","address":"I1:K7","rows":7,"cols":3,"values":[["PDF_Page","Atlas_Page","Subject"],["269","unknown","Window openings and associated details"],["273","4","Pointed tracery, cusps and geometric subdivision"],["277","unknown","Pointed-arch window-head construction"],["281","3","Circular and lobed geometries"],["285","unknown","Geometric rose-window patterns"],["291","5","Pointed windows with circular tracery"]]}
+
+Cathedral F5ZP — Master Architectural Plate Library
+
+All 11 ZIP packages listed in the Phase 2 handoff have been located in your recent ChatGPT Library files, under /Research/.
+
+This includes the Ungewitter–Mohrmann initial survey, both Colling collections, both Viollet-le-Duc selection packages, both Choisy volumes, and the Fawcett, Parker, Hay, and Worringer collections.
+
+The source-package inventory is complete. There is no need to repeat the original plate-selection surveys simply to locate these archives.
+
+The next task is to extract and reconcile their existing registers, preserving original artwork, printed pagination, source identities, and figure references. This remains an architectural research task; no cathedral geometry will be changed.
+Phase 2 — Working Research Package
+
+I've prepared a preliminary master library containing:
+
+    89 catalogue records, with source attribution and verification status.
+    20 original architectural source pages in a subject-organized preview atlas.
+    122 generator compatibility entries covering all six scripts.
+    Source inventories, contact sheets, priority candidates, and a verification report.
+
+Downloads:
+
+📦
+Complete Phase 2 Research Package — ZIP
+
+📊
+Master Plate Register — Excel
+
+📖
+Illustrated Architectural Atlas — PDF
+
+🖼️
+Visual Comparison Contact Sheets — PDF
+
+📋
+Verification and Coverage Report — PDF
+Important limitation
+
+This is a working library, not the completed consolidation. Although all eleven ZIPs were located, their contents could not be extracted through the current file-access mechanism.
+
+The catalogue therefore uses the available original PDFs and previous research, not the unread internal CSV registers. Full duplicate reconciliation and figure-by-figure verification remain outstanding.
+
+Attaching the ZIPs directly to this conversation would provide another route for extracting and merging their registers.
+
+All existing F5ZP architectural geometry remains untouched.
+F5ZP_Master_Plate_Library_WORKING.xlsxExcel
+Master_Architectural_Atlas_VERIFIED_PAGE_PREVIEW.pdfPDF
+Visual_Contact_Sheets.pdfPDF
+Verification_and_Coverage_Report.pdfPDF
+
+

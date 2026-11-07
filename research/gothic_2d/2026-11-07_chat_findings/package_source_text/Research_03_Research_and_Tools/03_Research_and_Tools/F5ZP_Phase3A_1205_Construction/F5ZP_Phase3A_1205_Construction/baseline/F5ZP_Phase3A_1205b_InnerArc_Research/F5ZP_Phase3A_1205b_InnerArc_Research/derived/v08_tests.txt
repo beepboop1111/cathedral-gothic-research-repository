@@ -1,0 +1,16 @@
+test_2rail_sweep (test_v08.V08Tests.test_2rail_sweep) ... ok
+test_calibration (test_v08.V08Tests.test_calibration) ... ok
+test_circle_fit (test_v08.V08Tests.test_circle_fit) ... ok
+test_color_separation (test_v08.V08Tests.test_color_separation) ... ok
+test_join (test_v08.V08Tests.test_join) ... ok
+test_plate_inspection_and_crop (test_v08.V08Tests.test_plate_inspection_and_crop) ... ok
+test_radial_and_partial (test_v08.V08Tests.test_radial_and_partial) ... ok
+test_reject_branch (test_v08.V08Tests.test_reject_branch) ... ok
+test_reject_collinear (test_v08.V08Tests.test_reject_collinear) ... ok
+test_repeated_scene (test_v08.V08Tests.test_repeated_scene) ... ok
+test_unique_head_slots (test_v08.V08Tests.test_unique_head_slots) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.013s
+
+OK

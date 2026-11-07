@@ -1,0 +1,63 @@
+{
+  "source_handoff_hashes_unchanged": {
+    "HANDOFF.md": true,
+    "experiment/README.md": true,
+    "experiment/comparison_contact_sheet.png": true,
+    "experiment/1205b_original_crop.png": true,
+    "experiment/Ungewitter_II_PDF281_Tafel_CXVIII_ORIGINAL.png": true,
+    "experiment/sample_points.csv": true,
+    "experiment/1205b_outer_circle_overlay.png": true,
+    "experiment/measurements.json": true,
+    "experiment/binary/1205b_fixed.png": true,
+    "experiment/binary/1205b.png": true,
+    "experiment/inputs/1205b.png": true,
+    "experiment/grayscale/1205b.png": true,
+    "tools/V08/gothic_stonework.py": true,
+    "tools/V08/gothic_patterns.py": true,
+    "tools/V08/gothic_geometry.py": true,
+    "tools/V08/README.md": true,
+    "tools/V08/gothic_plate_reader.py": true,
+    "tools/V08/__init__.py": true,
+    "tools/V08/requirements.txt": true,
+    "tools/V08/INTEGRATION_MANIFEST.json": true,
+    "tools/V08/test_v08.py": true,
+    "tools/preprocessing/pages_bw.py": true,
+    "tools/preprocessing/pages_grayscale.py": true,
+    "tools/preprocessing/fill_hatching.py": true
+  },
+  "all_preserved": true,
+  "v08_test_exitcode": 0,
+  "svg_roundtrip": [
+    {
+      "arc": "N",
+      "endpoint_circle_equation_error_px": 3.849507379527495e-10
+    },
+    {
+      "arc": "E_upper",
+      "endpoint_circle_equation_error_px": 2.5290347593909246e-10
+    },
+    {
+      "arc": "E_lower",
+      "endpoint_circle_equation_error_px": 5.576481498792418e-10
+    },
+    {
+      "arc": "S",
+      "endpoint_circle_equation_error_px": 8.145661922753789e-11
+    },
+    {
+      "arc": "W_lower",
+      "endpoint_circle_equation_error_px": 2.509992214072554e-10
+    },
+    {
+      "arc": "W_upper",
+      "endpoint_circle_equation_error_px": 9.85522774499259e-11
+    }
+  ],
+  "circle_intersection_max_equation_error_px": 1.4210854715202004e-14,
+  "analytic_vs_image_validation": "roundtrip errors are algebraic only; residuals conditional on seeded stroke selection",
+  "architectural_geometry_modified": false,
+  "tool_sources_modified": false,
+  "source_images_modified": false,
+  "svg_render_inspected": true,
+  "source_pdf_hash_and_144dpi_pixel_registration_verified": true
+}

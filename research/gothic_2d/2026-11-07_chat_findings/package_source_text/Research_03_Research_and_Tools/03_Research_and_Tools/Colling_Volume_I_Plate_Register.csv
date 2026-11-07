@@ -1,0 +1,96 @@
+selection,pdf_page,section,printed_plate,subject,candidate_scripts,source_pdf,notes
+1,19,Norman,1,"Bell turret, Burnby",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+2,23,Norman,2,"Window, Burnby",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+3,27,Norman,3,"Doorway, Etton",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+4,31,Norman,4,"Nave piers and arches, Walsoken",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+5,35,Norman,5,"Details, Walsoken",sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+6,39,Norman,6,"Capitals, Walsoken",sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+7,43,Early English,1,"Doorway, Great Grimsby",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+8,47,Early English,2,"Piscina, Strumpshaw",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+9,51,Early English,3,"Archway, Bishop Burton; corbel, Wawn",sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+10,55,Early English,4,"Priests’ doorways, Denton and Higham Ferrers",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+11,59,Early English,5,"Font, Greetwell",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+12,63,Early English,6,"Piers and arches, Leverington",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+13,67,Early English,7,"Pier plans and arch mouldings, Leverington",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+14,71,Early English,8,"Doorway, Wiggenhall St Mary",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+15,75,Early English,9,"Nave piers, arches and clerestory, West Walton",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+16,79,Early English,10,"Pier plans, West Walton",plan2stl.py; plan2geometry.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+17,83,Early English,11,"Mouldings, West Walton",sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+18,87,Early English,12,"Pier details, West Walton",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+19,91,Early English,13,"Clerestory exterior, West Walton",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+20,95,Early English,14,"South porch, West Walton",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+21,99,Early English,15,"Porch plan and details, West Walton",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+22,103,Early English,16,"Porch side elevation and section, West Walton",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+23,107,Early English,17,"Pinnacle details, West Walton",sketch2stl.py; sweep2schem.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+24,111,Early English,18,"South doorway, West Walton",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+25,115,Early English,19,"Doorway details, West Walton",sketch2stl.py; sweep2schem.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+26,119,Early English,20,"Foliated capitals, West Walton",sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+27,123,Early English,21,"South aisle window, West Walton",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+28,127,Early English,22,"Window details, West Walton",sketch2stl.py; plan2geometry.py; geometry2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+29,131,Early English,23,"Window, Binham Priory",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+30,135,Early English,24,"Door, Binham Priory",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+31,139,Early English,25,"Piers and arches, Rolvenden and Wawn",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+32,143,Decorated,1,"Niche, St Mary Beverley",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+33,147,Decorated,2,"Chapel doorway, St Mary Beverley",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+34,151,Decorated,3,"Buttresses, Cottingham and Frampton",plan2stl.py; plan2geometry.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+35,155,Decorated,4,"Chancel piers and arches, St Mary Beverley",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+36,159,Decorated,5,"Chancel pier and arch details, Beverley",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+37,163,Decorated,6,"Chapel window, St Mary Beverley",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+38,167,Decorated,7,"South porch, Bennington",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+39,171,Decorated,8,"East window, Beverley",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+40,175,Decorated,9,"Window details, Beverley",sketch2stl.py; plan2geometry.py; geometry2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+41,179,Decorated,10,"Chancel niche, Beverley",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+42,183,Decorated,11,"Niche lower portion and plan, Beverley",plan2stl.py; plan2geometry.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+43,187,Decorated,12,"Font, Bradfield",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+44,191,Decorated,13,"Chancel window, Frampton",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+45,195,Decorated,14,"Altar screen, Beverley Minster",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+46,199,Decorated,15,"Altar screen tracery and groining, Beverley",sketch2stl.py; plan2geometry.py; geometry2stl.py; plan2stl.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+47,203,Decorated,16,"Altar screen tracery/details, Beverley",sketch2stl.py; plan2geometry.py; geometry2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+48,207,Decorated,17,"Altar screen tracery/details, Beverley",sketch2stl.py; plan2geometry.py; geometry2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+49,211,Decorated,18,"Nave compartment, Austrey",plan2stl.py; plan2geometry.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+50,215,Decorated,19,"Clerestory and aisle windows, Austrey",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+51,219,Decorated,20,"Buttresses, Austrey",plan2stl.py; plan2geometry.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+52,223,Decorated,21,"Window, Cottingham",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+53,227,Decorated,22,"Parapet and basement, Beverley",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+54,231,Decorated,23,"Wooden screen, Cliffe at Hoo",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+55,235,Decorated,24,"Window, Tiltey",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+56,239,Decorated,25,"Window, St Stephen near Canterbury",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+57,243,Decorated,26,"Parclose screen, Geddington",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+58,247,Decorated,27,"Stone diaper work, Winchelsea",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+59,251,Decorated,28,"Windows, Rolvenden",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+60,255,Decorated,29,"Piers and arches, Winchelsea",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+61,259,Decorated,30,"Pier and arch details, Winchelsea",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+62,263,Decorated,31,"Windows, Wittersham and Kenilworth Abbey",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+63,267,Decorated,32,"Windows, Cliffe",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+64,271,Decorated,33,"Doorway, Rye",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+65,275,Decorated,34,"Windows, Berkswell",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+66,279,Decorated,35,"Coupled windows, Kenilworth",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+67,283,Decorated,36,"Aisle windows, Winchelsea",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+68,287,Decorated,37,"Window details, Winchelsea",sketch2stl.py; plan2geometry.py; geometry2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+69,291,Decorated,38,"Crosses and pierced parapet, Winchelsea",sketch2stl.py; plan2geometry.py; geometry2stl.py; plan2stl.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+70,295,Perpendicular,1,"West window, Wawn",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+71,299,Perpendicular,2,"Oak chest, Louth",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+72,303,Perpendicular,3,"West doorway, St Mary Beverley",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+73,307,Perpendicular,4,"Doorway details, Beverley",sketch2stl.py; sweep2schem.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+74,311,Perpendicular,5,"Doorway enlarged portions, Beverley",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+75,315,Perpendicular,6,"Nave piers and arches, Beverley",plan2stl.py; plan2geometry.py; massing.py; sketch2stl.py; sweep2schem.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+76,319,Perpendicular,7,"Clerestory windows, Beverley",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+77,323,Perpendicular,8,"Nave compartment and label terminations, Beverley",plan2stl.py; plan2geometry.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+78,327,Perpendicular,9,"Pulpit, Westminster Abbey",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+79,331,Perpendicular,10,"Chimney shaft, Southwell Minster",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+80,335,Perpendicular,11,"Seating, Wiggenhall St German",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+81,339,Perpendicular,12,"Seating, Wiggenhall St German",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+82,343,Perpendicular,13,"Seating, Wiggenhall St Mary",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+83,347,Perpendicular,14,"Seating, Wiggenhall St Mary",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+84,351,Perpendicular,15,"Doorway, Great Bromley",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+85,355,Perpendicular,16,"Lectern, Hawstead",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+86,359,Perpendicular,17,"South door, Helmingham",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+87,363,Perpendicular,18,"Roof over south chapel, Walsoken",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+88,367,Perpendicular,19,"Roof details, Walsoken",sketch2stl.py; sweep2schem.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+89,371,Perpendicular,20,"Roof details, Walsoken",sketch2stl.py; sweep2schem.py; massing.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+90,375,Perpendicular,21,"Wooden screen, St Peter Sudbury",sketch2stl.py; plan2geometry.py; geometry2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+91,379,Perpendicular,22,"Bench ends and panelling, several churches",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+92,383,Perpendicular,23,"Doorways, Great Bromley and Cottingham",massing.py; sketch2stl.py,detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+93,387,Metalwork,1,Closing rings,sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+94,391,Metalwork,2,Key plates,sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed
+95,395,Metalwork,3,"Iron railing, Lincoln Cathedral",sketch2stl.py (review),detailsofgothica01coll_0.pdf,Original scanned leaf; no cleaning or tracing performed

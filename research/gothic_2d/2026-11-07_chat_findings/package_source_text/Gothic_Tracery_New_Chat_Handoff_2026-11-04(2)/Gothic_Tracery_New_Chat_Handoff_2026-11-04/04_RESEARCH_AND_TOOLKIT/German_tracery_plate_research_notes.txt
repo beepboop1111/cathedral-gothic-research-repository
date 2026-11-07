@@ -1,0 +1,39 @@
+## ✅ New Chat Handoff Ready
+
+I've prepared a **compact, self-contained handoff** so we can continue Phase 3A without repeating the previous work.
+
+### 📦 Download
+
+**[F5ZP Phase 3A — Ungewitter CXVIII New Chat Handoff (1 MB)](sandbox:/mnt/data/F5ZP_Phase3A_CXVIII_1205b_NEW_CHAT_HANDOFF.zip)**
+
+The ZIP includes the original plate image, figure 1205b, the previous geometric measurements, overlays, your three image-processing scripts, the V08 geometry tools, and complete continuation instructions.
+
+### Where we'll resume
+
+**Source:** Ungewitter–Mohrmann, Volume II, Plate CXVIII, PDF page 281.
+
+**Figure:** 1205b — Circular quatrefoil.
+
+**Already completed:** Outer-circle reconstruction with an RMS fitting error of approximately 0.69 pixels.
+
+**Next objective:** Reconstruct the four inner lobes, identify their circular centers and intersections, and produce accurate SVG geometry with visual verification.
+
+### Start the new chat
+
+Open a new conversation in the **Research Project**, attach the ZIP, and paste:
+
+:::writing{variant="chat_message" title="Phase 3A Continuation" id="58321"}
+Continue Cathedral F5ZP Phase 3A using the attached handoff package.
+
+Read HANDOFF.md and recover the completed Ungewitter Volume II, Plate CXVIII, figure 1205b experiment.
+
+Continue from the validated outer-circle reference. Reconstruct the inner quatrefoil geometry, identify circular arcs, centers, and intersections, and produce measurable SVG geometry with comparison overlays and numerical validation.
+
+Use the supplied V08 tools and preprocessing scripts. Preserve the original historical drawings.
+
+Do not modify existing cathedral geometry, locked dimensions, or generators.
+
+Package the completed results for continued architectural research.
+:::
+
+**The handoff ZIP passed its integrity checks.** It contains only the materials needed for this experiment, not the entire historical plate library.

@@ -1,0 +1,54 @@
+## Paynter — Complete-book study
+
+The uploaded edition of <Entity category="book" value="Practical Geometry for Builders and Architects" disambig="1921 textbook by J. E. Paynter"/> contains **432 PDF pages**, including preliminary material, 22 instructional chapters, exercises, answers, and the index.
+
+I've completed the page-by-page text extraction and source indexing. The main chapters cover much more than trigonometry: they progress from scaling, triangles, and circles through ornamental construction, masonry arches, three-dimensional projections, moulding intersections, and graphic statics.
+
+One particularly important finding is in **Chapter X, printed pages 154–158**. Paynter explicitly demonstrates how a simple circular construction develops into more elaborate Gothic tracery. Figure 189 shows the finished circular-window designs alongside smaller diagrams of their underlying constructions. That closely matches the method you've been describing.
+
+I'll preserve that construction-first approach in our research notes rather than treating the visible ornamental outline as the only geometry worth recovering.
+
+## Complete-book review finished
+
+I've worked through the **entire 432-page PDF**, including all 22 chapters, illustrations, exercises, answers, and index.
+
+The review includes all 432 pages in a visual atlas and a searchable page-by-page register. I also inspected 25 important construction pages at higher resolution. Some diagrams and equations will still need a closer reading when we use their exact measurements, because the book's OCR is imperfect.
+
+<box gap={2}>
+  <row align="center" gap={2}>
+    <icon name="book-open" color="secondary" size="lg"/>
+    **[Download Complete Paynter Study Package](sandbox:/mnt/data/Paynter_1921_Complete_Book_Reading_Notes.zip)**
+  </row>
+  <caption>22-chapter study · 432-page index · 12 visual contact sheets · 25 detailed page renders · source audit</caption>
+</box>
+
+You can also access the research notes separately: [Chapter-by-chapter study](sandbox:/mnt/data/paynt_study/BOOK_STUDY.md) and [432-page reference register](sandbox:/mnt/data/paynt_study/PAGE_BY_PAGE_REGISTER.md).
+
+### The biggest lessons for our Gothic modeling
+
+Three areas stand out:
+
+| Paynter reference | What we can apply |
+|---|---|
+| **Chapter VI — The Circle** | Recover compass centers, tangencies, intersections and accurate curved construction |
+| **Chapter X — Ornamentation** | Build complex Gothic tracery from simple regulating geometry, as demonstrated in Figures 188–190 |
+| **Chapter XIV — Moulding Intersections** | Calculate proper transitions between differently inclined moulding sections instead of improvising connections |
+
+The book also gives us valuable methods for curved arch construction, projecting 3D forms from plans and elevations, interpenetrating solids, and analyzing force diagrams.
+
+### An especially important finding
+
+Paynter's Figure 190 is worth studying carefully.
+
+<row gap={3} align="start">
+  <AsyncImage query="Paynter Practical Geometry 1921 figure 190 triangular square Gothic tracery geometry construction" aspectRatio="3:4" maxWidth="150px"/>
+  <box flex="1" gap={1}>
+    He demonstrates a triangular tracery construction using equilateral triangles, angle bisectors, circle centers, an inscribed circle, and a second inscribed triangle.
+
+    **This is the point-to-point, shape-to-shape process you've been emphasizing.** The more elaborate ornament is developed from relationships already established in the regulating geometry.
+  </box>
+</row>
+
+We should now use this knowledge to strengthen our **sexfoil reconstruction**, but retain your instruction: **one 30° rotation only**, followed by careful examination of the resulting intersections.
+
+The book has been indexed and studied without modifying the original PDF, our cathedral's approved geometry, or the existing modeling generators.

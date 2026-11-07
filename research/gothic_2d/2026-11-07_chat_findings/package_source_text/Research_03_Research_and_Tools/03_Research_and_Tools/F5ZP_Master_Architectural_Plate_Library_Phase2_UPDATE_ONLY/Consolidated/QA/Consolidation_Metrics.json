@@ -1,0 +1,23 @@
+{
+  "input_archive": "Gothic_Master_Architectural_Plate_Library_HANDOFF(1).zip",
+  "archives_included_pdf_count": 20,
+  "all_original_pdf_atlas_pages": 1439,
+  "source_selection_rows": 1590,
+  "normalized_unique_source_pdf_pages": 1418,
+  "illustrated_source_pdf_pages_with_staging": 1417,
+  "atlas_support_pages_not_in_staging": 22,
+  "key_support_pages": 21,
+  "frontispieces": 1,
+  "supporting_text_page_outside_atlases": 1,
+  "unique_vld_pages": 313,
+  "vld_register_rows": 357,
+  "explicit_historic_figure_or_plate_index_leads": 824,
+  "same_source_multi_record_page_groups": 165,
+  "total_selection_rows_contributing_to_overlaps": 337,
+  "manual_preview_page_observations": 21,
+  "sha256_manifest_file_rows_checked": 37,
+  "sha256_fail_count": 0,
+  "source_registers_original_count": 16,
+  "source_files_preserved_unmodified": true,
+  "generation_or_floorplan_modification": "None"
+}

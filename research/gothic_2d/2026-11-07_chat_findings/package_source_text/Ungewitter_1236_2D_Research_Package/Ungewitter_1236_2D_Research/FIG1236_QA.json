@@ -1,0 +1,374 @@
+{
+  "case": "Ungewitter Vol II (1892) Plate CXX figure 1236",
+  "source": {
+    "schema": "gothic.plate.v08",
+    "source": "/mnt/data/Figure_1236_2D_Research/ORIGINALS/Ungewitter_1236_original_crop.png",
+    "sha256": "96ac684bb02bc330912c46cd03a6d42e3ce93e354d67a5b3bf1f370488b95886",
+    "size_px": [
+      355,
+      338
+    ],
+    "crop_px": [
+      0,
+      0,
+      355,
+      338
+    ],
+    "original_mode": "RGB",
+    "embedded_dpi": [
+      96.012,
+      96.012
+    ],
+    "calibration": null,
+    "units": "source image pixels",
+    "historical_scale_verified": false,
+    "note": "Image geometry uncalibrated: not 1:1 architectural dimensions."
+  },
+  "source_file_sha256": "96ac684bb02bc330912c46cd03a6d42e3ce93e354d67a5b3bf1f370488b95886",
+  "crop_extent": "355×338 pixels, bottom openings cut off by the supplied crop",
+  "source_verified_as": "user-supplied image, original scan not modified",
+  "source_units": "pixels, X right, Y down; no physical scale or F5ZP architectural units",
+  "fit_algorithm": "V08 gothic_geometry.circle_fit, selected radial-local darkest scanline samples, robust median residual rejection, angular sector masks",
+  "ink_fit_error_note": "RMS of selected source pixels to fitted circle; sampling was constrained near a candidate. This is not independent full-contour image error and not proof of exact historical compass geometry.",
+  "circle_fits": [
+    {
+      "name": "inner_top",
+      "center": [
+        173.61097,
+        88.58791
+      ],
+      "radius": 41.70285,
+      "rmse_sampled_ink_px": 0.1862,
+      "n_samples": 90,
+      "fit_span_deg": [
+        194,
+        346
+      ],
+      "classification": "fitted_to_selected_historical_ink_not_verified_compass_intent"
+    },
+    {
+      "name": "inner_right",
+      "center": [
+        225.41438,
+        141.92459
+      ],
+      "radius": 41.33615,
+      "rmse_sampled_ink_px": 0.19065,
+      "n_samples": 79,
+      "fit_span_deg": [
+        -69,
+        69
+      ],
+      "classification": "fitted_to_selected_historical_ink_not_verified_compass_intent"
+    },
+    {
+      "name": "inner_bottom",
+      "center": [
+        171.9016,
+        194.1962
+      ],
+      "radius": 41.55018,
+      "rmse_sampled_ink_px": 0.18528,
+      "n_samples": 83,
+      "fit_span_deg": [
+        18,
+        162
+      ],
+      "classification": "fitted_to_selected_historical_ink_not_verified_compass_intent"
+    },
+    {
+      "name": "inner_left",
+      "center": [
+        120.01189,
+        140.27254
+      ],
+      "radius": 41.28143,
+      "rmse_sampled_ink_px": 0.16625,
+      "n_samples": 79,
+      "fit_span_deg": [
+        111,
+        249
+      ],
+      "classification": "fitted_to_selected_historical_ink_not_verified_compass_intent"
+    },
+    {
+      "name": "outer_top",
+      "center": [
+        173.5099,
+        88.66662
+      ],
+      "radius": 49.94729,
+      "rmse_sampled_ink_px": 0.19882,
+      "n_samples": 86,
+      "fit_span_deg": [
+        197,
+        343
+      ],
+      "classification": "fitted_to_selected_historical_ink_not_verified_compass_intent"
+    },
+    {
+      "name": "outer_right",
+      "center": [
+        225.44118,
+        141.85669
+      ],
+      "radius": 49.42122,
+      "rmse_sampled_ink_px": 0.19838,
+      "n_samples": 79,
+      "fit_span_deg": [
+        -69,
+        69
+      ],
+      "classification": "fitted_to_selected_historical_ink_not_verified_compass_intent"
+    },
+    {
+      "name": "outer_bottom",
+      "center": [
+        171.9543,
+        194.53308
+      ],
+      "radius": 49.56301,
+      "rmse_sampled_ink_px": 0.19943,
+      "n_samples": 82,
+      "fit_span_deg": [
+        20,
+        160
+      ],
+      "classification": "fitted_to_selected_historical_ink_not_verified_compass_intent"
+    },
+    {
+      "name": "outer_left",
+      "center": [
+        120.18412,
+        140.27611
+      ],
+      "radius": 49.53411,
+      "rmse_sampled_ink_px": 0.17942,
+      "n_samples": 79,
+      "fit_span_deg": [
+        111,
+        249
+      ],
+      "classification": "fitted_to_selected_historical_ink_not_verified_compass_intent"
+    }
+  ],
+  "recovered_foils": {
+    "inner": {
+      "cusps": {
+        "UL": [
+          133.9272874012825,
+          101.40715465507796
+        ],
+        "UR": [
+          212.9167079242973,
+          102.52299752570143
+        ],
+        "LR": [
+          211.21427142934002,
+          180.74512855118405
+        ],
+        "LL": [
+          133.06100508301068,
+          179.43728254218001
+        ]
+      },
+      "arcs": [
+        {
+          "name": "top",
+          "radius": 41.70285,
+          "angle_deg": 217.4233,
+          "from": [
+            133.9273,
+            101.4072
+          ],
+          "to": [
+            212.9167,
+            102.523
+          ],
+          "large_arc": 1
+        },
+        {
+          "name": "right",
+          "radius": 41.33615,
+          "angle_deg": 217.6903,
+          "from": [
+            212.9167,
+            102.523
+          ],
+          "to": [
+            211.2143,
+            180.7451
+          ],
+          "large_arc": 1
+        },
+        {
+          "name": "bottom",
+          "radius": 41.55018,
+          "angle_deg": 219.6948,
+          "from": [
+            211.2143,
+            180.7451
+          ],
+          "to": [
+            133.061,
+            179.4373
+          ],
+          "large_arc": 1
+        },
+        {
+          "name": "left",
+          "radius": 41.28143,
+          "angle_deg": 218.1268,
+          "from": [
+            133.061,
+            179.4373
+          ],
+          "to": [
+            133.9273,
+            101.4072
+          ],
+          "large_arc": 1
+        }
+      ]
+    },
+    "outer": {
+      "cusps": {
+        "UL": [
+          123.61082260104013,
+          90.86066946997816
+        ],
+        "UR": [
+          223.31129892287987,
+          92.48138652867208
+        ],
+        "LR": [
+          221.3991225534777,
+          191.11233696445893
+        ],
+        "LL": [
+          122.62260982396832,
+          189.75016199567247
+        ]
+      },
+      "arcs": [
+        {
+          "name": "top",
+          "radius": 49.94729,
+          "angle_deg": 186.8979,
+          "from": [
+            123.6108,
+            90.8607
+          ],
+          "to": [
+            223.3113,
+            92.4814
+          ],
+          "large_arc": 1
+        },
+        {
+          "name": "right",
+          "radius": 49.42122,
+          "angle_deg": 187.1614,
+          "from": [
+            223.3113,
+            92.4814
+          ],
+          "to": [
+            221.3991,
+            191.1123
+          ],
+          "large_arc": 1
+        },
+        {
+          "name": "bottom",
+          "radius": 49.56301,
+          "angle_deg": 189.4954,
+          "from": [
+            221.3991,
+            191.1123
+          ],
+          "to": [
+            122.6226,
+            189.7502
+          ],
+          "large_arc": 1
+        },
+        {
+          "name": "left",
+          "radius": 49.53411,
+          "angle_deg": 186.7885,
+          "from": [
+            122.6226,
+            189.7502
+          ],
+          "to": [
+            123.6108,
+            90.8607
+          ],
+          "large_arc": 1
+        }
+      ]
+    }
+  },
+  "human_read_cusp_references": {
+    "inner": {
+      "UL": [
+        134,
+        101
+      ],
+      "UR": [
+        214,
+        102
+      ],
+      "LR": [
+        211,
+        180
+      ],
+      "LL": [
+        133,
+        179
+      ]
+    },
+    "outer": {
+      "UL": [
+        123,
+        91
+      ],
+      "UR": [
+        223,
+        92
+      ],
+      "LR": [
+        221,
+        191
+      ],
+      "LL": [
+        123,
+        190
+      ]
+    }
+  },
+  "crossing_to_manual_reference_distances_px": {
+    "inner": {
+      "UL": 0.414,
+      "UR": 1.203,
+      "LR": 0.775,
+      "LL": 0.442
+    },
+    "outer": {
+      "UL": 0.627,
+      "UR": 0.573,
+      "LR": 0.415,
+      "LL": 0.453
+    }
+  },
+  "points_n": 657,
+  "uncertain_contours": "pointed enclosing arch, lower trefoil fragments, decorative spandrels and labels were manually reconstructed from the 355x338 crop; they were NOT verified with independent circle fits.",
+  "axes_status": "gray analytical guides, not certified historical marks",
+  "recovered_full_circles_status": "drawn as optional black dotted analytical extensions; not present in full as source ink",
+  "legacy_generator_changes": false,
+  "cathedral_geometry_changes": false,
+  "dimension_locks_changed": false,
+  "3d_work": false,
+  "historical_text_provenance": "Ungewitter–Mohrmann, 1892, Vol. II, printed p. 517, figure 1236, Plate CXX. Book method described in RESEARCH_NOTES.md."
+}

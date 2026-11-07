@@ -1,0 +1,17 @@
+{
+  "source_sha256": "5fcf91c916c0df94b3baba105d89de92fe3a8cc70cf932807f31ddf0829366af",
+  "source_dimensions": [
+    1563,
+    1996
+  ],
+  "master": "U_middle_L",
+  "n_roundels": 7,
+  "n_circular_fits": 42,
+  "pooled_arc_rmse_px": 0.3021684031851141,
+  "arc_rmse_min_px": 0.24534749318879284,
+  "arc_rmse_max_px": 0.39984099576989524,
+  "number_complete_cusps_validated": 0,
+  "source_units": "pixels",
+  "architectural_scale_calibrated": false,
+  "status": "experimental_fits_only; cusp geometry not certified; no cathedral modifications"
+}

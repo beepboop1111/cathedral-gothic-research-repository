@@ -1,0 +1,67 @@
+## Research 02 — Plates and Illustrations
+
+<badge color="success"><icon name="check-circle" inline/> Archive verified</badge>
+
+The larger ZIP is accessible and has passed its integrity check. **All 231 files are readable at the archive level**, with no ZIP corruption detected.
+
+<grid columns={3} gap={3}>
+  <grid-item>
+    <title size="xl" tabularNums>231</title>
+    <caption>Files</caption>
+  </grid-item>
+  <grid-item>
+    <title size="xl" tabularNums>227 MB</title>
+    <caption>Archive size</caption>
+  </grid-item>
+  <grid-item>
+    <title size="xl" tabularNums>232.4 MB</title>
+    <caption>Uncompressed size</caption>
+  </grid-item>
+</grid>
+
+### File types
+
+| Format | Files |
+|---|---:|
+| JPEG / JPG historical illustrations | 96 |
+| PNG illustrations | 78 |
+| PDF documents | 46 |
+| SVG vector drawings | 8 |
+| WebP image | 1 |
+| Markdown documentation | 1 |
+| CSV source index | 1 |
+| **Total** | **231** |
+
+### Research collections identified
+
+The archive contains historical plate selections and research illustrations from:
+
+- **Ungewitter** — Gothic construction figures, including figure 1205b
+- **Viollet-le-Duc** — Architectural plates and surveys of additional volumes
+- **Choisy** — Illustrated architectural studies, Volumes I and II
+- **Colling** — Gothic ornament and architectural plates
+- **Fawcett** — Gothic moulding profiles
+- **Parker** — Gothic architecture illustrations
+
+It also contains the F5ZP Phase 3A construction experiments, original figure crops, overlays, and SVG tracings.
+
+### Download the inventories
+
+<row align="center" gap={2}>
+  <icon name="file-spreadsheet" color="success" size="lg"/>
+  <box flex="1" gap=0>
+    [Complete Research 02 inventory](sandbox:/mnt/data/Research_02_Inventory.csv)
+    <caption>All 231 filenames, archive paths, file sizes and CRC checksums</caption>
+  </box>
+</row>
+<row align="center" gap={2}>
+  <icon name="file-text" size="lg"/>
+  <box flex="1" gap=0>
+    [Research 02 collection summary](sandbox:/mnt/data/Research_02_Inventory_Summary.md)
+    <caption>Folder breakdown and notable historical sources</caption>
+  </box>
+</row>
+
+**Research 02 and Research 03 are both accessible and verified.** Together, they provide the source illustrations and research tools needed to continue the cathedral's historical geometric reconstruction.
+
+The next useful step is to cross-reference both inventories, identify duplicate illustrations, and establish which files are original historical evidence versus derived tracings and reconstruction experiments.

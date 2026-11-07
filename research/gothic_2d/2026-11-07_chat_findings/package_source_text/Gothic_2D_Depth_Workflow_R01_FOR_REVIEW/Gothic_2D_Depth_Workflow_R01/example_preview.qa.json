@@ -1,0 +1,19 @@
+{
+  "image_px": [
+    788,
+    1996
+  ],
+  "ink_threshold": 140,
+  "barrier_dilate_pixels": 1,
+  "all_detected_regions": 1625,
+  "classified_regions": 7,
+  "class_counts": {
+    "open": 4,
+    "closed": 3
+  },
+  "warnings": [],
+  "source_unchanged": true,
+  "not_architectural_depth_verified": true,
+  "source": "/mnt/data/Gothic_2D_Depth_Workflow_R01/experimental_black_line_source.png",
+  "seed_file": "/mnt/data/Gothic_2D_Depth_Workflow_R01/example_seeds.json"
+}

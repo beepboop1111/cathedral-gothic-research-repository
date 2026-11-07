@@ -1,0 +1,212 @@
+[
+  {
+    "case": "1193",
+    "priority": "priority_1",
+    "source": "plate_1193_1198.png",
+    "source_sha256": "e7f22327f13a800508689eb09dfc1712a703edfcfba3fcbe107efd78e693b671",
+    "crop_source_px": [
+      30,
+      62,
+      505,
+      400
+    ],
+    "svg": "outputs/1193_VECTOR_TRACE.svg",
+    "segments": {
+      "outlines": 19,
+      "axes": 91,
+      "uncertain": 14,
+      "source_green_marks": 0
+    },
+    "status": "image-derived segmented linework, NOT independently curve fitted",
+    "caveat": "Text, labels, overlapping strokes may be included; gray axes and red alternatives are visual segmentation only."
+  },
+  {
+    "case": "1194",
+    "priority": "priority_1",
+    "source": "plate_1193_1198.png",
+    "source_sha256": "e7f22327f13a800508689eb09dfc1712a703edfcfba3fcbe107efd78e693b671",
+    "crop_source_px": [
+      545,
+      45,
+      1000,
+      400
+    ],
+    "svg": "outputs/1194_VECTOR_TRACE.svg",
+    "segments": {
+      "outlines": 12,
+      "axes": 123,
+      "uncertain": 0,
+      "source_green_marks": 0
+    },
+    "status": "image-derived segmented linework, NOT independently curve fitted",
+    "caveat": "Text, labels, overlapping strokes may be included; gray axes and red alternatives are visual segmentation only."
+  },
+  {
+    "case": "1195",
+    "priority": "priority_1",
+    "source": "plate_1193_1198.png",
+    "source_sha256": "e7f22327f13a800508689eb09dfc1712a703edfcfba3fcbe107efd78e693b671",
+    "crop_source_px": [
+      1030,
+      30,
+      1510,
+      405
+    ],
+    "svg": "outputs/1195_VECTOR_TRACE.svg",
+    "segments": {
+      "outlines": 13,
+      "axes": 75,
+      "uncertain": 16,
+      "source_green_marks": 0
+    },
+    "status": "image-derived segmented linework, NOT independently curve fitted",
+    "caveat": "Text, labels, overlapping strokes may be included; gray axes and red alternatives are visual segmentation only."
+  },
+  {
+    "case": "1196",
+    "priority": "secondary",
+    "source": "plate_1193_1198.png",
+    "source_sha256": "e7f22327f13a800508689eb09dfc1712a703edfcfba3fcbe107efd78e693b671",
+    "crop_source_px": [
+      50,
+      455,
+      490,
+      915
+    ],
+    "svg": "outputs/1196_VECTOR_TRACE.svg",
+    "segments": {
+      "outlines": 17,
+      "axes": 57,
+      "uncertain": 0,
+      "source_green_marks": 0
+    },
+    "status": "image-derived segmented linework, NOT independently curve fitted",
+    "caveat": "Text, labels, overlapping strokes may be included; gray axes and red alternatives are visual segmentation only."
+  },
+  {
+    "case": "1197",
+    "priority": "secondary",
+    "source": "plate_1193_1198.png",
+    "source_sha256": "e7f22327f13a800508689eb09dfc1712a703edfcfba3fcbe107efd78e693b671",
+    "crop_source_px": [
+      550,
+      460,
+      985,
+      915
+    ],
+    "svg": "outputs/1197_VECTOR_TRACE.svg",
+    "segments": {
+      "outlines": 18,
+      "axes": 48,
+      "uncertain": 0,
+      "source_green_marks": 0
+    },
+    "status": "image-derived segmented linework, NOT independently curve fitted",
+    "caveat": "Text, labels, overlapping strokes may be included; gray axes and red alternatives are visual segmentation only."
+  },
+  {
+    "case": "1198",
+    "priority": "secondary",
+    "source": "plate_1193_1198.png",
+    "source_sha256": "e7f22327f13a800508689eb09dfc1712a703edfcfba3fcbe107efd78e693b671",
+    "crop_source_px": [
+      1020,
+      450,
+      1510,
+      923
+    ],
+    "svg": "outputs/1198_VECTOR_TRACE.svg",
+    "segments": {
+      "outlines": 46,
+      "axes": 109,
+      "uncertain": 0,
+      "source_green_marks": 0
+    },
+    "status": "image-derived segmented linework, NOT independently curve fitted",
+    "caveat": "Text, labels, overlapping strokes may be included; gray axes and red alternatives are visual segmentation only."
+  },
+  {
+    "case": "TREFOIL",
+    "priority": "secondary",
+    "source": "trefoil_quatrefoil.png",
+    "source_sha256": "ec420ac5329d721ad2ceab2aa6b327f06fe82c8302086f00b9b06c02b530dd6e",
+    "crop_source_px": [
+      35,
+      102,
+      865,
+      795
+    ],
+    "svg": "outputs/TREFOIL_VECTOR_TRACE.svg",
+    "segments": {
+      "outlines": 110,
+      "axes": 458,
+      "uncertain": 124,
+      "source_green_marks": 6
+    },
+    "status": "image-derived segmented linework, NOT independently curve fitted",
+    "caveat": "Text, labels, overlapping strokes may be included; gray axes and red alternatives are visual segmentation only."
+  },
+  {
+    "case": "QUATREFOIL",
+    "priority": "secondary",
+    "source": "trefoil_quatrefoil.png",
+    "source_sha256": "ec420ac5329d721ad2ceab2aa6b327f06fe82c8302086f00b9b06c02b530dd6e",
+    "crop_source_px": [
+      882,
+      102,
+      1750,
+      795
+    ],
+    "svg": "outputs/QUATREFOIL_VECTOR_TRACE.svg",
+    "segments": {
+      "outlines": 110,
+      "axes": 487,
+      "uncertain": 136,
+      "source_green_marks": 8
+    },
+    "status": "image-derived segmented linework, NOT independently curve fitted",
+    "caveat": "Text, labels, overlapping strokes may be included; gray axes and red alternatives are visual segmentation only."
+  },
+  {
+    "case": "1236",
+    "priority": "secondary_visual_only",
+    "source": "figure_1236_study.png",
+    "source_sha256": "92aef9b1839aee5e32f299a9fbf9cbb44fdead8fbc7b7c6bb0d556e7596d5e69",
+    "crop_source_px": [
+      22,
+      24,
+      1100,
+      1323
+    ],
+    "svg": "outputs/1236_VECTOR_TRACE.svg",
+    "segments": {
+      "outlines": 100,
+      "axes": 927,
+      "uncertain": 9,
+      "source_green_marks": 7
+    },
+    "status": "image-derived segmented linework, NOT independently curve fitted",
+    "caveat": "Text, labels, overlapping strokes may be included; gray axes and red alternatives are visual segmentation only."
+  },
+  {
+    "case": "FOUR_CIRCLE",
+    "priority": "priority_1",
+    "source": "four_circle_construction.png",
+    "source_sha256": "0a8a7624c34e4baad41b3aac8ffe356c938744223de8732630cfb4a5fa583361",
+    "crop_source_px": [
+      90,
+      78,
+      990,
+      934
+    ],
+    "svg": "outputs/FOUR_CIRCLE_VECTOR_TRACE.svg",
+    "segments": {
+      "outlines": 31,
+      "axes": 262,
+      "uncertain": 16,
+      "source_green_marks": 0
+    },
+    "status": "image-derived segmented linework, NOT independently curve fitted",
+    "caveat": "Text, labels, overlapping strokes may be included; gray axes and red alternatives are visual segmentation only."
+  }
+]

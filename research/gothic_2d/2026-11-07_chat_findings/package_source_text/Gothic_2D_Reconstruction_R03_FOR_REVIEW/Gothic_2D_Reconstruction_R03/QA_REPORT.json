@@ -1,0 +1,15 @@
+{
+  "input_sha256": "5fcf91c916c0df94b3baba105d89de92fe3a8cc70cf932807f31ddf0829366af",
+  "image_size_px": [
+    1563,
+    1996
+  ],
+  "faces_over_60_px": 236,
+  "fully_enclosed_faces": 232,
+  "crop_edge_faces": 4,
+  "opening_candidate_faces": 11,
+  "closed_candidate_faces": 4,
+  "circle_candidates": 11,
+  "mirrored_pixel_mismatch_fraction_interior": 0.2076,
+  "note": "All units in image pixels. Circle fits use measured raster contours; no certified historical compass construction, masonry scale or depth."
+}

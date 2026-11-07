@@ -1,0 +1,45 @@
+{
+  "source_sha256": "220aaebf9607742528fbf9108f6c7879ccdd4578680af763dfc9fd6e01564d87",
+  "source_size": [
+    1000,
+    1277
+  ],
+  "connected_regions": 1343,
+  "classified_faces": 358,
+  "explicit_opening_seeds": 12,
+  "resolved_opening_region_ids": [
+    47,
+    49,
+    228,
+    230,
+    233,
+    528,
+    531,
+    676,
+    681,
+    974,
+    986,
+    989
+  ],
+  "class_counts": {
+    "open": 12,
+    "closed": 12,
+    "outer": 14,
+    "indigo": 15,
+    "frame": 15,
+    "middle": 31,
+    "inner": 41,
+    "ring": 218,
+    "deep": 0,
+    "unclassified": 4
+  },
+  "lower_arcade_openings": "four provisional crop-clipped masks",
+  "known_limitations": [
+    "Colors indicate display-layer hierarchy, not physical depth",
+    "Some thin/misaligned raster boundaries cause merged or fragmented regions",
+    "Lower openings are drawn as provisional shapes and must be validated against scan",
+    "Only seeded foil apertures have explicit semantic identification",
+    "This output is not a compass-arc reconstruction"
+  ],
+  "source_unchanged": true
+}

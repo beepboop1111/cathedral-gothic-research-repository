@@ -1,0 +1,69 @@
+## Gothic 2D — Workflow Integration R01
+
+The first integration is working. **QF-001, the five experimental workflows, and the six existing Ungewitter traces now share one geometry interface.**
+
+The adapter accepts 12 construction records without modifying their original source scripts.
+
+| Existing work | Connected function | Status preserved |
+|---|---|---|
+| QF-001 | Generate exact four-lobed geometry at chosen dimensions | Approved 2D |
+| W01–W05 | Recover foil arcs, circles, rings, and pointed-arch elements; scale uniformly | Experimental |
+| Figures 1193–1198 | Import existing SVG linework and construction layers | Traced, not analytically verified |
+| Gothic V08 | Cross-check circle fitting and geometric transformations | Experimental toolkit |
+
+The initial integration has passed **12 automated tests**, including regenerating all five experimental workflow SVGs byte-for-byte from their original script.
+
+This means we have demonstrated reuse without having to redraw or independently recreate the existing constructions.
+
+One limit remains: a successful file or geometry test does not make W01–W05 historically accurate or ready for 3D stonework. Their existing approval boundaries remain in force.
+
+## Review the connected workflows
+
+![Six-panel comparison of the approved QF-001 source, the unified QF-001 geometry, experimental octafoil and pointed-arch constructions, and existing figure 1193 tracing and circular fits.](sandbox:/mnt/data/Gothic_2D_Workflow_Integration_R01_DEV/Integration_Review_Panel.png)
+
+<caption>The first two panels compare the same approved quatrefoil geometry. The remaining panels demonstrate the shared interface without promoting experimental work to approved status.</caption>
+
+<box border radius="xl" padding={3} gap={3}>
+  <row align="center" gap={3}>
+    <icon name="package-check" size="2xl" color="secondary"/>
+    <box flex="1" gap={1}>
+      **Gothic 2D — Unified Workflows Integration R01**
+
+      <text color="secondary" size="xs">13 linked construction records · 13 passing tests · 22 verified source-file copies</text>
+    </box>
+  </row>
+  [Download integration package](sandbox:/mnt/data/Gothic_2D_Unified_Workflows_Integration_R01_FOR_REVIEW.zip)
+
+  <divider color="subtle"/>
+  <row align="center" justify="between">
+    [Integration instructions](sandbox:/mnt/data/Gothic_2D_Workflow_Integration_R01_DEV/README.md)
+    <icon name="file-text" color="secondary"/>
+  </row>
+  <row align="center" justify="between">
+    [Numerical QA results](sandbox:/mnt/data/Gothic_2D_Workflow_Integration_R01_DEV/INTEGRATION_QA_SUMMARY.csv)
+    <icon name="file-spreadsheet" color="secondary"/>
+  </row>
+  <row align="center" justify="between">
+    [Proposed Master Register addendum](sandbox:/mnt/data/Gothic_2D_Workflow_Integration_R01_DEV/MASTER_REGISTER_R01_ADDENDUM_PROPOSED.csv)
+    <icon name="file-spreadsheet" color="secondary"/>
+  </row>
+</box>
+
+### How the integrated engine works
+
+You can now use one command interface to select an existing construction and generate a standardized SVG plus structured geometry JSON.
+
+For example:
+
+```bash
+python integrated_2d.py --list
+python integrated_2d.py --id W02 --scale 1.5 --out my_output
+```
+
+The shared format carries geometry, parameters, source checksums, numerical measurements, and approval status.
+
+**What remains:** The mathematical and historical validation of W01–W05, the original-source verification of figures 1193–1198, and later connection to the 3D generators.
+
+The Master Research Register R01, approved QF-001 source, historical material, and cathedral geometry remain unchanged.
+
+**This integration is ready for your review, not yet a newly approved permanent checkpoint.** Once you approve the interface, we can adopt it as our common working foundation for future 2D constructions.

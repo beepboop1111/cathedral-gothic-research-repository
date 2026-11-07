@@ -1,0 +1,70 @@
+kind,plate,pdf_page,figure_key_pdf_page,atlas_page,subject,scripts,priority,review
+Full plate,Plate I,131,132,1,Early profile comparisons and moulding shapes,sweep2schem.py;plan2geometry.py;geometry2stl.py,High,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate II,135,136,2,Medieval moulding profile comparisons,sweep2schem.py;plan2geometry.py;geometry2stl.py,High,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate III,139,140,3,Multi-profile geometric sections,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate IV,143,144,4,Moulding profile comparison series,sweep2schem.py;plan2geometry.py;geometry2stl.py,High,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate V,147,148,5,Ornamental shafts and moulding sections,sweep2schem.py;plan2geometry.py;geometry2stl.py,High,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate VI,151,152,6,Vertical clustered mouldings and details,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate VII,155,156,7,Rib and arch moulding sections,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate VIII,159,160,8,Gothic mouldings and compound profiles,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate IX,163,164,9,Gothic mouldings and compound profiles,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate X,167,168,10,Gothic mouldings with base/head details,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XI,171,172,11,Profile and architectural detail groups,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XII,175,176,12,Profile sequence with architectural details,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XIII,179,180,13,Profiles and ornamental sections,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XIV,183,184,14,Compound profiles and details,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XV,187,188,15,Gothic profile variations,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XVI,191,192,16,Geometric profile groups,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XVII,195,196,17,Moulding section variants,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XVIII,199,200,18,Profile section variants,sweep2schem.py;plan2geometry.py;geometry2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XIX,203,204,19,Lobed plan details and geometric construction,sweep2schem.py;plan2geometry.py;geometry2stl.py;sketch2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XX,207,208,20,Moulding profiles and decorative sections,sweep2schem.py;plan2geometry.py;geometry2stl.py;sketch2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+Full plate,Plate XXI,211,212,21,Bases and Gothic moulding details,sweep2schem.py;plan2geometry.py;geometry2stl.py;sketch2stl.py,Highest,Visual plate confirmed; individual subfigures not catalogued
+In-text figure page,,31,,1,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,33,,2,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,40,,3,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,45,,4,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,53,,5,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,55,,6,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,56,,7,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,57,,8,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,59,,9,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,61,,10,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,62,,11,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,65,,12,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,66,,13,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,69,,14,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,71,,15,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,72,,16,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,73,,17,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,74,,18,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,76,,19,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,79,,20,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,81,,21,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,84,,22,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,86,,23,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,87,,24,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,90,,25,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,91,,26,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,92,,27,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,93,,28,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,95,,29,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,96,,30,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,97,,31,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,98,,32,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,100,,33,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,101,,34,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,105,,35,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,106,,36,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,107,,37,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,109,,38,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,110,,39,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,113,,40,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,114,,41,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,115,,42,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,118,,43,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,119,,44,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,123,,45,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,124,,46,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,127,,47,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated
+In-text figure page,,128,,48,Small embedded moulding/profile illustration(s),sweep2schem.py;plan2geometry.py,Supplementary,Contact-sheet candidate; figure not individually separated

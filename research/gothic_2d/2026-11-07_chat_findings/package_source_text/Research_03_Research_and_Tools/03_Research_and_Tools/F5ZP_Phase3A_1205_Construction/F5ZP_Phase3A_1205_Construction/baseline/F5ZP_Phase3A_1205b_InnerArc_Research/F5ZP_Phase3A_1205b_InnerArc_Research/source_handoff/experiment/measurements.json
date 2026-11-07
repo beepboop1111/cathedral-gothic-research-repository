@@ -1,0 +1,79 @@
+{
+  "source_pdf": "lehrbuchdergotis02unge.pdf",
+  "source_pdf_sha256": "39a90b73c3ac7883ba82739b487573796c9e05edc98a75d30bad945c058467cf",
+  "volume": "II",
+  "edition": "1892",
+  "pdf_page_1based": 281,
+  "plate": "CXVIII",
+  "motif_label": "1205b",
+  "render_dpi": 144,
+  "crop_box_px_2x": [
+    114,
+    239,
+    339,
+    465
+  ],
+  "fit_kind": "outer_circle_only",
+  "circle_center_crop_px": [
+    109.21742236738913,
+    111.23955699522183
+  ],
+  "circle_center_page_px": [
+    223.21742236738913,
+    350.23955699522185
+  ],
+  "radius_px": 93.51694870364518,
+  "rmse_px": 0.6915841262264908,
+  "observed_samples": 360,
+  "inlier_samples": 339,
+  "inlier_fraction": 0.9416666666666667,
+  "physical_scale": "unknown",
+  "historic_geometric_centers": "not_verified",
+  "full_quatrefoil": "not_reconstructed",
+  "scripts_run": [
+    {
+      "cmd": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/pages_grayscale.py",
+        "/mnt/data/phase3a_test/RESULT/inputs",
+        "/mnt/data/phase3a_test/RESULT/grayscale"
+      ],
+      "returncode": 0,
+      "out": "1205b.png -> 1205b.png  (225x226)\n\n1/1 pages converted into /mnt/data/phase3a_test/RESULT/grayscale\n",
+      "err": ""
+    },
+    {
+      "cmd": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/pages_bw.py",
+        "/mnt/data/phase3a_test/RESULT/grayscale/1205b.png",
+        "/mnt/data/phase3a_test/RESULT/binary",
+        "--local",
+        "--radius",
+        "24",
+        "--offset",
+        "10",
+        "--transparent"
+      ],
+      "returncode": 0,
+      "out": "[1/1] 1205b.png -> 1205b.png\n\nDone. 1 written to /mnt/data/phase3a_test/RESULT/binary\n",
+      "err": ""
+    },
+    {
+      "cmd": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/pages_bw.py",
+        "/mnt/data/phase3a_test/RESULT/grayscale/1205b.png",
+        "/mnt/data/phase3a_test/RESULT/binary",
+        "--threshold",
+        "155",
+        "--suffix",
+        "_fixed"
+      ],
+      "returncode": 0,
+      "out": "[1/1] 1205b.png -> 1205b_fixed.png\n\nDone. 1 written to /mnt/data/phase3a_test/RESULT/binary\n",
+      "err": ""
+    }
+  ],
+  "notes": "A simple outer circle sanity check, not a full tracery vectorization; scan pixels are not architectural dimensions."
+}

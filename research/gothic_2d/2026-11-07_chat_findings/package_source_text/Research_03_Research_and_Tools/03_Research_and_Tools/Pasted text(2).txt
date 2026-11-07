@@ -1,0 +1,314 @@
+# Cathedral F5ZP — Master Architectural Plate Library
+## Phase 2: Consolidation, Classification, and Verification
+
+**Project:** Cathedral F5ZP — Research Project  
+**Task:** Consolidate all historical architectural plate selections  
+**Status:** Initial source selections completed  
+**Next phase:** Master reference library construction
+
+---
+
+## 1. Primary Objective
+
+Continue the historical architectural plate research using the existing Research Project files and previously generated plate-selection packages.
+
+Consolidate all selected illustrations from the historical books into one organized, searchable **Master Architectural Plate Library**.
+
+The library must support six architectural geometry-generation scripts while preserving historical accuracy, source attribution, original illustrations, and architectural relationships.
+
+**Do not begin STL generation or modify existing cathedral geometry.**
+
+This phase is exclusively concerned with collecting, organizing, comparing, and verifying historical architectural references.
+
+## 2. Source Collections
+
+The following books have undergone initial plate selection.
+
+| Source | Existing selection | Status |
+|---|---|---|
+| Ungewitter–Mohrmann, *Lehrbuch der gotischen Konstruktionen*, Volumes I–II | 34 original pages, 40 catalogue entries | Preliminary |
+| Colling, *Details of Gothic Architecture*, Volume I | 95 illustrated plates | Collected |
+| Colling, Volume II | 95 illustrated leaves | Collected |
+| Viollet-le-Duc, *Dictionnaire raisonné*, Volumes I–IX | 162 initial candidates plus 185 additional selections | Preliminary |
+| Choisy, *Historia de la arquitectura*, Volume I | 277 illustrated pages, 358 figure references | Collected |
+| Choisy, Volume II | 269 illustrated pages, 316 figure references | Collected |
+| Fawcett, *A Manual of Gothic Mouldings* | 21 full plates and 48 supplementary illustrated pages | Collected |
+| Parker, *A B C of Gothic Architecture* | 140 candidate pages | Preliminary |
+| David Ramsay Hay, *First Principles of Symmetrical Beauty* | 98 illustrated leaves | Verification required |
+| Worringer, *Form Problems of the Gothic* | 27 numbered plates and frontispiece | Collected |
+
+These are previous survey results, not independently verified counts of unique illustrations.
+
+Some collections contain overlapping page selections. Deduplicate by original source identity and page number, not by visual similarity alone.
+
+The separate Viollet-le-Duc Volume X is an index and should be retained for cross-reference navigation.
+
+### Source identification correction
+
+The Hay volume is **David Ramsay Hay's *First Principles of Symmetrical Beauty* (1846)**, not a Gothic architecture manual by Hayward.
+
+Its patterns must not be presented as historically documented Gothic tracery without independent evidence.
+
+The previous survey recovered 98 illustrated leaves from a stated sequence of 100 plates. Investigate this discrepancy.
+
+## 3. Existing Research Packages
+
+Locate and reuse the previously generated packages whenever available.
+
+Important filenames include:
+
+- `Gothic_Plate_Library_Initial_Survey.zip`
+- `Colling_Volume_I_Plate_Selection_Package.zip`
+- `Colling_Volume_II_Plate_Selection_Package.zip`
+- `Viollet_le_Duc_First_Plate_Selection_Package.zip`
+- `VLD_Additional_Volumes_Plate_Survey.zip`
+- `Choisy_Volume_I_Plate_Selection_Package.zip`
+- `Choisy_Volume_II_Plate_Selection_Package.zip`
+- `Fawcett_Gothic_Mouldings_Plate_Selection_Package.zip`
+- `Parker_Gothic_Architecture_Plate_Selection_Package.zip`
+- `Hay_Symmetrical_Beauty_Plate_Selection_Package.zip`
+- `Worringer_Gothic_Plate_Selection_Package.zip`
+
+Search the project folder and conversation files for existing atlases, contact sheets, CSV registers, and original PDFs.
+
+If a previously generated package is unavailable, reconstruct its entries from the original uploaded book rather than inventing records.
+
+## 4. Architectural Classification
+
+Create the following primary categories.
+
+| Category | Contents |
+|---|---|
+| TRACERY | Window tracery, rose windows, quatrefoils, trefoils, cusps, pierced stonework |
+| MOULDINGS | Rib sections, doubleaux, formerets, cornices, jambs, bases, capitals |
+| ARCHES | Pointed arches, compound arches, arch geometry, construction diagrams |
+| VAULTS | Ribbed vaults, vault plans, web geometry, springing arrangements |
+| PIERS | Compound pier sections, responds, engaged shafts, column clusters |
+| FLOOR_PLANS | Cathedral plans, chapels, ambulatories, cloisters, structural layouts |
+| ELEVATIONS | Facades, towers, portals, exterior architectural arrangements |
+| MASSING | Building volumes, structural axonometrics, towers, spires, buttresses |
+| ORNAMENT | Carving, decorative panels, foliage, bosses, pinnacles, screens |
+| CONSTRUCTION | Masonry construction, structural joints, setting-out methods |
+| GEOMETRY | Historical geometric constructions, proportional systems, ornamental geometry |
+
+Allow multiple categories per illustration.
+
+Use consistent terminology across French, German, English, and Spanish sources.
+
+Retain historical source terminology alongside standardized English classifications.
+
+## 5. Generator Compatibility
+
+Evaluate every candidate against the following scripts.
+
+| Script | Purpose |
+|---|---|
+| `sketch2stl.py` | Convert drawings into 3D reliefs and pierced Gothic tracery |
+| `plan2stl.py` | Extract architectural forms from floor plans |
+| `massing.py` | Generate simplified architectural volumes |
+| `plan2geometry.py` | Recover measurable 2D vector geometry |
+| `geometry2stl.py` | Convert extracted paths into reference STL geometry |
+| `sweep2schem.py` | Convert moulding profiles into Minecraft schematic geometry |
+
+Identify primary and secondary script compatibility.
+
+Do not assume that a photograph, perspective, or shaded axonometric contains directly measurable geometry.
+
+Distinguish between:
+
+- Directly extractable geometric drawings.
+- Drawings requiring reconstruction or interpretation.
+- Visual architectural references.
+- Historical or decorative references unsuitable for automated extraction.
+
+## 6. Master Plate Register
+
+Create one master register containing at least these fields:
+
+| Field | Description |
+|---|---|
+| Plate_ID | Unique permanent identifier |
+| Author | Historical author |
+| Book | Full source title |
+| Volume | Original volume |
+| Chapter_or_Article | Historical chapter or dictionary entry |
+| Original_Plate | Original plate designation |
+| Figure | Original figure number |
+| Printed_Page | Printed source page |
+| PDF_Page | Original PDF page, counted from 1 |
+| Atlas_Page | Page in extracted reference atlas |
+| Subject | Architectural subject |
+| Category | Standardized category |
+| Historical_Period | Period represented |
+| Monument | Referenced building, if identified |
+| Location | Historical monument location, if known |
+| Drawing_Type | Plan, section, elevation, profile, construction, axonometric, photograph |
+| Script_Primary | Most suitable generator |
+| Script_Secondary | Other compatible generators |
+| Extraction_Quality | High, medium, low, or unassessed |
+| Geometry_Confidence | Verified, provisional, or reference-only |
+| Dimensions_Present | Yes, no, or unknown |
+| Provenance_Status | Verification state |
+| Source_File | Original source PDF |
+| Original_Page_Image | Location of preserved illustration |
+| Notes | Research observations |
+
+Do not invent missing page numbers, monument identifications, scales, or figure designations.
+
+Use explicit unknown values.
+
+Preserve page numbering distinctions between original printed books and digitized PDFs.
+
+Where multiple illustrations appear on one page, create separate figure records when identifiable.
+
+## 7. Quality and Priority Ranking
+
+Evaluate candidates against:
+
+1. Architectural relevance.
+2. Image resolution and clarity.
+3. Completeness of visible geometry.
+4. Availability of construction lines.
+5. Ability to reconstruct actual arcs and curves.
+6. Presence of dimensions or scale.
+7. Historical attribution and provenance.
+8. Generator compatibility.
+9. Amount of manual cleanup required.
+
+Assign extraction priorities.
+
+**Priority A:** Clean, directly extractable geometry.
+
+**Priority B:** Useful geometry requiring reconstruction.
+
+**Priority C:** Architectural reference requiring significant interpretation.
+
+**Priority D:** Historical or visual reference only.
+
+The priority ranking must not imply historical authenticity or dimensional accuracy.
+
+## 8. Priority Verification Targets
+
+### German books
+
+Return to Ungewitter–Mohrmann, Volume II, particularly the tracery-rich region around PDF pages 269–327.
+
+Verify individual window, rose-window, cusp, and construction figures.
+
+### Viollet-le-Duc
+
+Review individual figure identities in the previously selected volumes.
+
+Prioritize:
+
+- Volume VIII: QUATREFEUILLE and REDENT.
+- Volume VII: PROFIL.
+- Volume IX: VOÛTE.
+- Volume IV: CONSTRUCTION.
+- Volume II: CATHÉDRALE.
+
+Pay particular attention to drawings containing construction geometry rather than finished appearances alone.
+
+### Colling
+
+Separate multiple illustrations on individual plates into identifiable architectural components.
+
+Preserve original plate numbers and architectural-period classifications.
+
+### Choisy
+
+Use the figure numbering and source information in the 2023 edition.
+
+Prioritize Gothic and Romanesque plans, vaulting, and construction axonometrics.
+
+### Fawcett
+
+Preserve the relationship between the 21 plates and their explanatory keys.
+
+Classify individual moulding profiles rather than treating an entire plate as one geometry.
+
+## 9. Required Deliverables
+
+Create a consolidated research package containing:
+
+**A. Master Plate Register**
+
+A searchable spreadsheet and CSV catalogue.
+
+**B. Unified Architectural Atlas**
+
+Organized by architectural subject rather than merely by author.
+
+Maintain links back to the original source pages.
+
+**C. Source-Specific Atlases**
+
+Preserve access to the separate book collections.
+
+**D. Visual Contact Sheets**
+
+Provide visual comparisons of candidate drawings across authors.
+
+**E. Generator Compatibility Index**
+
+Identify which plates are suitable for each of the six scripts.
+
+**F. Priority Extraction Shortlist**
+
+Recommend the best candidates in each architectural category.
+
+**G. Verification and Coverage Report**
+
+Identify missing plates, uncertain figure references, duplicates, and source collections requiring additional inspection.
+
+**H. Master Library Package**
+
+A consolidated ZIP with the catalogues, atlases, previews, and documentation.
+
+Keep original images unchanged. Derived images must be stored separately.
+
+## 10. Important Project Restrictions
+
+This library supports the continuing Cathedral F5ZP architectural reconstruction project.
+
+However:
+
+- Do not change the approved cathedral master floor plan.
+- Do not alter locked vault, rib, pier, or chevet geometry.
+- Do not treat dimensions from historical books as approved cathedral dimensions.
+- Do not generate STL files during this phase.
+- Do not overwrite the original historical PDFs.
+- Do not replace original drawings with AI-generated interpretations.
+
+The purpose is to create a historically grounded architectural source library that can support future geometry-generation work.
+
+## 11. Completion Requirements
+
+The consolidation is complete when:
+
+1. All available source collections are represented.
+2. Duplicate original pages have been identified.
+3. Source references remain recoverable.
+4. Architectural categories are consistent.
+5. Generator compatibility is recorded.
+6. Figure-level verification status is explicit.
+7. Priority candidates are identified.
+8. Original illustrations remain preserved.
+9. The consolidated register and atlas can be downloaded.
+10. Remaining uncertainties are documented.
+
+Do not claim that the entire collection has been exhaustively verified unless the individual illustrations have actually been inspected.
+
+---
+
+## First Task in the New Chat
+
+**Recover and inventory all existing plate-selection packages and their registers.**
+
+Check which generated files are accessible in the current project workspace.
+
+Then construct the unified register, reconcile duplicated records, and identify missing source information.
+
+Begin with the existing research rather than repeating every extraction unnecessarily.
+
+The ultimate objective is a **Master Gothic Architectural Reference Library** capable of supporting systematic historical comparison and accurate geometric reconstruction.

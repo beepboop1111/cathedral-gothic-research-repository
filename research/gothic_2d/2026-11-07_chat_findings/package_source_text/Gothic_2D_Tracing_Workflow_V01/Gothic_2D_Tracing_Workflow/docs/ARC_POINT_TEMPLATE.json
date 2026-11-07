@@ -1,0 +1,13 @@
+{
+  "source_reference": "inputs/plate_1193_1198.png",
+  "figure": "1193",
+  "canvas_px": [1536, 1024],
+  "arcs": [
+    {
+      "id": "lower_left",
+      "points": [],
+      "instructions": "Choose at least 3 points along the center of the visible black arc in FULL source-image coordinates; avoid labels and joints."
+    }
+  ],
+  "note": "EMPTY by design: no unsupported measurements inserted. Trace and approve points before using fit_arcs.py."
+}

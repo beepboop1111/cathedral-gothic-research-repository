@@ -1,0 +1,3 @@
+# Figure 1205 construction checkpoint
+
+Read REPORT.md and results/construction_measurements.json. The previous 1205b measured package is immutable under baseline/. Printed figure number is 1205. New candidates: upper and lower equal-circle constructions with fixed outer O/R; exact proportions fitted from engraving, not prescribed by author. c as critical touching-circle point is provisional. Do not replace measured arcs, fill lower gaps, infer architectural scale, modify source tools, or integrate into cathedral generators. Next: independently trace the fine construction guides and a/b/c mark stems.

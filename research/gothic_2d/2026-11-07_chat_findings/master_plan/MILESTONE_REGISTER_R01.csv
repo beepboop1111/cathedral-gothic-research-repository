@@ -1,0 +1,9 @@
+Milestone,Track,Priority,Deliverable,Acceptance evidence,Status,Approval required to promote
+M01,Baseline,P0,Four-window immutable benchmark manifest,"hashes; raw scan and map links; final command line; unchanged original",Proposed,Yes
+M02,3D,P0,Meaux nonmanifold repair experiment,"welded mesh QA; zero nonmanifold and degenerate faces; openings compare",Proposed,Yes
+M03,2D,P0,Persistent semantic face IDs,"replay stable IDs; opening/stone labels; no manual corrections lost",Proposed,Yes
+M04,2D,P1,Exact sixfoil and arch reconstruction,"circle/arc parameters; tangent and cusp reports; source overlay",Proposed,Yes
+M05,Both,P1,Four-window 2D/3D regression suite,"reproducible SVG; GLB/STL; unit and topology QA; comparative images",Proposed,Yes
+M06,Governance,P1,User-approved versioned working baselines,"explicit review decision; preserved predecessor; version tags",Proposed,Yes
+M07,Integration,P2,Common 2D/3D interface and intuitive controls,"roundtrip geometry QA; stable semantic IDs; regression passes",Proposed,Yes
+M08,Library,P2,Window buttress floorplan tracer and 3D library,"per-component source evidence; QA; approvals",Proposed,Yes

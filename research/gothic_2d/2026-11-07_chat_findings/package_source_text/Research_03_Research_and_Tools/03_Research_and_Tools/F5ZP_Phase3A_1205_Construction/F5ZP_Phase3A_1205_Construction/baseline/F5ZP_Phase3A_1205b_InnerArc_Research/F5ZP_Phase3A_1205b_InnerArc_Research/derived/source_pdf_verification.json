@@ -1,0 +1,13 @@
+{
+  "source_pdf_sha256": "39a90b73c3ac7883ba82739b487573796c9e05edc98a75d30bad945c058467cf",
+  "hash_matches_handoff": true,
+  "rerendered_144dpi_crop_pixel_identical": true,
+  "page_1based": 281,
+  "crop_432dpi": [
+    342,
+    717,
+    1017,
+    1395
+  ],
+  "pixel_center_mapping": "baseline=(highres_index-1)/3"
+}

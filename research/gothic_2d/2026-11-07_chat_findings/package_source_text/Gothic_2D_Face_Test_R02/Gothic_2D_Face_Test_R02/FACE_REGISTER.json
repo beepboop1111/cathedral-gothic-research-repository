@@ -1,0 +1,2561 @@
+{
+  "source": "3027fd76-ee23-4f60-9505-16cf6c8e47cb.png",
+  "source_sha256": "84b089d33a3ee29a8e3885777fab2b8b9598bcf3dc5f0630487eb7b866fd8381",
+  "image_size_px": [
+    788,
+    1996
+  ],
+  "faces": [
+    {
+      "face_id": "face_001",
+      "area_px": 470542,
+      "bbox_px": [
+        0,
+        0,
+        788,
+        1996
+      ],
+      "centroid_px": [
+        498.53,
+        1047.15
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_002",
+      "area_px": 6516,
+      "bbox_px": [
+        486,
+        0,
+        95,
+        71
+      ],
+      "centroid_px": [
+        532.95,
+        33.83
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_003",
+      "area_px": 2938,
+      "bbox_px": [
+        585,
+        0,
+        41,
+        84
+      ],
+      "centroid_px": [
+        606.49,
+        35.95
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_004",
+      "area_px": 2759,
+      "bbox_px": [
+        631,
+        0,
+        29,
+        106
+      ],
+      "centroid_px": [
+        645.5,
+        47.24
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_005",
+      "area_px": 58470,
+      "bbox_px": [
+        1,
+        43,
+        744,
+        1575
+      ],
+      "centroid_px": [
+        560.06,
+        881.79
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_006",
+      "area_px": 2145,
+      "bbox_px": [
+        472,
+        60,
+        123,
+        32
+      ],
+      "centroid_px": [
+        532.63,
+        78.73
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_007",
+      "area_px": 24487,
+      "bbox_px": [
+        0,
+        71,
+        720,
+        1325
+      ],
+      "centroid_px": [
+        478.26,
+        683.47
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_008",
+      "area_px": 12276,
+      "bbox_px": [
+        412,
+        78,
+        248,
+        68
+      ],
+      "centroid_px": [
+        533.46,
+        115.02
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_009",
+      "area_px": 2004,
+      "bbox_px": [
+        1,
+        84,
+        171,
+        79
+      ],
+      "centroid_px": [
+        63.15,
+        116.18
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_011",
+      "area_px": 1614,
+      "bbox_px": [
+        0,
+        118,
+        159,
+        42
+      ],
+      "centroid_px": [
+        50.33,
+        132.22
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_012",
+      "area_px": 2852,
+      "bbox_px": [
+        416,
+        130,
+        240,
+        35
+      ],
+      "centroid_px": [
+        532.84,
+        152.98
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_013",
+      "area_px": 57362,
+      "bbox_px": [
+        0,
+        150,
+        499,
+        1468
+      ],
+      "centroid_px": [
+        253.85,
+        819.21
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_016",
+      "area_px": 3175,
+      "bbox_px": [
+        462,
+        166,
+        141,
+        41
+      ],
+      "centroid_px": [
+        530.94,
+        189.86
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_017",
+      "area_px": 1039,
+      "bbox_px": [
+        481,
+        168,
+        106,
+        13
+      ],
+      "centroid_px": [
+        532.39,
+        173.51
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_018",
+      "area_px": 9976,
+      "bbox_px": [
+        0,
+        180,
+        468,
+        925
+      ],
+      "centroid_px": [
+        291.41,
+        656.97
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_019",
+      "area_px": 67705,
+      "bbox_px": [
+        0,
+        191,
+        458,
+        903
+      ],
+      "centroid_px": [
+        209.27,
+        646.46
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_020",
+      "area_px": 940,
+      "bbox_px": [
+        0,
+        213,
+        122,
+        136
+      ],
+      "centroid_px": [
+        51.31,
+        254.43
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_021",
+      "area_px": 812,
+      "bbox_px": [
+        0,
+        218,
+        101,
+        109
+      ],
+      "centroid_px": [
+        43.25,
+        251.52
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_022",
+      "area_px": 2871,
+      "bbox_px": [
+        0,
+        225,
+        78,
+        84
+      ],
+      "centroid_px": [
+        23.53,
+        252.09
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_023",
+      "area_px": 3701,
+      "bbox_px": [
+        24,
+        253,
+        264,
+        261
+      ],
+      "centroid_px": [
+        154.22,
+        381.63
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_024",
+      "area_px": 1446,
+      "bbox_px": [
+        104,
+        262,
+        99,
+        51
+      ],
+      "centroid_px": [
+        153.8,
+        274.61
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_025",
+      "area_px": 34323,
+      "bbox_px": [
+        36,
+        276,
+        240,
+        216
+      ],
+      "centroid_px": [
+        155.1,
+        383.55
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_026",
+      "area_px": 1463,
+      "bbox_px": [
+        219,
+        285,
+        60,
+        86
+      ],
+      "centroid_px": [
+        250.0,
+        328.63
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_027",
+      "area_px": 1452,
+      "bbox_px": [
+        33,
+        286,
+        60,
+        86
+      ],
+      "centroid_px": [
+        59.81,
+        329.79
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_028",
+      "area_px": 1798,
+      "bbox_px": [
+        271,
+        334,
+        151,
+        202
+      ],
+      "centroid_px": [
+        346.2,
+        446.78
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_029",
+      "area_px": 1482,
+      "bbox_px": [
+        288,
+        356,
+        122,
+        159
+      ],
+      "centroid_px": [
+        346.78,
+        444.86
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_030",
+      "area_px": 4712,
+      "bbox_px": [
+        300,
+        375,
+        97,
+        123
+      ],
+      "centroid_px": [
+        345.31,
+        445.28
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_031",
+      "area_px": 43267,
+      "bbox_px": [
+        400,
+        388,
+        307,
+        930
+      ],
+      "centroid_px": [
+        588.28,
+        885.95
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_032",
+      "area_px": 1434,
+      "bbox_px": [
+        220,
+        396,
+        59,
+        85
+      ],
+      "centroid_px": [
+        250.78,
+        436.8
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_033",
+      "area_px": 1379,
+      "bbox_px": [
+        34,
+        398,
+        60,
+        82
+      ],
+      "centroid_px": [
+        61.15,
+        437.47
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_035",
+      "area_px": 496,
+      "bbox_px": [
+        0,
+        414,
+        46,
+        78
+      ],
+      "centroid_px": [
+        17.67,
+        462.48
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_036",
+      "area_px": 486,
+      "bbox_px": [
+        0,
+        441,
+        25,
+        40
+      ],
+      "centroid_px": [
+        7.6,
+        465.15
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_037",
+      "area_px": 1395,
+      "bbox_px": [
+        109,
+        455,
+        95,
+        51
+      ],
+      "centroid_px": [
+        155.81,
+        491.94
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_038",
+      "area_px": 1874,
+      "bbox_px": [
+        0,
+        510,
+        136,
+        263
+      ],
+      "centroid_px": [
+        86.44,
+        631.7
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_039",
+      "area_px": 3848,
+      "bbox_px": [
+        172,
+        510,
+        265,
+        263
+      ],
+      "centroid_px": [
+        298.65,
+        633.81
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_040",
+      "area_px": 1455,
+      "bbox_px": [
+        12,
+        518,
+        90,
+        63
+      ],
+      "centroid_px": [
+        55.91,
+        545.34
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_041",
+      "area_px": 1489,
+      "bbox_px": [
+        253,
+        519,
+        104,
+        51
+      ],
+      "centroid_px": [
+        303.89,
+        531.85
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_042",
+      "area_px": 18247,
+      "bbox_px": [
+        0,
+        522,
+        114,
+        242
+      ],
+      "centroid_px": [
+        46.28,
+        642.04
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_043",
+      "area_px": 712,
+      "bbox_px": [
+        114,
+        532,
+        78,
+        70
+      ],
+      "centroid_px": [
+        153.36,
+        555.71
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_044",
+      "area_px": 34701,
+      "bbox_px": [
+        185,
+        533,
+        241,
+        218
+      ],
+      "centroid_px": [
+        304.54,
+        641.5
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_045",
+      "area_px": 1586,
+      "bbox_px": [
+        368,
+        540,
+        61,
+        92
+      ],
+      "centroid_px": [
+        400.07,
+        586.43
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_046",
+      "area_px": 606,
+      "bbox_px": [
+        134,
+        543,
+        40,
+        35
+      ],
+      "centroid_px": [
+        153.33,
+        554.79
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_047",
+      "area_px": 1511,
+      "bbox_px": [
+        181,
+        542,
+        59,
+        91
+      ],
+      "centroid_px": [
+        207.75,
+        587.62
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_048",
+      "area_px": 2572,
+      "bbox_px": [
+        502,
+        548,
+        149,
+        294
+      ],
+      "centroid_px": [
+        566.16,
+        716.06
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_049",
+      "area_px": 2065,
+      "bbox_px": [
+        516,
+        584,
+        123,
+        242
+      ],
+      "centroid_px": [
+        569.02,
+        724.15
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_050",
+      "area_px": 1484,
+      "bbox_px": [
+        75,
+        589,
+        52,
+        98
+      ],
+      "centroid_px": [
+        112.69,
+        638.37
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_051",
+      "area_px": 8561,
+      "bbox_px": [
+        527,
+        617,
+        101,
+        195
+      ],
+      "centroid_px": [
+        572.44,
+        740.71
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_052",
+      "area_px": 1478,
+      "bbox_px": [
+        182,
+        655,
+        60,
+        86
+      ],
+      "centroid_px": [
+        209.52,
+        696.27
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_053",
+      "area_px": 1465,
+      "bbox_px": [
+        368,
+        654,
+        61,
+        87
+      ],
+      "centroid_px": [
+        400.25,
+        695.95
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_054",
+      "area_px": 729,
+      "bbox_px": [
+        115,
+        681,
+        79,
+        70
+      ],
+      "centroid_px": [
+        154.71,
+        727.78
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_055",
+      "area_px": 1503,
+      "bbox_px": [
+        26,
+        701,
+        79,
+        62
+      ],
+      "centroid_px": [
+        60.94,
+        733.68
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_056",
+      "area_px": 611,
+      "bbox_px": [
+        135,
+        705,
+        40,
+        36
+      ],
+      "centroid_px": [
+        153.97,
+        728.13
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_057",
+      "area_px": 1436,
+      "bbox_px": [
+        257,
+        713,
+        97,
+        52
+      ],
+      "centroid_px": [
+        305.11,
+        750.76
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_058",
+      "area_px": 1624,
+      "bbox_px": [
+        263,
+        744,
+        161,
+        209
+      ],
+      "centroid_px": [
+        341.56,
+        834.53
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_059",
+      "area_px": 1426,
+      "bbox_px": [
+        281,
+        766,
+        129,
+        165
+      ],
+      "centroid_px": [
+        342.46,
+        835.35
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_060",
+      "area_px": 3781,
+      "bbox_px": [
+        22,
+        770,
+        264,
+        264
+      ],
+      "centroid_px": [
+        153.83,
+        899.21
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_061",
+      "area_px": 1501,
+      "bbox_px": [
+        102,
+        779,
+        102,
+        52
+      ],
+      "centroid_px": [
+        152.42,
+        792.63
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_062",
+      "area_px": 5010,
+      "bbox_px": [
+        295,
+        784,
+        102,
+        127
+      ],
+      "centroid_px": [
+        343.08,
+        837.86
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_063",
+      "area_px": 383,
+      "bbox_px": [
+        0,
+        793,
+        42,
+        61
+      ],
+      "centroid_px": [
+        16.72,
+        815.44
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_064",
+      "area_px": 34419,
+      "bbox_px": [
+        33,
+        794,
+        240,
+        217
+      ],
+      "centroid_px": [
+        152.52,
+        902.11
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_065",
+      "area_px": 1565,
+      "bbox_px": [
+        217,
+        801,
+        60,
+        92
+      ],
+      "centroid_px": [
+        248.16,
+        847.56
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_066",
+      "area_px": 1503,
+      "bbox_px": [
+        30,
+        802,
+        61,
+        90
+      ],
+      "centroid_px": [
+        57.42,
+        848.15
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_067",
+      "area_px": 376,
+      "bbox_px": [
+        0,
+        804,
+        22,
+        31
+      ],
+      "centroid_px": [
+        7.13,
+        814.59
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_068",
+      "area_px": 2208,
+      "bbox_px": [
+        462,
+        840,
+        206,
+        206
+      ],
+      "centroid_px": [
+        568.01,
+        941.04
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_069",
+      "area_px": 2628,
+      "bbox_px": [
+        470,
+        849,
+        84,
+        131
+      ],
+      "centroid_px": [
+        496.82,
+        905.38
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_070",
+      "area_px": 2851,
+      "bbox_px": [
+        573,
+        849,
+        87,
+        132
+      ],
+      "centroid_px": [
+        629.64,
+        903.9
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_071",
+      "area_px": 17756,
+      "bbox_px": [
+        481,
+        853,
+        169,
+        160
+      ],
+      "centroid_px": [
+        563.96,
+        944.2
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_072",
+      "area_px": 1470,
+      "bbox_px": [
+        215,
+        912,
+        62,
+        88
+      ],
+      "centroid_px": [
+        247.75,
+        955.91
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_073",
+      "area_px": 1379,
+      "bbox_px": [
+        31,
+        917,
+        58,
+        83
+      ],
+      "centroid_px": [
+        57.98,
+        956.4
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_074",
+      "area_px": 914,
+      "bbox_px": [
+        0,
+        950,
+        122,
+        122
+      ],
+      "centroid_px": [
+        51.9,
+        1032.54
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_077",
+      "area_px": 800,
+      "bbox_px": [
+        0,
+        968,
+        95,
+        99
+      ],
+      "centroid_px": [
+        42.27,
+        1033.75
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_078",
+      "area_px": 1423,
+      "bbox_px": [
+        106,
+        973,
+        95,
+        52
+      ],
+      "centroid_px": [
+        152.45,
+        1010.7
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_079",
+      "area_px": 2671,
+      "bbox_px": [
+        0,
+        984,
+        76,
+        76
+      ],
+      "centroid_px": [
+        23.55,
+        1033.91
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_080",
+      "area_px": 2428,
+      "bbox_px": [
+        494,
+        994,
+        144,
+        44
+      ],
+      "centroid_px": [
+        564.9,
+        1021.0
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_081",
+      "area_px": 5563,
+      "bbox_px": [
+        21,
+        1004,
+        344,
+        614
+      ],
+      "centroid_px": [
+        138.01,
+        1290.76
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_082",
+      "area_px": 5710,
+      "bbox_px": [
+        368,
+        1004,
+        351,
+        614
+      ],
+      "centroid_px": [
+        597.48,
+        1290.18
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_083",
+      "area_px": 1623,
+      "bbox_px": [
+        565,
+        1008,
+        116,
+        214
+      ],
+      "centroid_px": [
+        645.94,
+        1106.78
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_084",
+      "area_px": 18427,
+      "bbox_px": [
+        33,
+        1018,
+        332,
+        820
+      ],
+      "centroid_px": [
+        125.26,
+        1416.01
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_085",
+      "area_px": 18141,
+      "bbox_px": [
+        369,
+        1018,
+        339,
+        820
+      ],
+      "centroid_px": [
+        612.41,
+        1419.56
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_086",
+      "area_px": 1253,
+      "bbox_px": [
+        583,
+        1032,
+        92,
+        168
+      ],
+      "centroid_px": [
+        646.98,
+        1109.33
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_087",
+      "area_px": 8717,
+      "bbox_px": [
+        54,
+        1043,
+        633,
+        684
+      ],
+      "centroid_px": [
+        362.66,
+        1336.72
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_088",
+      "area_px": 4316,
+      "bbox_px": [
+        596,
+        1046,
+        72,
+        132
+      ],
+      "centroid_px": [
+        644.68,
+        1104.98
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_089",
+      "area_px": 1308,
+      "bbox_px": [
+        219,
+        1051,
+        282,
+        131
+      ],
+      "centroid_px": [
+        339.84,
+        1131.7
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_090",
+      "area_px": 622,
+      "bbox_px": [
+        368,
+        1051,
+        149,
+        130
+      ],
+      "centroid_px": [
+        444.39,
+        1112.75
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_091",
+      "area_px": 7706,
+      "bbox_px": [
+        253,
+        1058,
+        227,
+        97
+      ],
+      "centroid_px": [
+        366.0,
+        1108.57
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_092",
+      "area_px": 4109,
+      "bbox_px": [
+        0,
+        1103,
+        185,
+        340
+      ],
+      "centroid_px": [
+        78.6,
+        1221.96
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_093",
+      "area_px": 7358,
+      "bbox_px": [
+        0,
+        1128,
+        149,
+        266
+      ],
+      "centroid_px": [
+        56.4,
+        1214.21
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_094",
+      "area_px": 33210,
+      "bbox_px": [
+        133,
+        1143,
+        471,
+        547
+      ],
+      "centroid_px": [
+        366.36,
+        1416.99
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_095",
+      "area_px": 354,
+      "bbox_px": [
+        51,
+        1164,
+        47,
+        39
+      ],
+      "centroid_px": [
+        74.63,
+        1178.06
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_096",
+      "area_px": 7288,
+      "bbox_px": [
+        156,
+        1165,
+        425,
+        429
+      ],
+      "centroid_px": [
+        367.87,
+        1366.63
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_097",
+      "area_px": 369,
+      "bbox_px": [
+        0,
+        1175,
+        53,
+        90
+      ],
+      "centroid_px": [
+        31.49,
+        1218.64
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_098",
+      "area_px": 132,
+      "bbox_px": [
+        64,
+        1174,
+        18,
+        15
+      ],
+      "centroid_px": [
+        72.66,
+        1178.92
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_099",
+      "area_px": 31311,
+      "bbox_px": [
+        165,
+        1175,
+        407,
+        410
+      ],
+      "centroid_px": [
+        367.6,
+        1382.45
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_100",
+      "area_px": 280,
+      "bbox_px": [
+        0,
+        1180,
+        48,
+        80
+      ],
+      "centroid_px": [
+        28.77,
+        1220.29
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_101",
+      "area_px": 2359,
+      "bbox_px": [
+        0,
+        1186,
+        42,
+        69
+      ],
+      "centroid_px": [
+        17.56,
+        1219.64
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_102",
+      "area_px": 91814,
+      "bbox_px": [
+        176,
+        1204,
+        385,
+        350
+      ],
+      "centroid_px": [
+        367.97,
+        1378.56
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_103",
+      "area_px": 281,
+      "bbox_px": [
+        0,
+        1282,
+        31,
+        54
+      ],
+      "centroid_px": [
+        12.7,
+        1305.76
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_104",
+      "area_px": 236,
+      "bbox_px": [
+        0,
+        1293,
+        17,
+        24
+      ],
+      "centroid_px": [
+        6.1,
+        1301.17
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_105",
+      "area_px": 1340,
+      "bbox_px": [
+        60,
+        1318,
+        71,
+        391
+      ],
+      "centroid_px": [
+        79.7,
+        1504.93
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_106",
+      "area_px": 1847,
+      "bbox_px": [
+        557,
+        1319,
+        124,
+        391
+      ],
+      "centroid_px": [
+        637.21,
+        1486.47
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_107",
+      "area_px": 214,
+      "bbox_px": [
+        0,
+        1334,
+        5,
+        62
+      ],
+      "centroid_px": [
+        1.7,
+        1362.85
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_108",
+      "area_px": 1283,
+      "bbox_px": [
+        97,
+        1339,
+        86,
+        336
+      ],
+      "centroid_px": [
+        134.75,
+        1504.14
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_109",
+      "area_px": 14835,
+      "bbox_px": [
+        566,
+        1365,
+        109,
+        329
+      ],
+      "centroid_px": [
+        633.91,
+        1536.78
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_110",
+      "area_px": 14606,
+      "bbox_px": [
+        66,
+        1370,
+        108,
+        325
+      ],
+      "centroid_px": [
+        105.09,
+        1538.8
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_111",
+      "area_px": 812,
+      "bbox_px": [
+        0,
+        1439,
+        5,
+        179
+      ],
+      "centroid_px": [
+        1.84,
+        1534.81
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_112",
+      "area_px": 613,
+      "bbox_px": [
+        555,
+        1539,
+        88,
+        135
+      ],
+      "centroid_px": [
+        610.92,
+        1598.78
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_113",
+      "area_px": 517,
+      "bbox_px": [
+        102,
+        1540,
+        89,
+        138
+      ],
+      "centroid_px": [
+        137.01,
+        1596.74
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_114",
+      "area_px": 596,
+      "bbox_px": [
+        546,
+        1540,
+        92,
+        137
+      ],
+      "centroid_px": [
+        604.68,
+        1599.81
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_115",
+      "area_px": 3163,
+      "bbox_px": [
+        541,
+        1543,
+        90,
+        147
+      ],
+      "centroid_px": [
+        593.54,
+        1611.19
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_116",
+      "area_px": 2897,
+      "bbox_px": [
+        109,
+        1544,
+        86,
+        146
+      ],
+      "centroid_px": [
+        143.84,
+        1612.65
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_117",
+      "area_px": 444,
+      "bbox_px": [
+        130,
+        1569,
+        66,
+        125
+      ],
+      "centroid_px": [
+        152.17,
+        1626.82
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_118",
+      "area_px": 506,
+      "bbox_px": [
+        199,
+        1568,
+        69,
+        126
+      ],
+      "centroid_px": [
+        242.71,
+        1625.37
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_119",
+      "area_px": 475,
+      "bbox_px": [
+        470,
+        1568,
+        67,
+        126
+      ],
+      "centroid_px": [
+        492.69,
+        1627.37
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_120",
+      "area_px": 445,
+      "bbox_px": [
+        541,
+        1568,
+        68,
+        126
+      ],
+      "centroid_px": [
+        585.38,
+        1626.43
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_121",
+      "area_px": 406,
+      "bbox_px": [
+        134,
+        1575,
+        62,
+        122
+      ],
+      "centroid_px": [
+        154.46,
+        1631.85
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_122",
+      "area_px": 430,
+      "bbox_px": [
+        199,
+        1575,
+        64,
+        122
+      ],
+      "centroid_px": [
+        241.27,
+        1632.35
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_123",
+      "area_px": 377,
+      "bbox_px": [
+        475,
+        1575,
+        63,
+        122
+      ],
+      "centroid_px": [
+        494.47,
+        1634.2
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_124",
+      "area_px": 413,
+      "bbox_px": [
+        541,
+        1574,
+        63,
+        123
+      ],
+      "centroid_px": [
+        583.08,
+        1632.25
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_125",
+      "area_px": 872,
+      "bbox_px": [
+        265,
+        1597,
+        201,
+        81
+      ],
+      "centroid_px": [
+        340.83,
+        1622.56
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_126",
+      "area_px": 312,
+      "bbox_px": [
+        442,
+        1596,
+        32,
+        81
+      ],
+      "centroid_px": [
+        452.45,
+        1636.87
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_127",
+      "area_px": 531,
+      "bbox_px": [
+        284,
+        1611,
+        170,
+        18
+      ],
+      "centroid_px": [
+        370.69,
+        1622.31
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_128",
+      "area_px": 211,
+      "bbox_px": [
+        437,
+        1611,
+        21,
+        63
+      ],
+      "centroid_px": [
+        444.14,
+        1642.47
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_129",
+      "area_px": 221,
+      "bbox_px": [
+        281,
+        1613,
+        21,
+        62
+      ],
+      "centroid_px": [
+        293.95,
+        1644.16
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_132",
+      "area_px": 9644,
+      "bbox_px": [
+        293,
+        1620,
+        153,
+        122
+      ],
+      "centroid_px": [
+        368.9,
+        1666.19
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_136",
+      "area_px": 147,
+      "bbox_px": [
+        705,
+        1628,
+        51,
+        3
+      ],
+      "centroid_px": [
+        730.0,
+        1628.97
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_137",
+      "area_px": 690,
+      "bbox_px": [
+        0,
+        1635,
+        29,
+        25
+      ],
+      "centroid_px": [
+        13.89,
+        1646.62
+      ],
+      "touches_crop_boundary": true,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_138",
+      "area_px": 799,
+      "bbox_px": [
+        712,
+        1635,
+        37,
+        24
+      ],
+      "centroid_px": [
+        728.55,
+        1646.42
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_140",
+      "area_px": 126,
+      "bbox_px": [
+        710,
+        1662,
+        43,
+        3
+      ],
+      "centroid_px": [
+        730.84,
+        1663.02
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_141",
+      "area_px": 1205,
+      "bbox_px": [
+        22,
+        1668,
+        7,
+        177
+      ],
+      "centroid_px": [
+        24.95,
+        1755.81
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_142",
+      "area_px": 1221,
+      "bbox_px": [
+        712,
+        1669,
+        8,
+        176
+      ],
+      "centroid_px": [
+        715.04,
+        1755.69
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_143",
+      "area_px": 136,
+      "bbox_px": [
+        63,
+        1676,
+        35,
+        32
+      ],
+      "centroid_px": [
+        79.96,
+        1689.76
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_144",
+      "area_px": 1610,
+      "bbox_px": [
+        296,
+        1676,
+        147,
+        102
+      ],
+      "centroid_px": [
+        369.0,
+        1717.37
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_145",
+      "area_px": 141,
+      "bbox_px": [
+        643,
+        1676,
+        35,
+        32
+      ],
+      "centroid_px": [
+        659.98,
+        1689.63
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_146",
+      "area_px": 170,
+      "bbox_px": [
+        637,
+        1679,
+        47,
+        48
+      ],
+      "centroid_px": [
+        660.87,
+        1699.51
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_147",
+      "area_px": 175,
+      "bbox_px": [
+        57,
+        1680,
+        46,
+        47
+      ],
+      "centroid_px": [
+        77.65,
+        1701.1
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_148",
+      "area_px": 6461,
+      "bbox_px": [
+        274,
+        1684,
+        190,
+        154
+      ],
+      "centroid_px": [
+        368.19,
+        1752.82
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_149",
+      "area_px": 454,
+      "bbox_px": [
+        51,
+        1697,
+        79,
+        142
+      ],
+      "centroid_px": [
+        75.31,
+        1764.26
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_150",
+      "area_px": 535,
+      "bbox_px": [
+        268,
+        1696,
+        83,
+        143
+      ],
+      "centroid_px": [
+        322.41,
+        1760.39
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_151",
+      "area_px": 480,
+      "bbox_px": [
+        388,
+        1696,
+        83,
+        144
+      ],
+      "centroid_px": [
+        414.49,
+        1761.51
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_152",
+      "area_px": 453,
+      "bbox_px": [
+        609,
+        1696,
+        80,
+        143
+      ],
+      "centroid_px": [
+        660.53,
+        1757.93
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_153",
+      "area_px": 489,
+      "bbox_px": [
+        55,
+        1699,
+        80,
+        143
+      ],
+      "centroid_px": [
+        80.92,
+        1763.68
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_154",
+      "area_px": 490,
+      "bbox_px": [
+        262,
+        1699,
+        84,
+        144
+      ],
+      "centroid_px": [
+        318.75,
+        1764.81
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_155",
+      "area_px": 448,
+      "bbox_px": [
+        392,
+        1699,
+        84,
+        144
+      ],
+      "centroid_px": [
+        419.16,
+        1763.58
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_156",
+      "area_px": 451,
+      "bbox_px": [
+        603,
+        1699,
+        82,
+        143
+      ],
+      "centroid_px": [
+        655.67,
+        1760.2
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_160",
+      "area_px": 152,
+      "bbox_px": [
+        22,
+        1847,
+        41,
+        4
+      ],
+      "centroid_px": [
+        42.43,
+        1848.61
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_161",
+      "area_px": 222,
+      "bbox_px": [
+        340,
+        1847,
+        59,
+        4
+      ],
+      "centroid_px": [
+        368.53,
+        1848.58
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_162",
+      "area_px": 154,
+      "bbox_px": [
+        677,
+        1847,
+        42,
+        4
+      ],
+      "centroid_px": [
+        697.56,
+        1848.53
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_166",
+      "area_px": 366,
+      "bbox_px": [
+        25,
+        1858,
+        34,
+        14
+      ],
+      "centroid_px": [
+        42.1,
+        1864.6
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_167",
+      "area_px": 654,
+      "bbox_px": [
+        344,
+        1858,
+        51,
+        14
+      ],
+      "centroid_px": [
+        369.52,
+        1864.57
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    },
+    {
+      "face_id": "face_168",
+      "area_px": 376,
+      "bbox_px": [
+        682,
+        1858,
+        32,
+        14
+      ],
+      "centroid_px": [
+        695.99,
+        1864.81
+      ],
+      "touches_crop_boundary": false,
+      "classification": "unclassified",
+      "physical_depth": "unknown"
+    }
+  ],
+  "note": "Pixel-derived faces; no mathematical circular-arc proof, historical scale, or depth inferred."
+}

@@ -1,0 +1,215 @@
+leaf_number,section,volume_x_pdf_page,facing_notes_pdf_page,ocr_detected_headings,total_thematic_line_matches,index_scan_status,numeric_and_name_reading_status
+1,A,15,14,ABBEVILLE (somme).; ACRE SUR LA LYS (pas-de-calais).; ACY EN MULTIEN (oise).; AGDE (Hérault).; AGEN (lot-et-garonne).,5,page text inventoried,OCR unverified
+2,A,17,16,AGNETS (OISE).; AIGNAY-LE-DUC (gôte-d'or).; AIGUES-MORTES (gard).; AIGUILLON (lot-et-garonne).; AILLAS (GIRONDE).; AILLY-SUR-NOYE (somme).; AIRVAULT (deux-sèvres).; AIX (rouches-du-rhône).,1,page text inventoried,OCR unverified
+3,A,19,18,AIX D'ANGILLON (cher).; AIX-LA-CHAPELLE.; ALBY (TARN).; ALENÇON (orne).; ALESIA (côte-d'or).,7,page text inventoried,OCR unverified
+4,A,21,20,AL ET (AUDE).; ALLONNE (OISE).; AL LOS (basses-alpes).; AMBIERLE (loire).; AM BOISE (indre-et-loire).; AMIENS (somme).,8,page text inventoried,OCR unverified
+5,A,23,22,,24,page text inventoried,OCR unverified
+6,A,25,24,CATHÉDRALl£ (Amiens). ',22,page text inventoried,OCR unverified
+7,A,27,26,ANG; ANCY-LE-FRANC (yop^ne).; ANDELY (GRAND) (eure).; ANDELY (PETIT) (eure).; ANDLAU (das-rhin).; ANELLAU.; ANGERS (maine-et-loire).,6,page text inventoried,OCR unverified
+8,A,29,28,ANGERVILLE-L'ORCHER (seine-inférieure).; ANGO (prés de Dieppe) (seine-inférieure).; ANGOLSHELM.; ANGOULÊME (ch.\rente).; ANNEBAUT (eure).,3,page text inventoried,OCR unverified
+9,A,31,30,ARG; ANNONAY (ardèghe).; ANTIGNY (vienne).; ANTIOGHE (SYRIE).; ANZY (saone-et-loire).; APT (vaucluse).; ARAINES (somme).; ARCIS-SUR-AUBE (aube).; ARCUEIL (seine).; ARGENTAN (orne).; ARGENTEUIL (seine-et-oise).,2,page text inventoried,OCR unverified
+10,A,33,32,ARLES (BOrClIES-DU-RHONE).; ÉGMSK SAINT-THOPHIME (abbaye).; ARNAG-POMPADOUR (corrêze).; ARQUES (seine-inférieure).; ARRAS (PAS-DE-C.\LAIS).; ASNIÈRES (calvados).; ASSIER (lot).,3,page text inventoried,OCR unverified
+11,A,35,34,ATHÈNES (GRÈCE).; ATHIS-MONS (seine-et-oise).; ATTIGNY (ARDENNES).; AUBENTON (aisne).; AUBE TERRE (Charente).; AUBIGNY (cher).; AUCH (GERS).; AUDRIEN (calvados).; AUFFAY (seine-inférieure).,0,page text inventoried,OCR unverified
+12,A,37,36,A UT ]; AUGSBOURG (bavière).; AULNAY (NIÈVRE).; AUMALE (seine-inférieure).; A UT UN (saone-et-loire).,9,page text inventoried,OCR unverified
+13,A,39,38,AUTUN (cathédrale).; AUXERRE (YONNE).,20,page text inventoried,OCR unverified
+14,A,41,40,AUZEBOSQ (seine-inférieure).; AVALLON (YONNE).; AVENAY (marne).; AVENSAN (GIRONDE).; AVESNIÊRES (mayenne).; AVIGNON (vaucluse).,7,page text inventoried,OCR unverified
+15,A,43,42,AVIGNON (cathédrale).; AVIOTH (MEUSE).; AYDON (northumberland).; AZAY-LE-RIDEAU (indre-et-loire).,4,page text inventoried,OCR unverified
+16,B,45,44,BAGAS (gdionde).; BAGNEUX (seine).; BALE (suisse).; BAMBERG (Allemagne).,4,page text inventoried,OCR unverified
+17,B,47,46,BAR-SUR-AUBE (aube).; BARET (CHARENTE).; BARON (OISE).; BAUME-LES-MESSIEURS (jura).; BAUZAC (haute-loire).; BAYEUX (calvados).,8,page text inventoried,OCR unverified
+18,B,49,48,"BEA; B A YONNE (bâsses-pyrénées).; BAZAS (GIRONDE).; BAZOUGES (SARTRE).; BEAUCAIRE (gard).; BEAUGENCY (loiret).; BEAULIEU (corrèze).; BEAULIEU (indre-et-loire),; BEAULIEU (m.\ine-et-loire).",0,page text inventoried,OCR unverified
+19,B,51,50,BEA; BEAUMONT (dordogne).; BEAUMONT DE LOMAGNE (tar.vet-garonne).; BEAUMONT (seune-et-oise).; BEAUNE (coTE-D'uR).,9,page text inventoried,OCR unverified
+20,B,53,52,BEAUVAIS (OISE).,22,page text inventoried,OCR unverified
+21,B,55,54,"BEL; BEAUYAL (somme).; BEC (du) (EURE).; BEERSEL (bradant).; BEGADAN (gironde).; BÉLIÈRE (l.\) (cotes-du-nord).; BELLEYILLE (riione).; BELLOY (seine-et-ûise),; BELMONT (ayeyron).; BELPECH (AUDE.)",0,page text inventoried,OCR unverified
+22,B,57,56,BES J; BELSAY (northumberland).; BÉNÉVENT (creuse).; BENISON-DIEU (loire).; BERGUES-SAINT-WINOX (nord).; BERNAY (EURE).; BERNEUIL (SOMME).; BERNIÈRES (calvados).; BERTHEAUCOURT (somme).; BÉRULLE (aube).; BESANÇON (doues).,1,page text inventoried,OCR unverified
+23,B,59,58,BLA; BETHLEEM (Palestine).; BÉTHUNE (pAs-DE-c.\LÂis).; B ZIERS (uér.\ult).; BICÊTRE (seine).; BILLOM (PUY-DE-DOME).; BIOZAT (.\llier).; BLAIN (loire-inférieure).,6,page text inventoried,OCR unverified
+24,B,61,60,"BLANC (le) (indre).; BLAZIMON (<;ironl)e).; BLAZINCOUBT (girunde).; BLÉCOURÏ (haute-marne).; BLENOD-AUX-OIGNONS (meurtiie).; BLÉRANCOURT (aisne).; BOISNEY (EURE),",3,page text inventoried,OCR unverified
+25,B,63,62,BOR; BOIS-SAINTE-MARIE (sAONE-ET-LOir.i:).; BON A GU IL (LOT-ET-GARONNE).; BONLIEU (CREUSE).; BONN SUR LE RIIÏN.; BONNEUIL (SEINE-ET-OISE).; BONNE Y AL (et're-et-loir).; BORDEAUX (r.iRONDE),4,page text inventoried,OCR unverified
+26,B,65,64,BOSCHERVILLE (seine-inférieure).; BOUGIVAL (seine-et-oise).; BOUILLAG (GIRONDE).; BOUÏLLY (ardennes).; BOULOGNE (seine).; BOURBON-L'ARCHAMBAULT (allier).; BOURG-DIEU (INDRE).,3,page text inventoried,OCR unverified
+27,B,67,66,L BOU; BOURGDUN (seine-inférieure).; BOURGES (cher).,15,page text inventoried,OCR unverified
+28,B,69,68,BRE; BOURG-SAINT-ANDÉOL (ardèciie).; BOVES (somme).; BRAGEAC (cantal).; BRAISNE (.AISNE).; BRANCION (saone-et-loire).; BRANTOME (dordogne).; BRAUX (ardennes).; BREDE (L.\) (GIRONDE).; BREDOUS (CANTAL).,1,page text inventoried,OCR unverified
+29,B,71,70,BRESSUIRE (deux-sèvres).; BRETEUIL(oise).; BRETTEVILLE-L'ORGUEILLEUSE (calvados).; BREUIL (CALVADOS.); BRÈVES (NIÈVRE).; BRÏE-GOMTE-ROBERT (seine-et-marne).; BRIOUDE (HAUTE-LOIRE).; BRIQUEVILLE (c.\lvados).,3,page text inventoried,OCR unverified
+30,B,73,72,BRIVES-LA-GAILLARDE (corrèze).; BROGLIE (EURE).; BROU (AIN).; BRUÈRE (sarthe).; BRUGES (fl.andres).; BRUXELLES (Belgique).; BURLATZ (TARN).; BURY (loir-et-cher).; BURY (OISE).,3,page text inventoried,OCR unverified
+31,B,75,74,BUSSIÈRE (dordogne).; BYZANCE.,1,page text inventoried,OCR unverified
+32,C,77,76,CADILLAC (GIRONDE).; CAEN (calvados).,11,page text inventoried,OCR unverified
+33,C,79,78,CAHORS (lot).; CAIRE (EGYPTE).; CALAIS (PAS-DE-CALAIS).; CAMARSAC (GIRONDE).,16,page text inventoried,OCR unverified
+34,C,81,80,CAR; CAMBRAI (nord).; CAMPIGNY (CALVADO.S).; GANDES (indre-et-loire).; GANTORBÉRY (Angleterre).; GARCASSONNE (âude).,7,page text inventoried,OCR unverified
+35,C,83,82,,20,page text inventoried,OCR unverified
+36,C,85,84,CITÉ (de Carcassonne).,12,page text inventoried,OCR unverified
+37,C,87,86,CAU; CARENTAN (manche).; CAROMB (VAUCLUSE).; GARPENTRAS (vaucluse).; GARRIÈRES-SAINT-DENIS (seine-et-oise).; GASTRIES (Hérault).; GAUDEBEG (seine-inférieure).; GAUNET (VAR).; GAUROY (marne).; GAUSSADE (tarn-et-g.\ronne).,3,page text inventoried,OCR unverified
+38,C,89,88,CAVAILLON (yaucluse).; CEFALU (SICILE).; CEFFONDS (haute-marne).; CELFROUIN (CHARENTE).; CELLE-BRUÈRE (cher).; CELLENEUVE (Hérault).; CELLES (deux-sèvres).; CERCLES (dordogne).; CHAALIS (OISE).; CHABLIS (YONNE).,1,page text inventoried,OCR unverified
+39,C,91,90,CHA; CHABRILLAN (drôme).; CHAGGA (SYRIE centrale).; GHAILLY (OISE).; GHAISE-DIEU (haute-loire).; CHALOCHÉ.; CHALONS-SUR-MARNE.,11,page text inventoried,OCR unverified
+40,C,93,92,CIIA; CHALON-SUR-SAONE.; CHAMAILLÉRES (ply-de-dôme).; CHAMBARNAV-LEZ-BELLEVAUX (haute-saône).; CHAiMBOIS (ORNE).; CHAMBON (cREi-sE).,6,page text inventoried,OCR unverified
+41,C,95,94,CHAMBON (puy-de-dôme).; CHAMBORD (loir-et-cher).; CHAMPAGNE (.xrdèciie).; CHAMPAGNE (seine-et-oise).; CHAMPDENIERS (deux-sèvres).; C HA M PEAUX (seine-et-marne).; CHAMPLIEU (OISE).,4,page text inventoried,OCR unverified
+42,C,97,96,CIIA ]; CHANTEUGES (haite-loire).; CHANTILLY (olse).; CHAOURCE (AUBE).; CHAPAISE (saône-et-loire).; CHARITÉ (lx) (NIÈVRE).; CHARLIEU (LOIRE).,3,page text inventoried,OCR unverified
+43,C,99,98,CHARLY (cher).; CHARMANT (cii.\rente).; CHARNEY (berkshike).; CHARONNE (seinej.; CHARROUX (VIENNE).; CHARTRES (eure-et-loib).,6,page text inventoried,OCR unverified
+44,C,101,100,,20,page text inventoried,OCR unverified
+45,C,103,102,SAINT-PÉRE (abbaye).; CHARTREUSE (la grande) (isère).; CHASTELLUX (yonne).; CHATEATT-CHINON (ntèvre).,5,page text inventoried,OCR unverified
+46,C,105,104,CHATEAUDUN (eure-et-loir).; CITATEAU-GAILLARD (eure).; CHATEAUNEUF (Charente).,8,page text inventoried,OCR unverified
+47,C,107,106,CHA; CHATEAUNEUF (saône-et-loire).; IIHATKL-MONTAGNE (allier).; CHATILLON D'AZERGUE (rhône).; CHATILLON-SUR-INDHE (indre).; CHATILLON-SUR-SEINE (cote-d'or).; CHAT RE (l.\) (indre).,2,page text inventoried,OCR unverified
+48,C,109,108,CIIE; CH AU RI AT (puy-de-dôme).; CHAUTEL (allier).; CHAUVIGNY (vienne).; CHAZELLE (moselle).; CHELLES (seine-et-marne).; CHEMILLÉ (maine-et-loire).; CHEMIINON (marne).,3,page text inventoried,OCR unverified
+49,C,111,110,GIIÉNÉRAILLES (creuse).; CHENONCEAUX (indre-et-loire).; CHERLIEU (iiaute-saône).; CHISSEY (jura).; CHITRI-LE-FORT (yonne).; CINQUEUX (OISE).; CIRON (indre).; CITEAUX (côte-d'or).; CIVRAY (VIENNE).,1,page text inventoried,OCR unverified
+50,C,113,112,"CLE; CIVRY (YONNE).; CLAIRVAUX (aube).; CLAMEGY (YONNE).; CLERMONT (oise).; CLERMONT (puy-de-dôme),",12,page text inventoried,OCR unverified
+51,C,115,114,CLU; CLISSON (LOIRE-INFÉRIEURE).; CL UN Y (saone-et-loire).,15,page text inventoried,OCR unverified
+52,C,117,116,COL; COGNIAT (allier).; COLLEVILLE (calvados).; COLMAR (haut-rhin).; COLOGNE (Allemagne).,10,page text inventoried,OCR unverified
+53,C,119,118,COMPIÈGNE (OISE).; CONÇUES (EURE).; CONDAT (pty-de-dôme).; CONDOM (GERS).; CONFOLENS (Charente).,4,page text inventoried,OCR unverified
+54,C,121,120,COR ]; CONQUES (aveyron).; CONSTANCE (suisse).; CONSTANTINOPLE.; CORBEIL (seine-et-oise).; CORBIGNY (NIÈVRE).; CORDES (tarn-et-garonne).,2,page text inventoried,OCR unverified
+55,C,123,122,CORNEILLA (pyrénées-orientales).; GOSNE-SUR-LOIRE (nièvre).; GOUCY (AISNE).,9,page text inventoried,OCR unverified
+56,C,125,124,COULOMMIEKS (sEiNE-ET-MARNr:).; COURONNE (la) (ch.\rente).; COURS-SUR-LOIRE (loir-et-cher).; COURTEFONTAINE (doues).; COURTISOLS (marne).; COUSTOUGES (pyrénées-orientales).; COUTANCES (m.\nche).,1,page text inventoried,OCR unverified
+57,C,127,126,CREIL (OISE).; GRÉTEIL (SEINE).; G RU A S (ardèciie).; CULLY (calvados).,8,page text inventoried,OCR unverified
+58,C,129,128,GUNAULT (maine-et-loire).; GURTON (GIRONDE).; GUSSET (allier).,0,page text inventoried,OCR unverified
+59,D,131,130,DÉOLS-GHATEAUROUX (indre).; DEUIL (seine-et-oise).; DIE (drôme).; DIEPPE (seine-inférieure).; DIGNE (basses-alpes).; DIJON (côte-d'or).,1,page text inventoried,OCR unverified
+60,D,133,132,ÉGLISb; NOTRK-DAMb: (de Dijon).; DIN AN (cotes- du-nord).,13,page text inventoried,OCR unverified
+61,D,135,134,DOR; DOL (ille-et-yilaine).; DOMFRONT (orne).; DONNEMARIE (seine-et-m.vr^e).; DONZY (NIÈVRE).; DORAT (puy-de-dome).; DORAT (LE) (uaute-vienne).; DOR M AN S (marne).,3,page text inventoried,OCR unverified
+62,D,137,136,DOUVRES (calvados).; DOUVRES (ANGLETERRE).; DRESDE (saxe).; DREUX (eure-et-loir).; DUCLAIR (seine-inférieure).; DUGNY (MEUSE).; DUNKERQUE (nord).; DUN-LE-ROY (cher).; DURHAM (ANGLETERRE).,0,page text inventoried,OCR unverified
+63,E,139,138,EBREUIL (allier).; ECA.IEUL (CALVADOS).; ECO L'EN (seine-et-oise).; ELBE E F (seine-inférieure).,1,page text inventoried,OCR unverified
+64,E,141,140,ERS; ELNE (PYRÉNÉES-ORIENTALES).; ELY (ANGLETERRE).; EMBRUN (hautes-alpes).; ENNEZAT (puy-de-dome).; EPERNAY (m.\rne).; ÉPINAL (VOSGES).; ERMENONVILLE (oisE).; ERSTEIN (has-rhin).,2,page text inventoried,OCR unverified
+65,E,143,142,ESN ANDES (charente-infkuieurk).; ESPONDEILHAN (iiérault).; ESQUEHÉRIES (aisne).; ESSOMES (.\tsne).; ÉTAIN (MEUSE).; ÉTAMPES (SETNE-ET-OISE).; ÉTRETAT (seïne-inférieure).,1,page text inventoried,OCR unverified
+66,E,145,144,EVR; ÉVAUX (creuse).; EVREUX (EURE).; ÉVRON (MAYENNE).,17,page text inventoried,OCR unverified
+67,F,147,146,FALAISE (calvados).; FAMARS (BELGIQUE).; FAOUET (FINISTÈRE).; FAVERNAY (haute-saone).; FELLETIN (creuse).,1,page text inventoried,OCR unverified
+68,F,149,148,FENESTRANGE (meurtiie).; FEN [OUX (ciiarente-inférieure).; PERRIERES (LOIRET).; FERRIÈRES (seine-et-marne).; FIGEAC (lot).; FISMES (marne).; FLA VIGNY (cote-d'or).,2,page text inventoried,OCR unverified
+69,F,151,150,FON; FLEUR ANGE (gers).; FLORENCE (italie).; FOLGOAT (FINISTÈRE).; FOLLEVILLE (somme).; FONTAINEBLEAU (seine-et-marneV; FONTAINE-HENRY (calvados):; FONTAINE-LA-FORËT (eure) .,1,page text inventoried,OCR unverified
+70,F,153,152,FONTAINE-LECOMTE (vienne).; FONTENAY (cote-d'or).; FONTENAY-LE-COMTE (vendée).; FONTEVRAULT (maine-et-loire).; FONTFROIDE (aude).,5,page text inventoried,OCR unverified
+71,F,155,154,FORMIGNY (calvados).; FOUCHÈRES (aube).; FRANCFORT-SUR-LF-MEIN.; FRÉJUS (VAR).; FRESNE-CAMILLY (calvados).; FRIBOURG (en iîrisgai).; FROISSY (côte-d'or).; FUSIERS (seine-et-uise).,0,page text inventoried,OCR unverified
+72,G,157,156,GAI L LAN (GIRONDE).; GAILLON (EURE).; GALLARDON (elre-et-luir).; G AND (fl.vndres).,3,page text inventoried,OCR unverified
+73,G,159,158,GER ]; GANNAT (ALLIER).; GARDE-ADHÉMAR (drome).; GARGILESSE (indre).; GASSICOURT (seine-et-oise).; GENNES (MAINE-ET-LOIRE).; GENSAC (CHARENTE).; GERMIGNY-LES-PRÉS (loiret).; GERONE (CATALOGNE).,1,page text inventoried,OCR unverified
+74,G,161,160,"GUE; GONESSE (seine-et-oise).; GORZE (MOSELLE).; GOULVEN (FINISTÈRE).; GOURDON (lot).; GOURNAY (seine-inférieure).; GRAVILLE-L'EURE (seine-inférieure),; GRENOBLE (isère).; GRIGNAN (drome).; GUEBERSCHWYR (hâut-rhin).",0,page text inventoried,OCR unverified
+75,G,163,162,GUEBWILLER (hâut-rhin).; GUERANDE (loire-inférieure).; GUERN (MORBIHAN).; GUERON (calvados).; GUIBRAY (calvados).,1,page text inventoried,OCR unverified
+76,H,165,164,IIAGETMAN (landes).; ILVGUEDIKE (.m.vnche).; HAM (somme).; IIARCOURT (EURE).; IIARGNIES (nord).; IIENNEBONT (morbiiian).,1,page text inventoried,OCR unverified
+77,H,167,166,TIILDESIIEIM (allemacnk).; HOIIEN-KŒNIGSBOURG (bas-riiin).; HOMBLEUX (somme).; IIONFLEUR (CALVADOS).; HOUDAN (seine-et-oise).; IIOUPPEVILLE (seine-inférieure).; IIURIEL (allier).; HYÈRES (var).,0,page text inventoried,OCR unverified
+78,I,169,168,IBOS (lIAUTES-PYRÉNÉES).; ILE BARBE (rhône).; ILE D'A RZ (MORBIHAN).; INEUIL (cher).; INNSBRUCK (tyrol).; ISOMES (haute-marne).; ISSOIRE (puy-de-dôme).,3,page text inventoried,OCR unverified
+79,I,171,170,ISS; ÉGLISK SAINT-PAUL (d'Issoire); ISS Y- (seine).,2,page text inventoried,OCR unverified
+80,J,173,172,JARS (cher).; JAVARZAY (deux-sèvres).; JAVROxN (MAYENNE).; JÉRUSALEM (PALESTINE).; JOINVILLE (haute-m.\rne).; JONSAC (charente-inférieure).,0,page text inventoried,OCR unverified
+81,J,175,174,JUS ]; JOSSELIN (MORBIHAN).; JUMIEGES (seine-inférieure).; JUSSY (MOSELLE).,1,page text inventoried,OCR unverified
+82,K,177,176,KINGSTON-SUR-HALL (Angleterre).; RŒNIGSHEIM (bas-rhin).,0,page text inventoried,OCR unverified
+83,L,179,178,LAACH (ALLEMAGNE).; LACHALADE (meuse).; LAGHATRE (INDRE).; LA FERTÉ-ALEPS (seine-et-oise).; LA KERTÉ-BERNAIIl) (sartiie).; LA FERTÉ-MILON (aisne).,5,page text inventoried,OCR unverified
+84,L,181,180,LAN ]; LAGORCE (GIRONDE).; LAGRAND (hautes-alpes).; LÂITRE-SOUS-AMANGE (meurtiie).; LALINDE (dordogne).; LAMBADER (Finistère).; LAMBALLE (côtes-du-nord).; LANDSPERG (ms-rhin).; LANGEAIS (indre-et-loire).; L A NG L E y ( nurthumrerland) .,0,page text inventoried,OCR unverified
+85,L,183,182,LANGRES (hat^te-marne).; LANGRUNE (calvados).; LANLEFF (côTES-Dr-NORu).; LANNÏOX (cotes-du-nord).,11,page text inventoried,OCR unverified
+86,L,185,184,LAO; LAON (AISNE).,18,page text inventoried,OCR unverified
+87,L,187,186,ÉGLISK SAINT-MARTIN (de Laon).; LARGUANT (seine-et-marine).; LA RÉOLE (GIRONDE).; LA ROCHE-GUYON.; LA ROGHELLE.; LA ROGHE-SUR-YON.,4,page text inventoried,OCR unverified
+88,L,189,188,LEO ]; LA ROQUE (ariége).; LA SOUTERRAINE (creuse).; LASSAY (loir-et-ciier).; LAVAL (MAYENNE).; LAVARDIN (LOIR-ET-CHER).; LA VOULTE-CHILHAC (haute-loire).; LAYRAC (lot-et-gâronne).; LECTOURE (GERS).,1,page text inventoried,OCR unverified
+89,L,191,190,"LKIION (cÔTKs-hii-Noiiit).; LKMIIKYK (UASSKS-I'YUKNKKS),; LKSCAU (iJA,ssi.;s.i'Yni^:Ni;;Bs),; LESSAY (manciii;).; I.ESTEUPS (CIIAKKNTK).; LESTRE (MANciiK).; LEVROUX (iNi.i-.i:).",1,page text inventoried,OCR unverified
+90,L,193,192,LIM; LIBOURNE (GIRONDE).; LIGET (indre-et-loire).; LIGUGÉ (vienne).; LILLE (nord).; LILLEBONNE (seine-inférieure).; LIMAY (seine-et-oise).; LIMOGES (haute-vienne).,6,page text inventoried,OCR unverified
+91,L,195,194,CATHÉDRALK (de Limoges).; LIMOUX (AUDE).; LINDAU (BAVIÈRE).; LISIEUX (calvados).; LOCHES (indre-et-loire).,11,page text inventoried,OCR unverified
+92,L,197,196,LON; LOC-RONAN (FINISTÈRE).; LOCTUDY (FINISTÈRE).; LODÈVE (hér.\ult).; LOMBEZ (GERS).; LONGGHAMPS (seine).; LONGPONT (seine-et-oise).; LONGUYON (MOSELLE).; LONLAY-L'ABBAYE (orne).,1,page text inventoried,OCR unverified
+93,L,199,198,LONS-LE-SAULNIER (jura).; LORRIS (LOIRET).; LOUPIAC (GIRONDE).; LOUVIÊRES (calvados).; LOUVIERS (EURE).; LUBECK (ALLEMAGNE).; LUC (VAR).; LUSIGNAN (VIENNE).; LUTTENBACH (il\ut-rhin).,2,page text inventoried,OCR unverified
+94,L,201,200,"LUXEUIL (uautk-saône).; LUZ (n.U'TES-PYRÉNÉEs),; LUZARCHES (seine-et-oise).; LYON (riiône).",4,page text inventoried,OCR unverified
+95,M,203,202,MAGON (saône-et-loire).; MAGNEVILLE (oise).; MAGUELONNE (iiérault).; MAIGNELAY (oise).; MAILLEZAIS (vendée).; MAILLY-LE-GHATEAU (yonne).; MAISONS (seine-et-oise).,0,page text inventoried,OCR unverified
+96,M,205,204,MAISONS-SOUS-VITRY (marne).; MAIZIERES (calvados).; MALVERN (worcestershire).; MANGLIEU (PUY-DE-DÔME).; MANOSQUE (BASSES-ALPES).,9,page text inventoried,OCR unverified
+97,M,207,206,MANTES (seine-et-oise).; MARCEVAL (pyrénées-orientales).; MARCOUSSIS (seine-et-oise).,16,page text inventoried,OCR unverified
+98,M,209,208,MAREIL EN FRANGE (seine-et-otse).; MARENNES (charente-inférieure).; MARIGNY (calvados).; MARLE (AISNE).; MARMANDE (lot et-garonne).; MARMOUTIER (bâs-riiix).; MARMOUTIER (indre-kt-loire).; MARNANS (ISÈRE).,0,page text inventoried,OCR unverified
+99,M,211,210,M AU; MARSEILLE.; MARTIGNY (manche).; MAS D'AGENAIS (lot-et-garonne).; MAS D'AIRE (landes).; MAS D'AZIL (ariége).; MATHIEU (calvados).; MAUBUISSON (seine-et-oise).,1,page text inventoried,OCR unverified
+100,M,213,212,M EU; MAURIAC (cantal).; MAURUPT (MARNE).; MAUVESIN (GERS).; MAYENCE (.\LLEMAaNE).; MEAUX (seine-et-marne).,8,page text inventoried,OCR unverified
+101,M,215,214,MEILLANT (cher).; MEÏLLIERS (allîer).; M ELLE (deux-sèvres).; MELLO (OISE).; MELUN (seine-et-marne).; MENAT (puy-de-dome).; MENDE (LOZÈRE).,2,page text inventoried,OCR unverified
+102,M,217,216,"MÉOBECO (INDRE).; MESLAND (loir-et-cher),; MESSINE (SICILE).; METZ (MOSELLE).; MEUDON (seine-et-oise).; MEULAN (seine-et-oise).; MEUNG (LOIRET).; MEURSAULT (côte-d'or).",3,page text inventoried,OCR unverified
+103,M,219,218,MEYMAC (corrèze).; MÉZIÈRES EN BRENNE (indre).; MÉZIN (lot-et-garonne).; MÉZY (marne).; MÉZY-MOULINS (aisne).; MILAN (ITALIE).; MINORVILLE (meurthe).; MIREPOIX (ariége).; MODÈNE (ITALIE).,0,page text inventoried,OCR unverified
+104,M,221,220,"MOL ]; MOESE (charente-inférieure).; MOESLAINS (haute-marne),; MO IRAN (lot-et-gâronne).; MOISSAC (tarn-et-garonne).; MOLLÉGES (bouches-du-rhùne).",9,page text inventoried,OCR unverified
+105,M,223,222,MONESTIER (haute-loire).; MONTAGNY (oise).; MONTARGIS; MONTAT (lot).; MONTATAIRE (oise).; MONTAUBAN (ille-et-vilaine).; MONTAUBAN (tark-et-garonne).; MONTBARD (côte-d'or).,5,page text inventoried,OCR unverified
+106,M,225,224,MONTBENOIT (doubs).; MONTBERON (Charente).; MONTBRON (Charente).; MONTCONTOUR (côtes-du-nord).; MONTDIDIER (somme).; MONTEPILLOY (oise).; MONTEREAU (yonne).; MONTFERRAND (puy-de-dôme).,0,page text inventoried,OCR unverified
+107,M,227,226,MONTFORT (cote-u'or).; MONTFORT-L'AMAURY (seine-et-oise).; MONT GANELON (oise).; MONTGAROULT (orne).; MONTIERAMEY (aube).; MONTIVILLIERS (seine-inférieure).; MONTLHERY (seine-et-oise).; MONTMAJOUR (bouciies-du-rhône).; MONTMARTRE (seine).,5,page text inventoried,OCR unverified
+108,M,229,228,"MONTMILLE (oise).; MONTMOREAU (charente).; MONTMORILLON (vienne),; MONTMORT (marne).; MONTOIRE (loir-et-cher).; MONTPAZIER (dordogne).; MONTPEZAT (tarn-et-garonne).",1,page text inventoried,OCR unverified
+109,M,231,230,MONTRÉAL (aude\; MONTRÉAL (yonne).; MONTREALE (sicile).; MONTRÉSOR (fndre-kt-loire).,12,page text inventoried,OCR unverified
+110,M,233,232,MONTREUIL-BELLAY (maine-et-loire).; MONTRICHARD (loir-et-cher).; MONT-SAINT-MIGHEL EN MER (manche).; MONTSALVI (cantal).; MONTSAUNÈS (haute-CxAronne).; MORET (seine-et-marne).,7,page text inventoried,OCR unverified
+111,M,235,234,MURIENVAL (uise).; MORIMOND (haute-marne).; MORLAAS (basses-pyrénées).; MORTAIN (mancul:).; MORTEAU (DOUBS).; MOUEN (CALVADOS).; MOULIIIERNE (maine-eï-loire).; MOULINE AUX (SElNE-liNFÉIUElRE).,1,page text inventoried,OCR unverified
+112,M,237,236,MOU ]; MONTIERENDER (haute-marne).; KGLISE (abb.).; MOULINS (allier).; MOULIS (GIRONDE).; MOUSSEY (AURE).; MOUSSON (meurtiie).; MOUTHIERS (CHARENTE).; MOUÏIER (YONNE).; MOUTIERS-SAINT-JEAN (côte-d'or).,5,page text inventoried,OCR unverified
+113,M,239,238,MUS; MOUZON (ARDENNES).; MOYENMOUTIER (vosges).; MURBACH (haut-riiin).; MUSSY-SUR-SEINE (aube).,1,page text inventoried,OCR unverified
+114,N,241,240,NAMPS-AU-VAL (somme).; NANTES (loire-inférieure).; NANTUA (AIN).; NARBONNE (aude).,6,page text inventoried,OCR unverified
+115,N,243,242,NEMOURS (seine-et-marne).; NÉRIS (allier).; NESLE (seine-et-oise).; NEUVILLER (bas-rhin).,10,page text inventoried,OCR unverified
+116,N,245,244,NE Y ]; NEUVY-SAINT-SÉPULGRE (indre).; NEUVY-SAUTOUR (yonne).; NEVERS (NIÈVRE),15,page text inventoried,OCR unverified
+117,N,247,246,NIO ]; NI CEE (ASIE mineure).; NIEDERHASLACH (bas-rhin).; NIEUIL-SUR-AUTHISE (vendée).; NIMES (GARD).; NIORT (deux-sèvres).,13,page text inventoried,OCR unverified
+118,N,249,248,NOAILLE (vienne).; NOGENT-LE-ROI (eure-et-loir).; NOGENT-LES-VIERGES (oise).; NOGENT-SUR-SEINE (aure).; XOHANT-YIG (INDRE).; NOIRLAC (cher).; NORREY (calvados).; NORROY-LE-VENEUR (moselle).,0,page text inventoried,OCR unverified
+119,N,251,250,NOY; NOTRE-DAME-DE CHAMBLY (oise).; NOTRE-DAME-DE-CLÉRY (loiret).; NOTRE-DAME-DE-LA-ROCHE (seine-et-oise).; NOTRE-DAME-DE-L'ÉPINE (marne).; NOUVION-LE-VINEUX (aisne).; NOYON (OISE).,12,page text inventoried,OCR unverified
+120,N,253,252,NUREMBERG (bavière).; NUYS (pROv. rhénane).,6,page text inventoried,OCR unverified
+121,O,255,254,OBASINE (corrèze).; OGER (marne).; OLÉRON (ciiarente-inférieure).; OLLEY (MOSELLE).; OLOROiN (basses-pyrénées).; ORANGE (vaucluse).,2,page text inventoried,OCR unverified
+122,O,257,256,OTT; ORBAIS (marne).; ORCIVAL (PIY-DE-DÔME).; ORLÉANS (LOIRET).; ORLÉANSVILLE (.vlgérie).; OTHIS (seine-et-marne).; OTTMARSHEIM (haut-rhin).,3,page text inventoried,OCR unverified
+123,O,259,258,OYK ]; OUISTHEHAiM (calvados).; OURSCAMPS (OISE).; OYRON (deux-Sèvres).,0,page text inventoried,OCR unverified
+124,P,261,260,PACY-SUR-EURE (eure).; PADOUE (ITALIE).; PALERME (SICILE).; P A LICE (la) (allier).; PARAY-LE-MONIAL (saône-et-loire).; PARIS (seine).,3,page text inventoried,OCR unverified
+125,P,263,262,,14,page text inventoried,OCR unverified
+126,P,265,264,,14,page text inventoried,OCR unverified
+127,P,267,266,,15,page text inventoried,OCR unverified
+128,P,269,268,,12,page text inventoried,OCR unverified
+129,P,271,270,PAR,21,page text inventoried,OCR unverified
+130,P,273,272,,7,page text inventoried,OCR unverified
+131,P,275,274,,14,page text inventoried,OCR unverified
+132,P,277,276,PAR,17,page text inventoried,OCR unverified
+133,P,279,278,PAR; SAINTE CHAPELLE (de Paris).; PARTIIENAY-LE-VIEUX (deux-sèvres).,11,page text inventoried,OCR unverified
+134,P,281,280,PER ]; PEN-MARG'H (Finistère).; PÉRI ERS (manche).; PÉRIGUEUX (dordogne).; PERNES (v.\ucluse).; PÉRON (côtes-du-nord).; PERPIGNAN (pyrénées-orientales).,5,page text inventoried,OCR unverified
+135,P,283,282,PERS (.weyron).; PESTIEN (côtes-du-nord).; PETERBOROUGH (Angleterre).; PFAFFENHEIM (iiaut-rhin).; PIERREFONDS (oise).,7,page text inventoried,OCR unverified
+136,P,285,284,TLE; CHATRAI] (de Picrrcfonds).; PIGNAN (Hérault).; PIPLE (le) (seine-et-oise).; PISE (ITALIE).; PLAIMPIED(cnER).; PLANÉS (PYRÉNÉES-ORIENTALES).; PLASSAC (CHARENTE).; PLESSÎS-LEZ-TOURS (indre-et-loire).,2,page text inventoried,OCR unverified
+137,P,287,286,POI; PLEYBEN (FINISTÈRE).; PLOERMEL (MORBIHAN).; PLOGASTEL-SAÏNT-GERMAIN (Finistère).; PLOMBIÈRES (côte-d'or).; POISSY (seine-et-oise).; POITIERS (vienne).,6,page text inventoried,OCR unverified
+138,P,289,288,CATIIÉDHALE (de Poitiers).; POIX (somme).,11,page text inventoried,OCR unverified
+139,P,291,290,PON ]; POLIGNAC (iiaute-loire).; POMPÉI (ITALIE).; PONDAURAT (gironde).; PONT (AISNE).; PONTAUBERT (yonne).; PONTGROIX (FINISTÈRE).; PONT-DE-L'ARCHE (eure).; PONTIGNÉ (maine-et-loire).,1,page text inventoried,OCR unverified
+140,P,293,292,PONTIGNY (YONNE).; PON TOISE (seine-et-oise).; PRAGUE (BOHÊME).; PREMERY (NIÈVRE).; PREUILLY (indre-et-loire).; PROVINS (seine-et-marne).,5,page text inventoried,OCR unverified
+141,P,295,294,PUISEAUX (LOIRET).; PUJOLS (GIRONDE).; PUYBARBAN (gironde).; PUYE (vienne).; PUY EN VELA Y (haute-loire).,10,page text inventoried,OCR unverified
+142,P,297,296,,5,page text inventoried,OCR unverified
+143,Q,299,298,QUERQUEVILLE (manche).; QUILLEBŒUF (eure).; QUIMPER (FINISTÈRE).; QUIMPERLÉ (FINISTÈRE),0,page text inventoried,OCR unverified
+144,R,301,300,RAMBERCOURT-ALiX-POTS (meuse).; RAMPILLON (SEINE-ET-MARNE).; REDON (ille-et-vilaine).; REIMS.,7,page text inventoried,OCR unverified
+145,R,303,302,,24,page text inventoried,OCR unverified
+146,R,305,304,,18,page text inventoried,OCR unverified
+147,R,307,306,RIGHEMONT (Charente).; RIEUX (marne).; RIEUX-MINERVOIS (âude).; RIOM (puy-de-dome).; RIOTORD (haute-loire); RIOUX-MARTIN (Charente).; RIVIÈRE (indre-et-loire).; ROC (MAYENNE).,1,page text inventoried,OCR unverified
+148,R,309,308,ROM; ROCHEGHOUART (haute-vienne).; RODEZ (aveyron).; ROMANS (drôme).; ROME (ITALIE).,5,page text inventoried,OCR unverified
+149,R,311,310,"ROMORANTIN (loir-et-ciier).; ROSHEIM (bâs-riiin).; ROSNAY (aube),; ROUEN (seine-inférieure)",13,page text inventoried,OCR unverified
+150,R,313,312,,11,page text inventoried,OCR unverified
+151,R,315,314,CATHÉDRALI:] (de Rouen).; ROUFFACH (haut-rhin).; ROUGEMONT (côte-d'or).,8,page text inventoried,OCR unverified
+152,R,317,316,ROULLET (CHARENTE).; ROUVRES (côte-d'or).; ROYAT (PUY-DE-DÔME).; ROYAUMONT (seine-et-oise).; RUE (OISE).; RUE (somme).; RUE IL (seine~et-oise).; RUFFEG (cii.vrente).,1,page text inventoried,OCR unverified
+153,R,319,318,"RUMILLY-LEZ-YAUDES (aube),; RYE S (CALV.\DOS).",1,page text inventoried,OCR unverified
+154,S,321,320,SAINT-AIGNAN (loir-et-cher).; SAINT-ALBAN (Angleterre).; SAINT-ALLYRE (puy-de-dôme).; SAINT-AMAND (marne).; SAINT-AMAND DE BOISSE (Charente).; SAINT-ANÔRÉ DE BAGÉ (ain).,0,page text inventoried,OCR unverified
+155,S,323,322,SAINT-ANGEL (corrèze).; SAINT-ANTOINE (isère).; SAINT-ANTONIN (tarn-et-garonne).; SAINT-AVENTIN (iiaute-garonne).; SAINT-AVIT-SÉNIEUR (dordogne).; SAINT-BENOIT-SUR-LOIRE (loiret).,4,page text inventoried,OCR unverified
+156,S,325,324,ÉGLISt: (abb.) (de St-Benoît-sur-Loirc).; SAINT-BERTIN (pas-de calais).; AINT-EERTRAND DE GOMMINGES (haute-Garonne).; SAINT-BRIEUC (côtes-du-nord).; SAINT-BRISSON (loiret).; SAINT-CALAIS (sarthe).; SAINT-CÉSAIRE (bouches-du-rhône).; SAhNT CHEF (lsère).,0,page text inventoried,OCR unverified
+157,S,327,326,SAINT-CHRISTOPHE LE JÂJOLET (orne).; SAINT-CIERS LA LANDE (gironde).; SAINT-CLAUDE (jura).; SAINT-CONTEST (calvados).; SAINT-CYPRIEN (dordogne).; SAINT-CYR (seine-et-marne).; SAINT-CYR LA ROCHE (corrèze).; SAINT-DENIS (seine).,1,page text inventoried,OCR unverified
+158,S,329,328,ÉGLISt; (abb.) (de Saint-Denis).; XIII- ....,12,page text inventoried,OCR unverified
+159,S,331,330,SAINT-DENIS DE PILES (gironde).; SAINT-DIDIER LA SEAUVE (haute-loire).; SAINT-DIÉ (VOSGES).,13,page text inventoried,OCR unverified
+160,S,333,332,SAINT-DIZIER (haute-marne).; SAINT-ÉMILION (gironde).; SAIlNTE-ENGRAGE (basses-pyrénées).; SAINTE-EULALIE D'AMBARÈS (gironde).; SAINT-FARGEAU (yonne).; É SAINT-FERME (gironde).; SAINT-FLORENTIN (yonne).; SAINTE-FOY (gironde).,4,page text inventoried,OCR unverified
+161,S,335,334,SAINT-GABRIEL (bouches-du-rhône).; SAINT-GABRIEL (calvados).; SAINT-GALL (suisse).; SAINT-GAUDENS (iiaute-garonne).; SAINTE -GEMME (charente-inférieure).; SAINT-GÉNÉROUX (deux-sèvres).; SAINT-GENOU (indre).; SAINT-GEORGES-CHATELAISON (maine-et-loire).; SAINT- GERMA IN (saône-et-loire).,3,page text inventoried,OCR unverified
+162,S,337,336,SAINT-GERMAIN EN LAYE (seine-et-oise).; SAINT-GERMER (oise).; S AINTE-GERTRUD E (seine-inférieure).; SAINT-GILDAS DE RHUIS (morbihan).; SAINT-GILDAS DES BOIS (loire-inférieure).,12,page text inventoried,OCR unverified
+163,S,339,338,"SAINT-GILLES (aube).; SAINT-GILLES (gârd).; SAINT-GONSTAN (loire-inférieure).; SAINT-GUILHEM LE DÉSERT (Hérault).; SAINT-HILAIRE LA CROIX (puy-de-dÙme),; SAINT-HONORAT (île de lérins).; SAINT-JACQUES (seine-inférieure).; SAINT-JEAN-AUX-BOIS (dise).",5,page text inventoried,OCR unverified
+164,S,341,340,SAINT JEAN DE COLE (dordogne).; SAINT-JEAN DES CHOUX (bas-p.iiin).; SAINT-JEAN DU DOIGT (Finistère).; SAINT JEAN LES BONSHOMMES (yonne).; SAINT-JULIEN DE ROYAUGOURT (aisne).; SAINT-JULIEN DU SAULT (yonne).; SAINT-JUNIEN (haute-vienne).,2,page text inventoried,OCR unverified
+165,S,343,342,SAINT-LAURENT (calvados).; SAINT- LÉONARD (haute-vienne).; SAINT-LEU D'ESSERENT (oise).; SAINT-LO (manche).; SAINT-LOUP DE NAUD (seine-et-marne).,10,page text inventoried,OCR unverified
+166,S,345,344,"SAINT-LUC (EURE).; SAINT-MACAIRE (gironde).; SAINT-MAIXENT (deux-sèvres).; SAINT-MARCEL (saône-et-loire).; SAINT-MARCEL DE SAUZET (drôme).; SAINTE-MARIE-AUX-ANGLAIS (calvados),; SAINTE MARIE DU MONT (manche).; SAINTES-MARIES (bouciies-du-rhône).; SAINT-MARTIN-AUX-ROIS (oise).",2,page text inventoried,OCR unverified
+167,S,347,346,SAINT-MARTIN-AU-VAL.; SAINT-MARTIN D'ARDENTAL (indre).; SAINT-MARTIN DU CANIGOU (pyrénées-orientales).; SAINT-MARTIN-VALMEROUX (cantal).; SAINT-MAUR (seine).; SAINT-MAUR-DES-FOSSÉS (seine).; SAINT-MAXIMIN (var).; SAINT-MÉDARD EN JALLE (gironde).; SAINT-MENOUX (allier).,1,page text inventoried,OCR unverified
+168,S,349,348,ÉGLISK (de Saint-Menoux).; SAINTE-MÈRE (manche).; SAINT-MESMIN (loiret).; SAINT-MICHEL (aisne).; SAINT-MICHEL (gironde).; SAINT-MICHEL D'ENTRAGUES (Charente).; SAINT-MICHEL DE eux A (pyrénées-orientales).; SAINT-NECTAIRE (puy-de-dôme).; SAINT-NICOLAS DU PORT (meurthe).,7,page text inventoried,OCR unverified
+169,S,351,350,SAINT-ODILE (bas-riiin).; SAINT-OMER (pas-de-calais).; SAINT-PALAIS (gîronde).; SAINT-PAPOUL (AFDE).; SAINT-PARGOIRE (Hérault).; SAINT-PARIZE-LE-CHATEL (nièvre).; SAINT-PAUL DE CLERMONT (Hérault).,5,page text inventoried,OCR unverified
+170,S,353,352,SAI; SAINT-PAUL DE VARAX (ain).; SAINT-PAUL LEZ-DAX (landes).; SAINT-PAUL-T ROIS-CHATEAUX (drôme).; SAINT-PAULIEN (hâute-loire).; SAINT PÈRE-SOUS-VÉZELAY (yonne).; SAINT-PIERRE DE PETIT-PALAIS (gironde).; SAINT-PIERRE DE ROYE (somme).,6,page text inventoried,OCR unverified
+171,S,355,354,SAI ]; SAINT-PIERRE LES ÉTIEUX (cher).; SAINT-PIERRE- SUR-DIVES (calvados).; SAINT-POL DE LÉON (Finistère).; SAINT-PONS (Hérault).; SAINT-POURÇAIN (allier).; SAINT-PRIVAT (dordogne).; SAINT-QUENTIN (aisne).; SAINT-REMI L'ABBAYE (oise).,2,page text inventoried,OCR unverified
+172,S,357,356,SAINT-RESTITUT (drôme).; SAINT-RÉVÉRIEN (nièvre).; SAINT-RIQUÏER (somme).; SAINT-ROBERT (corrèze).; SAINTE. SABINE (gôte-d'or).; SAINT-SATUR (cher).; SAINT-SATURNIN (puy-de-dôme).; SAINT-SAULGE (nièvre).; SAINT-SAUVEUR-LE- VICOMTE (manche).,2,page text inventoried,OCR unverified
+173,S,359,358,SAINT-SAVIN (vienne).; SAINT-SAVOURIN DU PORT (rhône).; SAINT-SEINE (côte-d'or).; SAINT-SULPICE DE FAVIÈRES (seine-et-oise).; SAINT- THÉODARD (tarn-et-garonne).; SAINT-THIBAULT (côte-d'or).,8,page text inventoried,OCR unverified
+174,S,361,360,SAINT-TIIOUVEIL (maine-et-loiiœ).; SAINT-VAUXBOURG (ardennes).; SAINT-VICTOR (seine-inférieure).; SAINT-VIGOR (calvados).; SAINT-VIVIEN (GIRONDE).; SAINT-WANDRILLE (seine-inférieure).; SAINTES (charente-inférieure).,2,page text inventoried,OCR unverified
+175,S,363,362,SALCES (PYRÉNÉES-ORIENTALES).; SALIGNAG (dordogne).; SALINS (jura).; SALISBURY (ANGLETERRE).; SALLES (RHÔNE).; SALON (rouches-du-rhône).; SARLAT (dordogne).,3,page text inventoried,OCR unverified
+176,S,365,364,SASSY (calvados).; SAUGUES (HAUTE-LOIRE).; SAULIEU (côte-d'or).; SAUMANES (vaugluse).; SAUMUR (maine-et-loire).; SAUVE (GIRONDE).,8,page text inventoried,OCR unverified
+177,S,367,366,SAIJVETERRE (gironde).; SAVENNIÈRES (maine-et-loire).; SAVIGNY EN TERRE-PLEINE (yonne).; SCHAFFHAUSEN (suisse).; SCHELESTADT (BAS-RHIN).; SECQUEVILLE (calvados).; SEDIÈRES (corrèze).,1,page text inventoried,OCR unverified
+178,S,369,368,SEL; SÉEZ (orne).; SEGONZAC (CHARENTE).; SELLES-SAINT-DENIS (loir-et-cher).; SELLES-SUR-CHER (loir-et-cher).,13,page text inventoried,OCR unverified
+179,S,371,370,SEM ]; SEMUR EN AUXOIS (côte-d'or).; SEMUR EN BRIONNAIS (saône-et-loire).,13,page text inventoried,OCR unverified
+180,S,373,372,SÉNANQUE (VAUCLUSE).; SENEZ (basses-alpes).; SENLIS (OISE).; SENNEGEY-LE-GRAND (saône-et-loire).; SENS (YONNE).,10,page text inventoried,OCR unverified
+181,S,375,374,,14,page text inventoried,OCR unverified
+182,S,377,376,SALLE SYNODALE (de Sens).; SEPT-FONTAINES (doubs).; SERQUIGNY (eure).; SERRABONE (pyrénées-orientales).; SEYNE (rasses- ALPES).; SIENNE (ITALIE).; SIGOLSHEIM (HAUT-RHIN).,8,page text inventoried,OCR unverified
+183,S,379,378,SOI; SILVACANE (bouches-du-rhône).; SIMORRE (GERS).; SISTERON (BASSES-ALPES).; SIXFOURS (VAR).; SOISSONS (AISNE).,11,page text inventoried,OCR unverified
+184,S,381,380,"SOM; SOLESMES (SARTHE).; SOLEURE (suisse).; SOLIGNAC (haute-vienne).; SOLLIÉS-VILLE (var).; SOLRE-LE-CHATEAU (nord),; SOMMERY (marne).",7,page text inventoried,OCR unverified
+185,S,383,382,SPI ]; SORDES (landes).; SOUILLAC (lot).; SOUTH AMPTON (Angleterre).; SOUVIGNY (allier).; SOUVIGNY (YONNE).; SPESBOURG (bas-rhin).; SPIRE (Allemagne).,3,page text inventoried,OCR unverified
+186,S,385,384,STRASBOURG (bas-riiin).; SUÈVRES (LOIR-ET-CHER).,5,page text inventoried,OCR unverified
+187,S,387,386,SUFFOLK (ANGLETERRE).; SULLY-SUR-LOIRE (loiret).; SURESNES (seine).; SURGÈRES (CHARENTE).,3,page text inventoried,OCR unverified
+188,T,389,388,TANLAY (YONNE).; TANNAY (NIÈVRE).; TARASCON (bouches-du-rhône).; TAYERNY (seine-et-oise).; THANN (HAUT-RHIN).; THAON (calvados).,0,page text inventoried,OCR unverified
+189,T,391,390,THÉZAC (CHARENTE-INFÉRIEURE).; THIERS (PUY-DE-DÔME).; THIL-CHATEL (côte-d'or).; THINES (ardèche).; THIVERVAL (seine-et-oise).; THOR (vaucluse).; THORONET (var).; THOUARS (deux-sèvres).,2,page text inventoried,OCR unverified
+190,T,393,392,TOU ]; TIIOUREIL (MAINE-ET-LOIRE).; THURET (PUY-DE-DÔME).; TILLOLOY (somme).; TOKLÉ (SYRIE).; TONNERRE (yonne).; TORSAC (CHARENTE).; TORTOIR (le) (aisne).; TOUL (meurtre).,2,page text inventoried,OCR unverified
+191,T,395,394,TOULON (ALLIER).; TOULOUSE (HAUTE-GARONNE).,16,page text inventoried,OCR unverified
+192,T,397,396,TOU; TOUQUES (calvados).; TOUR (CALVADOS).; TOURNAT (BELGIQUE).,14,page text inventoried,OCR unverified
+193,T,399,398,TOURNUS (SAÔNE-ET-LOIRE).; TOURS (indre-et-loire).; TOURY (LOIRET).; TOUSSAINTS (marne).; TRAC Y-LE -VAL (oise).,7,page text inventoried,OCR unverified
+194,T,401,400,TRÉGUIER (côtes-du-nord).; TRÉMOLAC (dordogne).; TRÉPORT (seine-inférieure).; TRÊVES (ALLEMAGNE).; TRI EL (se[ne-et-oise).; TROARN (calvados).; TROIS-FOiNTAINES (iiâute-marne).; TROO (loir-et-ciier).; TROYES (aube).,3,page text inventoried,OCR unverified
+195,T,403,402,TRO,21,page text inventoried,OCR unverified
+196,T,405,404,TRU; TRUMILLY (OISE).,11,page text inventoried,OCR unverified
+197,T,407,406,TRYE-CHATEAU(oiSE).; TULLE (corrèze).; TYR (SYRIE).,0,page text inventoried,OCR unverified
+198,U,409,408,UNAC (ariége).; USSÉ (indue-et-loire).; USSEL (corrèze).; UZERCHE (corrèze).; UZESTE (GIRONDE).,0,page text inventoried,OCR unverified
+199,V,411,410,VACQUERESSE (aisne).; VAISON (vaucluse).; VAL (OISE).; VALGABRÈRE (haute-garonne).; VALENCE (drôme).; VALENCIENNES (nord).; VALLEMAGNE (hérault).,0,page text inventoried,OCR unverified
+200,V,413,412,VALLIQUERVILLE (seine-inférieure).; VALOGNES (manche).; VAL RÉ A S (vaucluse).; VAREN (tarn-et-garonne).; VARZY (NIÈVRE).; VASSY (haute-marne).; VAUCE (ALLIER).; VAUCELLES (nord).; VAUCLUSE (VAUCLUSE).,1,page text inventoried,OCR unverified
+201,V,415,414,VAUDREUIL (EURE).; VAUX (seine-et-marne).; VAUX-DE- CERNAY (seine-et-oise).; VENASQUE (vâucluse).; VENGE (var).; VENDOME (loir-et-cher).; VENERQUE (haute-garonne).; VENISE (ITALIE).,0,page text inventoried,OCR unverified
+202,V,417,416,VER (OISE).; VERBERIE (OISE).; VERDUN (MEUSE).; VERGER.; VERMANTON (yonne).; VERNEUIL (EurE-ET-LOiR).,6,page text inventoried,OCR unverified
+203,V,419,418,"YÉRONE (ITALIE).; VERPEL (ardennes).; VERRINES-SOUS-CELLES (deux-sèvres),; VERSAILLES (seine-et-oise).; VERTEUIL (GIRONDE); VERTUS (marne).; VÉTHEUIL (seine-et-oise).",2,page text inventoried,OCR unverified
+204,V,421,420,VEULES (seine-inférieure).; YEZ PRES MORIENVAL (oise).; VÉZELAY (YONNE).,12,page text inventoried,OCR unverified
+205,V,423,422,,22,page text inventoried,OCR unverified
+206,V,425,424,YICQ (allier).; VIENNE (ISÈRE).; VIERVILLE (CALVADOS).; VIEUX-PONT EN AUGE (calvados).; VIGNORY (haute-marne).; VILLANDRAUT (gironde).,5,page text inventoried,OCR unverified
+207,V,427,426,VILLARS-SAINT-MARCELLIN (iiaute-marne).; VILLEDIEU (cantal).; VILLEFRANCHE (aveyron).; VILLEFRANCHE (pyrénées-orientales).; VILLEFRANCHE (riiône).; VILLENAUXE (aube).; VILLENEUVE (gironde).; VILLENEUVE (loire-inférieure).; VILLENEUVE-L'ARCHEVÊQUE (yonne).,1,page text inventoried,OCR unverified
+208,V,429,428,VIL; VILLENEUVE-LE-COMTE (seine-et-marne).; VILLENEUVE-LE-ROI (yonne).; VILLENEUVE-LEZ-AVIGNON (gârd).; VILLENEUVE-LEZ-MAGUELONNE (hérault).; VILLERS-SAINT-PAUL (oise).,3,page text inventoried,OCR unverified
+209,V,431,430,VINCENNES (seine).; VIRE (calvados).; VISMES (somme).; VITRÉ (aube).; VITRÉ (ille-et-vilaine).; VITRY (seine).,3,page text inventoried,OCR unverified
+210,V,433,432,YOU; VITTEAUX (côte-d'or).; VOLVIC (PUY-DE-DÔME).; VOUILLY (calvados).; VOULTON (seine-et-marne).; VOUVANT (VENDÉE).; VOUZIERS (ARDENNES).,1,page text inventoried,OCR unverified
+211,W,435,434,WALBOURG (bas-rhin).; WESTMINSTER (Angleterre).; WINCHESTER (Angleterre).; WINDSOR (ANGLETERRE).; WORMS (ALLEMAGNE).,6,page text inventoried,OCR unverified
+212,W,437,436,,1,page text inventoried,OCR unverified
+213,X,439,438,XAINTRAILLES (lot-et-garonne).,0,page text inventoried,OCR unverified
+214,Y,441,440,YAINVILLE (seine-inférieure).; YDES (cantal).; YÈVRE-LE-CHATEL (loiret).,0,page text inventoried,OCR unverified

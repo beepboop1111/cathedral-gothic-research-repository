@@ -1,0 +1,8 @@
+name,ring_scale,rotation_degrees,mean_center_deviation_px,max_center_deviation_px,mean_radius_deviation_px,status
+U_top_L,0.991101738915115,0.0,1.0386459741067402,1.36493838416351,0.2794712962851733,measured_transfer_test_not_historical_identity
+U_top_R,0.9906144912255478,0.0,1.138118983940758,2.445983590980784,0.28571999367832035,measured_transfer_test_not_historical_identity
+U_middle_L,1.0,0.0,0.0,0.0,0.0,measured_transfer_test_not_historical_identity
+U_middle_C,1.0622239262578579,-90.0,5.767262956651141,7.161047757743858,2.4611104352289224,measured_transfer_test_not_historical_identity
+U_middle_R,0.9990334922879075,0.0,0.9546745293867108,2.119327685649856,0.16911196511454799,measured_transfer_test_not_historical_identity
+U_bottom_L,0.9982666762518672,0.0,0.7799055715768266,1.3813540581172667,0.14388982313812448,measured_transfer_test_not_historical_identity
+U_bottom_R,0.9985142939301719,0.0,0.9371177407240978,1.6923001882927617,0.18931140509451438,measured_transfer_test_not_historical_identity

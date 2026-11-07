@@ -1,0 +1,32 @@
+[
+  {
+    "file": "plate_1193_1198.png",
+    "original_filename": "36679a41-88c0-4ffb-86d1-f67f37f4e15f.png",
+    "bytes": 1458530,
+    "sha256": "e7f22327f13a800508689eb09dfc1712a703edfcfba3fcbe107efd78e693b671"
+  },
+  {
+    "file": "trefoil_quatrefoil.png",
+    "original_filename": "ef09a61b-5456-4996-8689-34bcd1af38bb.png",
+    "bytes": 1715962,
+    "sha256": "ec420ac5329d721ad2ceab2aa6b327f06fe82c8302086f00b9b06c02b530dd6e"
+  },
+  {
+    "file": "trefoil_quatrefoil_duplicate.png",
+    "original_filename": "ef09a61b-5456-4996-8689-34bcd1af38bb(1).png",
+    "bytes": 1715962,
+    "sha256": "ec420ac5329d721ad2ceab2aa6b327f06fe82c8302086f00b9b06c02b530dd6e"
+  },
+  {
+    "file": "figure_1236_study.png",
+    "original_filename": "927d96a3-dacb-4552-95cd-375a833d6095.png",
+    "bytes": 2150488,
+    "sha256": "92aef9b1839aee5e32f299a9fbf9cbb44fdead8fbc7b7c6bb0d556e7596d5e69"
+  },
+  {
+    "file": "four_circle_construction.png",
+    "original_filename": "image.png",
+    "bytes": 880787,
+    "sha256": "0a8a7624c34e4baad41b3aac8ffe356c938744223de8732630cfb4a5fa583361"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "case": "LAST_UPLOADED_FOUR_CIRCLE",
+  "priority": "HIGH",
+  "geometry_status": "provisional nominal circle construction from displayed screenshot, not independent pixel fit",
+  "centers_source_px": {
+    "K": [
+      407.5,
+      348.5
+    ],
+    "I": [
+      717.5,
+      348.5
+    ],
+    "H": [
+      407.5,
+      658.5
+    ],
+    "J": [
+      717.5,
+      658.5
+    ]
+  },
+  "main_center_source_px": [
+    562.5,
+    503.5
+  ],
+  "nominal_lobe_radius_px": 155.0,
+  "nominal_outer_radius_px": 375.0,
+  "center_square_side_lengths_px": [
+    310.0,
+    310.0,
+    310.0,
+    310.0
+  ],
+  "center_square_side_length_max_spread_px": 0.0,
+  "intersections_between_adjacent_lobes": [
+    {
+      "circles": [
+        "K",
+        "I"
+      ],
+      "point": [
+        562.5,
+        348.5
+      ]
+    },
+    {
+      "circles": [
+        "I",
+        "J"
+      ],
+      "point": [
+        717.5,
+        503.5
+      ]
+    },
+    {
+      "circles": [
+        "J",
+        "H"
+      ],
+      "point": [
+        562.5,
+        658.5
+      ]
+    },
+    {
+      "circles": [
+        "H",
+        "K"
+      ],
+      "point": [
+        407.5,
+        503.5
+      ]
+    }
+  ],
+  "center_to_outer_circle_diagonal_point_distance_px": 375.4763641029885,
+  "outer_circle_nominal_difference_at_upper_left_diagonal_px": 0.47636410298849796,
+  "two_circle_tangency_predicted": true,
+  "angle_degrees": 90,
+  "scale": "source screenshot pixels only",
+  "not_verified": "Outermost and four lobe circles need systematic fitting to source pixels before historical claims; analytical construction is a controlled hypothesis."
+}

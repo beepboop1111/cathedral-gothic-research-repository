@@ -1,0 +1,69 @@
+[
+  {
+    "tool": "pages_grayscale.py",
+    "args": [
+      "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/inputs",
+      "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/grayscale"
+    ],
+    "returncode": 0,
+    "stdout": "1205b.png -> 1205b.png  (675x678)\n\n1/1 pages converted into /workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/grayscale\n",
+    "stderr": ""
+  },
+  {
+    "tool": "pages_bw.py",
+    "args": [
+      "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/grayscale",
+      "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/bw155",
+      "--threshold",
+      "155"
+    ],
+    "returncode": 0,
+    "stdout": "[1/1] 1205b.png -> 1205b.png\n\nDone. 1 written to /workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/bw155\n",
+    "stderr": ""
+  },
+  {
+    "tool": "pages_bw.py",
+    "args": [
+      "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/grayscale",
+      "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/bw180",
+      "--threshold",
+      "180"
+    ],
+    "returncode": 0,
+    "stdout": "[1/1] 1205b.png -> 1205b.png\n\nDone. 1 written to /workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/bw180\n",
+    "stderr": ""
+  },
+  {
+    "tool": "pages_bw.py",
+    "args": [
+      "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/grayscale",
+      "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/adaptive",
+      "--local",
+      "--radius",
+      "24",
+      "--offset",
+      "10"
+    ],
+    "returncode": 0,
+    "stdout": "[1/1] 1205b.png -> 1205b.png\n\nDone. 1 written to /workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/adaptive\n",
+    "stderr": ""
+  },
+  {
+    "tool": "fill_hatching.py",
+    "args": [
+      "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/bw155",
+      "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/hatch_diagnostic",
+      "--length",
+      "3",
+      "--angle",
+      "45",
+      "--no-fill",
+      "--min-area",
+      "0",
+      "--report"
+    ],
+    "returncode": 0,
+    "stdout": "[1/1] 1205b.png -> 1205b.png  (hatch 45 deg, span 3px)\n\nDone. 1 written to /workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/hatch_diagnostic\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,188 @@
+{
+  "source_filename": "lehrbuchdergotis02unge_0283(1).png",
+  "original_sha256": "76c5faf25f29cfbe151eaf2b21c721b21d4e21536b12510ff13585336fb5fd69",
+  "original_dimensions": [
+    2048,
+    1414
+  ],
+  "method": "threshold 190; connected component dust threshold 3-5 pixels; cv2 findContours RETR_TREE; approxPolyDP 0.37 px; fill-rule evenodd",
+  "figures": [
+    {
+      "file": "PLATE_CXVIII_FULL_SCAN_VECTOR.svg",
+      "image_box_original_pixels": [
+        0,
+        0,
+        2048,
+        1414
+      ],
+      "contour_count": 1097,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1203_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        255,
+        174,
+        585,
+        493
+      ],
+      "contour_count": 37,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1204_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        680,
+        185,
+        980,
+        510
+      ],
+      "contour_count": 69,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1204a_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        1051,
+        188,
+        1346,
+        485
+      ],
+      "contour_count": 39,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1205_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        1340,
+        175,
+        1680,
+        510
+      ],
+      "contour_count": 43,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1206_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        160,
+        514,
+        485,
+        845
+      ],
+      "contour_count": 103,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1207_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        467,
+        475,
+        831,
+        857
+      ],
+      "contour_count": 82,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1207a_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        819,
+        475,
+        1172,
+        852
+      ],
+      "contour_count": 113,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1207b_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        1150,
+        483,
+        1513,
+        855
+      ],
+      "contour_count": 70,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1207c_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        1480,
+        488,
+        1870,
+        856
+      ],
+      "contour_count": 47,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1208_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        127,
+        858,
+        510,
+        1265
+      ],
+      "contour_count": 103,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1210_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        537,
+        930,
+        729,
+        1185
+      ],
+      "contour_count": 61,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1211_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        729,
+        913,
+        995,
+        1195
+      ],
+      "contour_count": 66,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1212_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        1010,
+        921,
+        1244,
+        1202
+      ],
+      "contour_count": 80,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1212a_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        1235,
+        914,
+        1466,
+        1214
+      ],
+      "contour_count": 31,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    },
+    {
+      "file": "FIG_1209_SCAN_TRACE.svg",
+      "image_box_original_pixels": [
+        1450,
+        850,
+        1900,
+        1270
+      ],
+      "contour_count": 187,
+      "status": "scan-derived vector silhouettes; not compass-certified"
+    }
+  ],
+  "interpretation_warning": "All black tracings are scan-derived, not validated analytic circular arcs. Dashed red lines mark hypotheses; circles are rough reference candidates pending fitting. Measured units are pixels only. No historical geometry or project baseline modified."
+}

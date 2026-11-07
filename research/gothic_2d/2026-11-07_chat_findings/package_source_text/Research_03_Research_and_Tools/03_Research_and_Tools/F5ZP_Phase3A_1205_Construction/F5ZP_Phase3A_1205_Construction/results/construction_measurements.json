@@ -1,0 +1,189 @@
+{
+  "coordinates": {
+    "units": "144-DPI reference crop pixels",
+    "origin": "center of original crop top-left pixel, index (0,0)",
+    "x": "right",
+    "y": "down",
+    "angles": "degrees, clockwise from +X",
+    "higher_resolution_coordinates": "crop_px=(high_resolution_pixel_index-1)/3; pixel-center registration",
+    "page_transform": "page_px=crop_px+(114,239)",
+    "physical_scale": "unknown; no architectural dimensions"
+  },
+  "outer_reference": {
+    "center": [
+      109.21742236738913,
+      111.23955699522183
+    ],
+    "radius": 93.51694870364518,
+    "status": "inherited conditional local reference, not refit"
+  },
+  "models": {
+    "upper": {
+      "d_px": 50.66214666795471,
+      "r_px": 42.854802035690476,
+      "d_over_R": 0.5417429393307392,
+      "r_over_R": 0.45825706066926075,
+      "sample_count": 167,
+      "rms_px": 0.6606055289604411,
+      "scope": [
+        "N",
+        "E_upper",
+        "W_upper"
+      ],
+      "per_arc_rms_px": {
+        "N": 0.7979665444230226,
+        "E_upper": 0.5940468864740757,
+        "W_upper": 0.312446045542563
+      },
+      "centers": {
+        "N": [
+          109.21742236738913,
+          60.577410327267124
+        ],
+        "E_upper": [
+          159.87956903534385,
+          111.23955699522183
+        ],
+        "W_upper": [
+          58.555275699434425,
+          111.23955699522183
+        ]
+      },
+      "status": "exact_family_construction_with_measured_parameter_not_author_prescribed_ratio"
+    },
+    "lower": {
+      "d_px": 57.0418910466849,
+      "r_px": 36.47505765696028,
+      "d_over_R": 0.6099631332866774,
+      "r_over_R": 0.3900368667133226,
+      "sample_count": 210,
+      "rms_px": 0.7792708688354772,
+      "scope": [
+        "S",
+        "E_lower",
+        "W_lower"
+      ],
+      "per_arc_rms_px": {
+        "S": 0.7311757809091073,
+        "E_lower": 0.8541136617189324,
+        "W_lower": 0.7933805573375079
+      },
+      "centers": {
+        "S": [
+          109.21742236738913,
+          168.28144804190674
+        ],
+        "E_lower": [
+          166.25931341407403,
+          111.23955699522183
+        ],
+        "W_lower": [
+          52.17553132070423,
+          111.23955699522183
+        ]
+      },
+      "status": "exact_family_construction_with_measured_parameter_not_author_prescribed_ratio"
+    },
+    "single_all": {
+      "d_px": 55.26757584022941,
+      "r_px": 38.24937286341577,
+      "d_over_R": 0.5909899393250322,
+      "r_over_R": 0.4090100606749678,
+      "sample_count": 377,
+      "rms_px": 2.1209136856737403,
+      "scope": [
+        "N",
+        "E_upper",
+        "E_lower",
+        "S",
+        "W_lower",
+        "W_upper"
+      ],
+      "per_arc_rms_px": {
+        "N": 2.835216389395631,
+        "E_upper": 2.177139667085412,
+        "E_lower": 1.212000681728213,
+        "S": 1.8340830019582657,
+        "W_lower": 1.6215896215959205,
+        "W_upper": 2.4530854129022166
+      },
+      "centers": {
+        "N": [
+          109.21742236738913,
+          55.97198115499242
+        ],
+        "E_upper": [
+          164.48499820761856,
+          111.23955699522183
+        ],
+        "E_lower": [
+          164.48499820761856,
+          111.23955699522183
+        ],
+        "S": [
+          109.21742236738913,
+          166.50713283545124
+        ],
+        "W_lower": [
+          53.94984652715972,
+          111.23955699522183
+        ],
+        "W_upper": [
+          53.94984652715972,
+          111.23955699522183
+        ]
+      },
+      "status": "exact_family_construction_with_measured_parameter_not_author_prescribed_ratio"
+    }
+  },
+  "same_retained_samples_comparison": {
+    "n": 377,
+    "free_six_circle_rms_px": 0.151033938145135,
+    "two_parameter_exact_family_rms_px": 0.7290922962288271,
+    "single_parameter_exact_family_rms_px": 2.1209136856737403
+  },
+  "critical_tangency": {
+    "d_px": 54.78096023884631,
+    "r_px": 38.73598846479887,
+    "d_over_R": 0.5857864376269049,
+    "r_over_R": 0.41421356237309515,
+    "status": "mathematical_transition_candidate_for_mark_c_not_textually_identified"
+  },
+  "mark_positions": {
+    "a": {
+      "approx_x_px": 44,
+      "uncertainty_px": 1.5
+    },
+    "c": {
+      "approx_x_px": 53,
+      "uncertainty_px": 1.5
+    },
+    "b": {
+      "approx_x_px": 64,
+      "uncertainty_px": 1.5
+    }
+  },
+  "critical_predicted_west_center_x": 54.43646212854282,
+  "analytic_checks": {
+    "upper": {
+      "outer_internal_tangency_error_px": 0.0,
+      "adjacent_circle_gap_px": -14.062509154624493,
+      "relation": "intersect",
+      "NE_outward_intersection": [
+        151.179904316026,
+        69.27707504658494
+      ],
+      "circle_equation_error_px": 2.1316282072803006e-14
+    },
+    "lower": {
+      "outer_internal_tangency_error_px": 0.0,
+      "adjacent_circle_gap_px": 7.719300627709657,
+      "relation": "separate"
+    },
+    "single_all": {
+      "outer_internal_tangency_error_px": 0.0,
+      "adjacent_circle_gap_px": 1.6614095859044937,
+      "relation": "separate"
+    }
+  }
+}

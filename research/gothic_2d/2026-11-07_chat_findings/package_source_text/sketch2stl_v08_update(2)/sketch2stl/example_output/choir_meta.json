@@ -1,0 +1,38 @@
+{
+ "schema": "gothic.plate.v08",
+ "tool": "plan2stl",
+ "time": "2026-11-04 00:23",
+ "source": "/home/claude/work/plan_p194.png",
+ "sha256": "d94a96c9076dccae0befc96562440f6055d031f604cd65014e2bdadc29ca424c",
+ "crop_px": [
+  180,
+  1190,
+  1385,
+  3000
+ ],
+ "analyzed_size_px": [
+  1205,
+  1810
+ ],
+ "units": "blocks",
+ "width": 93.0500196591938,
+ "calibration": {
+  "p0": [
+   357.0,
+   1920.0
+  ],
+  "p1": [
+   358.0,
+   2438.0
+  ],
+  "real_length": 40.0,
+  "unit": "blocks",
+  "units_per_pixel": 0.07721993332713178
+ },
+ "historical_scale_verified": true,
+ "note": "Scale measured by the user (--calibrate).",
+ "output": "/home/claude/work/out/choir.stl",
+ "triangles": 116520,
+ "method": "vector",
+ "command": "plan2stl.py plan_p194.png --crop 180 1190 1385 3000 --calibrate 357 1920 358 2438 40 --unit blocks --pier-height 60 --line-width 2.5 --rib-depth 4 --rib-profile test_rib_section.png --piers-json --svg --dxf --preview -o out/choir.stl"
+}

@@ -1,0 +1,9 @@
+contour,center_x_px,center_y_px,radius_px,sample_rmse_px,n_samples,interpretation
+inner_top,173.61097,88.58791,41.70285,0.1862,90,fitted_to_selected_historical_ink_not_verified_compass_intent
+inner_right,225.41438,141.92459,41.33615,0.19065,79,fitted_to_selected_historical_ink_not_verified_compass_intent
+inner_bottom,171.9016,194.1962,41.55018,0.18528,83,fitted_to_selected_historical_ink_not_verified_compass_intent
+inner_left,120.01189,140.27254,41.28143,0.16625,79,fitted_to_selected_historical_ink_not_verified_compass_intent
+outer_top,173.5099,88.66662,49.94729,0.19882,86,fitted_to_selected_historical_ink_not_verified_compass_intent
+outer_right,225.44118,141.85669,49.42122,0.19838,79,fitted_to_selected_historical_ink_not_verified_compass_intent
+outer_bottom,171.9543,194.53308,49.56301,0.19943,82,fitted_to_selected_historical_ink_not_verified_compass_intent
+outer_left,120.18412,140.27611,49.53411,0.17942,79,fitted_to_selected_historical_ink_not_verified_compass_intent

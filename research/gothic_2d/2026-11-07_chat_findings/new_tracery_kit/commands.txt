@@ -1,0 +1,19 @@
+Tracery scripts - how each window was made
+(run inside this folder; needs: sudo apt install python3-numpy python3-scipy python3-pil python3-skimage)
+
+python3 tracery_regions.py haina_1265_v4.png --mirror --stone 107 112 113 120 122 126 108 114 115 121 123 127
+python3 tracery_build.py haina_1265_v4_map.png -o haina_1265.stl
+
+python3 tracery_regions.py haina_1264.png --mirror --glass 51 52
+python3 tracery_build.py haina_1264_map.png -o haina_1264.stl
+
+python3 tracery_regions.py meaux.png --mirror
+python3 tracery_build.py meaux_map.png -o meaux.stl
+
+python3 tracery_regions.py chalons.png --mirror
+python3 tracery_build.py chalons_map.png -o chalons.stl
+
+Always look at the *_numbers.png picture after step 1: area numbers can change
+whenever the image or a setting changes, so --stone / --glass numbers from an
+older run may point at the wrong areas.  Step 2 prints "stone: 1 piece(s)" when
+the model is whole; if it warns about more than one piece, the map has a leak.

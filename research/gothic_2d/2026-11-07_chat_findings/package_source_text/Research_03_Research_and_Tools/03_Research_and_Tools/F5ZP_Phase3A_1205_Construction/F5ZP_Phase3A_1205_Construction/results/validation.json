@@ -1,0 +1,8 @@
+{
+  "baseline_zip_sha256": "4c00b5be2ecd1eb0241a5e9ce3d97152d87a94495d3054d2a7ed2949339500c9",
+  "baseline_preserved_byte_identical": true,
+  "upper_intersection_and_lower_separation_verified": true,
+  "construction_tangency_error_below_1e_9_px": true,
+  "comparison_png_visually_inspected": true,
+  "unchanged_cathedral_scope": true
+}

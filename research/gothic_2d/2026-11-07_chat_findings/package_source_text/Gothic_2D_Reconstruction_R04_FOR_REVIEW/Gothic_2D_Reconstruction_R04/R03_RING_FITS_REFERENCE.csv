@@ -1,0 +1,12 @@
+name,motif,center_x_px,center_y_px,radius_px,circumference_ink_coverage,n_measured_points,radial_fit_rmse_px,status
+U_top_L,sexfoil,632.691,382.955,124.079,0.856,360,0.437,experimental_raster_fitted_ring_not_historical_proof
+U_top_R,sexfoil,934.978,382.947,124.018,0.928,360,0.341,experimental_raster_fitted_ring_not_historical_proof
+U_middle_L,sexfoil,482.37,640.912,125.193,0.825,360,0.435,experimental_raster_fitted_ring_not_historical_proof
+U_middle_C,sexfoil,783.961,640.988,132.983,0.978,360,0.294,experimental_raster_fitted_ring_not_historical_proof
+U_middle_R,sexfoil,1084.009,640.934,125.072,0.914,360,0.347,experimental_raster_fitted_ring_not_historical_proof
+U_bottom_L,sexfoil,634.011,901.022,124.976,0.986,360,0.273,experimental_raster_fitted_ring_not_historical_proof
+U_bottom_R,sexfoil,932.052,900.995,125.007,0.972,360,0.288,experimental_raster_fitted_ring_not_historical_proof
+lower_L,sexfoil,419.18,1377.409,215.044,0.778,360,0.528,experimental_raster_fitted_ring_not_historical_proof
+lower_R,sexfoil,1147.205,1377.369,215.019,0.744,360,0.531,experimental_raster_fitted_ring_not_historical_proof
+side_L,trefoil,223.001,941.998,96.97,1.0,360,0.292,experimental_raster_fitted_ring_not_historical_proof
+side_R,trefoil,1344.973,942.006,96.984,0.986,360,0.304,experimental_raster_fitted_ring_not_historical_proof

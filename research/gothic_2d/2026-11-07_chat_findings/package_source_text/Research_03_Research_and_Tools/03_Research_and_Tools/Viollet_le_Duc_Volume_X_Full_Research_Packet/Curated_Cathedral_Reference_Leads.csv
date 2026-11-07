@@ -1,0 +1,56 @@
+monument,index_heading,vol_x_pdf_page,target_tome,target_printed_pages,target_figures,study_track,index_transcription_status,target_source_status
+Amiens Cathedral,Arc-boutant,23,I,"64, 72, 78, 82","62, 72",flying buttress,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Amiens Cathedral,Chapelles absidales,23,I; II,I 201; II 474,II 38–40,chevet / chapel,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Amiens Cathedral,Piliers,25,IV; VII,IV 167; VII 169,IV 94–98,supports and springings,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Amiens Cathedral,Profils,25,VII,510,"18, 27",mouldings,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Amiens Cathedral,Triforium,25,I; II,"I 201, 203; II 325, 330",I 35,gallery and elevation,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Amiens Cathedral,Triforium,27,IX,290,"11, 12",gallery and elevation,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Amiens Cathedral,Voûtes,27,IV; VI; IX,IV 167; VI 437; IX 517,IV 94–98; IX 30,vaults and rib/pier links,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Beauvais Cathedral,Arc-doubleau / arc formeret,53,I,58; 57,—,transverse and formeret arches,image-checked,NOT UPLOADED / NOT EXAMINED
+Beauvais Cathedral,Arc-boutant,53,I,"69, 71, 74",61,flying buttresses,image-checked,NOT UPLOADED / NOT EXAMINED
+Beauvais Cathedral,Chapelles absidales,53,II,477,—,chevet / chapel,image-checked,NOT UPLOADED / NOT EXAMINED
+Beauvais Cathedral,Piliers,53,IV,177,"101, 101 bis, 101 ter",supports and springings,image-checked,NOT UPLOADED / NOT EXAMINED
+Beauvais Cathedral,Triforium,53,I,201,—,gallery and elevation,image-checked,NOT UPLOADED / NOT EXAMINED
+Chartres Cathedral,Arc-boutant,99,I; II,I 65; II 315,I 54,flying buttresses,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Chartres Cathedral,Chapelles absidales,101,I; II,"I 201, 207; II 466",—,chevet / chapel,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Chartres Cathedral,Contre-fort,101,IV,299,—,buttressing,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Chartres Cathedral,Profils,101,VII,489,6 A,mouldings,print/OCR comparison needed,NOT UPLOADED / NOT EXAMINED
+Langres Cathedral,Voûte,183,IV,70,37–39,vault comparisons,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Laon Cathedral,Clef de voûte,185,III,260,"4, 5",bosses / vault intersections,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Laon Cathedral,Pilier,185,VII,162,"11, 12",responds / supports,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Laon Cathedral,Voûte,185,I,191,—,vault comparisons,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Noyon Cathedral,Arc ogive,251,III,263,—,rib definition,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Noyon Cathedral,Chapelles absidales,251,II,"457, 461",28,chevet / chapel,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Noyon Cathedral,Construction,251,II,298,—,construction chronology,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Noyon Cathedral,Profil,253,VII,497,11,mouldings,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Noyon Cathedral,Voûte,253,I; II; IV; IX,"I 191, 195; II 304; IV 49; IX 248",I 30,vault comparisons,OCR leads only,NOT UPLOADED / NOT EXAMINED
+"Paris, Notre-Dame",Arc-boutant,263,I,"68, 69, 82","59, 69, 71",flying buttresses,image-checked,NOT UPLOADED / NOT EXAMINED
+"Paris, Notre-Dame",Arc-doubleau,263,I,55,40,transverse arches,image-checked,NOT UPLOADED / NOT EXAMINED
+"Paris, Notre-Dame",Construction,265,IV,158,"91, 91 bis",structural construction,OCR leads only,NOT UPLOADED / NOT EXAMINED
+"Paris, Notre-Dame",Profils,267,VII,506,16,mouldings,image-checked,NOT UPLOADED / NOT EXAMINED
+"Paris, Notre-Dame",Voûte,267,I; VI; IX,"I 188, 192, 195; VI 432; IX 512","I 27–29; VI 6, 8; IX 26, 27",vault comparisons,image-checked,NOT UPLOADED / NOT EXAMINED
+Reims Cathedral,Chapelles absidales,303,I; II,"I 111, 201; II 469","II 36, 37",chevet / chapel,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Reims Cathedral,Chapelles du chœur,303,II,321,—,choir perimeter,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Saint-Denis abbey church,Chapelles,329,II,"457, 461",—,chevet / chapel,image-checked,NOT UPLOADED / NOT EXAMINED
+Saint-Denis abbey church,Arc-boutant,329,I,"59, 66, 74, 82","55, 73",flying buttresses,image-checked,NOT UPLOADED / NOT EXAMINED
+Saint-Denis abbey church,Profils,331,VII,504,"15, 19",mouldings,image-checked,NOT UPLOADED / NOT EXAMINED
+Saint-Denis abbey church,Triforium,331,I; IX,I 205; IX 292,"I 36; IX 13, 14",gallery and elevation,image-checked,NOT UPLOADED / NOT EXAMINED
+Saint-Denis abbey church,Voûte,331,VI; IX,VI 446; IX 501,IX 22,vaults,image-checked,NOT UPLOADED / NOT EXAMINED
+Senlis Cathedral,Arc ogive,373,III,263,9,rib geometry,image-checked,NOT UPLOADED / NOT EXAMINED
+Senlis Cathedral,Chapelles absidales,373,II,"457, 465",29–31,chevet / chapel,image-checked,NOT UPLOADED / NOT EXAMINED
+Senlis Cathedral,Voûte,373,IX,515,29,vaults,image-checked,NOT UPLOADED / NOT EXAMINED
+Sens Cathedral,Triforium,375,I; IX,I 201; IX 286,IX 9,gallery and elevation,image-checked,NOT UPLOADED / NOT EXAMINED
+Sens Cathedral,Voûte,375,IV; IX,IV 49; IX 506,IX 23–25,vaults,image-checked,NOT UPLOADED / NOT EXAMINED
+Soissons Cathedral,Arc-boutant,379,I,63,52,flying buttress,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Soissons Cathedral,Voûte,381,I,"191, 196, 198",—,vaults,OCR leads only,NOT UPLOADED / NOT EXAMINED
+"Troyes, Saint-Urbain",Arc-boutant,403,I,"76, 80","66, 70",buttress framing,image-checked,NOT UPLOADED / NOT EXAMINED
+"Troyes, Saint-Urbain",Construction,403,IV,"183, 190",102–106,construction / spans,image-checked,NOT UPLOADED / NOT EXAMINED
+"Troyes, Saint-Urbain",Profil,405,VII,519,22,mouldings,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Vézelay abbey church,Arc-doubleau,421,I,55,38,transverse arches,OCR leads only,NOT UPLOADED / NOT EXAMINED
+Vézelay abbey church,Chapelles absidales,423,II,"457, 465",—,chevet / chapel,image-checked,NOT UPLOADED / NOT EXAMINED
+Vézelay abbey church,Clef de voûte,423,III,"257, 262","2, 7",bosses,image-checked,NOT UPLOADED / NOT EXAMINED
+Vézelay abbey church,Profil,423,VII,"495, 505","9 C, D; 17",mouldings,image-checked,NOT UPLOADED / NOT EXAMINED
+Vézelay abbey church,Voûte,423,I,"182, 185, 190","21, 22",vaults,image-checked,NOT UPLOADED / NOT EXAMINED
+Vézelay abbey church,Voûte (continuation),425,IV; VI; IX,"IV 31, 103; VI 427; IX 486, 510","VI 3, 5",vaults,image-checked,NOT UPLOADED / NOT EXAMINED
+Westminster Abbey,Voûte,435,IX,523,34,English comparative vault,image-checked,NOT UPLOADED / NOT EXAMINED
+"Windsor, St George’s Chapel",Voûte,435,IX,537,40,English comparative vault,image-checked,NOT UPLOADED / NOT EXAMINED

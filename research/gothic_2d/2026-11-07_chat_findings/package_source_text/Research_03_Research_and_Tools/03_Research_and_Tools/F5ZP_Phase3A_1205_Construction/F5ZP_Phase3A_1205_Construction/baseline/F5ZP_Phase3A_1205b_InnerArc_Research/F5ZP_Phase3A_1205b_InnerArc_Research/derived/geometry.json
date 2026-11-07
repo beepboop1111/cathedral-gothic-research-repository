@@ -1,0 +1,841 @@
+{
+  "schema": "f5zp.phase3a.1205b.six_arc_research.v1",
+  "date": "2026-11-03",
+  "source": {
+    "source_pdf": "lehrbuchdergotis02unge.pdf",
+    "source_pdf_sha256": "39a90b73c3ac7883ba82739b487573796c9e05edc98a75d30bad945c058467cf",
+    "volume": "II",
+    "edition": "1892",
+    "pdf_page_1based": 281,
+    "plate": "CXVIII",
+    "motif_label": "1205b",
+    "render_dpi": 144,
+    "crop_box_px_2x": [
+      114,
+      239,
+      339,
+      465
+    ],
+    "fit_kind": "outer_circle_only",
+    "circle_center_crop_px": [
+      109.21742236738913,
+      111.23955699522183
+    ],
+    "circle_center_page_px": [
+      223.21742236738913,
+      350.23955699522185
+    ],
+    "radius_px": 93.51694870364518,
+    "rmse_px": 0.6915841262264908,
+    "observed_samples": 360,
+    "inlier_samples": 339,
+    "inlier_fraction": 0.9416666666666667,
+    "physical_scale": "unknown",
+    "historic_geometric_centers": "not_verified",
+    "full_quatrefoil": "not_reconstructed",
+    "scripts_run": [
+      {
+        "cmd": [
+          "/opt/pyvenv/bin/python",
+          "/mnt/data/pages_grayscale.py",
+          "/mnt/data/phase3a_test/RESULT/inputs",
+          "/mnt/data/phase3a_test/RESULT/grayscale"
+        ],
+        "returncode": 0,
+        "out": "1205b.png -> 1205b.png  (225x226)\n\n1/1 pages converted into /mnt/data/phase3a_test/RESULT/grayscale\n",
+        "err": ""
+      },
+      {
+        "cmd": [
+          "/opt/pyvenv/bin/python",
+          "/mnt/data/pages_bw.py",
+          "/mnt/data/phase3a_test/RESULT/grayscale/1205b.png",
+          "/mnt/data/phase3a_test/RESULT/binary",
+          "--local",
+          "--radius",
+          "24",
+          "--offset",
+          "10",
+          "--transparent"
+        ],
+        "returncode": 0,
+        "out": "[1/1] 1205b.png -> 1205b.png\n\nDone. 1 written to /mnt/data/phase3a_test/RESULT/binary\n",
+        "err": ""
+      },
+      {
+        "cmd": [
+          "/opt/pyvenv/bin/python",
+          "/mnt/data/pages_bw.py",
+          "/mnt/data/phase3a_test/RESULT/grayscale/1205b.png",
+          "/mnt/data/phase3a_test/RESULT/binary",
+          "--threshold",
+          "155",
+          "--suffix",
+          "_fixed"
+        ],
+        "returncode": 0,
+        "out": "[1/1] 1205b.png -> 1205b_fixed.png\n\nDone. 1 written to /mnt/data/phase3a_test/RESULT/binary\n",
+        "err": ""
+      }
+    ],
+    "notes": "A simple outer circle sanity check, not a full tracery vectorization; scan pixels are not architectural dimensions."
+  },
+  "higher_resolution_derivative": {
+    "schema": "gothic.plate.v08",
+    "source": "/workspace/scratch/b719170e227a/F5ZP_Phase3A_1205b_InnerArc_Research/derived/1205b_crop_432dpi.png",
+    "sha256": "4b3f8171e385c4a6ec3375ec89ccd88c7a85120c2042553da43cdd29d81c53f8",
+    "size_px": [
+      675,
+      678
+    ],
+    "crop_px": [
+      0,
+      0,
+      675,
+      678
+    ],
+    "original_mode": "RGB",
+    "embedded_dpi": null,
+    "calibration": null,
+    "units": "source image pixels",
+    "historical_scale_verified": false,
+    "note": "Image geometry uncalibrated: not 1:1 architectural dimensions.",
+    "source_pdf_sha256": "39a90b73c3ac7883ba82739b487573796c9e05edc98a75d30bad945c058467cf",
+    "pdf_page_1based": 281,
+    "render_dpi": 432,
+    "crop_box_px": [
+      342,
+      717,
+      1017,
+      1395
+    ]
+  },
+  "coordinate_system": {
+    "units": "144-DPI reference crop pixels",
+    "origin": "center of original crop top-left pixel, index (0,0)",
+    "x": "right",
+    "y": "down",
+    "angles": "degrees, clockwise from +X",
+    "higher_resolution_coordinates": "crop_px=(high_resolution_pixel_index-1)/3; pixel-center registration",
+    "page_transform": "page_px=crop_px+(114,239)",
+    "physical_scale": "unknown; no architectural dimensions"
+  },
+  "outer_circle_fixed": {
+    "center": [
+      109.21742236738913,
+      111.23955699522183
+    ],
+    "radius": 93.51694870364518,
+    "status": "inherited conditional local reference, not refit"
+  },
+  "arcs": {
+    "N": {
+      "center": [
+        109.74539202740787,
+        59.42003019818496
+      ],
+      "radius": 42.72652975913917,
+      "r_over_outer_R": 0.45688541330127613,
+      "inlier_rmse_px": 0.15329634436973652,
+      "sample_count": 86,
+      "retained_count": 86,
+      "max_inlier_residual_px": 0.6804942739078186,
+      "raw_sample_rmse_px": 0.15329634436973652,
+      "angular_block_holdout_raw_rmse_px": 0.18784036183958144,
+      "block_bootstrap_95_percentile_center_x_y_radius": {
+        "low": [
+          109.6512552675269,
+          59.179201261097724,
+          42.50384352402595
+        ],
+        "high": [
+          109.85319732074538,
+          59.62086861310624,
+          42.98678907965718
+        ]
+      },
+      "seed_and_angle_window": [
+        [
+          110,
+          60
+        ],
+        43,
+        165,
+        375
+      ],
+      "status": "EXPERIMENTAL_measured_circular_candidate",
+      "svg_span_deg": [
+        166.0640913595233,
+        374.9376277418291
+      ],
+      "span_length_deg": 208.8735363823058,
+      "arc_length_px": 155.76088577514705,
+      "start_point": [
+        68.27648629907353,
+        69.71013238198874
+      ],
+      "end_point": [
+        151.0280643645357,
+        70.43353599624699
+      ],
+      "outer_internal_tangency_error_px": 1.031797424834295,
+      "endpoint_policy": "analytic upper cusp intersections; cardinal side projections; lower free endpoints estimated from scan within ~1 px"
+    },
+    "E_upper": {
+      "center": [
+        160.9343159176387,
+        112.28769860275465
+      ],
+      "radius": 43.010519031108394,
+      "r_over_outer_R": 0.45992218124447737,
+      "inlier_rmse_px": 0.11978432590992058,
+      "sample_count": 40,
+      "retained_count": 40,
+      "max_inlier_residual_px": 0.376294424874807,
+      "raw_sample_rmse_px": 0.11978432590992058,
+      "angular_block_holdout_raw_rmse_px": 0.1520220144472465,
+      "block_bootstrap_95_percentile_center_x_y_radius": {
+        "low": [
+          160.64961019748816,
+          111.34115976128197,
+          41.36288553523167
+        ],
+        "high": [
+          162.3983668216795,
+          112.51267878897951,
+          43.33968186773997
+        ]
+      },
+      "seed_and_angle_window": [
+        [
+          161,
+          111
+        ],
+        43,
+        -104,
+        -4
+      ],
+      "status": "EXPERIMENTAL_measured_circular_candidate",
+      "svg_span_deg": [
+        -103.31600640686536,
+        0
+      ],
+      "span_length_deg": 103.31600640686536,
+      "arc_length_px": 77.5567606819273,
+      "start_point": [
+        151.0280643645357,
+        70.43353599624702
+      ],
+      "end_point": [
+        203.94483494874711,
+        112.28769860275465
+      ],
+      "outer_internal_tangency_error_px": 1.2210840828844027,
+      "endpoint_policy": "analytic upper cusp intersections; cardinal side projections; lower free endpoints estimated from scan within ~1 px"
+    },
+    "E_lower": {
+      "center": [
+        167.00086752429826,
+        112.07413997979253
+      ],
+      "radius": 36.40225794823661,
+      "r_over_outer_R": 0.3892584013149874,
+      "inlier_rmse_px": 0.14917775766441546,
+      "sample_count": 52,
+      "retained_count": 52,
+      "max_inlier_residual_px": 0.5704018632062997,
+      "raw_sample_rmse_px": 0.14917775766441546,
+      "angular_block_holdout_raw_rmse_px": 0.28523858947361014,
+      "block_bootstrap_95_percentile_center_x_y_radius": {
+        "low": [
+          166.28531776794202,
+          111.32601981160396,
+          35.35761722906232
+        ],
+        "high": [
+          167.12887861828526,
+          113.26165303274382,
+          37.351755276316226
+        ]
+      },
+      "seed_and_angle_window": [
+        [
+          167,
+          111
+        ],
+        37,
+        4,
+        135
+      ],
+      "status": "EXPERIMENTAL_measured_circular_candidate",
+      "svg_span_deg": [
+        0,
+        126.09661461712385
+      ],
+      "span_length_deg": 126.09661461712385,
+      "arc_length_px": 80.11412935997924,
+      "start_point": [
+        203.40312547253487,
+        112.07413997979253
+      ],
+      "end_point": [
+        145.55452765768482,
+        141.4880633844603
+      ],
+      "outer_internal_tangency_error_px": 0.6747811487337856,
+      "endpoint_policy": "analytic upper cusp intersections; cardinal side projections; lower free endpoints estimated from scan within ~1 px"
+    },
+    "S": {
+      "center": [
+        108.4471850465639,
+        169.01787115146456
+      ],
+      "radius": 36.05561452660304,
+      "r_over_outer_R": 0.3855516569607412,
+      "inlier_rmse_px": 0.16245814503343817,
+      "sample_count": 105,
+      "retained_count": 104,
+      "max_inlier_residual_px": 0.7340878005226017,
+      "raw_sample_rmse_px": 0.31246263265854796,
+      "angular_block_holdout_raw_rmse_px": 0.3351158930763089,
+      "block_bootstrap_95_percentile_center_x_y_radius": {
+        "low": [
+          108.35579973550666,
+          168.83044712876577,
+          35.78785805486871
+        ],
+        "high": [
+          108.57053388909729,
+          169.3811512272913,
+          36.46673761508703
+        ]
+      },
+      "seed_and_angle_window": [
+        [
+          109,
+          169
+        ],
+        36,
+        -38,
+        222
+      ],
+      "status": "EXPERIMENTAL_measured_circular_candidate",
+      "svg_span_deg": [
+        -36.55827755911154,
+        222.67886992543816
+      ],
+      "span_length_deg": 259.2371474845497,
+      "arc_length_px": 163.13513386347904,
+      "start_point": [
+        137.4089089621539,
+        147.54170094520734
+      ],
+      "end_point": [
+        81.94037205606215,
+        144.57618127581244
+      ],
+      "outer_internal_tangency_error_px": 0.3221137320941665,
+      "endpoint_policy": "analytic upper cusp intersections; cardinal side projections; lower free endpoints estimated from scan within ~1 px"
+    },
+    "W_lower": {
+      "center": [
+        51.10236045754514,
+        111.62707134627823
+      ],
+      "radius": 36.457277911622704,
+      "r_over_outer_R": 0.38984674347273307,
+      "inlier_rmse_px": 0.14471157450519698,
+      "sample_count": 54,
+      "retained_count": 54,
+      "max_inlier_residual_px": 0.4818593267193805,
+      "raw_sample_rmse_px": 0.14471157450519698,
+      "angular_block_holdout_raw_rmse_px": 0.16884628859942633,
+      "block_bootstrap_95_percentile_center_x_y_radius": {
+        "low": [
+          50.395154441702026,
+          111.1503248482482,
+          35.56320263826958
+        ],
+        "high": [
+          51.165758240473274,
+          112.30992138189556,
+          36.88423010983014
+        ]
+      },
+      "seed_and_angle_window": [
+        [
+          52,
+          111
+        ],
+        37,
+        42,
+        176
+      ],
+      "status": "EXPERIMENTAL_measured_circular_candidate",
+      "svg_span_deg": [
+        45.87143169661741,
+        180
+      ],
+      "span_length_deg": 134.1285683033826,
+      "arc_length_px": 85.34594575867432,
+      "start_point": [
+        76.4864976293713,
+        137.7953478039895
+      ],
+      "end_point": [
+        14.645082545922435,
+        111.62707134627823
+      ],
+      "outer_internal_tangency_error_px": 1.0566830867032166,
+      "endpoint_policy": "analytic upper cusp intersections; cardinal side projections; lower free endpoints estimated from scan within ~1 px"
+    },
+    "W_upper": {
+      "center": [
+        58.70544731383835,
+        112.45975854954203
+      ],
+      "radius": 43.8079367777398,
+      "r_over_outer_R": 0.4684491676109639,
+      "inlier_rmse_px": 0.15397564571105377,
+      "sample_count": 41,
+      "retained_count": 41,
+      "max_inlier_residual_px": 0.38626002929191117,
+      "raw_sample_rmse_px": 0.15397564571105377,
+      "angular_block_holdout_raw_rmse_px": 0.29467480039233435,
+      "block_bootstrap_95_percentile_center_x_y_radius": {
+        "low": [
+          58.185817857824524,
+          111.17249463876844,
+          42.50114776461047
+        ],
+        "high": [
+          60.145282895690116,
+          113.69021453048008,
+          45.58889608943122
+        ]
+      },
+      "seed_and_angle_window": [
+        [
+          58,
+          111
+        ],
+        43,
+        184,
+        286
+      ],
+      "status": "EXPERIMENTAL_measured_circular_candidate",
+      "svg_span_deg": [
+        180,
+        282.61961221154826
+      ],
+      "span_length_deg": 102.61961221154826,
+      "arc_length_px": 78.46220999390039,
+      "start_point": [
+        14.897510536098551,
+        112.45975854954203
+      ],
+      "end_point": [
+        68.27648629907353,
+        69.71013238198876
+      ],
+      "outer_internal_tangency_error_px": 0.8176989866772999,
+      "endpoint_policy": "analytic upper cusp intersections; cardinal side projections; lower free endpoints estimated from scan within ~1 px"
+    }
+  },
+  "adjacent_circle_relations": {
+    "N__W_upper": {
+      "center_distance_px": 73.60902621248283,
+      "external_gap_px": -12.925440324396135,
+      "internal_margin_px": 72.5276191938822,
+      "points": [
+        [
+          68.27648629907353,
+          69.71013238198874
+        ],
+        [
+          101.05586123921111,
+          101.25361001081377
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 116.55552085202497,
+      "acute_tangent_crossing_angle_deg": 63.44447914797503
+    },
+    "N__E_upper": {
+      "center_distance_px": 73.58869676502894,
+      "external_gap_px": -12.148352025218621,
+      "internal_margin_px": 73.30470749305971,
+      "points": [
+        [
+          119.42148655250456,
+          101.03648776006784
+        ],
+        [
+          151.0280643645357,
+          70.433535996247
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 118.25363414869452,
+      "acute_tangent_crossing_angle_deg": 61.746365851305484
+    },
+    "W_upper__W_lower": {
+      "center_distance_px": 7.648548733113875,
+      "external_gap_px": -72.61666595624862,
+      "internal_margin_px": 0.29788986699678155,
+      "points": [
+        [
+          17.76559710464264,
+          96.86924895007527
+        ],
+        [
+          15.361608382048583,
+          118.81955032109497
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 3.030866265177402,
+      "acute_tangent_crossing_angle_deg": 3.030866265177402
+    },
+    "E_upper__E_lower": {
+      "center_distance_px": 6.0703093563429675,
+      "external_gap_px": -73.34246762300204,
+      "internal_margin_px": -0.5379517265288172,
+      "points": [],
+      "relation": "nested_disjoint"
+    },
+    "S__W_lower": {
+      "center_distance_px": 81.13034456616283,
+      "external_gap_px": 8.617452127937092,
+      "internal_margin_px": 80.72868118114317,
+      "points": [],
+      "relation": "separate"
+    },
+    "S__E_lower": {
+      "center_distance_px": 81.67693830852738,
+      "external_gap_px": 9.219065833687736,
+      "internal_margin_px": 81.33029488689381,
+      "points": [],
+      "relation": "separate"
+    }
+  },
+  "upper_cusps": {
+    "N__W_upper": {
+      "point": [
+        68.27648629907353,
+        69.71013238198874
+      ],
+      "radius_vector_angle_deg": 116.55552085202497,
+      "acute_tangent_crossing_angle_deg": 63.44447914797503,
+      "status": "derived_observed_upper_cusp_candidate",
+      "circle_equation_error_px": 1.4210854715202004e-14
+    },
+    "N__E_upper": {
+      "point": [
+        151.0280643645357,
+        70.433535996247
+      ],
+      "radius_vector_angle_deg": 118.25363414869452,
+      "acute_tangent_crossing_angle_deg": 61.746365851305484,
+      "status": "derived_observed_upper_cusp_candidate",
+      "circle_equation_error_px": 1.4210854715202004e-14
+    }
+  },
+  "side_junction_discrepancies": {
+    "E_side_endpoint_gap_px": 0.582285533101777,
+    "W_side_endpoint_gap_px": 0.870107963820379
+  },
+  "topology": "six separate measured arcs; upper cusps meet analytically; lower pairs disjoint; no closed opening or masonry mask claimed",
+  "all_support_circle_intersections": {
+    "N__E_upper": {
+      "center_distance_px": 73.58869676502894,
+      "external_gap_px": -12.148352025218621,
+      "internal_margin_px": 73.30470749305971,
+      "points": [
+        [
+          119.42148655250456,
+          101.03648776006784
+        ],
+        [
+          151.0280643645357,
+          70.433535996247
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 118.25363414869452,
+      "acute_tangent_crossing_angle_deg": 61.746365851305484
+    },
+    "N__E_lower": {
+      "center_distance_px": 77.78589043823177,
+      "external_gap_px": -1.3428972691440038,
+      "internal_margin_px": 71.46161862732922,
+      "points": [
+        [
+          135.84402651561965,
+          93.24927232846815
+        ],
+        [
+          145.6376738178572,
+          82.59977249903
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 158.78976446198007,
+      "acute_tangent_crossing_angle_deg": 21.21023553801993
+    },
+    "N__S": {
+      "center_distance_px": 109.60552943618075,
+      "external_gap_px": 30.82338515043854,
+      "internal_margin_px": 102.93461420364461,
+      "points": [],
+      "relation": "separate"
+    },
+    "N__W_lower": {
+      "center_distance_px": 78.51484125401147,
+      "external_gap_px": -0.6689664167504006,
+      "internal_margin_px": 72.24558940649501,
+      "points": [
+        [
+          74.6587815264171,
+          83.80211601565286
+        ],
+        [
+          81.46654673916802,
+          91.44913031702065
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 165.04690627046875,
+      "acute_tangent_crossing_angle_deg": 14.953093729531247
+    },
+    "N__W_upper": {
+      "center_distance_px": 73.60902621248283,
+      "external_gap_px": -12.925440324396135,
+      "internal_margin_px": 72.5276191938822,
+      "points": [
+        [
+          68.27648629907353,
+          69.71013238198874
+        ],
+        [
+          101.05586123921111,
+          101.25361001081377
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 116.55552085202497,
+      "acute_tangent_crossing_angle_deg": 63.44447914797503
+    },
+    "N__OUTER": {
+      "center_distance_px": 51.82221636934031,
+      "external_gap_px": -84.42126209344404,
+      "internal_margin_px": 1.031797424834295,
+      "points": [
+        [
+          97.65298707522403,
+          18.440400042081734
+        ],
+        [
+          122.67025204991883,
+          18.695291541477744
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 9.336991388443813,
+      "acute_tangent_crossing_angle_deg": 9.336991388443813
+    },
+    "E_upper__E_lower": {
+      "center_distance_px": 6.0703093563429675,
+      "external_gap_px": -73.34246762300204,
+      "internal_margin_px": -0.5379517265288172,
+      "points": [],
+      "relation": "nested_disjoint"
+    },
+    "E_upper__S": {
+      "center_distance_px": 77.28655371074412,
+      "external_gap_px": -1.7795798469673159,
+      "internal_margin_px": 70.33164920623875,
+      "points": [
+        [
+          126.17761483127067,
+          137.62297987054802
+        ],
+        [
+          138.37188950928433,
+          148.90520345894237
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 155.54533264768688,
+      "acute_tangent_crossing_angle_deg": 24.454667352313123
+    },
+    "E_upper__W_lower": {
+      "center_distance_px": 109.83394224264183,
+      "external_gap_px": 30.36614529991072,
+      "internal_margin_px": 103.28070112315613,
+      "points": [],
+      "relation": "separate"
+    },
+    "E_upper__W_upper": {
+      "center_distance_px": 102.22901339951574,
+      "external_gap_px": 15.410557590667544,
+      "internal_margin_px": 101.43159565288434,
+      "points": [],
+      "relation": "separate"
+    },
+    "E_upper__OUTER": {
+      "center_distance_px": 51.72751375542119,
+      "external_gap_px": -84.79995397933239,
+      "internal_margin_px": 1.2210840828844027,
+      "points": [
+        [
+          201.99097463917158,
+          99.4714775548437
+        ],
+        [
+          201.43798354142197,
+          126.75689541347738
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 10.107033400339326,
+      "acute_tangent_crossing_angle_deg": 10.107033400339326
+    },
+    "E_lower__S": {
+      "center_distance_px": 81.67693830852738,
+      "external_gap_px": 9.219065833687736,
+      "internal_margin_px": 81.33029488689381,
+      "points": [],
+      "relation": "separate"
+    },
+    "E_lower__W_lower": {
+      "center_distance_px": 115.89936932816026,
+      "external_gap_px": 43.03983346830095,
+      "internal_margin_px": 115.84434936477416,
+      "points": [],
+      "relation": "separate"
+    },
+    "E_lower__W_upper": {
+      "center_distance_px": 108.29610676400802,
+      "external_gap_px": 28.08591203803161,
+      "internal_margin_px": 100.89042793450483,
+      "points": [],
+      "relation": "separate"
+    },
+    "E_lower__OUTER": {
+      "center_distance_px": 57.78947190414236,
+      "external_gap_px": -72.12973474773943,
+      "internal_margin_px": 0.6747811487337856,
+      "points": [
+        [
+          202.4315732031066,
+          103.72013023407091
+        ],
+        [
+          202.1755255673953,
+          121.4479233825143
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 8.655171343130881,
+      "acute_tangent_crossing_angle_deg": 8.655171343130881
+    },
+    "S__W_lower": {
+      "center_distance_px": 81.13034456616283,
+      "external_gap_px": 8.617452127937092,
+      "internal_margin_px": 80.72868118114317,
+      "points": [],
+      "relation": "separate"
+    },
+    "S__W_upper": {
+      "center_distance_px": 75.31972234257772,
+      "external_gap_px": -4.543828961765115,
+      "internal_margin_px": 67.56740009144096,
+      "points": [
+        [
+          96.20751603448672,
+          135.10330434948722
+        ],
+        [
+          76.37366789764526,
+          152.54678021646546
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 140.96771823348251,
+      "acute_tangent_crossing_angle_deg": 39.032281766517485
+    },
+    "S__OUTER": {
+      "center_distance_px": 57.78344790913632,
+      "external_gap_px": -71.7891153211119,
+      "internal_margin_px": 0.3221137320941736,
+      "points": [
+        [
+          114.08726575687228,
+          204.62962242084467
+        ],
+        [
+          101.85980344219286,
+          204.46661926038064
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 6.0145854243534105,
+      "acute_tangent_crossing_angle_deg": 6.0145854243534105
+    },
+    "W_lower__W_upper": {
+      "center_distance_px": 7.648548733113875,
+      "external_gap_px": -72.61666595624862,
+      "internal_margin_px": 0.29788986699678155,
+      "points": [
+        [
+          15.361608382048582,
+          118.81955032109497
+        ],
+        [
+          17.76559710464264,
+          96.86924895007527
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 3.030866265177402,
+      "acute_tangent_crossing_angle_deg": 3.030866265177402
+    },
+    "W_lower__OUTER": {
+      "center_distance_px": 58.11635387872569,
+      "external_gap_px": -71.85787273654219,
+      "internal_margin_px": 1.0566830867032095,
+      "points": [
+        [
+          16.429380981385382,
+          122.89284282323874
+        ],
+        [
+          16.282229311986168,
+          100.82468365968936
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 10.841437066163857,
+      "acute_tangent_crossing_angle_deg": 10.841437066163857
+    },
+    "W_upper__OUTER": {
+      "center_distance_px": 50.526710912582686,
+      "external_gap_px": -86.7981745688023,
+      "internal_margin_px": 0.8176989866772999,
+      "points": [
+        [
+          16.706159457600684,
+          124.91749286567412
+        ],
+        [
+          16.1536238750596,
+          102.04449826679118
+        ]
+      ],
+      "relation": "two_intersections",
+      "radius_vector_angle_deg": 8.110950640647577,
+      "acute_tangent_crossing_angle_deg": 8.110950640647577
+    }
+  }
+}

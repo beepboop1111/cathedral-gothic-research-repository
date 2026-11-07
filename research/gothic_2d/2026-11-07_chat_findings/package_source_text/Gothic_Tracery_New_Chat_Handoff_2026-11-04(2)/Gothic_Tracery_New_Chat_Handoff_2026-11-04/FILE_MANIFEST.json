@@ -1,0 +1,187 @@
+{
+  "created": "2026-11-04",
+  "purpose": "Portable handoff of Gothic tracery/foil development and methods",
+  "file_count_excluding_manifest": 30,
+  "files": [
+    {
+      "path": "01_START_HERE/Ungewitter_1236_original_crop.png",
+      "source": "3UM_II_p291_window_head_variants (Edited 2).png",
+      "size": 81066,
+      "sha256": "96ac684bb02bc330912c46cd03a6d42e3ce93e354d67a5b3bf1f370488b95886"
+    },
+    {
+      "path": "01_START_HERE/Ungewitter_1236_generated_design_study_NOT_MEASURED.png",
+      "source": "gothic_tracery_apex_construction_diagram.png",
+      "size": 1635999,
+      "sha256": "1dc50d8c0438e8304eea5588c374a4efea8ab7ebca3dedc22d7c61933cd71c20"
+    },
+    {
+      "path": "02_PREVIOUS_EXERCISES/Ungewitter_1193_to_1198_generated_reference_NOT_MEASURED.png",
+      "source": "a_clean_white_technical_illustration_diagram_sheet.png",
+      "size": 1145608,
+      "sha256": "448e63bf070574039f4cb615e3346c1b57b5c1d0b9041b13e7f01ade4b357431"
+    },
+    {
+      "path": "02_PREVIOUS_EXERCISES/Trefoil_quatrefoil_generated_reference_NOT_MEASURED.png",
+      "source": "a_clean_technical_architectural_diagram_on_a_whit.png",
+      "size": 1339917,
+      "sha256": "3d90c3bcc0f0983e9fb2ceb11585149c1c407049cd5bf2af123cc63f3fa12391"
+    },
+    {
+      "path": "02_PREVIOUS_EXERCISES/Ungewitter_1193_original_cropped.png",
+      "source": "1193_zoom.png",
+      "size": 143414,
+      "sha256": "b70202cb03eae3a3a67bb689d2bf7025be628ed3fd170a6c6aed3cdac109588c"
+    },
+    {
+      "path": "02_PREVIOUS_EXERCISES/Ungewitter_1193_original_plate_selection.png",
+      "source": "1UM_II_p277_pointed_arch_setout.png",
+      "size": 90686,
+      "sha256": "bcb7ef7fe44577d7378399245dd5000c249ea29d9578765dcf58edc41e9b3f24"
+    },
+    {
+      "path": "02_PREVIOUS_EXERCISES/Ungewitter_1193_two_groups.png",
+      "source": "Ungewitter_1193_Trifoil_Trace/FIG1193_TWO_GROUPS_REVIEW.png",
+      "size": 120534,
+      "sha256": "2365397ff9ece2d888924ed7c3da730a1bae6a8682ee6daf0824157eddf7113e"
+    },
+    {
+      "path": "02_PREVIOUS_EXERCISES/Ungewitter_1193_measured_circles.csv",
+      "source": "Ungewitter_1193_Trifoil_Trace/FIG1193_CIRCLES.csv",
+      "size": 495,
+      "sha256": "f5cf5fa11caa8cba9c18d62a8cad5691773422c3791bd93af6fa04369841bc5f"
+    },
+    {
+      "path": "02_PREVIOUS_EXERCISES/Ungewitter_1193_measurements.json",
+      "source": "Ungewitter_1193_Trifoil_Trace/FIG1193_MEASUREMENTS.json",
+      "size": 4735,
+      "sha256": "6e7ef3528be52046cba023f771977a884b1f7dd6f7f04f5c7fb30926b3f12b43"
+    },
+    {
+      "path": "02_PREVIOUS_EXERCISES/Ungewitter_1193_analytical.svg",
+      "source": "Ungewitter_1193_Trifoil_Trace/GROUP_2_EDITABLE_ANALYTICAL_CIRCLES_1193.svg",
+      "size": 2050,
+      "sha256": "00e770a3006629375d12f9323474104c6ee3629aa1948bbabf9d7f7a9aa755f6"
+    },
+    {
+      "path": "02_PREVIOUS_EXERCISES/Ungewitter_1193_reconstruction.py",
+      "source": "Ungewitter_1193_Trifoil_Trace/trace1193.py",
+      "size": 9587,
+      "sha256": "a844f44dda8df25952665cab02ff1366f7862104a6b44009b8c9764e77b78b9a"
+    },
+    {
+      "path": "02_PREVIOUS_EXERCISES/Ungewitter_1193_notes.md",
+      "source": "Ungewitter_1193_Trifoil_Trace/README.md",
+      "size": 2025,
+      "sha256": "50ee083435235fdaa229bb60a3fed9d20e68855466dea22851f279da5dba7020"
+    },
+    {
+      "path": "03_SEXFOIL_METHOD/sexfoil_original_source_crop.png",
+      "source": "sexfoil_30_only/SOURCE_sexfoil_candidate_READONLY.png",
+      "size": 486082,
+      "sha256": "f385fef034560eb879a92fc6008801ecdb846a52986b0a169d681ed25070a42e"
+    },
+    {
+      "path": "03_SEXFOIL_METHOD/sexfoil_one_30degree_review.png",
+      "source": "sexfoil_30_only/SEXFOIL_ONE_30_ROTATION_REVIEW.png",
+      "size": 790575,
+      "sha256": "95d4a43409c54c4a12b438ae36a56c5abfb00f0166c66938f4f87ee8900079b9"
+    },
+    {
+      "path": "03_SEXFOIL_METHOD/sexfoil_30degree_points.png",
+      "source": "sexfoil_30_only/SEXFOIL_30_CONSTRUCTION_POINTS.png",
+      "size": 126513,
+      "sha256": "86f9a615551a8a7490ca172ad68fe82f003917df254ce1c5ea54782953e6666a"
+    },
+    {
+      "path": "03_SEXFOIL_METHOD/sexfoil_full_dotted_circles.svg",
+      "source": "sexfoil_30_only/full_dotted_original_circles/SEXFOIL_DOTTED_ORIGINAL_ONE_30_EDITABLE.svg",
+      "size": 652543,
+      "sha256": "83cf3ce0006d622014065a56436bf4d1d0e62ad1b853955541229ef4c2f26350"
+    },
+    {
+      "path": "03_SEXFOIL_METHOD/sexfoil_full_dotted_circles_review.png",
+      "source": "sexfoil_30_only/full_dotted_original_circles/SEXFOIL_FULL_DOTTED_ORIGINAL_30_REVIEW.png",
+      "size": 1244482,
+      "sha256": "d9acee4b956e1c983b75444ee2e9012ac6ca59585d3886b08d85e0546a97d85b"
+    },
+    {
+      "path": "03_SEXFOIL_METHOD/sexfoil_source_vs_30_overlay.png",
+      "source": "sexfoil_30_only/full_dotted_original_circles/SEXFOIL_DOTTED_FULL_CIRCLES_SINGLE_30_OVERLAY.png",
+      "size": 1112146,
+      "sha256": "4b985991c919273e6df9b62b65bf6a03a2ae3b15fd279d6f049b131c0e532958"
+    },
+    {
+      "path": "03_SEXFOIL_METHOD/sexfoil_method.md",
+      "source": "sexfoil_30_only/README.md",
+      "size": 1903,
+      "sha256": "3fee491fc4e88aab70aa3dbd14a21b62aff15af25bd7d79983040a8a46fc898f"
+    },
+    {
+      "path": "04_RESEARCH_AND_TOOLKIT/Gothic_V08_Project_Integration.zip",
+      "source": "Gothic_V08_Project_Integration.zip",
+      "size": 12735,
+      "sha256": "2c488beb0ac1dcb552848d24fff1f23855d693a7cefff14b8cec3373fbdd74ae"
+    },
+    {
+      "path": "04_RESEARCH_AND_TOOLKIT/Gothic_research_workflow_instructions.md",
+      "source": "Gothic_Research_Workflow_2026-11-03/WORKFLOW.md",
+      "size": 9502,
+      "sha256": "acfaf6c55f87412ac454f4a87229269899e8182e4dd03f1b29a839287a6edb2d"
+    },
+    {
+      "path": "04_RESEARCH_AND_TOOLKIT/Gothic_research_progress_archive_baseline.md",
+      "source": "Gothic_Research_Workflow_2026-11-03/PROGRESS_BOARD.md",
+      "size": 1714,
+      "sha256": "23e8b96d3bcb3256bf619b38f481716fa3d65e5e0cab1af17a02cde5885cda93"
+    },
+    {
+      "path": "04_RESEARCH_AND_TOOLKIT/Paynter_1921_book_study.md",
+      "source": "paynt_study/BOOK_STUDY.md",
+      "size": 17026,
+      "sha256": "c606a1d882c291dce9aa1ca67012c8baf12da9c6cf2b4363224db6a50f5ca8d1"
+    },
+    {
+      "path": "04_RESEARCH_AND_TOOLKIT/Paynter_1921_page_register.md",
+      "source": "paynt_study/PAGE_BY_PAGE_REGISTER.md",
+      "size": 85959,
+      "sha256": "d3508a57f2183faa9be5a14b2119dd6205f27813792142ae6bb20df584be8ed8"
+    },
+    {
+      "path": "04_RESEARCH_AND_TOOLKIT/Paynter_1921_notes_and_reference_images.zip",
+      "source": "Paynter_1921_Complete_Book_Reading_Notes.zip",
+      "size": 15434713,
+      "sha256": "3816e0faa2c7597cf7d9d18925f47030443e3ee5c4a74a17c57f30a7ae5caab1"
+    },
+    {
+      "path": "04_RESEARCH_AND_TOOLKIT/Research_02_03_Source_File_Index.csv",
+      "source": "SOURCE_FILE_INDEX(2).csv",
+      "size": 259115,
+      "sha256": "fbc36dc84576b996fe04bcbf10b715ae3ea03b7e5a488304eb00d31bc09659d5"
+    },
+    {
+      "path": "04_RESEARCH_AND_TOOLKIT/Geometric_script_recovery_notes.txt",
+      "source": "Remember Tracery Scripts.txt",
+      "size": 3905,
+      "sha256": "112113d93c0bb2ff039fa8db0452031edb79160cc05173f27f78da0054a9f75a"
+    },
+    {
+      "path": "04_RESEARCH_AND_TOOLKIT/German_tracery_plate_research_notes.txt",
+      "source": "German Tracery Plate Research.txt",
+      "size": 1911,
+      "sha256": "29dad8080330e200e7132200229e6e7bd26971b6879d4a839dd80b08ed26aca7"
+    },
+    {
+      "path": "HANDOFF.md",
+      "source": "new handoff text",
+      "size": 9772,
+      "sha256": "c7c83475c68fc3db486b46083ff02d2fbfcad844a77b9dea3954dcd5e8d83585"
+    },
+    {
+      "path": "NEW_CHAT_PROMPT.md",
+      "source": "new handoff text",
+      "size": 996,
+      "sha256": "eddc2db672a16c47d7701b6f7fba64e6373794acd3207d1b2ca77808225550e2"
+    }
+  ]
+}

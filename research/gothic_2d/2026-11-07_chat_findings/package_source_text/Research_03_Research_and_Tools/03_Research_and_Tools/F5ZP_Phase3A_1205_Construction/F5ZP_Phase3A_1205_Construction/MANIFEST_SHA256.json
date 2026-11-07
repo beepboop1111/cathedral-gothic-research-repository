@@ -1,0 +1,16 @@
+{
+  "CHECKPOINT.md": "33a2ea966f9c27d35202d7de6c18cfcd77e0b4027efa8d30a873ec1c9316958b",
+  "research_report.html": "ac55f2b68ad709b79b568183a44c6cebc2ce943738edfac98e77ab07a01bfd1f",
+  "REPORT.md": "abbb4c54766e713b83a52e72481d92d4cbdf10078c164634ff258ebc37668726",
+  "baseline/F5ZP_Phase3A_1205b_InnerArc_Research.zip": "4c00b5be2ecd1eb0241a5e9ce3d97152d87a94495d3054d2a7ed2949339500c9",
+  "evidence/printed_510_ocr.txt": "24110e33f95922197632fbac66eeef582a8c1f334037d5f4db70d2b9a239405d",
+  "evidence/marks.png": "ee6df5f3a903fabba1db16d51740ed02563a33dff543935d8e40f2d21b043aa9",
+  "evidence/printed_510.png": "09d73ae708de361858397687be1dd2e55f100de9dcb816d3e6306ff48f05b68a",
+  "results/upper_comparison.svg": "210bf9f53c53e424f49fba7a906e23972ca47499c41dff1df84d59b4b27b44cc",
+  "results/lower_comparison.svg": "c23d06ed88f73a9b7e007a3cae9f18c48f06a2e8d106aff01222f54647de2161",
+  "results/construction_comparison.png": "3b08986f102d39f9715cfc9b8ab8e5b20cd49b1702183926ab19cca9acdd6945",
+  "results/validation.json": "63acec4f721e96769041cd1ecfd728c2a3dafa66329d1cc5699b21821e54714b",
+  "results/construction_measurements.json": "2954289e1eb2c037c0e2aa148de01bc961b19f0d6006a37e48f937544a32fe84",
+  "results/critical_candidate_comparison.svg": "14af8a6a313384bcde2b9d60cf69ddfdd50cf1973213dd5d113f9ed670abad83",
+  "scripts/compare.py": "ad92435e54f61b674ed1ddac6794a08beb74c910fdb24dcaafbfc77df47c3ec8"
+}

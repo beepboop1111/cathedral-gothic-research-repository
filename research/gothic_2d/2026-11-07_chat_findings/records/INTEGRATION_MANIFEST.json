@@ -1,0 +1,12 @@
+{
+  "package": "Gothic Architectural Reconstruction Toolkit",
+  "version": "0.8.0-preview",
+  "date": "2026-11-03",
+  "modules": ["gothic_plate_reader.py", "gothic_geometry.py", "gothic_patterns.py", "gothic_stonework.py"],
+  "design_baseline": "V01-V07 Haina architectural plate research",
+  "testing": "11 portable unit tests, not a substitute for MR.COMPUTER V01-V07 historical regression suite",
+  "source_policy": "read only historical references; explicit user calibration; never promote pixel units to F5ZP blocks automatically",
+  "original_script_modifications": false,
+  "migration_status": "portable preview package; main generators not yet patched",
+  "attachment_policy": "Project file attachment must be performed in Project UI; Library upload is separate"
+}

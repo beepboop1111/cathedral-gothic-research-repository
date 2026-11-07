@@ -1,0 +1,9 @@
+﻿severity,type,record,detail,action
+High,Source subject mismatch,CHO-II-PDF410,"Source figure 19.30, PDF page 410, is from the Italian Renaissance chapter and depicts San Satiro / Madonna delle Carceri, not Gothic architecture.",Replace Gothic category with Renaissance context; retain only as optional architectural reference.
+High,Source subject mismatch,CHO-II-PDF370,"Source figure 18.11, PDF page 370, depicts Pierrefonds and Andelys defensive tower sections, not Gothic vault construction.",Reclassify as medieval military tower sections; useful for massing/sections.
+High,Source subject mismatch,VLD-IV-P081,"Phase2 preview page PDF p.91 is a text explanation of ambulatory construction, not a standalone illustrated plate.",Retain as supporting textual evidence; link actual figure on adjacent page after checking.
+High,Source subject mismatch,VLD-IV-P075,"Phase2 caption identifies a Châlons pointed ribbed vault, whereas preview shows a buttress/pressure diagram and accompanying discussion.",Verify exact original figure and revise subject to avoid assigning wrong drawing.
+High,Hay plate coverage,HAY,98 illustrated leaves recovered from 100 numbered plates; identities of two missing labels remain unresolved.,Verify original plate order and missing plates; do not infer sequence from atlas positions.
+Medium,Source-selection completeness,UM + VLD + PARKER,"Current atlases are curated candidate selections, not exhaustive page-by-page inventories of these original books.",Complete figure-level visual survey when needed.
+Info,Source edition distinctions,UM-I / UM-II,"Ungewitter I fourth edition 1901; II third edition 1892, according to Phase2 source report.",Do not transfer figure or page numbers across editions by inference.
+Info,Architectural authority,F5ZP,"Historical plate measurements are reference material and do not override locked F5ZK-C, F5ZN-A, 1:1 cathedral geometry.",Keep source references separate from design authorities.
