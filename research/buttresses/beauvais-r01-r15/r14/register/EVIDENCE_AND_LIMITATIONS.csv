@@ -1,0 +1,12 @@
+source_id,claim_or_observation,basis,status,architectural_use_or_caution
+BURGES05,"Figure identifies apse aisle, chapel, triforium and section",Source drawing and author explanation,DIRECT OBSERVATION,Can identify vertical adjacency; paper scale is drawn but not instrument-calibrated here
+BURGES06,Two-stage flying-buttress system with intermediate support and exterior receiver,Source drawing and author explanation,DIRECT OBSERVATION,View drawn opposite orientation to VLD61: not overlaid or mirrored
+BURGES06,Burges surveyed accessible joints and bedding,Burges 1870 accompanying text,AUTHOR-REPORTED SURVEY,Do not generalize to flying-arch joints
+BURGES06,Only a few flying-buttress measurements could be made,Burges 1870 accompanying text,EXPLICIT SOURCE LIMITATION,Arcs and unseen springings are NOT survey-grade
+BURGES06,Middle buttress overhangs supporting columns,Burges accompanying text,AUTHOR OBSERVATION,Indicates cantilever relation; dimensions not recovered
+BURGES06,Clerestory exterior buttress partly modern,Burges accompanying text,HISTORICAL PHASE WARNING,Cannot assume all depicted construction is original Gothic work
+VLD61,Two sets of large flying arches terminating at inner wall,Viollet-le-Duc figure 61,ILLUSTRATED SCHEME,Not independent measured survey
+VLD101,Section through Beauvais apse piers drawn same scale as Amiens comparison,"Viollet-le-Duc vol. IV, Construction, fig 101 and explanatory text","TEXT CONFIRMED, IMAGE NOT IN PACKAGE",Different authorial figure but still VLD; not independent survey
+PHILEAS2021,Beauvais cathedral detailed digital survey and cross-sections exist,"Université de Picardie Jules Verne, Laboratoire MIS, Phileas",INDEPENDENT MODERN SURVEY INDEX,2D/3D images not licensed for derivative reworking (CC BY-NC-ND); files not acquired here
+BAUDOT1898,Axial-bay plaster model of choir and chevet buttressing exists,Cité de l’architecture et du patrimoine record,INDEPENDENT HISTORICAL MODEL INDEX,Model not a verified dimensional survey of springing
+R13,1.33px apparent shared tangent alignment is unstable under point selection,R13 numerical sensitivity experiment,MATHEMATICAL RECONSTRUCTION NOT HISTORICAL,No adoption as a shared springing axis
