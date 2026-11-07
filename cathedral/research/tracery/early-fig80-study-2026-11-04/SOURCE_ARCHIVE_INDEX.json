@@ -1,0 +1,43 @@
+{
+  "status": "EXPERIMENTAL archival index; original archives not embedded in Git",
+  "reference_date": "2026-11-04",
+  "sha256_algorithm": "SHA-256",
+  "original_figure_80_png_sha256": "37fcd7782f33e183ea53a6f8cfbfa2d34d26226c5619787687ff0f0a2280f363",
+  "archives": [
+    {
+      "name": "Sketch2STL_Playground_R01_FOR_REVIEW.zip",
+      "bytes": 7655657,
+      "sha256": "5602e12774627eed9ecbc9e2523c18a9bf69c564f906be4d7f60d4e7f941d0e4"
+    },
+    {
+      "name": "Ungewitter_Window_Top02_Sketch2STL_R01_FOR_REVIEW.zip",
+      "bytes": 9066762,
+      "sha256": "364806072abbf0a1873d5175896d2ce90d1a3c58ddd91d4e7c3ab54e7c95441b"
+    },
+    {
+      "name": "Ungewitter_Window_Top02_Sketch2STL_R02_FOR_REVIEW.zip",
+      "bytes": 15749936,
+      "sha256": "8d3e2aa5e6c814515576991aeb9359b391ee8ac92380d8774ebedcb980405db1"
+    },
+    {
+      "name": "StLeu_Fig80_Oculus_R01_FOR_REVIEW.zip",
+      "bytes": 4527267,
+      "sha256": "c55a71d42387d8ff8c07bb8d58d16a975029b8fa1d08bf14079827d2f2dd90fa"
+    },
+    {
+      "name": "StLeu_Fig80_FullWindow_R02_FOR_REVIEW.zip",
+      "bytes": 3558769,
+      "sha256": "699964ae95a9b1c8f98f5f5ecfca9388dbc7fc5d18d663f1698571a404a89171"
+    },
+    {
+      "name": "StLeu_Fig80_R03_FULL_FOR_REVIEW.zip",
+      "bytes": 7661201,
+      "sha256": "99e461f1eb2ea0a9519d3ce02164334b96cf4cad02c75ca632d581d3f1ba88f6"
+    }
+  ],
+  "mr_reproduction": {
+    "scene_source": "MR.COMPUTER /home/christopher/Desktop/sketch2stl/_EXPERIMENTS/STLEU_FIG80_R03",
+    "validation": "MR_COMPUTER_R03_QA.json",
+    "note": "Separate reproducible exports, not bitwise matches to local R03 ZIP"
+  }
+}

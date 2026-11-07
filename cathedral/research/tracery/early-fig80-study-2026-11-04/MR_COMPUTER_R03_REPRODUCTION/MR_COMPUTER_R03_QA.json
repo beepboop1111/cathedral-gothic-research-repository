@@ -1,0 +1,16 @@
+{
+  "plain": {
+    "vertices": 5260,
+    "faces": 10520,
+    "volume": 1282475.759005226,
+    "watertight": true,
+    "connected": 1
+  },
+  "profiled": {
+    "vertices": 28067,
+    "faces": 56134,
+    "volume": 1490707.7863107016,
+    "watertight": true,
+    "connected": 1
+  }
+}
