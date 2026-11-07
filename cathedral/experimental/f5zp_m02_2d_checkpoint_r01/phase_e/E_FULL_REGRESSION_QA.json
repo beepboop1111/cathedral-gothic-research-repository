@@ -1,0 +1,151 @@
+{
+  "milestone": "F5ZP M02 Phase E full-cathedral 2D regression and architectural review",
+  "status": "TECHNICAL + 2D GEOMETRIC REGRESSION PASS; ARCHITECTURAL PHYSICAL SUPPORT APPROVAL OPEN",
+  "source_sha256": {
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R30": "93b005de5d228405f67513e6abc24e2658315dad12464f491c7288c6e8a3737b",
+    "R31": "553f3a168a52ba1dea183425af436d4319bae2f25bd40878789a44a37d668e86",
+    "R32": "ba4c9319e27308624df2e34dda765b21f4ac523dc8aa5ee2ad161c3d9be5a9a8",
+    "R33": "2de0b1328ecdfc3551790b6fd903328c1a25429b85431794babc270d5d6fc00e",
+    "B3": "049f0ee35a95ea0b690920b96576d5ed09dd492087d7a930e0472f4dfdc4ec46",
+    "C": "d6e7151d0ad316ee70cc2fc06e8d92909c19c04eed3508a7a0a7be177f319b59",
+    "D": "ddf54669112bbd94f71d41aee13d1f0100ec1c710ea4007254357488096cc84c",
+    "D_PLAN": "84653eaeff6adb01601e140a03e2f6d70e497c55f015d77d91bab5f88a7808e2",
+    "D_STUDY": "9914a20adbf8bb56a1cffcf08ff4dafff6d781833ba83f6e1d015fad3d1c9519"
+  },
+  "source_metadata": {
+    "status": "R11 experimental review, NOT APPROVED",
+    "coordinate_system": "native 1:1 project units",
+    "R10_sha256": "eec838d4c2dc01bb556973ededa8ea3e0147f1d055fdc07d49d141e9d35e0fd3",
+    "R12C_sha256": "4c6f5c3d16959e516032902e663c978c4b0b982c2c2261c0fe6bbce82db04307",
+    "historical_support_overlays": "unregistered diagnostic only",
+    "axial_chapel": "No independently registered chapel footprint in 2D input; X28000 threshold shown schematically"
+  },
+  "protected_vault_polygons": 218,
+  "source_geometry_invalid": 0,
+  "candidate_bounding_box_pairs_tested": 30,
+  "positive_area_vault_overlaps": 0,
+  "saved_vault_line_contacts": 0,
+  "main_vaults_inside_continuous_open_interior": 15,
+  "crossing_arms_inside_open_interior": true,
+  "seven_sanctuary_inner_wall_faces": 7,
+  "wall_normal_separation": 320,
+  "ring_counts_source": {
+    "I": 7,
+    "M": 7,
+    "T": 7
+  },
+  "ring_gap_I_to_M": 197,
+  "ring_gap_M_to_T": 292,
+  "mirror_symmetry_all_source_chevet_cells": true,
+  "Phase_D_delivered_source_features": 36,
+  "fourteen_experimental_outer_cells_in_delivery": 0,
+  "support_envelopes_reference_only": 8,
+  "approved_physical_piers": 0,
+  "support_overlap_original_clear": 0.0,
+  "support_overlap_purple_open": 1.1598247404603081e-10,
+  "source_reserved_masonry_layer_overlap_purple": [
+    25106480.0,
+    21586880.0,
+    0.0
+  ],
+  "interpretation": "Source R11 experimental masonry reservations overlap open intent and are NOT all physical walls.",
+  "validation": {
+    "technical": "PASS \u2014 source hashes, all exports and package integrity",
+    "geometric": "PASS \u2014 218-cell validity/nonoverlap, 7 chevet facets/320 first wall, 7+7+7 ring 197/292, 8 support-envelope no-collision",
+    "architectural": "PARTIAL \u2014 confirmed open interior and first chancel wall, but physical pier/arch bearings not approved",
+    "historical": "NOT ASSESSED",
+    "structural": "NOT ASSESSED"
+  },
+  "regression_items": [
+    {
+      "check": "218 source valid vault cells",
+      "result": "PASS",
+      "detail": "No empty/invalid/zero area polygons"
+    },
+    {
+      "check": "R11 unique vault-overlap scan",
+      "result": "PASS",
+      "detail": "30 adjacent bounding box pairs checked; 0 positive-area overlaps, 0 line contacts"
+    },
+    {
+      "check": "Continuous open nave/crossing/choir/chancel",
+      "result": "PASS",
+      "detail": "15 main vault clear cells plus crossing north/south arms covered by single continuous purple area"
+    },
+    {
+      "check": "Exactly seven chancel inner facets",
+      "result": "PASS",
+      "detail": "8 source vertices, 7 true straight facets"
+    },
+    {
+      "check": "320 first chancel-to-inner wall",
+      "result": "PASS",
+      "detail": "Seven source parallel strips, on-axis width 320"
+    },
+    {
+      "check": "Original ambulatory rhythm",
+      "result": "PASS",
+      "detail": "7 I, 7 M, 7 T source polygons, 197 and 292 normal gaps"
+    },
+    {
+      "check": "Explicit removal of 14 outer trial cells",
+      "result": "PASS",
+      "detail": "No trial outer cells or divider lines in Phase D source"
+    },
+    {
+      "check": "Chevet mirrored footprint geometry",
+      "result": "PASS",
+      "detail": "7 source ring cells in all 3 rings reflect across central axis"
+    },
+    {
+      "check": "Six+two candidate supports do not intrude",
+      "result": "PASS",
+      "detail": "8 provisional moderate construction envelope sites clear protected vaults and open interior"
+    },
+    {
+      "check": "Large saved masonry reservations represent built walls",
+      "result": "NOT VALIDATED",
+      "detail": "R11 layers status EXPERIMENTAL; must not conflate with physical masonry"
+    },
+    {
+      "check": "Architectural pier/arch bearing placement",
+      "result": "UNRESOLVED",
+      "detail": "Reference 8 sites not approved structural piers"
+    },
+    {
+      "check": "Lower fourteen-vault architectural program",
+      "result": "EXCLUDED",
+      "detail": "Phase C trial remains separate; not part of floor plan"
+    },
+    {
+      "check": "F5ZL-C support schedule",
+      "result": "MISSING",
+      "detail": "Not invented"
+    },
+    {
+      "check": "Physical units conversion",
+      "result": "UNRESOLVED",
+      "detail": "native 1:1 coordinates; physical conversion not verified"
+    },
+    {
+      "check": "Historical validation",
+      "result": "NOT ASSESSED",
+      "detail": "No plate-based approval from geometry alone"
+    },
+    {
+      "check": "Structural validation",
+      "result": "NOT ASSESSED",
+      "detail": "No capacity, construction sequencing or masonry-bond assessment"
+    }
+  ],
+  "unresolved": [
+    "M02 Phase F packaging and architectural approval required before promoting any new design",
+    "Actual masonry bond and arch/rib bearing sections at 8 sites not validated",
+    "Outer 14-vault paired subdivision excluded pending explicit later decision",
+    "F5ZL-C support schedule missing",
+    "Physical unit conversion unresolved",
+    "Chevet window and low outer vault elevations not verified",
+    "R11 overall status is experimental; tests do not promote it to approved authority"
+  ]
+}
