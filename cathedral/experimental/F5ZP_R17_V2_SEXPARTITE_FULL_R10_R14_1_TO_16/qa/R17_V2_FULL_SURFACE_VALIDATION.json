@@ -1,0 +1,141 @@
+{
+  "status": "R17_V2_FULL_R10_R14_METHOD_TESTED_1_TO_16_EXPERIMENTAL",
+  "replaced_simplified_R17_surface": true,
+  "V1_original_arches_unchanged": true,
+  "V1_original_groins_unchanged": true,
+  "user_architectural_approvals_modified": false,
+  "exact_scale": "1:16 geometry for STL GLB Blender",
+  "formula": "R09 6 triangular patches; R10 C1 two-piece Hermite; R13 normalised two families; R14 sin(pi*t)^2 interior control",
+  "six_sexpartite_cells": true,
+  "control_curves": [
+    {
+      "sector": 0,
+      "type": "A",
+      "file": "R17_V2_MERIDIAN_00_NATIVE_REFERENCED.csv",
+      "sha256": "2e94f83d1998a92e0cbd78d5577a840b7d17469df5a775fed056ff7a4a0b08f9"
+    },
+    {
+      "sector": 1,
+      "type": "A",
+      "file": "R17_V2_MERIDIAN_01_NATIVE_REFERENCED.csv",
+      "sha256": "d5c8dd943e3afc1670fe0cd47c471f3e09e019cd253428eec6c336cabd3f15b9"
+    },
+    {
+      "sector": 2,
+      "type": "B",
+      "file": "R17_V2_MERIDIAN_02_NATIVE_REFERENCED.csv",
+      "sha256": "d9222463078e5e8eb9453b8c8dc1deb1b644e4c24f20fa6fe5252fb1fde28d2e"
+    },
+    {
+      "sector": 3,
+      "type": "A",
+      "file": "R17_V2_MERIDIAN_03_NATIVE_REFERENCED.csv",
+      "sha256": "b929a81fa31fb03b436820a183adf798a0cd65ffc3b203d2a741766811977514"
+    },
+    {
+      "sector": 4,
+      "type": "A",
+      "file": "R17_V2_MERIDIAN_04_NATIVE_REFERENCED.csv",
+      "sha256": "2aed8e24efe0cfcb0e3733afbf2e127d472051eb8001b161cb1147a050def68e"
+    },
+    {
+      "sector": 5,
+      "type": "B",
+      "file": "R17_V2_MERIDIAN_05_NATIVE_REFERENCED.csv",
+      "sha256": "f1e8c43501e2aaabc856e9a243897fff2a77395d1c9f44c2e986df98b91dac76"
+    }
+  ],
+  "geometric_proof": {
+    "original_R17_V1_skeleton_max_error_native": 0.0,
+    "boundary_arch_error_native": 0.0,
+    "groin_error_native": 0.0,
+    "maximum_downhill_meridian_delta_native": 0.0,
+    "sector_controls": [
+      {
+        "sector": 0,
+        "type": "A",
+        "apex_Z": 4200.0,
+        "boss_Z": 4700.0,
+        "meridian_mid_Z": 4620.0,
+        "meridian_dZds_at_apex": 1000.0,
+        "meridian_dZds_at_mid": 250.0,
+        "meridian_dZds_at_boss": 0.0
+      },
+      {
+        "sector": 1,
+        "type": "A",
+        "apex_Z": 4200.0,
+        "boss_Z": 4700.0,
+        "meridian_mid_Z": 4620.0,
+        "meridian_dZds_at_apex": 1000.0,
+        "meridian_dZds_at_mid": 250.0,
+        "meridian_dZds_at_boss": 0.0
+      },
+      {
+        "sector": 2,
+        "type": "B",
+        "apex_Z": 4320.0,
+        "boss_Z": 4700.0,
+        "meridian_mid_Z": 4640.0,
+        "meridian_dZds_at_apex": 760.0,
+        "meridian_dZds_at_mid": 190.0,
+        "meridian_dZds_at_boss": 0.0
+      },
+      {
+        "sector": 3,
+        "type": "A",
+        "apex_Z": 4200.0,
+        "boss_Z": 4700.0,
+        "meridian_mid_Z": 4620.0,
+        "meridian_dZds_at_apex": 1000.0,
+        "meridian_dZds_at_mid": 250.0,
+        "meridian_dZds_at_boss": 0.0
+      },
+      {
+        "sector": 4,
+        "type": "A",
+        "apex_Z": 4200.0,
+        "boss_Z": 4700.0,
+        "meridian_mid_Z": 4620.0,
+        "meridian_dZds_at_apex": 1000.0,
+        "meridian_dZds_at_mid": 250.0,
+        "meridian_dZds_at_boss": 0.0
+      },
+      {
+        "sector": 5,
+        "type": "B",
+        "apex_Z": 4320.0,
+        "boss_Z": 4700.0,
+        "meridian_mid_Z": 4640.0,
+        "meridian_dZds_at_apex": 760.0,
+        "meridian_dZds_at_mid": 190.0,
+        "meridian_dZds_at_boss": 0.0
+      }
+    ]
+  },
+  "faces": 98304,
+  "vertices": 49537,
+  "highest_boundary_apex_Z": 4320.0,
+  "central_boss_Z": 4700.0,
+  "native_crown_above_arch": 380.0,
+  "R16_prebuild_and_postbuild_verified": true,
+  "R16_warnings": [
+    "LOCKED_GEOMETRY_WARNING_ALWAYS",
+    "NO_CAP_CLEARANCE_VERIFICATION"
+  ],
+  "open_intrados_only": true,
+  "cap_masonry_validation": "NOT VERIFIED",
+  "structural_validation": "NOT PERFORMED",
+  "R16_source_sha256_preserved": {
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_V2_SEXPARTITE_FULL_R10_R14_1_TO_16_EXPERIMENTAL/R16_dependency/src/strict_crown_guard.py": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_V2_SEXPARTITE_FULL_R10_R14_1_TO_16_EXPERIMENTAL/R16_dependency/src/guarded_vault_adapter.py": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_V2_SEXPARTITE_FULL_R10_R14_1_TO_16_EXPERIMENTAL/R16_dependency/reference/vault_generator.py": "0434b70a888061d1d9a416723555333bc226e12ddb8f227b5abe621b7dce4c31",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_V2_SEXPARTITE_FULL_R10_R14_1_TO_16_EXPERIMENTAL/R16_dependency/reference/gothic_kernel_source.py": "684358b76d19db21c71647d89d670810145414bc4ae9cf0c72651490462e84ce",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_SEXPARTITE_DOUBLE_BAY_1_TO_16_EXPERIMENTAL/outputs/R17_EXACT_SIX_ARCH_SIX_GROIN_SKELETON_NATIVE.json": "e83b271ced02bf8ea5daf1422671362b9b37f70cb018c03dec27e127cae398e5",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_V4_AND_POLYGON_R10_TANGENT_CONTROLLED_MERIDIANS_EXPERIMENTAL/scripts/generate_R10_tangent_hermite_meridians.py": "3f2329a43d7ad03c0f5d9705735c459d46db3d41a89bfdfeecd4e6ef9f51e0cc",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_APSE_R13_TWO_CONNECTION_TYPES_EXPERIMENTAL/scripts/build_R13_five_matching_webs.py": "ec61ce05fe00a3887506b6bfc3fa2848af0e19c58ba17de3d831c6a9cb21fff7",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_APSE_R14_BOTH_USER_RED_TYPES_EXPERIMENTAL/scripts/build_R14_two_user_drawn_web_types.py": "c56ed391277421356ef591ac9e487c64bad358d4bea4e2d257847e8284e6a434",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_SEXPARTITE_DOUBLE_BAY_1_TO_16_EXPERIMENTAL/scripts/build_R17_sexpartite.py": "cae307bac96addf831b77ad2d74a4496ba6a92884b4def5635f16dd6d993f7fa"
+  },
+  "scaled_glb_sha256": "e87496222b897f5e7a5548e9dca4bf63d8b096073f2fddcd93c23862bf59678b"
+}
