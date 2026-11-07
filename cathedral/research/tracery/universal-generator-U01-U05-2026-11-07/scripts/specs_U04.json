@@ -1,0 +1,146 @@
+[
+ {
+  "id": "rose_12_cusped",
+  "type": "rose",
+  "title": "Rose / wheel window: 12 radiating bars, cusped hub, pointed heads, cusped circles (Rayonnant type, parametric)",
+  "units": "mm (parametric demonstration, not a survey)",
+  "mode": "bar",
+  "tolerance": 0.5,
+  "outline": {
+   "radius": 3000,
+   "frame": 220,
+   "centre": [
+    0,
+    3600
+   ]
+  },
+  "rose": {
+   "n": 12,
+   "band": 70,
+   "spring": 1720,
+   "arch_f": 1.0,
+   "spoke_phase_deg": 90,
+   "hub": {
+    "radius": 620,
+    "band": 90,
+    "foil": {
+     "n": 12,
+     "lobe_ratio": 1.15,
+     "orient": "cusp_out"
+    }
+   },
+   "circles": {
+    "band": 60,
+    "overlap": 30,
+    "foil": {
+     "n": 4,
+     "lobe_ratio": 1.2,
+     "orient": "cusp_out"
+    }
+   }
+  },
+  "fork_fill": 18,
+  "min_web": 45,
+  "section": {
+   "depth": 340,
+   "chamfer": 20
+  },
+  "wall": {
+   "margin": 600,
+   "depth": 900,
+   "recess": 250
+  },
+  "expect": {
+   "light": 12,
+   "foil": 13
+  }
+ },
+ {
+  "id": "bar_4light_recursive",
+  "title": "Bar tracery: 4 lights as 2 x 2 sub-windows, quatrefoil sub-oculi, octofoil head (Amiens type, parametric)",
+  "units": "mm (parametric demonstration, not a survey)",
+  "mode": "bar",
+  "tolerance": 0.5,
+  "outline": {
+   "arch": {
+    "type": "equilateral",
+    "span": 4400,
+    "spring": 5200,
+    "axis": 0
+   },
+   "frame": 200,
+   "sill": 0,
+   "sill_band": 240
+  },
+  "fill": {
+   "type": "lights",
+   "n": 2,
+   "band": 110,
+   "sub_arch": {
+    "type": "equilateral"
+   },
+   "children": [
+    {
+     "type": "lights",
+     "n": 2,
+     "band": 70,
+     "sub_arch": {
+      "type": "equilateral"
+     },
+     "head": {
+      "type": "oculus",
+      "band": 70,
+      "overlap": 35,
+      "foil": {
+       "n": 4,
+       "lobe_ratio": 1.2,
+       "orient": "cusp_up"
+      }
+     }
+    },
+    {
+     "type": "lights",
+     "n": 2,
+     "band": 70,
+     "sub_arch": {
+      "type": "equilateral"
+     },
+     "head": {
+      "type": "oculus",
+      "band": 70,
+      "overlap": 35,
+      "foil": {
+       "n": 4,
+       "lobe_ratio": 1.2,
+       "orient": "cusp_up"
+      }
+     }
+    }
+   ],
+   "head": {
+    "type": "oculus",
+    "band": 110,
+    "overlap": 55,
+    "foil": {
+     "n": 8,
+     "lobe_ratio": 1.25,
+     "orient": "lobe_up"
+    }
+   }
+  },
+  "fork_fill": 20,
+  "section": {
+   "depth": 280,
+   "chamfer": 30
+  },
+  "wall": {
+   "margin": 900,
+   "depth": 1000,
+   "recess": 300
+  },
+  "expect": {
+   "light": 4,
+   "foil": 3
+  }
+ }
+]

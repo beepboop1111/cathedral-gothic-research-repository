@@ -7,6 +7,7 @@
 Develop historically grounded, reproducible Gothic window and buttress tracery from source engravings through calibrated 2D vector construction to separately editable 3D stonework. Preserve the engraving, geometry provenance, explicit solid/void topology, construction parameters, and validation.
 
 ## Workstreams
+- [Universal generator U01–U05](universal-generator-U01-U05-2026-11-07/README.md): spec-driven construction, orders and mouldings, masonry jointing, rose window, tracery as its own masonry layer; full handoff, scripts, QA and next steps (experimental, 2026-11-07).
 - [Saint-Leu-d'Esserent Fig. 80](st-leu-fig80/README.md): wall, pointed enclosing arch, twin lancets, six-lobed oculus, inward-returning arch junctions, experimental V08 sweeps and historically attributed mullion section.
 - Ungewitter CXVIII Fig. 1205b: separate existing Phase 3A research; retain its source and unresolved a/b/c construction labels.
 - QF-001: earlier user-approved reusable quatrefoil construction, subject to actual file/baseline verification. Do not recreate or overwrite it.

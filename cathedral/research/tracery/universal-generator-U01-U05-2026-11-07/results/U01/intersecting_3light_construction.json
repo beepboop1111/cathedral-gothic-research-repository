@@ -1,0 +1,635 @@
+{
+ "version": "U01-experimental",
+ "id": "intersecting_3light",
+ "mode": "bar",
+ "units": "mm (parametric demonstration, not a survey)",
+ "calibrated": false,
+ "scale": 1.0,
+ "tolerance": 0.5,
+ "construction": {
+  "arches": {
+   "W": {
+    "jambs": [
+     -1350.0,
+     1350.0
+    ],
+    "CL": [
+     1350.0,
+     3400.0,
+     2700.0
+    ],
+    "CR": [
+     -1350.0,
+     3400.0,
+     2700.0
+    ],
+    "spring_l": [
+     -1350.0,
+     3400.0
+    ],
+    "spring_r": [
+     1350.0,
+     3400.0
+    ],
+    "apex": [
+     0.0,
+     5738.26859
+    ],
+    "span": 2700.0,
+    "r_over_span": 1.0
+   },
+   "outline": {
+    "jambs": [
+     -1500.0,
+     1500.0
+    ],
+    "CL": [
+     1350.0,
+     3400.0,
+     2850.0
+    ],
+    "CR": [
+     -1350.0,
+     3400.0,
+     2850.0
+    ],
+    "spring_l": [
+     -1500.0,
+     3400.0
+    ],
+    "spring_r": [
+     1500.0,
+     3400.0
+    ],
+    "apex": [
+     0.0,
+     5909.98008
+    ],
+    "span": 3000.0,
+    "r_over_span": 0.95
+   }
+  },
+  "circles": {
+   "W.M1r": {
+    "centre_line": [
+     2250.0,
+     3400.0,
+     2700.0
+    ],
+    "band": 65.0
+   },
+   "W.M1l": {
+    "centre_line": [
+     -3150.0,
+     3400.0,
+     2700.0
+    ],
+    "band": 65.0
+   },
+   "W.M2r": {
+    "centre_line": [
+     3150.0,
+     3400.0,
+     2700.0
+    ],
+    "band": 65.0
+   },
+   "W.M2l": {
+    "centre_line": [
+     -2250.0,
+     3400.0,
+     2700.0
+    ],
+    "band": 65.0
+   }
+  }
+ },
+ "members": [
+  {
+   "name": "frame",
+   "kind": "frame",
+   "area": 2504474.331305
+  },
+  {
+   "name": "W.M1",
+   "kind": "mullion",
+   "area": 442000.0
+  },
+  {
+   "name": "W.M1r",
+   "kind": "intersecting_arc",
+   "area": 314791.199009
+  },
+  {
+   "name": "W.M1l",
+   "kind": "intersecting_arc",
+   "area": 226287.541479
+  },
+  {
+   "name": "W.M2",
+   "kind": "mullion",
+   "area": 442000.0
+  },
+  {
+   "name": "W.M2r",
+   "kind": "intersecting_arc",
+   "area": 226287.541479
+  },
+  {
+   "name": "W.M2l",
+   "kind": "intersecting_arc",
+   "area": 314791.199009
+  }
+ ],
+ "junctions": [
+  {
+   "a": "frame",
+   "b": "W.M1",
+   "type": "shared_edge"
+  },
+  {
+   "a": "frame",
+   "b": "W.M1r",
+   "type": "overlap"
+  },
+  {
+   "a": "frame",
+   "b": "W.M1l",
+   "type": "overlap"
+  },
+  {
+   "a": "frame",
+   "b": "W.M2",
+   "type": "shared_edge"
+  },
+  {
+   "a": "frame",
+   "b": "W.M2r",
+   "type": "overlap"
+  },
+  {
+   "a": "frame",
+   "b": "W.M2l",
+   "type": "overlap"
+  },
+  {
+   "a": "W.M1",
+   "b": "W.M1r",
+   "type": "shared_edge"
+  },
+  {
+   "a": "W.M1",
+   "b": "W.M1l",
+   "type": "shared_edge"
+  },
+  {
+   "a": "W.M1r",
+   "b": "W.M1l",
+   "type": "overlap"
+  },
+  {
+   "a": "W.M1r",
+   "b": "W.M2l",
+   "type": "overlap"
+  },
+  {
+   "a": "W.M2",
+   "b": "W.M2r",
+   "type": "shared_edge"
+  },
+  {
+   "a": "W.M2",
+   "b": "W.M2l",
+   "type": "shared_edge"
+  },
+  {
+   "a": "W.M2r",
+   "b": "W.M2l",
+   "type": "overlap"
+  }
+ ],
+ "openings": [
+  {
+   "id": "W.L1",
+   "role": "light",
+   "area": 3648949.569006,
+   "centroid": [
+    -932.736948,
+    2197.900078
+   ],
+   "bounds": [
+    -1350.0,
+    0.0,
+    -515.0,
+    4832.345495
+   ]
+  },
+  {
+   "id": "W.L2",
+   "role": "light",
+   "area": 3332010.214197,
+   "centroid": [
+    -0.0,
+    2175.600333
+   ],
+   "bounds": [
+    -385.0,
+    0.0,
+    385.0,
+    4771.022142
+   ]
+  },
+  {
+   "id": "W.L3",
+   "role": "light",
+   "area": 3648949.569006,
+   "centroid": [
+    932.736948,
+    2197.900078
+   ],
+   "bounds": [
+    515.0,
+    0.0,
+    1350.0,
+    4832.345495
+   ]
+  },
+  {
+   "id": "E01",
+   "role": "eye",
+   "area": 287181.467433,
+   "centroid": [
+    -0.0,
+    5412.471715
+   ],
+   "bounds": [
+    -400.683141,
+    5006.28279,
+    400.683141,
+    5738.26859
+   ]
+  },
+  {
+   "id": "E02",
+   "role": "eye",
+   "area": 486809.399735,
+   "centroid": [
+    -466.164059,
+    4809.45387
+   ],
+   "bounds": [
+    -860.518862,
+    4039.789632,
+    -78.230751,
+    5367.893473
+   ]
+  },
+  {
+   "id": "E03",
+   "role": "eye",
+   "area": 486809.399735,
+   "centroid": [
+    466.164059,
+    4809.45387
+   ],
+   "bounds": [
+    78.230751,
+    4039.789632,
+    860.518862,
+    5367.893473
+   ]
+  }
+ ],
+ "roles": {
+  "light": 3,
+  "eye": 3
+ },
+ "web": {
+  "min": 129.504923,
+  "between": [
+   "E01",
+   "E03"
+  ],
+  "required": 61.0
+ },
+ "corrections": [
+  {
+   "type": "fork_tip_filled",
+   "area": 451.588,
+   "at": [
+    450.0,
+    4659.718
+   ]
+  },
+  {
+   "type": "fork_tip_filled",
+   "area": 451.588,
+   "at": [
+    -450.0,
+    4659.718
+   ]
+  }
+ ],
+ "section": {
+  "depth": 220.0,
+  "chamfer_used": 30.0,
+  "chamfer_per_opening": {
+   "W.L1": 30.0,
+   "W.L2": 30.0,
+   "W.L3": 30.0,
+   "E01": 30.0,
+   "E02": 30.0,
+   "E03": 30.0
+  },
+  "recess": 240.0
+ },
+ "stone_face_area": 4269392.69108,
+ "parts": {
+  "stone": {
+   "vertices": 898,
+   "faces": 1816,
+   "watertight": true,
+   "winding_consistent": true,
+   "volume": 902633854.3652276,
+   "nonmanifold_edges": 0,
+   "degenerate_faces": 0,
+   "unreferenced_vertices": 0,
+   "bodies": 1,
+   "euler": -10,
+   "bounds": [
+    [
+     -1500.0,
+     -200.0,
+     -460.0
+    ],
+    [
+     1500.0,
+     5909.98008,
+     -240.0
+    ]
+   ],
+   "bounds_blender": [
+    [
+     -1500.0,
+     240.0,
+     -200.0
+    ],
+    [
+     1500.0,
+     460.0,
+     5909.98008
+    ]
+   ]
+  },
+  "wall": {
+   "vertices": 130,
+   "faces": 260,
+   "watertight": true,
+   "winding_consistent": true,
+   "volume": 14351238534.04702,
+   "nonmanifold_edges": 0,
+   "degenerate_faces": 0,
+   "unreferenced_vertices": 0,
+   "bodies": 1,
+   "euler": 0,
+   "bounds": [
+    [
+     -2200.0,
+     -900.0,
+     -850.0
+    ],
+    [
+     2200.0,
+     6609.98008,
+     0.0
+    ]
+   ],
+   "bounds_blender": [
+    [
+     -2200.0,
+     -0.0,
+     -900.0
+    ],
+    [
+     2200.0,
+     850.0,
+     6609.98008
+    ]
+   ]
+  },
+  "glass": {
+   "vertices": 382,
+   "faces": 740,
+   "watertight": true,
+   "winding_consistent": true,
+   "volume": 104560345.99929361,
+   "nonmanifold_edges": 0,
+   "degenerate_faces": 0,
+   "unreferenced_vertices": 0,
+   "bodies": 6,
+   "euler": 12,
+   "bounds": [
+    [
+     -1349.78,
+     0.22,
+     -354.4
+    ],
+    [
+     1349.78,
+     5738.011738,
+     -345.6
+    ]
+   ],
+   "bounds_blender": [
+    [
+     -1349.78,
+     345.6,
+     0.22
+    ],
+    [
+     1349.78,
+     354.4,
+     5738.011738
+    ]
+   ]
+  }
+ },
+ "checks": [
+  {
+   "kind": "geometric",
+   "name": "W intrados: springings and apex lie on their circles",
+   "ok": true,
+   "detail": "value=4.55e-13 limit=2.7e-06"
+  },
+  {
+   "kind": "geometric",
+   "name": "W intrados: apex between jambs",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "outline: springings and apex lie on their circles",
+   "ok": true,
+   "detail": "value=0 limit=3e-06"
+  },
+  {
+   "kind": "geometric",
+   "name": "outline: apex between jambs",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "architectural",
+   "name": "seed W.L1 (light) lies in an opening",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "architectural",
+   "name": "seed W.L2 (light) lies in an opening",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "architectural",
+   "name": "seed W.L3 (light) lies in an opening",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "stone is one connected region",
+   "ok": true,
+   "detail": "value=1 limit=1"
+  },
+  {
+   "kind": "geometric",
+   "name": "openings have no stone islands",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "opening outlines clean: no micro-edges, spikes or self-touching (none; 2 overlay artefact vertices removed)",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "stone holes == openings",
+   "ok": true,
+   "detail": "value=6 limit=6"
+  },
+  {
+   "kind": "geometric",
+   "name": "openings enclosed by stone",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "architectural",
+   "name": "expected 3 x light",
+   "ok": true,
+   "detail": "value=3 limit=3"
+  },
+  {
+   "kind": "architectural",
+   "name": "minimum stone web 129.505 between E01 / E03",
+   "ok": true,
+   "detail": "value=130 limit=61"
+  },
+  {
+   "kind": "architectural",
+   "name": "member/junction graph connected",
+   "ok": true,
+   "detail": "value=1 limit=1"
+  },
+  {
+   "kind": "geometric",
+   "name": "no empty members",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "front cap triangulation area == stone face area",
+   "ok": true,
+   "detail": "value=4.66e-10 limit=0.00304"
+  },
+  {
+   "kind": "architectural",
+   "name": "tracery sits within wall depth",
+   "ok": true,
+   "detail": "value=460 limit=850"
+  },
+  {
+   "kind": "geometric",
+   "name": "stone: watertight, consistent winding, outward volume",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "geometric",
+   "name": "stone: 0 nonmanifold edges / degenerate faces / loose vertices",
+   "ok": true,
+   "detail": "0/0/0"
+  },
+  {
+   "kind": "geometric",
+   "name": "stone: one body, genus = openings (6)",
+   "ok": true,
+   "detail": "bodies=1 euler=-10"
+  },
+  {
+   "kind": "geometric",
+   "name": "wall: watertight, consistent winding, outward volume",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "geometric",
+   "name": "wall: 0 nonmanifold edges / degenerate faces / loose vertices",
+   "ok": true,
+   "detail": "0/0/0"
+  },
+  {
+   "kind": "geometric",
+   "name": "wall: one body, genus = openings (1)",
+   "ok": true,
+   "detail": "bodies=1 euler=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "chamfered volume within 5% of analytic removal",
+   "ok": true,
+   "detail": "removed=3.66325e+07 est=3.68629e+07"
+  },
+  {
+   "kind": "technical",
+   "name": "GLB export -> reload: counts and bounds unchanged",
+   "ok": true,
+   "detail": "stone:ok wall:ok glass:ok"
+  },
+  {
+   "kind": "technical",
+   "name": "rebuild is bit-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "technical",
+   "name": "reordered spec keys: same opening IDs + mesh",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "geometric",
+   "name": "exact 2x: IDs kept, area x4, vertices x2",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "title": "Intersecting (Y) tracery: 3 lights, arcs concentric with the main arch (parametric)",
+ "stone_hash": "710ce613d26d6e4576fe18ad952e013fc2b47dcfc74942b9fcc284a76e507f37"
+}

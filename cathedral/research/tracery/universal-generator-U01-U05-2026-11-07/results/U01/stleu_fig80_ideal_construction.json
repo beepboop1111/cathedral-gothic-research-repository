@@ -1,0 +1,509 @@
+{
+ "version": "U01-experimental",
+ "id": "stleu_fig80_ideal",
+ "mode": "plate",
+ "units": "source px of 545x825 engraving; Z = 778 - row",
+ "calibrated": false,
+ "scale": 1.0,
+ "tolerance": 0.02,
+ "construction": {
+  "arches": {
+   "outline": {
+    "jambs": [
+     52.78,
+     487.1
+    ],
+    "CL": [
+     769.635,
+     150.55,
+     755.005
+    ],
+    "CR": [
+     -229.755,
+     150.55,
+     755.005
+    ],
+    "spring_l": [
+     52.78,
+     387.512991
+    ],
+    "spring_r": [
+     487.1,
+     387.512991
+    ],
+    "apex": [
+     269.94,
+     716.533619
+    ],
+    "span": 434.32,
+    "r_over_span": 1.738361
+   },
+   "L1": {
+    "jambs": [
+     98.18,
+     245.67
+    ],
+    "CL": [
+     277.7,
+     347.45,
+     184.01
+    ],
+    "CR": [
+     66.15,
+     347.45,
+     184.01
+    ],
+    "spring_l": [
+     98.18,
+     387.85111
+    ],
+    "spring_r": [
+     245.67,
+     387.85111
+    ],
+    "apex": [
+     171.925,
+     498.020015
+    ],
+    "span": 147.49,
+    "r_over_span": 1.24761
+   },
+   "L2": {
+    "jambs": [
+     294.21,
+     441.7
+    ],
+    "CL": [
+     473.73,
+     347.45,
+     184.01
+    ],
+    "CR": [
+     262.18,
+     347.45,
+     184.01
+    ],
+    "spring_l": [
+     294.21,
+     387.85111
+    ],
+    "spring_r": [
+     441.7,
+     387.85111
+    ],
+    "apex": [
+     367.955,
+     498.020015
+    ],
+    "span": 147.49,
+    "r_over_span": 1.24761
+   }
+  },
+  "circles": {
+   "F1": [
+    [
+     269.55,
+     565.58,
+     38.48
+    ],
+    [
+     320.0,
+     565.58,
+     20.615
+    ],
+    [
+     294.775,
+     609.270982,
+     20.615
+    ],
+    [
+     244.325,
+     609.270982,
+     20.615
+    ],
+    [
+     219.1,
+     565.58,
+     20.615
+    ],
+    [
+     244.325,
+     521.889018,
+     20.615
+    ],
+    [
+     294.775,
+     521.889018,
+     20.615
+    ]
+   ]
+  }
+ },
+ "members": [],
+ "junctions": [],
+ "openings": [
+  {
+   "id": "L1",
+   "role": "light",
+   "area": 67523.773959,
+   "centroid": [
+    171.925,
+    229.86188
+   ],
+   "bounds": [
+    98.18,
+    0.0,
+    245.67,
+    498.020015
+   ]
+  },
+  {
+   "id": "L2",
+   "role": "light",
+   "area": 67523.773959,
+   "centroid": [
+    367.955,
+    229.86188
+   ],
+   "bounds": [
+    294.21,
+    0.0,
+    441.7,
+    498.020015
+   ]
+  },
+  {
+   "id": "F1",
+   "role": "foil",
+   "area": 11634.543855,
+   "centroid": [
+    269.55,
+    565.58
+   ],
+   "bounds": [
+    198.485,
+    501.274018,
+    340.615,
+    629.885982
+   ]
+  }
+ ],
+ "roles": {
+  "light": 2,
+  "foil": 1
+ },
+ "web": {
+  "min": 30.0,
+  "between": [
+   "L1",
+   "outline"
+  ],
+  "required": 2.44
+ },
+ "corrections": [],
+ "section": {
+  "depth": 12.0,
+  "chamfer_used": 1.2,
+  "chamfer_per_opening": {
+   "L1": 1.2,
+   "L2": 1.2,
+   "F1": 1.2
+  },
+  "recess": 9.0
+ },
+ "stone_face_area": 119903.936637,
+ "parts": {
+  "stone": {
+   "vertices": 2018,
+   "faces": 4044,
+   "watertight": true,
+   "winding_consistent": true,
+   "volume": 1434464.2692509887,
+   "nonmanifold_edges": 0,
+   "degenerate_faces": 0,
+   "unreferenced_vertices": 0,
+   "bodies": 1,
+   "euler": -4,
+   "bounds": [
+    [
+     52.78,
+     -30.0,
+     -21.0
+    ],
+    [
+     487.1,
+     716.533619,
+     -9.0
+    ]
+   ],
+   "bounds_blender": [
+    [
+     52.78,
+     9.0,
+     -30.0
+    ],
+    [
+     487.1,
+     21.0,
+     716.533619
+    ]
+   ]
+  },
+  "wall": {
+   "vertices": 162,
+   "faces": 324,
+   "watertight": true,
+   "winding_consistent": true,
+   "volume": 4755502.275770094,
+   "nonmanifold_edges": 0,
+   "degenerate_faces": 0,
+   "unreferenced_vertices": 0,
+   "bodies": 1,
+   "euler": 0,
+   "bounds": [
+    [
+     12.78,
+     -70.0,
+     -30.0
+    ],
+    [
+     527.1,
+     756.533619,
+     0.0
+    ]
+   ],
+   "bounds_blender": [
+    [
+     12.78,
+     -0.0,
+     -70.0
+    ],
+    [
+     527.1,
+     30.0,
+     756.533619
+    ]
+   ]
+  },
+  "glass": {
+   "vertices": 976,
+   "faces": 1940,
+   "watertight": true,
+   "winding_consistent": true,
+   "volume": 70389.89450945555,
+   "nonmanifold_edges": 0,
+   "degenerate_faces": 0,
+   "unreferenced_vertices": 0,
+   "bodies": 3,
+   "euler": 6,
+   "bounds": [
+    [
+     98.192,
+     0.012,
+     -15.24
+    ],
+    [
+     441.688,
+     629.87397,
+     -14.76
+    ]
+   ],
+   "bounds_blender": [
+    [
+     98.192,
+     14.76,
+     0.012
+    ],
+    [
+     441.688,
+     15.24,
+     629.87397
+    ]
+   ]
+  }
+ },
+ "checks": [
+  {
+   "kind": "geometric",
+   "name": "outline: springings and apex lie on their circles",
+   "ok": true,
+   "detail": "value=1.14e-13 limit=4.34e-07"
+  },
+  {
+   "kind": "geometric",
+   "name": "outline: apex between jambs",
+   "ok": true,
+   "detail": "value=270 limit=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "L1: springings and apex lie on their circles",
+   "ok": true,
+   "detail": "value=0 limit=1.47e-07"
+  },
+  {
+   "kind": "geometric",
+   "name": "L1: apex between jambs",
+   "ok": true,
+   "detail": "value=172 limit=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "L2: springings and apex lie on their circles",
+   "ok": true,
+   "detail": "value=2.84e-14 limit=1.47e-07"
+  },
+  {
+   "kind": "geometric",
+   "name": "L2: apex between jambs",
+   "ok": true,
+   "detail": "value=368 limit=0"
+  },
+  {
+   "kind": "architectural",
+   "name": "seed L1 (light) lies in an opening",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "architectural",
+   "name": "seed L2 (light) lies in an opening",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "architectural",
+   "name": "seed F1 (foil) lies in an opening",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "stone is one connected region",
+   "ok": true,
+   "detail": "value=1 limit=1"
+  },
+  {
+   "kind": "geometric",
+   "name": "openings have no stone islands",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "opening outlines clean: no micro-edges, spikes or self-touching (none; 0 overlay artefact vertices removed)",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "stone holes == openings",
+   "ok": true,
+   "detail": "value=3 limit=3"
+  },
+  {
+   "kind": "geometric",
+   "name": "openings enclosed by stone",
+   "ok": true,
+   "detail": "value=0 limit=0"
+  },
+  {
+   "kind": "architectural",
+   "name": "expected 2 x light",
+   "ok": true,
+   "detail": "value=2 limit=2"
+  },
+  {
+   "kind": "architectural",
+   "name": "expected 1 x foil",
+   "ok": true,
+   "detail": "value=1 limit=1"
+  },
+  {
+   "kind": "architectural",
+   "name": "minimum stone web 30.000 between L1 / outline",
+   "ok": true,
+   "detail": "value=30 limit=2.44"
+  },
+  {
+   "kind": "geometric",
+   "name": "front cap triangulation area == stone face area",
+   "ok": true,
+   "detail": "value=-2.76e-10 limit=0.000116"
+  },
+  {
+   "kind": "architectural",
+   "name": "tracery sits within wall depth",
+   "ok": true,
+   "detail": "value=21 limit=30"
+  },
+  {
+   "kind": "geometric",
+   "name": "stone: watertight, consistent winding, outward volume",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "geometric",
+   "name": "stone: 0 nonmanifold edges / degenerate faces / loose vertices",
+   "ok": true,
+   "detail": "0/0/0"
+  },
+  {
+   "kind": "geometric",
+   "name": "stone: one body, genus = openings (3)",
+   "ok": true,
+   "detail": "bodies=1 euler=-4"
+  },
+  {
+   "kind": "geometric",
+   "name": "wall: watertight, consistent winding, outward volume",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "geometric",
+   "name": "wall: 0 nonmanifold edges / degenerate faces / loose vertices",
+   "ok": true,
+   "detail": "0/0/0"
+  },
+  {
+   "kind": "geometric",
+   "name": "wall: one body, genus = openings (1)",
+   "ok": true,
+   "detail": "bodies=1 euler=0"
+  },
+  {
+   "kind": "geometric",
+   "name": "chamfered volume within 5% of analytic removal",
+   "ok": true,
+   "detail": "removed=4382.97 est=4385.43"
+  },
+  {
+   "kind": "technical",
+   "name": "GLB export -> reload: counts and bounds unchanged",
+   "ok": true,
+   "detail": "stone:ok wall:ok glass:ok"
+  },
+  {
+   "kind": "technical",
+   "name": "rebuild is bit-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "technical",
+   "name": "reordered spec keys: same opening IDs + mesh",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "geometric",
+   "name": "exact 2x: IDs kept, area x4, vertices x2",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "title": "Saint-Leu Fig. 80 - construction hypothesis: symmetric arches + regular sixfold foil",
+ "stone_hash": "40e18a36804aec5d3ca896c202e80bb1316fdd9b9be7c43d751d14c584a658e6"
+}

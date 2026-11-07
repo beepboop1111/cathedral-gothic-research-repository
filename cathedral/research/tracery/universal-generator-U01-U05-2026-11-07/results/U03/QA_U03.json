@@ -1,0 +1,9925 @@
+{
+ "version": "U03-experimental",
+ "models": {
+  "stleu_fig80_rebuild": {
+   "id": "stleu_fig80_rebuild",
+   "units": "source px of 545x825 engraving; Z = 778 - row",
+   "joints": {
+    "note": "trial, source px",
+    "joint_width": 0.4,
+    "course": 75,
+    "voussoir": 60,
+    "min_block": 25,
+    "keepout": 15
+   },
+   "joint_kinds": {
+    "bed": 6,
+    "ray": 4
+   },
+   "notes": [],
+   "blocks": 20,
+   "frame_blocks": 0,
+   "largest": 434.32,
+   "smallest_short": 29.8,
+   "checks": [
+    {
+     "kind": "geometric",
+     "name": "construction/topology checks (17/17)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "blocks + open joints account for the U02 stone (residual 0.00168, slivers 0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "4 radial joints pass through their arc centres (max offset 0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "no voussoir/ring joint inside a junction keep-out zone (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "largest block 434.3 <= max stone length 1e+18",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "every stone triangulated with full order/moulding linework (0 fallbacks)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "risers consistent: order surfaces never cross along a step (0 violations)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order regions tile the U01 stone (sym. diff 0; hairline slivers removed 0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order depths step back monotonically",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 0: separate stones share no edges (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order 0: deepest moulding 2.5 < half-depth 6",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 0: front triangulation covers its region (rel. err 0 <= merge bound 1.7e-05)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: deepest order sits within the wall",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "wall: closed, one body",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "all 20 stones: watertight, consistent winding, one body, genus = holes, 0 nonmanifold/degenerate, volume within section bounds",
+     "ok": true,
+     "detail": "[]"
+    },
+    {
+     "kind": "technical",
+     "name": "GLB export -> reload: counts and bounds unchanged",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "technical",
+     "name": "rebuild is bit-identical",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "parts": {
+    "stone_P001": {
+     "vertices": 272,
+     "faces": 540,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 79597.23069143096,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       213.978118,
+       602.989754,
+       -21.0
+      ],
+      [
+       327.397632,
+       716.533618,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       213.978118,
+       9.0,
+       602.989754
+      ],
+      [
+       327.397632,
+       21.0,
+       716.533618
+      ]
+     ]
+    },
+    "stone_P002": {
+     "vertices": 256,
+     "faces": 508,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 53138.57135178471,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       300.791011,
+       564.652442,
+       -21.0
+      ],
+      [
+       401.53472,
+       659.732763,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       300.791011,
+       9.0,
+       564.652442
+      ],
+      [
+       401.53472,
+       21.0,
+       659.732763
+      ]
+     ]
+    },
+    "stone_P003": {
+     "vertices": 270,
+     "faces": 536,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 55804.88556855075,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       136.714533,
+       562.182783,
+       -21.0
+      ],
+      [
+       239.760562,
+       661.375631,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       136.714533,
+       9.0,
+       562.182783
+      ],
+      [
+       239.760562,
+       21.0,
+       661.375631
+      ]
+     ]
+    },
+    "stone_P004": {
+     "vertices": 1198,
+     "faces": 2392,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 461442.032008986,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       52.78,
+       372.991344,
+       -21.0
+      ],
+      [
+       487.1,
+       564.512382,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       52.78,
+       9.0,
+       372.991344
+      ],
+      [
+       487.1,
+       21.0,
+       564.512382
+      ]
+     ]
+    },
+    "stone_P005": {
+     "vertices": 12,
+     "faces": 20,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 39937.864162240025,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       52.78,
+       298.433075,
+       -21.0
+      ],
+      [
+       98.18,
+       372.591344,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       52.78,
+       9.0,
+       298.433075
+      ],
+      [
+       98.18,
+       21.0,
+       372.591344
+      ]
+     ]
+    },
+    "stone_P006": {
+     "vertices": 16,
+     "faces": 28,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 42259.60507503466,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       245.67,
+       298.433075,
+       -21.0
+      ],
+      [
+       294.2,
+       372.591344,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       245.67,
+       9.0,
+       298.433075
+      ],
+      [
+       294.2,
+       21.0,
+       372.591344
+      ]
+     ]
+    },
+    "stone_P007": {
+     "vertices": 12,
+     "faces": 20,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 39946.76313782941,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       441.69,
+       298.433075,
+       -21.0
+      ],
+      [
+       487.1,
+       372.591344,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       441.69,
+       9.0,
+       298.433075
+      ],
+      [
+       487.1,
+       21.0,
+       372.591344
+      ]
+     ]
+    },
+    "stone_P008": {
+     "vertices": 12,
+     "faces": 20,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 39937.86416224001,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       52.78,
+       223.874806,
+       -21.0
+      ],
+      [
+       98.18,
+       298.033075,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       52.78,
+       9.0,
+       223.874806
+      ],
+      [
+       98.18,
+       21.0,
+       298.033075
+      ]
+     ]
+    },
+    "stone_P009": {
+     "vertices": 16,
+     "faces": 28,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 42259.60507503464,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       245.67,
+       223.874806,
+       -21.0
+      ],
+      [
+       294.2,
+       298.033075,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       245.67,
+       9.0,
+       223.874806
+      ],
+      [
+       294.2,
+       21.0,
+       298.033075
+      ]
+     ]
+    },
+    "stone_P010": {
+     "vertices": 12,
+     "faces": 20,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 39946.76313782941,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       441.69,
+       223.874806,
+       -21.0
+      ],
+      [
+       487.1,
+       298.033075,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       441.69,
+       9.0,
+       223.874806
+      ],
+      [
+       487.1,
+       21.0,
+       298.033075
+      ]
+     ]
+    },
+    "stone_P011": {
+     "vertices": 12,
+     "faces": 20,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 39937.864162240025,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       52.78,
+       149.316538,
+       -21.0
+      ],
+      [
+       98.18,
+       223.474806,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       52.78,
+       9.0,
+       149.316538
+      ],
+      [
+       98.18,
+       21.0,
+       223.474806
+      ]
+     ]
+    },
+    "stone_P012": {
+     "vertices": 16,
+     "faces": 28,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 42259.60507503466,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       245.67,
+       149.316538,
+       -21.0
+      ],
+      [
+       294.2,
+       223.474806,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       245.67,
+       9.0,
+       149.316538
+      ],
+      [
+       294.2,
+       21.0,
+       223.474806
+      ]
+     ]
+    },
+    "stone_P013": {
+     "vertices": 12,
+     "faces": 20,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 39946.76313782949,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       441.69,
+       149.316538,
+       -21.0
+      ],
+      [
+       487.1,
+       223.474806,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       441.69,
+       9.0,
+       149.316538
+      ],
+      [
+       487.1,
+       21.0,
+       223.474806
+      ]
+     ]
+    },
+    "stone_P014": {
+     "vertices": 12,
+     "faces": 20,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 39937.86416224001,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       52.78,
+       74.758269,
+       -21.0
+      ],
+      [
+       98.18,
+       148.916538,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       52.78,
+       9.0,
+       74.758269
+      ],
+      [
+       98.18,
+       21.0,
+       148.916538
+      ]
+     ]
+    },
+    "stone_P015": {
+     "vertices": 16,
+     "faces": 28,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 42259.60507503464,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       245.67,
+       74.758269,
+       -21.0
+      ],
+      [
+       294.2,
+       148.916538,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       245.67,
+       9.0,
+       74.758269
+      ],
+      [
+       294.2,
+       21.0,
+       148.916538
+      ]
+     ]
+    },
+    "stone_P016": {
+     "vertices": 12,
+     "faces": 20,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 39946.76313782941,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       441.69,
+       74.758269,
+       -21.0
+      ],
+      [
+       487.1,
+       148.916538,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       441.69,
+       9.0,
+       74.758269
+      ],
+      [
+       487.1,
+       21.0,
+       148.916538
+      ]
+     ]
+    },
+    "stone_P017": {
+     "vertices": 12,
+     "faces": 20,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 39937.86416224,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       52.78,
+       0.2,
+       -21.0
+      ],
+      [
+       98.18,
+       74.358269,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       52.78,
+       9.0,
+       0.2
+      ],
+      [
+       98.18,
+       21.0,
+       74.358269
+      ]
+     ]
+    },
+    "stone_P018": {
+     "vertices": 16,
+     "faces": 28,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 42259.60507503464,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       245.67,
+       0.2,
+       -21.0
+      ],
+      [
+       294.2,
+       74.358269,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       245.67,
+       9.0,
+       0.2
+      ],
+      [
+       294.2,
+       21.0,
+       74.358269
+      ]
+     ]
+    },
+    "stone_P019": {
+     "vertices": 12,
+     "faces": 20,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 39946.76313782941,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       441.69,
+       0.2,
+       -21.0
+      ],
+      [
+       487.1,
+       74.358269,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       441.69,
+       9.0,
+       0.2
+      ],
+      [
+       487.1,
+       21.0,
+       74.358269
+      ]
+     ]
+    },
+    "stone_P020": {
+     "vertices": 24,
+     "faces": 44,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 155312.83200000002,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       52.78,
+       -30.0,
+       -21.0
+      ],
+      [
+       487.1,
+       -0.2,
+       -9.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       52.78,
+       9.0,
+       -30.0
+      ],
+      [
+       487.1,
+       21.0,
+       -0.2
+      ]
+     ]
+    },
+    "wall": {
+     "vertices": 162,
+     "faces": 324,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 4755502.2629025625,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 0,
+     "bounds": [
+      [
+       12.78,
+       -70.0,
+       -30.0
+      ],
+      [
+       527.1,
+       756.533618,
+       0.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       12.78,
+       -0.0,
+       -70.0
+      ],
+      [
+       527.1,
+       30.0,
+       756.533618
+      ]
+     ]
+    },
+    "glass": {
+     "vertices": 964,
+     "faces": 1916,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 52805.39421883565,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 3,
+     "euler": 6,
+     "bounds": [
+      [
+       98.18036,
+       0.00036,
+       -15.18
+      ],
+      [
+       441.68964,
+       630.03964,
+       -14.82
+      ]
+     ],
+     "bounds_blender": [
+      [
+       98.18036,
+       14.82,
+       0.00036
+      ],
+      [
+       441.68964,
+       15.18,
+       630.03964
+      ]
+     ]
+    }
+   }
+  },
+  "bar_2light_sexfoil": {
+   "id": "bar_2light_sexfoil",
+   "units": "mm (parametric demonstration, not a survey)",
+   "joints": {
+    "note": "trial, mm",
+    "joint_width": 6,
+    "course": 420,
+    "voussoir": 520,
+    "min_block": 220,
+    "keepout": 120,
+    "sill_max": 2400,
+    "max_block": 2500
+   },
+   "joint_kinds": {
+    "bed": 20,
+    "voussoir": 11,
+    "crown": 1,
+    "sill": 1,
+    "ring": 2
+   },
+   "notes": [
+    "W.L1: mirrored joint blocked (asymmetric)"
+   ],
+   "blocks": 61,
+   "frame_blocks": 28,
+   "largest": 1820.444388,
+   "smallest_short": 80.0,
+   "checks": [
+    {
+     "kind": "geometric",
+     "name": "construction/topology checks (24/24)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "blocks + open joints account for the U02 stone (residual 2.62e-09, slivers 0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "13 radial joints pass through their arc centres (max offset 5.8e-12)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "no voussoir/ring joint inside a junction keep-out zone (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "largest block 1820 <= max stone length 2500",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "every stone triangulated with full order/moulding linework (0 fallbacks)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "risers consistent: order surfaces never cross along a step (0 violations)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order regions tile the U01 stone (sym. diff 2.72; hairline slivers removed 2.72)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order depths step back monotonically",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 0: separate stones share no edges (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 1: separate stones share no edges (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 2: separate stones share no edges (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order 0: deepest moulding 45 < half-depth 150",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 0: front triangulation covers its region (rel. err 1.3e-15 <= merge bound 0.00012)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order 1: deepest moulding 30 < half-depth 120",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 1: front triangulation covers its region (rel. err 7.8e-16 <= merge bound 0.00021)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order 2: deepest moulding 16 < half-depth 90",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 2: front triangulation covers its region (rel. err 5.9e-16 <= merge bound 0.00049)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: deepest order sits within the wall",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "wall: closed, one body",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "all 61 stones: watertight, consistent winding, one body, genus = holes, 0 nonmanifold/degenerate, volume within section bounds",
+     "ok": true,
+     "detail": "[]"
+    },
+    {
+     "kind": "technical",
+     "name": "GLB export -> reload: counts and bounds unchanged",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "technical",
+     "name": "rebuild is bit-identical",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "parts": {
+    "stone_F001": {
+     "vertices": 304,
+     "faces": 604,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 56920058.74521464,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -958.218308,
+       4890.337831,
+       -550.0
+      ],
+      [
+       -3.0,
+       5859.659928,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -958.218308,
+       250.0,
+       4890.337831
+      ],
+      [
+       -3.0,
+       550.0,
+       5859.659928
+      ]
+     ]
+    },
+    "stone_F002": {
+     "vertices": 300,
+     "faces": 596,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 56920077.53505233,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       3.0,
+       4890.337831,
+       -550.0
+      ],
+      [
+       958.218308,
+       5859.659928,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       3.0,
+       250.0,
+       4890.337831
+      ],
+      [
+       958.218308,
+       550.0,
+       5859.659928
+      ]
+     ]
+    },
+    "stone_F003": {
+     "vertices": 168,
+     "faces": 332,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 20443705.905531574,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1178.235403,
+       4487.517923,
+       -550.0
+      ],
+      [
+       -826.728864,
+       4970.980932,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1178.235403,
+       250.0,
+       4487.517923
+      ],
+      [
+       -826.728864,
+       550.0,
+       4970.980932
+      ]
+     ]
+    },
+    "stone_F004": {
+     "vertices": 168,
+     "faces": 332,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 20443705.905531544,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       826.728864,
+       4487.517923,
+       -550.0
+      ],
+      [
+       1178.235403,
+       4970.980932,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       826.728864,
+       250.0,
+       4487.517923
+      ],
+      [
+       1178.235403,
+       550.0,
+       4970.980932
+      ]
+     ]
+    },
+    "stone_F005": {
+     "vertices": 168,
+     "faces": 332,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 20441415.893716365,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1313.78882,
+       4053.329487,
+       -550.0
+      ],
+      [
+       -1031.6028,
+       4540.969409,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1313.78882,
+       250.0,
+       4053.329487
+      ],
+      [
+       -1031.6028,
+       550.0,
+       4540.969409
+      ]
+     ]
+    },
+    "stone_F006": {
+     "vertices": 168,
+     "faces": 332,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 20441415.89371634,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1031.6028,
+       4053.329487,
+       -550.0
+      ],
+      [
+       1313.78882,
+       4540.969409,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1031.6028,
+       250.0,
+       4053.329487
+      ],
+      [
+       1313.78882,
+       550.0,
+       4540.969409
+      ]
+     ]
+    },
+    "stone_F007": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 27752419.429213643,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       3483.0,
+       -550.0
+      ],
+      [
+       -1157.47798,
+       4077.495024,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       3483.0
+      ],
+      [
+       -1157.47798,
+       550.0,
+       4077.495024
+      ]
+     ]
+    },
+    "stone_F008": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 27752419.429213673,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1157.47798,
+       3483.0,
+       -550.0
+      ],
+      [
+       1360.0,
+       4077.495024,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1157.47798,
+       250.0,
+       3483.0
+      ],
+      [
+       1360.0,
+       550.0,
+       4077.495024
+      ]
+     ]
+    },
+    "stone_F009": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       3096.333333,
+       -550.0
+      ],
+      [
+       -1200.0,
+       3477.0,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       3096.333333
+      ],
+      [
+       -1200.0,
+       550.0,
+       3477.0
+      ]
+     ]
+    },
+    "stone_F010": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1200.0,
+       3096.333333,
+       -550.0
+      ],
+      [
+       1360.0,
+       3477.0,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1200.0,
+       250.0,
+       3096.333333
+      ],
+      [
+       1360.0,
+       550.0,
+       3477.0
+      ]
+     ]
+    },
+    "stone_F011": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.00000002,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       2709.666667,
+       -550.0
+      ],
+      [
+       -1200.0,
+       3090.333333,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       2709.666667
+      ],
+      [
+       -1200.0,
+       550.0,
+       3090.333333
+      ]
+     ]
+    },
+    "stone_F012": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.00000002,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1200.0,
+       2709.666667,
+       -550.0
+      ],
+      [
+       1360.0,
+       3090.333333,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1200.0,
+       250.0,
+       2709.666667
+      ],
+      [
+       1360.0,
+       550.0,
+       3090.333333
+      ]
+     ]
+    },
+    "stone_F013": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       2323.0,
+       -550.0
+      ],
+      [
+       -1200.0,
+       2703.666667,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       2323.0
+      ],
+      [
+       -1200.0,
+       550.0,
+       2703.666667
+      ]
+     ]
+    },
+    "stone_F014": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1200.0,
+       2323.0,
+       -550.0
+      ],
+      [
+       1360.0,
+       2703.666667,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1200.0,
+       250.0,
+       2323.0
+      ],
+      [
+       1360.0,
+       550.0,
+       2703.666667
+      ]
+     ]
+    },
+    "stone_F015": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       1936.333333,
+       -550.0
+      ],
+      [
+       -1200.0,
+       2317.0,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       1936.333333
+      ],
+      [
+       -1200.0,
+       550.0,
+       2317.0
+      ]
+     ]
+    },
+    "stone_F016": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1200.0,
+       1936.333333,
+       -550.0
+      ],
+      [
+       1360.0,
+       2317.0,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1200.0,
+       250.0,
+       1936.333333
+      ],
+      [
+       1360.0,
+       550.0,
+       2317.0
+      ]
+     ]
+    },
+    "stone_F017": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       1549.666667,
+       -550.0
+      ],
+      [
+       -1200.0,
+       1930.333333,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       1549.666667
+      ],
+      [
+       -1200.0,
+       550.0,
+       1930.333333
+      ]
+     ]
+    },
+    "stone_F018": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1200.0,
+       1549.666667,
+       -550.0
+      ],
+      [
+       1360.0,
+       1930.333333,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1200.0,
+       250.0,
+       1549.666667
+      ],
+      [
+       1360.0,
+       550.0,
+       1930.333333
+      ]
+     ]
+    },
+    "stone_F019": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       1163.0,
+       -550.0
+      ],
+      [
+       -1200.0,
+       1543.666667,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       1163.0
+      ],
+      [
+       -1200.0,
+       550.0,
+       1543.666667
+      ]
+     ]
+    },
+    "stone_F020": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1200.0,
+       1163.0,
+       -550.0
+      ],
+      [
+       1360.0,
+       1543.666667,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1200.0,
+       250.0,
+       1163.0
+      ],
+      [
+       1360.0,
+       550.0,
+       1543.666667
+      ]
+     ]
+    },
+    "stone_F021": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       776.333333,
+       -550.0
+      ],
+      [
+       -1200.0,
+       1157.0,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       776.333333
+      ],
+      [
+       -1200.0,
+       550.0,
+       1157.0
+      ]
+     ]
+    },
+    "stone_F022": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1200.0,
+       776.333333,
+       -550.0
+      ],
+      [
+       1360.0,
+       1157.0,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1200.0,
+       250.0,
+       776.333333
+      ],
+      [
+       1360.0,
+       550.0,
+       1157.0
+      ]
+     ]
+    },
+    "stone_F023": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       389.666667,
+       -550.0
+      ],
+      [
+       -1200.0,
+       770.333333,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       389.666667
+      ],
+      [
+       -1200.0,
+       550.0,
+       770.333333
+      ]
+     ]
+    },
+    "stone_F024": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1200.0,
+       389.666667,
+       -550.0
+      ],
+      [
+       1360.0,
+       770.333333,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1200.0,
+       250.0,
+       389.666667
+      ],
+      [
+       1360.0,
+       550.0,
+       770.333333
+      ]
+     ]
+    },
+    "stone_F025": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       3.0,
+       -550.0
+      ],
+      [
+       -1200.0,
+       383.666667,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       3.0
+      ],
+      [
+       -1200.0,
+       550.0,
+       383.666667
+      ]
+     ]
+    },
+    "stone_F026": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18272000.0,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1200.0,
+       3.0,
+       -550.0
+      ],
+      [
+       1360.0,
+       383.666667,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1200.0,
+       250.0,
+       3.0
+      ],
+      [
+       1360.0,
+       550.0,
+       383.666667
+      ]
+     ]
+    },
+    "stone_F027": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 76137246.51726027,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1360.0,
+       -200.0,
+       -550.0
+      ],
+      [
+       -3.0,
+       -3.0,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1360.0,
+       250.0,
+       -200.0
+      ],
+      [
+       -3.0,
+       550.0,
+       -3.0
+      ]
+     ]
+    },
+    "stone_F028": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 76137246.51726027,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       3.0,
+       -200.0,
+       -550.0
+      ],
+      [
+       1360.0,
+       -3.0,
+       -250.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       3.0,
+       250.0,
+       -200.0
+      ],
+      [
+       1360.0,
+       550.0,
+       -3.0
+      ]
+     ]
+    },
+    "stone_T001": {
+     "vertices": 2986,
+     "faces": 5968,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 58744755.64875791,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -826.969828,
+       4042.782888,
+       -520.0
+      ],
+      [
+       -3.0,
+       5596.627402,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -826.969828,
+       280.0,
+       4042.782888
+      ],
+      [
+       -3.0,
+       520.0,
+       5596.627402
+      ]
+     ]
+    },
+    "stone_T002": {
+     "vertices": 3458,
+     "faces": 6912,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 66469727.29713812,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       3.0,
+       4042.782888,
+       -520.0
+      ],
+      [
+       1101.894562,
+       5596.627402,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       3.0,
+       280.0,
+       4042.782888
+      ],
+      [
+       1101.894562,
+       520.0,
+       5596.627402
+      ]
+     ]
+    },
+    "stone_T003": {
+     "vertices": 504,
+     "faces": 1004,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 7624950.073619813,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1101.894562,
+       4042.782888,
+       -520.0
+      ],
+      [
+       -775.955001,
+       4464.839714,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1101.894562,
+       280.0,
+       4042.782888
+      ],
+      [
+       -775.955001,
+       520.0,
+       4464.839714
+      ]
+     ]
+    },
+    "stone_T004": {
+     "vertices": 404,
+     "faces": 804,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11667495.4526582,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1200.0,
+       3483.0,
+       -520.0
+      ],
+      [
+       -1030.773064,
+       4068.64225,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1200.0,
+       280.0,
+       3483.0
+      ],
+      [
+       -1030.773064,
+       520.0,
+       4068.64225
+      ]
+     ]
+    },
+    "stone_T005": {
+     "vertices": 404,
+     "faces": 804,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11667495.452658167,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.773064,
+       3483.0,
+       -520.0
+      ],
+      [
+       1200.0,
+       4068.64225,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.773064,
+       280.0,
+       3483.0
+      ],
+      [
+       1200.0,
+       520.0,
+       4068.64225
+      ]
+     ]
+    },
+    "stone_T006": {
+     "vertices": 896,
+     "faces": 1788,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 20446090.18002194,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -169.226936,
+       3483.0,
+       -520.0
+      ],
+      [
+       169.226936,
+       4068.64225,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -169.226936,
+       280.0,
+       3483.0
+      ],
+      [
+       169.226936,
+       520.0,
+       4068.64225
+      ]
+     ]
+    },
+    "stone_T007": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.647605236,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1200.0,
+       3096.333333,
+       -520.0
+      ],
+      [
+       -1120.0,
+       3477.0,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1200.0,
+       280.0,
+       3096.333333
+      ],
+      [
+       -1120.0,
+       520.0,
+       3477.0
+      ]
+     ]
+    },
+    "stone_T008": {
+     "vertices": 112,
+     "faces": 220,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13585403.295210486,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -80.0,
+       3096.333333,
+       -520.0
+      ],
+      [
+       80.0,
+       3477.0,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -80.0,
+       280.0,
+       3096.333333
+      ],
+      [
+       80.0,
+       520.0,
+       3477.0
+      ]
+     ]
+    },
+    "stone_T009": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.64760524,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1120.0,
+       3096.333333,
+       -520.0
+      ],
+      [
+       1200.0,
+       3477.0,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1120.0,
+       280.0,
+       3096.333333
+      ],
+      [
+       1200.0,
+       520.0,
+       3477.0
+      ]
+     ]
+    },
+    "stone_T010": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.647605245,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1200.0,
+       2709.666667,
+       -520.0
+      ],
+      [
+       -1120.0,
+       3090.333333,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1200.0,
+       280.0,
+       2709.666667
+      ],
+      [
+       -1120.0,
+       520.0,
+       3090.333333
+      ]
+     ]
+    },
+    "stone_T011": {
+     "vertices": 112,
+     "faces": 220,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13585403.295210501,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -80.0,
+       2709.666667,
+       -520.0
+      ],
+      [
+       80.0,
+       3090.333333,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -80.0,
+       280.0,
+       2709.666667
+      ],
+      [
+       80.0,
+       520.0,
+       3090.333333
+      ]
+     ]
+    },
+    "stone_T012": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.647605221,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1120.0,
+       2709.666667,
+       -520.0
+      ],
+      [
+       1200.0,
+       3090.333333,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1120.0,
+       280.0,
+       2709.666667
+      ],
+      [
+       1200.0,
+       520.0,
+       3090.333333
+      ]
+     ]
+    },
+    "stone_T013": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.647605236,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1200.0,
+       2323.0,
+       -520.0
+      ],
+      [
+       -1120.0,
+       2703.666667,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1200.0,
+       280.0,
+       2323.0
+      ],
+      [
+       -1120.0,
+       520.0,
+       2703.666667
+      ]
+     ]
+    },
+    "stone_T014": {
+     "vertices": 112,
+     "faces": 220,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13585403.295210486,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -80.0,
+       2323.0,
+       -520.0
+      ],
+      [
+       80.0,
+       2703.666667,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -80.0,
+       280.0,
+       2323.0
+      ],
+      [
+       80.0,
+       520.0,
+       2703.666667
+      ]
+     ]
+    },
+    "stone_T015": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.64760524,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1120.0,
+       2323.0,
+       -520.0
+      ],
+      [
+       1200.0,
+       2703.666667,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1120.0,
+       280.0,
+       2323.0
+      ],
+      [
+       1200.0,
+       520.0,
+       2703.666667
+      ]
+     ]
+    },
+    "stone_T016": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.64760524,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1200.0,
+       1936.333333,
+       -520.0
+      ],
+      [
+       -1120.0,
+       2317.0,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1200.0,
+       280.0,
+       1936.333333
+      ],
+      [
+       -1120.0,
+       520.0,
+       2317.0
+      ]
+     ]
+    },
+    "stone_T017": {
+     "vertices": 112,
+     "faces": 220,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13585403.29521049,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -80.0,
+       1936.333333,
+       -520.0
+      ],
+      [
+       80.0,
+       2317.0,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -80.0,
+       280.0,
+       1936.333333
+      ],
+      [
+       80.0,
+       520.0,
+       2317.0
+      ]
+     ]
+    },
+    "stone_T018": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.647605251,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1120.0,
+       1936.333333,
+       -520.0
+      ],
+      [
+       1200.0,
+       2317.0,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1120.0,
+       280.0,
+       1936.333333
+      ],
+      [
+       1200.0,
+       520.0,
+       2317.0
+      ]
+     ]
+    },
+    "stone_T019": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.647605236,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1200.0,
+       1549.666667,
+       -520.0
+      ],
+      [
+       -1120.0,
+       1930.333333,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1200.0,
+       280.0,
+       1549.666667
+      ],
+      [
+       -1120.0,
+       520.0,
+       1930.333333
+      ]
+     ]
+    },
+    "stone_T020": {
+     "vertices": 112,
+     "faces": 220,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13585403.295210486,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -80.0,
+       1549.666667,
+       -520.0
+      ],
+      [
+       80.0,
+       1930.333333,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -80.0,
+       280.0,
+       1549.666667
+      ],
+      [
+       80.0,
+       520.0,
+       1930.333333
+      ]
+     ]
+    },
+    "stone_T021": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.64760524,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1120.0,
+       1549.666667,
+       -520.0
+      ],
+      [
+       1200.0,
+       1930.333333,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1120.0,
+       280.0,
+       1549.666667
+      ],
+      [
+       1200.0,
+       520.0,
+       1930.333333
+      ]
+     ]
+    },
+    "stone_T022": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.64760524,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1200.0,
+       1163.0,
+       -520.0
+      ],
+      [
+       -1120.0,
+       1543.666667,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1200.0,
+       280.0,
+       1163.0
+      ],
+      [
+       -1120.0,
+       520.0,
+       1543.666667
+      ]
+     ]
+    },
+    "stone_T023": {
+     "vertices": 112,
+     "faces": 220,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13585403.29521049,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -80.0,
+       1163.0,
+       -520.0
+      ],
+      [
+       80.0,
+       1543.666667,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -80.0,
+       280.0,
+       1163.0
+      ],
+      [
+       80.0,
+       520.0,
+       1543.666667
+      ]
+     ]
+    },
+    "stone_T024": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.647605251,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1120.0,
+       1163.0,
+       -520.0
+      ],
+      [
+       1200.0,
+       1543.666667,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1120.0,
+       280.0,
+       1163.0
+      ],
+      [
+       1200.0,
+       520.0,
+       1543.666667
+      ]
+     ]
+    },
+    "stone_T025": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.64760523,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1200.0,
+       776.333333,
+       -520.0
+      ],
+      [
+       -1120.0,
+       1157.0,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1200.0,
+       280.0,
+       776.333333
+      ],
+      [
+       -1120.0,
+       520.0,
+       1157.0
+      ]
+     ]
+    },
+    "stone_T026": {
+     "vertices": 112,
+     "faces": 220,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13585403.29521049,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -80.0,
+       776.333333,
+       -520.0
+      ],
+      [
+       80.0,
+       1157.0,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -80.0,
+       280.0,
+       776.333333
+      ],
+      [
+       80.0,
+       520.0,
+       1157.0
+      ]
+     ]
+    },
+    "stone_T027": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.647605221,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1120.0,
+       776.333333,
+       -520.0
+      ],
+      [
+       1200.0,
+       1157.0,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1120.0,
+       280.0,
+       776.333333
+      ],
+      [
+       1200.0,
+       520.0,
+       1157.0
+      ]
+     ]
+    },
+    "stone_T028": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.64760524,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1200.0,
+       389.666667,
+       -520.0
+      ],
+      [
+       -1120.0,
+       770.333333,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1200.0,
+       280.0,
+       389.666667
+      ],
+      [
+       -1120.0,
+       520.0,
+       770.333333
+      ]
+     ]
+    },
+    "stone_T029": {
+     "vertices": 112,
+     "faces": 220,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13585403.29521049,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -80.0,
+       389.666667,
+       -520.0
+      ],
+      [
+       80.0,
+       770.333333,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -80.0,
+       280.0,
+       389.666667
+      ],
+      [
+       80.0,
+       520.0,
+       770.333333
+      ]
+     ]
+    },
+    "stone_T030": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.647605228,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1120.0,
+       389.666667,
+       -520.0
+      ],
+      [
+       1200.0,
+       770.333333,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1120.0,
+       280.0,
+       389.666667
+      ],
+      [
+       1200.0,
+       520.0,
+       770.333333
+      ]
+     ]
+    },
+    "stone_T031": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.64760524,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1200.0,
+       3.0,
+       -520.0
+      ],
+      [
+       -1120.0,
+       383.666667,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1200.0,
+       280.0,
+       3.0
+      ],
+      [
+       -1120.0,
+       520.0,
+       383.666667
+      ]
+     ]
+    },
+    "stone_T032": {
+     "vertices": 112,
+     "faces": 220,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13585403.29521049,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -80.0,
+       3.0,
+       -520.0
+      ],
+      [
+       80.0,
+       383.666667,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -80.0,
+       280.0,
+       3.0
+      ],
+      [
+       80.0,
+       520.0,
+       383.666667
+      ]
+     ]
+    },
+    "stone_T033": {
+     "vertices": 60,
+     "faces": 116,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 6792763.647605225,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1120.0,
+       3.0,
+       -520.0
+      ],
+      [
+       1200.0,
+       383.666667,
+       -280.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1120.0,
+       280.0,
+       3.0
+      ],
+      [
+       1200.0,
+       520.0,
+       383.666667
+      ]
+     ]
+    },
+    "wall": {
+     "vertices": 126,
+     "faces": 252,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 14420697127.502604,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 0,
+     "bounds": [
+      [
+       -2060.0,
+       -900.0,
+       -900.0
+      ],
+      [
+       2060.0,
+       6561.327044,
+       0.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2060.0,
+       -0.0,
+       -900.0
+      ],
+      [
+       2060.0,
+       900.0,
+       6561.327044
+      ]
+     ]
+    },
+    "glass": {
+     "vertices": 726,
+     "faces": 1424,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 91960705.52942555,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 7,
+     "euler": 14,
+     "bounds": [
+      [
+       -1158.726815,
+       0.009,
+       -404.5
+      ],
+      [
+       1158.726815,
+       5678.450452,
+       -395.5
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1158.726815,
+       395.5,
+       0.009
+      ],
+      [
+       1158.726815,
+       404.5,
+       5678.450452
+      ]
+     ]
+    }
+   }
+  },
+  "bar_4light_recursive": {
+   "id": "bar_4light_recursive",
+   "units": "mm (parametric demonstration, not a survey)",
+   "joints": {
+    "note": "trial, mm",
+    "joint_width": 6,
+    "course": 440,
+    "voussoir": 600,
+    "min_block": 220,
+    "keepout": 150,
+    "sill_max": 2400,
+    "max_block": 2500
+   },
+   "joint_kinds": {
+    "bed": 26,
+    "voussoir": 28,
+    "crown": 1,
+    "sill": 1,
+    "ring": 4
+   },
+   "notes": [],
+   "blocks": 113,
+   "frame_blocks": 40,
+   "largest": 2397.0,
+   "smallest_short": 126.448548,
+   "checks": [
+    {
+     "kind": "geometric",
+     "name": "construction/topology checks (42/42)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "blocks + open joints account for the U02 stone (residual -5.82e-11, slivers 0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "32 radial joints pass through their arc centres (max offset 1.9e-11)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "no voussoir/ring joint inside a junction keep-out zone (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "largest block 2397 <= max stone length 2500",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "every stone triangulated with full order/moulding linework (0 fallbacks)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "risers consistent: order surfaces never cross along a step (0 violations)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order regions tile the U01 stone (sym. diff 10.4; hairline slivers removed 8.21)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order depths step back monotonically",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 0: separate stones share no edges (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 1: separate stones share no edges (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 2: separate stones share no edges (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 3: separate stones share no edges (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order 0: deepest moulding 50 < half-depth 170",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 0: front triangulation covers its region (rel. err 3.4e-15 <= merge bound 9.6e-05)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order 1: deepest moulding 40 < half-depth 140",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 1: front triangulation covers its region (rel. err 1.8e-15 <= merge bound 0.00015)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order 2: deepest moulding 22 < half-depth 110",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 2: front triangulation covers its region (rel. err 4.8e-16 <= merge bound 0.00036)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order 3: deepest moulding 14 < half-depth 85",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 3: front triangulation covers its region (rel. err 3.8e-16 <= merge bound 0.00039)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: deepest order sits within the wall",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "wall: closed, one body",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "all 113 stones: watertight, consistent winding, one body, genus = holes, 0 nonmanifold/degenerate, volume within section bounds",
+     "ok": true,
+     "detail": "[]"
+    },
+    {
+     "kind": "technical",
+     "name": "GLB export -> reload: counts and bounds unchanged",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "technical",
+     "name": "rebuild is bit-identical",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "parts": {
+    "stone_F001": {
+     "vertices": 98,
+     "faces": 192,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 24371051.72844778,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -383.313985,
+       8840.138054,
+       -640.0
+      ],
+      [
+       -3.0,
+       9238.111425,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -383.313985,
+       300.0,
+       8840.138054
+      ],
+      [
+       -3.0,
+       640.0,
+       9238.111425
+      ]
+     ]
+    },
+    "stone_F002": {
+     "vertices": 98,
+     "faces": 192,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 24371051.72844793,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       3.0,
+       8840.138054,
+       -640.0
+      ],
+      [
+       383.313985,
+       9238.111425,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       3.0,
+       300.0,
+       8840.138054
+      ],
+      [
+       383.313985,
+       640.0,
+       9238.111425
+      ]
+     ]
+    },
+    "stone_F003": {
+     "vertices": 342,
+     "faces": 680,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 109607059.75573552,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1586.440566,
+       7698.135545,
+       -640.0
+      ],
+      [
+       -275.816452,
+       9002.178648,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1586.440566,
+       300.0,
+       7698.135545
+      ],
+      [
+       -275.816452,
+       640.0,
+       9002.178648
+      ]
+     ]
+    },
+    "stone_F004": {
+     "vertices": 344,
+     "faces": 684,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 109602755.96118248,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       275.816452,
+       7698.135545,
+       -640.0
+      ],
+      [
+       1586.440566,
+       9002.178648,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       275.816452,
+       300.0,
+       7698.135545
+      ],
+      [
+       1586.440566,
+       640.0,
+       9002.178648
+      ]
+     ]
+    },
+    "stone_F005": {
+     "vertices": 144,
+     "faces": 284,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 34039389.854660675,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1873.05286,
+       7244.178389,
+       -640.0
+      ],
+      [
+       -1425.158648,
+       7806.626901,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1873.05286,
+       300.0,
+       7244.178389
+      ],
+      [
+       -1425.158648,
+       640.0,
+       7806.626901
+      ]
+     ]
+    },
+    "stone_F006": {
+     "vertices": 144,
+     "faces": 284,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 34039389.85466079,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1425.158648,
+       7244.178389,
+       -640.0
+      ],
+      [
+       1873.05286,
+       7806.626901,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1425.158648,
+       300.0,
+       7244.178389
+      ],
+      [
+       1873.05286,
+       640.0,
+       7806.626901
+      ]
+     ]
+    },
+    "stone_F007": {
+     "vertices": 144,
+     "faces": 284,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 34038906.89501703,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2100.546759,
+       6760.504329,
+       -640.0
+      ],
+      [
+       -1698.883563,
+       7331.572468,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2100.546759,
+       300.0,
+       6760.504329
+      ],
+      [
+       -1698.883563,
+       640.0,
+       7331.572468
+      ]
+     ]
+    },
+    "stone_F008": {
+     "vertices": 144,
+     "faces": 284,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 34038906.89501691,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1698.883563,
+       6760.504329,
+       -640.0
+      ],
+      [
+       2100.546759,
+       7331.572468,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1698.883563,
+       300.0,
+       6760.504329
+      ],
+      [
+       2100.546759,
+       640.0,
+       7331.572468
+      ]
+     ]
+    },
+    "stone_F009": {
+     "vertices": 144,
+     "faces": 284,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 34038975.05182174,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2265.632623,
+       6254.141074,
+       -640.0
+      ],
+      [
+       -1915.952428,
+       6825.603145,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2265.632623,
+       300.0,
+       6254.141074
+      ],
+      [
+       -1915.952428,
+       640.0,
+       6825.603145
+      ]
+     ]
+    },
+    "stone_F010": {
+     "vertices": 144,
+     "faces": 284,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 34038975.05182171,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1915.952428,
+       6254.141074,
+       -640.0
+      ],
+      [
+       2265.632623,
+       6825.603145,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1915.952428,
+       300.0,
+       6254.141074
+      ],
+      [
+       2265.632623,
+       640.0,
+       6825.603145
+      ]
+     ]
+    },
+    "stone_F011": {
+     "vertices": 150,
+     "faces": 296,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 34039955.582582705,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2365.920906,
+       5732.446146,
+       -640.0
+      ],
+      [
+       -2073.209662,
+       6296.039181,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2365.920906,
+       300.0,
+       5732.446146
+      ],
+      [
+       -2073.209662,
+       640.0,
+       6296.039181
+      ]
+     ]
+    },
+    "stone_F012": {
+     "vertices": 148,
+     "faces": 292,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 34039957.36274636,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2073.209662,
+       5732.446146,
+       -640.0
+      ],
+      [
+       2365.920906,
+       6296.039181,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2073.209662,
+       300.0,
+       5732.446146
+      ],
+      [
+       2365.920906,
+       640.0,
+       6296.039181
+      ]
+     ]
+    },
+    "stone_F013": {
+     "vertices": 70,
+     "faces": 136,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 46609087.33407689,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       5053.0,
+       -640.0
+      ],
+      [
+       -2168.368629,
+       5750.541188,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       5053.0
+      ],
+      [
+       -2168.368629,
+       640.0,
+       5750.541188
+      ]
+     ]
+    },
+    "stone_F014": {
+     "vertices": 70,
+     "faces": 136,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 46609087.3340768,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2168.368629,
+       5053.0,
+       -640.0
+      ],
+      [
+       2400.0,
+       5750.541188,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2168.368629,
+       300.0,
+       5053.0
+      ],
+      [
+       2400.0,
+       640.0,
+       5750.541188
+      ]
+     ]
+    },
+    "stone_F015": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       4632.166667,
+       -640.0
+      ],
+      [
+       -2200.0,
+       5047.0,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       4632.166667
+      ],
+      [
+       -2200.0,
+       640.0,
+       5047.0
+      ]
+     ]
+    },
+    "stone_F016": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       4632.166667,
+       -640.0
+      ],
+      [
+       2400.0,
+       5047.0,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       4632.166667
+      ],
+      [
+       2400.0,
+       640.0,
+       5047.0
+      ]
+     ]
+    },
+    "stone_F017": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666705,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       4211.333333,
+       -640.0
+      ],
+      [
+       -2200.0,
+       4626.166667,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       4211.333333
+      ],
+      [
+       -2200.0,
+       640.0,
+       4626.166667
+      ]
+     ]
+    },
+    "stone_F018": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666705,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       4211.333333,
+       -640.0
+      ],
+      [
+       2400.0,
+       4626.166667,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       4211.333333
+      ],
+      [
+       2400.0,
+       640.0,
+       4626.166667
+      ]
+     ]
+    },
+    "stone_F019": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       3790.5,
+       -640.0
+      ],
+      [
+       -2200.0,
+       4205.333333,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       3790.5
+      ],
+      [
+       -2200.0,
+       640.0,
+       4205.333333
+      ]
+     ]
+    },
+    "stone_F020": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       3790.5,
+       -640.0
+      ],
+      [
+       2400.0,
+       4205.333333,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       3790.5
+      ],
+      [
+       2400.0,
+       640.0,
+       4205.333333
+      ]
+     ]
+    },
+    "stone_F021": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       3369.666667,
+       -640.0
+      ],
+      [
+       -2200.0,
+       3784.5,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       3369.666667
+      ],
+      [
+       -2200.0,
+       640.0,
+       3784.5
+      ]
+     ]
+    },
+    "stone_F022": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       3369.666667,
+       -640.0
+      ],
+      [
+       2400.0,
+       3784.5,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       3369.666667
+      ],
+      [
+       2400.0,
+       640.0,
+       3784.5
+      ]
+     ]
+    },
+    "stone_F023": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       2948.833333,
+       -640.0
+      ],
+      [
+       -2200.0,
+       3363.666667,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       2948.833333
+      ],
+      [
+       -2200.0,
+       640.0,
+       3363.666667
+      ]
+     ]
+    },
+    "stone_F024": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       2948.833333,
+       -640.0
+      ],
+      [
+       2400.0,
+       3363.666667,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       2948.833333
+      ],
+      [
+       2400.0,
+       640.0,
+       3363.666667
+      ]
+     ]
+    },
+    "stone_F025": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       2528.0,
+       -640.0
+      ],
+      [
+       -2200.0,
+       2942.833333,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       2528.0
+      ],
+      [
+       -2200.0,
+       640.0,
+       2942.833333
+      ]
+     ]
+    },
+    "stone_F026": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       2528.0,
+       -640.0
+      ],
+      [
+       2400.0,
+       2942.833333,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       2528.0
+      ],
+      [
+       2400.0,
+       640.0,
+       2942.833333
+      ]
+     ]
+    },
+    "stone_F027": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       2107.166667,
+       -640.0
+      ],
+      [
+       -2200.0,
+       2522.0,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       2107.166667
+      ],
+      [
+       -2200.0,
+       640.0,
+       2522.0
+      ]
+     ]
+    },
+    "stone_F028": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       2107.166667,
+       -640.0
+      ],
+      [
+       2400.0,
+       2522.0,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       2107.166667
+      ],
+      [
+       2400.0,
+       640.0,
+       2522.0
+      ]
+     ]
+    },
+    "stone_F029": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666687,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       1686.333333,
+       -640.0
+      ],
+      [
+       -2200.0,
+       2101.166667,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       1686.333333
+      ],
+      [
+       -2200.0,
+       640.0,
+       2101.166667
+      ]
+     ]
+    },
+    "stone_F030": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       1686.333333,
+       -640.0
+      ],
+      [
+       2400.0,
+       2101.166667,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       1686.333333
+      ],
+      [
+       2400.0,
+       640.0,
+       2101.166667
+      ]
+     ]
+    },
+    "stone_F031": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666687,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       1265.5,
+       -640.0
+      ],
+      [
+       -2200.0,
+       1680.333333,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       1265.5
+      ],
+      [
+       -2200.0,
+       640.0,
+       1680.333333
+      ]
+     ]
+    },
+    "stone_F032": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       1265.5,
+       -640.0
+      ],
+      [
+       2400.0,
+       1680.333333,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       1265.5
+      ],
+      [
+       2400.0,
+       640.0,
+       1680.333333
+      ]
+     ]
+    },
+    "stone_F033": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666646,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       844.666667,
+       -640.0
+      ],
+      [
+       -2200.0,
+       1259.5,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       844.666667
+      ],
+      [
+       -2200.0,
+       640.0,
+       1259.5
+      ]
+     ]
+    },
+    "stone_F034": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       844.666667,
+       -640.0
+      ],
+      [
+       2400.0,
+       1259.5,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       844.666667
+      ],
+      [
+       2400.0,
+       640.0,
+       1259.5
+      ]
+     ]
+    },
+    "stone_F035": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666687,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       423.833333,
+       -640.0
+      ],
+      [
+       -2200.0,
+       838.666667,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       423.833333
+      ],
+      [
+       -2200.0,
+       640.0,
+       838.666667
+      ]
+     ]
+    },
+    "stone_F036": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       423.833333,
+       -640.0
+      ],
+      [
+       2400.0,
+       838.666667,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       423.833333
+      ],
+      [
+       2400.0,
+       640.0,
+       838.666667
+      ]
+     ]
+    },
+    "stone_F037": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666687,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       3.0,
+       -640.0
+      ],
+      [
+       -2200.0,
+       417.833333,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       3.0
+      ],
+      [
+       -2200.0,
+       640.0,
+       417.833333
+      ]
+     ]
+    },
+    "stone_F038": {
+     "vertices": 8,
+     "faces": 12,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 28208666.666666668,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2200.0,
+       3.0,
+       -640.0
+      ],
+      [
+       2400.0,
+       417.833333,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2200.0,
+       300.0,
+       3.0
+      ],
+      [
+       2400.0,
+       640.0,
+       417.833333
+      ]
+     ]
+    },
+    "stone_F039": {
+     "vertices": 160,
+     "faces": 316,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 184863467.58418563,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2400.0,
+       -240.0,
+       -640.0
+      ],
+      [
+       -3.0,
+       -3.0,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2400.0,
+       300.0,
+       -240.0
+      ],
+      [
+       -3.0,
+       640.0,
+       -3.0
+      ]
+     ]
+    },
+    "stone_F040": {
+     "vertices": 160,
+     "faces": 316,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 184863467.58418563,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       3.0,
+       -240.0,
+       -640.0
+      ],
+      [
+       2400.0,
+       -3.0,
+       -300.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       3.0,
+       300.0,
+       -240.0
+      ],
+      [
+       2400.0,
+       640.0,
+       -3.0
+      ]
+     ]
+    },
+    "stone_T001": {
+     "vertices": 2076,
+     "faces": 4148,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 60590373.58102733,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1154.502202,
+       7662.674775,
+       -610.0
+      ],
+      [
+       -3.0,
+       8814.550319,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1154.502202,
+       330.0,
+       7662.674775
+      ],
+      [
+       -3.0,
+       610.0,
+       8814.550319
+      ]
+     ]
+    },
+    "stone_T002": {
+     "vertices": 2020,
+     "faces": 4036,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 60576443.27096501,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       3.0,
+       7662.674775,
+       -610.0
+      ],
+      [
+       1154.911893,
+       8814.257349,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       3.0,
+       330.0,
+       7662.674775
+      ],
+      [
+       1154.911893,
+       610.0,
+       8814.257349
+      ]
+     ]
+    },
+    "stone_T003": {
+     "vertices": 6782,
+     "faces": 13568,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 213714389.16663632,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": -2,
+     "bounds": [
+      [
+       3.0,
+       5696.142632,
+       -610.0
+      ],
+      [
+       1933.476969,
+       7656.674775,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       3.0,
+       330.0,
+       5696.142632
+      ],
+      [
+       1933.476969,
+       610.0,
+       7656.674775
+      ]
+     ]
+    },
+    "stone_T004": {
+     "vertices": 6754,
+     "faces": 13512,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 213703993.07220516,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": -2,
+     "bounds": [
+      [
+       -1933.476969,
+       5696.142632,
+       -610.0
+      ],
+      [
+       -3.0,
+       7656.674775,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1933.476969,
+       330.0,
+       5696.142632
+      ],
+      [
+       -3.0,
+       610.0,
+       7656.674775
+      ]
+     ]
+    },
+    "stone_T005": {
+     "vertices": 420,
+     "faces": 836,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13836644.958678216,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2128.793293,
+       5727.043947,
+       -610.0
+      ],
+      [
+       -1828.454879,
+       6265.521271,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2128.793293,
+       330.0,
+       5727.043947
+      ],
+      [
+       -1828.454879,
+       610.0,
+       6265.521271
+      ]
+     ]
+    },
+    "stone_T006": {
+     "vertices": 420,
+     "faces": 836,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13836644.958678206,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -371.545121,
+       5727.043947,
+       -610.0
+      ],
+      [
+       -71.206707,
+       6265.521271,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -371.545121,
+       330.0,
+       5727.043947
+      ],
+      [
+       -71.206707,
+       610.0,
+       6265.521271
+      ]
+     ]
+    },
+    "stone_T007": {
+     "vertices": 420,
+     "faces": 836,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13836644.958678214,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       71.206707,
+       5727.043947,
+       -610.0
+      ],
+      [
+       371.545121,
+       6265.521271,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       71.206707,
+       330.0,
+       5727.043947
+      ],
+      [
+       371.545121,
+       610.0,
+       6265.521271
+      ]
+     ]
+    },
+    "stone_T008": {
+     "vertices": 420,
+     "faces": 836,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13836633.637466198,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1828.454879,
+       5727.043947,
+       -610.0
+      ],
+      [
+       2128.793293,
+       6265.521271,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1828.454879,
+       330.0,
+       5727.043947
+      ],
+      [
+       2128.793293,
+       610.0,
+       6265.521271
+      ]
+     ]
+    },
+    "stone_T009": {
+     "vertices": 628,
+     "faces": 1252,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 32447111.6555248,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       5053.0,
+       -610.0
+      ],
+      [
+       -1877.90157,
+       5753.955974,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       5053.0
+      ],
+      [
+       -1877.90157,
+       610.0,
+       5753.955974
+      ]
+     ]
+    },
+    "stone_T010": {
+     "vertices": 608,
+     "faces": 1212,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 32449041.974124026,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1877.90157,
+       5053.0,
+       -610.0
+      ],
+      [
+       2200.0,
+       5753.955974,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1877.90157,
+       330.0,
+       5053.0
+      ],
+      [
+       2200.0,
+       610.0,
+       5753.955974
+      ]
+     ]
+    },
+    "stone_T011": {
+     "vertices": 1336,
+     "faces": 2668,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 60999438.85785115,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -322.09843,
+       5053.0,
+       -610.0
+      ],
+      [
+       322.09843,
+       5748.822082,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -322.09843,
+       330.0,
+       5053.0
+      ],
+      [
+       322.09843,
+       610.0,
+       5748.822082
+      ]
+     ]
+    },
+    "stone_T012": {
+     "vertices": 672,
+     "faces": 1340,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 19140593.075130697,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1312.09843,
+       5053.0,
+       -580.0
+      ],
+      [
+       -887.90157,
+       5728.597729,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1312.09843,
+       360.0,
+       5053.0
+      ],
+      [
+       -887.90157,
+       580.0,
+       5728.597729
+      ]
+     ]
+    },
+    "stone_T013": {
+     "vertices": 672,
+     "faces": 1340,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 19140593.075130705,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       887.90157,
+       5053.0,
+       -580.0
+      ],
+      [
+       1312.09843,
+       5728.597729,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       887.90157,
+       360.0,
+       5053.0
+      ],
+      [
+       1312.09843,
+       580.0,
+       5728.597729
+      ]
+     ]
+    },
+    "stone_T014": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611428,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       4632.166667,
+       -610.0
+      ],
+      [
+       -2020.0,
+       5047.0,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       4632.166667
+      ],
+      [
+       -2020.0,
+       610.0,
+       5047.0
+      ]
+     ]
+    },
+    "stone_T015": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222858,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       4632.166667,
+       -580.0
+      ],
+      [
+       -1030.0,
+       5047.0,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       4632.166667
+      ],
+      [
+       -1030.0,
+       580.0,
+       5047.0
+      ]
+     ]
+    },
+    "stone_T016": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.625561886,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       4632.166667,
+       -610.0
+      ],
+      [
+       180.0,
+       5047.0,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       4632.166667
+      ],
+      [
+       180.0,
+       610.0,
+       5047.0
+      ]
+     ]
+    },
+    "stone_T017": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222858,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       4632.166667,
+       -580.0
+      ],
+      [
+       1170.0,
+       5047.0,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       4632.166667
+      ],
+      [
+       1170.0,
+       580.0,
+       5047.0
+      ]
+     ]
+    },
+    "stone_T018": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.146114305,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       4632.166667,
+       -610.0
+      ],
+      [
+       2200.0,
+       5047.0,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       4632.166667
+      ],
+      [
+       2200.0,
+       610.0,
+       5047.0
+      ]
+     ]
+    },
+    "stone_T019": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611428,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       4211.333333,
+       -610.0
+      ],
+      [
+       -2020.0,
+       4626.166667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       4211.333333
+      ],
+      [
+       -2020.0,
+       610.0,
+       4626.166667
+      ]
+     ]
+    },
+    "stone_T020": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.292228585,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       4211.333333,
+       -580.0
+      ],
+      [
+       -1030.0,
+       4626.166667,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       4211.333333
+      ],
+      [
+       -1030.0,
+       580.0,
+       4626.166667
+      ]
+     ]
+    },
+    "stone_T021": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.625561975,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       4211.333333,
+       -610.0
+      ],
+      [
+       180.0,
+       4626.166667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       4211.333333
+      ],
+      [
+       180.0,
+       610.0,
+       4626.166667
+      ]
+     ]
+    },
+    "stone_T022": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.2922286,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       4211.333333,
+       -580.0
+      ],
+      [
+       1170.0,
+       4626.166667,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       4211.333333
+      ],
+      [
+       1170.0,
+       580.0,
+       4626.166667
+      ]
+     ]
+    },
+    "stone_T023": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.146114305,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       4211.333333,
+       -610.0
+      ],
+      [
+       2200.0,
+       4626.166667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       4211.333333
+      ],
+      [
+       2200.0,
+       610.0,
+       4626.166667
+      ]
+     ]
+    },
+    "stone_T024": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611432,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       3790.5,
+       -610.0
+      ],
+      [
+       -2020.0,
+       4205.333333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       3790.5
+      ],
+      [
+       -2020.0,
+       610.0,
+       4205.333333
+      ]
+     ]
+    },
+    "stone_T025": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222858,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       3790.5,
+       -580.0
+      ],
+      [
+       -1030.0,
+       4205.333333,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       3790.5
+      ],
+      [
+       -1030.0,
+       580.0,
+       4205.333333
+      ]
+     ]
+    },
+    "stone_T026": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.62556188,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       3790.5,
+       -610.0
+      ],
+      [
+       180.0,
+       4205.333333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       3790.5
+      ],
+      [
+       180.0,
+       610.0,
+       4205.333333
+      ]
+     ]
+    },
+    "stone_T027": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222858,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       3790.5,
+       -580.0
+      ],
+      [
+       1170.0,
+       4205.333333,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       3790.5
+      ],
+      [
+       1170.0,
+       580.0,
+       4205.333333
+      ]
+     ]
+    },
+    "stone_T028": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.146114305,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       3790.5,
+       -610.0
+      ],
+      [
+       2200.0,
+       4205.333333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       3790.5
+      ],
+      [
+       2200.0,
+       610.0,
+       4205.333333
+      ]
+     ]
+    },
+    "stone_T029": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611429,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       3369.666667,
+       -610.0
+      ],
+      [
+       -2020.0,
+       3784.5,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       3369.666667
+      ],
+      [
+       -2020.0,
+       610.0,
+       3784.5
+      ]
+     ]
+    },
+    "stone_T030": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222858,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       3369.666667,
+       -580.0
+      ],
+      [
+       -1030.0,
+       3784.5,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       3369.666667
+      ],
+      [
+       -1030.0,
+       580.0,
+       3784.5
+      ]
+     ]
+    },
+    "stone_T031": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.625561915,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       3369.666667,
+       -610.0
+      ],
+      [
+       180.0,
+       3784.5,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       3369.666667
+      ],
+      [
+       180.0,
+       610.0,
+       3784.5
+      ]
+     ]
+    },
+    "stone_T032": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222858,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       3369.666667,
+       -580.0
+      ],
+      [
+       1170.0,
+       3784.5,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       3369.666667
+      ],
+      [
+       1170.0,
+       580.0,
+       3784.5
+      ]
+     ]
+    },
+    "stone_T033": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.146114305,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       3369.666667,
+       -610.0
+      ],
+      [
+       2200.0,
+       3784.5,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       3369.666667
+      ],
+      [
+       2200.0,
+       610.0,
+       3784.5
+      ]
+     ]
+    },
+    "stone_T034": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611428,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       2948.833333,
+       -610.0
+      ],
+      [
+       -2020.0,
+       3363.666667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       2948.833333
+      ],
+      [
+       -2020.0,
+       610.0,
+       3363.666667
+      ]
+     ]
+    },
+    "stone_T035": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.292228559,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       2948.833333,
+       -580.0
+      ],
+      [
+       -1030.0,
+       3363.666667,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       2948.833333
+      ],
+      [
+       -1030.0,
+       580.0,
+       3363.666667
+      ]
+     ]
+    },
+    "stone_T036": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.62556187,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       2948.833333,
+       -610.0
+      ],
+      [
+       180.0,
+       3363.666667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       2948.833333
+      ],
+      [
+       180.0,
+       610.0,
+       3363.666667
+      ]
+     ]
+    },
+    "stone_T037": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222857,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       2948.833333,
+       -580.0
+      ],
+      [
+       1170.0,
+       3363.666667,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       2948.833333
+      ],
+      [
+       1170.0,
+       580.0,
+       3363.666667
+      ]
+     ]
+    },
+    "stone_T038": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.146114305,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       2948.833333,
+       -610.0
+      ],
+      [
+       2200.0,
+       3363.666667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       2948.833333
+      ],
+      [
+       2200.0,
+       610.0,
+       3363.666667
+      ]
+     ]
+    },
+    "stone_T039": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611429,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       2528.0,
+       -610.0
+      ],
+      [
+       -2020.0,
+       2942.833333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       2528.0
+      ],
+      [
+       -2020.0,
+       610.0,
+       2942.833333
+      ]
+     ]
+    },
+    "stone_T040": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222858,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       2528.0,
+       -580.0
+      ],
+      [
+       -1030.0,
+       2942.833333,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       2528.0
+      ],
+      [
+       -1030.0,
+       580.0,
+       2942.833333
+      ]
+     ]
+    },
+    "stone_T041": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.625561915,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       2528.0,
+       -610.0
+      ],
+      [
+       180.0,
+       2942.833333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       2528.0
+      ],
+      [
+       180.0,
+       610.0,
+       2942.833333
+      ]
+     ]
+    },
+    "stone_T042": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222858,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       2528.0,
+       -580.0
+      ],
+      [
+       1170.0,
+       2942.833333,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       2528.0
+      ],
+      [
+       1170.0,
+       580.0,
+       2942.833333
+      ]
+     ]
+    },
+    "stone_T043": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.146114305,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       2528.0,
+       -610.0
+      ],
+      [
+       2200.0,
+       2942.833333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       2528.0
+      ],
+      [
+       2200.0,
+       610.0,
+       2942.833333
+      ]
+     ]
+    },
+    "stone_T044": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611429,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       2107.166667,
+       -610.0
+      ],
+      [
+       -2020.0,
+       2522.0,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       2107.166667
+      ],
+      [
+       -2020.0,
+       610.0,
+       2522.0
+      ]
+     ]
+    },
+    "stone_T045": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222858,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       2107.166667,
+       -580.0
+      ],
+      [
+       -1030.0,
+       2522.0,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       2107.166667
+      ],
+      [
+       -1030.0,
+       580.0,
+       2522.0
+      ]
+     ]
+    },
+    "stone_T046": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.625561915,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       2107.166667,
+       -610.0
+      ],
+      [
+       180.0,
+       2522.0,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       2107.166667
+      ],
+      [
+       180.0,
+       610.0,
+       2522.0
+      ]
+     ]
+    },
+    "stone_T047": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222858,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       2107.166667,
+       -580.0
+      ],
+      [
+       1170.0,
+       2522.0,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       2107.166667
+      ],
+      [
+       1170.0,
+       580.0,
+       2522.0
+      ]
+     ]
+    },
+    "stone_T048": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.146114305,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       2107.166667,
+       -610.0
+      ],
+      [
+       2200.0,
+       2522.0,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       2107.166667
+      ],
+      [
+       2200.0,
+       610.0,
+       2522.0
+      ]
+     ]
+    },
+    "stone_T049": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611428,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       1686.333333,
+       -610.0
+      ],
+      [
+       -2020.0,
+       2101.166667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       1686.333333
+      ],
+      [
+       -2020.0,
+       610.0,
+       2101.166667
+      ]
+     ]
+    },
+    "stone_T050": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.292228585,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       1686.333333,
+       -580.0
+      ],
+      [
+       -1030.0,
+       2101.166667,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       1686.333333
+      ],
+      [
+       -1030.0,
+       580.0,
+       2101.166667
+      ]
+     ]
+    },
+    "stone_T051": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.6255619,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       1686.333333,
+       -610.0
+      ],
+      [
+       180.0,
+       2101.166667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       1686.333333
+      ],
+      [
+       180.0,
+       610.0,
+       2101.166667
+      ]
+     ]
+    },
+    "stone_T052": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222857,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       1686.333333,
+       -580.0
+      ],
+      [
+       1170.0,
+       2101.166667,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       1686.333333
+      ],
+      [
+       1170.0,
+       580.0,
+       2101.166667
+      ]
+     ]
+    },
+    "stone_T053": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.146114264,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       1686.333333,
+       -610.0
+      ],
+      [
+       2200.0,
+       2101.166667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       1686.333333
+      ],
+      [
+       2200.0,
+       610.0,
+       2101.166667
+      ]
+     ]
+    },
+    "stone_T054": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611428,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       1265.5,
+       -610.0
+      ],
+      [
+       -2020.0,
+       1680.333333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       1265.5
+      ],
+      [
+       -2020.0,
+       610.0,
+       1680.333333
+      ]
+     ]
+    },
+    "stone_T055": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.292228585,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       1265.5,
+       -580.0
+      ],
+      [
+       -1030.0,
+       1680.333333,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       1265.5
+      ],
+      [
+       -1030.0,
+       580.0,
+       1680.333333
+      ]
+     ]
+    },
+    "stone_T056": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.6255619,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       1265.5,
+       -610.0
+      ],
+      [
+       180.0,
+       1680.333333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       1265.5
+      ],
+      [
+       180.0,
+       610.0,
+       1680.333333
+      ]
+     ]
+    },
+    "stone_T057": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222857,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       1265.5,
+       -580.0
+      ],
+      [
+       1170.0,
+       1680.333333,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       1265.5
+      ],
+      [
+       1170.0,
+       580.0,
+       1680.333333
+      ]
+     ]
+    },
+    "stone_T058": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.146114264,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       1265.5,
+       -610.0
+      ],
+      [
+       2200.0,
+       1680.333333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       1265.5
+      ],
+      [
+       2200.0,
+       610.0,
+       1680.333333
+      ]
+     ]
+    },
+    "stone_T059": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611433,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       844.666667,
+       -610.0
+      ],
+      [
+       -2020.0,
+       1259.5,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       844.666667
+      ],
+      [
+       -2020.0,
+       610.0,
+       1259.5
+      ]
+     ]
+    },
+    "stone_T060": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.292228574,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       844.666667,
+       -580.0
+      ],
+      [
+       -1030.0,
+       1259.5,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       844.666667
+      ],
+      [
+       -1030.0,
+       580.0,
+       1259.5
+      ]
+     ]
+    },
+    "stone_T061": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.62556191,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       844.666667,
+       -610.0
+      ],
+      [
+       180.0,
+       1259.5,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       844.666667
+      ],
+      [
+       180.0,
+       610.0,
+       1259.5
+      ]
+     ]
+    },
+    "stone_T062": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222857,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       844.666667,
+       -580.0
+      ],
+      [
+       1170.0,
+       1259.5,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       844.666667
+      ],
+      [
+       1170.0,
+       580.0,
+       1259.5
+      ]
+     ]
+    },
+    "stone_T063": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611431,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       844.666667,
+       -610.0
+      ],
+      [
+       2200.0,
+       1259.5,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       844.666667
+      ],
+      [
+       2200.0,
+       610.0,
+       1259.5
+      ]
+     ]
+    },
+    "stone_T064": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611432,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       423.833333,
+       -610.0
+      ],
+      [
+       -2020.0,
+       838.666667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       423.833333
+      ],
+      [
+       -2020.0,
+       610.0,
+       838.666667
+      ]
+     ]
+    },
+    "stone_T065": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.292228585,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       423.833333,
+       -580.0
+      ],
+      [
+       -1030.0,
+       838.666667,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       423.833333
+      ],
+      [
+       -1030.0,
+       580.0,
+       838.666667
+      ]
+     ]
+    },
+    "stone_T066": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.6255619,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       423.833333,
+       -610.0
+      ],
+      [
+       180.0,
+       838.666667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       423.833333
+      ],
+      [
+       180.0,
+       610.0,
+       838.666667
+      ]
+     ]
+    },
+    "stone_T067": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222857,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       423.833333,
+       -580.0
+      ],
+      [
+       1170.0,
+       838.666667,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       423.833333
+      ],
+      [
+       1170.0,
+       580.0,
+       838.666667
+      ]
+     ]
+    },
+    "stone_T068": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611431,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       423.833333,
+       -610.0
+      ],
+      [
+       2200.0,
+       838.666667,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       423.833333
+      ],
+      [
+       2200.0,
+       610.0,
+       838.666667
+      ]
+     ]
+    },
+    "stone_T069": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611428,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -2200.0,
+       3.0,
+       -610.0
+      ],
+      [
+       -2020.0,
+       417.833333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       330.0,
+       3.0
+      ],
+      [
+       -2020.0,
+       610.0,
+       417.833333
+      ]
+     ]
+    },
+    "stone_T070": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.292228585,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1170.0,
+       3.0,
+       -580.0
+      ],
+      [
+       -1030.0,
+       417.833333,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1170.0,
+       360.0,
+       3.0
+      ],
+      [
+       -1030.0,
+       580.0,
+       417.833333
+      ]
+     ]
+    },
+    "stone_T071": {
+     "vertices": 88,
+     "faces": 172,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 37477001.62556191,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -180.0,
+       3.0,
+       -610.0
+      ],
+      [
+       180.0,
+       417.833333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -180.0,
+       330.0,
+       3.0
+      ],
+      [
+       180.0,
+       610.0,
+       417.833333
+      ]
+     ]
+    },
+    "stone_T072": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11923582.29222857,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1030.0,
+       3.0,
+       -580.0
+      ],
+      [
+       1170.0,
+       417.833333,
+       -360.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1030.0,
+       360.0,
+       3.0
+      ],
+      [
+       1170.0,
+       580.0,
+       417.833333
+      ]
+     ]
+    },
+    "stone_T073": {
+     "vertices": 48,
+     "faces": 92,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18738694.14611431,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       2020.0,
+       3.0,
+       -610.0
+      ],
+      [
+       2200.0,
+       417.833333,
+       -330.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       2020.0,
+       330.0,
+       3.0
+      ],
+      [
+       2200.0,
+       610.0,
+       417.833333
+      ]
+     ]
+    },
+    "wall": {
+     "vertices": 162,
+     "faces": 324,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 34539309640.76766,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 0,
+     "bounds": [
+      [
+       -3300.0,
+       -1140.0,
+       -1000.0
+      ],
+      [
+       3300.0,
+       10139.801975,
+       0.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -3300.0,
+       -0.0,
+       -1140.0
+      ],
+      [
+       3300.0,
+       1000.0,
+       10139.801975
+      ]
+     ]
+    },
+    "glass": {
+     "vertices": 2094,
+     "faces": 4112,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 268030098.44937396,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 19,
+     "euler": 38,
+     "bounds": [
+      [
+       -2164.63806,
+       0.0102,
+       -475.1
+      ],
+      [
+       2164.63806,
+       9010.499895,
+       -464.9
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2164.63806,
+       464.9,
+       0.0102
+      ],
+      [
+       2164.63806,
+       475.1,
+       9010.499895
+      ]
+     ]
+    }
+   }
+  },
+  "intersecting_3light": {
+   "id": "intersecting_3light",
+   "units": "mm (parametric demonstration, not a survey)",
+   "joints": {
+    "note": "trial, mm",
+    "joint_width": 6,
+    "course": 420,
+    "voussoir": 520,
+    "min_block": 220,
+    "keepout": 110,
+    "sill_max": 2400,
+    "max_block": 2500
+   },
+   "joint_kinds": {
+    "bed": 18,
+    "voussoir": 18,
+    "crown": 1,
+    "sill": 2
+   },
+   "notes": [],
+   "blocks": 56,
+   "frame_blocks": 29,
+   "largest": 1047.0,
+   "smallest_short": 130.0,
+   "checks": [
+    {
+     "kind": "geometric",
+     "name": "construction/topology checks (16/16)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "blocks + open joints account for the U02 stone (residual -0.014, slivers 0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "18 radial joints pass through their arc centres (max offset 1.4e-11)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "no voussoir/ring joint inside a junction keep-out zone (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "largest block 1047 <= max stone length 2500",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "every stone triangulated with full order/moulding linework (0 fallbacks)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "risers consistent: order surfaces never cross along a step (0 violations)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order regions tile the U01 stone (sym. diff 0.014; hairline slivers removed 0.014)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order depths step back monotonically",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 0: separate stones share no edges (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 1: separate stones share no edges (0)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order 0: deepest moulding 40 < half-depth 140",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 0: front triangulation covers its region (rel. err 3.7e-16 <= merge bound 0.00013)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: order 1: deepest moulding 34 < half-depth 110",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "U02: order 1: front triangulation covers its region (rel. err 1.3e-16 <= merge bound 0.00015)",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "architectural",
+     "name": "U02: deepest order sits within the wall",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "wall: closed, one body",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "geometric",
+     "name": "all 56 stones: watertight, consistent winding, one body, genus = holes, 0 nonmanifold/degenerate, volume within section bounds",
+     "ok": true,
+     "detail": "[]"
+    },
+    {
+     "kind": "technical",
+     "name": "GLB export -> reload: counts and bounds unchanged",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "kind": "technical",
+     "name": "rebuild is bit-identical",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "parts": {
+    "stone_F001": {
+     "vertices": 90,
+     "faces": 176,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13222613.73296971,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -330.976327,
+       5580.101574,
+       -520.0
+      ],
+      [
+       -3.0,
+       5908.293944,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -330.976327,
+       240.0,
+       5580.101574
+      ],
+      [
+       -3.0,
+       520.0,
+       5908.293944
+      ]
+     ]
+    },
+    "stone_F002": {
+     "vertices": 90,
+     "faces": 176,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 13222613.732969692,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       3.0,
+       5580.101574,
+       -520.0
+      ],
+      [
+       330.976327,
+       5908.293944,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       3.0,
+       240.0,
+       5580.101574
+      ],
+      [
+       330.976327,
+       520.0,
+       5908.293944
+      ]
+     ]
+    },
+    "stone_F003": {
+     "vertices": 236,
+     "faces": 468,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 25788789.372593414,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -828.968398,
+       5139.989859,
+       -520.0
+      ],
+      [
+       -247.373794,
+       5697.467439,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -828.968398,
+       240.0,
+       5139.989859
+      ],
+      [
+       -247.373794,
+       520.0,
+       5697.467439
+      ]
+     ]
+    },
+    "stone_F004": {
+     "vertices": 234,
+     "faces": 464,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 25788789.716286544,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       247.373794,
+       5139.989859,
+       -520.0
+      ],
+      [
+       828.968398,
+       5697.467439,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       247.373794,
+       240.0,
+       5139.989859
+      ],
+      [
+       828.968398,
+       520.0,
+       5697.467439
+      ]
+     ]
+    },
+    "stone_F005": {
+     "vertices": 280,
+     "faces": 556,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 38826326.35646158,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1336.402746,
+       4301.047407,
+       -520.0
+      ],
+      [
+       -717.905176,
+       5231.985282,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1336.402746,
+       240.0,
+       4301.047407
+      ],
+      [
+       -717.905176,
+       520.0,
+       5231.985282
+      ]
+     ]
+    },
+    "stone_F006": {
+     "vertices": 278,
+     "faces": 552,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 38826326.35646161,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       717.905176,
+       4301.047407,
+       -520.0
+      ],
+      [
+       1336.402746,
+       5231.985282,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       717.905176,
+       240.0,
+       4301.047407
+      ],
+      [
+       1336.402746,
+       520.0,
+       5231.985282
+      ]
+     ]
+    },
+    "stone_F007": {
+     "vertices": 154,
+     "faces": 304,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18087678.281187505,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1458.143435,
+       3858.551824,
+       -520.0
+      ],
+      [
+       -1197.124015,
+       4345.289409,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1458.143435,
+       240.0,
+       3858.551824
+      ],
+      [
+       -1197.124015,
+       520.0,
+       4345.289409
+      ]
+     ]
+    },
+    "stone_F008": {
+     "vertices": 154,
+     "faces": 304,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 18087678.281187534,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1197.124015,
+       3858.551824,
+       -520.0
+      ],
+      [
+       1458.143435,
+       4345.289409,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1197.124015,
+       240.0,
+       3858.551824
+      ],
+      [
+       1458.143435,
+       520.0,
+       4345.289409
+      ]
+     ]
+    },
+    "stone_F009": {
+     "vertices": 154,
+     "faces": 304,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 22363585.343532294,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1500.0,
+       3293.0,
+       -520.0
+      ],
+      [
+       -1311.310089,
+       3877.948935,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1500.0,
+       240.0,
+       3293.0
+      ],
+      [
+       -1311.310089,
+       520.0,
+       3877.948935
+      ]
+     ]
+    },
+    "stone_F010": {
+     "vertices": 154,
+     "faces": 304,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 22363585.34353231,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1311.310089,
+       3293.0,
+       -520.0
+      ],
+      [
+       1500.0,
+       3877.948935,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1311.310089,
+       240.0,
+       3293.0
+      ],
+      [
+       1500.0,
+       520.0,
+       3877.948935
+      ]
+     ]
+    },
+    "stone_F011": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719263,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1500.0,
+       2881.75,
+       -520.0
+      ],
+      [
+       -1350.0,
+       3287.0,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1500.0,
+       240.0,
+       2881.75
+      ],
+      [
+       -1350.0,
+       520.0,
+       3287.0
+      ]
+     ]
+    },
+    "stone_F012": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719272,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1350.0,
+       2881.75,
+       -520.0
+      ],
+      [
+       1500.0,
+       3287.0,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1350.0,
+       240.0,
+       2881.75
+      ],
+      [
+       1500.0,
+       520.0,
+       3287.0
+      ]
+     ]
+    },
+    "stone_F013": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719263,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1500.0,
+       2470.5,
+       -520.0
+      ],
+      [
+       -1350.0,
+       2875.75,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1500.0,
+       240.0,
+       2470.5
+      ],
+      [
+       -1350.0,
+       520.0,
+       2875.75
+      ]
+     ]
+    },
+    "stone_F014": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719272,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1350.0,
+       2470.5,
+       -520.0
+      ],
+      [
+       1500.0,
+       2875.75,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1350.0,
+       240.0,
+       2470.5
+      ],
+      [
+       1500.0,
+       520.0,
+       2875.75
+      ]
+     ]
+    },
+    "stone_F015": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719263,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1500.0,
+       2059.25,
+       -520.0
+      ],
+      [
+       -1350.0,
+       2464.5,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1500.0,
+       240.0,
+       2059.25
+      ],
+      [
+       -1350.0,
+       520.0,
+       2464.5
+      ]
+     ]
+    },
+    "stone_F016": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719272,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1350.0,
+       2059.25,
+       -520.0
+      ],
+      [
+       1500.0,
+       2464.5,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1350.0,
+       240.0,
+       2059.25
+      ],
+      [
+       1500.0,
+       520.0,
+       2464.5
+      ]
+     ]
+    },
+    "stone_F017": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719263,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1500.0,
+       1648.0,
+       -520.0
+      ],
+      [
+       -1350.0,
+       2053.25,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1500.0,
+       240.0,
+       1648.0
+      ],
+      [
+       -1350.0,
+       520.0,
+       2053.25
+      ]
+     ]
+    },
+    "stone_F018": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719272,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1350.0,
+       1648.0,
+       -520.0
+      ],
+      [
+       1500.0,
+       2053.25,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1350.0,
+       240.0,
+       1648.0
+      ],
+      [
+       1500.0,
+       520.0,
+       2053.25
+      ]
+     ]
+    },
+    "stone_F019": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719263,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1500.0,
+       1236.75,
+       -520.0
+      ],
+      [
+       -1350.0,
+       1642.0,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1500.0,
+       240.0,
+       1236.75
+      ],
+      [
+       -1350.0,
+       520.0,
+       1642.0
+      ]
+     ]
+    },
+    "stone_F020": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719272,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1350.0,
+       1236.75,
+       -520.0
+      ],
+      [
+       1500.0,
+       1642.0,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1350.0,
+       240.0,
+       1236.75
+      ],
+      [
+       1500.0,
+       520.0,
+       1642.0
+      ]
+     ]
+    },
+    "stone_F021": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719263,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1500.0,
+       825.5,
+       -520.0
+      ],
+      [
+       -1350.0,
+       1230.75,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1500.0,
+       240.0,
+       825.5
+      ],
+      [
+       -1350.0,
+       520.0,
+       1230.75
+      ]
+     ]
+    },
+    "stone_F022": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719263,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1350.0,
+       825.5,
+       -520.0
+      ],
+      [
+       1500.0,
+       1230.75,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1350.0,
+       240.0,
+       825.5
+      ],
+      [
+       1500.0,
+       520.0,
+       1230.75
+      ]
+     ]
+    },
+    "stone_F023": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719284,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1500.0,
+       414.25,
+       -520.0
+      ],
+      [
+       -1350.0,
+       819.5,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1500.0,
+       240.0,
+       414.25
+      ],
+      [
+       -1350.0,
+       520.0,
+       819.5
+      ]
+     ]
+    },
+    "stone_F024": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719272,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1350.0,
+       414.25,
+       -520.0
+      ],
+      [
+       1500.0,
+       819.5,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1350.0,
+       240.0,
+       414.25
+      ],
+      [
+       1500.0,
+       520.0,
+       819.5
+      ]
+     ]
+    },
+    "stone_F025": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719302,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1500.0,
+       3.0,
+       -520.0
+      ],
+      [
+       -1350.0,
+       408.25,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1500.0,
+       240.0,
+       3.0
+      ],
+      [
+       -1350.0,
+       520.0,
+       408.25
+      ]
+     ]
+    },
+    "stone_F026": {
+     "vertices": 44,
+     "faces": 84,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 15755443.823719272,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       1350.0,
+       3.0,
+       -520.0
+      ],
+      [
+       1500.0,
+       408.25,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       1350.0,
+       240.0,
+       3.0
+      ],
+      [
+       1500.0,
+       520.0,
+       408.25
+      ]
+     ]
+    },
+    "stone_F027": {
+     "vertices": 80,
+     "faces": 156,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 55108838.093323655,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -1500.0,
+       -200.0,
+       -520.0
+      ],
+      [
+       -453.0,
+       -3.0,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1500.0,
+       240.0,
+       -200.0
+      ],
+      [
+       -453.0,
+       520.0,
+       -3.0
+      ]
+     ]
+    },
+    "stone_F028": {
+     "vertices": 80,
+     "faces": 156,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 46856625.54381633,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -447.0,
+       -200.0,
+       -520.0
+      ],
+      [
+       447.0,
+       -3.0,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -447.0,
+       240.0,
+       -200.0
+      ],
+      [
+       447.0,
+       520.0,
+       -3.0
+      ]
+     ]
+    },
+    "stone_F029": {
+     "vertices": 80,
+     "faces": 156,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 55108838.093323655,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       453.0,
+       -200.0,
+       -520.0
+      ],
+      [
+       1500.0,
+       -3.0,
+       -240.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       453.0,
+       240.0,
+       -200.0
+      ],
+      [
+       1500.0,
+       520.0,
+       -3.0
+      ]
+     ]
+    },
+    "stone_T001": {
+     "vertices": 196,
+     "faces": 388,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 9998154.480067933,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -498.245472,
+       5083.53515,
+       -490.0
+      ],
+      [
+       -123.298861,
+       5455.217338,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -498.245472,
+       270.0,
+       5083.53515
+      ],
+      [
+       -123.298861,
+       490.0,
+       5455.217338
+      ]
+     ]
+    },
+    "stone_T002": {
+     "vertices": 196,
+     "faces": 388,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 9998154.480067931,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       123.298861,
+       5083.53515,
+       -490.0
+      ],
+      [
+       498.245472,
+       5455.217338,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       123.298861,
+       270.0,
+       5083.53515
+      ],
+      [
+       498.245472,
+       490.0,
+       5455.217338
+      ]
+     ]
+    },
+    "stone_T003": {
+     "vertices": 512,
+     "faces": 1020,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 27297061.98325417,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -220.992728,
+       4581.830381,
+       -490.0
+      ],
+      [
+       220.992728,
+       5161.769053,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -220.992728,
+       270.0,
+       4581.830381
+      ],
+      [
+       220.992728,
+       490.0,
+       5161.769053
+      ]
+     ]
+    },
+    "stone_T004": {
+     "vertices": 164,
+     "faces": 324,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 8140752.224341418,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -938.650601,
+       4581.830381,
+       -490.0
+      ],
+      [
+       -679.007272,
+       4949.610731,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -938.650601,
+       270.0,
+       4581.830381
+      ],
+      [
+       -679.007272,
+       490.0,
+       4949.610731
+      ]
+     ]
+    },
+    "stone_T005": {
+     "vertices": 164,
+     "faces": 324,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 8140752.224341385,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       679.007272,
+       4581.830381,
+       -490.0
+      ],
+      [
+       938.650601,
+       4949.610731,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       679.007272,
+       270.0,
+       4581.830381
+      ],
+      [
+       938.650601,
+       490.0,
+       4949.610731
+      ]
+     ]
+    },
+    "stone_T006": {
+     "vertices": 208,
+     "faces": 412,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11823491.603191381,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -792.328025,
+       4148.718676,
+       -490.0
+      ],
+      [
+       -499.420411,
+       4634.49,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -792.328025,
+       270.0,
+       4148.718676
+      ],
+      [
+       -499.420411,
+       490.0,
+       4634.49
+      ]
+     ]
+    },
+    "stone_T007": {
+     "vertices": 208,
+     "faces": 412,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11823491.603191363,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -400.579589,
+       4148.718676,
+       -490.0
+      ],
+      [
+       -107.671975,
+       4634.49,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -400.579589,
+       270.0,
+       4148.718676
+      ],
+      [
+       -107.671975,
+       490.0,
+       4634.49
+      ]
+     ]
+    },
+    "stone_T008": {
+     "vertices": 208,
+     "faces": 412,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11823491.603191374,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       107.671975,
+       4148.718676,
+       -490.0
+      ],
+      [
+       400.579589,
+       4634.49,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       107.671975,
+       270.0,
+       4148.718676
+      ],
+      [
+       400.579589,
+       490.0,
+       4634.49
+      ]
+     ]
+    },
+    "stone_T009": {
+     "vertices": 208,
+     "faces": 412,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 11823491.603191368,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       499.420411,
+       4148.718676,
+       -490.0
+      ],
+      [
+       792.328025,
+       4634.49,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       499.420411,
+       270.0,
+       4148.718676
+      ],
+      [
+       792.328025,
+       490.0,
+       4634.49
+      ]
+     ]
+    },
+    "stone_T010": {
+     "vertices": 416,
+     "faces": 828,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 32323469.256898414,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -622.395978,
+       3293.0,
+       -490.0
+      ],
+      [
+       -277.604022,
+       4179.766698,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -622.395978,
+       270.0,
+       3293.0
+      ],
+      [
+       -277.604022,
+       490.0,
+       4179.766698
+      ]
+     ]
+    },
+    "stone_T011": {
+     "vertices": 416,
+     "faces": 828,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 32323469.256898414,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       277.604022,
+       3293.0,
+       -490.0
+      ],
+      [
+       622.395978,
+       4179.766698,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       277.604022,
+       270.0,
+       3293.0
+      ],
+      [
+       622.395978,
+       490.0,
+       4179.766698
+      ]
+     ]
+    },
+    "stone_T012": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666665,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -515.0,
+       2881.75,
+       -490.0
+      ],
+      [
+       -385.0,
+       3287.0,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -515.0,
+       270.0,
+       2881.75
+      ],
+      [
+       -385.0,
+       490.0,
+       3287.0
+      ]
+     ]
+    },
+    "stone_T013": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666667,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       385.0,
+       2881.75,
+       -490.0
+      ],
+      [
+       515.0,
+       3287.0,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       385.0,
+       270.0,
+       2881.75
+      ],
+      [
+       515.0,
+       490.0,
+       3287.0
+      ]
+     ]
+    },
+    "stone_T014": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666665,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -515.0,
+       2470.5,
+       -490.0
+      ],
+      [
+       -385.0,
+       2875.75,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -515.0,
+       270.0,
+       2470.5
+      ],
+      [
+       -385.0,
+       490.0,
+       2875.75
+      ]
+     ]
+    },
+    "stone_T015": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666667,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       385.0,
+       2470.5,
+       -490.0
+      ],
+      [
+       515.0,
+       2875.75,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       385.0,
+       270.0,
+       2470.5
+      ],
+      [
+       515.0,
+       490.0,
+       2875.75
+      ]
+     ]
+    },
+    "stone_T016": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666665,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -515.0,
+       2059.25,
+       -490.0
+      ],
+      [
+       -385.0,
+       2464.5,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -515.0,
+       270.0,
+       2059.25
+      ],
+      [
+       -385.0,
+       490.0,
+       2464.5
+      ]
+     ]
+    },
+    "stone_T017": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666667,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       385.0,
+       2059.25,
+       -490.0
+      ],
+      [
+       515.0,
+       2464.5,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       385.0,
+       270.0,
+       2059.25
+      ],
+      [
+       515.0,
+       490.0,
+       2464.5
+      ]
+     ]
+    },
+    "stone_T018": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666665,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -515.0,
+       1648.0,
+       -490.0
+      ],
+      [
+       -385.0,
+       2053.25,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -515.0,
+       270.0,
+       1648.0
+      ],
+      [
+       -385.0,
+       490.0,
+       2053.25
+      ]
+     ]
+    },
+    "stone_T019": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666667,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       385.0,
+       1648.0,
+       -490.0
+      ],
+      [
+       515.0,
+       2053.25,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       385.0,
+       270.0,
+       1648.0
+      ],
+      [
+       515.0,
+       490.0,
+       2053.25
+      ]
+     ]
+    },
+    "stone_T020": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666665,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -515.0,
+       1236.75,
+       -490.0
+      ],
+      [
+       -385.0,
+       1642.0,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -515.0,
+       270.0,
+       1236.75
+      ],
+      [
+       -385.0,
+       490.0,
+       1642.0
+      ]
+     ]
+    },
+    "stone_T021": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666667,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       385.0,
+       1236.75,
+       -490.0
+      ],
+      [
+       515.0,
+       1642.0,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       385.0,
+       270.0,
+       1236.75
+      ],
+      [
+       515.0,
+       490.0,
+       1642.0
+      ]
+     ]
+    },
+    "stone_T022": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666665,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -515.0,
+       825.5,
+       -490.0
+      ],
+      [
+       -385.0,
+       1230.75,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -515.0,
+       270.0,
+       825.5
+      ],
+      [
+       -385.0,
+       490.0,
+       1230.75
+      ]
+     ]
+    },
+    "stone_T023": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666667,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       385.0,
+       825.5,
+       -490.0
+      ],
+      [
+       515.0,
+       1230.75,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       385.0,
+       270.0,
+       825.5
+      ],
+      [
+       515.0,
+       490.0,
+       1230.75
+      ]
+     ]
+    },
+    "stone_T024": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666665,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -515.0,
+       414.25,
+       -490.0
+      ],
+      [
+       -385.0,
+       819.5,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -515.0,
+       270.0,
+       414.25
+      ],
+      [
+       -385.0,
+       490.0,
+       819.5
+      ]
+     ]
+    },
+    "stone_T025": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666669,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       385.0,
+       414.25,
+       -490.0
+      ],
+      [
+       515.0,
+       819.5,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       385.0,
+       270.0,
+       414.25
+      ],
+      [
+       515.0,
+       490.0,
+       819.5
+      ]
+     ]
+    },
+    "stone_T026": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666665,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       -515.0,
+       3.0,
+       -490.0
+      ],
+      [
+       -385.0,
+       408.25,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -515.0,
+       270.0,
+       3.0
+      ],
+      [
+       -385.0,
+       490.0,
+       408.25
+      ]
+     ]
+    },
+    "stone_T027": {
+     "vertices": 64,
+     "faces": 124,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 10157082.866666665,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 2,
+     "bounds": [
+      [
+       385.0,
+       3.0,
+       -490.0
+      ],
+      [
+       515.0,
+       408.25,
+       -270.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       385.0,
+       270.0,
+       3.0
+      ],
+      [
+       515.0,
+       490.0,
+       408.25
+      ]
+     ]
+    },
+    "wall": {
+     "vertices": 130,
+     "faces": 260,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 14351238534.04702,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 1,
+     "euler": 0,
+     "bounds": [
+      [
+       -2200.0,
+       -900.0,
+       -850.0
+      ],
+      [
+       2200.0,
+       6609.98008,
+       0.0
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -2200.0,
+       -0.0,
+       -900.0
+      ],
+      [
+       2200.0,
+       850.0,
+       6609.98008
+      ]
+     ]
+    },
+    "glass": {
+     "vertices": 382,
+     "faces": 740,
+     "watertight": true,
+     "winding_consistent": true,
+     "volume": 99879121.32301909,
+     "nonmanifold_edges": 0,
+     "degenerate_faces": 0,
+     "unreferenced_vertices": 0,
+     "bodies": 6,
+     "euler": 12,
+     "bounds": [
+      [
+       -1349.9916,
+       0.0084,
+       -384.2
+      ],
+      [
+       1349.9916,
+       5738.258783,
+       -375.8
+      ]
+     ],
+     "bounds_blender": [
+      [
+       -1349.9916,
+       375.8,
+       0.0084
+      ],
+      [
+       1349.9916,
+       384.2,
+       5738.258783
+      ]
+     ]
+    }
+   }
+  }
+ }
+}

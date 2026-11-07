@@ -1,0 +1,87 @@
+{
+ "stleu_fig80_rebuild": {
+  "stone_hash": "a82cec9819f22224c76d99862354e7e848dd4829bf0f1500ef34ecf7b26c1cb7",
+  "roles": {
+   "light": 2,
+   "foil": 1
+  },
+  "openings": [
+   "L1",
+   "L2",
+   "F1"
+  ]
+ },
+ "stleu_fig80_ideal": {
+  "stone_hash": "40e18a36804aec5d3ca896c202e80bb1316fdd9b9be7c43d751d14c584a658e6",
+  "roles": {
+   "light": 2,
+   "foil": 1
+  },
+  "openings": [
+   "L1",
+   "L2",
+   "F1"
+  ]
+ },
+ "bar_2light_sexfoil": {
+  "stone_hash": "57294c7630fd26eb21eb1c9ebf5a2f477fae53964394daee3d17c54fca343fcc",
+  "roles": {
+   "light": 2,
+   "foil": 1,
+   "spandrel": 4
+  },
+  "openings": [
+   "W.L1",
+   "W.L2",
+   "W.O",
+   "S01",
+   "S02",
+   "S03",
+   "S04"
+  ]
+ },
+ "bar_4light_recursive": {
+  "stone_hash": "3fffe54889ca7a7186d8be5f0fc0ef632e852ce3390fa1dbf1d5fd760926b125",
+  "roles": {
+   "light": 4,
+   "foil": 3,
+   "spandrel": 12
+  },
+  "openings": [
+   "W.A1.L1",
+   "W.A1.L2",
+   "W.A2.L1",
+   "W.A2.L2",
+   "W.A1.O",
+   "W.A2.O",
+   "W.O",
+   "S01",
+   "S02",
+   "S03",
+   "S04",
+   "S05",
+   "S06",
+   "S07",
+   "S08",
+   "S09",
+   "S10",
+   "S11",
+   "S12"
+  ]
+ },
+ "intersecting_3light": {
+  "stone_hash": "710ce613d26d6e4576fe18ad952e013fc2b47dcfc74942b9fcc284a76e507f37",
+  "roles": {
+   "light": 3,
+   "eye": 3
+  },
+  "openings": [
+   "W.L1",
+   "W.L2",
+   "W.L3",
+   "E01",
+   "E02",
+   "E03"
+  ]
+ }
+}

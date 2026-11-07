@@ -1,0 +1,8 @@
+# Tested 2026-11-07 with Python 3.13.18
+numpy==2.5.3
+scipy==1.18.1
+shapely==2.2.0
+trimesh==5.2.0
+triangle==20250106
+matplotlib==3.11.2
+bpy==5.2.3        # Blender 5.2.3 LTS as a Python module (needs Python 3.13); or run the Blender app instead

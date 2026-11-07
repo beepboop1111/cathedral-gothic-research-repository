@@ -1,0 +1,22 @@
+{
+ "rose_12_cusped": {
+  "note": "trial, mm",
+  "joint_width": 6,
+  "course": 420,
+  "voussoir": 560,
+  "min_block": 200,
+  "keepout": 120,
+  "keepout_factor": 1.6,
+  "max_block": 2500
+ },
+ "bar_4light_recursive": {
+  "note": "trial, mm",
+  "joint_width": 6,
+  "course": 440,
+  "voussoir": 600,
+  "min_block": 220,
+  "keepout": 150,
+  "sill_max": 2400,
+  "max_block": 2500
+ }
+}
