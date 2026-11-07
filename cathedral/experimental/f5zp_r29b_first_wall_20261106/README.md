@@ -1,0 +1,1 @@
+R29B corrects R29: open Q5 transition only until the first actual 320 native-unit sanctuary-to-inner layer wall; centerline saved R11 polygon shows X23081.9069..23401.9069. Source geom unchanged. Other wall placements unverified. Technical and centerline geometric checks pass, full architectural/structural/historical detail not validated.
