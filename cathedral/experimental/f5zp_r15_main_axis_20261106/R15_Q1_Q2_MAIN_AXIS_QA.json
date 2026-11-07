@@ -1,0 +1,31 @@
+{
+  "status": "R15 EXPERIMENTAL 2D AXIS COORDINATION, NOT APPROVED SUPPORT GEOMETRY",
+  "source_sha256": {
+    "R12C": "4c6f5c3d16959e516032902e663c978c4b0b982c2c2261c0fe6bbce82db04307",
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R14_S2": "773e464b080f332e1c54adb2a7ac3ecd2860f02e271f26a433850bd49ca4f5f5"
+  },
+  "source_files_unchanged": true,
+  "source_Q1_Q2_main_axis_x": 4505.0,
+  "source_aisle_axis_x": 4480.0,
+  "aisle_axis_offset": -25.0,
+  "original_major_center_x": 4325,
+  "original_major_offset_from_main_axis": -180,
+  "source_original_major_width": 800,
+  "centered_study_width": 800,
+  "full_gap_study_width": 1160,
+  "all_scenarios_inside_R11_retained_masonry": true,
+  "all_scenarios_avoid_seven_R13_B_passages": true,
+  "all_scenarios_avoid_R11_clear_vaults": true,
+  "all_scenarios_have_zero_line_contact_with_main_Q1_Q2_vault_boundaries": true,
+  "architectural_interpretation": "Main separator axis adopted for reservation composition; not a completed pier bearing.",
+  "unresolved": [
+    "Need explicit vault-corner/respond geometry to establish real bearing faces.",
+    "S1 centered 800 strip ceases to preserve original 800 footprint and would require geometric approval to implement.",
+    "S2 full-width masonry reservation is not proof of a load-bearing 1160-wide pier.",
+    "R13 B aisle openings remain centered at 4480 (25 west of the 4505 main separator).",
+    "235 visual facing remains experimental and not a structural width.",
+    "F5ZL-C support schedule missing; no structural loading or real arch profile developed."
+  ]
+}
