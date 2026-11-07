@@ -1,0 +1,77 @@
+{
+  "status": "R17 2D PLAN JUNCTION CONTINUITY CHECKS PASSED; architectural / structural validation unresolved",
+  "source_sha256": {
+    "R12C": "4c6f5c3d16959e516032902e663c978c4b0b982c2c2261c0fe6bbce82db04307",
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R16": "d7ecdb297bf234c9d4a5e401f6297f76053e4d3335a52e0de750baf4c7111486"
+  },
+  "source_files_unchanged": true,
+  "main_axis_x": 4505,
+  "aisle_axis_x": 4480,
+  "r16_reference_contact_strips_unchanged": 14,
+  "junction_regions_extracted_from_existing_R11_retained_masonry": 8,
+  "main_vault_to_first_aisle_bridged_by_original_major_800x320": true,
+  "main_major_edges": [
+    {
+      "side": "N",
+      "original_major_to_main_face": 800.0,
+      "original_major_to_A1_face": 470.0,
+      "major_to_east_extension": 320.0,
+      "full_1160_to_main_contact": 1160.0,
+      "full_1160_to_A1_contact": 470.0,
+      "original_major_x_mid": 4325,
+      "full_band_x_mid": 4505
+    },
+    {
+      "side": "S",
+      "original_major_to_main_face": 800.0,
+      "original_major_to_A1_face": 470.0,
+      "major_to_east_extension": 320.0,
+      "full_1160_to_main_contact": 1160.0,
+      "full_1160_to_A1_contact": 470.0,
+      "original_major_x_mid": 4325,
+      "full_band_x_mid": 4505
+    }
+  ],
+  "original_major_support_to_R11_east_360_remainder_contact": 320,
+  "across_full_Q1_Q2_main_transverse_band_width_x": 1160,
+  "A1_to_A2_effective_bridge_height": 197,
+  "A2_to_A3_effective_bridge_height": 321,
+  "A2_to_A3_nominal_separation_note": "Staggered Q1/Q2 vault row edges yield an effective contact-strip separation of 321, not 292; 292 is the general transverse schedule elsewhere.",
+  "A1_to_A2_bridge_vault_face_connection_lengths": [
+    470,
+    470
+  ],
+  "A2_to_A3_bridge_vault_face_connection_lengths": [
+    470,
+    470
+  ],
+  "historical_step_overlap": {
+    "N": {
+      "historic_inner_step_area": 111680.0,
+      "historic_step_within_retained_masonry": true,
+      "historic_step_intersects_bridge_area": 63360.0,
+      "bridge_effective_width_y": 321.0,
+      "bridge_to_A2_contact": 470.0,
+      "bridge_to_A3_contact": 470.0
+    },
+    "S": {
+      "historic_inner_step_area": 111680.0,
+      "historic_step_within_retained_masonry": true,
+      "historic_step_intersects_bridge_area": 63360.0,
+      "bridge_effective_width_y": 321.0,
+      "bridge_to_A2_contact": 470.0,
+      "bridge_to_A3_contact": 470.0
+    }
+  },
+  "all_regions_within_R11_retained_masonry": true,
+  "all_regions_avoid_R13_B_seven_passages": true,
+  "all_regions_avoid_protected_vaults": true,
+  "full_2D_wall_union_not_claimed_as_independent_support": true,
+  "recovered_old_outermost_supports_still_unresolved": true,
+  "structural_capacity_verified": false,
+  "architectural_configuration_approved": false,
+  "next_review": "Review effective transverse bridge widths and old 800-footprint asymmetry; actual piercing masonry, arch details and 3D springing deferred.",
+  "missing_schedule": "F5ZL-C"
+}
