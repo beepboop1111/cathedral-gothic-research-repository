@@ -1,0 +1,36 @@
+{
+  "status": "R16 EXPERIMENTAL 2D VAULT-FACE CONTACT VALIDATED; NO STRUCTURAL VALIDATION",
+  "source_SHA256": {
+    "R12C": "4c6f5c3d16959e516032902e663c978c4b0b982c2c2261c0fe6bbce82db04307",
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "R13": "bd349ddc61ca7766f5298209d617482b2597d3a2557f3687ca903d3b3d31931f",
+    "R15": "ff9f0db05e78175ab51a329cb76c9f28e2dc41a4ec88f7588a7fe0d53d39755a"
+  },
+  "source_files_unchanged": true,
+  "main_axis_x": 4505,
+  "aisle_axis_x": 4480,
+  "aisle_offset_from_main_axis": -25,
+  "original_major_support_contact_Q1_length": 0.0,
+  "original_major_support_contact_Q2_length": 0.0,
+  "new_end_strips_count": 14,
+  "seven_openings_with_both_end_strips": true,
+  "all_west_and_east_vault_faces_contact_with_positive_lengths": true,
+  "main_upper_test_strip_to_original_800_support_contact_length": 800.0,
+  "main_opening_strips_face_contacts_native": 360,
+  "A1_A2_aisle_opening_strips_face_contacts_native": 160,
+  "A3_outer_aisle_opening_strips_face_contacts_native": 220,
+  "all_strips_inside_existing_R11_retained_masonry": true,
+  "all_strips_avoid_original_vault_clear_spaces": true,
+  "all_strips_avoid_optionB_entrance_openings": true,
+  "contact_geometry_pass": true,
+  "architectural_validation": false,
+  "structural_capacity_validated": false,
+  "unresolved": [
+    "2D face contact alone is not a tested continuous 3D load path or a completed structural pier.",
+    "The original major support stripe and new contact region connect at an 800-long plan edge; physical masonry bonding and capacity are not established.",
+    "Aisle openings center at X4480 (25 west of the main separator axis X4505).",
+    "Outer historical supports remain displaced in current R11 coordinate frame.",
+    "F5ZL-C support schedule is unavailable; no arch curvature or moulding geometry approved.",
+    "Q1-Q2 geometry remains an experimental floor-plan study."
+  ]
+}
