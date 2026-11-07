@@ -1,0 +1,38 @@
+{
+  "checkpoint": "F5ZP_M02_2D_ARCHITECTURAL_CHECKPOINT_R01_LOCAL",
+  "classification": "Validated 2D technical and geometric work; NOT approved architectural supports",
+  "source_original_status": "R11 EXPERIMENTAL, verified source but not blanket promotion",
+  "source_vaults": 218,
+  "positive_area_source_overlaps": 0,
+  "working_chevet_ring_counts": {
+    "I": 7,
+    "M": 7,
+    "T": 7
+  },
+  "14_outer_subdivisions_in_working_floorplan": false,
+  "7_sided_open_chancel": "USER CONFIRMED; 7 source faces",
+  "first_physical_wall": "7 sanctuary-to-inner faces / perpendicular 320 native units",
+  "source_ring_gaps": {
+    "I_M": 197,
+    "M_T": 292
+  },
+  "phase_B_eight_sites": "Measured; 24 experimental options, no selected physical pier",
+  "phase_C_paired_lower_outer": "Research only, excluded from working floorplan",
+  "phase_D": "2D plan spatial classifications verified; wall joins/pier bearings unapproved",
+  "phase_E": "218 vault polygon regression PASS",
+  "approval_protection": [
+    "F5ZK-C unchanged",
+    "F5ZN-A unchanged",
+    "Working inner/middle generator untouched",
+    "Pass 6J records untouched",
+    "Outer paired cells not promoted"
+  ],
+  "technical_validation": "PASS",
+  "geometric_validation": "PASS",
+  "architectural_validation": "Confirmed open central sanctuary and first wall; other details provisional",
+  "historical_validation": "NOT ASSESSED",
+  "structural_validation": "NOT ASSESSED",
+  "missing_support_schedule": "F5ZL-C unresolved",
+  "native_to_physical_unit_conversion": "UNRESOLVED",
+  "github": "NOT USED"
+}
