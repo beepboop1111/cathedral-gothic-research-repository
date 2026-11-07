@@ -1,0 +1,7 @@
+chancel_corner_index_south_to_north,corner_x,corner_y,adjoining_vaults,change_in_facet_direction_deg,offset_vault_edge_endpoint_gap_native,corner_reference_triangle_area_native_sq,triangle_outside_source_chevet_masonry_area,triangle_intersection_with_adjacent_clear_vaults,new_pier_size_known,physical_corner_bearing_approved
+1,21567.308682618353,-2601.6027737117242,I_A7_R12C / I_A6_R12C,26.5,185.15249,28471.39511,0.0,0.0,False,False
+2,22570.7121721903,-1744.6152335416837,I_A6_R12C / I_A5_R12C,25.25,139.884189,21840.319483,0.0,0.0,False,False
+3,23081.906912952254,-609.8049891684882,I_A5_R12C / I_A4_R12C,24.25,134.428916,21028.805254,0.0,0.0,False,False
+4,23081.90691295225,609.8049891684885,I_A4_R12C / I_A3_R12C,24.25,134.428916,21028.805254,0.0,0.0,False,False
+5,22570.7121721903,1744.6152335416843,I_A3_R12C / I_A2_R12C,25.25,139.884189,21840.319483,0.0,0.0,False,False
+6,21567.308682618353,2601.6027737117242,I_A2_R12C / I_A1_R12C,26.5,185.15249,28471.39511,0.0,0.0,False,False
