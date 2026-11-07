@@ -1,0 +1,137 @@
+[
+  {
+    "path": "M02_ARCHITECTURAL_CHECKPOINT_REGISTER.json",
+    "bytes": 1566,
+    "sha256": "a9b5ccad660351a07783443964bf44d5516315f380a3beba26efa0e63937f419"
+  },
+  {
+    "path": "M02_UNRESOLVED_ISSUES.csv",
+    "bytes": 916,
+    "sha256": "e2709dba62751c4372f95cf08cc20e0ce206f63a914888bc1c3b71a6f142d234"
+  },
+  {
+    "path": "README_START_HERE.md",
+    "bytes": 3141,
+    "sha256": "c485417f37cd7febb3ef600500e24f64510e532ab2cd574a2d7ea165e9b215dd"
+  },
+  {
+    "path": "drawings/MASONRY_PLAN_DARK.png",
+    "bytes": 457988,
+    "sha256": "4ebaab4d5a0453ef02e364e414ccd43101e65f706c4ab699caa5e1bfbcf15c30"
+  },
+  {
+    "path": "drawings/MASTER_CATHEDRAL_DARK.png",
+    "bytes": 494593,
+    "sha256": "b8471776c8358daca737ba8a51e1b6a1d129d04a870b18319ef1e6f1c7e229e3"
+  },
+  {
+    "path": "intent/R30_MEASURED_SEVEN_FACES.json",
+    "bytes": 1179,
+    "sha256": "93b005de5d228405f67513e6abc24e2658315dad12464f491c7288c6e8a3737b"
+  },
+  {
+    "path": "intent/R30_OPEN_INTERIOR_INTENT.md",
+    "bytes": 4179,
+    "sha256": "99436eb955fa441a77027fc7db21dd32d859164e3eaf56d1b18f3be1457ba62b"
+  },
+  {
+    "path": "intent/R31_OPEN_SANCTUARY_1TO1.geojson",
+    "bytes": 1987,
+    "sha256": "553f3a168a52ba1dea183425af436d4319bae2f25bd40878789a44a37d668e86"
+  },
+  {
+    "path": "phase_b/B_R03_24_EXPERIMENTAL_WALL_STUDIES.csv",
+    "bytes": 4984,
+    "sha256": "b91877b3764eb4a594504de830bd5df6f337df385a9357ba674fae2e1c2b5be5"
+  },
+  {
+    "path": "phase_b/B_R03_24_UNAPPROVED_STUDIES.geojson",
+    "bytes": 103725,
+    "sha256": "90880a06fb18f848c4c63d583b85024a3cbeb3a629e837ee0eb3e9c5d4de782b"
+  },
+  {
+    "path": "phase_b/B_R03_QA.json",
+    "bytes": 2658,
+    "sha256": "049f0ee35a95ea0b690920b96576d5ed09dd492087d7a930e0472f4dfdc4ec46"
+  },
+  {
+    "path": "phase_c/C_SOURCE_RHYTHM_QA_NO_TRIAL_CELLS.json",
+    "bytes": 3695,
+    "sha256": "d6e7151d0ad316ee70cc2fc06e8d92909c19c04eed3508a7a0a7be177f319b59"
+  },
+  {
+    "path": "phase_d/D_32_INTERFACE_GAPS.csv",
+    "bytes": 1856,
+    "sha256": "37598c5e02b42c0b890a5fc794e999e44d590f57481036b29f6bf16eccf99317"
+  },
+  {
+    "path": "phase_d/D_8_SUPPORT_REFERENCES.csv",
+    "bytes": 769,
+    "sha256": "9914a20adbf8bb56a1cffcf08ff4dafff6d781833ba83f6e1d015fad3d1c9519"
+  },
+  {
+    "path": "phase_d/D_MASONRY_ROLE_AUDIT.csv",
+    "bytes": 339,
+    "sha256": "5ff73721d390775beb562e2b3070db3af43c418db121b110808cefdcb4b692ab"
+  },
+  {
+    "path": "phase_d/D_QA.json",
+    "bytes": 1836,
+    "sha256": "ddf54669112bbd94f71d41aee13d1f0100ec1c710ea4007254357488096cc84c"
+  },
+  {
+    "path": "phase_d/D_SEVEN_320_WALL_FACES.csv",
+    "bytes": 362,
+    "sha256": "f3553bc72b0e9e9405bc653b5536445f9531b15878bdf1bf44c3ca1d46712e49"
+  },
+  {
+    "path": "phase_d/D_WORKING_FLOORPLAN_SEVEN_OUTER_ONLY.geojson",
+    "bytes": 44770,
+    "sha256": "84653eaeff6adb01601e140a03e2f6d70e497c55f015d77d91bab5f88a7808e2"
+  },
+  {
+    "path": "phase_e/E_18_ADJACENT_VAULT_GAPS.csv",
+    "bytes": 518,
+    "sha256": "54a5322ebe1f4f336735549ff4bcf1f62b0b02ee2cd6d5f59ab71a6dbb189b00"
+  },
+  {
+    "path": "phase_e/E_EIGHT_SUPPORT_CLEARANCES.csv",
+    "bytes": 694,
+    "sha256": "e87a9f8c20019c6b273f708ed0e487a1752c42fcfeeb2b4a642236d844154abf"
+  },
+  {
+    "path": "phase_e/E_FULL_REGRESSION_QA.json",
+    "bytes": 6196,
+    "sha256": "aabdf068799512cb99c6abd91f2b1a8680bfa795da1172eda499b064f71c9494"
+  },
+  {
+    "path": "phase_e/E_REVIEW_CHECKLIST.csv",
+    "bytes": 1645,
+    "sha256": "628493613584f40491f2f113b3f8f0725ebd2df591a29c22f29e2026d1ec93bb"
+  },
+  {
+    "path": "phase_e/E_SEVEN_BAY_RING_QA.csv",
+    "bytes": 285,
+    "sha256": "dfdccf6ff6b1d782f0d801c72df49062266ce9b030cb9d00a28430189544c515"
+  },
+  {
+    "path": "scripts/B_R03_WALL_CONNECTED.py",
+    "bytes": 16181,
+    "sha256": "d8a4bf30310cbbbcf922fc7779844683694e55aeb632a4207f99167aa82b709a"
+  },
+  {
+    "path": "scripts/D_SOURCE_ONLY_MASONRY.py",
+    "bytes": 12634,
+    "sha256": "d6699cf8eea1d486d821645513813e1ce1b7699de3b022915ecd0fe1862eb648"
+  },
+  {
+    "path": "scripts/E_FULL_REGRESSION.py",
+    "bytes": 20745,
+    "sha256": "7f9c23c8aa7bd88b8a354fcda10a97d98f9e9aac1471d721bef72299caff4a69"
+  },
+  {
+    "path": "source/R11_ORIGINAL.geojson",
+    "bytes": 98600,
+    "sha256": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162"
+  }
+]
