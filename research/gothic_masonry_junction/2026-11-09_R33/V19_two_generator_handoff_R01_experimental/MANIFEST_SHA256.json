@@ -1,0 +1,49 @@
+{
+  "checkpoint": "F5ZP_V19_TWO_GENERATORS_FULL_HANDOFF_R01_EXPERIMENTAL",
+  "files": {
+    "HANDOFF.md": {
+      "size": 13133,
+      "sha256": "dec4387fdb28c8b11af4ac0c2abffa4727eb69c8d9e172634e7b162bf66dd6bd"
+    },
+    "scripts/v19_rib_arch_generator.py": {
+      "size": 13434,
+      "sha256": "a485c39fe42ae2fed8a329d96c9fe1c84d4e2d009cd5c9b5970da19ada87efbd"
+    },
+    "scripts/v19_full_vault_generator.py": {
+      "size": 17184,
+      "sha256": "6471c0be8b6918e9aa6837078a9070ec2fd3d36864152fc30dbf90f9c9bbe3d6"
+    },
+    "validation/VALIDATION_SUMMARY.json": {
+      "size": 2793,
+      "sha256": "8542fd80cc1fc636fea238ced6dbe410718be8bccab3485def9ed8c3d8ef7b54"
+    },
+    "validation/skeleton_QA.json": {
+      "size": 1426,
+      "sha256": "7f6356cf18c6d4a59cce35b5a071c85e45690a7d545faa85e057df7f676520ee"
+    },
+    "validation/full_vault_QA.json": {
+      "size": 3777,
+      "sha256": "a02decae49308399d5ec3159e8cc7b9ff5ce83e9e67a63848c94a92f9aae076f"
+    },
+    "validated/V19_SKELETON_EXPERIMENTAL.blend": {
+      "size": 120380,
+      "sha256": "38ee280cfae4c99c89221cb08fe54ee32e855fc2ff4f41a2b2f8338822366e0f"
+    },
+    "validated/V19_FULL_VAULT_EXPERIMENTAL.blend": {
+      "size": 1865353,
+      "sha256": "1661c22daf127db8d86ebd3f62e2186ea6dbdf7970cc10fe3c52630fbe375541"
+    },
+    "validated/V19_OPEN_INTRADOS_BLENDER.glb": {
+      "size": 1186960,
+      "sha256": "0ec58ecdadcdaf0b49fce46373b93a14f96faf83736228a2fe8c5ea9f2c5cf31"
+    },
+    "reference/V19_ORIGINAL_REVIEW.png": {
+      "size": 972894,
+      "sha256": "cb730682de5494850fa27bcba416d8fd7f0edac3897553d44f57c12623ff7e0d"
+    },
+    "reference/V19_ORIGINAL_QA.json": {
+      "size": 4383,
+      "sha256": "6e2ecddc7c2819ff6259a1a47b2e3d35aa493456e7992b8dcd8c1a269fa0f056"
+    }
+  }
+}

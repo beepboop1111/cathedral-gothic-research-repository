@@ -1,0 +1,91 @@
+{
+  "checkpoint": "F5ZP_V19_TWO_GENERATORS_FULL_HANDOFF_R01_EXPERIMENTAL",
+  "status": "TECHNICAL_AND_GEOMETRIC_REPRODUCTION_PASS",
+  "blender_tested": "5.0.1 (5.1+ not tested)",
+  "scripts": [
+    "scripts/v19_rib_arch_generator.py",
+    "scripts/v19_full_vault_generator.py"
+  ],
+  "original_V19_comparison": {
+    "reference_triangles": 65536,
+    "reproduction_triangles": 65536,
+    "max_nearest_vertex_deviation_native": 8.631674575031098e-05,
+    "mean_nearest_vertex_deviation_native": 1.230202026244826e-05,
+    "reference_bounds_glTF_Yup": [
+      [
+        -541.62744140625,
+        0.0,
+        -565.8896484375
+      ],
+      [
+        666.3803100585938,
+        970.6726684570312,
+        642.4091796875
+      ]
+    ],
+    "reproduction_bounds_glTF_Yup": [
+      [
+        -541.62744140625,
+        0.0,
+        -565.8896484375
+      ],
+      [
+        666.3803100585938,
+        970.6726684570312,
+        642.4091796875
+      ]
+    ],
+    "reproduction_winding_consistent": true,
+    "reproduction_open_disk_euler": 1,
+    "reproduction_non_watertight_by_design": true
+  },
+  "R12B_hermite_peak_offset_verified": 74.3411345630531,
+  "full_vault_qa_residuals": {
+    "plan_displacement": 0.0,
+    "pointed_arch": 5.684341886080802e-14,
+    "independent_groin_left": 0.0,
+    "independent_groin_right": 0.0,
+    "shared_groin_seam": 0.0,
+    "boss": 0.0,
+    "type_A_meridian": 0.0
+  },
+  "crown_Z": 955.188732109079,
+  "highest_arch_apex_Z": 884.4340112121101,
+  "web_peak_Z": 970.6726563521715,
+  "negative_cases_rejected": [
+    "MANUAL_CROWN_BELOW_HIGHEST_ARCH_APEX",
+    "LOCKED_CROWN_CANNOT_AUTO_CHANGE",
+    "SHALLOW_CIRCULAR_GROIN_NO_FALLBACK",
+    "ARCH_RISE_SPAN_NOT_POINTED"
+  ],
+  "Blender_file_reopen": "PASS: 1 full web mesh, 12 editable guide curves",
+  "GLB_Blender_reimport": "PASS: only the 65536-triangle open web mesh, correct Z elevation",
+  "source_hash_regression": {
+    "R17_original": {
+      "sha256": "58cc8805c6bf8cf17ecbf74cdafc55a05d529f904dc7d9184986ac4c3e0ff079",
+      "untouched": true
+    },
+    "R18_original": {
+      "sha256": "a7e73e5f5f54d729fa17cd9a3cd24b883ad9213c2a28a6cc7c31dd2cdb32457d",
+      "untouched": true
+    },
+    "R03_original": {
+      "sha256": "5662388fb129168667e32f7a44e1b877ad03d922c9602f00eb479188e39b2d22",
+      "untouched": true
+    },
+    "R12B_original": {
+      "sha256": "a9312346824a17153f7a5eabce488d8f1f0911cac1357d1d4b06d3568eea97b5",
+      "untouched": true
+    },
+    "V18_reference": {
+      "sha256": "62c9c9cea6f555f9646e371d4aeb8df514049528595dbc9d1a958e86e84fdf73",
+      "untouched": true
+    }
+  },
+  "architecture_approved": false,
+  "historical_validated": false,
+  "structural_validated": false,
+  "roof_clearance": "UNRESOLVED",
+  "github_uploaded": false,
+  "original_models_edited": false
+}

@@ -1,0 +1,86 @@
+{
+  "status": "V19_NEW_IRREGULAR_VAULT_R12B_MERIDIAN_GENERATION_PASS",
+  "Blender_version": "5.0.1",
+  "new_workspace": "/home/christopher/Downloads/F5ZP_V19_IRREGULAR_MERIDIAN_REGEN_R01_EXPERIMENTAL/F5ZP_V19_IRREGULAR_MERIDIAN_EXPERIMENTAL.blend",
+  "export": "/home/christopher/Downloads/F5ZP_V19_IRREGULAR_MERIDIAN_REGEN_R01_EXPERIMENTAL/F5ZP_V19_IRREGULAR_WEB_BLENDER_VALIDATED.glb",
+  "single_review_image": "/home/christopher/Downloads/F5ZP_V19_IRREGULAR_MERIDIAN_REGEN_R01_EXPERIMENTAL/F5ZP_V19_IRREGULAR_VAULT_REVIEW.png",
+  "source_hashes_unchanged": true,
+  "source_sha256": {
+    "/home/christopher/Downloads/F5ZP_R18_R03_MERIDIAN_RECOVERY_EXPERIMENTAL/V18_WORKSPACE_V04_EXPERIMENTAL.blend": "62c9c9cea6f555f9646e371d4aeb8df514049528595dbc9d1a958e86e84fdf73",
+    "/home/christopher/Downloads/F5ZP_R18_R03_MERIDIAN_RECOVERY_EXPERIMENTAL/v18_meridian_workspace.py": "08e9bbb15f8a9a9acd068bc9e838aa1e398ace01b0409d4168a3371673f95abb",
+    "/home/christopher/Downloads/F5ZP_R18_R03_MERIDIAN_RECOVERY_EXPERIMENTAL/scripts/r18_r03_meridian_core.py": "5662388fb129168667e32f7a44e1b877ad03d922c9602f00eb479188e39b2d22",
+    "/home/christopher/Downloads/F5ZP_R18_INDEPENDENT_GROIN_WEB_TEST_EXPERIMENTAL/r18_core.py": "a7e73e5f5f54d729fa17cd9a3cd24b883ad9213c2a28a6cc7c31dd2cdb32457d",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_core.py": "58cc8805c6bf8cf17ecbf74cdafc55a05d529f904dc7d9184986ac4c3e0ff079",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_vendor/strict_crown_guard.py": "5e218e091b41a058314c53a12d7a191a2a6befda1e813e982c629778c19e3d05",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/F5ZP_R17_FAST_UNIVERSAL_VAULT_WORKSPACE_EXPERIMENTAL/addon/r17_vendor/guarded_vault_adapter.py": "08da15e28d624dfd9afc164612c1c05fcc091fd684b0c403d691cc93e16e30ee",
+    "/home/christopher/Downloads/F5ZP_UNIVERSAL_GOTHIC_VAULT_GENERATOR_R01_EXPERIMENTAL/experiments/CHAPEL_APSE_R12B_USER_RED_MERIDIAN_EXPERIMENTAL/configs/R12B_USER_RED_HERMITE_REGISTRATION.json": "a9312346824a17153f7a5eabce488d8f1f0911cac1357d1d4b06d3568eea97b5"
+  },
+  "method": "V18 independent circular groins + Gothic pointed R17 boundaries + normalized R12B Type A Hermite meridians",
+  "reused_unique_R14_Type_B": false,
+  "radius_native": 620.0,
+  "irregularity": 0.11999999731779099,
+  "plan_corners": [
+    [
+      666.3803276936596,
+      158.33307818667612
+    ],
+    [
+      -143.00624633129382,
+      565.8896578782244
+    ],
+    [
+      -541.6274648172005,
+      -121.40824990699221
+    ],
+    [
+      134.413235146835,
+      -642.4091622666957
+    ]
+  ],
+  "max_radial_run": 684.9321899174963,
+  "springing_Z": 0.0,
+  "highest_pointed_arch_apex_Z": 884.4340254962835,
+  "central_crown_Z": 955.1887475359862,
+  "strict_circular_groins_valid": true,
+  "mesh_triangles": 65536,
+  "geometry_QA": {
+    "status": "MERIDIAN_TEST_GEOMETRIC_QA_PASS",
+    "R12B_Source_Config_SHA256": "a9312346824a17153f7a5eabce488d8f1f0911cac1357d1d4b06d3568eea97b5",
+    "R12B_accepted_source_peak_Z": 4370.341134563053,
+    "source_reference_run": 738.8206500000015,
+    "per_sector_meridian_peak_Z": [
+      956.6824583578853,
+      955.1887475359862,
+      955.1887475359862,
+      970.6775712687564
+    ],
+    "web_peak_Z": 970.6726713504287,
+    "web_peak_above_crown": 15.483923814442505,
+    "max_old_to_new_meridian_shift_Z": 154.74461413450797,
+    "skeleton_and_meridian_residuals": {
+      "boundary": 0.0,
+      "groin": 0.0,
+      "groin_seam": 0.0,
+      "boss": 0.0,
+      "plan": 0.0,
+      "meridian_template": 0.0
+    },
+    "Euler": 1,
+    "boundary_edge_count": 512,
+    "faces": 65536,
+    "vertices": 33025,
+    "min_triangle_area": 9.892050057310072,
+    "roof_clearance": "UNRESOLVED",
+    "geometry_status": "OPEN INTRADOS ONLY; no masonry section or cap",
+    "R12B_exact_world_coords_reused": false,
+    "R12B_normalized_curve_shape_reused": true,
+    "Type_B_sector05_reused": false
+  },
+  "limits": [
+    "open underside only",
+    "no actual medieval structural verification",
+    "roof clearance unresolved",
+    "not project-approved"
+  ],
+  "source_GLTF_axis_conversion": "Blender export_yup=True"
+}

@@ -1,0 +1,139 @@
+{
+  "status": "V19_TWO_SCRIPT_REPRODUCIBLE_GEOMETRY_PASS",
+  "skeleton": {
+    "status": "V19_POINTED_ARCH_INDEPENDENT_GROIN_GEOMETRIC_QA_PASS",
+    "family": "irregular polygon, 4 sectors at V19 baseline",
+    "scale": "1:1 native, SI conversion unknown",
+    "settings": {
+      "sectors": 4,
+      "radius": 620.0,
+      "irregularity": 0.12,
+      "rotation_degrees": 13.0,
+      "spring_Z": 0.0,
+      "arch_rise_ratio": 0.92,
+      "crown_mode": "AUTO",
+      "crown_Z": null,
+      "crown_locked": false,
+      "divisions": 128,
+      "meridian_exponent": 1.75,
+      "dome_lift": 0.12
+    },
+    "plan_corners": [
+      [
+        666.3803290831061,
+        158.3330786172552
+      ],
+      [
+        -143.00624639339813,
+        565.8896570251845
+      ],
+      [
+        -541.6274634183176,
+        -121.40824951226593
+      ],
+      [
+        134.41323501679432,
+        -642.4091631233083
+      ]
+    ],
+    "arch_chord_lengths": [
+      906.2058227384998,
+      794.5296010805324,
+      853.5062846424593,
+      961.3413165349023
+    ],
+    "radial_groin_runs": [
+      684.932191368844,
+      583.6796128319116,
+      555.0678086311559,
+      656.3203871680882
+    ],
+    "highest_arch_apex_Z": 884.4340112121101,
+    "crown_Z": 955.188732109079,
+    "spring_Z": 0.0,
+    "strict_vertical_springing": true,
+    "residuals_native": {
+      "arch_spring": 5.684341886080802e-14,
+      "arch_apex": 1.1368683772161603e-13,
+      "groin_spring": 0.0,
+      "groin_boss": 0.0,
+      "groin_monotonic": 0.0
+    },
+    "status_limitations": "Guides only; no historical physical rib profile/section validated"
+  },
+  "settings": {
+    "sectors": 4,
+    "radius": 620.0,
+    "irregularity": 0.12,
+    "rotation_degrees": 13.0,
+    "spring_Z": 0.0,
+    "arch_rise_ratio": 0.92,
+    "crown_mode": "AUTO",
+    "crown_Z": null,
+    "crown_locked": false,
+    "divisions": 128,
+    "meridian_exponent": 1.75,
+    "dome_lift": 0.12
+  },
+  "version": "V19_HANDOFF_R01_FULL_VAULT_USER_HERMITE",
+  "meridian_reference": {
+    "source": "R12B_ACCEPTED_SECTOR_02_TYPE_A",
+    "source_world_end_Z": 4296.0,
+    "original_peak_Z": 4370.341134563053,
+    "original_fit_RMS_native": 0.7371464676754621,
+    "reference_plan_run": 738.8206500000015,
+    "knot_t": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "knot_world_Z": [
+      4296.0,
+      4356.254741314415,
+      4369.825253124143,
+      4347.047844059482,
+      4296.0
+    ],
+    "knot_dZ_ds": [
+      248.97069966590794,
+      122.45209025304281,
+      -27.85941314245789,
+      -142.1618793549983,
+      -176.04933307532278
+    ],
+    "applicability": "V19 scaled Type A experimental; NOT R14 unique Type B"
+  },
+  "max_analytic_residuals_native": {
+    "plan_displacement": 0.0,
+    "pointed_arch": 5.684341886080802e-14,
+    "independent_groin_left": 0.0,
+    "independent_groin_right": 0.0,
+    "shared_groin_seam": 0.0,
+    "boss": 0.0,
+    "type_A_meridian": 0.0
+  },
+  "meridian_peaks_by_sector_Z": [
+    956.6824431236587,
+    955.188732109079,
+    955.188732109079,
+    970.6775562802006
+  ],
+  "max_baseline_to_user_meridian_midpoint_shift_Z": 154.74461066291008,
+  "highest_boundary_arch_Z": 884.4340112121101,
+  "boss_Z": 955.188732109079,
+  "web_peak_Z": 970.6726563521715,
+  "web_peak_above_boss_Z": 15.483924243092588,
+  "vertices": 33025,
+  "triangles": 65536,
+  "Euler_open_intrados": 1,
+  "open_boundary_edges": 512,
+  "min_triangle_area_native2": 9.892050021410135,
+  "R16_geometric_guard": "PASS; crown >= highest arch; lock respected; no cap assumed",
+  "roof_clearance": "UNRESOLVED",
+  "historical_validation": "NOT ESTABLISHED",
+  "physical_section": "NOT PROVIDED / no actual rib moulding",
+  "structural_validation": "NOT ESTABLISHED",
+  "status_approval": "EXPERIMENTAL ONLY"
+}
