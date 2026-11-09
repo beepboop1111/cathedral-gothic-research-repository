@@ -1,0 +1,84 @@
+[
+  {
+    "id": "stleu_fig80_rebuild",
+    "title": "Saint-Leu Fig. 80 - rebuild of archived early R03 (measured plate)",
+    "units": "source px of 545x825 engraving; Z = 778 - row",
+    "calibrated": false,
+    "source": "arcs re-measured from MR_COMPUTER_R03_REPRODUCTION/StLeu_R03_PLAIN_UPRIGHT.stl; foil circles = early R01 circle table",
+    "mode": "plate",
+    "tolerance": 0.02,
+    "outline": {"arch": {"type": "measured", "xl": 52.78, "xr": 487.10, "CL": [769.71, 150.51, 755.09], "CR": [-229.68, 150.59, 754.92]}, "base": -30},
+    "voids": [
+      {"role": "light", "name": "L1", "sill": 0, "arch": {"type": "measured", "xl": 98.18, "xr": 245.67, "CL": [282.07, 346.25, 188.54], "CR": [70.52, 348.65, 179.48]}},
+      {"role": "light", "name": "L2", "sill": 0, "arch": {"type": "measured", "xl": 294.20, "xr": 441.69, "CL": [469.36, 348.65, 179.48], "CR": [257.81, 346.25, 188.54]}},
+      {"role": "foil", "name": "F1", "circles": [[269.94, 565.01, 38.48], [244.26, 609.19, 20.85], [296.50, 608.76, 21.20], [218.01, 563.83, 20.95], [319.50, 564.80, 20.69], [242.57, 523.43, 19.60], [296.46, 523.46, 20.40]]}
+    ],
+    "section": {"depth": 12, "chamfer": 1.2},
+    "wall": {"margin": 40, "depth": 30, "recess": 9},
+    "expect": {"light": 2, "foil": 1}
+  },
+  {
+    "id": "stleu_fig80_ideal",
+    "title": "Saint-Leu Fig. 80 - construction hypothesis: symmetric arches + regular sixfold foil",
+    "units": "source px of 545x825 engraving; Z = 778 - row",
+    "calibrated": false,
+    "source": "means of rebuild arcs mirrored about x = 269.94; regulating centre (269.55, 565.58), ring 50.45 from early R01",
+    "mode": "plate",
+    "tolerance": 0.02,
+    "outline": {"arch": {"type": "measured", "xl": 52.78, "xr": 487.10, "CL": [769.635, 150.55, 755.005], "axis": 269.94}, "base": -30},
+    "voids": [
+      {"role": "light", "name": "L1", "sill": 0, "arch": {"type": "measured", "xl": 98.18, "xr": 245.67, "CL": [277.70, 347.45, 184.01], "axis": 171.925}},
+      {"role": "light", "name": "L2", "sill": 0, "arch": {"type": "measured", "xl": 294.21, "xr": 441.70, "CL": [473.73, 347.45, 184.01], "axis": 367.955}},
+      {"role": "foil", "name": "F1", "regular": {"centre": [269.55, 565.58], "n": 6, "ring": 50.45, "lobe_r": 20.615, "centre_r": 38.48, "phase_deg": 0}}
+    ],
+    "section": {"depth": 12, "chamfer": 1.2},
+    "wall": {"margin": 40, "depth": 30, "recess": 9},
+    "expect": {"light": 2, "foil": 1}
+  },
+  {
+    "id": "bar_2light_sexfoil",
+    "title": "Bar tracery: 2 lights + cusped sexfoil oculus (Reims type, parametric)",
+    "units": "mm (parametric demonstration, not a survey)",
+    "mode": "bar",
+    "tolerance": 0.5,
+    "outline": {"arch": {"type": "equilateral", "span": 2400, "spring": 3600, "axis": 0}, "frame": 160, "sill": 0, "sill_band": 200},
+    "fill": {"type": "lights", "n": 2, "band": 80, "sub_arch": {"type": "equilateral"},
+             "head": {"type": "oculus", "band": 80, "overlap": 40, "foil": {"n": 6, "lobe_ratio": 1.18, "orient": "lobe_up"}}},
+    "fork_fill": 25,
+    "section": {"depth": 240, "chamfer": 35},
+    "wall": {"margin": 700, "depth": 900, "recess": 250},
+    "expect": {"light": 2, "foil": 1}
+  },
+  {
+    "id": "bar_4light_recursive",
+    "title": "Bar tracery: 4 lights as 2 x 2 sub-windows, quatrefoil sub-oculi, octofoil head (Amiens type, parametric)",
+    "units": "mm (parametric demonstration, not a survey)",
+    "mode": "bar",
+    "tolerance": 0.5,
+    "outline": {"arch": {"type": "equilateral", "span": 4400, "spring": 5200, "axis": 0}, "frame": 200, "sill": 0, "sill_band": 240},
+    "fill": {"type": "lights", "n": 2, "band": 110, "sub_arch": {"type": "equilateral"},
+             "children": [
+               {"type": "lights", "n": 2, "band": 70, "sub_arch": {"type": "equilateral"},
+                "head": {"type": "oculus", "band": 70, "overlap": 35, "foil": {"n": 4, "lobe_ratio": 1.2, "orient": "cusp_up"}}},
+               {"type": "lights", "n": 2, "band": 70, "sub_arch": {"type": "equilateral"},
+                "head": {"type": "oculus", "band": 70, "overlap": 35, "foil": {"n": 4, "lobe_ratio": 1.2, "orient": "cusp_up"}}}],
+             "head": {"type": "oculus", "band": 110, "overlap": 55, "foil": {"n": 8, "lobe_ratio": 1.25, "orient": "lobe_up"}}},
+    "fork_fill": 20,
+    "section": {"depth": 280, "chamfer": 30},
+    "wall": {"margin": 900, "depth": 1000, "recess": 300},
+    "expect": {"light": 4, "foil": 3}
+  },
+  {
+    "id": "intersecting_3light",
+    "title": "Intersecting (Y) tracery: 3 lights, arcs concentric with the main arch (parametric)",
+    "units": "mm (parametric demonstration, not a survey)",
+    "mode": "bar",
+    "tolerance": 0.5,
+    "outline": {"arch": {"type": "equilateral", "span": 2700, "spring": 3400, "axis": 0}, "frame": 150, "sill": 0, "sill_band": 200},
+    "fill": {"type": "intersecting", "n": 3, "band": 65},
+    "fork_fill": 20,
+    "section": {"depth": 220, "chamfer": 30},
+    "wall": {"margin": 700, "depth": 850, "recess": 240},
+    "expect": {"light": 3}
+  }
+]

@@ -1,0 +1,945 @@
+{
+ "blender": "5.2.3 LTS",
+ "models": {
+  "stleu_fig80_rebuild": {
+   "parts": {
+    "glass": {
+     "verts": 964,
+     "faces": 1916,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       98.18035888671875,
+       14.819999694824219,
+       0.0003600000054575503
+      ],
+      [
+       441.68963623046875,
+       15.180000305175781,
+       630.0396118164062
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o0_01": {
+     "verts": 1962,
+     "faces": 3932,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       52.779998779296875,
+       9.0,
+       -30.0
+      ],
+      [
+       487.1000061035156,
+       21.0,
+       716.5336303710938
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "wall": {
+     "verts": 162,
+     "faces": 324,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       12.779999732971191,
+       0.0,
+       -70.0
+      ],
+      [
+       527.0999755859375,
+       30.0,
+       756.5336303710938
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    }
+   },
+   "ok": true
+  },
+  "bar_2light_sexfoil": {
+   "parts": {
+    "glass": {
+     "verts": 726,
+     "faces": 1424,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -1158.726806640625,
+       395.5,
+       0.008999999612569809
+      ],
+      [
+       1158.726806640625,
+       404.5,
+       5678.45068359375
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o0_01": {
+     "verts": 1328,
+     "faces": 2656,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -1360.0,
+       250.0,
+       -200.0
+      ],
+      [
+       1360.0,
+       550.0,
+       5861.3271484375
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o1_01": {
+     "verts": 6938,
+     "faces": 13880,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -1200.0,
+       280.0,
+       0.0
+      ],
+      [
+       1200.0,
+       520.0,
+       5596.62744140625
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_01": {
+     "verts": 108,
+     "faces": 212,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -481.3589782714844,
+       310.0,
+       5227.41552734375
+      ],
+      [
+       4.600512504577637,
+       490.0,
+       5501.51806640625
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_02": {
+     "verts": 104,
+     "faces": 204,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       15.887018203735352,
+       310.0,
+       5230.7607421875
+      ],
+      [
+       479.0202941894531,
+       490.0,
+       5500.921875
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_03": {
+     "verts": 108,
+     "faces": 212,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -559.5087890625,
+       310.0,
+       4666.05908203125
+      ],
+      [
+       -414.4306945800781,
+       490.0,
+       5217.2314453125
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_04": {
+     "verts": 110,
+     "faces": 216,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       414.4306945800781,
+       310.0,
+       4663.34033203125
+      ],
+      [
+       560.0,
+       490.0,
+       5219.93212890625
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_05": {
+     "verts": 108,
+     "faces": 212,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -481.3740539550781,
+       310.0,
+       4381.763671875
+      ],
+      [
+       4.600307464599609,
+       490.0,
+       4655.85693359375
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_06": {
+     "verts": 104,
+     "faces": 204,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       15.888412475585938,
+       310.0,
+       4382.34228515625
+      ],
+      [
+       479.0047302246094,
+       490.0,
+       4652.53125
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "wall": {
+     "verts": 126,
+     "faces": 252,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -2060.0,
+       0.0,
+       -900.0
+      ],
+      [
+       2060.0,
+       900.0,
+       6561.3271484375
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    }
+   },
+   "ok": true
+  },
+  "bar_4light_recursive": {
+   "parts": {
+    "glass": {
+     "verts": 2094,
+     "faces": 4112,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -2164.637939453125,
+       464.8999938964844,
+       0.010200000368058681
+      ],
+      [
+       2164.637939453125,
+       475.1000061035156,
+       9010.5
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o0_01": {
+     "verts": 1964,
+     "faces": 3928,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -2400.0,
+       300.0,
+       -240.0
+      ],
+      [
+       2400.0,
+       640.0,
+       9239.8017578125
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o1_01": {
+     "verts": 9302,
+     "faces": 18608,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -2200.0,
+       330.0,
+       0.0
+      ],
+      [
+       2200.0,
+       610.0,
+       8814.55078125
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_01": {
+     "verts": 350,
+     "faces": 696,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -738.3410034179688,
+       360.0,
+       8398.6435546875
+      ],
+      [
+       -18.46854019165039,
+       580.0,
+       8704.1787109375
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_02": {
+     "verts": 350,
+     "faces": 696,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       18.46854019165039,
+       360.0,
+       8398.6572265625
+      ],
+      [
+       738.3544921875,
+       580.0,
+       8704.1787109375
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_03": {
+     "verts": 350,
+     "faces": 696,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       749.3218383789062,
+       360.0,
+       7660.509765625
+      ],
+      [
+       1044.9547119140625,
+       580.0,
+       8387.3203125
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_04": {
+     "verts": 350,
+     "faces": 696,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -1044.9742431640625,
+       360.0,
+       7660.51025390625
+      ],
+      [
+       -749.335693359375,
+       580.0,
+       8387.3330078125
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_05": {
+     "verts": 350,
+     "faces": 696,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -1044.9547119140625,
+       360.0,
+       6932.029296875
+      ],
+      [
+       -749.3218383789062,
+       580.0,
+       7658.83984375
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_06": {
+     "verts": 350,
+     "faces": 696,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       749.335693359375,
+       360.0,
+       6932.01708984375
+      ],
+      [
+       1044.9547119140625,
+       580.0,
+       7658.83984375
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_07": {
+     "verts": 350,
+     "faces": 696,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -738.3544921875,
+       360.0,
+       6615.17041015625
+      ],
+      [
+       -18.46854019165039,
+       580.0,
+       6920.6923828125
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_08": {
+     "verts": 350,
+     "faces": 696,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       18.467573165893555,
+       360.0,
+       6615.17041015625
+      ],
+      [
+       738.3410034179688,
+       580.0,
+       6920.70556640625
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_09": {
+     "verts": 3556,
+     "faces": 7116,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -2090.0,
+       360.0,
+       0.0
+      ],
+      [
+       -110.0,
+       580.0,
+       6877.646484375
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o2_10": {
+     "verts": 3558,
+     "faces": 7120,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       110.0,
+       360.0,
+       0.0
+      ],
+      [
+       2090.0,
+       580.0,
+       6877.646484375
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o3_01": {
+     "verts": 130,
+     "faces": 256,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -1423.6334228515625,
+       385.0,
+       6633.765625
+      ],
+      [
+       -768.1322631835938,
+       555.0,
+       6808.01611328125
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o3_02": {
+     "verts": 130,
+     "faces": 256,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       776.3666381835938,
+       385.0,
+       6633.765625
+      ],
+      [
+       1431.86767578125,
+       555.0,
+       6808.01611328125
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o3_03": {
+     "verts": 128,
+     "faces": 252,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -1577.18359375,
+       385.0,
+       6001.837890625
+      ],
+      [
+       -1403.552734375,
+       555.0,
+       6659.09716796875
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o3_04": {
+     "verts": 134,
+     "faces": 264,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -796.9186401367188,
+       385.0,
+       5997.9775390625
+      ],
+      [
+       -622.3214111328125,
+       555.0,
+       6662.93212890625
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o3_05": {
+     "verts": 128,
+     "faces": 252,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       622.8164672851562,
+       385.0,
+       6001.837890625
+      ],
+      [
+       796.447265625,
+       555.0,
+       6659.09716796875
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o3_06": {
+     "verts": 134,
+     "faces": 264,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       1403.081298828125,
+       385.0,
+       5997.9775390625
+      ],
+      [
+       1577.6785888671875,
+       555.0,
+       6662.93212890625
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o3_07": {
+     "verts": 130,
+     "faces": 256,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -1423.6446533203125,
+       385.0,
+       5852.90673828125
+      ],
+      [
+       -768.1445922851562,
+       555.0,
+       6027.1572265625
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o3_08": {
+     "verts": 130,
+     "faces": 256,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       776.3553466796875,
+       385.0,
+       5852.90673828125
+      ],
+      [
+       1431.8553466796875,
+       555.0,
+       6027.1572265625
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "wall": {
+     "verts": 162,
+     "faces": 324,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -3300.0,
+       0.0,
+       -1140.0
+      ],
+      [
+       3300.0,
+       1000.0,
+       10139.8017578125
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    }
+   },
+   "ok": true
+  },
+  "intersecting_3light": {
+   "parts": {
+    "glass": {
+     "verts": 382,
+     "faces": 740,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -1349.9915771484375,
+       375.79998779296875,
+       0.00839999970048666
+      ],
+      [
+       1349.9915771484375,
+       384.20001220703125,
+       5738.2587890625
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o0_01": {
+     "verts": 1612,
+     "faces": 3224,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -1500.0,
+       240.0,
+       -200.0
+      ],
+      [
+       1500.0,
+       520.0,
+       5909.97998046875
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "stone_o1_01": {
+     "verts": 2256,
+     "faces": 4508,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -938.6505737304688,
+       270.0,
+       0.0
+      ],
+      [
+       938.6505737304688,
+       490.0,
+       5455.21728515625
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    },
+    "wall": {
+     "verts": 130,
+     "faces": 260,
+     "nonmanifold_edges": 0,
+     "nonmanifold_verts": 0,
+     "degenerate_faces": 0,
+     "self_intersecting_pairs": 0,
+     "bounds": [
+      [
+       -2200.0,
+       0.0,
+       -900.0
+      ],
+      [
+       2200.0,
+       850.0,
+       6609.97998046875
+      ]
+     ],
+     "counts_match": true,
+     "bounds_match": true,
+     "ok": true
+    }
+   },
+   "ok": true
+  }
+ },
+ "labels": [
+  {
+   "id": "stleu_fig80_rebuild",
+   "u": 0.15327660739421844,
+   "v": 0.5492449998855591
+  },
+  {
+   "id": "bar_2light_sexfoil",
+   "u": 0.38363829255104065,
+   "v": 0.5143017768859863
+  },
+  {
+   "id": "bar_4light_recursive",
+   "u": 0.6079505085945129,
+   "v": 0.4802761375904083
+  },
+  {
+   "id": "intersecting_3light",
+   "u": 0.8377521634101868,
+   "v": 0.4454178214073181
+  }
+ ],
+ "all_ok": true
+}

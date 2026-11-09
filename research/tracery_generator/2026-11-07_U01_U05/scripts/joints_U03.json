@@ -1,0 +1,10 @@
+{
+  "stleu_fig80_rebuild": {"note": "trial, source px", "joint_width": 0.4, "course": 75, "voussoir": 60, "min_block": 25,
+                          "keepout": 15},
+  "bar_2light_sexfoil": {"note": "trial, mm", "joint_width": 6, "course": 420, "voussoir": 520, "min_block": 220,
+                         "keepout": 120, "sill_max": 2400, "max_block": 2500},
+  "bar_4light_recursive": {"note": "trial, mm", "joint_width": 6, "course": 440, "voussoir": 600, "min_block": 220,
+                           "keepout": 150, "sill_max": 2400, "max_block": 2500},
+  "intersecting_3light": {"note": "trial, mm", "joint_width": 6, "course": 420, "voussoir": 520, "min_block": 220,
+                          "keepout": 110, "sill_max": 2400, "max_block": 2500}
+}

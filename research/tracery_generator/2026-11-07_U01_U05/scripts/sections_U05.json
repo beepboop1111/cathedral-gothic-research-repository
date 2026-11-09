@@ -1,0 +1,254 @@
+{
+ "stleu_fig80_rebuild": {
+  "note": "Moore Fig.139a: St-Leu mullion chamfered on both faces. 45-degree chamfer size is a TRIAL value in source px.",
+  "orders": [
+   {
+    "depth": 12,
+    "profile": [
+     [
+      "chamfer",
+      2.5,
+      2.5
+     ]
+    ]
+   }
+  ]
+ },
+ "bar_2light_sexfoil": {
+  "note": "trial sections, mm",
+  "orders": [
+   {
+    "depth": 300,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      45,
+      45
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 240,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      12,
+      12
+     ],
+     [
+      "hollow",
+      18,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 180,
+    "profile": [
+     [
+      "chamfer",
+      16,
+      16
+     ]
+    ]
+   }
+  ]
+ },
+ "bar_4light_recursive": {
+  "note": "trial sections, mm",
+  "orders": [
+   {
+    "depth": 340,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      50,
+      50
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 280,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "roll",
+      16,
+      14
+     ],
+     [
+      "hollow",
+      28,
+      26
+     ]
+    ]
+   },
+   {
+    "depth": 220,
+    "profile": [
+     [
+      "fillet",
+      5
+     ],
+     [
+      "hollow",
+      24,
+      22
+     ]
+    ]
+   },
+   {
+    "depth": 170,
+    "profile": [
+     [
+      "chamfer",
+      14,
+      14
+     ]
+    ]
+   }
+  ]
+ },
+ "intersecting_3light": {
+  "note": "trial sections, mm",
+  "orders": [
+   {
+    "depth": 280,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      40,
+      40
+     ],
+     [
+      "groove",
+      8,
+      4
+     ]
+    ]
+   },
+   {
+    "depth": 220,
+    "profile": [
+     [
+      "fillet",
+      6
+     ],
+     [
+      "ogee",
+      40,
+      34
+     ]
+    ]
+   }
+  ]
+ },
+ "rose_12_chassis": {
+  "note": "trial sections, mm",
+  "orders": [
+   {
+    "depth": 340,
+    "profile": [
+     [
+      "fillet",
+      8
+     ],
+     [
+      "hollow",
+      50,
+      48
+     ],
+     [
+      "fillet",
+      10
+     ],
+     [
+      "groove",
+      8,
+      5
+     ]
+    ]
+   },
+   {
+    "depth": 260,
+    "profile": [
+     [
+      "fillet",
+      5
+     ],
+     [
+      "roll",
+      12,
+      10
+     ],
+     [
+      "hollow",
+      16,
+      14
+     ]
+    ]
+   },
+   {
+    "depth": 200,
+    "profile": [
+     [
+      "fillet",
+      4
+     ],
+     [
+      "hollow",
+      20,
+      18
+     ]
+    ]
+   },
+   {
+    "depth": 150,
+    "profile": [
+     [
+      "chamfer",
+      12,
+      12
+     ]
+    ]
+   }
+  ]
+ }
+}
