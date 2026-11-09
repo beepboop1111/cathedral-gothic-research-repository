@@ -1,0 +1,125 @@
+{
+  "checkpoint": "R45",
+  "Blender_importer": "5.0.1",
+  "GLB_scene_objects": 6,
+  "technical_pass": true,
+  "profile_sources": "Synthetic grayscale PNG and explicit front/rear JSON sections",
+  "source_historical_3d_certified": false,
+  "BLENDER_1_TO_1_SCALE": "meters",
+  "mechanical_structural_analysis": "NOT PERFORMED",
+  "stone_objects": [
+    {
+      "name": "R45_PNG_A42_Y_STONE",
+      "volume_litres": 9.785206640482281,
+      "raw_vertices": 1482,
+      "welded_vertices": 522,
+      "raw_split_edges": 1486,
+      "nonmanifold_welded": 0,
+      "connected_components": 1
+    },
+    {
+      "name": "R45_PNG_A42_EXTENSION_1",
+      "volume_litres": 1.6702642552833344,
+      "raw_vertices": 294,
+      "welded_vertices": 98,
+      "raw_split_edges": 302,
+      "nonmanifold_welded": 0,
+      "connected_components": 1
+    },
+    {
+      "name": "R45_PNG_A42_EXTENSION_2",
+      "volume_litres": 1.6705085891140996,
+      "raw_vertices": 296,
+      "welded_vertices": 102,
+      "raw_split_edges": 298,
+      "nonmanifold_welded": 0,
+      "connected_components": 1
+    },
+    {
+      "name": "R45_JSON_B35_Y_STONE",
+      "volume_litres": 7.906705001599463,
+      "raw_vertices": 1264,
+      "welded_vertices": 442,
+      "raw_split_edges": 1276,
+      "nonmanifold_welded": 0,
+      "connected_components": 1
+    },
+    {
+      "name": "R45_JSON_B35_EXTENSION_1",
+      "volume_litres": 1.3599155657231627,
+      "raw_vertices": 246,
+      "welded_vertices": 88,
+      "raw_split_edges": 246,
+      "nonmanifold_welded": 0,
+      "connected_components": 1
+    },
+    {
+      "name": "R45_JSON_B35_EXTENSION_2",
+      "volume_litres": 1.359915569946881,
+      "raw_vertices": 252,
+      "welded_vertices": 88,
+      "raw_split_edges": 254,
+      "nonmanifold_welded": 0,
+      "connected_components": 1
+    }
+  ],
+  "contact_qa": [
+    {
+      "group": "R45_PNG_A42",
+      "stone_to_arm": 1,
+      "contact_area_mm2": 10122.81357361644,
+      "area_mismatch_mm2": 0.000636873664916493,
+      "centroid_mismatch_mm": 0.00011926748300777467,
+      "opposed_normals_dot": -0.9999999105930332,
+      "cap_face_count": [
+        46,
+        46
+      ],
+      "rebate_was_actual_geometry": true,
+      "PASS": true
+    },
+    {
+      "group": "R45_PNG_A42",
+      "stone_to_arm": 2,
+      "contact_area_mm2": 10124.294664706213,
+      "area_mismatch_mm2": 0.00022077983885537833,
+      "centroid_mismatch_mm": 2.9860473315941913e-05,
+      "opposed_normals_dot": -0.9999999403953558,
+      "cap_face_count": [
+        48,
+        48
+      ],
+      "rebate_was_actual_geometry": true,
+      "PASS": true
+    },
+    {
+      "group": "R45_JSON_B35",
+      "stone_to_arm": 1,
+      "contact_area_mm2": 8241.910210927017,
+      "area_mismatch_mm2": 0.0013387762010097504,
+      "centroid_mismatch_mm": 0.0001228836375910875,
+      "opposed_normals_dot": -0.9999999701976776,
+      "cap_face_count": [
+        41,
+        41
+      ],
+      "rebate_was_actual_geometry": true,
+      "PASS": true
+    },
+    {
+      "group": "R45_JSON_B35",
+      "stone_to_arm": 2,
+      "contact_area_mm2": 8241.910405558883,
+      "area_mismatch_mm2": 0.0012332748156040907,
+      "centroid_mismatch_mm": 6.984919309616089e-07,
+      "opposed_normals_dot": -1.0000000000000004,
+      "cap_face_count": [
+        41,
+        41
+      ],
+      "rebate_was_actual_geometry": true,
+      "PASS": true
+    }
+  ],
+  "F5ZP_approved_geometry_modified": false
+}

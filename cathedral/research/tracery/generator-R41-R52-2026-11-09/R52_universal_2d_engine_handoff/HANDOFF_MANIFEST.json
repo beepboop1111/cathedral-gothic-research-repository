@@ -1,0 +1,29 @@
+{
+  "handoff": "R52_Universal_2D_Engine_HANDOFF_R01",
+  "checkpoint_status": "VALIDATED_EXPERIMENTAL_2D_ONLY",
+  "source_engine": "U01",
+  "source_sha256": "9ed6c586d352f5be0fd6be147275cc6155ed809b6e8b06cbc44009d5f8aaa0d3",
+  "source_archive": "/home/christopher/Downloads/downlods/3/universal-generator-U01-U05-2026-11-07.zip",
+  "archive_sha256": "411c740189cab347cd02a6b717a5e6ec9781f64b26d739beaf90975e9e876e7a",
+  "regression_fixtures": 5,
+  "internal_2d_checks_pass": 116,
+  "external_negative_rejections": 3,
+  "SVG_XML": {
+    "bar_2light_sexfoil_2D_construction.svg": "XML_PASS",
+    "bar_4light_recursive_2D_construction.svg": "XML_PASS",
+    "intersecting_3light_2D_construction.svg": "XML_PASS",
+    "stleu_fig80_ideal_2D_construction.svg": "XML_PASS",
+    "stleu_fig80_rebuild_2D_construction.svg": "XML_PASS"
+  },
+  "QA_json": "outputs/R52_2D_REGRESSION_QA.json",
+  "main_handoff": "HANDOFF.md",
+  "source_units": "mixed: px/St-Leu versus synthetic trial mm; NO interchange",
+  "historical_approval": false,
+  "structural_approval": false,
+  "prior_U02_to_U05_GLb_QA_rerun": false,
+  "user_rib_profiles_used": false,
+  "approved_F5ZP_geometry_modified": false,
+  "GitHub_accessed": false,
+  "next_pass": "R53",
+  "Blender_keymap_when_opening": "/home/christopher/tab.py"
+}

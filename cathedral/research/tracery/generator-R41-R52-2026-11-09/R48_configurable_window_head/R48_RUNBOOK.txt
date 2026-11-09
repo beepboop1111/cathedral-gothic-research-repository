@@ -1,0 +1,6 @@
+R48 WORKFLOW — experimental source-graded stone-window generator
+1) python3 R48_prepare_profile.py --source <zip-or-png> --member 1.png --profile-id TEST --width-mm 112 --rebate-depth-mm 16 --rebate-height-mm 16 --out custom_profile.json
+2) Edit R48_baseline_config.json with selected profile_json, head spans/rises, foil and arc fractions. Use a NEW window_id.
+3) blender --factory-startup -b --python R48_window_head_generator.py -- config.json
+4) blender --factory-startup -b --python R48_import_validation.py -- <output_directory>
+5) Review GLB; geometry is experimental until authenticated historical surveys establish the joints and measures.

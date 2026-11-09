@@ -1,0 +1,17 @@
+{
+  "checkpoint": "R49",
+  "reason": "User correction: French Gothic moulding profiles are NOT for tracery",
+  "R46_R47_R48": "QUARANTINED_FROM_TRACERY_PROFILE_AUTHORITY",
+  "what_is_still_valid": "Solid topology / numerical contact and GLB roundtrip tests only",
+  "what_is_not_valid": "Tracery profile suitability, source-scaled mouldings, historically correct glazing or stone dimensions",
+  "protected_paths": [
+    "/home/christopher/Cathedral_Research/R46_window_head_experiment",
+    "/home/christopher/Cathedral_Research/R47_curved_glazing_rebates",
+    "/home/christopher/Cathedral_Research/R48_configurable_window_head"
+  ],
+  "user_archive": "DO_NOT_USE for tracery",
+  "default_section": "R49_SYNTHETIC_NEUTRAL_TRACERY_TEST_ONLY",
+  "future_input_requirements": "Verified tracery or mullion cross-section specifically identified for tracery; explicit 1:1 mm dimensions",
+  "historical_and_structural_certification": false,
+  "automatic_archival_profile_reuse": "DISABLED_FOR_NEW_R49_GENERATOR"
+}

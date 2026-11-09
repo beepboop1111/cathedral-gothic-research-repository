@@ -1,0 +1,28 @@
+{
+  "importer": "5.2.2 LTS",
+  "test": "independent GLB roundtrip of curved/tapered 2-block experiment",
+  "technical_pass": true,
+  "GLB_mesh_objects": 2,
+  "original_vertices_shared": 242,
+  "contact_area_mm2": 22629.4927242634,
+  "contact_normals_dot": -0.9999998136190698,
+  "volume_sum_litres": 6.261289780403976,
+  "reference_volume_litres": 6.261289780403976,
+  "objects": [
+    {
+      "name": "R41_c26_t7_a22p5_A",
+      "raw_vertices": 2410,
+      "welded_vertices": 484,
+      "nonmanifold": 0,
+      "volume_litres": 2.9803468486499733
+    },
+    {
+      "name": "R41_c26_t7_a22p5_B",
+      "raw_vertices": 2412,
+      "welded_vertices": 484,
+      "nonmanifold": 0,
+      "volume_litres": 3.2809429317540024
+    }
+  ],
+  "source_historical_authentication": false
+}

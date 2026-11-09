@@ -1,0 +1,37 @@
+{
+  "checkpoint": "R44",
+  "status": "EXPERIMENTAL_GOTHIC_STONE_GEOMETRY",
+  "blender_versions_R42": [
+    "5.0.1",
+    "5.1.2",
+    "5.2.2 LTS"
+  ],
+  "blender_versions_R44": [
+    "5.1.2",
+    "5.2.2 LTS"
+  ],
+  "joint_bearing_cases_deg": [
+    42,
+    35,
+    50
+  ],
+  "R42_area_mm2": 10025.524614320602,
+  "R44_B35_area_mm2": 8241.910210927017,
+  "R44_A50_area_mm2": 10123.545419673974,
+  "repeated_inputs": "two synthetic cross-section profiles, independent front/rear width stations",
+  "accepted_profile_input_tests": 12,
+  "R43_3d_meshes": 4,
+  "glazing_rebate_boolean": "Actual removed mesh volume, tests present",
+  "GLB_roundtrip_all_variants": "PASS",
+  "R44_extra_export_fix": "Rebate cutter extends beyond outer cap; triangulated Boolean polygons; prevents exporter-created non-manifold geometry",
+  "R42_generator": "/home/christopher/Cathedral_Research/R42_branching_stone_engine/R42_branching_generator.py",
+  "R43_profile_intake": "/home/christopher/Cathedral_Research/R43_profile_intake_and_review/R43_profile_intake.py",
+  "R43_profile_generator": "/home/christopher/Cathedral_Research/R43_profile_intake_and_review/R43_generate_chosen_profiles.py",
+  "R44_case_scripts": [
+    "/home/christopher/Cathedral_Research/R44_bearing_regression/R44_B35/R44_B35_generator.py",
+    "/home/christopher/Cathedral_Research/R44_bearing_regression/R44_A50/R44_A50_generator.py"
+  ],
+  "historical_survey_contact_polygon_measured": 0,
+  "approved_cathedral_geometry_modified": false,
+  "final_png": "/home/christopher/Cathedral_Research/R44_bearing_regression/R44_FINAL_Stone_Generator_Review.png"
+}

@@ -1,0 +1,69 @@
+{
+  "format": "R43_Section_V1",
+  "units": "mm",
+  "profile_id": "R49_NEUTRAL_TRACERY_SECTION_TEST_NOT_HISTORIC",
+  "evidence_class": "SYNTHETIC",
+  "source_document": null,
+  "historical_3d_joint_certified": false,
+  "profile_role": "TRACERY_PLACEHOLDER",
+  "profile_origin": "AUTHOR_GENERATED_GEOMETRIC_FIXTURE",
+  "not_user_archive_profile": true,
+  "closed_points_mm": [
+    [
+      -32.0,
+      -34.0
+    ],
+    [
+      -24.0,
+      -42.0
+    ],
+    [
+      24.0,
+      -42.0
+    ],
+    [
+      32.0,
+      -34.0
+    ],
+    [
+      32.0,
+      -7.0
+    ],
+    [
+      21.0,
+      -7.0
+    ],
+    [
+      21.0,
+      7.0
+    ],
+    [
+      32.0,
+      7.0
+    ],
+    [
+      32.0,
+      34.0
+    ],
+    [
+      24.0,
+      42.0
+    ],
+    [
+      -24.0,
+      42.0
+    ],
+    [
+      -32.0,
+      34.0
+    ]
+  ],
+  "explicit_width_mm": 64,
+  "explicit_depth_mm": 84,
+  "rebate_nominal_mm": [
+    11,
+    14
+  ],
+  "historic_glazing_rebate_accuracy": false,
+  "caution": "Synthetic geometry to test tracery engine only; not a physical historic member"
+}

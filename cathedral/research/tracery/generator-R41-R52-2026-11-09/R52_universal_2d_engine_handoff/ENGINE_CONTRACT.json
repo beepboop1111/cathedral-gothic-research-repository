@@ -1,0 +1,76 @@
+{
+  "schema_version": "R52_HANDOFF_TO_R53_DRAFT",
+  "status": "TARGET_API_SPEC_ONLY_NOT_IMPLEMENTED",
+  "source_engine": "U01 Circle, Arch, Model(spec), recovered source SHA-256 9ed6c586d352f5be0fd6be147275cc6155ed809b6e8b06cbc44009d5f8aaa0d3",
+  "coordinate_system": {
+    "axes": [
+      "x horizontal rightward",
+      "z vertical upward"
+    ],
+    "source_units": [
+      "px uncalibrated",
+      "mm parametric trial",
+      "mm verified scale only"
+    ]
+  },
+  "input_required": [
+    "id",
+    "mode plate/bar",
+    "units",
+    "source_id",
+    "source_file_hash",
+    "scale_authority",
+    "construction_tolerance",
+    "sampling_sagitta_tolerance",
+    "historical_evidence_class",
+    "outline primitives",
+    "nested fill/void definitions",
+    "spandrel_mode"
+  ],
+  "output_required": {
+    "analytic_curves": [
+      "curve_id",
+      "centre",
+      "radius",
+      "start_param",
+      "end_param",
+      "winding",
+      "tangent",
+      "source_status"
+    ],
+    "topology": [
+      "stone_region",
+      "opening_ids",
+      "opening_hierarchy",
+      "member_ids",
+      "junction_incidence",
+      "minimum_web"
+    ],
+    "geometry_QA": [
+      "circle residual",
+      "springing/crown residual",
+      "tangency residual",
+      "closed loop",
+      "polygon area",
+      "scale invariance"
+    ],
+    "documentation": [
+      "source_SHA256",
+      "drawing_view",
+      "unit conversion evidence",
+      "uncertainty",
+      "construction layer labels"
+    ],
+    "render": [
+      "SVG with black confirmed input model, gray construction, red uncertain historic interpretation"
+    ]
+  },
+  "forbidden_inference": [
+    "mix different historical examples",
+    "copy rib or arch moulding profiles as tracery",
+    "pretend synthetic millimetres are medieval dimensions",
+    "infer 3D depth/rebate from 2D plate",
+    "force symmetry where historical ink differs",
+    "approve cathedral geometry from numerical tests"
+  ]
+}

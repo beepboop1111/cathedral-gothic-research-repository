@@ -1,0 +1,66 @@
+{
+  "checkpoint": "R50",
+  "evidence_class": "TRACED_R03_PIXEL_GEOMETRY_NOT_ORIGINAL_INK",
+  "source_file": "/home/christopher/Downloads/downlods/3/1/BRANDON_M04_R03_EXPERIMENTAL_LOCAL/BRANDON_M04_R03_CONTOURS.json",
+  "source_SHA256": "28242e8cb685aa9591176f716692cccfe1d5d00c5ce28d877a3dcac0d0cec419",
+  "original_image_SHA256_mentioned_in_R03": "476dff53f5cbb913f8165a6601f7de290fc679cbb3d4ab0959bb8a8fd177d740",
+  "original_source_scan_verified_or_mounted": false,
+  "source_units": "R02 comparison image pixels",
+  "source_old_extrusion_height_units": 31.5,
+  "outer_bbox_pixels": [
+    14.0,
+    6.0,
+    636.0,
+    499.0
+  ],
+  "outline_span_pixels": 622.0,
+  "outline_height_pixels": 493.0,
+  "outer_ring_vertices": 115,
+  "hole_vertices": [
+    36,
+    35,
+    94
+  ],
+  "stone_face_area_in_source_px2": 102650.06714999992,
+  "outer_2D_polygon_area_px2": 153672.08624999993,
+  "three_hole_areas_px2": [
+    10271.403400000001,
+    8244.942500000005,
+    32505.6732
+  ],
+  "minimum_outer_to_hole_spacing_pixels": [
+    19.21393020478883,
+    10.80905421797029,
+    41.53107680013884
+  ],
+  "profile_symmetry_IoU_fraction": 0.8238656292404599,
+  "circle_fit_status": "RED DASHED: uncertain fitted construction, not certified compass setout",
+  "outer_arc_fits": {
+    "right_outer": {
+      "center_px": [
+        -43.049824275139464,
+        577.9789943269452
+      ],
+      "radius_px": 682.9545090059053,
+      "RMS_to_R03_trace_px": 0.508860991210279,
+      "maximum_residual_px": 1.1642611687309454,
+      "fit_points": 18
+    },
+    "left_outer": {
+      "center_px": [
+        596.001327821019,
+        522.5874425345553
+      ],
+      "radius_px": 582.0209830998555,
+      "RMS_to_R03_trace_px": 0.3749723709710708,
+      "maximum_residual_px": 0.8525191708647526,
+      "fit_points": 20
+    }
+  },
+  "scale_bar_verified": false,
+  "physical_stone_thickness_measured": false,
+  "historically_authenticated_mullion_joins": false,
+  "arch_springing_and_crown_historical_geometry": "R03 extracted contours only; fit candidates require original plate comparison",
+  "source_old_mesh_expected_genus": 3,
+  "baseline_files_modified": false
+}

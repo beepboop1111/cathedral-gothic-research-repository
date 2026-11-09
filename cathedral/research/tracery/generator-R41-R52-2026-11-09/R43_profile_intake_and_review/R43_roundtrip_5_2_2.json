@@ -1,0 +1,42 @@
+{
+  "checkpoint": "R43",
+  "blender_importer": "5.2.2 LTS",
+  "meshes": 4,
+  "roundtrip": "PASS",
+  "profiles_distinct": true,
+  "source_historical_joint_verified": false,
+  "objects": [
+    {
+      "object": "R43_family_1_curved",
+      "raw_vertices": 3543,
+      "welded_vertices": 882,
+      "volume_litres": 4.58473324181898,
+      "nonmanifold_after_weld": 0,
+      "PASS": true
+    },
+    {
+      "object": "R43_family_1_straight",
+      "raw_vertices": 252,
+      "welded_vertices": 84,
+      "volume_litres": 4.524029692281557,
+      "nonmanifold_after_weld": 0,
+      "PASS": true
+    },
+    {
+      "object": "R43_family_2_curved",
+      "raw_vertices": 2919,
+      "welded_vertices": 756,
+      "volume_litres": 3.7131939186461644,
+      "nonmanifold_after_weld": 0,
+      "PASS": true
+    },
+    {
+      "object": "R43_family_2_straight",
+      "raw_vertices": 220,
+      "welded_vertices": 72,
+      "volume_litres": 3.6640298249670806,
+      "nonmanifold_after_weld": 0,
+      "PASS": true
+    }
+  ]
+}

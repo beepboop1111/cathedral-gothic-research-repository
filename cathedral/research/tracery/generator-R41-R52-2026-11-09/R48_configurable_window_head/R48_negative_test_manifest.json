@@ -1,0 +1,9 @@
+{
+  "bad_evidence": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_INVALID_bad_evidence.json",
+  "few_lancets": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_INVALID_few_lancets.json",
+  "foil_stones": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_INVALID_foil_stones.json",
+  "wrong_span": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_INVALID_wrong_span.json",
+  "bad_schedule": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_INVALID_bad_schedule.json",
+  "bad_identifier": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_INVALID_bad_identifier.json",
+  "bad_profile": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_INVALID_bad_profile.json"
+}

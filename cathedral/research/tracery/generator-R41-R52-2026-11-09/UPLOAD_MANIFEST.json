@@ -1,0 +1,1064 @@
+{
+  "label": "R41-R52 research upload, experimental",
+  "files": [
+    {
+      "path": "CHAT_WORKFLOW_HANDOFF.md",
+      "size": 4692,
+      "sha256": "1af6be62e114ad8ba9ccec34a5d3c1a88ad68b92bb9fccad636b3df8da4714c0"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_CHECKPOINT_HANDOFF.json",
+      "size": 1175,
+      "sha256": "bc7d3c47dc75d45a5de3a0394c4965579ea5b7be3eaffae80fded3ea2e620514"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_Curved_Tapered_Two_Stone_Experiment.glb",
+      "size": 129832,
+      "sha256": "ce8a7555ec7aa48dfc1e8f5bd3422db8cf7b50bf419f42b4708e645dd28bd6ff"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_Experimental_Stone_Engine.blend",
+      "size": 119242,
+      "sha256": "e6d1a73a36223aa22f28891fb4eae497332d5d92fc046285112bc4f2ccbe90ef"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_FINAL_Unified_Stone_Generator_Review.png",
+      "size": 1259062,
+      "sha256": "7f71d610f5e945398054a69576ec76e63ab164617c56311142e7774eaed2867e"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_GLb_roundtrip_5_0_1.json",
+      "size": 773,
+      "sha256": "af290ce39161c187ab370b528569cbacdf8a40fd045f75c476d7c44b564a002b"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_GLb_roundtrip_5_1_2.json",
+      "size": 773,
+      "sha256": "74b62e62457a6bf7a738eed56c6820e98d747ff4c04af86af6f655c0850c5f75"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_GLb_roundtrip_5_2_2.json",
+      "size": 777,
+      "sha256": "94ed60eab3f1cc84491689284ab6e9de87e71566d66f398a7c2f96fc4d1b142a"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_engine.py",
+      "size": 8574,
+      "sha256": "52590d721b8549b6e4fad3aafaee46f5bf441d03d13229a26c3310850380c274"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_generator_qa.json",
+      "size": 22454,
+      "sha256": "df6201b66f6d4ca2f14f634b6ad323774cc65f2a2c2afe4613d417a8de152436"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_independent_glb_validation.py",
+      "size": 3298,
+      "sha256": "f19817117b6ba3b223ddbe7f6bce8fc8d3db036a8ec2c67b450581b85e3eb6c9"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_native_compatibility.py",
+      "size": 1846,
+      "sha256": "941bcd6d75d9fde8810c8ff38e343978142f3cd1a6d58d2ecd7dae1f4aba4236"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_native_generator_5_1_2.json",
+      "size": 318,
+      "sha256": "d23bc24be7afd0c8472b5c1b6ae1a98a65e1b8cd75fda5a1dacb676bcb073adc"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_native_generator_5_2_2.json",
+      "size": 322,
+      "sha256": "4ffd6e15cf497be96cd31d42b2f3cdffecabb2337952a5f273e7b9ec6137db9b"
+    },
+    {
+      "path": "R41_unified_stone_engine/R41_run_validation.py",
+      "size": 7824,
+      "sha256": "66fbf82d4596bc9a50f58a4eee8fdfc7bbbf30dc5a527fce08c8db8c2ceaf73b"
+    },
+    {
+      "path": "R42_branching_stone_engine/R42_BRANCHING_JOINT_AND_REBATES.glb",
+      "size": 59548,
+      "sha256": "f9968e080875f06df140ca2d938605ba6bc2c8d56a3a2231860de6bd5614b99f"
+    },
+    {
+      "path": "R42_branching_stone_engine/R42_Cycles_render.png",
+      "size": 1958950,
+      "sha256": "6f17039a36a77951b64eb9809fed3dae0b1d212db2135bcd8d0b17515cdbb76a"
+    },
+    {
+      "path": "R42_branching_stone_engine/R42_Experimental_Branching_Stone.blend",
+      "size": 141361,
+      "sha256": "f7ebd65f30a513599f44ed0871f34dde30eb7692805a96d6a88ff470df57b345"
+    },
+    {
+      "path": "R42_branching_stone_engine/R42_branching_generator.py",
+      "size": 14748,
+      "sha256": "54cbc74ec5a0cf28fbf13700290975194cd471ec46c06a771a8828b1399f9764"
+    },
+    {
+      "path": "R42_branching_stone_engine/R42_geometry_qa.json",
+      "size": 2145,
+      "sha256": "25ad98f086147a36b19b7b2e481fe687d546090d9886e4ef021fecd05608d923"
+    },
+    {
+      "path": "R42_branching_stone_engine/R42_independent_GLb_validation.py",
+      "size": 5266,
+      "sha256": "ab28ddaef300ab8c8194d49f3a91f4a2d353835f6ac52e07631a853a5cb9f3fe"
+    },
+    {
+      "path": "R42_branching_stone_engine/R42_roundtrip_5_0_1.json",
+      "size": 2065,
+      "sha256": "6960017a5962cdd49e59baa8c5ff5f1dad0e5f0c97f3dfb6aabfd426d9423186"
+    },
+    {
+      "path": "R42_branching_stone_engine/R42_roundtrip_5_1_2.json",
+      "size": 2065,
+      "sha256": "fcd1f618fec8e356bf4ac6b07ce5105ed5b02b056bc7ede86193bddccc139735"
+    },
+    {
+      "path": "R42_branching_stone_engine/R42_roundtrip_5_2_2.json",
+      "size": 2069,
+      "sha256": "738af1a4e9f49494f2bc6c97572f5f63995df72589146efb7e580e6f9ca5c297"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_INPUT_PROFILE_FAMILIES_4_SOLIDS.glb",
+      "size": 191572,
+      "sha256": "bd5ff2fb3f8fc557c5dcd5cce7ff0508d8a5a401d44576a680f882bc1be26ab3"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_framed_R42_render.png",
+      "size": 1982301,
+      "sha256": "e26806d07d6585bd13ca15d56ea9d049aa57af395ab0f7881775b18cc3e0411e"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_generate_chosen_profiles.py",
+      "size": 4055,
+      "sha256": "e7747796a4b04ff6dcaec8faf7d5aa3a72d4872247675b548247a1c1eb09e571"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_generated_profile_qa.json",
+      "size": 2712,
+      "sha256": "967d92f9e2eff1e565a76aaff0a88c608337aad33a7bfb11123a9c43b3905d0e"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_profile_family_1.json",
+      "size": 979,
+      "sha256": "fa41728d837c25ece608f50a7e9e5bf4bfce4c3a8b1999b7d11d2fc2e9e3d02a"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_profile_family_2.json",
+      "size": 878,
+      "sha256": "88593a1f0c91892e10fd6e7c916cd54e4dedc1b6137865a43dbf7a84ba632a98"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_profile_intake.py",
+      "size": 3370,
+      "sha256": "722273ea138d998e1106e1ee9ae80e9d58fefdfdb20563e1c32785c7fd1769c6"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_profile_intake_tests.json",
+      "size": 869,
+      "sha256": "3416d8922788528c78ef3cc21e376bd05268b6cbe5a9a05f39d01b2958b8c5c4"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_reframe_R42.py",
+      "size": 963,
+      "sha256": "b46542234a8e27d88eb4759d9e78bc531dbb872319e12b6da239ff992e8da19a"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_roundtrip_5_1_2.json",
+      "size": 1012,
+      "sha256": "83d25ccb11ee3e859a8932659f4c8edd2a4f3174cced51b3bdfbe188bd48bcaf"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_roundtrip_5_2_2.json",
+      "size": 1016,
+      "sha256": "3bb00c17d2668094142e182aa766ba7cf8823221f473f6c741ad3fa6ef5bb02c"
+    },
+    {
+      "path": "R43_profile_intake_and_review/R43_validate_GLb.py",
+      "size": 1652,
+      "sha256": "bd7b204fc3d1545658a772ec4e183bd9cc812260fb39ceac5b7506d022887397"
+    },
+    {
+      "path": "R44_bearing_regression/R44_A50/R42_BRANCHING_JOINT_AND_REBATES.glb",
+      "size": 76488,
+      "sha256": "c9db0d466e7cefe22de64554896aaf670d8e84e1396f46106572d779a22a50a6"
+    },
+    {
+      "path": "R44_bearing_regression/R44_A50/R42_roundtrip_5_1_2.json",
+      "size": 2051,
+      "sha256": "d9b584c38306cf2442c05a7c62d48113d9071b592e873c9010cdb19562ac407e"
+    },
+    {
+      "path": "R44_bearing_regression/R44_A50/R42_roundtrip_5_2_2.json",
+      "size": 2055,
+      "sha256": "ebdaee6c1b1e8b8433c5f002063b70576a500771cdde1f4ac3d0b259efff04ed"
+    },
+    {
+      "path": "R44_bearing_regression/R44_A50/R44_A50_generator.py",
+      "size": 12586,
+      "sha256": "0634d6183745182bb4b3179a5c46c2a1541a98f7b5ef4d0b4de8e9f5a1352a8e"
+    },
+    {
+      "path": "R44_bearing_regression/R44_A50/R44_A50_import_validation.py",
+      "size": 5710,
+      "sha256": "c2e6d35d9a857d4fcff7994cd1681e754f3e932e65b876e739fccfd14121cba6"
+    },
+    {
+      "path": "R44_bearing_regression/R44_A50/R44_qa.json",
+      "size": 1548,
+      "sha256": "1e0a8677fa8f6ecab6ccb5b5c98c752c9ae873961fb9b21ded4a69cf50ff52cf"
+    },
+    {
+      "path": "R44_bearing_regression/R44_B35/R42_BRANCHING_JOINT_AND_REBATES.glb",
+      "size": 67716,
+      "sha256": "024c0c31746641e6dbc47f4a6ea189a37105f036a2a5217a86b04a8be93d79ac"
+    },
+    {
+      "path": "R44_bearing_regression/R44_B35/R42_roundtrip_5_1_2.json",
+      "size": 2064,
+      "sha256": "c7b2bc8881419721cfe8d0290fb5a366789c3a692f25af5a21066ca090cf8b12"
+    },
+    {
+      "path": "R44_bearing_regression/R44_B35/R42_roundtrip_5_2_2.json",
+      "size": 2068,
+      "sha256": "8ff1a865e0012e40919196ef674c40494e7252f59ecbe274fc3ada702b6f29bf"
+    },
+    {
+      "path": "R44_bearing_regression/R44_B35/R44_B35_generator.py",
+      "size": 12586,
+      "sha256": "a46c2acf73d282f9b577e8487a508877a42de73a489e15fb41187f5b7417aa7d"
+    },
+    {
+      "path": "R44_bearing_regression/R44_B35/R44_B35_import_validation.py",
+      "size": 5708,
+      "sha256": "b473b676ceb7e2b865dba9a52c16ed309b31f48dc8cb7703e239d1c6b5ee4b4e"
+    },
+    {
+      "path": "R44_bearing_regression/R44_B35/R44_qa.json",
+      "size": 1543,
+      "sha256": "05bb97ac07dcb5b345da4e09a6148d2a514d7a6a63251d8e5703656b85af234e"
+    },
+    {
+      "path": "R44_bearing_regression/R44_CHECKPOINT_SUMMARY.json",
+      "size": 1606,
+      "sha256": "3103bdfe5aec4e795aa8613e44450822dee0b4d12350c8c544b7ef92a72f38e0"
+    },
+    {
+      "path": "R44_bearing_regression/R44_FINAL_Stone_Generator_Review.png",
+      "size": 1222787,
+      "sha256": "dc56bbcd0f9a0fb3fecd317833591f694b0ab3ccb8fe0d00406f52c8ef739848"
+    },
+    {
+      "path": "R44_bearing_regression/R44_open_latest_glb_in_blender.py",
+      "size": 1323,
+      "sha256": "3424667e5b085df29a2da3f824824bd399829ef179ddb193ace5085e73621fe0"
+    },
+    {
+      "path": "R44_bearing_regression/R44_weld_diagnostics.py",
+      "size": 951,
+      "sha256": "8ca4bd186bd33eec44c28ee742b713c1cfe3eac1559bbdaba47854f6f28bfd43"
+    },
+    {
+      "path": "R45_native_5_1_compatibility/R45_engine.py",
+      "size": 12728,
+      "sha256": "bdd34d0f7155959fb3319f7b5caa19dc244f78fdbebc46e3e2decf9ae8db11ba"
+    },
+    {
+      "path": "R45_native_5_1_compatibility/R45_generate_and_validate_5_1.py",
+      "size": 6974,
+      "sha256": "221ed03d2513e0afe16f1736219d20d06f5d6de8955edf8386edfa5d0f57dc14"
+    },
+    {
+      "path": "R45_native_5_1_compatibility/R45_native_build_QA.json",
+      "size": 7292,
+      "sha256": "45f8c9d4306e9e80fdf223d937dc37fb3909909a8104f0857e8094beb5066fae"
+    },
+    {
+      "path": "R45_native_5_1_compatibility/R45_png_profile_converter.py",
+      "size": 5286,
+      "sha256": "c6d8df14363a74833ab08e2187d3751edb3a96ad98776ab2510d299e4a01895e"
+    },
+    {
+      "path": "R45_native_5_1_compatibility/R45_profile_from_PNG_1.json",
+      "size": 2218,
+      "sha256": "1f65ee75a7bc729dfdce0e9c130413e4bb3f13ca18b6182d77a584a4ed6b3abc"
+    },
+    {
+      "path": "R45_native_5_1_compatibility/R45_profile_from_PNG_2.json",
+      "size": 1958,
+      "sha256": "1b6849ff9de631e6384dd20f3e7856a13267eca340da2bf24b1fb2a485e7dfb8"
+    },
+    {
+      "path": "R45_production_candidate/R45_CHECKPOINT_HANDOFF.json",
+      "size": 1440,
+      "sha256": "07527e6fbbef0fb82a97f6fba3a5579f3d934e1360baaa108c7754e3827d8574"
+    },
+    {
+      "path": "R45_production_candidate/R45_FINAL_Unified_Generator_Review.png",
+      "size": 1194631,
+      "sha256": "6770598c0d7bf28e8d352069909cbd44c2385ab57038712a24d1370342f3ce69"
+    },
+    {
+      "path": "R45_production_candidate/R45_SYNTHETIC_PROFILE_FIXTURE_1.png",
+      "size": 10536,
+      "sha256": "53dd3a7648acf085e980028e6d865c6da9afdb68cf236698e51f858ac8f4d04f"
+    },
+    {
+      "path": "R45_production_candidate/R45_SYNTHETIC_PROFILE_FIXTURE_2.png",
+      "size": 12096,
+      "sha256": "fb0a6443dd5f66a046769e9ac5b39edeb8b9245a90c87ec4579837a2f4aabf92"
+    },
+    {
+      "path": "R45_production_candidate/R45_UNIFIED_BRANCHING_STONE_GENERATOR.glb",
+      "size": 147012,
+      "sha256": "527059d36db8118489aa13f5940321e68bf17dab1162a722f6ac46a3a42a167f"
+    },
+    {
+      "path": "R45_production_candidate/R45_UNIFIED_Experimental_Study.blend",
+      "size": 146324,
+      "sha256": "648e938f5440891c13b5c559d047d4be01df44823e35c8f9ed522345857fda0c"
+    },
+    {
+      "path": "R45_production_candidate/R45_engine.py",
+      "size": 12728,
+      "sha256": "bdd34d0f7155959fb3319f7b5caa19dc244f78fdbebc46e3e2decf9ae8db11ba"
+    },
+    {
+      "path": "R45_production_candidate/R45_generate_and_validate.py",
+      "size": 6972,
+      "sha256": "7c6e8c88a7019c23243faef0ce015157ceecfc40be5612721cc04899e6933f10"
+    },
+    {
+      "path": "R45_production_candidate/R45_import_QA_5_0_1.json",
+      "size": 3437,
+      "sha256": "3110cf6681e8e84db50ebdf091d44d4142c0e4dd4fd70a779af804ec06dbafba"
+    },
+    {
+      "path": "R45_production_candidate/R45_import_QA_5_1_2.json",
+      "size": 3437,
+      "sha256": "47c6e8ac1285ee5d7bf6acf8cc1073532804969caa590c682707a76e143aaf59"
+    },
+    {
+      "path": "R45_production_candidate/R45_import_QA_5_2_2.json",
+      "size": 3441,
+      "sha256": "8be12fc8e77b10085719e570e462d9e52b25acb7cff778947c4cd696c27486cb"
+    },
+    {
+      "path": "R45_production_candidate/R45_native_build_QA.json",
+      "size": 7288,
+      "sha256": "6821c41f697f734c9c6c103a983e6238fc9d065825c6dfad31fb8ec33e0ab350"
+    },
+    {
+      "path": "R45_production_candidate/R45_open_GLb_in_Blender.py",
+      "size": 1487,
+      "sha256": "e974e973e0d9e3e30410c314a60be547cefb33b0b3e3cfb450034ff7ae389de6"
+    },
+    {
+      "path": "R45_production_candidate/R45_png_conversion_QA.json",
+      "size": 215,
+      "sha256": "4b49c8c009d2e55013abc303de9f8298025a001e322c55be9be7abcf34a657d4"
+    },
+    {
+      "path": "R45_production_candidate/R45_png_profile_converter.py",
+      "size": 5286,
+      "sha256": "c6d8df14363a74833ab08e2187d3751edb3a96ad98776ab2510d299e4a01895e"
+    },
+    {
+      "path": "R45_production_candidate/R45_profile_from_PNG_1.json",
+      "size": 2218,
+      "sha256": "1f65ee75a7bc729dfdce0e9c130413e4bb3f13ca18b6182d77a584a4ed6b3abc"
+    },
+    {
+      "path": "R45_production_candidate/R45_profile_from_PNG_2.json",
+      "size": 1958,
+      "sha256": "1b6849ff9de631e6384dd20f3e7856a13267eca340da2bf24b1fb2a485e7dfb8"
+    },
+    {
+      "path": "R45_production_candidate/R45_validate_GLb.py",
+      "size": 4923,
+      "sha256": "8723ba768122095fbe6e85b2ea0818585f8b338ebf5cf194eb4508822f462863"
+    },
+    {
+      "path": "R46_blender_5_1_native_regression/R46_QA.json",
+      "size": 17127,
+      "sha256": "74b2b2eba1b2233d88278ff83238cc7afa8255ba5e76a973d8473d1f94aaf9f7"
+    },
+    {
+      "path": "R46_blender_5_1_native_regression/R46_native_5_1_generator.py",
+      "size": 12782,
+      "sha256": "89b026d390f86af1a7e384784a3272781b03a6dcc7088951467fc4120bed0c66"
+    },
+    {
+      "path": "R46_blender_5_1_native_regression/R46_profile_1_selected.json",
+      "size": 4211,
+      "sha256": "cfa8ee7de9be94c2363f0636844ed9582d6fa6a1be015604401bbf863917e1bf"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_QA.json",
+      "size": 17124,
+      "sha256": "83e08c0f9af6e33d3ee0a555b84379e54a1fae9078742ff5686c0b10eb0a8cdd"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_REVIEW_ONLY_Viewer.blend",
+      "size": 677257,
+      "sha256": "e204d1018b0f60a8378c0cef015ee7d0bc273f794c993fdd87fffce7d0a3c7a4"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_WINDOW_HEAD_29_STONE_EXPERIMENT.glb",
+      "size": 4446744,
+      "sha256": "c9b032ae2c0b68f3b61aac48e31371dada30d463f54c778c5da24f227569d994"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_Window_Head_Experimental_Study.blend",
+      "size": 677251,
+      "sha256": "556513c37af27621dd382593fa6b02954ffab31c2d4c2f30fa700bb0a96bb10f"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_profile_1_selected.json",
+      "size": 4211,
+      "sha256": "cfa8ee7de9be94c2363f0636844ed9582d6fa6a1be015604401bbf863917e1bf"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_reframe_render.py",
+      "size": 938,
+      "sha256": "b92599f39953a61cf20263a0384fa47c372a261adb39076f4c46f6cf4786a09e"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_reframed_blender_render.png",
+      "size": 2157465,
+      "sha256": "847a260825cc1bbc70d2c30c6fef564d783e8b23a2985335d4e2d5c8ad9a8cb7"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_roundtrip_5_0_1.json",
+      "size": 14030,
+      "sha256": "c5cf4cce7b6b2aef8959ef8d1051dee25af4ee9f6dcbed8bc4c1da50bbc14cbc"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_roundtrip_5_1_2.json",
+      "size": 14030,
+      "sha256": "e5836dae56054caf80b32949f910c718072b41adabd4a4095d1aaa9694ebeefb"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_roundtrip_5_2_2.json",
+      "size": 14034,
+      "sha256": "9bd9f53dd527b9ea7eb73a710e3d07c2715260918251aa2444181819fdc2a43e"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_source_provenance.json",
+      "size": 1007,
+      "sha256": "7859ddfd286f381a6baa554aabc8566772cf4f4889eab371ce05234ec28b79ee"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_validate_imported_GLb.py",
+      "size": 4835,
+      "sha256": "fefee153c65f0ce36568929cdf0575e6201501ddb1f61e735f69784e4b6c5725"
+    },
+    {
+      "path": "R46_window_head_experiment/R46_window_head_generator.py",
+      "size": 14468,
+      "sha256": "93a1aab5ab94d8e03b01f1528a3aeee57a9db1308a39276ea5d1795ba8c634f6"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_QA.json",
+      "size": 17720,
+      "sha256": "212bec1e0123d275b575f389fa867930b6bcd5238b3a5dba1fe95cb8a8368c2f"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_WINDOW_HEAD_WITH_REBATES.glb",
+      "size": 4596664,
+      "sha256": "a790279d539912e55d76d3b6485d056d3cf3ae9e45dbcaa7af4a0c1f9e19a2e5"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_Window_Head_Rebated_Experimental.blend",
+      "size": 740219,
+      "sha256": "e8fc2703d0932996eb9f2d24947763e0c9e056c1e6170ce841792a8c3b70cdf4"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_profile_glazing_rebated.json",
+      "size": 4844,
+      "sha256": "22882905bf84801af3e1eb076972b4f4e619a9c981f2e0d312deff24ac21c37a"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_rebated_window_generator.py",
+      "size": 14867,
+      "sha256": "966f9bec19ee6813dd9500576a98ee91622d7461a4946b374723317d8a297acd"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_reframe.py",
+      "size": 863,
+      "sha256": "5f9c08f57fda6fb5d6bc4bc913ce1d7a454d981fc27c562b0fafddbd7a955d61"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_reframed_3d_blender.png",
+      "size": 2170329,
+      "sha256": "6ec14cbf022b2cdd69ce1c49249620ceea1e45416fc9599c4b13169cf3ef0e36"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_roundtrip_5_0_1.json",
+      "size": 14250,
+      "sha256": "ae771a51c69fc018a01e31610a814ddf6fe7f49fc17c38866e93fc81d497b2ca"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_roundtrip_5_1_2.json",
+      "size": 14250,
+      "sha256": "911cef694348a22af7a9dda7db2f8ee9c0b0600fae50ebf76d4855a01c2b7e21"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_roundtrip_5_2_2.json",
+      "size": 14254,
+      "sha256": "c3341c184848930fa5c12a84cf47de93a4035b3e0c62efa69084430f4477b8b0"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_source_profile_delta.json",
+      "size": 471,
+      "sha256": "c5e531a68bae1cdf339d6bcd283cf634eaa3a4c6ee3de449a4db38e0adba7311"
+    },
+    {
+      "path": "R47_curved_glazing_rebates/R47_validate_imported_GLb.py",
+      "size": 4842,
+      "sha256": "cdbdf9dd191062e8061d62e32f02adf066d831583c45187a6fbe2b8c0a9dbcd7"
+    },
+    {
+      "path": "R47_native_blender_5_1_regression/R47_QA.json",
+      "size": 17723,
+      "sha256": "21859b3b0a2c6f278ccf274db679bf6d64eae82ccd3811a5e852b4e4422097a2"
+    },
+    {
+      "path": "R47_native_blender_5_1_regression/R47_native_5_1.py",
+      "size": 13188,
+      "sha256": "c86a6d87f28350144d01f04ec4d8559e4d762b271e729cca60b50190848729cc"
+    },
+    {
+      "path": "R47_native_blender_5_1_regression/R47_profile_glazing_rebated.json",
+      "size": 4844,
+      "sha256": "22882905bf84801af3e1eb076972b4f4e619a9c981f2e0d312deff24ac21c37a"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_ALTERNATE_PROFILE_8/R48_QA.json",
+      "size": 18847,
+      "sha256": "e25d6967a5c02828d95408d7518c239f159e35865872ce6c8b789f0cb4c89b89"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_ALTERNATE_PROFILE_8/R48_WINDOW_HEAD_1to1_EXPERIMENT.glb",
+      "size": 4951072,
+      "sha256": "12989eb33ef4afb67a05592f52128dcceaa88e108a6a9c3947f6171e9e1456ce"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_ALTERNATE_PROFILE_8/R48_native_build_marker.txt",
+      "size": 57,
+      "sha256": "910391ee297cfe71b18d0322d386ba5a17e1504a2e7d437bef81cddc86b92036"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_ALTERNATE_PROFILE_8/R48_roundtrip_5_0_1.json",
+      "size": 14368,
+      "sha256": "2f8af065f0f5aef39ce57d1074364c693795b37f3ac605f9183dd699c5bc4671"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_ALTERNATE_PROFILE_8/R48_roundtrip_5_1_2.json",
+      "size": 14368,
+      "sha256": "7e70ad844dab7f9c4775c56087818c76535cde8e01479311719a17cef00ade54"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_ALTERNATE_PROFILE_8/R48_roundtrip_5_2_2.json",
+      "size": 14372,
+      "sha256": "6f01ea9c8ae8386700d6c18d09d3e62e6a2153dfef4e08c2238bac935c947a12"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_BASELINE_PROFILE_1/R48_Experimental_Window_Head.blend",
+      "size": 740079,
+      "sha256": "215a9fa5fc67f68571c49ae80b10bb0aaab0aa4708c462f23241a29440a4520c"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_BASELINE_PROFILE_1/R48_QA.json",
+      "size": 18771,
+      "sha256": "0e4ebeaf6a986a431695ba3ce3a311b72eb52ee65357eedb982d1e206e25c764"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_BASELINE_PROFILE_1/R48_Viewer_Only.blend",
+      "size": 739856,
+      "sha256": "161c999a2d67ee316ad0294106585dbea80a789506fe212eda13647df88af8ec"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_BASELINE_PROFILE_1/R48_WINDOW_HEAD_1to1_EXPERIMENT.glb",
+      "size": 4595936,
+      "sha256": "d361b2bcf482730f5d095290a7d1d8e2eb1326798fb3b1850a2ec04baa2dfb8f"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_BASELINE_PROFILE_1/R48_native_build_marker.txt",
+      "size": 57,
+      "sha256": "910391ee297cfe71b18d0322d386ba5a17e1504a2e7d437bef81cddc86b92036"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_BASELINE_PROFILE_1/R48_roundtrip_5_0_1.json",
+      "size": 14264,
+      "sha256": "37c3f59518364c29d2df59f1764749430cb2c9e0ee76edf4e476df5e3079a706"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_BASELINE_PROFILE_1/R48_roundtrip_5_1_2.json",
+      "size": 14264,
+      "sha256": "c39102f59de0e34dd97fda2aac01e29e45a48b45b83e7fc7d443929373738ce3"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_BASELINE_PROFILE_1/R48_roundtrip_5_2_2.json",
+      "size": 14268,
+      "sha256": "f3247006a40614bd3be8aab1f550071514a06eb6f813ca3d37e9b70819716b2f"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_CHECKPOINT_HANDOFF.json",
+      "size": 1964,
+      "sha256": "8746ca7723c9f5bce6e1a501bbdb740d862ad2edd9f9157a08cea7d22d679248"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_FINAL_Validated_Window_Generator.png",
+      "size": 1470960,
+      "sha256": "44eb10d2ddb31d994e9994b2a70297604af756c8df8e2caf7d293dcfac7f8979"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_INVALID_bad_evidence.json",
+      "size": 888,
+      "sha256": "4255c9f125c2592fcc50394510d72e88cc7fcc8a5a957f7d2f2bd98f13ba44cb"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_INVALID_bad_identifier.json",
+      "size": 882,
+      "sha256": "7a670be435b8e360362a044eb7dc0af4cfdac470bde39aae03a2a668be8479ea"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_INVALID_bad_profile.json",
+      "size": 827,
+      "sha256": "d502812ee58d4e0dfdef39f65aa1da165083b09111cc73df37cb0f1b94266700"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_INVALID_bad_schedule.json",
+      "size": 892,
+      "sha256": "eb333c0f8eb5ab7b0bd7991f72c0576c9763cd6d3cefcc4dd92d4c6e6efd6112"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_INVALID_few_lancets.json",
+      "size": 784,
+      "sha256": "62b28b8441b9c7fa941611149d4a7405167566bd4a1f74b132cdf7ecd7d56be5"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_INVALID_foil_stones.json",
+      "size": 891,
+      "sha256": "8cc6487b3c8f0091b2741f6a1e2bb5c5c623cc6d1295e018b387fa947ae66753"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_INVALID_wrong_span.json",
+      "size": 889,
+      "sha256": "f2efae367f9546709019f2b25660ab1f05c5ddb5cd5c5a313752bb7efa488d1c"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_NATIVE51_PROFILE1/R48_QA.json",
+      "size": 18766,
+      "sha256": "6711f79497779a934ffdfe5642fcac5c5034da5829145ec035d47d155d1812d9"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_NATIVE51_PROFILE1/R48_native_build_marker.txt",
+      "size": 57,
+      "sha256": "910391ee297cfe71b18d0322d386ba5a17e1504a2e7d437bef81cddc86b92036"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_RUNBOOK.txt",
+      "size": 651,
+      "sha256": "9f6cbe8fa3dfbf8e999b8da259330c866e6c160796f366861968de86ba8064de"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_alternate_config.json",
+      "size": 896,
+      "sha256": "29e60c64f4fcf1dd7eaa4cc605bb4c99a50a995283e91c77d64859a9cfd6425b"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_baseline_config.json",
+      "size": 894,
+      "sha256": "d807a5bfe2038f21a9cc7972394f10f3dfb90d90b842ab21dfe30ca3e0d7043b"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_import_validation.py",
+      "size": 5009,
+      "sha256": "3a73bd96e049f10e3f981ec1404222fea3dbcc06676e4974ec2cf36a75d3da7d"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_invalid_prep_output_r48_extracted.json",
+      "size": 4439,
+      "sha256": "8c11d99bc6604cbc221a32df4d4612cf6f82c2178dbd9bf0015d1fa4d50c19f6"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_make_final_review.py",
+      "size": 7777,
+      "sha256": "2b0866d8282c5abdc01e9e3ccab16f975047e4998e671c87c6d3f7aad74f6b79"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_native51_config.json",
+      "size": 894,
+      "sha256": "63a3b8de5aacb3d1f5370348345a021d7d6f250f0513a872b9a3b71f760ff61a"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_negative_test_manifest.json",
+      "size": 815,
+      "sha256": "6fe54c4033517d8917d0caf3cd63909978abb892c927e06c9cbf2e3d504a6f5e"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_negative_test_results.json",
+      "size": 1256,
+      "sha256": "5e7221401cef1841d25dfeac696c0cba0ef7811f437e71a67aca4fda57ff3f80"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_open_GLb_GUI.py",
+      "size": 1529,
+      "sha256": "9bd57bffc62ef1742cea587f4e94cd27046262f6437abb1d078abfbb0708d77f"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_prepare_8_repeatability_test.json",
+      "size": 4843,
+      "sha256": "63f1ffab5567e3c951ed428912d5b5ba18ecf1ca905966d8be0502606bd0f983"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_prepare_8_repeatability_test_r48_extracted.json",
+      "size": 4463,
+      "sha256": "20a1085c8d161d187bee7db65ec7db13d7ba58afc5145c0b9d56574636cf9bdd"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_prepare_profile.py",
+      "size": 4455,
+      "sha256": "30b77133a9bca3a8d63e86c451a2eb145ae31b566b475ff2383b34f31312fdd4"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_reframe.py",
+      "size": 915,
+      "sha256": "eacddc8e6ae804b102ad4828f387a151bf9e6d952e527f74bf76bba930c46372"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_source_1_extracted.json",
+      "size": 4191,
+      "sha256": "97a2d1c6bb117854f6f27a1167a14f64e2a9d852284eae5a89311f455ddf6b61"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_source_1_rebated.json",
+      "size": 4748,
+      "sha256": "071b31679003a3700292a98013860746afc92879ede1551623b35aba9a5e78dd"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_source_8_extracted.json",
+      "size": 4449,
+      "sha256": "d8ce00a76d68da445c5f77d4ab5e9e0c7e9efac508dce97cc703c6b139271b8d"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_source_8_rebated.json",
+      "size": 5005,
+      "sha256": "cce79a331df03391f6dc21b05d1d5bc47536c0478a1536a70d2b986693b2684c"
+    },
+    {
+      "path": "R48_configurable_window_head/R48_window_head_generator.py",
+      "size": 17256,
+      "sha256": "7fa61abd6dbf350b0076bb6a9e52845cdae7dd6055914d3e467dd0c386b66dcf"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_NEUTRAL_TRACERY_PROFILE/R49_Blender_Render.png",
+      "size": 2132532,
+      "sha256": "0838d65c27f8e5d8af5fdfce080c53b485652238f329e4b9884e45a6101ea085"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_NEUTRAL_TRACERY_PROFILE/R49_NEUTRAL_TRACERY_WINDOW_HEAD.glb",
+      "size": 587100,
+      "sha256": "13eb224196bbff5dfe412c333e282856f4e8850a0bdf7b5fa34329bad43a5564"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_NEUTRAL_TRACERY_PROFILE/R49_Neutral_Experimental_Window_Head.blend",
+      "size": 159374,
+      "sha256": "e38b96a93ea63bdf82cec1c687c637567cc1baee1ee1b124f4171f522f46cb2f"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_NEUTRAL_TRACERY_PROFILE/R49_QA.json",
+      "size": 18512,
+      "sha256": "ecc2d6023d354be114745177267e86bebc83ddacb1c9adc8f41fe0e2396cce8c"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_NEUTRAL_TRACERY_PROFILE/R49_native_build_marker.txt",
+      "size": 57,
+      "sha256": "910391ee297cfe71b18d0322d386ba5a17e1504a2e7d437bef81cddc86b92036"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_NEUTRAL_TRACERY_PROFILE/R49_roundtrip_5_1_2.json",
+      "size": 13912,
+      "sha256": "406e58358aa8cd8539a97ffd192086cdaa03a4f9c5672faadf08cba6871e047f"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_NEUTRAL_TRACERY_PROFILE/R49_roundtrip_5_2_2.json",
+      "size": 13916,
+      "sha256": "653972af573bdf0caff05c7274c184712bc0142e30ad76b0b849f18960f29da2"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_PROFILE_SCOPE_CORRECTION.json",
+      "size": 1007,
+      "sha256": "5b4dfd42f73c3bd7c57f62924ba9ac893a0bd3e6fa6f2771f7a96a9baf1875de"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_checkpoint.json",
+      "size": 749,
+      "sha256": "1f2cf787d6b7a999cddd3479b1e4bf2c26f54774c18b98ffec59e6a7652abb37"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_import_validation.py",
+      "size": 5006,
+      "sha256": "f5534b190017ebd53034c229feb20198937a77f095e0fa325c9386baf5dac4c8"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_negative_archive_config.json",
+      "size": 901,
+      "sha256": "5e9e4d02de54906b4b3428ef6828cf6269acb99fb00e236c507d5b96880dba1a"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_neutral_config.json",
+      "size": 910,
+      "sha256": "5b560b63e3a3e8698377f34b00597f892ae1cfac447557008664c0e133631c71"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_neutral_tracery_section.json",
+      "size": 1056,
+      "sha256": "4ccf4a2e077614bfb61e7a99dc9b870b1c2cc940d0d839cce88d3dea14cbaf32"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_open_corrected_GLB.py",
+      "size": 1565,
+      "sha256": "ab83e8804eb90d59204a83d35ab5a12c96ccc9fdff7ec2c21682917552187bcc"
+    },
+    {
+      "path": "R49_tracery_profile_correction/R49_window_head_generator.py",
+      "size": 17805,
+      "sha256": "1c2cd3f27b7e7950decd39236c8d127c6526f2ce9d246725a1aa75db24b8bb69"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_Blender_geometry_QA.json",
+      "size": 1340,
+      "sha256": "00c9f95f8db05819ccdea64bf3799ed6ee273b52cfbece8f0983cac7c6cec750"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_Brandon_R03_Hypothetical_Metric_Proxy.glb",
+      "size": 48952,
+      "sha256": "c7df853202535373cda000f915747f80bc153170b6ca2de50db72a8262b4b38b"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_Brandon_R03_measured_source_overlay.svg",
+      "size": 14835,
+      "sha256": "eb4631f3e25ffad9f1af913e44bfbd23e0f38906d2c8873e23d029c2d40371c4"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_CHECKPOINT.json",
+      "size": 1265,
+      "sha256": "f94585b5ec603b47281529071e69c95037eac7a3a17731cd9608611c46a186ee"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_FINAL_Brandon_Source_vs_Blender.png",
+      "size": 818184,
+      "sha256": "df0589deb04c532fb94dee97b96f7c9ee23bec511f8a0adf860824431b05b493"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_GLb_roundtrip_5_1_2.json",
+      "size": 733,
+      "sha256": "8c3ce5c754227ff548deeff8389e3489877e2e6d529f1f6ebe96dc71e04fab70"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_GLb_roundtrip_5_2_2.json",
+      "size": 737,
+      "sha256": "553efeaaf2731480963221bae7ddf9995116df81666407017256cf3edd9a6d66"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_GLb_roundtrip_5_2_3.json",
+      "size": 737,
+      "sha256": "38f5062de659bc402fdfc9a45dc04602f9d903a1ed07c3b76ebf9daa2ca78e93"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_Research_Only_Study.blend",
+      "size": 115714,
+      "sha256": "6294853861af426ed5461d9aafacc54d8962dccca9740dd783a915200b20ccbe"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_import_scale_and_render.py",
+      "size": 8027,
+      "sha256": "983e013b756fc2a21c2e45221acecdfba9ca5776bca5794868097be98638cee4"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_keymap_import_test.py",
+      "size": 500,
+      "sha256": "48122d314585f04acb974bf5aa5a705a5454f04d65ff8cf0e0f62123918330c4"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_make_final_review.py",
+      "size": 4595,
+      "sha256": "a9decfb3da13c6cc1c8ae4017ba408b4cad2ab19fc51c1efea79a19baff887ef"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_open_with_TAB_keymap.py",
+      "size": 2187,
+      "sha256": "42a2eae099e323bf16f8b857f4c0fcb31b2e722fd83aff3583e5e13c11fbe60e"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_source_geometry.py",
+      "size": 7318,
+      "sha256": "e90316acec52ed0cee8dd367fe922be6a275e73d916a254744713c2c61448f2b"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_source_measurements.json",
+      "size": 2150,
+      "sha256": "67e2728c8891e3665381ddad65998a1a2c2d237001cda243755ad986fddf09ed"
+    },
+    {
+      "path": "R50_source_graded_tracery/R50_validate_GLb.py",
+      "size": 3268,
+      "sha256": "19bec9b4a1bd1d36b65a492b04f7f8e71e35ce502faffce318a1479547d39cd6"
+    },
+    {
+      "path": "R51_Brandon_source_calibration/R51_237_scale_zoom.png",
+      "size": 414087,
+      "sha256": "23c763e6589c9181f607e0bf7fdc47282598e3678d4a21c7d10f53fe92c796cb"
+    },
+    {
+      "path": "R51_Brandon_source_calibration/R51_247_scale_zoom.png",
+      "size": 232526,
+      "sha256": "10336f69c7734c8af158ecb3d94d021b87ceb55d5e97ed3f863d5be296eaffc3"
+    },
+    {
+      "path": "R51_Brandon_source_calibration/R51_PRIMARY_PLATE_SELECTION.png",
+      "size": 1610522,
+      "sha256": "89d752889e5210482bbb1319a1c546e08e85b86539e1bce47013779c6390c951"
+    },
+    {
+      "path": "R52_Universal_2D_Engine_HANDOFF_R01.zip",
+      "size": 173600,
+      "sha256": "d865c2fdf6319c2dfe03319b649e48c2b3b7a9f464bd30a291027ce1c9701a28"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/ENGINE_CONTRACT.json",
+      "size": 1958,
+      "sha256": "404539776ff961d640796e5de4dce3e70e86fc7c7bf9c5bf46d72471218defdb"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/HANDOFF.md",
+      "size": 18633,
+      "sha256": "da5126a9ba60c3f6303f4ba27933e24813dd58ea795afee18b1a7aec049b8639"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/HANDOFF_MANIFEST.json",
+      "size": 1287,
+      "sha256": "9c85a32f6ea4c25e4602ed3f04ec039c2f25c2143ea9ee7a4975c1e20e8391bb"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/NEXT_PASS_ROADMAP.md",
+      "size": 1558,
+      "sha256": "7062531d5737c8f296c48110c016f2990c3ffb33e31884a1f64c35fcdb2eb28b"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/QA_ACCEPTANCE_MATRIX.md",
+      "size": 1577,
+      "sha256": "72e6024c442c970959ecde615d200e0dda5889d3c333f40d92adb52d5acbcaeb"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/R52_2d_only_regression.py",
+      "size": 12936,
+      "sha256": "1e7ff9d55f4533190d490189a198a5ddfaf62499e4fe497f78946b6ca6d5bd4a"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/R52_FINAL_2D_Construction_Engine_Handoff.png",
+      "size": 92538,
+      "sha256": "d3fcc5c2bef40c580c74e220ffa20401fe7f2995462c12123fd534be63e97402"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/R52_finalize_handoff.py",
+      "size": 10380,
+      "sha256": "d76357955e3be6ac9a327c4a4936b789fbf6442c333e89a5f8007959491a2da3"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/RUNBOOK.md",
+      "size": 1175,
+      "sha256": "576bc9ceb3d483f12cd6f411179fdf03536acb0a8cbf8898179667afd1a5007c"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/SHA256SUMS.txt",
+      "size": 2533,
+      "sha256": "ed85a7483a361d6457f1dd2e6aec473a242fa2aac06fd6b01945e0e742a6ef22"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/SOURCE_PROVENANCE.md",
+      "size": 1506,
+      "sha256": "c275c084400e250f56f6e62b2f0d579640a0601812775351a7bf5be44e2a954b"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/baseline/PROGRESS_AND_NEXT_STEPS_U01-U05_original.md",
+      "size": 7132,
+      "sha256": "e39a2982e9479f2a47218e479f70db5fdb4460b810279c3e7189db878ad7323c"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/baseline/QA_U01_original_report.json",
+      "size": 72717,
+      "sha256": "a997556dc06a53b831049628a1e1b4e8d6f2bbfab7c2378bc34174cf1122e500"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/baseline/RESULTS_SUMMARY_U01-U05_original.md",
+      "size": 2368,
+      "sha256": "d4311c58f484c53b67240e1f95d124626ddd29125a35a92a6066374544c73112"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/baseline/WORKFLOWS_U01-U05_original.md",
+      "size": 11166,
+      "sha256": "94f856c05b34f4b9bfb4ccdecfaf3a0be404ff3bf0e8d656373eb1070580b94e"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/baseline/bar_2light_sexfoil_construction.json",
+      "size": 12471,
+      "sha256": "e9b59de73fe39fc671f9d1cb5d09e849d1636256fae8cef2db068fd701d6e1c8"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/baseline/specs_U01.json",
+      "size": 5018,
+      "sha256": "e0de22b5109bcb5a9c08f005b3b984df86c9ac1a0227a450dcbef86c2feb7840"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/baseline/tracery_universal_U01.py",
+      "size": 33836,
+      "sha256": "9ed6c586d352f5be0fd6be147275cc6155ed809b6e8b06cbc44009d5f8aaa0d3"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/outputs/R52_2D_REGRESSION_QA.json",
+      "size": 5377,
+      "sha256": "93a86079dd23b2218e1c4dc71946c7bfca2258fbe362318deef52b014df25e69"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/outputs/bar_2light_sexfoil_2D_construction.svg",
+      "size": 12992,
+      "sha256": "201c3a33759114f4fb26780173d00fb2ac70c014130df7e50e9098b12afd5565"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/outputs/bar_4light_recursive_2D_construction.svg",
+      "size": 33408,
+      "sha256": "710df09734e3c03ae2803a78456bd2184dd89ae7365306aa182652a523e4700a"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/outputs/intersecting_3light_2D_construction.svg",
+      "size": 8303,
+      "sha256": "38a17e290850a7cbbe394dca461250de6a622c4411a34abff32acc7834ea6240"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/outputs/stleu_fig80_ideal_2D_construction.svg",
+      "size": 15420,
+      "sha256": "560c71f985cb107c5e2ad6fe27e66b2f90a46dfc897cc0d5f8584abea9dd0cb9"
+    },
+    {
+      "path": "R52_universal_2d_engine_handoff/outputs/stleu_fig80_rebuild_2D_construction.svg",
+      "size": 15279,
+      "sha256": "428cd4cec52970ab03cdc2548d8daaf2b39d437ad021a65336433566bef82298"
+    }
+  ],
+  "excluded_filenames_by_reason": {
+    "temporary_files": 10,
+    ".log": 65,
+    "intermediate_or_source_png": 21,
+    "intermediate_blend": 2,
+    "native_duplicate_assets": 6
+  },
+  "source_status": "DO NOT USE R46-R48 USER PROFILES FOR TRACERY",
+  "architectural_approved_files_modified": false
+}

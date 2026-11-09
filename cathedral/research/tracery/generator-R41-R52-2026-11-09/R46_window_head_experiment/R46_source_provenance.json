@@ -1,0 +1,24 @@
+{
+  "original_archive": "/home/christopher/Downloads/downlods/3/french gothic profiles with optional soffets.zip",
+  "zip_member": "1.png",
+  "source_SHA256": "a486f46d4f184899cdc51a053eeed1971451a1ab20123884a573e27b48b31489",
+  "source_natural_size_pixels": [
+    303,
+    235
+  ],
+  "assumed_profile_width_mm": 112,
+  "derived_depth_mm": 78.90034,
+  "physical_closure": "UNVERIFIED: original silhouette is truncated by the right image boundary",
+  "historical_metric": "NOT MEASURED; width is user-configurable experimental test",
+  "profile_converter_results": {
+    "profile_id": "FRENCH_GOTHIC_ARCHIVE_1_CLIPPED_HALF_SECTION",
+    "vertices": 79,
+    "width_mm": 112.0,
+    "depth_mm": 78.90034364261169,
+    "original_pixels": 37460,
+    "profile_area_mm2": 5549.03964717365,
+    "SHA256": "2fd07caa8bc6afabcd288cccdbbfcb3d51c3f9f405ee8907c1a510f912ff0f2b",
+    "output": "/home/christopher/Cathedral_Research/R46_window_head_experiment/R46_profile_1_selected.json"
+  },
+  "baseline_protected": true
+}

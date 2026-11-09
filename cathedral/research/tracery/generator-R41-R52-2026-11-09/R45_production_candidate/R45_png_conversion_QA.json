@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "source_fixtures": 2,
+  "negative_tests": {
+    "reject_invalid_width": true,
+    "reject_stretched_aspect": true,
+    "reject_invalid_rotation": true,
+    "reject_unapproved_profile": true
+  }
+}

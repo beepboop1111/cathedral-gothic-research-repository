@@ -1,0 +1,42 @@
+{
+  "schema": "R48_Window_Config_V1",
+  "window_id": "R48_NEG_bad_evidence",
+  "profile_json": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_source_1_rebated.json",
+  "outer": {
+    "center_x_m": 0.0,
+    "span_m": 1.94,
+    "spring_z_m": 0.46,
+    "rise_m": 1.94
+  },
+  "lancets": [
+    {
+      "center_x_m": -0.47,
+      "span_m": 0.7,
+      "spring_z_m": 0.46,
+      "rise_m": 1.17
+    },
+    {
+      "center_x_m": 0.47,
+      "span_m": 0.7,
+      "spring_z_m": 0.46,
+      "rise_m": 1.17
+    }
+  ],
+  "foil": {
+    "center_x_m": 0,
+    "center_z_m": 1.855,
+    "radius_m": 0.205,
+    "amplitude": 0.18,
+    "stone_count": 8
+  },
+  "arc_fractions": [
+    0,
+    0.29,
+    0.58,
+    0.82,
+    1
+  ],
+  "evidence_class": "APPROVED",
+  "render": true,
+  "source_note": "Actual user French Gothic silhouette PNG; right backing clipped; width and rebates assumed"
+}

@@ -1,0 +1,43 @@
+{
+  "checkpoint": "R48",
+  "config_rejected": {
+    "bad_evidence": {
+      "rejected": true,
+      "exception": "ValueError: R48_REJECT_UNSUPPORTED_HISTORICAL_APPROVAL"
+    },
+    "few_lancets": {
+      "rejected": true,
+      "exception": "ValueError: R48_TWO_LANCETS_REQUIRED"
+    },
+    "foil_stones": {
+      "rejected": true,
+      "exception": "ValueError: R48_FOIL_STONE_COUNT_INVALID"
+    },
+    "wrong_span": {
+      "rejected": true,
+      "exception": "ValueError: R48_INVALID_ARCH_PROPORTIONS"
+    },
+    "bad_schedule": {
+      "rejected": true,
+      "exception": "ValueError: R48_STONES_TOO_SHORT_OR_INVALID_ORDER"
+    },
+    "bad_identifier": {
+      "rejected": true,
+      "exception": "ValueError: R48_INVALID_OUTPUT_ID"
+    },
+    "bad_profile": {
+      "rejected": true,
+      "exception": "FileNotFoundError: [Errno 2] No such file or directory: '/this/path/not/existing.png'"
+    }
+  },
+  "configuration_negative_count": 7,
+  "profile_input_negative_cases": {
+    "missing_archive_member": true,
+    "invalid_scale": true,
+    "partial_rebate_dimensions": true,
+    "excessive_rebate": true
+  },
+  "PNG_conversion_repeatability": "PASS exact 89 point contour and scale",
+  "all_pass": true,
+  "protected_cathedral_unchanged": true
+}

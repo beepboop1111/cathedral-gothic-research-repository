@@ -1,0 +1,660 @@
+{
+  "checkpoint": "R48",
+  "software": "5.2.2 LTS",
+  "historical_certification": "NOT CERTIFIED; clipped outline and bearing/joint locations experimental",
+  "source_archive": "external_selected_profile_json",
+  "source_profile": {
+    "profile_id": "R48_ARCHIVE_8_REBATED_EXPERIMENT",
+    "evidence_class": "EXPERIMENTAL",
+    "source_document": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_source_8_padded.png",
+    "source_sha256": "cce79a331df03391f6dc21b05d1d5bc47536c0478a1536a70d2b986693b2684c",
+    "section_area_mm2": 5330.47542211155,
+    "width_mm": 112.0,
+    "depth_mm": 76.41988,
+    "profile_point_count": 89,
+    "historical_contact_geometry": "NOT PROVIDED"
+  },
+  "config_sha256": "29e60c64f4fcf1dd7eaa4cc605bb4c99a50a995283e91c77d64859a9cfd6425b",
+  "configuration": {
+    "schema": "R48_Window_Config_V1",
+    "window_id": "R48_ALTERNATE_PROFILE_8",
+    "profile_json": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_source_8_rebated.json",
+    "outer": {
+      "center_x_m": 0.0,
+      "span_m": 1.98,
+      "spring_z_m": 0.46,
+      "rise_m": 1.96
+    },
+    "lancets": [
+      {
+        "center_x_m": -0.49,
+        "span_m": 0.72,
+        "spring_z_m": 0.46,
+        "rise_m": 1.17
+      },
+      {
+        "center_x_m": 0.49,
+        "span_m": 0.72,
+        "spring_z_m": 0.46,
+        "rise_m": 1.17
+      }
+    ],
+    "foil": {
+      "center_x_m": 0,
+      "center_z_m": 1.9,
+      "radius_m": 0.205,
+      "amplitude": 0.18,
+      "stone_count": 8
+    },
+    "arc_fractions": [
+      0,
+      0.29,
+      0.58,
+      0.82,
+      1
+    ],
+    "evidence_class": "EXPERIMENTAL",
+    "render": false,
+    "source_note": "Actual user French Gothic silhouette PNG; right backing clipped; width and rebates assumed"
+  },
+  "arc_sources": "analytic two-centered circular arches, exact horizontal spring centres, tangent-controlled",
+  "outer_arch": {
+    "cx": 0.0,
+    "span": 1.98,
+    "spring": 0.46,
+    "rise": 1.96,
+    "center_offset": 1.44520202020202,
+    "radius": 2.43520202020202,
+    "crown_z": 2.42,
+    "alpha_left_crown": 2.2061508411326987
+  },
+  "lancet_arches": [
+    {
+      "cx": -0.49,
+      "span": 0.72,
+      "spring": 0.46,
+      "rise": 1.17,
+      "center_offset": 1.72125,
+      "radius": 2.08125,
+      "crown_z": 1.63,
+      "alpha_left_crown": 2.5445947904174346
+    },
+    {
+      "cx": 0.49,
+      "span": 0.72,
+      "spring": 0.46,
+      "rise": 1.17,
+      "center_offset": 1.72125,
+      "radius": 2.08125,
+      "crown_z": 1.63,
+      "alpha_left_crown": 2.5445947904174346
+    }
+  ],
+  "lancet_arrangement": "two user-configured pointed lancets, no measured Gothic window plate registered",
+  "quatrefoil": "4-fold radial foil 8 segments; not historically compass-constructed",
+  "3d_member_count": 29,
+  "matched_independent_stone_joints": 26,
+  "joint_contact_checks": [
+    {
+      "joint_type": "OUTER_left",
+      "parts": [
+        "R46_OUTER_left_COURSE_01",
+        "R46_OUTER_left_COURSE_02"
+      ],
+      "area_mm2": 5330.47661804742,
+      "area_error_mm2": 0.0,
+      "normal_dot": -0.999999992549424,
+      "centroid_distance_mm": 5.865103847875152e-07,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "OUTER_left",
+      "parts": [
+        "R46_OUTER_left_COURSE_02",
+        "R46_OUTER_left_COURSE_03"
+      ],
+      "area_mm2": 5330.480122622827,
+      "area_error_mm2": 0.0,
+      "normal_dot": -0.9999999701976777,
+      "centroid_distance_mm": 9.595169103704393e-08,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "OUTER_left_TO_CROWN",
+      "parts": [
+        "R46_OUTER_left_COURSE_03",
+        "R46_OUTER_CROWN_KEYSTONE_EXPERIMENTAL"
+      ],
+      "area_mm2": 5330.482435482065,
+      "area_error_mm2": 0.0,
+      "normal_dot": -0.999999970197707,
+      "centroid_distance_mm": 0.0002402741408682198,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "OUTER_right",
+      "parts": [
+        "R46_OUTER_right_COURSE_02",
+        "R46_OUTER_right_COURSE_03"
+      ],
+      "area_mm2": 5330.471954181348,
+      "area_error_mm2": 0.0,
+      "normal_dot": -0.9999999403953553,
+      "centroid_distance_mm": 7.457856554538012e-08,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "OUTER_right",
+      "parts": [
+        "R46_OUTER_right_COURSE_03",
+        "R46_OUTER_right_COURSE_04"
+      ],
+      "area_mm2": 5330.475138578095,
+      "area_error_mm2": 0.0,
+      "normal_dot": -1.0000000614672904,
+      "centroid_distance_mm": 8.526512829121202e-08,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "OUTER_right_TO_CROWN",
+      "parts": [
+        "R46_OUTER_right_COURSE_02",
+        "R46_OUTER_CROWN_KEYSTONE_EXPERIMENTAL"
+      ],
+      "area_mm2": 5330.483809927955,
+      "area_error_mm2": 6.338041202980094e-06,
+      "normal_dot": -0.9999999701976836,
+      "centroid_distance_mm": 2.4590462999185547e-07,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "LEFT_LANCET_left",
+      "parts": [
+        "R46_LEFT_LANCET_left_COURSE_01",
+        "R46_LEFT_LANCET_left_COURSE_02"
+      ],
+      "area_mm2": 5330.478399883987,
+      "area_error_mm2": 0.0,
+      "normal_dot": -0.9999999273568416,
+      "centroid_distance_mm": 8.537881512893364e-08,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "LEFT_LANCET_left",
+      "parts": [
+        "R46_LEFT_LANCET_left_COURSE_02",
+        "R46_LEFT_LANCET_left_COURSE_03"
+      ],
+      "area_mm2": 5330.472543715957,
+      "area_error_mm2": 0.0,
+      "normal_dot": -0.9999999254941965,
+      "centroid_distance_mm": 2.665956344571896e-07,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "LEFT_LANCET_left_TO_CROWN",
+      "parts": [
+        "R46_LEFT_LANCET_left_COURSE_03",
+        "R46_LEFT_LANCET_CROWN_KEYSTONE_EXPERIMENTAL"
+      ],
+      "area_mm2": 5330.47789873492,
+      "area_error_mm2": 0.0,
+      "normal_dot": -1.0000000596046505,
+      "centroid_distance_mm": 1.2801137927453965e-07,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "LEFT_LANCET_right",
+      "parts": [
+        "R46_LEFT_LANCET_right_COURSE_02",
+        "R46_LEFT_LANCET_right_COURSE_03"
+      ],
+      "area_mm2": 5330.477638474579,
+      "area_error_mm2": 0.0,
+      "normal_dot": -1.0000000484287739,
+      "centroid_distance_mm": 0.00011920933724721053,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "LEFT_LANCET_right",
+      "parts": [
+        "R46_LEFT_LANCET_right_COURSE_03",
+        "R46_LEFT_LANCET_right_COURSE_04"
+      ],
+      "area_mm2": 5330.475974645394,
+      "area_error_mm2": 0.0,
+      "normal_dot": -1.0000000167638063,
+      "centroid_distance_mm": 5.758238218371976e-07,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "LEFT_LANCET_right_TO_CROWN",
+      "parts": [
+        "R46_LEFT_LANCET_right_COURSE_02",
+        "R46_LEFT_LANCET_CROWN_KEYSTONE_EXPERIMENTAL"
+      ],
+      "area_mm2": 5330.476429145387,
+      "area_error_mm2": 2.0747847884194925e-06,
+      "normal_dot": -1.0000000149011616,
+      "centroid_distance_mm": 2.665956344571896e-07,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "RIGHT_LANCET_left",
+      "parts": [
+        "R46_RIGHT_LANCET_left_COURSE_01",
+        "R46_RIGHT_LANCET_left_COURSE_02"
+      ],
+      "area_mm2": 5330.477250152392,
+      "area_error_mm2": 0.0,
+      "normal_dot": -1.00000001303852,
+      "centroid_distance_mm": 7.469225238310173e-08,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "RIGHT_LANCET_left",
+      "parts": [
+        "R46_RIGHT_LANCET_left_COURSE_02",
+        "R46_RIGHT_LANCET_left_COURSE_03"
+      ],
+      "area_mm2": 5330.474865359321,
+      "area_error_mm2": 0.0,
+      "normal_dot": -1.0000000000000009,
+      "centroid_distance_mm": 0.00011920932816658694,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "RIGHT_LANCET_left_TO_CROWN",
+      "parts": [
+        "R46_RIGHT_LANCET_left_COURSE_03",
+        "R46_RIGHT_LANCET_CROWN_KEYSTONE_EXPERIMENTAL"
+      ],
+      "area_mm2": 5330.477568292747,
+      "area_error_mm2": 1.0630163160385564e-05,
+      "normal_dot": -1.0000001341104587,
+      "centroid_distance_mm": 5.9604681247940554e-05,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "RIGHT_LANCET_right",
+      "parts": [
+        "R46_RIGHT_LANCET_right_COURSE_02",
+        "R46_RIGHT_LANCET_right_COURSE_03"
+      ],
+      "area_mm2": 5330.479139388167,
+      "area_error_mm2": 0.0,
+      "normal_dot": -0.9999999068677443,
+      "centroid_distance_mm": 1.0663825378287584e-07,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "RIGHT_LANCET_right",
+      "parts": [
+        "R46_RIGHT_LANCET_right_COURSE_03",
+        "R46_RIGHT_LANCET_right_COURSE_04"
+      ],
+      "area_mm2": 5330.476730199707,
+      "area_error_mm2": 0.0,
+      "normal_dot": -1.0000000102445483,
+      "centroid_distance_mm": 5.960742724549791e-05,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "RIGHT_LANCET_right_TO_CROWN",
+      "parts": [
+        "R46_RIGHT_LANCET_right_COURSE_02",
+        "R46_RIGHT_LANCET_CROWN_KEYSTONE_EXPERIMENTAL"
+      ],
+      "area_mm2": 5330.477695386026,
+      "area_error_mm2": 0.0,
+      "normal_dot": -1.0000001788139352,
+      "centroid_distance_mm": 8.537881512893364e-08,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "QUATREFOIL",
+      "parts": [
+        "R46_QUATREFOIL_COURSE_01",
+        "R46_QUATREFOIL_COURSE_02"
+      ],
+      "area_mm2": 5330.483283827903,
+      "area_error_mm2": 0.00037420022636069916,
+      "normal_dot": -1.0000001192092958,
+      "centroid_distance_mm": 1.929929138575717e-05,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "QUATREFOIL",
+      "parts": [
+        "R46_QUATREFOIL_COURSE_02",
+        "R46_QUATREFOIL_COURSE_03"
+      ],
+      "area_mm2": 5330.484404112212,
+      "area_error_mm2": 0.001266016624867916,
+      "normal_dot": -1.0,
+      "centroid_distance_mm": 4.196636020049002e-06,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "QUATREFOIL",
+      "parts": [
+        "R46_QUATREFOIL_COURSE_03",
+        "R46_QUATREFOIL_COURSE_04"
+      ],
+      "area_mm2": 5330.483283827903,
+      "area_error_mm2": 0.00037420022636069916,
+      "normal_dot": -1.0000001192092958,
+      "centroid_distance_mm": 1.929929138575717e-05,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "QUATREFOIL",
+      "parts": [
+        "R46_QUATREFOIL_COURSE_04",
+        "R46_QUATREFOIL_COURSE_05"
+      ],
+      "area_mm2": 5330.474968218368,
+      "area_error_mm2": 7.219114195322618e-05,
+      "normal_dot": -1.0,
+      "centroid_distance_mm": 0.00035793903894553467,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "QUATREFOIL",
+      "parts": [
+        "R46_QUATREFOIL_COURSE_05",
+        "R46_QUATREFOIL_COURSE_06"
+      ],
+      "area_mm2": 5330.4739653157185,
+      "area_error_mm2": 0.002750113026195322,
+      "normal_dot": -1.0000000000000002,
+      "centroid_distance_mm": 1.5281182906876153e-05,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "QUATREFOIL",
+      "parts": [
+        "R46_QUATREFOIL_COURSE_06",
+        "R46_QUATREFOIL_COURSE_07"
+      ],
+      "area_mm2": 5330.478321411647,
+      "area_error_mm2": 0.00420550350099802,
+      "normal_dot": -1.0,
+      "centroid_distance_mm": 0.0005964343597495019,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "QUATREFOIL",
+      "parts": [
+        "R46_QUATREFOIL_COURSE_07",
+        "R46_QUATREFOIL_COURSE_08"
+      ],
+      "area_mm2": 5330.4739653157185,
+      "area_error_mm2": 0.002750113026195322,
+      "normal_dot": -1.0000000000000002,
+      "centroid_distance_mm": 1.5281182906876153e-05,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    },
+    {
+      "joint_type": "QUATREFOIL",
+      "parts": [
+        "R46_QUATREFOIL_COURSE_08",
+        "R46_QUATREFOIL_COURSE_01"
+      ],
+      "area_mm2": 5330.474968218368,
+      "area_error_mm2": 7.219114195322618e-05,
+      "normal_dot": -1.0,
+      "centroid_distance_mm": 0.00035793903894553467,
+      "contact_vertices_A": 89,
+      "contact_vertices_B": 89
+    }
+  ],
+  "mesh_QA": [
+    {
+      "name": "R46_OUTER_left_COURSE_01",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 3.5052911715640804
+    },
+    {
+      "name": "R46_OUTER_left_COURSE_02",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 3.5052904371477855
+    },
+    {
+      "name": "R46_OUTER_left_COURSE_03",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 2.901008287456483
+    },
+    {
+      "name": "R46_OUTER_right_COURSE_02",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 3.5052907592018228
+    },
+    {
+      "name": "R46_OUTER_right_COURSE_03",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 2.901007772975204
+    },
+    {
+      "name": "R46_OUTER_right_COURSE_04",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 2.1758117101957493
+    },
+    {
+      "name": "R46_OUTER_CROWN_KEYSTONE_EXPERIMENTAL",
+      "vertices": 2615,
+      "triangles": 5226,
+      "nonmanifold": 0,
+      "volume_L": 5.54161270539335
+    },
+    {
+      "name": "R46_LEFT_LANCET_left_COURSE_01",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.9105476990203651
+    },
+    {
+      "name": "R46_LEFT_LANCET_left_COURSE_02",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.910547597828022
+    },
+    {
+      "name": "R46_LEFT_LANCET_left_COURSE_03",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.581160265140723
+    },
+    {
+      "name": "R46_LEFT_LANCET_right_COURSE_02",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.9105480909757662
+    },
+    {
+      "name": "R46_LEFT_LANCET_right_COURSE_03",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.581160113891602
+    },
+    {
+      "name": "R46_LEFT_LANCET_right_COURSE_04",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.1858825889384943
+    },
+    {
+      "name": "R46_LEFT_LANCET_CROWN_KEYSTONE_EXPERIMENTAL",
+      "vertices": 2675,
+      "triangles": 5346,
+      "nonmanifold": 0,
+      "volume_L": 2.8822196829819604
+    },
+    {
+      "name": "R46_RIGHT_LANCET_left_COURSE_01",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.9105478162701979
+    },
+    {
+      "name": "R46_RIGHT_LANCET_left_COURSE_02",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.9105475546732882
+    },
+    {
+      "name": "R46_RIGHT_LANCET_left_COURSE_03",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.5811603694697398
+    },
+    {
+      "name": "R46_RIGHT_LANCET_right_COURSE_02",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.9105482139535181
+    },
+    {
+      "name": "R46_RIGHT_LANCET_right_COURSE_03",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.5811601585777624
+    },
+    {
+      "name": "R46_RIGHT_LANCET_right_COURSE_04",
+      "vertices": 1157,
+      "triangles": 2310,
+      "nonmanifold": 0,
+      "volume_L": 1.1858823173863686
+    },
+    {
+      "name": "R46_RIGHT_LANCET_CROWN_KEYSTONE_EXPERIMENTAL",
+      "vertices": 2675,
+      "triangles": 5346,
+      "nonmanifold": 0,
+      "volume_L": 2.8822198938966803
+    },
+    {
+      "name": "R46_QUATREFOIL_COURSE_01",
+      "vertices": 1869,
+      "triangles": 3734,
+      "nonmanifold": 0,
+      "volume_L": 0.9143269448255975
+    },
+    {
+      "name": "R46_QUATREFOIL_COURSE_02",
+      "vertices": 1869,
+      "triangles": 3734,
+      "nonmanifold": 0,
+      "volume_L": 0.9143272795659986
+    },
+    {
+      "name": "R46_QUATREFOIL_COURSE_03",
+      "vertices": 1869,
+      "triangles": 3734,
+      "nonmanifold": 0,
+      "volume_L": 0.9143273023394408
+    },
+    {
+      "name": "R46_QUATREFOIL_COURSE_04",
+      "vertices": 1869,
+      "triangles": 3734,
+      "nonmanifold": 0,
+      "volume_L": 0.9143269228454461
+    },
+    {
+      "name": "R46_QUATREFOIL_COURSE_05",
+      "vertices": 1869,
+      "triangles": 3734,
+      "nonmanifold": 0,
+      "volume_L": 0.9143268596793241
+    },
+    {
+      "name": "R46_QUATREFOIL_COURSE_06",
+      "vertices": 1869,
+      "triangles": 3734,
+      "nonmanifold": 0,
+      "volume_L": 0.9143268588243494
+    },
+    {
+      "name": "R46_QUATREFOIL_COURSE_07",
+      "vertices": 1869,
+      "triangles": 3734,
+      "nonmanifold": 0,
+      "volume_L": 0.9143268804816191
+    },
+    {
+      "name": "R46_QUATREFOIL_COURSE_08",
+      "vertices": 1869,
+      "triangles": 3734,
+      "nonmanifold": 0,
+      "volume_L": 0.9143268387215244
+    }
+  ],
+  "apex_solution": "Boolean-combined crown stones, exact historic bedding unknown",
+  "profiles_source_dimensionality": "2D silhouette only, right backing clipped; width 112mm assumed",
+  "physical_rebate_cut": {
+    "nominal_mm": [
+      16,
+      16
+    ],
+    "derived_from_2D_polygon_difference": true,
+    "rebate_area_reduction_mm2": 256,
+    "historic_rebate_dimensions_verified": false
+  },
+  "arch_glazing_rebates": "continuous longitudinal positive-u surface notch",
+  "quatrefoil_glazing_rebates": "continuous longitudinal mirrored negative-u surface notch",
+  "actual_structural_bearings": "NOT CERTIFIED",
+  "vertically_dropping_responds": "spring tangents vertical; full receiving masonry not yet integrated",
+  "joint_geometry_marked_approved": false,
+  "baseline_R45_and_F5ZP_untouched": true,
+  "GLB": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_ALTERNATE_PROFILE_8/R48_WINDOW_HEAD_1to1_EXPERIMENT.glb"
+}

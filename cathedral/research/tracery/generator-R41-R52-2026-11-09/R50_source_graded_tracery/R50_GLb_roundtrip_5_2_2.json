@@ -1,0 +1,25 @@
+{
+  "test": "R50 independent GLB return to R03 source-coordinate tracing",
+  "Blender": "5.2.2 LTS",
+  "objects": 1,
+  "source_contour_rings": 4,
+  "source_apertures": 3,
+  "raw_GLB_vertices": 1690,
+  "welded_vertices": 560,
+  "raw_nonmanifold_edges": 1690,
+  "postweld_nonmanifold_edges": 0,
+  "Euler_characteristic": -4,
+  "physical_dimensions_mm": [
+    2400.0000953674316,
+    180.00000715255737,
+    1902.2507667541504
+  ],
+  "source_visual_width_mm_assumed": 2400,
+  "display_depth_mm_assumed": 180,
+  "source_vertex_exact_after_inverse_mapping": true,
+  "volume_litres": 275.0891521557815,
+  "historical_geometry_certified": false,
+  "actual_window_source_scale_verified": false,
+  "user_rib_profile_used": false,
+  "pass": true
+}

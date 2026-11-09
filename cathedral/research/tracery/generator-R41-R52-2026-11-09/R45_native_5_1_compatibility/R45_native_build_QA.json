@@ -1,0 +1,223 @@
+{
+  "checkpoint": "R45",
+  "status": "UNIFIED_EXPERIMENTAL_GENERATOR_VALIDATION",
+  "blender": "5.1.2",
+  "generator": "R45_engine.py",
+  "selected_profile_input": "R45_png_profile_converter.py",
+  "source_profile_cases": [
+    {
+      "contacts": [
+        {
+          "joint_index": 0,
+          "face_area_mm2": 10122.81357361644,
+          "face_area_error_mm2": 0.000636873664916493,
+          "normal_dot_product": -0.9999999513125036,
+          "rebate_area_difference_mm2": 397.40642638356076
+        },
+        {
+          "joint_index": 1,
+          "face_area_mm2": 10124.294664706213,
+          "face_area_error_mm2": 0.00022077983885537833,
+          "normal_dot_product": -0.9999999557241003,
+          "rebate_area_difference_mm2": 395.9253352937885
+        }
+      ],
+      "rebate_removed_volume_litres_per_extension": [
+        0.06557183329080551,
+        0.0653275165751539
+      ],
+      "profile": {
+        "profile_id": "R45_SOURCE_PROFILE_PNG_FIXTURE_1",
+        "evidence_class": "SYNTHETIC",
+        "source_document": "/home/christopher/Cathedral_Research/R45_production_candidate/R45_SYNTHETIC_PROFILE_FIXTURE_1.png",
+        "source_sha256": "1f65ee75a7bc729dfdce0e9c130413e4bb3f13ca18b6182d77a584a4ed6b3abc",
+        "section_area_mm2": 10520.220000000001,
+        "width_mm": 94.0,
+        "depth_mm": 160.0,
+        "profile_point_count": 42,
+        "historical_contact_geometry": "NOT PROVIDED"
+      },
+      "setout": {
+        "joint_distance_mm": 315.0,
+        "extension_mm": 165.0,
+        "arm_total_mm": 480.0,
+        "branch_angle_deg": 42.0
+      },
+      "y_mesh_QA": {
+        "vertices": 522,
+        "faces": 1040,
+        "volume_litres": 9.785206640482281,
+        "nonmanifold_edges": 0,
+        "connected_components": 1
+      },
+      "extension_mesh_QA": [
+        {
+          "vertices": 98,
+          "faces": 192,
+          "volume_litres": 1.6702642552833344,
+          "nonmanifold_edges": 0,
+          "connected_components": 1
+        },
+        {
+          "vertices": 102,
+          "faces": 200,
+          "volume_litres": 1.6705085891140996,
+          "nonmanifold_edges": 0,
+          "connected_components": 1
+        }
+      ],
+      "combined_volume_litres": 13.125979484879714,
+      "name": "R45_PNG_A42",
+      "source_profile_kind": "PNG_PROFILE"
+    },
+    {
+      "contacts": [
+        {
+          "joint_index": 0,
+          "face_area_mm2": 8241.910210927017,
+          "face_area_error_mm2": 0.0013387762010097504,
+          "normal_dot_product": -0.9999999590608084,
+          "rebate_area_difference_mm2": 279.08978907298297
+        },
+        {
+          "joint_index": 1,
+          "face_area_mm2": 8241.910405558883,
+          "face_area_error_mm2": 0.0012332748156040907,
+          "normal_dot_product": -0.9999999736982413,
+          "rebate_area_difference_mm2": 279.0895944411168
+        }
+      ],
+      "rebate_removed_volume_litres_per_extension": [
+        0.04604955441805969,
+        0.04604955268283395
+      ],
+      "profile": {
+        "profile_id": "FAMILY_B_ALTERNATE",
+        "evidence_class": "SYNTHETIC",
+        "source_document": null,
+        "source_sha256": "88593a1f0c91892e10fd6e7c916cd54e4dedc1b6137865a43dbf7a84ba632a98",
+        "section_area_mm2": 8521.0,
+        "width_mm": 90.0,
+        "depth_mm": 140.0,
+        "profile_point_count": 36,
+        "historical_contact_geometry": "NOT PROVIDED"
+      },
+      "setout": {
+        "joint_distance_mm": 315.0,
+        "extension_mm": 165.0,
+        "arm_total_mm": 480.0,
+        "branch_angle_deg": 35.0
+      },
+      "y_mesh_QA": {
+        "vertices": 442,
+        "faces": 880,
+        "volume_litres": 7.906705001599463,
+        "nonmanifold_edges": 0,
+        "connected_components": 1
+      },
+      "extension_mesh_QA": [
+        {
+          "vertices": 88,
+          "faces": 172,
+          "volume_litres": 1.3599155657231627,
+          "nonmanifold_edges": 0,
+          "connected_components": 1
+        },
+        {
+          "vertices": 88,
+          "faces": 172,
+          "volume_litres": 1.359915569946881,
+          "nonmanifold_edges": 0,
+          "connected_components": 1
+        }
+      ],
+      "combined_volume_litres": 10.626536137269508,
+      "name": "R45_JSON_B35",
+      "source_profile_kind": "SELECTED_JSON_PROFILE"
+    },
+    {
+      "contacts": [
+        {
+          "joint_index": 0,
+          "face_area_mm2": 10123.545419673974,
+          "face_area_error_mm2": 0.0015170371625572443,
+          "normal_dot_product": -1.000000002903434,
+          "rebate_area_difference_mm2": 397.4545803260262
+        },
+        {
+          "joint_index": 1,
+          "face_area_mm2": 10123.545828378155,
+          "face_area_error_mm2": 0.001813532435335219,
+          "normal_dot_product": -1.0000000029034342,
+          "rebate_area_difference_mm2": 397.4541716218446
+        }
+      ],
+      "rebate_removed_volume_litres_per_extension": [
+        0.06557940894631709,
+        0.0655794062510986
+      ],
+      "profile": {
+        "profile_id": "FAMILY_A_FRONT_RIDGE",
+        "evidence_class": "SYNTHETIC",
+        "source_document": null,
+        "source_sha256": "fa41728d837c25ece608f50a7e9e5bf4bfce4c3a8b1999b7d11d2fc2e9e3d02a",
+        "section_area_mm2": 10521.0,
+        "width_mm": 94.0,
+        "depth_mm": 160.0,
+        "profile_point_count": 42,
+        "historical_contact_geometry": "NOT PROVIDED"
+      },
+      "setout": {
+        "joint_distance_mm": 315.0,
+        "extension_mm": 165.0,
+        "arm_total_mm": 480.0,
+        "branch_angle_deg": 50.0
+      },
+      "y_mesh_QA": {
+        "vertices": 496,
+        "faces": 988,
+        "volume_litres": 9.86359012858054,
+        "nonmanifold_edges": 0,
+        "connected_components": 1
+      },
+      "extension_mesh_QA": [
+        {
+          "vertices": 100,
+          "faces": 196,
+          "volume_litres": 1.6703853462801574,
+          "nonmanifold_edges": 0,
+          "connected_components": 1
+        },
+        {
+          "vertices": 100,
+          "faces": 196,
+          "volume_litres": 1.6703853507891848,
+          "nonmanifold_edges": 0,
+          "connected_components": 1
+        }
+      ],
+      "combined_volume_litres": 13.204360825649882,
+      "name": "R45_JSON_A50",
+      "source_profile_kind": "LEGACY_REGRESSION"
+    }
+  ],
+  "built_model_count": 3,
+  "exported_model_count": 2,
+  "GLB_solid_count": 6,
+  "negative_tests": {
+    "reject_zero_extension": true,
+    "reject_joint_outside_bearings": true,
+    "reject_75deg_branches": true,
+    "reject_obscure_rebate": true,
+    "reject_stem_support_too_short": true,
+    "reject_false_historical_approval": true,
+    "reject_rebate_overrun_0": true
+  },
+  "GLB_export": "/home/christopher/Cathedral_Research/R45_native_5_1_compatibility/R45_UNIFIED_BRANCHING_STONE_GENERATOR.glb",
+  "BLEND_scene": "/home/christopher/Cathedral_Research/R45_native_5_1_compatibility/R45_UNIFIED_Experimental_Study.blend",
+  "historical_3D_joints_certified": false,
+  "source_type": "SYNTHETIC user-selectable PNG and JSON; not medieval measured stone geometry",
+  "profile_dimensions_explicitly_metric": true,
+  "joint_algorithm": "joint_distance = arm_total_length - extension_length, limits enforced; no load-bearing design",
+  "f5zp_and_pass6j_unmodified": true
+}

@@ -1,0 +1,27 @@
+{
+  "checkpoint": "R41",
+  "status": "TESTED_EXPERIMENTAL_GENERATOR",
+  "master_script": "R41_engine.py",
+  "run_script": "R41_run_validation.py",
+  "validated_blender_versions_for_native_execution": [
+    "5.1.2",
+    "5.2.2 LTS"
+  ],
+  "GLB_import_blender_versions": [
+    "5.0.1",
+    "5.1.2",
+    "5.2.2 LTS"
+  ],
+  "parameter_cases": 24,
+  "negative_tests": 6,
+  "synthetic_profile_fixture": "PASS",
+  "source_2d_profile_SHA256": "c401d59042775bedd4525bb29cb7aeb9233d32d8fab8a6069c2c43e96ed644a8",
+  "source_specimen": "Ayr #8; do not borrow Launceston #8 260mm physical depth",
+  "Buda_0121_scan": "UNAVAILABLE",
+  "nonplanar_seam_QA": "PASS after explicit triangulation for curved/tapered side quads",
+  "historical_structural_validity": "NOT VALIDATED",
+  "F5ZP_locked_geometry_modified": false,
+  "deliverable_review": "/home/christopher/Cathedral_Research/R41_unified_stone_engine/R41_FINAL_Unified_Stone_Generator_Review.png",
+  "GLB_export": "/home/christopher/Cathedral_Research/R41_unified_stone_engine/R41_Curved_Tapered_Two_Stone_Experiment.glb",
+  "scene": "/home/christopher/Cathedral_Research/R41_unified_stone_engine/R41_Experimental_Stone_Engine.blend"
+}

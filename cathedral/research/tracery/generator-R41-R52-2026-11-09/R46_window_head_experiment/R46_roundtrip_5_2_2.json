@@ -1,0 +1,456 @@
+{
+  "test": "R46 independent GLB 29-stone validation",
+  "blender": "5.2.2 LTS",
+  "imported_meshes": 29,
+  "imported_manifold_pass": true,
+  "independently_matched_contact_faces": 26,
+  "intergroup_pair_checks": 315,
+  "intergroup_collision_pairs": [],
+  "contacts": [
+    {
+      "name": "OUTER_left",
+      "area_mm2": 5549.039385925658,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999031424942,
+      "centroid_delta_mm": 0.00011920928955078125,
+      "matched_vertices": 79
+    },
+    {
+      "name": "OUTER_left",
+      "area_mm2": 5549.036270177026,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.000000089406968,
+      "centroid_delta_mm": 0.00011921155460627732,
+      "matched_vertices": 79
+    },
+    {
+      "name": "OUTER_left_TO_CROWN",
+      "area_mm2": 5549.056606935207,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999701977,
+      "centroid_delta_mm": 8.003553375601768e-08,
+      "matched_vertices": 79
+    },
+    {
+      "name": "OUTER_right",
+      "area_mm2": 5549.036951762787,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999701976802,
+      "centroid_delta_mm": 0.00011921159968046714,
+      "matched_vertices": 79
+    },
+    {
+      "name": "OUTER_right",
+      "area_mm2": 5549.039895043517,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999627470988,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 79
+    },
+    {
+      "name": "OUTER_right_TO_CROWN",
+      "area_mm2": 5549.028479966495,
+      "imported_area_delta_mm2": 9.066525308298878e-06,
+      "imported_normal_dot": -1.0000001788139399,
+      "centroid_delta_mm": 1.2369127944111824e-07,
+      "matched_vertices": 79
+    },
+    {
+      "name": "LEFT_LANCET_left",
+      "area_mm2": 5549.041806214433,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999441206486,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 79
+    },
+    {
+      "name": "LEFT_LANCET_left",
+      "area_mm2": 5549.036285496342,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999403953571,
+      "centroid_delta_mm": 6.548361852765083e-07,
+      "matched_vertices": 79
+    },
+    {
+      "name": "LEFT_LANCET_left_TO_CROWN",
+      "area_mm2": 5549.033344578888,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0000000298023373,
+      "centroid_delta_mm": 8.731149137020111e-08,
+      "matched_vertices": 79
+    },
+    {
+      "name": "LEFT_LANCET_right",
+      "area_mm2": 5549.042237071191,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0000000558793545,
+      "centroid_delta_mm": 8.731149137020111e-08,
+      "matched_vertices": 79
+    },
+    {
+      "name": "LEFT_LANCET_right",
+      "area_mm2": 5549.03937906523,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.999999964609743,
+      "centroid_delta_mm": 1.4904757882381659e-05,
+      "matched_vertices": 79
+    },
+    {
+      "name": "LEFT_LANCET_right_TO_CROWN",
+      "area_mm2": 5549.039602755101,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999850988716,
+      "centroid_delta_mm": 0.00011920932152520008,
+      "matched_vertices": 79
+    },
+    {
+      "name": "RIGHT_LANCET_left",
+      "area_mm2": 5549.041123876012,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.999999949708583,
+      "centroid_delta_mm": 8.003553375601768e-08,
+      "matched_vertices": 79
+    },
+    {
+      "name": "RIGHT_LANCET_left",
+      "area_mm2": 5549.034792305132,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999776482585,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 79
+    },
+    {
+      "name": "RIGHT_LANCET_left_TO_CROWN",
+      "area_mm2": 5549.033409869258,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0000000298023286,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 79
+    },
+    {
+      "name": "RIGHT_LANCET_right",
+      "area_mm2": 5549.03936830442,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0000001303851618,
+      "centroid_delta_mm": 5.9604644775390625e-05,
+      "matched_vertices": 79
+    },
+    {
+      "name": "RIGHT_LANCET_right",
+      "area_mm2": 5549.039297174093,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.999999963678421,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 79
+    },
+    {
+      "name": "RIGHT_LANCET_right_TO_CROWN",
+      "area_mm2": 5549.038987652327,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0000000596046683,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 79
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5549.037074302987,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.000000029802325,
+      "centroid_delta_mm": 0.00023888384015767936,
+      "matched_vertices": 79
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5549.036082811654,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 79
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5549.037074302987,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.000000029802325,
+      "centroid_delta_mm": 0.00023888384015767936,
+      "matched_vertices": 79
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5549.039352786167,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0,
+      "centroid_delta_mm": 1.6007106751203537e-07,
+      "matched_vertices": 79
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5549.040562385699,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999701976796,
+      "centroid_delta_mm": 1.4901161193847656e-05,
+      "matched_vertices": 79
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5549.0348022431135,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0,
+      "centroid_delta_mm": 6.621121428906918e-07,
+      "matched_vertices": 79
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5549.040562385699,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999701976796,
+      "centroid_delta_mm": 1.4901161193847656e-05,
+      "matched_vertices": 79
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5549.039352786167,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0,
+      "centroid_delta_mm": 1.6007106751203537e-07,
+      "matched_vertices": 79
+    }
+  ],
+  "meshes": [
+    {
+      "object": "R46_LEFT_LANCET_CROWN_KEYSTONE_EXPERIMENTAL",
+      "raw_split_vertices": 10884,
+      "welded_vertices": 2623,
+      "import_nonmanifold_before_weld": 11102,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 2.9298503653107706
+    },
+    {
+      "object": "R46_LEFT_LANCET_left_COURSE_01",
+      "raw_split_vertices": 4138,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4150,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.9794072098484623
+    },
+    {
+      "object": "R46_LEFT_LANCET_left_COURSE_02",
+      "raw_split_vertices": 4212,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4238,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.9794079063965744
+    },
+    {
+      "object": "R46_LEFT_LANCET_left_COURSE_03",
+      "raw_split_vertices": 4308,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4348,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.638147376517043
+    },
+    {
+      "object": "R46_LEFT_LANCET_right_COURSE_02",
+      "raw_split_vertices": 3939,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 3986,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.9794076236985505
+    },
+    {
+      "object": "R46_LEFT_LANCET_right_COURSE_03",
+      "raw_split_vertices": 3934,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 3988,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.6381473985386763
+    },
+    {
+      "object": "R46_LEFT_LANCET_right_COURSE_04",
+      "raw_split_vertices": 3851,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 3874,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.2286225358560532
+    },
+    {
+      "object": "R46_OUTER_CROWN_KEYSTONE_EXPERIMENTAL",
+      "raw_split_vertices": 10459,
+      "welded_vertices": 2467,
+      "import_nonmanifold_before_weld": 10568,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 5.657995288184281
+    },
+    {
+      "object": "R46_OUTER_left_COURSE_01",
+      "raw_split_vertices": 4262,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4280,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 3.5964812301834943
+    },
+    {
+      "object": "R46_OUTER_left_COURSE_02",
+      "raw_split_vertices": 4270,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4302,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 3.5964824533998945
+    },
+    {
+      "object": "R46_OUTER_left_COURSE_03",
+      "raw_split_vertices": 4237,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4274,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 2.9764773918686376
+    },
+    {
+      "object": "R46_OUTER_right_COURSE_02",
+      "raw_split_vertices": 4203,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4230,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 3.59648146894508
+    },
+    {
+      "object": "R46_OUTER_right_COURSE_03",
+      "raw_split_vertices": 4258,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4294,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 2.976477347582648
+    },
+    {
+      "object": "R46_OUTER_right_COURSE_04",
+      "raw_split_vertices": 4296,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4318,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 2.2324132309946885
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_01",
+      "raw_split_vertices": 7175,
+      "welded_vertices": 1659,
+      "import_nonmanifold_before_weld": 7196,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.0630706542465238
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_02",
+      "raw_split_vertices": 7281,
+      "welded_vertices": 1659,
+      "import_nonmanifold_before_weld": 7294,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.0630710672325026
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_03",
+      "raw_split_vertices": 7263,
+      "welded_vertices": 1659,
+      "import_nonmanifold_before_weld": 7276,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.0630710411541848
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_04",
+      "raw_split_vertices": 7227,
+      "welded_vertices": 1659,
+      "import_nonmanifold_before_weld": 7246,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.0630706784447497
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_05",
+      "raw_split_vertices": 7189,
+      "welded_vertices": 1659,
+      "import_nonmanifold_before_weld": 7208,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.0630708865033753
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_06",
+      "raw_split_vertices": 7097,
+      "welded_vertices": 1659,
+      "import_nonmanifold_before_weld": 7108,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.063070897894588
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_07",
+      "raw_split_vertices": 7119,
+      "welded_vertices": 1659,
+      "import_nonmanifold_before_weld": 7130,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.0630708755600875
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_08",
+      "raw_split_vertices": 7227,
+      "welded_vertices": 1659,
+      "import_nonmanifold_before_weld": 7244,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.063070910649657
+    },
+    {
+      "object": "R46_RIGHT_LANCET_CROWN_KEYSTONE_EXPERIMENTAL",
+      "raw_split_vertices": 10928,
+      "welded_vertices": 2623,
+      "import_nonmanifold_before_weld": 11148,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 2.929850545187663
+    },
+    {
+      "object": "R46_RIGHT_LANCET_left_COURSE_01",
+      "raw_split_vertices": 3779,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 3790,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.9794074065493488
+    },
+    {
+      "object": "R46_RIGHT_LANCET_left_COURSE_02",
+      "raw_split_vertices": 3894,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 3922,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.9794078689624912
+    },
+    {
+      "object": "R46_RIGHT_LANCET_left_COURSE_03",
+      "raw_split_vertices": 4071,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4110,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.6381474009673722
+    },
+    {
+      "object": "R46_RIGHT_LANCET_right_COURSE_02",
+      "raw_split_vertices": 4263,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4304,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.979407714563731
+    },
+    {
+      "object": "R46_RIGHT_LANCET_right_COURSE_03",
+      "raw_split_vertices": 4301,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4354,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.6381474200243196
+    },
+    {
+      "object": "R46_RIGHT_LANCET_right_COURSE_04",
+      "raw_split_vertices": 4211,
+      "welded_vertices": 1027,
+      "import_nonmanifold_before_weld": 4234,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.2286223963054677
+    }
+  ],
+  "historical_certification": false,
+  "geometric_contact_pass": true,
+  "approval_scope": "EXPERIMENTAL; not fully dimensioned historic 2D/3D reference"
+}

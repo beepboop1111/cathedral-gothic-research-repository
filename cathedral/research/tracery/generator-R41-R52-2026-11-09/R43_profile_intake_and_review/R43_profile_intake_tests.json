@@ -1,0 +1,24 @@
+{
+  "profile_input_schema": "R43_Section_V1",
+  "test_count": 12,
+  "tests": {
+    "accept_profile_A": true,
+    "accept_profile_B": true,
+    "missing_explicit_mm": true,
+    "missing_profile_id": true,
+    "unsupported_approval": true,
+    "fake_3d_authenticity": true,
+    "missing_measured_2d_provenance": true,
+    "front_rear_center_discontinuity": true,
+    "negative_halfwidth": true,
+    "nonmonotonic_depth": true,
+    "profile_out_of_scale": true,
+    "self_intersecting_polygon": true
+  },
+  "note": "No historical front/back stone scans or contact meshes; profile templates are synthetic.",
+  "profile_paths": [
+    "/home/christopher/Cathedral_Research/R43_profile_intake_and_review/R43_profile_family_1.json",
+    "/home/christopher/Cathedral_Research/R43_profile_intake_and_review/R43_profile_family_2.json"
+  ],
+  "source_classification": "SYNTHETIC"
+}

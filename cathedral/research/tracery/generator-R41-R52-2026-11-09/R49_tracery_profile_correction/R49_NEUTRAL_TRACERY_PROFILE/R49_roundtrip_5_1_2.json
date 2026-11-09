@@ -1,0 +1,456 @@
+{
+  "test": "R48 configured 29-stone window head import and joint-fit validation",
+  "blender": "5.1.2",
+  "imported_meshes": 29,
+  "imported_manifold_pass": true,
+  "independently_matched_contact_faces": 26,
+  "intergroup_pair_checks": 315,
+  "intergroup_collision_pairs": [],
+  "contacts": [
+    {
+      "name": "OUTER_left",
+      "area_mm2": 5094.0053624799475,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999925494194,
+      "centroid_delta_mm": 0.00011920928955078125,
+      "matched_vertices": 12
+    },
+    {
+      "name": "OUTER_left",
+      "area_mm2": 5093.9935754286125,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0000000298023224,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "OUTER_left_TO_CROWN",
+      "area_mm2": 5094.002786790952,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999105930328,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "OUTER_right",
+      "area_mm2": 5094.000269309618,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999998509883881,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "OUTER_right",
+      "area_mm2": 5094.002321129665,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0000001583248377,
+      "centroid_delta_mm": 5.9604644775390625e-05,
+      "matched_vertices": 12
+    },
+    {
+      "name": "OUTER_right_TO_CROWN",
+      "area_mm2": 5093.98928261362,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "LEFT_LANCET_left",
+      "area_mm2": 5093.997446238063,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999998956918716,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "LEFT_LANCET_left",
+      "area_mm2": 5093.997620861046,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999925494194,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "LEFT_LANCET_left_TO_CROWN",
+      "area_mm2": 5093.998101074249,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999850988388,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "LEFT_LANCET_right",
+      "area_mm2": 5093.997315270826,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999143183231,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "LEFT_LANCET_right",
+      "area_mm2": 5094.000371173024,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999636784196,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "LEFT_LANCET_right_TO_CROWN",
+      "area_mm2": 5093.999934615567,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0000001192092896,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "RIGHT_LANCET_left",
+      "area_mm2": 5093.999730888754,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999998658895493,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "RIGHT_LANCET_left",
+      "area_mm2": 5094.000822282396,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999329447747,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "RIGHT_LANCET_left_TO_CROWN",
+      "area_mm2": 5093.995132483542,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0000000149011612,
+      "centroid_delta_mm": 5.9604644775390625e-05,
+      "matched_vertices": 12
+    },
+    {
+      "name": "RIGHT_LANCET_right",
+      "area_mm2": 5093.997111544013,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0000000223517418,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "RIGHT_LANCET_right",
+      "area_mm2": 5093.998275697231,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -0.9999999720603228,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "RIGHT_LANCET_right_TO_CROWN",
+      "area_mm2": 5093.999527161941,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.000000149011612,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5093.999017844908,
+      "imported_area_delta_mm2": 0.0014260876923799515,
+      "imported_normal_dot": -1.0000000298023224,
+      "centroid_delta_mm": 0.00023950730155780276,
+      "matched_vertices": 12
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5093.999207019806,
+      "imported_area_delta_mm2": 0.003725290298461914,
+      "imported_normal_dot": -1.0,
+      "centroid_delta_mm": 2.142500435198612e-06,
+      "matched_vertices": 12
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5093.999017844908,
+      "imported_area_delta_mm2": 0.0014260876923799515,
+      "imported_normal_dot": -1.0000000298023224,
+      "centroid_delta_mm": 0.00023950730155780276,
+      "matched_vertices": 12
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5094.000982353464,
+      "imported_area_delta_mm2": 0.00023283064365386963,
+      "imported_normal_dot": -1.0,
+      "centroid_delta_mm": 0.00011921199701333625,
+      "matched_vertices": 12
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5094.005595310591,
+      "imported_area_delta_mm2": 0.0027066562324762344,
+      "imported_normal_dot": -1.0000000298023224,
+      "centroid_delta_mm": 0.00023854099641272902,
+      "matched_vertices": 12
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5093.999207019806,
+      "imported_area_delta_mm2": 0.0,
+      "imported_normal_dot": -1.0,
+      "centroid_delta_mm": 0.0,
+      "matched_vertices": 12
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5094.005595310591,
+      "imported_area_delta_mm2": 0.0027066562324762344,
+      "imported_normal_dot": -1.0000000298023224,
+      "centroid_delta_mm": 0.00023854099641272902,
+      "matched_vertices": 12
+    },
+    {
+      "name": "QUATREFOIL",
+      "area_mm2": 5094.000982353464,
+      "imported_area_delta_mm2": 0.00023283064365386963,
+      "imported_normal_dot": -1.0,
+      "centroid_delta_mm": 0.00011921199701333625,
+      "matched_vertices": 12
+    }
+  ],
+  "meshes": [
+    {
+      "object": "R46_LEFT_LANCET_CROWN_KEYSTONE_EXPERIMENTAL",
+      "raw_split_vertices": 1099,
+      "welded_vertices": 349,
+      "import_nonmanifold_before_weld": 1080,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 2.8522122908008916
+    },
+    {
+      "object": "R46_LEFT_LANCET_left_COURSE_01",
+      "raw_split_vertices": 520,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 520,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.8303576166277524
+    },
+    {
+      "object": "R46_LEFT_LANCET_left_COURSE_02",
+      "raw_split_vertices": 524,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 524,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.8303581297694733
+    },
+    {
+      "object": "R46_LEFT_LANCET_left_COURSE_03",
+      "raw_split_vertices": 535,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 538,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.5147946108384127
+    },
+    {
+      "object": "R46_LEFT_LANCET_right_COURSE_02",
+      "raw_split_vertices": 527,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 528,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.8303577855273154
+    },
+    {
+      "object": "R46_LEFT_LANCET_right_COURSE_03",
+      "raw_split_vertices": 533,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 536,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.5147944148987011
+    },
+    {
+      "object": "R46_LEFT_LANCET_right_COURSE_04",
+      "raw_split_vertices": 523,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 526,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.136106869564899
+    },
+    {
+      "object": "R46_OUTER_CROWN_KEYSTONE_EXPERIMENTAL",
+      "raw_split_vertices": 1138,
+      "welded_vertices": 347,
+      "import_nonmanifold_before_weld": 1130,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 5.3292494571908104
+    },
+    {
+      "object": "R46_OUTER_left_COURSE_01",
+      "raw_split_vertices": 512,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 512,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 3.3227202213758757
+    },
+    {
+      "object": "R46_OUTER_left_COURSE_02",
+      "raw_split_vertices": 520,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 520,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 3.32272101164131
+    },
+    {
+      "object": "R46_OUTER_left_COURSE_03",
+      "raw_split_vertices": 526,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 526,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 2.7499091756377045
+    },
+    {
+      "object": "R46_OUTER_right_COURSE_02",
+      "raw_split_vertices": 516,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 516,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 3.322720099851644
+    },
+    {
+      "object": "R46_OUTER_right_COURSE_03",
+      "raw_split_vertices": 512,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 512,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 2.749910302974706
+    },
+    {
+      "object": "R46_OUTER_right_COURSE_04",
+      "raw_split_vertices": 518,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 518,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 2.0624845169347017
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_01",
+      "raw_split_vertices": 944,
+      "welded_vertices": 252,
+      "import_nonmanifold_before_weld": 944,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 0.920617305885433
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_02",
+      "raw_split_vertices": 966,
+      "welded_vertices": 252,
+      "import_nonmanifold_before_weld": 966,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 0.9206171523039819
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_03",
+      "raw_split_vertices": 966,
+      "welded_vertices": 252,
+      "import_nonmanifold_before_weld": 966,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 0.9206171523039821
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_04",
+      "raw_split_vertices": 944,
+      "welded_vertices": 252,
+      "import_nonmanifold_before_weld": 944,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 0.9206173058854334
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_05",
+      "raw_split_vertices": 946,
+      "welded_vertices": 252,
+      "import_nonmanifold_before_weld": 946,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 0.9206173316471412
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_06",
+      "raw_split_vertices": 958,
+      "welded_vertices": 252,
+      "import_nonmanifold_before_weld": 958,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 0.9206171693165879
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_07",
+      "raw_split_vertices": 958,
+      "welded_vertices": 252,
+      "import_nonmanifold_before_weld": 958,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 0.9206171693165855
+    },
+    {
+      "object": "R46_QUATREFOIL_COURSE_08",
+      "raw_split_vertices": 948,
+      "welded_vertices": 252,
+      "import_nonmanifold_before_weld": 948,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 0.9206173316471417
+    },
+    {
+      "object": "R46_RIGHT_LANCET_CROWN_KEYSTONE_EXPERIMENTAL",
+      "raw_split_vertices": 1090,
+      "welded_vertices": 349,
+      "import_nonmanifold_before_weld": 1070,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 2.8522121045085904
+    },
+    {
+      "object": "R46_RIGHT_LANCET_left_COURSE_01",
+      "raw_split_vertices": 512,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 512,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.8303574820068533
+    },
+    {
+      "object": "R46_RIGHT_LANCET_left_COURSE_02",
+      "raw_split_vertices": 512,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 512,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.8303578840930037
+    },
+    {
+      "object": "R46_RIGHT_LANCET_left_COURSE_03",
+      "raw_split_vertices": 525,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 528,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.5147944805382736
+    },
+    {
+      "object": "R46_RIGHT_LANCET_right_COURSE_02",
+      "raw_split_vertices": 520,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 520,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.8303576437861375
+    },
+    {
+      "object": "R46_RIGHT_LANCET_right_COURSE_03",
+      "raw_split_vertices": 529,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 532,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.5147944598447036
+    },
+    {
+      "object": "R46_RIGHT_LANCET_right_COURSE_04",
+      "raw_split_vertices": 525,
+      "welded_vertices": 156,
+      "import_nonmanifold_before_weld": 528,
+      "nonmanifold_after_weld": 0,
+      "volume_litres": 1.1361065572464253
+    }
+  ],
+  "historical_certification": false,
+  "geometric_contact_pass": true,
+  "approval_scope": "EXPERIMENTAL; not fully dimensioned historic 2D/3D reference"
+}

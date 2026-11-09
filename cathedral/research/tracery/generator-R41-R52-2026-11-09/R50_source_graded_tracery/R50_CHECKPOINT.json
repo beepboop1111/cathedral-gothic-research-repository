@@ -1,0 +1,28 @@
+{
+  "checkpoint": "R50",
+  "state": "SOURCE_GRADED_EXPERIMENTAL",
+  "original_source": "/home/christopher/Downloads/downlods/3/1/BRANDON_M04_R03_EXPERIMENTAL_LOCAL/BRANDON_M04_R03_CONTOURS.json",
+  "source_sha256": "28242e8cb685aa9591176f716692cccfe1d5d00c5ce28d877a3dcac0d0cec419",
+  "source_pixel_geometry_verified": true,
+  "original_source_image_registered": false,
+  "source_scale_bar_verified": false,
+  "surfaces_contours": 4,
+  "openings": 3,
+  "GLB": "/home/christopher/Cathedral_Research/R50_source_graded_tracery/R50_Brandon_R03_Hypothetical_Metric_Proxy.glb",
+  "GLB_compatibility": [
+    "5.1.2",
+    "5.2.2 LTS",
+    "5.2.3 LTS"
+  ],
+  "assumed_width_mm": 2400,
+  "assumed_depth_mm": 180,
+  "no_user_moulding_profiles_used": true,
+  "keymap_file": "/home/christopher/tab.py",
+  "tab_keymap_active_5_2_2_tested": true,
+  "keymap_warning": "Missing User Interface keymap during versioning; completeness not guaranteed",
+  "historical_and_structural_validation": "NOT CERTIFIED",
+  "protected_R03_and_F5ZP_untouched": true,
+  "review_png": "/home/christopher/Cathedral_Research/R50_source_graded_tracery/R50_FINAL_Brandon_Source_vs_Blender.png",
+  "Blender_GUI_active": "5.2.3 LTS with tab keymap (876 bindings)",
+  "keymap_original_still_exists": true
+}

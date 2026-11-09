@@ -1,0 +1,13 @@
+{
+  "source_profile": "french gothic profiles with optional soffets.zip::1.png",
+  "R46_source_SHA256": "2fd07caa8bc6afabcd288cccdbbfcb3d51c3f9f405ee8907c1a510f912ff0f2b",
+  "original_section_area_mm2": 5549.039647173652,
+  "R47_rebated_area_mm2": 5293.0396471736485,
+  "cut_area_mm2": 256.00000000000364,
+  "external_dimensions_mm": [
+    112.0,
+    78.90034
+  ],
+  "assumptions": "experimental 16x16mm cut not a historic measurement",
+  "R46_baseline_untouched": true
+}

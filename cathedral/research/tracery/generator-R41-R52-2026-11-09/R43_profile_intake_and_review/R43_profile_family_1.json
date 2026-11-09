@@ -1,0 +1,100 @@
+{
+  "format": "R43_Section_V1",
+  "units": "mm",
+  "profile_id": "FAMILY_A_FRONT_RIDGE",
+  "evidence_class": "SYNTHETIC",
+  "source_document": null,
+  "historical_3d_joint_certified": false,
+  "front_halfwidth_stations_mm": [
+    [
+      -80,
+      8
+    ],
+    [
+      -75,
+      14
+    ],
+    [
+      -69,
+      19
+    ],
+    [
+      -62,
+      16
+    ],
+    [
+      -54,
+      24
+    ],
+    [
+      -45,
+      30
+    ],
+    [
+      -37,
+      27
+    ],
+    [
+      -28,
+      37
+    ],
+    [
+      -20,
+      43
+    ],
+    [
+      -10,
+      46
+    ],
+    [
+      0,
+      47
+    ]
+  ],
+  "rear_halfwidth_stations_mm": [
+    [
+      0,
+      47
+    ],
+    [
+      10,
+      46
+    ],
+    [
+      20,
+      44
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      39,
+      35
+    ],
+    [
+      47,
+      38
+    ],
+    [
+      55,
+      32
+    ],
+    [
+      63,
+      27
+    ],
+    [
+      70,
+      24
+    ],
+    [
+      78,
+      14
+    ],
+    [
+      80,
+      10
+    ]
+  ]
+}

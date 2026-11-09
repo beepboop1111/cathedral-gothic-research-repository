@@ -1,0 +1,807 @@
+{
+  "checkpoint": "R41",
+  "engine": "R41_engine.py",
+  "version": "5.2.2 LTS",
+  "provenance": {
+    "name": "Ayr fragment 8 / published figure 8, 1985",
+    "evidence": "2D scaled publication drawing",
+    "profile_sha256": "c401d59042775bedd4525bb29cb7aeb9233d32d8fab8a6069c2c43e96ed644a8",
+    "measurement_limit": "NOT an authenticated 3D stone scan"
+  },
+  "category": "EXPERIMENTAL_NOT_APPROVED",
+  "regression_matrix_cases": 24,
+  "R34_volume_identity_pass": true,
+  "R39_contact_area_regression_pass": true,
+  "cases": [
+    {
+      "spec": {
+        "name": "R41_c0_t0_an22p5",
+        "length_mm": 300.0,
+        "joint_deg": -22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 0.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031826391738473073
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003090092745928495
+        }
+      ],
+      "combined_volume_m3": 0.0062727319197758025,
+      "contact_area_mm2": 22631.852754763644,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "PLANE",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c0_t0_a0",
+        "length_mm": 300.0,
+        "joint_deg": 0.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 0.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031363659598878995
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031363659598878995
+        }
+      ],
+      "combined_volume_m3": 0.006272731919775799,
+      "contact_area_mm2": 20909.105504583265,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "PLANE",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c0_t0_a22p5",
+        "length_mm": 300.0,
+        "joint_deg": 22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 0.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003090092745928495
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031826391738473004
+        }
+      ],
+      "combined_volume_m3": 0.006272731919775796,
+      "contact_area_mm2": 22631.852754763644,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "PLANE",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c0_t0_a38",
+        "length_mm": 300.0,
+        "joint_deg": 38.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 0.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0030490858698983994
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0032236460498773975
+        }
+      ],
+      "combined_volume_m3": 0.006272731919775797,
+      "contact_area_mm2": 26534.035938524798,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "PLANE",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c0_t7_an22p5",
+        "length_mm": 300.0,
+        "joint_deg": -22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 0.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003075774366262558
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031967940381098167
+        }
+      ],
+      "combined_volume_m3": 0.006272568404372375,
+      "contact_area_mm2": 22655.226560263054,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c0_t7_a0",
+        "length_mm": 300.0,
+        "joint_deg": 0.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 0.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0030260250273859645
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003245570635158889
+        }
+      ],
+      "combined_volume_m3": 0.006271595662544854,
+      "contact_area_mm2": 20909.105504583265,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c0_t7_a22p5",
+        "length_mm": 300.0,
+        "joint_deg": 22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 0.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0029833370196979143
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0032893973400009054
+        }
+      ],
+      "combined_volume_m3": 0.00627273435969882,
+      "contact_area_mm2": 22608.479233401617,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c0_t7_a38",
+        "length_mm": 300.0,
+        "joint_deg": 38.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 0.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0029497392874943567
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0033229813547326435
+        }
+      ],
+      "combined_volume_m3": 0.006272720642227,
+      "contact_area_mm2": 26482.347253479504,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c12_t0_an22p5",
+        "length_mm": 300.0,
+        "joint_deg": -22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 12.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031794460321474816
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003088087880736604
+        }
+      ],
+      "combined_volume_m3": 0.006267533912884086,
+      "contact_area_mm2": 22635.339590393738,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c12_t0_a0",
+        "length_mm": 300.0,
+        "joint_deg": 0.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 12.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031347579883167893
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003134757988316788
+        }
+      ],
+      "combined_volume_m3": 0.006269515976633578,
+      "contact_area_mm2": 20909.105356479937,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c12_t0_a22p5",
+        "length_mm": 300.0,
+        "joint_deg": 22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 12.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0030880878807366054
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031794460321474876
+        }
+      ],
+      "combined_volume_m3": 0.0062675339128840934,
+      "contact_area_mm2": 22635.339590393738,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c12_t0_a38",
+        "length_mm": 300.0,
+        "joint_deg": 38.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 12.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0030450138211886683
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0032173387207316646
+        }
+      ],
+      "combined_volume_m3": 0.006262352541920333,
+      "contact_area_mm2": 26549.58477448068,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c12_t7_an22p5",
+        "length_mm": 300.0,
+        "joint_deg": -22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 12.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0030727033668759823
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031946974211658004
+        }
+      ],
+      "combined_volume_m3": 0.006267400788041782,
+      "contact_area_mm2": 22658.710472379065,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c12_t7_a0",
+        "length_mm": 300.0,
+        "joint_deg": 0.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 12.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0030245301562235195
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0032438494121685645
+        }
+      ],
+      "combined_volume_m3": 0.006268379568392084,
+      "contact_area_mm2": 20909.105356479937,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c12_t7_a22p5",
+        "length_mm": 300.0,
+        "joint_deg": 22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 12.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.002981419509916987
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0032860788261695885
+        }
+      ],
+      "combined_volume_m3": 0.006267498336086575,
+      "contact_area_mm2": 22611.969995785155,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c12_t7_a38",
+        "length_mm": 300.0,
+        "joint_deg": 38.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 12.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.002945733520016403
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0033165474385886697
+        }
+      ],
+      "combined_volume_m3": 0.006262280958605072,
+      "contact_area_mm2": 26497.917423697847,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c26_t0_an22p5",
+        "length_mm": 300.0,
+        "joint_deg": -22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 26.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031743641849715323
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003087137776921854
+        }
+      ],
+      "combined_volume_m3": 0.006261501961893386,
+      "contact_area_mm2": 22652.91096304417,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c26_t0_a0",
+        "length_mm": 300.0,
+        "joint_deg": 0.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 26.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031352980477659955
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0031352980477659925
+        }
+      ],
+      "combined_volume_m3": 0.006270596095531988,
+      "contact_area_mm2": 20909.10610973071,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c26_t0_a22p5",
+        "length_mm": 300.0,
+        "joint_deg": 22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 26.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003087137776921851
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003174364184971526
+        }
+      ],
+      "combined_volume_m3": 0.006261501961893377,
+      "contact_area_mm2": 22652.91096304417,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c26_t0_a38",
+        "length_mm": 300.0,
+        "joint_deg": 38.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 26.0,
+        "taper_pct": 0.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0030366661649405403
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.00320125617828211
+        }
+      ],
+      "combined_volume_m3": 0.00623792234322265,
+      "contact_area_mm2": 26620.926190221344,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c26_t7_an22p5",
+        "length_mm": 300.0,
+        "joint_deg": -22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 26.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003067625618498466
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.00319387861884676
+        }
+      ],
+      "combined_volume_m3": 0.006261504237345226,
+      "contact_area_mm2": 22676.336496940457,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c26_t7_a0",
+        "length_mm": 300.0,
+        "joint_deg": 0.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 26.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003025086972423784
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003244413925983895
+        }
+      ],
+      "combined_volume_m3": 0.006269500898407679,
+      "contact_area_mm2": 20909.10610973071,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c26_t7_a22p5",
+        "length_mm": 300.0,
+        "joint_deg": 22.5,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 26.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0029803468486499732
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.0032809429317540023
+        }
+      ],
+      "combined_volume_m3": 0.0062612897804039756,
+      "contact_area_mm2": 22629.492563889205,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    },
+    {
+      "spec": {
+        "name": "R41_c26_t7_a38",
+        "length_mm": 300.0,
+        "joint_deg": 38.0,
+        "joint_offset_mm": 0.0,
+        "curvature_mm": 26.0,
+        "taper_pct": 7.0,
+        "evidence": "EXPERIMENTAL"
+      },
+      "objects": [
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.00293719519361588
+        },
+        {
+          "verts": 484,
+          "nonmanifold": 0,
+          "volume_m3": 0.003300451523594596
+        }
+      ],
+      "combined_volume_m3": 0.006237646717210476,
+      "contact_area_mm2": 26568.981210732723,
+      "contact_vertices": 242,
+      "contact_seam_linear_gap_m": 0.0,
+      "shared_contact_normal_mathematical_opposition": true,
+      "seam_type": "NONPLANAR_RIBBON",
+      "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+    }
+  ],
+  "additional_synthetic_profile_family": {
+    "spec": {
+      "name": "R41_SYNTHETIC_TEST",
+      "length_mm": 260.0,
+      "joint_deg": 12.0,
+      "joint_offset_mm": 0.0,
+      "curvature_mm": 18.0,
+      "taper_pct": -8,
+      "evidence": "EXPERIMENTAL"
+    },
+    "objects": [
+      {
+        "verts": 256,
+        "nonmanifold": 0,
+        "volume_m3": 0.0023382981749261373
+      },
+      {
+        "verts": 256,
+        "nonmanifold": 0,
+        "volume_m3": 0.0021599763867060093
+      }
+    ],
+    "combined_volume_m3": 0.004498274561632147,
+    "contact_area_mm2": 17689.872068476063,
+    "contact_vertices": 128,
+    "contact_seam_linear_gap_m": 0.0,
+    "shared_contact_normal_mathematical_opposition": true,
+    "seam_type": "NONPLANAR_RIBBON",
+    "source_category": "2D_SURVEY_PLUS_EXPERIMENT"
+  },
+  "negative_tests": [
+    {
+      "case": "bad0",
+      "rejected": true,
+      "reason": "LENGTH_OUT_OF_RANGE"
+    },
+    {
+      "case": "badangle",
+      "rejected": true,
+      "reason": "ANGLE_OUT_OF_RANGE"
+    },
+    {
+      "case": "badcurve",
+      "rejected": true,
+      "reason": "CURVATURE_TOO_HIGH"
+    },
+    {
+      "case": "badtaper",
+      "rejected": true,
+      "reason": "TAPER_OUT_OF_RANGE"
+    },
+    {
+      "case": "badjoin",
+      "rejected": true,
+      "reason": "JOINT_OUTSIDE_BOTH_STONE_ENVELOPES"
+    },
+    {
+      "case": "badclaim",
+      "rejected": true,
+      "reason": "NO_CERTIFIED_JOINT_EVIDENCE"
+    }
+  ],
+  "invalid_profile_rejection_pass": true,
+  "glb": "/home/christopher/Cathedral_Research/R41_unified_stone_engine/R41_Curved_Tapered_Two_Stone_Experiment.glb",
+  "render": "/home/christopher/Cathedral_Research/R41_unified_stone_engine/R41_intermediate_render.png",
+  "expected_joint_certification": "NO SOURCE-MEASURED CONTACT SURFACES",
+  "Launceston_260_mm_dimension_used_as_Ayr_value": false,
+  "source_Buda_0121_scan_acquired": false,
+  "preserve_existing_R34_to_R40": true,
+  "historical_structural_status": "NOT CERTIFIED"
+}

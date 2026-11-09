@@ -1,0 +1,48 @@
+{
+  "checkpoint": "R48",
+  "state": "REUSABLE_EXPERIMENTAL_WINDOW_GENERATOR",
+  "type": "Blender 5.1+ procedural 1:1 meshes",
+  "script": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_window_head_generator.py",
+  "profile_preparation": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_prepare_profile.py",
+  "config_files": [
+    "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_baseline_config.json",
+    "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_alternate_config.json"
+  ],
+  "GLBs": [
+    "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_BASELINE_PROFILE_1/R48_WINDOW_HEAD_1to1_EXPERIMENT.glb",
+    "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_ALTERNATE_PROFILE_8/R48_WINDOW_HEAD_1to1_EXPERIMENT.glb"
+  ],
+  "tested_profile_members": [
+    "1.png",
+    "8.png"
+  ],
+  "native_blender_tested": [
+    "5.1.2",
+    "5.2.2 LTS"
+  ],
+  "GLB_importer_tested": [
+    "5.0.1",
+    "5.1.2",
+    "5.2.2 LTS"
+  ],
+  "all_GLb_matrix_entries_passed": 6,
+  "closed_stone_parts_per_case": 29,
+  "matching_contact_surfaces_per_case": 26,
+  "cross_component_pair_checks_each": 315,
+  "collisions_detected": 0,
+  "max_joint_area_mismatch_mm2": 0.00420550350099802,
+  "max_joint_centroid_delta_mm": 0.0007156890093148795,
+  "rejected_invalid_inputs": 11,
+  "historical_accuracy": "NOT CERTIFIED",
+  "archaeological_profile_source": "User French Gothic archive, page 1 and 8 silhouettes; right backing edge clipped",
+  "assumed_width_mm": 112,
+  "assumed_glazing_rebate_mm": [
+    16,
+    16
+  ],
+  "geometrical_foil": "parametric fourfold study, not historical compass set-out",
+  "masonry_bearings": "NOT INCLUDED",
+  "structural_forces": "NOT VALIDATED",
+  "approved_cathedral_geometry_untouched": true,
+  "review_image": "/home/christopher/Cathedral_Research/R48_configurable_window_head/R48_FINAL_Validated_Window_Generator.png"
+}

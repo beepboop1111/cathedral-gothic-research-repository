@@ -1,0 +1,16 @@
+{
+  "checkpoint": "R49",
+  "state": "NEUTRAL_TRACERY_TEST_FIXTURE_ONLY",
+  "original_non_tracery_archive_excluded": true,
+  "archive_profile_gate": "TESTED REJECT",
+  "former_R46_to_R48": "NOT TRACERY_PROFILE_VALIDATION",
+  "generated_using": "Synthetic neutral chamfered section 64x84mm, physical 11x14mm notch",
+  "geometric_validations": "29 closed stones,26 registered joints, 315 intergroup checks with 0 collisions",
+  "GLB_import_blender": [
+    "5.1.2",
+    "5.2.2 LTS"
+  ],
+  "historical_validity": "NONE; experimental synthetic section only",
+  "protected_previous_checkpoints_untouched": true,
+  "glb": "/home/christopher/Cathedral_Research/R49_tracery_profile_correction/R49_NEUTRAL_TRACERY_PROFILE/R49_NEUTRAL_TRACERY_WINDOW_HEAD.glb"
+}

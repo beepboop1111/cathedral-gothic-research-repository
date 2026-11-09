@@ -1,0 +1,88 @@
+{
+  "format": "R43_Section_V1",
+  "units": "mm",
+  "profile_id": "FAMILY_B_ALTERNATE",
+  "evidence_class": "SYNTHETIC",
+  "source_document": null,
+  "historical_3d_joint_certified": false,
+  "front_halfwidth_stations_mm": [
+    [
+      -70,
+      9
+    ],
+    [
+      -61,
+      14
+    ],
+    [
+      -54,
+      22
+    ],
+    [
+      -47,
+      18
+    ],
+    [
+      -40,
+      29
+    ],
+    [
+      -32,
+      34
+    ],
+    [
+      -23,
+      35
+    ],
+    [
+      -14,
+      39
+    ],
+    [
+      -7,
+      44
+    ],
+    [
+      0,
+      45
+    ]
+  ],
+  "rear_halfwidth_stations_mm": [
+    [
+      0,
+      45
+    ],
+    [
+      9,
+      44
+    ],
+    [
+      18,
+      38
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      36,
+      35
+    ],
+    [
+      45,
+      29
+    ],
+    [
+      54,
+      24
+    ],
+    [
+      63,
+      19
+    ],
+    [
+      70,
+      11
+    ]
+  ]
+}
