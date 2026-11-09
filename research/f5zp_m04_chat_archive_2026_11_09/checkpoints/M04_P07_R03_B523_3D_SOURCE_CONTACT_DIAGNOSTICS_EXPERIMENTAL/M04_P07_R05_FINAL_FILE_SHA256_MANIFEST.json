@@ -1,0 +1,112 @@
+[
+  {
+    "archive_entry": "BLEND/M04_P06_B523_CLEAN_SOURCE.blend",
+    "file_size_bytes": 3562167,
+    "sha256": "ef1a5c03728081f64c9022a4e05b483dda674ccf457250664985c38d4272a95e"
+  },
+  {
+    "archive_entry": "BLEND/M04_P07_B523_EDITABLE_SOURCE_PLUS_DIAGNOSTICS.blend",
+    "file_size_bytes": 3213876,
+    "sha256": "c5d6737e3b13aca8fca55cd84055aa775afbd0e5898308a9fecde1a19e3da148"
+  },
+  {
+    "archive_entry": "GLB/M04_P06_CLEAN_14_SOURCE_COURSES_WALL_ARCHES.glb",
+    "file_size_bytes": 1780168,
+    "sha256": "128609ff40c1e2615fd05d61216638cee280bcf526f3c7ddc78ff6d6d4f39814"
+  },
+  {
+    "archive_entry": "GLB/M04_P07_REAL_SOURCE_PLUS_7_NONMASONRY_DIAGNOSTICS.glb",
+    "file_size_bytes": 1855424,
+    "sha256": "ae2c6515a6e2aeb04d6db0dc990d3e2aa3a387a659de66c429a45fc63b479ad2"
+  },
+  {
+    "archive_entry": "QA/M04_P06_25_REAL_SOURCE_COMPARE_QA.json",
+    "file_size_bytes": 2521,
+    "sha256": "77fa36f4361e2cf028d52ac368327745db4f82d969bc5c905b0c0540adcff9fa"
+  },
+  {
+    "archive_entry": "QA/M04_P07_R01_SOURCE_CONTACT_NUMERICAL_QA.json",
+    "file_size_bytes": 8645,
+    "sha256": "49761e08dc19878b5a14711c8952924b98811f19bb1a73928efe58e1a584adfd"
+  },
+  {
+    "archive_entry": "QA/M04_P07_R02_EXACT_NATIVE_SOURCE_BEARING_QA.json",
+    "file_size_bytes": 4856,
+    "sha256": "472d96974f57a0648024eb4d3a8156e989160f9a98a4c60dd824290a701871ad"
+  },
+  {
+    "archive_entry": "QA/M04_P07_R03_BLENDER_523_RENDER_AND_GLB_QA.json",
+    "file_size_bytes": 3754,
+    "sha256": "104285204631d8d52fff475db3cc0e74f530036f9e88b8d603e639a7f4302836"
+  },
+  {
+    "archive_entry": "QA/M04_P07_R05_INDEPENDENT_GLB_SHA256_AND_SOURCE_APPROVAL_QA.json",
+    "file_size_bytes": 1327,
+    "sha256": "86304dde3f6db089ed3795fe5959855ea756e4f07f4c6e6706cb4b4ab67ca05f"
+  },
+  {
+    "archive_entry": "QA/P07_DIAGNOSTIC_TRIANGLES.json",
+    "file_size_bytes": 117940,
+    "sha256": "c55e8096ed202eecc67b449205f478fa3eb0646938d7558a211b58c43f873492"
+  },
+  {
+    "archive_entry": "QA/P07_R01_12_BEARING_TESTS.csv",
+    "file_size_bytes": 1729,
+    "sha256": "c681e50df43bdc3f5bda4c6add01ea5a52240f3c4e9f709a2558a66763411f1e"
+  },
+  {
+    "archive_entry": "QA/P07_R02_FIVE_EXACT_GOTHIC_BEARINGS.csv",
+    "file_size_bytes": 969,
+    "sha256": "6526de70134e6cac0af948709dc78f694a3fb8010e76b3f293ed56c5776fb43b"
+  },
+  {
+    "archive_entry": "QA/P07_SOURCE_MASONRY_EXPOSED_SHOULDER_1TO1.svg",
+    "file_size_bytes": 17390,
+    "sha256": "32c66924e6a050772b30019781e1edf1c845163c9e48cd2d9aac7129e0065778"
+  },
+  {
+    "archive_entry": "QA/P07_TRUE_SOURCE_EXACT_Z2400.geojson",
+    "file_size_bytes": 131141,
+    "sha256": "5da54702119a3e81b170e63a5a090ce002adf9425d75bfd143ce932eb327676a"
+  },
+  {
+    "archive_entry": "REPORT/M04_P07_R05_HANDOFF.md",
+    "file_size_bytes": 2514,
+    "sha256": "1f9684094d1a8115184c5bdeb68f799143720d4bced6e803ff10585b3f7298be"
+  },
+  {
+    "archive_entry": "REVIEW/ONE_FINAL_GOTHIC_ARCHITECTURAL_REVIEW.png",
+    "file_size_bytes": 857412,
+    "sha256": "9ad0c19b395114c2c1b327d4560f70ccc9afbba800bcc2052977850cdffec8f0"
+  },
+  {
+    "archive_entry": "SCRIPT/M04_P07_R01_LOCAL_FIVE_ARCH_CONTACTS.py",
+    "file_size_bytes": 8260,
+    "sha256": "26e7345d54f8d5efb2784c477a4f1bc2eeedac2178291c330fc95ed6ecfde49e"
+  },
+  {
+    "archive_entry": "SCRIPT/M04_P07_R02_EXACT_SOURCE_TOP.py",
+    "file_size_bytes": 8077,
+    "sha256": "ba4aad88bf73b15ed4fa887c10985468a04f19d91acb0d5bccacfd69e508d307"
+  },
+  {
+    "archive_entry": "SCRIPT/M04_P07_R03_BLENDER523_RENDER_AND_GLTF.py",
+    "file_size_bytes": 7119,
+    "sha256": "73567f6468b576252f0d29e3ccbc26aa41e5459b0dd4e61077e5873d3f87b46b"
+  },
+  {
+    "archive_entry": "SCRIPT/M04_P07_R03_GENERATE_REAL_SOURCE_OVERLAY_TRIANGLES.py",
+    "file_size_bytes": 2648,
+    "sha256": "621719998b323ec67ae0a667c8438f8dd4089282ac07db4699c171b14c2602e1"
+  },
+  {
+    "archive_entry": "SCRIPT/M04_P07_R04_COMPOSITE_ONE_PNG.py",
+    "file_size_bytes": 7689,
+    "sha256": "3cde7d4f94faeb40ed380786e8a081602c14ea59a870324cf3c0278c1a07781f"
+  },
+  {
+    "archive_entry": "SCRIPT/M04_P07_R05_FINAL_QA_AND_DESKTOP_FILES.py",
+    "file_size_bytes": 11102,
+    "sha256": "ebd935e15521b67a6e091e29bd2a5ad7e5a4024e3f404efb15bcb5aa10b6851c"
+  }
+]

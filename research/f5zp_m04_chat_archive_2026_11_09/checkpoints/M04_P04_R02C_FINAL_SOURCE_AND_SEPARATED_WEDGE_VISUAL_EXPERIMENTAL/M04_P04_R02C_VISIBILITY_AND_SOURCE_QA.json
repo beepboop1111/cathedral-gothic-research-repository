@@ -1,0 +1,12 @@
+{
+  "R02C_B_source_five_arches_hidden_for_render_only": true,
+  "R02C_new_save_all_original_arches_visible": true,
+  "R02C_source_arch_meshes_not_deleted_or_edited": true,
+  "R02C_world_scale_1to1": true,
+  "R02C_source_blend_sha256": "b87d4de516f3460275f4e29ef5477c4feac81996859d93fc80edde74b99d5f15",
+  "Blender_version": "5.0.1",
+  "source_study_QA_sha256": "70167d30a955ffc14a5e938fb07a86a41f63065303b431ab7339a6604674922f",
+  "review": "F5ZP_M04_P04_R02C_ONE_TRUE_BACKING_COMPARISON.png",
+  "editable_experimental_scene": "M04_P04_R02C_ALL_FIVE_ARCHES_RESTORED_SOURCE_AND_EXPERIMENTAL_KEY.blend",
+  "approval": "EXPERIMENTAL, HISTORICAL/STRUCTURAL NOT VALIDATED"
+}

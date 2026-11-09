@@ -1,0 +1,22 @@
+{
+  "milestone": "M04 P01 actual Gothic profile ZIP integration with existing R11",
+  "PNG_images": 38,
+  "isolated_component_shapes": 50,
+  "R11_compatible_sections": 49,
+  "rejected_with_real_interior_hole": [
+    "11__01"
+  ],
+  "independent_soffit_options": 5,
+  "R06_sensitivity_tests": 1056,
+  "R08_receiver_tests": 1056,
+  "R08_Y3000_provisional_overhang_trial_count": 84,
+  "Blender_version": "5.0.1",
+  "GLB_independently_reimported_closed_meshes_after_seam_vertex_weld": 49,
+  "user_selected_profile_to_arch_family": false,
+  "verified_historic_profile_nose_direction": false,
+  "all_source_files_unchanged": true,
+  "original_R11_converter_hash": "8e76e689b0359f98f395d878df4d1fa22ffe3c112e1d34a4c492d542f6979ff9",
+  "original_zip_hash": "fba241175fd3ccd30cdde9f4f441e30c6e443eb9f94755f91e1f0f3cd6d35fe0",
+  "architectural_structural_validation": "NOT APPROVED",
+  "project_locked_Pass6J_F5ZKC_R06_R08_geometry_changed": false
+}

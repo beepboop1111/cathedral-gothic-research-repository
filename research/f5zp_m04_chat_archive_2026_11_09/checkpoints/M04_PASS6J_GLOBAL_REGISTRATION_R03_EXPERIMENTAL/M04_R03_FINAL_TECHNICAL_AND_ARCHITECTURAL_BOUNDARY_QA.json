@@ -1,0 +1,100 @@
+{
+  "milestone": "M04 R03 actual original Pass6J pier \u2192 F5ZN-A/M02 coordinate registration",
+  "status": "VALIDATED EXPERIMENTAL COORDINATE REGISTRATION + AUTHENTIC SOURCE MESH TEST; PHYSICAL PIER APPROVAL OPEN",
+  "transform_source_old_xyz_to_blender_new_xyz": [
+    [
+      0,
+      0,
+      1,
+      20213
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "post_gltf_import_blender_matrix": [
+    [
+      0,
+      -1,
+      0,
+      20213
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "source_spring_world_xyz": [
+    24302.635119,
+    869.278779,
+    3000
+  ],
+  "spring_station_radial_offset_from_nominal_R1_native": 96,
+  "radial_offset_architectural_explanation": "MISSING",
+  "real_source_mesh_faces_preserved": 313940,
+  "actual_mesh_original_non_watertight": true,
+  "exported_GLB_independent_world_bounds_verified": true,
+  "verified_exported_glTF_Y_UP_bounds": [
+    [
+      24220.33579,
+      2570.0,
+      -945.88783
+    ],
+    [
+      24376.86753,
+      3260.0,
+      -795.64956
+    ]
+  ],
+  "models_directly_sliced": 3,
+  "sampled_actual_3D_mesh_horizontal_sections": 68,
+  "primary_west_east_source_protected_clear_cells": [
+    "I_A3_R12C",
+    "I_A4_R12C"
+  ],
+  "all_tested_shaft_sections_Y2705_through_2999_2d_footprint_clear": true,
+  "source_articulated_plinth_Y2600_clear_overlap_area_native_sq": 531.08175,
+  "source_narrow_plinth_Y2600_clear_overlap_area_native_sq": 1743.1344,
+  "source_upper_tas_section_Y3259_footprint_overlap_area_native_sq": 37.305236,
+  "important_collision_interpretation": "Overlaps are projected 2D clear vault plan footprints at elevations below and above Y3000. Not necessarily 3D structural interference or invalid Gothic geometry; requires architectural vertical-section review.",
+  "technical_QA": "PASS registered GLB re-imported, 5 meshes, original source mesh 313940 faces, world coordinates match original cyclic transform within .003 native units",
+  "2d_geometric_QA": "PARTIAL \u2014 8 ring stations out of protected vault clear spaces; shaft planes clear; source plinth and upper tas 2D footprint overlaps measured",
+  "architectural_QA": "UNRESOLVED pending source radial offset meaning, three-dimensional bearing/clearance and lower plinth approval",
+  "historical_QA": "NOT ASSESSED",
+  "structural_QA": "NOT ASSESSED",
+  "baseline_protection": "Original F5ZK-C/F5ZN-A, M02/M03 floorplans, V13, source Pass6J and working generators unchanged",
+  "outer_trial_14_cells_included": false,
+  "Pass6J_eight_service_profiles_changed": false,
+  "rejected_first_wrong_glTF_axis_export": "QUARANTINED and EXCLUDED from final ZIP",
+  "F5ZL_C_support_schedule": "MISSING",
+  "local_GitHub_operations": "NONE"
+}

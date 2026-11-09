@@ -1,0 +1,285 @@
+{
+  "Blender": "5.2.3 LTS",
+  "technical": "PASS",
+  "physical_meshes_preserved": 14,
+  "new_stone_solids": 0,
+  "new_diagnostic_bed_surfaces": 4,
+  "existing_P07_diagnostic_surfaces": 7,
+  "GLB_roundtrips": {
+    "CLEAN_SOURCE_14_MESHES": {
+      "mesh_count": 14,
+      "max_native_bounds_error": 0.0
+    },
+    "DIAGNOSTIC_25_MESHES_NON_MASONRY_OVERLAYS": {
+      "mesh_count": 25,
+      "max_native_bounds_error": 0.0
+    }
+  },
+  "protected_file_sha256_unchanged": {
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P07_R03_B523_3D_SOURCE_CONTACT_DIAGNOSTICS_EXPERIMENTAL/M04_P07_B523_FIVE_GOTHIC_BEARINGS_PLUS_SOURCE_DIAGNOSTICS_EXPERIMENTAL.blend": "c5d6737e3b13aca8fca55cd84055aa775afbd0e5898308a9fecde1a19e3da148",
+    "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R02B_CANONICAL_SPRINGER_AND_BEARING_MASONRY_EXPERIMENTAL/R03_TEN_PROTECTED_PIER_ARCH_AND_BEARING_MASONRY_REFERENCES.glb": "7c0b832213c7440b9ed6c2f45cc7be47b57036e96e4779365862701bc2a97b07"
+  },
+  "source_mesh_signatures": {
+    "P06_COORDINATED_ABOVE_Z2400_BAY1_FORMERET_0": "963d732595f77e01682a860fe22dda84d910e79d26447d37215f48856eaf9121",
+    "P06_COORDINATED_ABOVE_Z2400_BAY1_RIB_1": "ba02791df2d19ac22820b7f2cb0f06ee0fbd5bfa2999452a719644ffd8b084f4",
+    "P06_COORDINATED_ABOVE_Z2400_BAY2_FORMERET_0": "3f5d0698f187e0586fe4f6a7e526a000e8ec1ae8c012dce861f62d61ec30a626",
+    "P06_COORDINATED_ABOVE_Z2400_BAY2_RIB_0": "56a86dfeb7b5c63656754ef94abce24be9fe47f20641e68ef2478358e14b35cd",
+    "P06_COORDINATED_ABOVE_Z2400_CHAPEL_TRANSVERSE_31000": "ed37751499279d6b1b3c3e11c203f9a4439a688ae0590ad2e8b96b3e11fb5c9a",
+    "P06_COORDINATED_ABOVE_Z2400_RECEIVING_S_UPPER_0": "6323397c9d17fb1ee83053b2a22493f54aa706a2f1401847a55fe17e5ff479e5",
+    "P06_COORDINATED_SOURCE_LOWER_RECEIVING_S_LOWER_0": "1ec4828bb7cba5abefe146542daf5e94a8508e3867fb9e5d5a9dfff40dcd8a46",
+    "P06_COORDINATED_SOURCE_LOWER_RECEIVING_S_LOWER_1": "dd7dfeb374de5ffb84bcfe591682ef9c3b42e46e210c7d4de849878dfc8330e6",
+    "P06_COORDINATED_SOURCE_LOWER_SHARED_PIER_S": "cba6c8c8c20e6c164f7b23aa339e95fc878141efb6d10ff2eb1156e55d021f56",
+    "P06_FIVE_ARCH_SOURCE_RESTORED_COURSE_01_Z1800": "8bd52c01f34801291435b779bb4bd6829978cb91d9eccb3ae9e8f9bbe333caac",
+    "P06_FIVE_ARCH_SOURCE_RESTORED_COURSE_02_Z1920": "f95f78f8bb1067e9cc9c4b572dad975a8bedd2c9a6754ead8ea595907040cde9",
+    "P06_FIVE_ARCH_SOURCE_RESTORED_COURSE_03_Z2040": "6e4634c60fc05b1da160fc6c1f32be1a36c646a87aecd101766d6a441e587a4d",
+    "P06_FIVE_ARCH_SOURCE_RESTORED_COURSE_04_Z2160": "e5674ba45077b8c8b81d890031adabbba79f795862a2419f01d34769117242b8",
+    "P06_FIVE_ARCH_SOURCE_RESTORED_COURSE_05_Z2280": "a037ce01e5e7b37266d7a39d565d4e2abf21ee1bde39bce8eb648cae51670bb7"
+  },
+  "independent_geometry": {
+    "exact_internal_beds": [
+      {
+        "z": 1920,
+        "lower_top_area": 165038.6541475965,
+        "upper_bottom_area": 165038.6592752649,
+        "contact_area": 165038.65412888065,
+        "upper_bearing_fraction": 0.9999999688170986,
+        "lower_exposed_area": 1.8715858459472656e-05,
+        "upper_overhang_area": 0.005146384239196777,
+        "symmetric_difference_area": 0.00516510009765625
+      },
+      {
+        "z": 2040,
+        "lower_top_area": 167674.3085770607,
+        "upper_bottom_area": 167674.3057512045,
+        "contact_area": 167674.30546808243,
+        "upper_bearing_fraction": 0.9999999983114761,
+        "lower_exposed_area": 0.003108978271484375,
+        "upper_overhang_area": 0.00028312206268310547,
+        "symmetric_difference_area": 0.0033921003341674805
+      },
+      {
+        "z": 2160,
+        "lower_top_area": 171351.15759575763,
+        "upper_bottom_area": 171351.16114654922,
+        "contact_area": 171351.15759575763,
+        "upper_bearing_fraction": 0.9999999792776917,
+        "lower_exposed_area": 2.1312472265472173e-13,
+        "upper_overhang_area": 0.0035507915920700572,
+        "symmetric_difference_area": 0.003550791592283182
+      },
+      {
+        "z": 2280,
+        "lower_top_area": 178335.81922075714,
+        "upper_bottom_area": 178335.81950292553,
+        "contact_area": 178335.8170324322,
+        "upper_bearing_fraction": 0.9999999861469596,
+        "lower_exposed_area": 0.0021883249282836914,
+        "upper_overhang_area": 0.0024704933166503906,
+        "symmetric_difference_area": 0.004658818244934082
+      }
+    ],
+    "source_rear_sections": [
+      {
+        "course": 1,
+        "z": 1801,
+        "source_wall_area": 144000.0,
+        "course_wall_overlap_area": 143999.99938563912,
+        "course_outside_source_wall_area": 20234.963665352334
+      },
+      {
+        "course": 1,
+        "z": 1830,
+        "source_wall_area": 144000.0,
+        "course_wall_overlap_area": 143999.98516118206,
+        "course_outside_source_wall_area": 20310.217758044015
+      },
+      {
+        "course": 1,
+        "z": 1860,
+        "source_wall_area": 144000.0,
+        "course_wall_overlap_area": 143999.97775410325,
+        "course_outside_source_wall_area": 20446.586471059152
+      },
+      {
+        "course": 1,
+        "z": 1890,
+        "source_wall_area": 144000.0,
+        "course_wall_overlap_area": 143999.9777787637,
+        "course_outside_source_wall_area": 20684.69936474074
+      },
+      {
+        "course": 1,
+        "z": 1919,
+        "source_wall_area": 144000.0,
+        "course_wall_overlap_area": 143999.98486688302,
+        "course_outside_source_wall_area": 21025.030831776323
+      },
+      {
+        "course": 2,
+        "z": 1921,
+        "source_wall_area": 143999.99999999994,
+        "course_wall_overlap_area": 143999.98453989538,
+        "course_outside_source_wall_area": 21052.40333525588
+      },
+      {
+        "course": 2,
+        "z": 1950,
+        "source_wall_area": 143999.99999999994,
+        "course_wall_overlap_area": 143999.9640599096,
+        "course_outside_source_wall_area": 21523.011169547128
+      },
+      {
+        "course": 2,
+        "z": 1980,
+        "source_wall_area": 143999.99999999994,
+        "course_wall_overlap_area": 143999.98481747153,
+        "course_outside_source_wall_area": 22110.649846053297
+      },
+      {
+        "course": 2,
+        "z": 2010,
+        "source_wall_area": 143999.99999999994,
+        "course_wall_overlap_area": 143999.98769867854,
+        "course_outside_source_wall_area": 22798.849137395384
+      },
+      {
+        "course": 2,
+        "z": 2039,
+        "source_wall_area": 143999.99999999997,
+        "course_wall_overlap_area": 143999.98683266065,
+        "course_outside_source_wall_area": 23643.31271671878
+      },
+      {
+        "course": 3,
+        "z": 2041,
+        "source_wall_area": 143999.99999999994,
+        "course_wall_overlap_area": 143999.98700190935,
+        "course_outside_source_wall_area": 23705.30459204106
+      },
+      {
+        "course": 3,
+        "z": 2070,
+        "source_wall_area": 143999.99999999994,
+        "course_wall_overlap_area": 143999.99917976226,
+        "course_outside_source_wall_area": 24653.86364762981
+      },
+      {
+        "course": 3,
+        "z": 2100,
+        "source_wall_area": 143999.99999999994,
+        "course_wall_overlap_area": 143999.97201679595,
+        "course_outside_source_wall_area": 25124.472926166112
+      },
+      {
+        "course": 3,
+        "z": 2130,
+        "source_wall_area": 143999.9999999999,
+        "course_wall_overlap_area": 143999.9722844272,
+        "course_outside_source_wall_area": 26139.849877371827
+      },
+      {
+        "course": 3,
+        "z": 2159,
+        "source_wall_area": 143999.99999999994,
+        "course_wall_overlap_area": 143999.9606979053,
+        "course_outside_source_wall_area": 27308.211393896312
+      },
+      {
+        "course": 4,
+        "z": 2161,
+        "source_wall_area": 143999.99999999988,
+        "course_wall_overlap_area": 143999.9604985537,
+        "course_outside_source_wall_area": 27394.247976853232
+      },
+      {
+        "course": 4,
+        "z": 2190,
+        "source_wall_area": 143999.9999999999,
+        "course_wall_overlap_area": 143999.96820144562,
+        "course_outside_source_wall_area": 28757.91356711887
+      },
+      {
+        "course": 4,
+        "z": 2220,
+        "source_wall_area": 143999.9999999999,
+        "course_wall_overlap_area": 143999.9740620791,
+        "course_outside_source_wall_area": 30413.031780367844
+      },
+      {
+        "course": 4,
+        "z": 2250,
+        "source_wall_area": 143999.99999999988,
+        "course_wall_overlap_area": 143999.97685722742,
+        "course_outside_source_wall_area": 32281.0922526919
+      },
+      {
+        "course": 4,
+        "z": 2279,
+        "source_wall_area": 143999.9999999999,
+        "course_wall_overlap_area": 143999.97812837036,
+        "course_outside_source_wall_area": 34261.74426127266
+      },
+      {
+        "course": 5,
+        "z": 2281,
+        "source_wall_area": 144000.00000000012,
+        "course_wall_overlap_area": 143999.9782693438,
+        "course_outside_source_wall_area": 34410.051176255445
+      },
+      {
+        "course": 5,
+        "z": 2310,
+        "source_wall_area": 143999.99999999988,
+        "course_wall_overlap_area": 143999.97692997148,
+        "course_outside_source_wall_area": 36708.30669853478
+      },
+      {
+        "course": 5,
+        "z": 2340,
+        "source_wall_area": 143999.99999999988,
+        "course_wall_overlap_area": 143999.9673295021,
+        "course_outside_source_wall_area": 39441.794317500804
+      },
+      {
+        "course": 5,
+        "z": 2370,
+        "source_wall_area": 143999.99999999985,
+        "course_wall_overlap_area": 143999.95848488808,
+        "course_outside_source_wall_area": 42478.32774631336
+      },
+      {
+        "course": 5,
+        "z": 2399,
+        "source_wall_area": 143999.99999999988,
+        "course_wall_overlap_area": 143999.95324752002,
+        "course_outside_source_wall_area": 45691.05331205508
+      }
+    ],
+    "physical_watertight": {
+      "P06_COORDINATED_ABOVE_Z2400_BAY1_FORMERET_0": true,
+      "P06_COORDINATED_ABOVE_Z2400_BAY1_RIB_1": true,
+      "P06_COORDINATED_ABOVE_Z2400_BAY2_FORMERET_0": true,
+      "P06_COORDINATED_ABOVE_Z2400_BAY2_RIB_0": true,
+      "P06_COORDINATED_ABOVE_Z2400_CHAPEL_TRANSVERSE_31000": true,
+      "P06_COORDINATED_ABOVE_Z2400_RECEIVING_S_UPPER_0": true,
+      "P06_COORDINATED_SOURCE_LOWER_RECEIVING_S_LOWER_0": true,
+      "P06_COORDINATED_SOURCE_LOWER_RECEIVING_S_LOWER_1": true,
+      "P06_COORDINATED_SOURCE_LOWER_SHARED_PIER_S": true,
+      "P06_FIVE_ARCH_SOURCE_RESTORED_COURSE_01_Z1800": true,
+      "P06_FIVE_ARCH_SOURCE_RESTORED_COURSE_02_Z1920": true,
+      "P06_FIVE_ARCH_SOURCE_RESTORED_COURSE_03_Z2040": true,
+      "P06_FIVE_ARCH_SOURCE_RESTORED_COURSE_04_Z2160": true,
+      "P06_FIVE_ARCH_SOURCE_RESTORED_COURSE_05_Z2280": true
+    },
+    "interpretation": "Original wall overlaps recovered springer envelope below Z2400. Overlap is replacement coordination evidence, not rear keying or bonding. No source-proven separate backing stone recovered.",
+    "architectural": "HOLD: rear bond and stone subdivision not proven",
+    "historical": "HOLD: source geometry does not establish historic joint or construction sequence; F5ZL-C schedule absent from handoff",
+    "structural": "HOLD: contact area alone does not verify thrust, eccentricity, bed shear, mortar or stone strength"
+  },
+  "Desktop_GLBs": [
+    "/home/christopher/Desktop/F5ZP_M04_P08_B523_CLEAN_SOURCE_14_MESHES_EXPERIMENTAL.glb",
+    "/home/christopher/Desktop/F5ZP_M04_P08_B523_DIAGNOSTIC_25_MESHES_NON_MASONRY_OVERLAYS_EXPERIMENTAL.glb"
+  ],
+  "review_PNG": "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P08_B523_REAR_AND_COURSE_EVIDENCE_EXPERIMENTAL/F5ZP_M04_P08_ONE_REVIEW.png"
+}

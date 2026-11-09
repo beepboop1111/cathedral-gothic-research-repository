@@ -1,0 +1,101 @@
+{
+  "measurement": "Independent original R03 wall and corrected R14 source course cross-sectional overlaps integrated at 17/33/65 heights per course",
+  "wall_section_area_native_sq": 144000.0,
+  "wall_Z_span_of_springer": [
+    1800,
+    2400
+  ],
+  "implied_source_wall_geometry_in_course_interval_native_cubed": 86400000,
+  "sampled_interior_Z_span_per_course": 119.96,
+  "sampled_interior_65_point_sum_overlap_native_cubed": 86371199.90698127,
+  "sampled_interior_65_point_fraction_vs_whole_tas_course_mesh_volumes": 0.8386553562920767,
+  "sampled_interior_33_to_65_grid_variation_max": 1.1548368905652573e-11,
+  "source_wall_original_course_overlay_expected_masonry_duplication": true,
+  "truly_exact_3D_boolean": false,
+  "reason_for_rejecting_original_Blender_Exact_Boolean": "Exact coincident faces can return false empty or non-manifold results",
+  "treatment": "Source wall exact copy above Z2400, original 5 tas source-courses below; no proposed infill",
+  "original_all_geometry_modified": false,
+  "architectural_historical_structural_approval": "NOT GRANTED",
+  "five_courses": [
+    {
+      "course_id": 1.0,
+      "world_start_Z": 1800.0,
+      "world_end_Z": 1920.0,
+      "wall_original_section_native_sq": 143999.9999999999,
+      "source_R14_closed_course_mesh_volume_native_cubed": 19741335.657819603,
+      "17_section_estimated_wall_overlap_cubed": 17274239.990549415,
+      "33_section_estimated_wall_overlap_cubed": 17274239.990549415,
+      "65_section_estimated_wall_overlap_cubed": 17274239.990549408,
+      "65_section_interior_sampled_course_volume_cubed": 19734750.444449842,
+      "fraction_course_duplicate_in_original_wall_65_samples": 0.8753209238279259,
+      "33_to_65_grid_convergence_abs_native_cubed": 7.450580596923828e-09,
+      "relative_grid_sensitivity": 4.3131162939729785e-16,
+      "diagnostic": "Approximate section integral; original Blender Boolean fails due exact coplanarity"
+    },
+    {
+      "course_id": 2.0,
+      "world_start_Z": 1920.0,
+      "world_end_Z": 2040.0,
+      "wall_original_section_native_sq": 143999.9999999999,
+      "source_R14_closed_course_mesh_volume_native_cubed": 19942572.366344333,
+      "17_section_estimated_wall_overlap_cubed": 17274239.94850531,
+      "33_section_estimated_wall_overlap_cubed": 17274239.94805841,
+      "65_section_estimated_wall_overlap_cubed": 17274239.947858922,
+      "65_section_interior_sampled_course_volume_cubed": 19935911.45868405,
+      "fraction_course_duplicate_in_original_wall_65_samples": 0.8664885969050736,
+      "33_to_65_grid_convergence_abs_native_cubed": 0.0001994892954826355,
+      "relative_grid_sensitivity": 1.1548368905652573e-11,
+      "diagnostic": "Approximate section integral; original Blender Boolean fails due exact coplanarity"
+    },
+    {
+      "course_id": 3.0,
+      "world_start_Z": 2040.0,
+      "world_end_Z": 2160.0,
+      "wall_original_section_native_sq": 143999.9999999999,
+      "source_R14_closed_course_mesh_volume_native_cubed": 20319446.484181423,
+      "17_section_estimated_wall_overlap_cubed": 17274239.973432414,
+      "33_section_estimated_wall_overlap_cubed": 17274239.974140685,
+      "65_section_estimated_wall_overlap_cubed": 17274239.974020734,
+      "65_section_interior_sampled_course_volume_cubed": 20312555.0542287,
+      "fraction_course_duplicate_in_original_wall_65_samples": 0.8504218168469434,
+      "33_to_65_grid_convergence_abs_native_cubed": 0.00011995062232017517,
+      "relative_grid_sensitivity": 6.943901584125995e-12,
+      "diagnostic": "Approximate section integral; original Blender Boolean fails due exact coplanarity"
+    },
+    {
+      "course_id": 4.0,
+      "world_start_Z": 2160.0,
+      "world_end_Z": 2280.0,
+      "wall_original_section_native_sq": 143999.9999999999,
+      "source_R14_closed_course_mesh_volume_native_cubed": 20946690.281390745,
+      "17_section_estimated_wall_overlap_cubed": 17274239.995225884,
+      "33_section_estimated_wall_overlap_cubed": 17274239.995226294,
+      "65_section_estimated_wall_overlap_cubed": 17274239.995226257,
+      "65_section_interior_sampled_course_volume_cubed": 20939696.801593997,
+      "fraction_course_duplicate_in_original_wall_65_samples": 0.8249517726498927,
+      "33_to_65_grid_convergence_abs_native_cubed": 3.725290298461914e-08,
+      "relative_grid_sensitivity": 2.15655814640262e-15,
+      "diagnostic": "Approximate section integral; original Blender Boolean fails due exact coplanarity"
+    },
+    {
+      "course_id": 5.0,
+      "world_start_Z": 2280.0,
+      "world_end_Z": 2400.0,
+      "wall_original_section_native_sq": 143999.9999999999,
+      "source_R14_closed_course_mesh_volume_native_cubed": 22037671.509903144,
+      "17_section_estimated_wall_overlap_cubed": 17274239.999325953,
+      "33_section_estimated_wall_overlap_cubed": 17274239.999325953,
+      "65_section_estimated_wall_overlap_cubed": 17274239.999325953,
+      "65_section_interior_sampled_course_volume_cubed": 22030308.672698766,
+      "fraction_course_duplicate_in_original_wall_65_samples": 0.7841124813985558,
+      "33_to_65_grid_convergence_abs_native_cubed": 0.0,
+      "relative_grid_sensitivity": 0.0,
+      "diagnostic": "Approximate section integral; original Blender Boolean fails due exact coplanarity"
+    }
+  ],
+  "source_SHA256": {
+    "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R02B_CANONICAL_SPRINGER_AND_BEARING_MASONRY_EXPERIMENTAL/R03_TEN_PROTECTED_PIER_ARCH_AND_BEARING_MASONRY_REFERENCES.glb": "7c0b832213c7440b9ed6c2f45cc7be47b57036e96e4779365862701bc2a97b07",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P05_BLENDER523_R14_CANONICAL_FIVE_SOURCE_EXPERIMENTAL/build/springer_variant.glb": "4bbe6d471d2cd7544a566efe29eb8d2d63471141e1ea4a29673dd84b4f5d4f42"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "Blender_version": "5.0.1",
+  "source_png_contour_count": 49,
+  "mesh_objects": 49,
+  "all_prisms_closed_manifold": true,
+  "export_format": "GLB",
+  "artifacts": {
+    "blend": "M04_P01_49_R11_VECTOR_CONTOURS_BLENDER_EDITABLE.blend",
+    "glb": "M04_P01_49_R11_VECTOR_CONTOURS_GLTF_TEST.glb",
+    "PNG": "M04_P01_BLENDER_CONTOUR_IMPORT_QA.png"
+  },
+  "historical_architectural_approval": false,
+  "mesh_summary": [
+    {
+      "asset": "10__01",
+      "vertices": 424,
+      "triangles": 844
+    },
+    {
+      "asset": "12__01",
+      "vertices": 708,
+      "triangles": 1412
+    },
+    {
+      "asset": "13__01",
+      "vertices": 974,
+      "triangles": 1944
+    },
+    {
+      "asset": "16__01",
+      "vertices": 458,
+      "triangles": 912
+    },
+    {
+      "asset": "17__01",
+      "vertices": 422,
+      "triangles": 840
+    },
+    {
+      "asset": "18__01",
+      "vertices": 436,
+      "triangles": 868
+    },
+    {
+      "asset": "19__01",
+      "vertices": 446,
+      "triangles": 888
+    },
+    {
+      "asset": "1__01",
+      "vertices": 282,
+      "triangles": 560
+    },
+    {
+      "asset": "21__01",
+      "vertices": 424,
+      "triangles": 844
+    },
+    {
+      "asset": "22__01",
+      "vertices": 274,
+      "triangles": 544
+    },
+    {
+      "asset": "23__01",
+      "vertices": 208,
+      "triangles": 412
+    },
+    {
+      "asset": "24__01",
+      "vertices": 78,
+      "triangles": 152
+    },
+    {
+      "asset": "25__01",
+      "vertices": 44,
+      "triangles": 84
+    },
+    {
+      "asset": "25__02",
+      "vertices": 120,
+      "triangles": 236
+    },
+    {
+      "asset": "25__03",
+      "vertices": 208,
+      "triangles": 412
+    },
+    {
+      "asset": "26__01",
+      "vertices": 330,
+      "triangles": 656
+    },
+    {
+      "asset": "27__01",
+      "vertices": 212,
+      "triangles": 420
+    },
+    {
+      "asset": "28__01",
+      "vertices": 184,
+      "triangles": 364
+    },
+    {
+      "asset": "29__01",
+      "vertices": 324,
+      "triangles": 644
+    },
+    {
+      "asset": "30__01",
+      "vertices": 396,
+      "triangles": 788
+    },
+    {
+      "asset": "31__01",
+      "vertices": 396,
+      "triangles": 788
+    },
+    {
+      "asset": "32__01",
+      "vertices": 280,
+      "triangles": 556
+    },
+    {
+      "asset": "33__01",
+      "vertices": 270,
+      "triangles": 536
+    },
+    {
+      "asset": "34__01",
+      "vertices": 526,
+      "triangles": 1048
+    },
+    {
+      "asset": "35__01",
+      "vertices": 202,
+      "triangles": 400
+    },
+    {
+      "asset": "36__01",
+      "vertices": 580,
+      "triangles": 1156
+    },
+    {
+      "asset": "37__01",
+      "vertices": 556,
+      "triangles": 1108
+    },
+    {
+      "asset": "38__01",
+      "vertices": 140,
+      "triangles": 276
+    },
+    {
+      "asset": "38__02",
+      "vertices": 116,
+      "triangles": 228
+    },
+    {
+      "asset": "38__03",
+      "vertices": 126,
+      "triangles": 248
+    },
+    {
+      "asset": "38__04",
+      "vertices": 300,
+      "triangles": 596
+    },
+    {
+      "asset": "38__05",
+      "vertices": 202,
+      "triangles": 400
+    },
+    {
+      "asset": "39__01",
+      "vertices": 68,
+      "triangles": 132
+    },
+    {
+      "asset": "39__02",
+      "vertices": 54,
+      "triangles": 104
+    },
+    {
+      "asset": "39__03",
+      "vertices": 76,
+      "triangles": 148
+    },
+    {
+      "asset": "40__01",
+      "vertices": 222,
+      "triangles": 440
+    },
+    {
+      "asset": "40__02",
+      "vertices": 184,
+      "triangles": 364
+    },
+    {
+      "asset": "40__03",
+      "vertices": 334,
+      "triangles": 664
+    },
+    {
+      "asset": "6__01",
+      "vertices": 1076,
+      "triangles": 2148
+    },
+    {
+      "asset": "6__02",
+      "vertices": 1170,
+      "triangles": 2336
+    },
+    {
+      "asset": "6__03",
+      "vertices": 1220,
+      "triangles": 2436
+    },
+    {
+      "asset": "7__01",
+      "vertices": 240,
+      "triangles": 476
+    },
+    {
+      "asset": "8__01",
+      "vertices": 270,
+      "triangles": 536
+    },
+    {
+      "asset": "9__01",
+      "vertices": 252,
+      "triangles": 500
+    },
+    {
+      "asset": "soffet_1__01",
+      "vertices": 216,
+      "triangles": 428
+    },
+    {
+      "asset": "soffet_2__01",
+      "vertices": 414,
+      "triangles": 824
+    },
+    {
+      "asset": "soffet_3__01",
+      "vertices": 224,
+      "triangles": 444
+    },
+    {
+      "asset": "soffet_4__01",
+      "vertices": 186,
+      "triangles": 368
+    },
+    {
+      "asset": "soffet_or_face__01",
+      "vertices": 142,
+      "triangles": 280
+    }
+  ]
+}

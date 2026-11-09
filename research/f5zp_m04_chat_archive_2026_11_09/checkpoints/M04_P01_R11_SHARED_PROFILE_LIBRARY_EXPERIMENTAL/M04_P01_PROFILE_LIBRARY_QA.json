@@ -1,0 +1,48 @@
+{
+  "status": "SOURCE LIBRARY VECTOR EXTRACTION AND PROVISIONAL PLAN FIT",
+  "source_png_count": 38,
+  "isolated_source_component_count": 50,
+  "R11_schema_validated_count": 49,
+  "needs_manual_cleanup_count": 1,
+  "rejections": [
+    {
+      "id": "11__01",
+      "original_file": "11.png",
+      "source_sha256": "5682ecbb5f0d24458d5831788851ba7f6bcafba74ef6fa9a8f1d0cc8b07cd615",
+      "component_number": 1,
+      "source_bbox_xywh": "[15, 19, 685, 464]",
+      "source_black_pixels": 214795,
+      "type": "numbered_profile",
+      "isolated_png": "isolated_source_png/11__01.png",
+      "orientation": "up provisional (NOT validated)",
+      "approval": "EXPERIMENTAL",
+      "state": "REVIEW_REQUIRED",
+      "error": "Profile has interior holes; unsupported by this engine"
+    }
+  ],
+  "optional_soffit_components": 5,
+  "alternative_section_plan_tests": 1056,
+  "provisionally_plan_clear": 1056,
+  "scale": "uniform adjustable, preserve original silhouette ratio",
+  "orientation_verified": false,
+  "historical_member_roles_assigned": false,
+  "automatic_soffit_merges": false,
+  "source_SHA256": {
+    "ZIP": "fba241175fd3ccd30cdde9f4f441e30c6e443eb9f94755f91e1f0f3cd6d35fe0",
+    "EXISTING_R11_IMPORTER": "8e76e689b0359f98f395d878df4d1fa22ffe3c112e1d34a4c492d542f6979ff9",
+    "R06": "52939154afe966be7e374d8c19a93f694f344a10cf4f0a954a2be065715e3c29",
+    "R05": "189f6a2631e8d244fc524dda14560c4be6affd6984003cd7c6cdae1668f91a98",
+    "R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "M02": "84653eaeff6adb01601e140a03e2f6d70e497c55f015d77d91bab5f88a7808e2"
+  },
+  "existing_R11_converter_unchanged": true,
+  "original_R06_R08_models_unchanged": true,
+  "structural_and_architectural_approval": false,
+  "R08_3000_and_3259_profile_sensitivity_tests": 1056,
+  "R08_source_geojson_sha256": "f3c09cfb103d2f46c264d31c1dd94c78aa3fcdf61936c6ad9f6b61737d7eb9a4",
+  "R08_source_model_is_approved": false,
+  "R08_source_role_formeret_discrepancy": "True F5ZN-A current carrier set uses formerets, older V13 R05 eight-member axes label U1. Do not conflate.",
+  "source_roles_selected_by_user": false,
+  "R08_actual_3D_moulded_fit_certified": false,
+  "R08_2d_test_rows_with_coverage_below_100_percent": 84
+}

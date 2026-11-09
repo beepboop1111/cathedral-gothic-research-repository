@@ -1,0 +1,15 @@
+{
+  "source_profile_id": "11__01",
+  "status": "EXPERIMENTAL DERIVATIVE ONLY; original source retained",
+  "original_source_png_sha256": "c890e73f77a64985497f1de80fb94752ab46f24b310dad30d9d8bf99b331a32c",
+  "original_internal_holes": 1,
+  "original_contour_hole_area_pixel_sq": 2.0,
+  "actual_raster_pixels_white_to_black": 1,
+  "original_dark_pixel_count": 214795,
+  "fraction_total_source_mask_changed": 3.057e-06,
+  "new_derivative_png_SHA256": "eaef60d3a4f283c8d956c76cb8928810a137b47449ea1c43abfc3a0b8818d880",
+  "new_R11_section_valid": true,
+  "new_section_vertices": 363,
+  "source_engine_unchanged": true,
+  "original_profile_interpretation_needs_review": true
+}

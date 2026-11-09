@@ -1,0 +1,7 @@
+{
+  "checks": {
+    "manifest_valid": true,
+    "all_member_inputs_resolved": true
+  },
+  "input_library_sha256": "c23ac9836441301f6c4f77adccef3c634aa408d70bf1b20ccb30a0313026453f"
+}

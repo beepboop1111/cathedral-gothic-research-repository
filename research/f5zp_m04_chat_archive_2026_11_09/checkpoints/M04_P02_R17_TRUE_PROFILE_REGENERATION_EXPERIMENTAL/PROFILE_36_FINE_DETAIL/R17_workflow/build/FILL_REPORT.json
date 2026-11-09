@@ -1,0 +1,19 @@
+{
+  "method": "Exact source-triangle exterior classification in every vertex-height interval; split only at topological pocket/recess transitions; no outer contour interpolation",
+  "intervals": 2542,
+  "critical_levels": [
+    135.97274780273438,
+    169.9059600830078,
+    280.16851806640625,
+    537.4274291992188,
+    543.4512329101562,
+    545.2221069335938,
+    565.244873046875
+  ],
+  "source_triangles": 11940,
+  "inner_triangles_removed": 4910,
+  "side_triangles": 14739,
+  "boundary_edges": 675,
+  "nonhorizontal_boundary_edges": 0,
+  "nonhorizontal_examples": []
+}

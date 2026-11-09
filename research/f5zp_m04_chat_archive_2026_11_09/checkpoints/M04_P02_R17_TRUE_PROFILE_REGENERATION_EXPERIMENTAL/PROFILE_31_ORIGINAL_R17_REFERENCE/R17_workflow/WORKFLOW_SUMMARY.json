@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "failed_stage": null,
+  "fixture": "/home/christopher/Documents/Cathedral/experimental/SPRINGER_REPRODUCIBLE_R17/fixture/manifest.json",
+  "stages": {
+    "attach": 0,
+    "controls": 0,
+    "build": 0,
+    "diagnostics": 0
+  },
+  "diagnostic_status": "completed",
+  "diagnostic_failure": "inspect stage logs for exception",
+  "diagnostic_warnings": {
+    "quantized_abnormal_edges": 0,
+    "sampled_component_changes": [],
+    "sample_errors": 0
+  },
+  "passed": 76,
+  "total": 76,
+  "course_levels": [
+    0.0,
+    110.0,
+    220.0,
+    340.0,
+    470.0,
+    600.0
+  ],
+  "glb": "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P02_R17_TRUE_PROFILE_REGENERATION_EXPERIMENTAL/PROFILE_31_ORIGINAL_R17_REFERENCE/R17_workflow/build/springer_variant.glb",
+  "reimport_checked": true
+}

@@ -1,0 +1,206 @@
+{
+  "requested": "Blender >=5.2 compatibility / M04 cathedral profile and five-bearing source",
+  "actual_binary_version": "5.2.3 LTS",
+  "bpy_version": [
+    5,
+    2,
+    3
+  ],
+  "source_unmodified_blend_SHA256": "c5f4900616d3d6b6fcb9c76ce08e91019c27bb54fdf30aa2e3448e34397dc220",
+  "protected_original_R03_blend_SHA256": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+  "source_five_original_arches_preserved": true,
+  "source_five_arches_render_hidden_in_B_only": true,
+  "original_18_mesh_count": 18,
+  "four_separate_stone_geometric_checks": [
+    {
+      "stone": "P04_HYPOTHETICAL_BACKING_COURSE_01_Z2400",
+      "source_mesh_faces": 44,
+      "raw_manifold": true,
+      "welded_manifold": true,
+      "world_base_Z": 2400.0005,
+      "world_top_Z": 2420.0005
+    },
+    {
+      "stone": "P04_HYPOTHETICAL_BACKING_COURSE_02_Z2420",
+      "source_mesh_faces": 44,
+      "raw_manifold": true,
+      "welded_manifold": true,
+      "world_base_Z": 2420.0005,
+      "world_top_Z": 2440.0005,
+      "common_bed_vertices_match_to_0p01_native": true
+    },
+    {
+      "stone": "P04_HYPOTHETICAL_BACKING_COURSE_03_Z2440",
+      "source_mesh_faces": 44,
+      "raw_manifold": true,
+      "welded_manifold": true,
+      "world_base_Z": 2440.0005,
+      "world_top_Z": 2460.0005,
+      "common_bed_vertices_match_to_0p01_native": true
+    },
+    {
+      "stone": "P04_HYPOTHETICAL_BACKING_COURSE_04_Z2460",
+      "source_mesh_faces": 44,
+      "raw_manifold": true,
+      "welded_manifold": true,
+      "world_base_Z": 2460.0005,
+      "world_top_Z": 2480.0005,
+      "common_bed_vertices_match_to_0p01_native": true
+    }
+  ],
+  "all_four_candidate_stones_watertight_after_seam_weld": true,
+  "three_true_bedding_vertices_match_to_0p01_native": true,
+  "source_arch_identity_signatures": {
+    "CHAPEL_TRANSVERSE_31000": {
+      "vertices": 1636,
+      "faces": 2426,
+      "hidden": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "BAY1_RIB_1": {
+      "vertices": 913,
+      "faces": 1406,
+      "hidden": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "BAY2_RIB_0": {
+      "vertices": 854,
+      "faces": 1288,
+      "hidden": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "BAY1_FORMERET_0": {
+      "vertices": 2026,
+      "faces": 3206,
+      "hidden": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "BAY2_FORMERET_0": {
+      "vertices": 1968,
+      "faces": 3090,
+      "hidden": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "Blender_5_2_3_native_GLTF_export": true,
+  "Blender_5_2_3_native_GLTF_reimport_18_meshes": 18,
+  "GLTF_source_coordinate_max_error_native_less_than_0p01": true,
+  "source_masonry_and_Pass6J_approved_geometry_changed": false,
+  "historical_source_mouldings_changed": false,
+  "constructability_issue_last_stone_thin_upper_projection_native": 0.655151,
+  "upper_wall_mechanical_keying_verified": false,
+  "structural_capacity_verified": false,
+  "missing_F5ZL_C_schedule": true,
+  "architectural_approval": "WITHHELD",
+  "Blend_5_2_checkpoint": "M04_P05_BLENDER523_READ_ONLY_SOURCE_FOUR_STONE_SCENE_EXPERIMENTAL.blend",
+  "GLB_5_2_roundtrip": "M04_P05_B523_18_MESH_GLTF_ROUNDTRIP_EXPERIMENTAL.glb",
+  "source_view": "A_B523_FULL_SOURCE_WORKBENCH_INTERNAL.png",
+  "cutaway_view": "B_B523_FOUR_STONES_SOURCE_ARCHES_HIDDEN_ONLY_IN_RENDER_INTERNAL.png",
+  "B523_vs_existing_Blender501_cross_version_geometry": [
+    {
+      "assembly": "R14 canonical source five",
+      "identical_GLTF_object_names": true,
+      "GLB_meshes": 12,
+      "maximum_world_bounds_difference_native": 0.0
+    },
+    {
+      "assembly": "P04 four source ashlars",
+      "identical_GLTF_object_names": true,
+      "GLB_meshes": 18,
+      "maximum_world_bounds_difference_native": 0.0
+    }
+  ],
+  "official_5_2_3_tar_archive_sha256": "78486c018b4443efe5e75ab54c290ed8c15abafd249b862c2c9ce2530a918eec",
+  "Blender_5_2_3_install_dir": "/home/christopher/Applications/blender-5.2.3-linux-x64",
+  "existing_default_blender_replaced": false,
+  "test_source_original_preserved": true,
+  "F5ZL_C_support_schedule_missing": true,
+  "source_5_arch_fit_historical_approval": false,
+  "structural_signoff": false,
+  "one_final_review_png_on_MR_COMPUTER": "/home/christopher/Downloads/F5ZP_M04_P05_BLENDER_5_2_3_VALIDATION_FINAL.png"
+}

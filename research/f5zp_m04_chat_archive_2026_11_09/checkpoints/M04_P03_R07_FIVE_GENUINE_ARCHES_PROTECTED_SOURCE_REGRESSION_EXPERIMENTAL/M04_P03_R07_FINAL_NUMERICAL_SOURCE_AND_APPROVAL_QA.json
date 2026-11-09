@@ -1,0 +1,61 @@
+{
+  "milestone": "M04 P03 R07 canonical 5 arch R03 source vs source-restored experimental springer",
+  "status": "TECHNICAL + SOURCE-ALIGNMENT GEOMETRIC PASS; BASE BEARING GEOMETRIC PASS; UPPER BACKING/BONDING NOT APPROVED",
+  "actual_R03_global_spring_xyz": [
+    31000.0,
+    -1250.0,
+    1800.0
+  ],
+  "five_canonical_bearings": {
+    "BAY1_RIB_1": 133.83086027791563,
+    "BAY2_RIB_0": 46.169139722084374,
+    "BAY1_FORMERET_0": 180.0,
+    "BAY2_FORMERET_0": 0.0,
+    "CHAPEL_TRANSVERSE_31000": 90.0
+  },
+  "R03_genuine_source_5_member_3D_sections_checked": 35,
+  "all_35_restored_original_arch_sections_at_least_99p99pct_covered": true,
+  "min_real_source_restore_overlap_fraction": 0.99997352,
+  "maximum_original_arch_section_difference_native_sq": 0.3138244,
+  "profile18_R03_BAY2_coverage_at_7_heights": [
+    0.718879594,
+    0.718915367,
+    0.719155443,
+    0.719234697,
+    0.718870567,
+    0.718825768,
+    0.718719083
+  ],
+  "source_5_member_count": 5,
+  "source_GLB_10_reference_meshes_verified": true,
+  "R14_original_real_5_source_generator_QA": "78/78 PASS",
+  "real_R03_combined_lower_support_section_native_sq": 164232.38096080098,
+  "R05_source_restored_first_course_section_native_sq": 164232.64989929742,
+  "source_base_outside_real_combined_R03_lower_masonry_native_sq": 0.3005212230325356,
+  "supported_source_first_bed_pct": 99.99981701493387,
+  "new_top_source_original_wall_and_five_real_arches_overlap_area": 180856.6404090263,
+  "top_2d_mismatch_total_area_native_sq": 8937.449817166462,
+  "top_main_unmatched_region_native_sq": 8881.425433823944,
+  "top_main_unmatched_region_fraction": 0.9937315023313574,
+  "unmatched_upper_section_geom_components": 13,
+  "top_mismatch_is_a_certified_structural_void": false,
+  "upper_R03_wall_overlapping_spring_courses_requires_replacement_not_overlay": true,
+  "true_3D_bedding_and_rib_carving_cleared_for_approval": false,
+  "missing_F5ZL_C_support_schedule": true,
+  "distinct_from_8_member_Pass6J_R1_78_ambulatory_study": true,
+  "profile_family_selection": "USER WILL CHOOSE; experimental source original is control, NOT final selection",
+  "preserved_original_Pass6J_F5ZKC_F5ZNA_R03_sources": true,
+  "BLENDER_major": 5,
+  "BLENDER_minor": 0,
+  "structural_historical_approval": false,
+  "sources_SHA256": {
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R02B_CANONICAL_SPRINGER_AND_BEARING_MASONRY_EXPERIMENTAL/R03_TEN_PROTECTED_PIER_ARCH_AND_BEARING_MASONRY_REFERENCES.glb": "7c0b832213c7440b9ed6c2f45cc7be47b57036e96e4779365862701bc2a97b07",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R05_ORIGINAL_RIB_SOURCE_ARCHITECTURAL_CONTACT_REBUILD_EXPERIMENTAL/build/springer_variant.glb": "36f04fdea5be3b111a3ad5df26607277380202bbaa63dd908d6c198ccc12af43",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_CANONICAL_FIVE_BEARING_SOURCE_REBUILD_EXPERIMENTAL/build/springer_variant.glb": "c99ae215ffc9cfb79585a899d1867a269098ee9220929fc202733ae28dd0c57f",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R05_ORIGINAL_FIVE_MEMBER_SECTION_FIXTURE_EXPERIMENTAL/M04_P03_R05_ORIGINAL_FIVE_MEMBER_SOURCE_FIXTURE.json": "75fea0a9fe47dc69750695a38aa13cb2d55c149183c619b38c98967c0fcbc563",
+    "/home/christopher/Documents/Cathedral/experimental/UNIFIED_JUNCTION_INTERFACE_R01/INTERFACE_QA.json": "63b7d6f9bd47cd183fbad5ff36f6a290880ec3ad80415691f1b32de7f0288ad6",
+    "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+    "/home/christopher/Documents/Cathedral/experimental/SPRINGER_WORKFLOW_R14/build_springer.py": "b85d46e7e30b5c2b8c95f415bf8e3ae392293710d4e2ace365432503a8873e66",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R06_ALL_FIVE_ORIGINAL_ARCHES_SOURCE_MATCHED_EXPERIMENTAL/F5ZP_M04_P03_R06_TRUE_FIVE_BEARING_RECOVERED_SOURCE_REVIEW.png": "b1966cde272f54e110c47bebe176a7744647315c796f2dd75a82842fc7f6dc3a"
+  }
+}

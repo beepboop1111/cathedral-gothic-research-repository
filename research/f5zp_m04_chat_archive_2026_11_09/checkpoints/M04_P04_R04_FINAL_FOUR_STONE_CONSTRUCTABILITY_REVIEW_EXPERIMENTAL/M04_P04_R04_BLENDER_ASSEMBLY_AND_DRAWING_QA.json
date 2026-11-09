@@ -1,0 +1,19 @@
+{
+  "input_sha256": {
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P04_R03_FOUR_STONE_COURSE_THICKNESS_AND_JOINT_EXPERIMENTAL/M04_P04_R03_FOUR_SEPARATE_EXPERIMENTAL_TAPERED_BACKING_STONES.glb": "df79ed5696aadf3ff253b689d349b54a43988ce1af15a455c13b3090998a8f47",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P04_R02C_FINAL_SOURCE_AND_SEPARATED_WEDGE_VISUAL_EXPERIMENTAL/M04_P04_R02C_ALL_FIVE_ARCHES_RESTORED_SOURCE_AND_EXPERIMENTAL_KEY.blend": "618b1e592515768d7d7e68e9715272f57db77fe2c2405818688a1849f9f470cc",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P04_R03_FOUR_STONE_COURSE_THICKNESS_AND_JOINT_EXPERIMENTAL/M04_P04_R03_FOUR_STONE_SEAM_AND_THIN_TIP_QA.json": "cb7b2f5b541f8685ae29f153115a6d52ca7853a0233cb65fa27def057b971b84",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P04_R01_SHOULDER_OR_TAPERED_BACKING_STUDIES_EXPERIMENTAL/M04_P04_R01_BACKING_STUDY_NUMERICAL_QA.json": "70167d30a955ffc14a5e938fb07a86a41f63065303b431ab7339a6604674922f",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P04_R02B_BLENDER_AXIS_ALIGNED_BACKING_ALTERNATIVES_EXPERIMENTAL/A_SOURCE_SHOULDER_RENDER_INTERNAL.png": "a7390c8c4745a36b9fb9fd57304de9c4a4afcc429f9d0abc24a2f43f0464da95"
+  },
+  "Blender_version": "5.0.1",
+  "source_original_five_arch_meshes_hidden_only_during_B_image": true,
+  "saved_scene_original_five_arch_meshes_visible": true,
+  "saved_scene_total_18_meshes": 18,
+  "new_provisional_masonry_courses": 4,
+  "source_original_five_lower_springer_courses": 5,
+  "round_trip_experimental_glb_mesh_count": 18,
+  "architectural_or_structural_approval": false,
+  "source_GLB_source_z_up_axis_rotation_fixed": true,
+  "final_one_PNG": "F5ZP_M04_P04_R04_ONE_ASHLAR_FEASIBILITY_REVIEW.png"
+}

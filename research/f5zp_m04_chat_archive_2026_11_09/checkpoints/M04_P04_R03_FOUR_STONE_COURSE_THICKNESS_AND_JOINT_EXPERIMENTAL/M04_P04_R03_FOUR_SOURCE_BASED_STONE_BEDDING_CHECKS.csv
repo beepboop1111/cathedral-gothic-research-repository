@@ -1,0 +1,5 @@
+stone,start_Z,end_Z,watertight,consistent_normals,triangles,volume_native_cubed,bottom_bed_area_native_sq,top_bed_area_native_sq,projection_bottom_native,projection_top_native,shared_prior_bedding_contour_difference_area_native_sq,source_original_5_arch_geometries_unchanged,historical_ashlar_joints_validated,construction_warning
+1,2400.0,2420.0,True,True,44,155464.210563,8881.426624,6683.279041,65.516602,49.30127,0,True,False,EXPERIMENTAL LEVEL
+2,2420.0,2440.0,True,True,44,111501.142184,6683.279041,4485.115495,49.30127,33.085815,0.0,True,False,EXPERIMENTAL LEVEL
+3,2440.0,2460.0,True,True,44,67537.92347,4485.115495,2286.96323,33.085815,16.870483,0.0,True,False,EXPERIMENTAL LEVEL
+4,2460.0,2480.0,True,True,44,23574.904432,2286.96323,88.81523,16.870483,0.655151,0.0,True,False,UPPER PINCH < 1% ORIGINAL 65.5-unit PROJECTION

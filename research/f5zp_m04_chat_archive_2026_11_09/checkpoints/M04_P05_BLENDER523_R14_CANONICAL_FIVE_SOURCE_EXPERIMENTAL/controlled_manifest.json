@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "units": "native project units; SI unresolved",
+  "axes": "Z_UP",
+  "input_library": "/home/christopher/Documents/Cathedral/experimental/SPRINGER_JUNCTION_R15/original_backing_inputs.json",
+  "spring": 0.0,
+  "course_levels": [
+    0.0,
+    120.0,
+    240.0,
+    360.0,
+    480.0,
+    600.0
+  ],
+  "study_region": [
+    -360.0,
+    360.0,
+    -400.0,
+    850.0,
+    0.0,
+    600.0
+  ],
+  "members": [
+    {
+      "id": "member_0",
+      "kind": "mesh",
+      "mesh_key": "member_0",
+      "source_name": "CHAPEL_TRANSVERSE_31000"
+    },
+    {
+      "id": "member_1",
+      "kind": "mesh",
+      "mesh_key": "member_1",
+      "source_name": "BAY1_RIB_1"
+    },
+    {
+      "id": "member_2",
+      "kind": "sweep",
+      "mesh_key": "member_2",
+      "source_name": "BAY2_RIB_0",
+      "section_ref": "original",
+      "carrier_ref": "original",
+      "bearing_degrees": 46.169139722084374
+    },
+    {
+      "id": "member_3",
+      "kind": "mesh",
+      "mesh_key": "member_3",
+      "source_name": "BAY1_FORMERET_0"
+    },
+    {
+      "id": "member_4",
+      "kind": "mesh",
+      "mesh_key": "member_4",
+      "source_name": "BAY2_FORMERET_0"
+    }
+  ],
+  "backing": {
+    "mesh_key": "backing"
+  },
+  "tolerances": {
+    "length": 0.005,
+    "area": 2.0
+  },
+  "recovery_context": {
+    "purpose": "TEST actual ORIGINAL source rib section with 5 exact canonical member identities against protected R03 arch surfaces",
+    "source_R15_manifest_sha256": "3a0a61f15a5e45818b5c3b3d43ce968f1941452263ceeea6a7ce80419e409918",
+    "original_Pass6J_geometry_modified": false,
+    "new_profile_selection": "NO - original archived rib source restored as baseline control",
+    "canonical_bearing_degrees": {
+      "BAY1_RIB_1": 133.83086027791563,
+      "BAY2_RIB_0": 46.169139722084374,
+      "BAY1_FORMERET_0": 180.0,
+      "BAY2_FORMERET_0": 0.0,
+      "CHAPEL_TRANSVERSE_31000": 90.0
+    },
+    "original_5_source_members_preserved": true,
+    "architectural_and_structural_approval": false
+  },
+  "source_R15_sha256": "3a0a61f15a5e45818b5c3b3d43ce968f1941452263ceeea6a7ce80419e409918",
+  "controls_change": {
+    "bearing_edits": {},
+    "carrier_edits": {},
+    "course_levels_before": [
+      0.0,
+      120.0,
+      240.0,
+      360.0,
+      480.0,
+      600.0
+    ],
+    "course_levels_after": [
+      0.0,
+      120.0,
+      240.0,
+      360.0,
+      480.0,
+      600.0
+    ],
+    "spring": 0.0,
+    "backing_before": {
+      "mesh_key": "backing"
+    },
+    "backing_after": {
+      "mesh_key": "backing"
+    },
+    "note": "experimental; spring/source geometry not moved; mesh bearings unchanged",
+    "source_manifest_sha256": "75fea0a9fe47dc69750695a38aa13cb2d55c149183c619b38c98967c0fcbc563"
+  }
+}

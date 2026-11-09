@@ -1,0 +1,32 @@
+{
+  "bearing_edits": {
+    "member_2": "46.169139722084374"
+  },
+  "carrier_edits": {},
+  "course_levels_before": [
+    0.0,
+    120.0,
+    240.0,
+    360.0,
+    480.0,
+    600.0
+  ],
+  "course_levels_after": [
+    0.0,
+    120.0,
+    240.0,
+    360.0,
+    480.0,
+    600.0
+  ],
+  "spring": 0.0,
+  "backing_before": {
+    "mesh_key": "backing"
+  },
+  "backing_after": {
+    "mesh_key": "backing"
+  },
+  "note": "experimental; spring/source geometry not moved; mesh bearings unchanged",
+  "source_manifest_sha256": "3a0a61f15a5e45818b5c3b3d43ce968f1941452263ceeea6a7ce80419e409918"
+}
+New manifest: /home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_CANONICAL_FIVE_BEARING_SOURCE_REBUILD_EXPERIMENTAL/controlled_manifest.json

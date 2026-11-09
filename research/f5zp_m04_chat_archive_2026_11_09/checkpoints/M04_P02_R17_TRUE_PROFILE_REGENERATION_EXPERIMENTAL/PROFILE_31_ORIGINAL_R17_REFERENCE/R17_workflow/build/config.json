@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "units": "native project units; SI unresolved",
+  "axes": "Z_UP",
+  "input_library": "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P02_R17_TRUE_PROFILE_REGENERATION_EXPERIMENTAL/PROFILE_31_ORIGINAL_R17_REFERENCE/R17_workflow/profile_input/input_library.json",
+  "spring": 0.0,
+  "course_levels": [
+    0.0,
+    110.0,
+    220.0,
+    340.0,
+    470.0,
+    600.0
+  ],
+  "study_region": [
+    -360.0,
+    360.0,
+    -400.0,
+    850.0,
+    0.0,
+    600.0
+  ],
+  "members": [
+    {
+      "id": "member_0",
+      "kind": "mesh",
+      "mesh_key": "member_0",
+      "source_name": "CHAPEL_TRANSVERSE_31000"
+    },
+    {
+      "id": "member_1",
+      "kind": "mesh",
+      "mesh_key": "member_1",
+      "source_name": "BAY1_RIB_1"
+    },
+    {
+      "id": "member_2",
+      "kind": "sweep",
+      "mesh_key": "member_2",
+      "source_name": "BAY2_RIB_0",
+      "section_ref": "previewed_png",
+      "carrier_ref": "original",
+      "bearing_degrees": 42.16944050198884
+    },
+    {
+      "id": "member_3",
+      "kind": "mesh",
+      "mesh_key": "member_3",
+      "source_name": "BAY1_FORMERET_0"
+    }
+  ],
+  "backing": {
+    "mesh_key": "backing"
+  },
+  "tolerances": {
+    "length": 0.005,
+    "area": 2.0
+  },
+  "profile_input": {
+    "source_file": "31__01.png",
+    "source_sha256": "3f412999234c31645f2e4b1eda3b41df461f05caf5f58d0293388a82b1c0a491",
+    "width": 141.2507,
+    "depth": 143.75387696202532,
+    "nose_direction_on_image": "left",
+    "mirror_width": false,
+    "uniform_scale_units_per_pixel": 0.3575967088607595
+  },
+  "controls_change": {
+    "bearing_edits": {},
+    "carrier_edits": {},
+    "course_levels_before": [
+      0.0,
+      110.0,
+      220.0,
+      340.0,
+      470.0,
+      600.0
+    ],
+    "course_levels_after": [
+      0.0,
+      110.0,
+      220.0,
+      340.0,
+      470.0,
+      600.0
+    ],
+    "spring": 0.0,
+    "backing_before": {
+      "mesh_key": "backing"
+    },
+    "backing_after": {
+      "mesh_key": "backing"
+    },
+    "note": "experimental; spring/source geometry not moved; mesh bearings unchanged",
+    "source_manifest_sha256": "a2055bc65c155d1a319c99047b501a3273a59f3de2c613ef718ae19596737274"
+  }
+}

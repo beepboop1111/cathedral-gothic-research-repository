@@ -1,0 +1,192 @@
+[
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_Buttress_Three_Chapel_Historical_Comparison_R02_EXPERIMENTAL.zip",
+    "member": "buttress_compare_r02/COMPARISON_REPORT.md",
+    "context": "**NOT performed:** new Blender boolean/intersection tests, full-scene 3D clearances, historical arc fits, new bridge or receiver geometry, structural thrust/capacity calculations, F5ZL-C recovery.\n\n**Disposition: historical comparison delivered; bearing selection and M01 remain OPEN.**\n"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_R27_Receiver_Study_EXPERIMENTAL.zip",
+    "member": "F5ZP_M01_R27/R27_REVIEW.md",
+    "context": "l their plan polygons no longer intersect the tested wall/pad footprints. This is geometric siting, not an architectural site selection.\n- No high-vault thrust endpoints, approved F5ZL-C supports or calibrated flyer sections were recovered. No new flyer was fabricated.\n\nHistorical analogy comes from the supplied R02 comparison: Viollet-le-Duc IV p309 fig15 (radial apse), IV p313 fig18 (T-shaped section), Ungewitter I p219 (wall-buttress studies), II p109 (intermediate piers). R27 visually reviewed the supplied nine-plate contact sheet. No plate dimensions were scaled into the cathedral; no new historical arc reconstruction or tr"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_R22_R26_BOUNDED_CONTINUATION_EXPERIMENTAL.zip",
+    "member": "F5ZP_M01_R22_R26_CHECKPOINT/R21_SOURCE_ARCHITECTURAL_REVIEW.md",
+    "context": "547a26d8153ae61810816b31d7d`. Contains actual saved polygonal core/shaft massing at R5285, but its own manifest labels the piers preliminary and historically unapproved. It is not F5ZL-C. |\n| GitHub Master Reference | Recovered from `beepboop1111/cathedral-gothic-research-repository`, `cathedral/governance-r01`, `cathedral/governance/CATHEDRAL_MASTER_REFERENCE.md`; blob `1d7e358ff7562fcc64088854baa2abd3d31a729e`. Provisional governance compilation, not model approval. |\n| R15\u2013R20 GitHub checkpoint | Recovered from `cathedral/experimental/f5zp-m01-r15-r20-20261105`; its M01 architectural gate remains open. |\n| Working generators "
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_R22_R26_BOUNDED_CONTINUATION_EXPERIMENTAL.zip",
+    "member": "F5ZP_M01_R22_R26_CHECKPOINT/R21_SOURCE_ARCHITECTURAL_REVIEW.md",
+    "context": "d | REVIEW COMPLETE; selection UNAPPROVED | B recommended; user architectural selection required before baseline adoption. A preserved. |\n| Real masonry bearing authority | OPEN | F5ZL-C or an independently identified approved receiving-face model; preliminary cores cannot substitute. |\n| Working inner/middle generator authority | OPEN | Locate producer, parameters, original validation outputs and the actual saved working generator without rebuilding it. |\n| Fourteen actual architectural vault connections | OPEN | Confirm intended support topology and reconcile candidate arches, webs and approved middle-ambulatory interfaces. |\n"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_R22_R26_BOUNDED_CONTINUATION_EXPERIMENTAL.zip",
+    "member": "F5ZP_M01_R22_R26_CHECKPOINT/R21_MILESTONE_GATE_MATRIX.csv",
+    "context": "d_contacts,Geometric,LIMITED_PASS,14/14 swept pad intersections,Pads unapproved\r\nApproved_actual_masonry_bearings,Architectural,OPEN,0 verified authentic approved bearing contacts,F5ZL-C or approved receiving-face source\r\nFour_bearings_per_half_cell,Architectural,OPEN,Two explicit spring-to-boss ribs per half-cell,Confirm topology and real load paths\r\nApproved_inner_middle_generator,Technical_and_Architectural,OPEN,Recovered scripts preserved without rerunning,Exact approved working producer and QA identity\r\nV13_interface_fit,Geometric,FAIL_AS_ACCEPTANCE_TEST,15 comparator/web intersection pairs; gaps up to 145.668,Comparator un"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/Gothic_2D_Chat_Complete_Archive_2026-11-05/Eastern_Chapels_R01_EXPERIMENTAL/eastern_chapels_r01/eastern_chapels_r01.zip",
+    "member": "build_study.py",
+    "context": "ontext is crossing masonry and plan guides, not full cathedral exterior','SI scale','vertical scheme/window clearance','entrance and rib load paths','flyer contacts and capacity','F5ZL-C supports','shared partition development'],'frame':'Blender X east Y north Z up; GLB Y up'}\n(ROOT/'QA.json').write_text(json.dumps(qa,indent=2))\n"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/Gothic_2D_Chat_Complete_Archive_2026-11-05/Eastern_Chapels_R01_EXPERIMENTAL/eastern_chapels_r01/eastern_chapels_r01.zip",
+    "member": "QA.json",
+    "context": "y and plan guides, not full cathedral exterior\",\n    \"SI scale\",\n    \"vertical scheme/window clearance\",\n    \"entrance and rib load paths\",\n    \"flyer contacts and capacity\",\n    \"F5ZL-C supports\",\n    \"shared partition development\"\n  ],\n  \"frame\": \"Blender X east Y north Z up; GLB Y up\"\n}"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_RIB_RECOVERY_R01_SUPPORT_REPORT(1).zip",
+    "member": "R21_B_original_QA.json",
+    "context": " arch to provisionally registered web surface; not an approved-web clearance\"\n    }\n  ],\n  \"glb_selected_objects\": 228,\n  \"not_validated\": [\n    \"approved receiving masonry\",\n    \"F5ZL-C support schedule\",\n    \"V13 arch/web registration\",\n    \"four independent masonry bearings per half cell\",\n    \"gallery/window openings\",\n    \"roof drainage and flyers\",\n    \"historical construction\",\n    \"structural capacity\",\n    \"physical conversion\"\n  ]\n}"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_RIB_RECOVERY_R01_SUPPORT_REPORT(1).zip",
+    "member": "R21_original_generator_reference.py",
+    "context": "_v13_surface_intersections':overlaps,'registered_interface_distances':registered_interface_gaps,'glb_selected_objects':len(selected),'not_validated':['approved receiving masonry','F5ZL-C support schedule','V13 arch/web registration','four independent masonry bearings per half cell','gallery/window openings','roof drainage and flyers','historical construction','structural capacity','physical conversion']}\n (OUT/f'R21_{variant}_QA.json').write_text(json.dumps(report,indent=2))\n reports.append(report)\n print('R21_VARIANT_SAVED',variant,'webs',len(webs),'trial_surface_contacts',sum(r['swept_surface_intersection_triangle_pairs']>0 fo"
+  },
+  {
+    "archive": "/home/christopher/Downloads/F5ZP_M04_P07_B523_FIVE_GOTHIC_BEARING_SOURCE_AND_CONTACT_HANDOFF_EXPERIMENTAL.zip",
+    "member": "M04_P07/SCRIPT/M04_P07_R05_FINAL_QA_AND_DESKTOP_FILES.py",
+    "context": "exposed construction discrepancy, NOT proof of a void or an invitation to automatically add stone. Upper rear keying, bedding shear, historic coursing, final profile selection and F5ZL-C schedule remain open. No structural or historical approval granted.\n\nTwo final Desktop GLBs: clean 14-mesh source coordination and 21-mesh source+7 **zero thickness NON-MASONRY** XY bearing diagnostic surfaces; both maintain the identical 14 original mesh objects and world-space bounds (max difference 0). Contact surfaces are designed to be toggled by their own Blender collection. No additional construction solids were added.\n\nFinal one review P"
+  },
+  {
+    "archive": "/home/christopher/Downloads/F5ZP_M04_P02_R17_SHARED_GOTHIC_PROFILE_REGENERATION_EXPERIMENTAL_LOCAL.zip",
+    "member": "M04_P02/scripts/M04_P02_FINALIZE_REGRESSION_AND_PNG.py",
+    "context": "ires 5. Do not register to approved F5ZK-C.\",font=subfont,fill=(153,59,52))\ndraw.text((44,1490),\"Four experimental validation passes do not establish actual tas-de-charge backing, F5ZL-C support schedule, or structural capacity.\",font=tinyfont,fill=(93,106,118))\nreview=O/\"F5ZP_M04_P02_FOUR_R17_TRUE_PROFILE_BLENDER_COMPARISON.png\"\nim.save(review,optimize=True)\nwith Image.open(review) as chk:assert chk.size==(W,H);chk.verify()\nsha_references={str(x):hashlib.sha256(x.read_bytes()).hexdigest() for x in [SOURCE,ENG,WK,F,IQA]}\nq={\"milestone\":\"M04 P02 true R11-to-R17 integration; four independent Blender runs\",\n \"validation_status\":\"EX"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/F5ZP_ORIGINAL_CHECKPOINTS_AND_COORDINATES_R05_EXPERIMENTAL.zip",
+    "member": "geometry_reconciliation_v02/recovered_original_checkpoints/F5ZN_A_COMPREHENSIVE_FLOOR_PLAN_CHECKPOINT.json",
+    "context": "lery_floor\": 4521\n  },\n  \"high_storey_stack\": {\n    \"high_spring\": 13500,\n    \"ordinary_choir_boss\": 16225,\n    \"gallery_floor\": 4950\n  },\n  \"physical_supports_source\": \"CATHEDRAL_F5ZL_C_PHYSICAL_SUPPORTS.csv\",\n  \"physical_supports_count\": 248,\n  \"deferred_receive_count\": 102,\n  \"outer_wall_source\": \"F5ZM-B and F5ZM-C\",\n  \"flying_root_source\": \"F5ZM-C\",\n  \"landing_authority\": \"F5ZM-D; flyer curves not yet generated\",\n  \"scope_warnings\": [\n    \"outer wall solids are structural envelopes; actual openings must be subtracted during 3D build\",\n    \"westwork and transept porches shown as schematic reservations\",\n    \"high and lower va"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_R21_EW_DEPTH_1160_1120_1080_EXPERIMENTAL.zip",
+    "member": "R21_Q1_Q2_EW_DEPTH_COMPARISON_2D.py",
+    "context": "iew image includes full cathedral at the top, true-scale Y=0 plan slices below, dark-mode high contrast. No physical support, vaulted bay, passage, arch height, masonry bonding or F5ZL-C schedule altered.\n\nReproduce: python3 R21_Q1_Q2_EW_DEPTH_COMPARISON_2D.py\n\"\"\")\nzipout=Path.home()/\"Downloads\"/\"F5ZP_R21_EW_DEPTH_1160_1120_1080_EXPERIMENTAL.zip\"\nwith zipfile.ZipFile(zipout,\"w\",compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:\n    z.write(Path(__file__),arcname=Path(__file__).name)\n    for p in sorted(OUT.iterdir()):z.write(p,arcname=p.name)\nwith zipfile.ZipFile(zipout) as z:assert z.testzip() is None\nprint(\"R21 QA PASS; f"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_R21_EW_DEPTH_1160_1120_1080_EXPERIMENTAL.zip",
+    "member": "README_HANDOFF.md",
+    "context": "iew image includes full cathedral at the top, true-scale Y=0 plan slices below, dark-mode high contrast. No physical support, vaulted bay, passage, arch height, masonry bonding or F5ZL-C schedule altered.\n\nReproduce: python3 R21_Q1_Q2_EW_DEPTH_COMPARISON_2D.py\n"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_R21_Architectural_Integration_EXPERIMENTAL.zip",
+    "member": "F5ZP_M01_R21_EXPERIMENTAL/README.md",
+    "context": "ne. See the review for exact reproduction and validation limits.\n\nDo not reinstate the discarded historic outer ring, alter protected supports, equate preliminary trial cores with F5ZL-C masonry, or close M01 based on technical export success.\n"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_CONTINUATION_HANDOFF_R02 (1).zip",
+    "member": "F5ZP_M01_CONTINUATION_HANDOFF_R02/HANDOFF.md",
+    "context": "el R03 were recovered from MR COMPUTER under `/home/christopher/Downloads/Gothic_2D_Chat_Complete_Archive_2026-11-05/`; these are **experimental studies, not approval**.\n- The old F5ZL-C file `CATHEDRAL_F5ZL_C_PHYSICAL_SUPPORTS.csv` (248 recorded support positions in past checkpoint descriptions) has not been located. Do not reconstruct it from assumptions.\n\n## 3. Latest development source (use this, not R09\u2013R13 as current generator)\n\nOn MR COMPUTER, the latest native editable Blender checkpoint is:\n\n    /home/christopher/Desktop/F5ZP_M01_R15_R20_EXPERIMENTAL_20261105/F5ZP_M01_R15_R20_EXPERIMENTAL_V03.blend\n\nSHA-256: `c1273df02f"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_CONTINUATION_HANDOFF_R02 (1).zip",
+    "member": "F5ZP_M01_CONTINUATION_HANDOFF_R02/HANDOFF.md",
+    "context": "rom MR COMPUTER under `/home/christopher/Downloads/Gothic_2D_Chat_Complete_Archive_2026-11-05/`; these are **experimental studies, not approval**.\n- The old F5ZL-C file `CATHEDRAL_F5ZL_C_PHYSICAL_SUPPORTS.csv` (248 recorded support positions in past checkpoint descriptions) has not been located. Do not reconstruct it from assumptions.\n\n## 3. Latest development source (use this, not R09\u2013R13 as current generator)\n\nOn MR COMPUTER, the latest native editable Blender checkpoint is:\n\n    /home/christopher/Desktop/F5ZP_M01_R15_R20_EXPERIMENTAL_20261105/F5ZP_M01_R15_R20_EXPERIMENTAL_V03.blend\n\nSHA-256: `c1273df02f4a0c6d7db100169b184bef7"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_CONTINUATION_HANDOFF_R02 (1).zip",
+    "member": "F5ZP_M01_CONTINUATION_HANDOFF_R02/HANDOFF.md",
+    "context": "ves.png`; compare both before generating masonry that relies on either.\n\n## 6. R20 acceptance criteria still open\n\n1. Recover actual saved AMB-M receiving-face masonry polygons or F5ZL-C; verify true rib-to-masonry contact and no displaced protected piers.\n2. Reconcile approved chapel identities against both R03 alternatives and saved geometry; preserve both experimental versions until decision.\n3. Verify seven real inward passages and seven chapel thresholds in the actual cathedral, including **real** jamb faces, radial/tangential clearances, open lower paired vault entrances and any permitted window positions; do not reinstate"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_R22_EW_DEPTH_1160_1080_960_EXPERIMENTAL.zip",
+    "member": "R22_Q1_Q2_EW_960_TRIAL_2D.py",
+    "context": "ark-mode high contrast. Preferred CURRENT TRIAL 960 units; this is not an approved physical plan change. No physical support, vaulted bay, passage, arch height, masonry bonding or F5ZL-C schedule altered.\n\nReproduce: python3 R22_Q1_Q2_EW_DEPTH_COMPARISON_2D.py\n\"\"\")\nzipout=Path.home()/\"Downloads\"/\"F5ZP_R22_EW_DEPTH_1160_1080_960_EXPERIMENTAL.zip\"\nwith zipfile.ZipFile(zipout,\"w\",compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:\n    z.write(Path(__file__),arcname=Path(__file__).name)\n    for p in sorted(OUT.iterdir()):z.write(p,arcname=p.name)\nwith zipfile.ZipFile(zipout) as z:assert z.testzip() is None\nprint(\"R22 QA PASS; fi"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_R22_EW_DEPTH_1160_1080_960_EXPERIMENTAL.zip",
+    "member": "README_HANDOFF.md",
+    "context": "ark-mode high contrast. Preferred CURRENT TRIAL 960 units; this is not an approved physical plan change. No physical support, vaulted bay, passage, arch height, masonry bonding or F5ZL-C schedule altered.\n\nReproduce: python3 R22_Q1_Q2_EW_DEPTH_COMPARISON_2D.py\n"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_M01_CONTINUATION_HANDOFF_R02 (1)/F5ZP_M01_CONTINUATION_HANDOFF_R02/F5ZP_M01_R15_R20_Integrated_Chevet_EXPERIMENTAL.zip",
+    "member": "F5ZP_M01_R15_R20_EXPERIMENTAL/START_HERE.md",
+    "context": "y are modeled outside protected AMB-M. The radial corridor between these pad envelopes has 940 native units; circulation centerlines do not intersect them. These pads are NOT real F5ZL-C masonry. Contact of ribs with these pads is a candidate-geometry test only.\n\n## R16 \u2014 ribs and vault webs\nFourteen actual 3D thickened analytic web patches, 28 spatial ogive curves, 14 bosses and seven crown ridges. Ring-profile entrance arches now follow radial-constant curved setout, not straight chords; any tube-level overlap across the source reference radius is flagged. Each closed mesh is a technical surface, **not** an architecturally or "
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_M01_CONTINUATION_HANDOFF_R02 (1)/F5ZP_M01_CONTINUATION_HANDOFF_R02/F5ZP_M01_R15_R20_Integrated_Chevet_EXPERIMENTAL.zip",
+    "member": "F5ZP_M01_R15_R20_EXPERIMENTAL/build_m01_experimental.py",
+    "context": "y are modeled outside protected AMB-M. The radial corridor between these pad envelopes has 940 native units; circulation centerlines do not intersect them. These pads are NOT real F5ZL-C masonry. Contact of ribs with these pads is a candidate-geometry test only.\\n\\n## R16 \u2014 ribs and vault webs\\nFourteen actual 3D thickened analytic web patches, 28 spatial ogive curves, 14 bosses and seven crown ridges. Ring-profile entrance arches now follow radial-constant curved setout, not straight chords; any tube-level overlap across the source reference radius is flagged. Each closed mesh is a technical surface, **not** an architecturally "
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_MASONRY_R11_FULL_CONVERSATION_HANDOFF_R01_2026-11-06.zip",
+    "member": "STATUS.json",
+    "context": "this_session\": \"handoff package integrity only; prior geometry checks not rerun\",\n  \"open_issues\": [\"R11 Q5 collision\", \"choir transition geometry\", \"source-file reconciliation\", \"F5ZL-C support schedule\", \"physical unit conversion provenance\"]\n}\n"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_M01_CONTINUATION_HANDOFF_R02 (1).zip",
+    "member": "F5ZP_M01_CONTINUATION_HANDOFF_R02/START_NEXT_CHAT.md",
+    "context": "rior 50/90/130 vs experimental 70/90/110) against saved entrances and cathedral geometry without silently changing locked identity. Recover authentic AMB-M masonry receiving faces/F5ZL-C if accessible; otherwise retain zero verified bearing contacts. Advance non-destructive architectural integration through the remaining verification gates: shared pier/vestibule footprints, 14 vault rib bearing and web interfaces, upper/lower levels and windows, three chapel roofs/buttresses, 3D collisions and final comparison/QA. Do not stop at a plan. Generate versioned experimental checkpoints and final review files; never promote experimenta"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_COMPLETE_COORDINATED_HANDOFF_R01_2026-11-06.zip",
+    "member": "00_START_HERE/CHEVET_CHAPELS_BUTTRESSES_HANDOFF_R02.md",
+    "context": "Historical plates are *research evidence*. They cannot supply construction dimensions for the cathedral without traced curves, correspondence and calibration. No source has solved F5ZL-C or proven load paths.\n\n## 6 \u2014 Early visual-proportion guidelines (PROPOSED ONLY)\n\nThese are recovered **design brainstorming ratios** with W = an illustrative typical aisle/chapel frontage width. They are *not geometry locks, exact offsets, or measured dimensions*: \n\n| Feature | Proposed visual proportion |\n|---|---:|\n| Axial chapel projection | approximately 1.5\u20132.0 W |\n| Near-axial companion chapel projection | approximately 1.0\u20131.25 W |\n| Mor"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/F5ZP_CHEVET_CHAPEL_CONNECTIONS_CIRCULATION_R01_EXPERIMENTAL.zip",
+    "member": "F5ZP_CHEVET_CHAPEL_CONNECTIONS_CIRCULATION_R01_EXPERIMENTAL/draw.py",
+    "context": "ENTAL, plan only)', fontsize=14, weight='bold')\nfig.text(.5, -.11, 'Saved geometry only: R07 plan cells, V03 chapel/pad objects, RIB_TRIAL pier envelopes (axis-aligned bounds). No F5ZL-C supports, no heights, no approval. Native units.',\n         ha='center', fontsize=8, color='#555')\nfor ext in ('png', 'svg'): fig.savefig(OUT / f'01_CIRCULATION_PLAN_A_vs_B.{ext}', dpi=170, bbox_inches='tight', facecolor='white')\nplt.close(fig)\n\n# ---------- Sheet 2: route width profiles ----------\nq = json.load(open(OUT / 'profiles.json'))\nfig, axs = plt.subplots(2, 1, figsize=(13, 8), layout='constrained', sharex=True)\nzones = [(2933, 4085, 'i"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/Gothic_2D_Chat_Complete_Archive_2026-11-05/F5ZP_Registration_Contact_R03_EXPERIMENTAL.zip",
+    "member": "F5ZP_Registration_Contact_R03_EXPERIMENTAL/inputs/MR_COMPUTER_text_sources.json",
+    "context": "n  },\\n  \\\"high_storey_stack\\\": {\\n    \\\"high_spring\\\": 13500,\\n    \\\"ordinary_choir_boss\\\": 16225,\\n    \\\"gallery_floor\\\": 4950\\n  },\\n  \\\"physical_supports_source\\\": \\\"CATHEDRAL_F5ZL_C_PHYSICAL_SUPPORTS.csv\\\",\\n  \\\"physical_supports_count\\\": 248,\\n  \\\"deferred_receive_count\\\": 102,\\n  \\\"outer_wall_source\\\": \\\"F5ZM-B and F5ZM-C\\\",\\n  \\\"flying_root_source\\\": \\\"F5ZM-C\\\",\\n  \\\"landing_authority\\\": \\\"F5ZM-D; flyer curves not yet generated\\\",\\n  \\\"scope_warnings\\\": [\\n    \\\"outer wall solids are structural envelopes; actual openings must be subtracted during 3D build\\\",\\n    \\\"westwork and transept porches shown as schematic reserva"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/Gothic_2D_Chat_Complete_Archive_2026-11-05/F5ZP_X02_R05_BEARINGS_AND_ROOFS.zip",
+    "member": "F5ZP_X02_R05_BEARINGS_AND_ROOFS/build_r05.py",
+    "context": "ail':detail})\nck('R04_VERIFIED_BYTES',H0=='54e2066ba97b2b787f2976b07c055fa9a4053087a9d3504f88617a06618c52a5')\n# Four bearing stations, each with west/east piers. New supports, NOT F5ZL-C.\nxs=[-29.70,-27.60];stations=[27.65,32.60,35.40,40.25]\npiers=[{'id':f'P{i+1}{side}','x':x,'z':z,'geometry':box(x-.35,z-.35,x+.35,z+.35)} for i,z in enumerate(stations) for side,x in zip(['W','E'],xs)]\nbeams=[];seats=[]\nfor si,(za,zb) in enumerate(zip(stations[:-1],stations[1:])):\n for side,x in zip(['W','E'],xs):\n  bid=f'G{si+1}{side}';q=box(x-.15,za,x+.15,zb)\n  beams.append({'id':bid,'geometry':q,'span_clear_m':zb-za-.7,'length_m':zb-za,'bottom"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/1/Gothic_2D_Chat_Complete_Archive_2026-11-05/F5ZP_X02_R05_BEARINGS_AND_ROOFS.zip",
+    "member": "F5ZP_X02_R05_BEARINGS_AND_ROOFS/README.md",
+    "context": " path. Member sizes and foundations remain unverified; consult CHECKPOINT.md for exact assumptions and scope. The support schedule is local to this experiment and does not recover F5ZL-C.\n\nThe roof study retains upper FFL +3.600, reserves the +5.700 stair envelope and establishes an upper-room ceiling control +6.300. Roof step upstands are modeled. Flashings, gutters, drainage and carpentry remain detail work. 3D walls are schematic plan-cut extrusions; full windows, door heads and historic details are not finished architectural elevations.\n\n## Reproduce\n\nInstall `requirements.txt`, then run `python3 build_r05.py`. This reads th"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/F5ZP_PHASE1_COMPLETE_RECOVERY_DEDUP_FINAL.zip",
+    "member": "PHASE1_FILE_RECOVERY_DEDUP_V01/14_Authority_Triage_and_Source_Consistency.json",
+    "context": " masonry\",\n    \"F5ZK-C\": \"named chevet reference / coordinates protected in MP02 review\",\n    \"F5ZN-A\": \"comprehensive reference checkpoint / hash matched existing manifest\",\n    \"F5ZL-C\": \"support schedule referred to but CSV not recovered\",\n    \"Study D\": \"working outer envelope, NOT an approved final wall\",\n    \"G40Q-16A\": \"live masonry state mentioned but not inspected\"\n  },\n  \"primary_source_files\": {\n    \"CATHEDRAL_F5ZK_C_CURVED_CHEVET_AMBULATORY_IDENTITY.json\": {\n      \"path\": \"/home/christopher/Desktop/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/geometry_reconciliation_v02/recovered_original_checkpoints/CATHEDRAL_F5ZK_C_CURVED_CH"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/F5ZP_PHASE1_COMPLETE_RECOVERY_DEDUP_FINAL.zip",
+    "member": "PHASE1_FILE_RECOVERY_DEDUP_V01/README_FINAL.md",
+    "context": "s, not permission to replace current architecture. Also recovered nearby F5ZE corrected master and global-coordinate JSON copies.\n\n## Remaining external dependency\nThe **CATHEDRAL_F5ZL_C_PHYSICAL_SUPPORTS.csv** containing 248 recorded support positions could not be found in indexed paths or listed archive member names. It is not regenerated. Source authority, installed-state geometry and version precedence are a separate review stage.\n\n## Files\n- `Recovery_Index.sqlite` searchable file registry\n- `01_Searchable_File_Inventory.csv` paths, hashes and metadata\n- `02_Exact_Duplicate_Groups.*` all byte-identical groups\n- `03_Potentia"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/F5ZP_PHASE1_FILE_RECOVERY_DEDUP_V01.zip",
+    "member": "PHASE1_FILE_RECOVERY_DEDUP_V01/README.md",
+    "context": "overed with an exact hash matching the source documented in the October 9 reference PDF. Neither fact independently promotes a later revision or resolves all design conflicts. The F5ZL-C 248-support CSV was not found during the current indexed search.\n\n## Re-run and query\n```bash\ncd ~/Desktop/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL\npython3 phase1_inventory_v01.py\npython3 phase1_review_v01.py\npython3 search_recovery_v01.py F5ZN checkpoint\npython3 search_recovery_v01.py ug_vault_generator\npython3 search_recovery_v01.py --scope cathedral_candidate --limit 100\n```\n\nNext: verify checkpoint authority/lineage, inspect large deferred files a"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/F5ZP_MASTER_PLAN_RECOVERY_AND_ASSEMBLY_V01_REVIEW.zip",
+    "member": "master_plan_recovery_v01.py",
+    "context": "e its filename matches.\",\"architectural_components\":[\n  {\"system\":\"nave\",\"basis\":\"F5ZE corrected 2D via MP-02\",\"status\":\"documented design\"},\n  {\"system\":\"straight choir\",\"basis\":\"F5ZL-C/F5ZM-D via MP-02\",\"status\":\"documented design with Q1 conflict\"},\n  {\"system\":\"transept\",\"basis\":\"F5ZE/F5ZK-H via MP-02\",\"status\":\"documented design, terminal geometry open\"},\n  {\"system\":\"crossing\",\"basis\":\"F5ZE/F5ZK-E CR-H via MP-02\",\"status\":\"documented design, pier roots unverified\"},\n  {\"system\":\"curved chevet AMB-I/M\",\"basis\":\"F5ZK-C via MP-02 and reference\",\"status\":\"protected coordinates\"},\n  {\"system\":\"outer chevet\",\"basis\":\"Study D via"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/F5ZP_MASTER_PLAN_RECOVERY_AND_ASSEMBLY_V01_REVIEW.zip",
+    "member": "MASTER_PLAN_RECOVERY_V01_EXPERIMENTAL/01_Recovery_Register_Summary.json",
+    "context": "\": [\n    {\n      \"system\": \"nave\",\n      \"basis\": \"F5ZE corrected 2D via MP-02\",\n      \"status\": \"documented design\"\n    },\n    {\n      \"system\": \"straight choir\",\n      \"basis\": \"F5ZL-C/F5ZM-D via MP-02\",\n      \"status\": \"documented design with Q1 conflict\"\n    },\n    {\n      \"system\": \"transept\",\n      \"basis\": \"F5ZE/F5ZK-H via MP-02\",\n      \"status\": \"documented design, terminal geometry open\"\n    },\n    {\n      \"system\": \"crossing\",\n      \"basis\": \"F5ZE/F5ZK-E CR-H via MP-02\",\n      \"status\": \"documented design, pier roots unverified\"\n    },\n    {\n      \"system\": \"curved chevet AMB-I/M\",\n      \"basis\": \"F5ZK-C via MP-02 and "
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/F5ZP_PHASE4_AUTOMATED_ARCHITECTURAL_VALIDATION_V01_EXPERIMENTAL_REVIEW.zip",
+    "member": "phase4_architectural_validate_v01.py",
+    "context": "not proof of compatible pointed-arch rib and vault-web 3D generation.\",\"AMB-I/M\",\"F5ZK-C identity JSON\")\n a.gate(\"SUPPORT-248\",\"blocker\",\"248-support coordinate schedule CATHEDRAL_F5ZL_C_PHYSICAL_SUPPORTS.csv not recovered; no support-root polygon or elevation collision check.\",\"physical-supports\",\"F5ZN-A checkpoint\")\n a.gate(\"JOIN-29\",\"blocker\",\"Q1 source R2 5400 conflicts with F5ZE junction R2 5429 by 29 full-scale project units.\",\"straight-choir-junction\",\"MP02 atlas\")\n a.gate(\"GALLERY-429\",\"blocker\",\"F5ZK-C gallery floor Y4521 conflicts with later G1 working Y4950 by 429.\",\"vertical\",\"F5ZK-C/MP02 atlas\")\n a.gate(\"CHEVET-TRAN"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/F5ZP_PHASE4_AUTOMATED_ARCHITECTURAL_VALIDATION_V01_EXPERIMENTAL_REVIEW.zip",
+    "member": "PHASE4_AUTOMATED_ARCHITECTURAL_VALIDATION_V01_EXPERIMENTAL/01_Full_Validation_Report.json",
+    "context": "{\n      \"id\": \"SUPPORT-248\",\n      \"severity\": \"blocker\",\n      \"status\": \"BLOCKED\",\n      \"scope\": \"physical-supports\",\n      \"detail\": \"248-support coordinate schedule CATHEDRAL_F5ZL_C_PHYSICAL_SUPPORTS.csv not recovered; no support-root polygon or elevation collision check.\",\n      \"source\": \"F5ZN-A checkpoint\"\n    },\n    {\n      \"id\": \"JOIN-29\",\n      \"severity\": \"blocker\",\n      \"status\": \"BLOCKED\",\n      \"scope\": \"straight-choir-junction\",\n      \"detail\": \"Q1 source R2 5400 conflicts with F5ZE junction R2 5429 by 29 full-scale project units.\",\n      \"source\": \"MP02 atlas\"\n    },\n    {\n      \"id\": \"GALLERY-429\",\n      \"seve"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/F5ZP_PHASE4_AUTOMATED_ARCHITECTURAL_VALIDATION_V01_EXPERIMENTAL_REVIEW.zip",
+    "member": "PHASE4_AUTOMATED_ARCHITECTURAL_VALIDATION_V01_EXPERIMENTAL/03_Exceptions_And_Decision_Gates.csv",
+    "context": "not proof of compatible pointed-arch rib and vault-web 3D generation.,F5ZK-C identity JSON\r\nSUPPORT-248,blocker,BLOCKED,physical-supports,248-support coordinate schedule CATHEDRAL_F5ZL_C_PHYSICAL_SUPPORTS.csv not recovered; no support-root polygon or elevation collision check.,F5ZN-A checkpoint\r\nJOIN-29,blocker,BLOCKED,straight-choir-junction,Q1 source R2 5400 conflicts with F5ZE junction R2 5429 by 29 full-scale project units.,MP02 atlas\r\nGALLERY-429,blocker,BLOCKED,vertical,F5ZK-C gallery floor Y4521 conflicts with later G1 working Y4950 by 429.,F5ZK-C/MP02 atlas\r\nCHEVET-TRANSFORM,unknown,UNVERIFIED,coordinate-transform,\"F5ZN-"
+  },
+  {
+    "archive": "/home/christopher/Downloads/downlods/3/F5ZP_3D_PIPELINE_R01_EXPERIMENTAL/2/F5ZP_CATHEDRAL_SYSTEM_EXPERIMENTAL/F5ZP_PHASE5_ARCHITECTURAL_DEVELOPMENT_V01_EXPERIMENTAL_REVIEW.zip",
+    "member": "PHASE5_ARCHITECTURAL_DEVELOPMENT_V01_EXPERIMENTAL/01_Prioritized_Architectural_Decision_Register.csv",
+    "context": "priority,id,severity,status,scope,detail,source,recommended_experiment\r\n1,SUPPORT-248,blocker,BLOCKED,physical-supports,248-support coordinate schedule CATHEDRAL_F5ZL_C_PHYSICAL_SUPPORTS.csv not recovered; no support-root polygon or elevation collision check.,F5ZN-A checkpoint,Find physical support positions in authoritative source Blender/CSV archives; no synthesized coordinate table.\r\n2,CHEVET-TRANSFORM,unknown,UNVERIFIED,coordinate-transform,\"F5ZN-A trial world transform is corroborated, but F5ZK-C original world yaw not independently certified.\",coordinate_frame.json,Cross-check F5ZK-C original generator ya"
+  }
+]

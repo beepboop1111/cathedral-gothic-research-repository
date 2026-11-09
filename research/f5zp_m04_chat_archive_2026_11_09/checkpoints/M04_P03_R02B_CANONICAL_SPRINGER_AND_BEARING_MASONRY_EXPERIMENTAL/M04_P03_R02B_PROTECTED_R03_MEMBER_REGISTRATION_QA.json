@@ -1,0 +1,227 @@
+{
+  "R03_source_sha256": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+  "candidate_P03_r14_sha256": "c99ae215ffc9cfb79585a899d1867a269098ee9220929fc202733ae28dd0c57f",
+  "original_247_meshes_seen": 247,
+  "unmodified_R03_six_selected_geometry_signatures": {
+    "SHARED_PIER_S": "618adb14163d01a2acca44ff7db2de7492dcd131425cd72b9a8dbfe9aff5690b",
+    "CHAPEL_TRANSVERSE_31000": "9e39fd8b0751045c6d5f883cd32db1e1db14bc8873b43acb0856d3adae18d32f",
+    "BAY1_RIB_1": "1c0795716000f4530c6132eb1d990ed9bbb95a9cf2067c4308a3c70e15846d7f",
+    "BAY2_RIB_0": "8eb9b8b93fa9da6dde5413a1fce62c86d777df34e318bdae389f1a49aa1997c9",
+    "BAY1_FORMERET_0": "16050874ea573ecb95155165928c0342213ede61088790ba680a077aa8c78a16",
+    "BAY2_FORMERET_0": "002fff7a136099188f2525c62e3ad61145e48ac8d221e5d2b9e17a4ef5c9a62d",
+    "RECEIVING_S_LOWER_0": "28f2b79e6d9c5ca3c79564f8b955a116cd75c3d4d50873fd7a7dc0fd7f02adb7",
+    "RECEIVING_S_LOWER_1": "152dfcf81b8d8829a20ec9c25b4192a96eea66b805dc958df8e37ede7fcbeba3",
+    "RECEIVING_S_UPPER_0": "46c4f69412caf5153c68edf344822cf68ec35d7e75963c524710bfc5a1ed8cef",
+    "RECEIVING_S_PLINTH_0": "43d6ddbb8f64d1d0e93029280250a63747d3e2b9b90e49d306fd4db05d6bcfb7"
+  },
+  "unchanged_selected_mesh_source_reference": true,
+  "member_names": [
+    "CHAPEL_TRANSVERSE_31000",
+    "BAY1_RIB_1",
+    "BAY2_RIB_0",
+    "BAY1_FORMERET_0",
+    "BAY2_FORMERET_0"
+  ],
+  "members": [
+    {
+      "source_name": "CHAPEL_TRANSVERSE_31000",
+      "rebuilt_member": "member_0",
+      "canonical_source_bearing_degrees": 90.0,
+      "protected_original_bounds_global": [
+        [
+          30910.30664,
+          31089.69336
+        ],
+        [
+          -1250.0,
+          1250.0
+        ],
+        [
+          1800.0,
+          4125.0
+        ]
+      ],
+      "candidate_translated_bounds_global": [
+        [
+          30910.30664,
+          31089.69336
+        ],
+        [
+          -1184.50537,
+          1250.0
+        ],
+        [
+          1800.0,
+          4125.0
+        ]
+      ],
+      "bounding_box_max_coordinate_error_native": 65.49463,
+      "source_original_TRI": 6626,
+      "candidate_TRI": 12058,
+      "source_geometry_unchanged": true,
+      "candidate_full_height_exact_match": false
+    },
+    {
+      "source_name": "BAY1_RIB_1",
+      "rebuilt_member": "member_1",
+      "canonical_source_bearing_degrees": 133.83086027791563,
+      "protected_original_bounds_global": [
+        [
+          29740.63477,
+          31046.89062
+        ],
+        [
+          -1295.01453,
+          57.75481
+        ],
+        [
+          1800.0,
+          4150.0
+        ]
+      ],
+      "candidate_translated_bounds_global": [
+        [
+          29740.63477,
+          30995.35547
+        ],
+        [
+          -1241.33203,
+          57.75476
+        ],
+        [
+          2400.0,
+          4150.0
+        ]
+      ],
+      "bounding_box_max_coordinate_error_native": 600.0,
+      "source_original_TRI": 4418,
+      "candidate_TRI": 7422,
+      "source_geometry_unchanged": true,
+      "candidate_full_height_exact_match": false
+    },
+    {
+      "source_name": "BAY2_RIB_0",
+      "rebuilt_member": "member_2",
+      "canonical_source_bearing_degrees": 46.169139722084374,
+      "protected_original_bounds_global": [
+        [
+          30953.10938,
+          32262.07031
+        ],
+        [
+          -1295.01453,
+          60.57228
+        ],
+        [
+          1800.0,
+          4400.0
+        ]
+      ],
+      "candidate_translated_bounds_global": [
+        [
+          31001.81641,
+          32257.11914
+        ],
+        [
+          -1244.59424,
+          55.32434
+        ],
+        [
+          2400.0,
+          4400.0
+        ]
+      ],
+      "bounding_box_max_coordinate_error_native": 600.0,
+      "source_original_TRI": 4418,
+      "candidate_TRI": 23410,
+      "source_geometry_unchanged": true,
+      "candidate_full_height_exact_match": false
+    },
+    {
+      "source_name": "BAY1_FORMERET_0",
+      "rebuilt_member": "member_3",
+      "canonical_source_bearing_degrees": 180.0,
+      "protected_original_bounds_global": [
+        [
+          28600.0,
+          31000.0
+        ],
+        [
+          -1300.84998,
+          -1199.15002
+        ],
+        [
+          1800.0,
+          3430.0
+        ]
+      ],
+      "candidate_translated_bounds_global": [
+        [
+          28600.0,
+          30890.92383
+        ],
+        [
+          -1300.84998,
+          -1199.15002
+        ],
+        [
+          1800.0,
+          3430.0
+        ]
+      ],
+      "bounding_box_max_coordinate_error_native": 109.07617,
+      "source_original_TRI": 6626,
+      "candidate_TRI": 11632,
+      "source_geometry_unchanged": true,
+      "candidate_full_height_exact_match": false
+    },
+    {
+      "source_name": "BAY2_FORMERET_0",
+      "rebuilt_member": "member_4",
+      "canonical_source_bearing_degrees": 0.0,
+      "protected_original_bounds_global": [
+        [
+          31000.0,
+          33400.0
+        ],
+        [
+          -1300.84998,
+          -1199.15002
+        ],
+        [
+          1800.0,
+          3510.0
+        ]
+      ],
+      "candidate_translated_bounds_global": [
+        [
+          31101.9375,
+          33400.0
+        ],
+        [
+          -1300.84998,
+          -1199.15002
+        ],
+        [
+          1800.0,
+          3510.0
+        ]
+      ],
+      "bounding_box_max_coordinate_error_native": 101.9375,
+      "source_original_TRI": 6626,
+      "candidate_TRI": 11700,
+      "source_geometry_unchanged": true,
+      "candidate_full_height_exact_match": false
+    }
+  ],
+  "experimental_courses": 5,
+  "source_spring_global_Z_up": [
+    31000.0,
+    -1250.0,
+    1800.0
+  ],
+  "source_source_R03_BLEND_unchanged": true,
+  "Blender_version": "5.0.1",
+  "render_PNG": "M04_P03_R02B_5_BEARING_COURSES_VS_REAL_R03_MASONRY_REVIEW.png",
+  "architectural_approval": false
+}

@@ -1,0 +1,164 @@
+{
+  "milestone": "M04 P02 true R11-to-R17 integration; four independent Blender runs",
+  "validation_status": "EXPERIMENTAL TECHNICAL PASS, ARCHITECTURAL INTEGRATION BLOCKED",
+  "test_results": [
+    {
+      "source_profile": "1__01",
+      "test_label": "A \u00b7 Simple outline",
+      "profile_width_native": 141.2507,
+      "profile_depth_native": 199.818063,
+      "source_converter_section_vertices": 141,
+      "R17_Blender_checks_passed": 76,
+      "R17_Blender_checks_total": 76,
+      "GLB_mesh_assets": 11,
+      "GLB_file_bytes": 4844740,
+      "GLB_sha256": "1916100076426c9361a8beb8369c57f588792f19022f258ced16ba6de8a16b51",
+      "original_upload_artwork_sha256": "a486f46d4f184899cdc51a053eeed1971451a1ab20123884a573e27b48b31489",
+      "source_profile_is_approved": false,
+      "source_PNG_modified": false,
+      "uses_isolated_one_pixel_derivative": false,
+      "soffit_geometry_merged": false,
+      "workflow_status": "passed",
+      "full_cathedral_five_bearing_acceptance": "BLOCKED"
+    },
+    {
+      "source_profile": "31__01",
+      "test_label": "B \u00b7 Original R17 control",
+      "profile_width_native": 141.2507,
+      "profile_depth_native": 143.753877,
+      "source_converter_section_vertices": 198,
+      "R17_Blender_checks_passed": 76,
+      "R17_Blender_checks_total": 76,
+      "GLB_mesh_assets": 11,
+      "GLB_file_bytes": 5686836,
+      "GLB_sha256": "a10f6cc3ee03897a1d9c04a1db59e1c715f4e5c60bc2da85889713dad350c968",
+      "original_upload_artwork_sha256": "0f5562bca9a7806bed64877f498825dc0da25246c5a0a5a78f891ae311c7d475",
+      "source_profile_is_approved": false,
+      "source_PNG_modified": false,
+      "uses_isolated_one_pixel_derivative": false,
+      "soffit_geometry_merged": false,
+      "workflow_status": "passed",
+      "full_cathedral_five_bearing_acceptance": "BLOCKED"
+    },
+    {
+      "source_profile": "36__01",
+      "test_label": "C \u00b7 Finer moulding",
+      "profile_width_native": 141.2507,
+      "profile_depth_native": 111.899905,
+      "source_converter_section_vertices": 290,
+      "R17_Blender_checks_passed": 76,
+      "R17_Blender_checks_total": 76,
+      "GLB_mesh_assets": 11,
+      "GLB_file_bytes": 6152364,
+      "GLB_sha256": "877cb4797ea992ec400853d67ee4c0e92e9a02bed05cfa43dc17133b6beafc0a",
+      "original_upload_artwork_sha256": "8ffc569c9327343334f0ac8a9919c86f63cfaa272b8912105c198fc45bc54211",
+      "source_profile_is_approved": false,
+      "source_PNG_modified": false,
+      "uses_isolated_one_pixel_derivative": false,
+      "soffit_geometry_merged": false,
+      "workflow_status": "passed",
+      "full_cathedral_five_bearing_acceptance": "BLOCKED"
+    },
+    {
+      "source_profile": "11__01",
+      "test_label": "D \u00b7 Raster microhole derivative",
+      "profile_width_native": 141.2507,
+      "profile_depth_native": 208.67274,
+      "source_converter_section_vertices": 363,
+      "R17_Blender_checks_passed": 76,
+      "R17_Blender_checks_total": 76,
+      "GLB_mesh_assets": 11,
+      "GLB_file_bytes": 7525000,
+      "GLB_sha256": "a1935969d7583c5096ee89399d737a24a4ba814a83ac0f93d988b6277992b5f8",
+      "original_upload_artwork_sha256": "c890e73f77a64985497f1de80fb94752ab46f24b310dad30d9d8bf99b331a32c",
+      "source_profile_is_approved": false,
+      "source_PNG_modified": false,
+      "uses_isolated_one_pixel_derivative": true,
+      "soffit_geometry_merged": false,
+      "workflow_status": "passed",
+      "full_cathedral_five_bearing_acceptance": "BLOCKED"
+    }
+  ],
+  "negative_guard_tests": [
+    {
+      "test": "original_11_hole_no_explicit_optin",
+      "returncode": 2,
+      "expected_rejection": true,
+      "error": "THROUGH_EXISTING_R17.py\n       [-h] --profile PROFILE (--width WIDTH | --depth DEPTH)\n       --nose {left,right,up,down} [--mirror] --member MEMBER\n       [--soffit SOFFIT] [--fixture FIXTURE] --out OUT [--prepare-only]\n       [--use-11-repair] --experimental\nM04_P02_BUILD_SELECTED_PROFILE_THROUGH_EXISTING_R17.py: error: Profile 11 has a 2-pixel raster hole: use --use-11-repair after inspecting it"
+    },
+    {
+      "test": "wrong_member_kind_mesh",
+      "returncode": 2,
+      "expected_rejection": true,
+      "error": "usage: M04_P02_BUILD_SELECTED_PROFILE_THROUGH_EXISTING_R17.py\n       [-h] --profile PROFILE (--width WIDTH | --depth DEPTH)\n       --nose {left,right,up,down} [--mirror] --member MEMBER\n       [--soffit SOFFIT] [--fixture FIXTURE] --out OUT [--prepare-only]\n       [--use-11-repair] --experimental\nM04_P02_BUILD_SELECTED_PROFILE_THROUGH_EXISTING_R17.py: error: Existing sweep member ID required"
+    },
+    {
+      "test": "profile_id_unrecognized",
+      "returncode": 2,
+      "expected_rejection": true,
+      "error": "D_SELECTED_PROFILE_THROUGH_EXISTING_R17.py\n       [-h] --profile PROFILE (--width WIDTH | --depth DEPTH)\n       --nose {left,right,up,down} [--mirror] --member MEMBER\n       [--soffit SOFFIT] [--fixture FIXTURE] --out OUT [--prepare-only]\n       [--use-11-repair] --experimental\nM04_P02_BUILD_SELECTED_PROFILE_THROUGH_EXISTING_R17.py: error: Unknown or missing original source profile nonexistent__09"
+    },
+    {
+      "test": "false_soffit_category",
+      "returncode": 2,
+      "expected_rejection": true,
+      "error": "04_P02_BUILD_SELECTED_PROFILE_THROUGH_EXISTING_R17.py\n       [-h] --profile PROFILE (--width WIDTH | --depth DEPTH)\n       --nose {left,right,up,down} [--mirror] --member MEMBER\n       [--soffit SOFFIT] [--fixture FIXTURE] --out OUT [--prepare-only]\n       [--use-11-repair] --experimental\nM04_P02_BUILD_SELECTED_PROFILE_THROUGH_EXISTING_R17.py: error: Soffit asset must be from optional soffit group"
+    },
+    {
+      "test": "reject_overwrite_existing_path",
+      "returncode": 2,
+      "expected_rejection": true,
+      "error": "ELECTED_PROFILE_THROUGH_EXISTING_R17.py\n       [-h] --profile PROFILE (--width WIDTH | --depth DEPTH)\n       --nose {left,right,up,down} [--mirror] --member MEMBER\n       [--soffit SOFFIT] [--fixture FIXTURE] --out OUT [--prepare-only]\n       [--use-11-repair] --experimental\nM04_P02_BUILD_SELECTED_PROFILE_THROUGH_EXISTING_R17.py: error: Output path already exists; revisions must be in a new folder"
+    }
+  ],
+  "one_pixel_original11_derivative_geometry_accepted": true,
+  "original11_source_rejection_preserved": true,
+  "optional_soffit_choices_reference_only_not_physically_merged": true,
+  "positive_prepare_only_control": {
+    "selected_user_profile_id": "31__01",
+    "requested_size_kind": "depth",
+    "requested_size": 145.0,
+    "actual_width": 142.47512437810946,
+    "actual_depth": 145.0,
+    "source_original_profile_sha256": "3f412999234c31645f2e4b1eda3b41df461f05caf5f58d0293388a82b1c0a491",
+    "requested_nose": "left",
+    "mirrored": false,
+    "soffit_candidate_not_attached": "soffet_3__01",
+    "fixture": "/home/christopher/Documents/Cathedral/experimental/SPRINGER_REPRODUCIBLE_R17/fixture/manifest.json",
+    "member": "member_2",
+    "fixture_member_count": 4,
+    "source_fixture_SHA256": "52cce1c6bad71f39a34a3ef23462e6296ad7bf4bb3de91e3cc047b775001ce23",
+    "original_R11_SHA256": "8e76e689b0359f98f395d878df4d1fa22ffe3c112e1d34a4c492d542f6979ff9",
+    "original_R14_SHA256": "b85d46e7e30b5c2b8c95f415bf8e3ae392293710d4e2ace365432503a8873e66",
+    "provisional_geom_only": true,
+    "full_cathedral_architectural_validation": false
+  },
+  "R17_canonical_5_bearing_interface_gate": {
+    "count": 4,
+    "expected_count": 5,
+    "missing": [
+      "BAY2_FORMERET_0"
+    ],
+    "extra": [],
+    "explicit_bearing_delta_degrees": {
+      "BAY2_RIB_0": -3.999699
+    },
+    "compatible": false
+  },
+  "true_profile_blender_regressions_pass": 4,
+  "actual_GLB_independent_reimport_meshes": 44,
+  "not_a_source_historical_arch_provenance_approval": true,
+  "current_F5ZKC_8_member_spring_path_registration": "NOT COMPLETED",
+  "real_F5ZNA_formeret_replaces_older_V13_U1": "NOT EQUIVALENT",
+  "missing_F5ZL_C": true,
+  "original_source_SHA256": {
+    "/home/christopher/Downloads/downlods/3/french gothic profiles with optional soffets.zip": "fba241175fd3ccd30cdde9f4f441e30c6e443eb9f94755f91e1f0f3cd6d35fe0",
+    "/home/christopher/Documents/Cathedral/experimental/SPRINGER_PROFILE_INPUT_R11/profile_input.py": "8e76e689b0359f98f395d878df4d1fa22ffe3c112e1d34a4c492d542f6979ff9",
+    "/home/christopher/Documents/Cathedral/experimental/SPRINGER_WORKFLOW_R14/build_springer.py": "b85d46e7e30b5c2b8c95f415bf8e3ae392293710d4e2ace365432503a8873e66",
+    "/home/christopher/Documents/Cathedral/experimental/SPRINGER_REPRODUCIBLE_R17/fixture/manifest.json": "52cce1c6bad71f39a34a3ef23462e6296ad7bf4bb3de91e3cc047b775001ce23",
+    "/home/christopher/Documents/Cathedral/experimental/UNIFIED_JUNCTION_INTERFACE_R01/INTERFACE_QA.json": "63b7d6f9bd47cd183fbad5ff36f6a290880ec3ad80415691f1b32de7f0288ad6"
+  },
+  "one_review_PNG": "F5ZP_M04_P02_FOUR_R17_TRUE_PROFILE_BLENDER_COMPARISON.png",
+  "all_originals_untouched": true,
+  "Blender_version": "5.0.1"
+}

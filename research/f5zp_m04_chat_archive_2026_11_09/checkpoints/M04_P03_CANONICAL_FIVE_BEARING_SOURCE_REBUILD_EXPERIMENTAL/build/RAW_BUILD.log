@@ -1,0 +1,52 @@
+Traceback (most recent call last):
+  File "/usr/lib/blender/scripts/modules/addon_utils.py", line 432, in enable
+    mod = importlib.import_module(module_name)
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/christopher/.config/blender/5.0/scripts/addons/v18_meridian_workspace.py", line 16, in <module>
+    import r18_r03_meridian_core as curve
+ModuleNotFoundError: No module named 'r18_r03_meridian_core'
+Traceback (most recent call last):
+  File "/usr/lib/blender/scripts/modules/addon_utils.py", line 432, in enable
+    mod = importlib.import_module(module_name)
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/christopher/.config/blender/5.0/scripts/addons/v19_connected_workspace.py", line 9, in <module>
+    import v19_core as core
+ModuleNotFoundError: No module named 'v19_core'
+Traceback (most recent call last):
+  File "/usr/lib/blender/scripts/modules/addon_utils.py", line 432, in enable
+    mod = importlib.import_module(module_name)
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/christopher/.config/blender/5.0/scripts/addons/v20_web_workspace.py", line 10, in <module>
+    import v19_core as base
+ModuleNotFoundError: No module named 'v19_core'
+/home/christopher/Documents/Cathedral/experimental/SPRINGER_ENGINE_R06/blender_runner.py:20: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True;m.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value=(*color,1);m.node_tree.nodes['Principled BSDF'].inputs['Roughness'].default_value=.85;return m
+Info: Saved as "raw_fixture.blend"
+RAW_FIXTURE_READY
+Blender 5.0.1
+
+Blender quit

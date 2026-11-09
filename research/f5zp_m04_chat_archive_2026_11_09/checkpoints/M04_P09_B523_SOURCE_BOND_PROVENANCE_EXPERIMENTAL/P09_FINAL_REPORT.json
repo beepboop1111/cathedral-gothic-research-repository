@@ -1,0 +1,79 @@
+{
+  "technical": {
+    "Blender": "5.2.3 LTS",
+    "source_files_unchanged": {
+      "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+      "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/prepare_junction.py": "979b0ffa4c02fb2ebf8ec47940f681a6b4668132b43c8a3c211caba0db7b05ca",
+      "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/PLAN.json": "405037ea9fdf261bf3419faded796d4929a248bc30ec2fa4a5416886972a6cf5",
+      "/home/christopher/Documents/Cathedral/experimental/SPRINGER_WORKFLOW_R14/CHECKPOINT.md": "c918726855f3979f34016f33a2f38240f675182ed7e050d577c59d930894abf6",
+      "/home/christopher/Documents/Cathedral/experimental/SPRINGER_JUNCTION_R15/CHECKPOINT.md": "c9b6168b7b5dfc25e05464d7cd9ec29dd984ad6d5c34fe82064d01f1730a44e0",
+      "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P08_B523_REAR_AND_COURSE_EVIDENCE_EXPERIMENTAL/F5ZP_M04_P08_B523_REAR_COURSE_EVIDENCE_EXPERIMENTAL.blend": "87b6c6f59e14d4050f0fb7752821e56560d6770289687724f4fb27db250732d7"
+    },
+    "physical_meshes_unchanged": 14,
+    "new_masonry": 0,
+    "GLB_roundtrips": {
+      "/home/christopher/Desktop/F5ZP_M04_P09_B523_CLEAN_SOURCE_14_MESHES_EXPERIMENTAL.glb": {
+        "objects": 14,
+        "max_bounds_error": 0.0
+      },
+      "/home/christopher/Desktop/F5ZP_M04_P09_B523_DIAGNOSTIC_25_MESHES_NON_MASONRY_EXPERIMENTAL.glb": {
+        "objects": 25,
+        "max_bounds_error": 0.0
+      }
+    },
+    "new_PNG_count": 1
+  },
+  "geometric": {
+    "original_R03_receiving_upper": {
+      "name": "RECEIVING_S_UPPER_0",
+      "vertices": 10,
+      "faces": 11,
+      "unique_vertex_Z": [
+        1800.0,
+        4100.0
+      ],
+      "custom_properties": {}
+    },
+    "R03_generator_layers": [
+      [
+        0,
+        100
+      ],
+      [
+        100,
+        1800
+      ],
+      [
+        1800,
+        4100
+      ]
+    ],
+    "P08_internal_beds": "Preserved; previously measured >=99.9999968% bearing. Not repeated as a new result."
+  },
+  "architectural": {
+    "status": "UNRESOLVED",
+    "finding": "No original stone-level rear key, header or staggered joint established by continuous receiving extrusion. No backing solid justified."
+  },
+  "historical": {
+    "status": "UNRESOLVED",
+    "finding": "Procedural experimental geometry is not historical construction evidence. No authenticated F5ZL-C schedule recovered in bounded search; see search inventory."
+  },
+  "structural": {
+    "status": "UNRESOLVED",
+    "missing_inputs": [
+      "SI scale",
+      "stone and mortar properties",
+      "arch thrust and load cases",
+      "resultant eccentricities",
+      "rear bond geometry",
+      "bed shear resistance"
+    ],
+    "capacity_calculated": false
+  },
+  "search_summary": {
+    "text_files": 2875,
+    "filename_hits": 0,
+    "text_references": 750,
+    "errors": []
+  }
+}

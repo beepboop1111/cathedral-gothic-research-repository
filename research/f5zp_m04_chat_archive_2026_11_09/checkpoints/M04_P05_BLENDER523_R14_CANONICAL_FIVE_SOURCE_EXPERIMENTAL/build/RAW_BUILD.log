@@ -1,0 +1,7 @@
+/home/christopher/Documents/Cathedral/experimental/SPRINGER_ENGINE_R06/blender_runner.py:20: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True;m.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value=(*color,1);m.node_tree.nodes['Principled BSDF'].inputs['Roughness'].default_value=.85;return m
+Info: Saved as "raw_fixture.blend"
+RAW_FIXTURE_READY
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit

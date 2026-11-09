@@ -1,0 +1,132 @@
+[
+  {
+    "path": "scripts/M04_R03_REGISTER_ORIGINAL_PASS6J.py",
+    "bytes": 15023,
+    "sha256": "63b06b5319a8b2ef62ff2341a0e89252d79ace31bc72b15b8bcd472d3d8094d6"
+  },
+  {
+    "path": "scripts/M04_R03_DENSE_SECTION_SWEEP.py",
+    "bytes": 4161,
+    "sha256": "adfaa9065684f1082b53d5eb54f59eb75f083b94a73814d73afebee790abeade"
+  },
+  {
+    "path": "scripts/M04_R03_BLENDER_REGISTER_AUTHENTIC_PIER.py",
+    "bytes": 6754,
+    "sha256": "16c43f33c92fceb3fc1223d1040782d8fb947cd624f88c0737f4d3714984839f"
+  },
+  {
+    "path": "scripts/M04_R03_PACKAGE_AND_VALIDATE.py",
+    "bytes": 10696,
+    "sha256": "1407175c35ff104ae395ae9eefb4d76c9af2fd237e3d5d4c72bb2032b66bc7f1"
+  },
+  {
+    "path": "sources/F5ZN_A_PLAN_REFERENCE.json",
+    "bytes": 1949,
+    "sha256": "97014cf07fccf1d5ed91e78b5cb20d557d55931cfd706921d46342a35dabb352"
+  },
+  {
+    "path": "sources/F5ZKC_CHEVET_REFERENCE.json",
+    "bytes": 15731,
+    "sha256": "d1185e4a2fe9c92b12a3e544fddca32bf65650257cfddc28137002d8e819fa85"
+  },
+  {
+    "path": "sources/M02_R11_218_CLEAR_VAULTS_SOURCE.geojson",
+    "bytes": 98600,
+    "sha256": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162"
+  },
+  {
+    "path": "sources/PASS6J_S1_ORIGINAL_EVIDENCE.txt",
+    "bytes": 1750,
+    "sha256": "b5e505d6a885881a1ed752e5e14a5d2e9975877a42a3308489d739f5e11a8a1e"
+  },
+  {
+    "path": "sources/PASS6J_R1_ORIGINAL_8_SERVICE_SET_OUT.csv",
+    "bytes": 504,
+    "sha256": "4e2da5ff2348396ec761e1e9e53578d727b3c34de061163ee0fc65cae90340fd"
+  },
+  {
+    "path": "originals/ARTICULATED_PASS6J_R1_78.glb",
+    "bytes": 8710148,
+    "sha256": "acd7619e486112ae9e7d5777a638b5f46697a8b92b2e5ea1c1814ea7fb787cd4"
+  },
+  {
+    "path": "originals/DERIVED_PASS6J_R1_78.glb",
+    "bytes": 3228340,
+    "sha256": "0dcb3872585717ca639b0af1905b4dbe252a9ba1cf29e228f27907fa457a295b"
+  },
+  {
+    "path": "originals/NARROW_PASS6J_R1_78.glb",
+    "bytes": 7794932,
+    "sha256": "9afac85e842d24e43c3328b5285d0a6d67c60f1b6f38ef906052d24a27a6fe0f"
+  },
+  {
+    "path": "results/F5ZP_M04_R03_ORIGINAL_PASS6J_REGISTERED_TO_M02_EXPERIMENTAL.blend",
+    "bytes": 8364434,
+    "sha256": "017dbc239304f3b91fae22e5ce4220d1d2f0b1ba839dffc82586364893b7fbb5"
+  },
+  {
+    "path": "results/F5ZP_M04_R03_ORIGINAL_PASS6J_REGISTERED_TO_M02_EXPERIMENTAL.glb",
+    "bytes": 17221552,
+    "sha256": "137441eb97681e664762b639f88b6564960a0e9e7e22dda3da44e8384f1a71f0"
+  },
+  {
+    "path": "results/F5ZP_M04_R03_ORIGINAL_PIER_BLENDER_3D_REVIEW.png",
+    "bytes": 2031275,
+    "sha256": "ee385a4d99d8a5933f5a5bcc3ceb2634c1e32532991ccf3f7e24fbd9a5e283c4"
+  },
+  {
+    "path": "results/F5ZP_M04_R03_ORIGINAL_PIER_REGISTERED_SECTION_CLASH_DARK.png",
+    "bytes": 277242,
+    "sha256": "4b4443f2898b5aa513bef5d61d30e48369c84a1c27211b9f6094359be5658a55"
+  },
+  {
+    "path": "results/M04_R03_COORDINATE_TRANSFORM_AND_MESH_QA.json",
+    "bytes": 4594,
+    "sha256": "451379b73f134cf01a831289a1bbc72335615d2870dec1b94e16f999b750a4da"
+  },
+  {
+    "path": "results/M04_R03_DENSE_PIER_SECTION_COLLISION_SWEEP.csv",
+    "bytes": 3712,
+    "sha256": "536a340a6b9795780d749a3b6746f79acc943fab8017946df4440ffcbaa5fe31"
+  },
+  {
+    "path": "results/M04_R03_DENSE_SECTION_SWEEP_QA.json",
+    "bytes": 1793,
+    "sha256": "9b80b807a7e4bd9e75e60e40744c31b0e9eecc3d41828775444cc1cefae7bd10"
+  },
+  {
+    "path": "results/M04_R03_EIGHT_R1_RING_STATION_REGISTRATION.csv",
+    "bytes": 1010,
+    "sha256": "f306fcfa2dc3ce8d9ce14ce52dcabc337823343a2c68531c01151187f62f3ab2"
+  },
+  {
+    "path": "results/M04_R03_FINAL_HANDOFF.md",
+    "bytes": 2622,
+    "sha256": "397c5617d12a92abe7abacdfb5e69fa560be97df72527d850241f4f0bff9eec4"
+  },
+  {
+    "path": "results/M04_R03_FINAL_TECHNICAL_AND_ARCHITECTURAL_BOUNDARY_QA.json",
+    "bytes": 2891,
+    "sha256": "2cf41ee56dd135d0bfd96ced229fae29f98b30c87ba5a6021ab2e27461146b29"
+  },
+  {
+    "path": "results/M04_R03_HANDOFF.md",
+    "bytes": 2201,
+    "sha256": "1d4cc6b3b2cfcb1f4486b750c7645f4a3266922b74921a644c4e0dbec0dea9c6"
+  },
+  {
+    "path": "results/M04_R03_PASS6J_TRUE_SECTION_GEOMETRY_TRANSFORMED_1TO1.geojson",
+    "bytes": 394311,
+    "sha256": "3176cfcff1c2e838c879f78b079d211fb1a89811733542387f8b83e77d01cdb8"
+  },
+  {
+    "path": "results/M04_R03_PLINTH_CLASH_REGIONS_AT_Y2600.geojson",
+    "bytes": 3495,
+    "sha256": "ee87e32b7e1dfddea67456c402c765577b014f2cc27053fe37f006797ec2ca62"
+  },
+  {
+    "path": "results/M04_R03_THREE_ORIGINAL_PIERS_TRUE_MESH_SECTIONS.csv",
+    "bytes": 3151,
+    "sha256": "16b7572c2f62445bba6248827d005d24d7b7566394efea975061d4b0706b2ae9"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "milestone": "M04 P04 R03 four horizontal experimental taper stones",
+  "individual_watertight_source_stones": 4,
+  "all_3_shared_bedding_profiles_match": true,
+  "each_stone_height_native": 20,
+  "construction_note": "This arbitrary course test is geometrically watertight but pinches to ~1% of the original projection; actual cutting, jointing, and side keys are unverified.",
+  "last_stone_top_projection_native": 0.655151,
+  "last_stone_top_projection_fraction_of_base": 0.009999770745131134,
+  "masonry_construction_acceptance": "NOT APPROVED; wedge tip near degeneracy and no keyed interlock into protected R03 wall.",
+  "nominal_shared_planar_vertical_wall_seam": "Butt joint only, not a validated structural load path",
+  "source_glb_sha256": "637cee9c4a8024e6bb80c9046d4e469d2e868054d4e7d41af3779773e01c4a48",
+  "source_qa_sha256": "70167d30a955ffc14a5e938fb07a86a41f63065303b431ab7339a6604674922f",
+  "all_source_geometry_originals_preserved": true,
+  "source_P03_R03_wall_masonry_replacement_still_unresolved": true,
+  "candidate_GLTF_independent_reimport_meshes": 4,
+  "status": "TECHNICAL 4 CLOSED STONES; HISTORICAL/STRUCTURAL/ARCHITECTURAL HOLD"
+}

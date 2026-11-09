@@ -1,0 +1,30 @@
+{
+  "bearing_edits": {},
+  "carrier_edits": {},
+  "course_levels_before": [
+    0.0,
+    110.0,
+    220.0,
+    340.0,
+    470.0,
+    600.0
+  ],
+  "course_levels_after": [
+    0.0,
+    110.0,
+    220.0,
+    340.0,
+    470.0,
+    600.0
+  ],
+  "spring": 0.0,
+  "backing_before": {
+    "mesh_key": "backing"
+  },
+  "backing_after": {
+    "mesh_key": "backing"
+  },
+  "note": "experimental; spring/source geometry not moved; mesh bearings unchanged",
+  "source_manifest_sha256": "b87551b4a0fb969cc518cdee6fb33811551a4c5576e3f665eb8b75a57313506b"
+}
+New manifest: /home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P02_R17_TRUE_PROFILE_REGENERATION_EXPERIMENTAL/PROFILE_36_FINE_DETAIL/R17_workflow/controlled_manifest.json

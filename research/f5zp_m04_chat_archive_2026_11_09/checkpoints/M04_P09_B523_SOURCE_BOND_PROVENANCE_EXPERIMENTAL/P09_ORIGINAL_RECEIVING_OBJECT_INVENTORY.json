@@ -1,0 +1,42 @@
+[
+  {
+    "name": "RECEIVING_S_LOWER_0",
+    "vertices": 22,
+    "faces": 29,
+    "unique_vertex_Z": [
+      100.0,
+      1800.0
+    ],
+    "custom_properties": {}
+  },
+  {
+    "name": "RECEIVING_S_LOWER_1",
+    "vertices": 24,
+    "faces": 32,
+    "unique_vertex_Z": [
+      100.0,
+      1800.0
+    ],
+    "custom_properties": {}
+  },
+  {
+    "name": "RECEIVING_S_PLINTH_0",
+    "vertices": 44,
+    "faces": 62,
+    "unique_vertex_Z": [
+      0.0,
+      100.0
+    ],
+    "custom_properties": {}
+  },
+  {
+    "name": "RECEIVING_S_UPPER_0",
+    "vertices": 10,
+    "faces": 11,
+    "unique_vertex_Z": [
+      1800.0,
+      4100.0
+    ],
+    "custom_properties": {}
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "Blender_version": "5.0.1",
+  "source_R03_reference_mesh_count": 9,
+  "source_R03_arch_member_fragments": 5,
+  "source_R03_lower_support_fragments": 3,
+  "source_R03_upper_wall_fragment": 1,
+  "uncut_corrected_original_course_meshes": 5,
+  "source_display_slices_are_intentionally_open": true,
+  "source_R03_root_blend_SHA256_unchanged": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+  "technical_GLTF_export_mesh_count": 14,
+  "cutaway_study_is_architectural_approval": false,
+  "Blender_render": "F5ZP_M04_P03_R04B_ONE_FIVE_BEARING_REAL_MASONRY_REVIEW.png",
+  "input_SHA256": {
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R02B_CANONICAL_SPRINGER_AND_BEARING_MASONRY_EXPERIMENTAL/R03_TEN_PROTECTED_PIER_ARCH_AND_BEARING_MASONRY_REFERENCES.glb": "7c0b832213c7440b9ed6c2f45cc7be47b57036e96e4779365862701bc2a97b07",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_CANONICAL_FIVE_BEARING_SOURCE_REBUILD_EXPERIMENTAL/build/springer_variant.glb": "c99ae215ffc9cfb79585a899d1867a269098ee9220929fc202733ae28dd0c57f",
+    "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R03_FULL_RECEIVING_MASONRY_CONTACT_AUDIT_EXPERIMENTAL/M04_P03_R03_TRUE_MASONRY_SECTION_NUMERICAL_QA.json": "b3c033eab54492abcf5ca238272d978f559f67b4c19e249f0c577172cf8f9d01"
+  }
+}

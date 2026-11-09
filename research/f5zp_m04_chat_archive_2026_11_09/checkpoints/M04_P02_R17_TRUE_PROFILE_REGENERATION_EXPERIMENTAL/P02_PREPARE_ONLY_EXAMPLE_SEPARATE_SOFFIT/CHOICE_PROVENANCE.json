@@ -1,0 +1,19 @@
+{
+  "selected_user_profile_id": "31__01",
+  "requested_size_kind": "depth",
+  "requested_size": 145.0,
+  "actual_width": 142.47512437810946,
+  "actual_depth": 145.0,
+  "source_original_profile_sha256": "3f412999234c31645f2e4b1eda3b41df461f05caf5f58d0293388a82b1c0a491",
+  "requested_nose": "left",
+  "mirrored": false,
+  "soffit_candidate_not_attached": "soffet_3__01",
+  "fixture": "/home/christopher/Documents/Cathedral/experimental/SPRINGER_REPRODUCIBLE_R17/fixture/manifest.json",
+  "member": "member_2",
+  "fixture_member_count": 4,
+  "source_fixture_SHA256": "52cce1c6bad71f39a34a3ef23462e6296ad7bf4bb3de91e3cc047b775001ce23",
+  "original_R11_SHA256": "8e76e689b0359f98f395d878df4d1fa22ffe3c112e1d34a4c492d542f6979ff9",
+  "original_R14_SHA256": "b85d46e7e30b5c2b8c95f415bf8e3ae392293710d4e2ace365432503a8873e66",
+  "provisional_geom_only": true,
+  "full_cathedral_architectural_validation": false
+}

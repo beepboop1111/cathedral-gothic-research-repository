@@ -1,0 +1,159 @@
+{
+  "milestone": "M04 P04 R01 source upper masonry exposed shoulder and 3D backing hypotheses",
+  "true_original_5_member_registration_reused": true,
+  "source_bearings_changed": false,
+  "source_38_profile_library_automatic_assignment": false,
+  "source_blend_and_arches_unchanged": true,
+  "class_A": "Exposed masonry shoulder as an unmodified construction option (no additional stone)",
+  "class_B": "Experimental source-outside tapered backing key as a hypothetical derivative",
+  "source_main_exposed_shoulder_area_native_sq": 8881.425433823944,
+  "original_upper_projection_bounding_Y": -1250.0,
+  "max_shoulder_outward_offset_native": 65.51657197590703,
+  "main_shoulder_shared_wall_edge_length_native": 211.08688504182646,
+  "main_area_fraction_of_old_8937_mismatch": 0.9937315023313574,
+  "other_13_small_unknown_components_area_native_sq": 56.02438334251747,
+  "main_source_original_largest_boundary_xy": [
+    [
+      30890.88729949527,
+      -1250.0
+    ],
+    [
+      31101.974184537095,
+      -1250.0
+    ],
+    [
+      31101.974184537095,
+      -1237.6360981788393
+    ],
+    [
+      31101.228333398733,
+      -1238.4129652418756
+    ],
+    [
+      31091.7428679551,
+      -1248.2935228439414
+    ],
+    [
+      31062.310675317913,
+      -1220.0388768905261
+    ],
+    [
+      31025.273409939895,
+      -1184.483428024093
+    ],
+    [
+      31009.587718065584,
+      -1184.483428024093
+    ],
+    [
+      30960.75576638796,
+      -1184.483428024093
+    ],
+    [
+      30940.243068806336,
+      -1204.1754372081423
+    ],
+    [
+      30901.55696118317,
+      -1241.3137601215087
+    ],
+    [
+      30894.624635137177,
+      -1234.0924935059193
+    ],
+    [
+      30890.88729949527,
+      -1230.1994756484803
+    ],
+    [
+      30890.88729949527,
+      -1241.913690321519
+    ],
+    [
+      30890.88729949527,
+      -1250.0
+    ]
+  ],
+  "main_simplification_total_area_change_native_sq": 0.0005537330278584385,
+  "experimental_B_variant_metrics": [
+    {
+      "trial": "TAPER_TO_WALL_40",
+      "original_restored_5_source_profile_arches_unchanged": true,
+      "source_R03_upper_wall_mesh_unchanged": true,
+      "trial_course_5_source_mesh_unchanged": true,
+      "wedge_z_start": 2400.0,
+      "wedge_z_top": 2440.0,
+      "wedge_section_bottom_area_native_sq": 8881.422572,
+      "wedge_section_top_area_native_sq": 90.902894,
+      "wedge_watertight": true,
+      "wedge_positive_volume_native_cubed": 179039.026736,
+      "shared_R03_upper_wall_face_length_native": 211.086885,
+      "nominal_vertical_wall_face_contact_area_native_sq": 8443.475402,
+      "source_bottom_course_top_face_geometrically_under_wedge_fraction": 1.0,
+      "wedge_bottom_outside_source_course_5_sq": 0.0,
+      "max_arch_section_interpenetration": 0.0,
+      "max_wall_section_interpenetration": 0.0,
+      "architectural_or_structural_approval": false
+    },
+    {
+      "trial": "TAPER_TO_WALL_80",
+      "original_restored_5_source_profile_arches_unchanged": true,
+      "source_R03_upper_wall_mesh_unchanged": true,
+      "trial_course_5_source_mesh_unchanged": true,
+      "wedge_z_start": 2400.0,
+      "wedge_z_top": 2480.0,
+      "wedge_section_bottom_area_native_sq": 8881.423726,
+      "wedge_section_top_area_native_sq": 89.858517,
+      "wedge_watertight": true,
+      "wedge_positive_volume_native_cubed": 358078.053472,
+      "shared_R03_upper_wall_face_length_native": 211.086885,
+      "nominal_vertical_wall_face_contact_area_native_sq": 16886.950803,
+      "source_bottom_course_top_face_geometrically_under_wedge_fraction": 1.0,
+      "wedge_bottom_outside_source_course_5_sq": 0.0,
+      "max_arch_section_interpenetration": 0.0,
+      "max_wall_section_interpenetration": 0.0,
+      "architectural_or_structural_approval": false
+    },
+    {
+      "trial": "TAPER_TO_WALL_120",
+      "original_restored_5_source_profile_arches_unchanged": true,
+      "source_R03_upper_wall_mesh_unchanged": true,
+      "trial_course_5_source_mesh_unchanged": true,
+      "wedge_z_start": 2400.0,
+      "wedge_z_top": 2520.0,
+      "wedge_section_bottom_area_native_sq": 8881.424111,
+      "wedge_section_top_area_native_sq": 89.510415,
+      "wedge_watertight": true,
+      "wedge_positive_volume_native_cubed": 537117.080208,
+      "shared_R03_upper_wall_face_length_native": 211.086885,
+      "nominal_vertical_wall_face_contact_area_native_sq": 25330.426205,
+      "source_bottom_course_top_face_geometrically_under_wedge_fraction": 1.0,
+      "wedge_bottom_outside_source_course_5_sq": 0.0,
+      "max_arch_section_interpenetration": 0.0,
+      "max_wall_section_interpenetration": 0.0,
+      "architectural_or_structural_approval": false
+    }
+  ],
+  "B_33_section_checks_per_variant": true,
+  "B_99_total_true_source_arch_clearance_samples": 99,
+  "B_80_upper_section_residual_exposed_area_native_sq": 89.858517,
+  "B_80_full_wedge_mesh_watertight": true,
+  "B_no_planar_overlap_5_original_R03_arches_in_99_samples": true,
+  "B_no_planar_overlap_original_R03_upper_wall_interior_in_99_samples": true,
+  "B_has_nominal_vertical_wall_face_but_masonry_bonding_is_not_validated": true,
+  "B_mechanical_anchorage_to_source_wall": "NOT ESTABLISHED",
+  "original_course_R03_upper_wall_duplicate_masonry_below_Z2400": "UNRESOLVED REPLACEMENT ZONE",
+  "full_3D_SAT_boolean_collision": "NOT PERFORMED; 99 planar samples only",
+  "historical_and_structural_validity": "NOT ESTABLISHED; speculative trial only",
+  "source_F5ZL_C_support_schedule": "MISSING",
+  "Blender_5_1_plus_test": "NOT PERFORMED",
+  "candidate_80_glb": "M04_P04_R01_EXPERIMENTAL_80_UNIT_TAPERED_BACKING_KEY.glb",
+  "source_file_SHA256": {
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R02B_CANONICAL_SPRINGER_AND_BEARING_MASONRY_EXPERIMENTAL/R03_TEN_PROTECTED_PIER_ARCH_AND_BEARING_MASONRY_REFERENCES.glb": "7c0b832213c7440b9ed6c2f45cc7be47b57036e96e4779365862701bc2a97b07",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R05_ORIGINAL_RIB_SOURCE_ARCHITECTURAL_CONTACT_REBUILD_EXPERIMENTAL/build/springer_variant.glb": "36f04fdea5be3b111a3ad5df26607277380202bbaa63dd908d6c198ccc12af43",
+    "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R07_FIVE_GENUINE_ARCHES_PROTECTED_SOURCE_REGRESSION_EXPERIMENTAL/M04_P03_R07_FINAL_NUMERICAL_SOURCE_AND_APPROVAL_QA.json": "9a1608b2a663107e7ce6fb3476ce6ce3e5507f8bdc4d7895094b27b89481f021"
+  },
+  "from_P03_true_recovered_source_alignment_min_fraction": 0.99997352,
+  "approval_status": "EXPERIMENTAL ONLY"
+}

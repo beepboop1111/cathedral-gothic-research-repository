@@ -1,0 +1,210 @@
+{
+  "source_directory": "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_CANONICAL_FIVE_BEARING_SOURCE_REBUILD_EXPERIMENTAL/build",
+  "status": "completed",
+  "notes": [],
+  "spring_level": 0.0,
+  "top_level": 600.0,
+  "course_levels": [
+    0.0,
+    120.0,
+    240.0,
+    360.0,
+    480.0,
+    600.0
+  ],
+  "raw_mesh_edge_diagnostic": {
+    "quantization_decimals": 5,
+    "edges": 19185,
+    "abnormal_edge_count": 0,
+    "by_incidence": {},
+    "examples": [],
+    "note": "Quantized triangle-edge diagnostic; triangulation and quantization can affect counts. Confirm on source mesh."
+  },
+  "recorded_checks": {
+    "passed": 78,
+    "total": 78,
+    "failures": []
+  },
+  "recorded_failure": "inspect stage logs for exception",
+  "sections": {
+    "samples": [
+      {
+        "z": 0.050137,
+        "components": 1,
+        "areas": [
+          162985.53017859595
+        ]
+      },
+      {
+        "z": 25.045970333333337,
+        "components": 1,
+        "areas": [
+          163040.7345124462
+        ]
+      },
+      {
+        "z": 50.041803666666674,
+        "components": 1,
+        "areas": [
+          163106.26941880243
+        ]
+      },
+      {
+        "z": 75.037637,
+        "components": 1,
+        "areas": [
+          163269.07213083276
+        ]
+      },
+      {
+        "z": 100.03347033333334,
+        "components": 1,
+        "areas": [
+          163457.55752578864
+        ]
+      },
+      {
+        "z": 125.02930366666668,
+        "components": 1,
+        "areas": [
+          163736.49282964243
+        ]
+      },
+      {
+        "z": 150.02513700000003,
+        "components": 1,
+        "areas": [
+          164101.17527356616
+        ]
+      },
+      {
+        "z": 175.02097033333337,
+        "components": 1,
+        "areas": [
+          164520.98841858574
+        ]
+      },
+      {
+        "z": 200.0168036666667,
+        "components": 1,
+        "areas": [
+          164996.83624144338
+        ]
+      },
+      {
+        "z": 225.01263700000004,
+        "components": 1,
+        "areas": [
+          165581.13409786113
+        ]
+      },
+      {
+        "z": 250.00847033333338,
+        "components": 1,
+        "areas": [
+          166260.9107573468
+        ]
+      },
+      {
+        "z": 275.0043036666667,
+        "components": 1,
+        "areas": [
+          167015.62363847133
+        ]
+      },
+      {
+        "z": 300.00013700000005,
+        "components": 1,
+        "areas": [
+          167515.71226532335
+        ]
+      },
+      {
+        "z": 324.9959703333334,
+        "components": 1,
+        "areas": [
+          168356.1646980215
+        ]
+      },
+      {
+        "z": 349.9918036666667,
+        "components": 1,
+        "areas": [
+          169243.9832866795
+        ]
+      },
+      {
+        "z": 374.98763700000006,
+        "components": 1,
+        "areas": [
+          170282.17256223148
+        ]
+      },
+      {
+        "z": 399.9834703333334,
+        "components": 1,
+        "areas": [
+          171504.37511753596
+        ]
+      },
+      {
+        "z": 424.97930366666674,
+        "components": 1,
+        "areas": [
+          172915.69435716124
+        ]
+      },
+      {
+        "z": 449.9751370000001,
+        "components": 1,
+        "areas": [
+          174492.0658825612
+        ]
+      },
+      {
+        "z": 474.9709703333334,
+        "components": 1,
+        "areas": [
+          176207.1837154854
+        ]
+      },
+      {
+        "z": 499.96680366666675,
+        "components": 1,
+        "areas": [
+          178142.51871328847
+        ]
+      },
+      {
+        "z": 524.9626370000001,
+        "components": 1,
+        "areas": [
+          180339.64171906383
+        ]
+      },
+      {
+        "z": 549.9584703333334,
+        "components": 1,
+        "areas": [
+          182743.04849782513
+        ]
+      },
+      {
+        "z": 574.9543036666666,
+        "components": 1,
+        "areas": [
+          185263.8418407052
+        ]
+      },
+      {
+        "z": 599.950137,
+        "components": 1,
+        "areas": [
+          187969.30476824168
+        ]
+      }
+    ],
+    "component_count_changes": [],
+    "note": "Sampled horizontal sections, not continuous proof. Separation can be intentional; assess course boundaries and bearings."
+  }
+}

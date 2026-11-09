@@ -1,0 +1,93 @@
+{
+  "result": "Original source geometry registered, sampled sections, protected plan overlap not structural collision",
+  "models": {
+    "articulated": {
+      "sections_sampled": 27,
+      "clash_sections": [
+        {
+          "y": 2571,
+          "area": 531.08175
+        },
+        {
+          "y": 2575,
+          "area": 531.08175
+        },
+        {
+          "y": 2585,
+          "area": 531.08175
+        },
+        {
+          "y": 2600,
+          "area": 531.08175
+        },
+        {
+          "y": 2613,
+          "area": 531.08175
+        },
+        {
+          "y": 3259,
+          "area": 37.305236
+        }
+      ],
+      "original_mesh_is_watertight": false
+    },
+    "derived": {
+      "sections_sampled": 14,
+      "clash_sections": [
+        {
+          "y": 3259,
+          "area": 37.305236
+        }
+      ],
+      "original_mesh_is_watertight": false
+    },
+    "narrow": {
+      "sections_sampled": 27,
+      "clash_sections": [
+        {
+          "y": 2571,
+          "area": 1743.1344
+        },
+        {
+          "y": 2575,
+          "area": 1743.1344
+        },
+        {
+          "y": 2585,
+          "area": 1743.1344
+        },
+        {
+          "y": 2600,
+          "area": 1743.1344
+        },
+        {
+          "y": 2613,
+          "area": 1743.1344
+        },
+        {
+          "y": 2615,
+          "area": 177.036851
+        },
+        {
+          "y": 2620,
+          "area": 177.036851
+        },
+        {
+          "y": 2640,
+          "area": 177.036851
+        },
+        {
+          "y": 2653,
+          "area": 177.036851
+        },
+        {
+          "y": 3259,
+          "area": 37.305236
+        }
+      ],
+      "original_mesh_is_watertight": false
+    }
+  },
+  "number_sections": 68,
+  "clash_region_polygons_at_y2600": 5
+}

@@ -1,0 +1,4 @@
+trial,original_restored_5_source_profile_arches_unchanged,source_R03_upper_wall_mesh_unchanged,trial_course_5_source_mesh_unchanged,wedge_z_start,wedge_z_top,wedge_section_bottom_area_native_sq,wedge_section_top_area_native_sq,wedge_watertight,wedge_positive_volume_native_cubed,shared_R03_upper_wall_face_length_native,nominal_vertical_wall_face_contact_area_native_sq,source_bottom_course_top_face_geometrically_under_wedge_fraction,wedge_bottom_outside_source_course_5_sq,max_arch_section_interpenetration,max_wall_section_interpenetration,architectural_or_structural_approval
+TAPER_TO_WALL_40,True,True,True,2400.0,2440.0,8881.422572,90.902894,True,179039.026736,211.086885,8443.475402,1.0,0.0,0.0,0.0,False
+TAPER_TO_WALL_80,True,True,True,2400.0,2480.0,8881.423726,89.858517,True,358078.053472,211.086885,16886.950803,1.0,0.0,0.0,0.0,False
+TAPER_TO_WALL_120,True,True,True,2400.0,2520.0,8881.424111,89.510415,True,537117.080208,211.086885,25330.426205,1.0,0.0,0.0,0.0,False

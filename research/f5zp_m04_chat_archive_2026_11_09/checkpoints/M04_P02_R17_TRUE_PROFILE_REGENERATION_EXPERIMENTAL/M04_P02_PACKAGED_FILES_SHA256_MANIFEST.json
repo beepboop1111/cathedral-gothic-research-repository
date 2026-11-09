@@ -1,0 +1,212 @@
+[
+  {
+    "path": "scripts/M04_P02_RUN_THREE_R17_SPRINGER_PROFILES.py",
+    "size": 5518,
+    "sha256": "acbda74656b3b50a20d21e5c5ff1fce4a6fb887ae7b15efd6eaebb50af7eecfc"
+  },
+  {
+    "path": "scripts/M04_P02_BUILD_SELECTED_PROFILE_THROUGH_EXISTING_R17.py",
+    "size": 6495,
+    "sha256": "96fc2f980d435ea3ae39a8506d4e0b8b284a1c3fe343af0222c3309c5510dd4d"
+  },
+  {
+    "path": "scripts/M04_P02_REPAIR_PROFILE_11_SOURCE_TINY_HOLE.py",
+    "size": 3268,
+    "sha256": "1068672ea458212927e66e7fbb03e5af0bde90c594b269efc06c7f2e6ccfaec5"
+  },
+  {
+    "path": "scripts/M04_P02_FINALIZE_REGRESSION_AND_PNG.py",
+    "size": 15414,
+    "sha256": "2aa19cc290fdaf90690b632666741400bbf5f08504a5b10e460d5a15728298a0"
+  },
+  {
+    "path": "source/ORIGINAL_FRENCH_GOTHIC_PROFILES_ZIP_READ_ONLY.zip",
+    "size": 134468,
+    "sha256": "fba241175fd3ccd30cdde9f4f441e30c6e443eb9f94755f91e1f0f3cd6d35fe0"
+  },
+  {
+    "path": "source/EXISTING_R17_MANIFEST.json",
+    "size": 2074,
+    "sha256": "52cce1c6bad71f39a34a3ef23462e6296ad7bf4bb3de91e3cc047b775001ce23"
+  },
+  {
+    "path": "source/CANONICAL_FIVE_BEARING_GATE_QA.json",
+    "size": 2552,
+    "sha256": "63b7d6f9bd47cd183fbad5ff36f6a290880ec3ad80415691f1b32de7f0288ad6"
+  },
+  {
+    "path": "source/ORIGINAL_R11_CONVERTER_READ_ONLY.py",
+    "size": 5802,
+    "sha256": "8e76e689b0359f98f395d878df4d1fa22ffe3c112e1d34a4c492d542f6979ff9"
+  },
+  {
+    "path": "source/ORIGINAL_R14_SPRINGER_WORKFLOW_READ_ONLY.py",
+    "size": 5834,
+    "sha256": "b85d46e7e30b5c2b8c95f415bf8e3ae392293710d4e2ace365432503a8873e66"
+  },
+  {
+    "path": "review/F5ZP_M04_P02_FOUR_R17_TRUE_PROFILE_BLENDER_COMPARISON.png",
+    "size": 547979,
+    "sha256": "393871212ca16ef014cdb2497a06c1717d5b7e46332d671dd2c6ba03168fd559"
+  },
+  {
+    "path": "case/1__01/section.json",
+    "size": 9840,
+    "sha256": "c52ae3a6314c133a3c674565688fffb1de03d40714a00a13a9d8499f54c6b01c"
+  },
+  {
+    "path": "case/1__01/orientation_preview.png",
+    "size": 38905,
+    "sha256": "75a3f68ee3cb09aa0de03fe1ab2c1c455ec3d04742bbf0fe7cffc8ca0135b357"
+  },
+  {
+    "path": "case/1__01/WORKFLOW_SUMMARY.json",
+    "size": 824,
+    "sha256": "c49ebeb61f01955e8c5e1e8380dad140e80fee0305983fd9f7a2df078dc669f5"
+  },
+  {
+    "path": "case/1__01/QA.json",
+    "size": 9259,
+    "sha256": "90c85bb25c5baf9b927989796b855b8af09f7982dbc1169b2cf3b8e240ffc155"
+  },
+  {
+    "path": "case/1__01/GEOMETRY_QA.json",
+    "size": 4224,
+    "sha256": "890f1a4ffd6797fd9bc19a99f76c6546978ab8cf8927c8abec96315ed5e5b107"
+  },
+  {
+    "path": "case/1__01/springer_variant.glb",
+    "size": 4844740,
+    "sha256": "1916100076426c9361a8beb8369c57f588792f19022f258ced16ba6de8a16b51"
+  },
+  {
+    "path": "case/31__01/section.json",
+    "size": 13349,
+    "sha256": "2d46137f3116c379be5f160b3fc3a1e8c8109ff18f6ab3d2e4b5d94b9391c33a"
+  },
+  {
+    "path": "case/31__01/orientation_preview.png",
+    "size": 39553,
+    "sha256": "3b297ca2dcd0a27d1787bbaee6d0c55be4b22be81e4a4b2eb863d90fb9b51efc"
+  },
+  {
+    "path": "case/31__01/WORKFLOW_SUMMARY.json",
+    "size": 841,
+    "sha256": "848a1f8e04448b3c096ae79fd8ab0103949efe4ef35d0c341a9d977646751e6e"
+  },
+  {
+    "path": "case/31__01/QA.json",
+    "size": 9246,
+    "sha256": "5be22673e34349e9a1dcbb8fea6e6f35cf4470d1d708e98f8a3ab8afc58f0ae0"
+  },
+  {
+    "path": "case/31__01/GEOMETRY_QA.json",
+    "size": 4210,
+    "sha256": "0bfe6b819ff7e4d45d8873ad8475dcee3c5e0428c7677e9d597d827d37d99b1c"
+  },
+  {
+    "path": "case/31__01/springer_variant.glb",
+    "size": 5686836,
+    "sha256": "a10f6cc3ee03897a1d9c04a1db59e1c715f4e5c60bc2da85889713dad350c968"
+  },
+  {
+    "path": "case/36__01/section.json",
+    "size": 19198,
+    "sha256": "083750358bb6f0c3bc96d39c969b9ddc0505cd6d832d2d0cf6eeb09e154070db"
+  },
+  {
+    "path": "case/36__01/orientation_preview.png",
+    "size": 47638,
+    "sha256": "b9c79536578087f9ceb84b98b592df57ff67259458ff5a324e20d7848f7b606f"
+  },
+  {
+    "path": "case/36__01/WORKFLOW_SUMMARY.json",
+    "size": 830,
+    "sha256": "e39bf37faf8d16d7bbd2e9fb934543eeaa0095cae8cd2876b62b95166e18cd2d"
+  },
+  {
+    "path": "case/36__01/QA.json",
+    "size": 9240,
+    "sha256": "e66510183fbe0097b7a562d15e178410733d5e9bd89f38225899de69e0c898f9"
+  },
+  {
+    "path": "case/36__01/GEOMETRY_QA.json",
+    "size": 4206,
+    "sha256": "c77261b23c95bcca425214481d705cca5af5b987d74ec4c9a0b56966b1e63b3b"
+  },
+  {
+    "path": "case/36__01/springer_variant.glb",
+    "size": 6152364,
+    "sha256": "877cb4797ea992ec400853d67ee4c0e92e9a02bed05cfa43dc17133b6beafc0a"
+  },
+  {
+    "path": "case/11__01/section.json",
+    "size": 23970,
+    "sha256": "867ae9906836363fcbe4ae680b80b15fc9a70aea027f07d88901f5801f140a95"
+  },
+  {
+    "path": "case/11__01/orientation_preview.png",
+    "size": 48312,
+    "sha256": "b2279f75fa587106ef746db7ee10701eb953c8dea8fcf998b84d2b5d70883cbb"
+  },
+  {
+    "path": "case/11__01/WORKFLOW_SUMMARY.json",
+    "size": 844,
+    "sha256": "3f2444fb8e9bb5c6c273bf28c6bf7aba1cb98e78ec02b75d118fb6db6526608f"
+  },
+  {
+    "path": "case/11__01/QA.json",
+    "size": 9222,
+    "sha256": "305dbd23bde5c1afbe73a9a5185761e9fc4b96f6efa3e280b0ccabea2dd0d37f"
+  },
+  {
+    "path": "case/11__01/GEOMETRY_QA.json",
+    "size": 4189,
+    "sha256": "698fe36f5e26225e0adc31e01bdf79bead5535634547c7668bd9ebaa1e6d0341"
+  },
+  {
+    "path": "case/11__01/springer_variant.glb",
+    "size": 7525000,
+    "sha256": "a1935969d7583c5096ee89399d737a24a4ba814a83ac0f93d988b6277992b5f8"
+  },
+  {
+    "path": "reports/M04_P02_FINAL_NUMERICAL_AND_REGRESSION_QA.json",
+    "size": 8972,
+    "sha256": "32a7175e87fdf7a05fa2692bca1a9a5c59f3afd28c9a90500b7d28f691cd0f9c"
+  },
+  {
+    "path": "reports/M04_P02_THREE_PROFILE_REGENERATION_QA.json",
+    "size": 3933,
+    "sha256": "bf872d030d05f3c0167afa2ec71b8c07bc9f3f747ebec3cfcbdc5c2263d9fb70"
+  },
+  {
+    "path": "reports/M04_P02_FOUR_R17_GLB_RESULTS.csv",
+    "size": 1355,
+    "sha256": "e7af38e7a6a819ca59dabb0271fe8092fbfbf6b5ea159bf923be0516ae083be0"
+  },
+  {
+    "path": "reports/M04_P02_STATUS_AND_HANDOFF.md",
+    "size": 2140,
+    "sha256": "9996d787f8a846ce0678253075a0e04d47c49b59c834f75d6bb2833234b3707f"
+  },
+  {
+    "path": "reports/PROFILE_11_EXPLICIT_TINY_HOLE_REPAIR_QA.json",
+    "size": 672,
+    "sha256": "1fa7e2ab564499842b76e3237934904c2ddf1c8099008cbfcf4c443fc1c06457"
+  },
+  {
+    "path": "source_derivative/PROFILE_11_UNTOUCHED_SOURCE_HOLE_VECTOR_FOR_REVIEW.svg",
+    "size": 21292,
+    "sha256": "554eac560d6f564d7eb025a7883bd06ba12d9dd5afd00634a6edcccdf12ceedd"
+  },
+  {
+    "path": "source_derivative/PROFILE_11_TINY_HOLE_RASTER_REPAIR_CANDIDATE.png",
+    "size": 3633,
+    "sha256": "eaef60d3a4f283c8d956c76cb8928810a137b47449ea1c43abfc3a0b8818d880"
+  },
+  {
+    "path": "source_derivative/PROFILE_11_EXPLICIT_TINY_HOLE_REPAIR_QA.json",
+    "size": 672,
+    "sha256": "1fa7e2ab564499842b76e3237934904c2ddf1c8099008cbfcf4c443fc1c06457"
+  }
+]

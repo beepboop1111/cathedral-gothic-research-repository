@@ -1,0 +1,120 @@
+{
+  "schema": "springer_png_section_v1",
+  "source_file": "25__01.png",
+  "source_sha256": "4fb7b7a4d8822d8940ccac5ca5d3f69a0a96ef892cab2d5d8cfab489c4d4bf5a",
+  "image_dimensions_px": [
+    116,
+    87
+  ],
+  "section": [
+    [
+      0.49999999999999994,
+      0.7289719626168224
+    ],
+    [
+      0.004672897196261682,
+      0.7289719626168224
+    ],
+    [
+      0.004672897196261682,
+      0.7102803738317757
+    ],
+    [
+      0.0514018691588785,
+      0.7009345794392523
+    ],
+    [
+      0.10747663551401869,
+      0.6635514018691588
+    ],
+    [
+      0.10747663551401869,
+      0.6448598130841121
+    ],
+    [
+      0.06074766355140186,
+      0.5514018691588785
+    ],
+    [
+      -0.014018691588785045,
+      0.47663551401869153
+    ],
+    [
+      -0.02336448598130841,
+      0.47663551401869153
+    ],
+    [
+      -0.0514018691588785,
+      0.44859813084112143
+    ],
+    [
+      -0.10747663551401869,
+      0.4205607476635514
+    ],
+    [
+      -0.1261682242990654,
+      0.40186915887850466
+    ],
+    [
+      -0.16355140186915887,
+      0.38317757009345793
+    ],
+    [
+      -0.1822429906542056,
+      0.38317757009345793
+    ],
+    [
+      -0.2102803738317757,
+      0.3644859813084112
+    ],
+    [
+      -0.23831775700934577,
+      0.3644859813084112
+    ],
+    [
+      -0.24766355140186913,
+      0.35514018691588783
+    ],
+    [
+      -0.2757009345794392,
+      0.35514018691588783
+    ],
+    [
+      -0.2850467289719626,
+      0.34579439252336447
+    ],
+    [
+      -0.49999999999999994,
+      0.34579439252336447
+    ],
+    [
+      -0.49999999999999994,
+      0.0
+    ],
+    [
+      0.49999999999999994,
+      0.0
+    ]
+  ],
+  "units": "user-declared native units; conversion to physical units is not inferred",
+  "width": 0.9999999999999999,
+  "depth": 0.7289719626168224,
+  "uniform_scale_units_per_pixel": 0.009345794392523364,
+  "nose_direction_on_image": "up",
+  "mirror_width": false,
+  "black_threshold": 128,
+  "simplify_tolerance_pixels": 0.55,
+  "raw_contour_vertices": 360,
+  "vertices": 22,
+  "notes": [
+    "Raster-derived silhouette; inspect orientation and edge quality",
+    "Only a single solid profile is supported; optional soffits are not automatically attached"
+  ],
+  "source_original_file": "25.png",
+  "source_original_sha256": "adf454825c9a597668294a1e51a93bb527a73f60e5dea755e7c2fd44d8fad78e",
+  "component_index": 1,
+  "optional_soffit": false,
+  "historical_nose_orientation_validated": false,
+  "source_proportions_flexible": true,
+  "profile_role_assigned": false
+}

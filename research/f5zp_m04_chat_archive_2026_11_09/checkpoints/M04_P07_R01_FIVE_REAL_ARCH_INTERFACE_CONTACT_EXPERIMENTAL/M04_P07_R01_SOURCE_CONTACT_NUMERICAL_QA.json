@@ -1,0 +1,186 @@
+{
+  "study": "M04 P07 1:1 five original Gothic section bearing contacts and P06 14 mesh source",
+  "coordinate_transform": "glTF Y-up -> original Blender Z-up: (x, -z, y)",
+  "world_center_xyz": [
+    31000.0,
+    -1250.0,
+    1800.0
+  ],
+  "comparison_planes_z": {
+    "lower_1799.9_to_first_1800.1": [
+      1799.9,
+      1800.1
+    ],
+    "last_2399.9_to_upper_2400.1": [
+      2399.9,
+      2400.1
+    ]
+  },
+  "sampled_bearing_roles": [
+    {
+      "role": "Z1800 COMBINED THREE ORIGINAL LOWER SUPPORTS -> TAS 01",
+      "lower_or_bearing_section_native_sq": 164232.380961,
+      "upper_or_supported_section_native_sq": 164232.649899,
+      "intersection_native_sq": 164232.349378,
+      "upper_area_outside_support_native_sq": 0.300521,
+      "bearing_area_not_in_upper_native_sq": 0.031583,
+      "upper_supported_fraction": 0.99999817,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z2400 COURSE05 -> ORIGINAL UPPER WALL",
+      "lower_or_bearing_section_native_sq": 189794.090226,
+      "upper_or_supported_section_native_sq": 144000.0,
+      "intersection_native_sq": 144000.0,
+      "upper_area_outside_support_native_sq": 0.0,
+      "bearing_area_not_in_upper_native_sq": 45794.090226,
+      "upper_supported_fraction": 1.0,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z2400 COURSE05 -> CHAPEL_TRANSVERSE_31000",
+      "lower_or_bearing_section_native_sq": 189794.090226,
+      "upper_or_supported_section_native_sq": 32914.319025,
+      "intersection_native_sq": 16448.614349,
+      "upper_area_outside_support_native_sq": 16465.704676,
+      "bearing_area_not_in_upper_native_sq": 173345.475877,
+      "upper_supported_fraction": 0.499740382,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z2400 COURSE05 -> BAY1_RIB_1",
+      "lower_or_bearing_section_native_sq": 189794.090226,
+      "upper_or_supported_section_native_sq": 11487.106582,
+      "intersection_native_sq": 11479.85374,
+      "upper_area_outside_support_native_sq": 7.252842,
+      "bearing_area_not_in_upper_native_sq": 178314.236487,
+      "upper_supported_fraction": 0.99936861,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z2400 COURSE05 -> BAY2_RIB_0",
+      "lower_or_bearing_section_native_sq": 189794.090226,
+      "upper_or_supported_section_native_sq": 11399.121718,
+      "intersection_native_sq": 11393.811428,
+      "upper_area_outside_support_native_sq": 5.31029,
+      "bearing_area_not_in_upper_native_sq": 178400.278798,
+      "upper_supported_fraction": 0.999534149,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z2400 COURSE05 -> BAY1_FORMERET_0",
+      "lower_or_bearing_section_native_sq": 189794.090226,
+      "upper_or_supported_section_native_sq": 12352.355632,
+      "intersection_native_sq": 6171.096654,
+      "upper_area_outside_support_native_sq": 6181.258978,
+      "bearing_area_not_in_upper_native_sq": 183622.993572,
+      "upper_supported_fraction": 0.499588648,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z2400 COURSE05 -> BAY2_FORMERET_0",
+      "lower_or_bearing_section_native_sq": 189794.090226,
+      "upper_or_supported_section_native_sq": 12255.572082,
+      "intersection_native_sq": 6123.098315,
+      "upper_area_outside_support_native_sq": 6132.473767,
+      "bearing_area_not_in_upper_native_sq": 183670.991911,
+      "upper_supported_fraction": 0.499617502,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z2400 COURSE05 -> UPPER WALL + FIVE RIBS UNION",
+      "lower_or_bearing_section_native_sq": 189794.090226,
+      "upper_or_supported_section_native_sq": 209648.634874,
+      "intersection_native_sq": 180856.640409,
+      "upper_area_outside_support_native_sq": 28791.994465,
+      "bearing_area_not_in_upper_native_sq": 8937.449817,
+      "upper_supported_fraction": 0.862665481,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z1920 ORIGINAL TAS COURSE01 -> COURSE02",
+      "lower_or_bearing_section_native_sq": 165037.295932,
+      "upper_or_supported_section_native_sq": 165040.033099,
+      "intersection_native_sq": 165036.962278,
+      "upper_area_outside_support_native_sq": 3.070821,
+      "bearing_area_not_in_upper_native_sq": 0.333654,
+      "upper_supported_fraction": 0.999981393,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z2040 ORIGINAL TAS COURSE02 -> COURSE03",
+      "lower_or_bearing_section_native_sq": 167671.195577,
+      "upper_or_supported_section_native_sq": 167677.395076,
+      "intersection_native_sq": 167670.058928,
+      "upper_area_outside_support_native_sq": 7.336148,
+      "bearing_area_not_in_upper_native_sq": 1.136649,
+      "upper_supported_fraction": 0.999956248,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z2160 ORIGINAL TAS COURSE03 -> COURSE04",
+      "lower_or_bearing_section_native_sq": 171346.906916,
+      "upper_or_supported_section_native_sq": 171355.510587,
+      "intersection_native_sq": 171342.794399,
+      "upper_area_outside_support_native_sq": 12.716188,
+      "bearing_area_not_in_upper_native_sq": 4.112517,
+      "upper_supported_fraction": 0.999925791,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    },
+    {
+      "role": "Z2280 ORIGINAL TAS COURSE04 -> COURSE05",
+      "lower_or_bearing_section_native_sq": 178328.39564,
+      "upper_or_supported_section_native_sq": 178343.228052,
+      "intersection_native_sq": 178322.524161,
+      "upper_area_outside_support_native_sq": 20.703891,
+      "bearing_area_not_in_upper_native_sq": 5.871479,
+      "upper_supported_fraction": 0.99988391,
+      "XY_separation_native": 0.0,
+      "direct_3D_continuous_bonding_verified": false
+    }
+  ],
+  "sampled_total_bearing_contact_tests": 12,
+  "arch_five_source_count": 5,
+  "lower_combined_actual_support_area_native_sq": 164232.38096080098,
+  "base_tas_support_coverage_pct": 99.99981701493387,
+  "upper_source_course_05_top_area_native_sq": 189794.09022619284,
+  "upper_wall_base_area_native_sq": 144000.0000000001,
+  "upper_ribs_union_area_native_sq": 71800.5879130828,
+  "upper_wall_plus_ribs_union_area_native_sq": 209648.63487369975,
+  "course_05_top_outside_upper_wall_plus_source_ribs_native_sq": 8937.449817166462,
+  "upper_wall_plus_arches_outside_course_05_native_sq": 28791.994464673153,
+  "upper_wall_plus_arches_outside_course_05_type": "MultiPolygon",
+  "dominant_upper_shouldered_region_native_sq": 8881.425433823944,
+  "dominant_upper_shouldered_region_global_xy_bounds": [
+    30890.88729949527,
+    -1250.0,
+    31101.974184537095,
+    -1184.483428024093
+  ],
+  "all_five_original_rib_sections_against_course05_measured": true,
+  "source_all_14_original_glb_pieces_watertight_after_weld": true,
+  "status_technical": "PASS",
+  "status_geometric": "SOURCE-FIXED SAMPLE PLANES; CONTINUOUS REAR FACE CONTACT UNPROVEN",
+  "status_architectural": "NOT APPROVED",
+  "status_historical": "SOURCE ACTUAL MASONRY BONDING UNPROVEN",
+  "status_structural": "NO FORCE/CAPACITY CALCULATION",
+  "source_original_files_preserved": true,
+  "missing_F5ZL_C_support_schedule": true,
+  "source_SHA256": {
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P06_R11_COORDINATED_TRUE_SOURCE_WALL_AND_ARCHES_B523_EXPERIMENTAL/M04_P06_B523_FIVE_GOTHIC_ARCHES_WALL_EXACTLY_COORDINATED_EXPERIMENTAL.glb": "128609ff40c1e2615fd05d61216638cee280bcf526f3c7ddc78ff6d6d4f39814",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R02B_CANONICAL_SPRINGER_AND_BEARING_MASONRY_EXPERIMENTAL/R03_TEN_PROTECTED_PIER_ARCH_AND_BEARING_MASONRY_REFERENCES.glb": "7c0b832213c7440b9ed6c2f45cc7be47b57036e96e4779365862701bc2a97b07",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P05_BLENDER523_R14_CANONICAL_FIVE_SOURCE_EXPERIMENTAL/build/springer_variant.glb": "4bbe6d471d2cd7544a566efe29eb8d2d63471141e1ea4a29673dd84b4f5d4f42",
+    "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937"
+  }
+}

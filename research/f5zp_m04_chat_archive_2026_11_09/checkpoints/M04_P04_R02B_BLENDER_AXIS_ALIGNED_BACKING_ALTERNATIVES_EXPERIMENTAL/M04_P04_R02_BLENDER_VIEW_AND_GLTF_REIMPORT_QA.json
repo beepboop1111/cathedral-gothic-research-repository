@@ -1,0 +1,33 @@
+{
+  "Blender_version": "5.0.1",
+  "source_14_reference_meshes_unchanged_in_original_blend": true,
+  "reimported_complete_review_GLTF_geometry_count": 15,
+  "experimental_tapered_new_mesh_count": 1,
+  "source_protected_arch_meshes_count": 5,
+  "B_backing_fits_absolute_native_bounds": [
+    [
+      30890.88671875,
+      31101.974609375
+    ],
+    [
+      -1249.9998779296875,
+      -1184.4832763671875
+    ],
+    [
+      2400.0,
+      2480.0
+    ]
+  ],
+  "B_wedge_GLTF_geometry_watertight_previously_verified": true,
+  "source_Original_files_SHA256": {
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R06_ALL_FIVE_ORIGINAL_ARCHES_SOURCE_MATCHED_EXPERIMENTAL/M04_P03_R06_R03_SOURCE_MATCHED_FIVE_MEMBER_CUTAWAY_EXPERIMENTAL.blend": "1bfa6d7c843b2d41a7bfb97a2966c4ecea1c4d4a809b1af35dd250a82c39be01",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P04_R01_SHOULDER_OR_TAPERED_BACKING_STUDIES_EXPERIMENTAL/M04_P04_R01_EXPERIMENTAL_80_UNIT_TAPERED_BACKING_KEY.glb": "637cee9c4a8024e6bb80c9046d4e469d2e868054d4e7d41af3779773e01c4a48",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P04_R01_SHOULDER_OR_TAPERED_BACKING_STUDIES_EXPERIMENTAL/M04_P04_R01_BACKING_STUDY_NUMERICAL_QA.json": "70167d30a955ffc14a5e938fb07a86a41f63065303b431ab7339a6604674922f",
+    "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937"
+  },
+  "one_review_PNG": "F5ZP_M04_P04_R02_ONE_BACKING_ALTERNATIVE_REVIEW.png",
+  "source_shoulder_fill_required": "NOT ESTABLISHED",
+  "B_unapproved_architectural_and_structural": true,
+  "final_experimental_blend": "M04_P04_R02_BACKING_ALTERNATIVES_EDITABLE_EXPERIMENTAL.blend",
+  "final_experimental_glb": "M04_P04_R02_EXPERIMENTAL_FIVE_ARCHES_WITH_UNAPPROVED_WEDGE.glb"
+}

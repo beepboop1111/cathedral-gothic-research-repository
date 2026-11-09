@@ -1,0 +1,122 @@
+[
+  {
+    "path": "QA/3_TAPER_HEIGHT_TESTS.csv",
+    "bytes": 983,
+    "sha256": "50aa448451f5ee2ef22e37705973c4eb6c4783db90237be4122871773d0b52e5"
+  },
+  {
+    "path": "QA/99_SOURCE_SECTION_CLEARANCES.csv",
+    "bytes": 4599,
+    "sha256": "d17fb1e5cddf455105389fe58a387b2a5c697f8734365cac48bb7d90ed06eae5"
+  },
+  {
+    "path": "QA/BLENDER_GLTF_ROUNDTRIP.json",
+    "bytes": 1893,
+    "sha256": "a617ec7def0761468b08027a952c93742eae3613a5b2f9df3138d868a7299a08"
+  },
+  {
+    "path": "QA/EXPOSED_SHOULDER_AND_CANDIDATE_1TO1.svg",
+    "bytes": 41030,
+    "sha256": "85255821f69c6d5eee0e8c6aebe62425d260825bbe94c44898b868d3bbdcf906"
+  },
+  {
+    "path": "QA/FOUR_STONE_BEDDING.csv",
+    "bytes": 835,
+    "sha256": "dd922446ba541d7dd7d4d2acd8dfdf53646f972fbba95952198e75ae69417d6b"
+  },
+  {
+    "path": "QA/FOUR_STONE_CONSTRUCTABILITY.json",
+    "bytes": 1167,
+    "sha256": "cb7b2f5b541f8685ae29f153115a6d52ca7853a0233cb65fa27def057b971b84"
+  },
+  {
+    "path": "QA/SOURCE_SHOULDER_TEST.json",
+    "bytes": 6722,
+    "sha256": "70167d30a955ffc14a5e938fb07a86a41f63065303b431ab7339a6604674922f"
+  },
+  {
+    "path": "asset/EDITABLE_SOURCE_ARCHES_AND_STONES.blend",
+    "bytes": 702115,
+    "sha256": "c5f4900616d3d6b6fcb9c76ce08e91019c27bb54fdf30aa2e3448e34397dc220"
+  },
+  {
+    "path": "asset/FOUR_EXPERIMENTAL_SEPARATE_STONES.glb",
+    "bytes": 4804,
+    "sha256": "df79ed5696aadf3ff253b689d349b54a43988ce1af15a455c13b3090998a8f47"
+  },
+  {
+    "path": "asset/FOUR_STONES_FIVE_TRUE_ARCHES_AND_COURSES.glb",
+    "bytes": 1019740,
+    "sha256": "9f51022e71f5e09b018247b880bc7114f4e78bd77376cd4bbf712c718406b44a"
+  },
+  {
+    "path": "asset/ONE_EXPERIMENTAL_TAPERED_KEY.glb",
+    "bytes": 3260,
+    "sha256": "637cee9c4a8024e6bb80c9046d4e469d2e868054d4e7d41af3779773e01c4a48"
+  },
+  {
+    "path": "original/P03_FIVE_ORIGINAL_ARCHES_AND_COURSES.glb",
+    "bytes": 5314924,
+    "sha256": "36f04fdea5be3b111a3ad5df26607277380202bbaa63dd908d6c198ccc12af43"
+  },
+  {
+    "path": "original/P03_TRUE_SOURCE_35_ARCH_MEASUREMENTS.csv",
+    "bytes": 4293,
+    "sha256": "af0e2b2a13959923d58918817acd61cdd0b2d19a9346963293ff5d7ea9e8c9a9"
+  },
+  {
+    "path": "original/P03_TRUE_SOURCE_JUNCTION_QA.json",
+    "bytes": 4132,
+    "sha256": "9a1608b2a663107e7ce6fb3476ce6ce3e5507f8bdc4d7895094b27b89481f021"
+  },
+  {
+    "path": "original/R03_10_PROTECTED_REFERENCE_MESHES.glb",
+    "bytes": 871480,
+    "sha256": "7c0b832213c7440b9ed6c2f45cc7be47b57036e96e4779365862701bc2a97b07"
+  },
+  {
+    "path": "original/R03_PROTECTED_SOURCE.blend",
+    "bytes": 10071995,
+    "sha256": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937"
+  },
+  {
+    "path": "report/STATUS_AND_UNRESOLVED_APPROVALS.md",
+    "bytes": 2864,
+    "sha256": "8229fb09177de00d58d88eebfe207b3106a6a25ac6b3799aab835a1bb4a42d2a"
+  },
+  {
+    "path": "review/ONE_FINAL_M04_P04_PNG.png",
+    "bytes": 1053610,
+    "sha256": "3accd5c9e55f372368c30ab3580ccf1ac7933b61e4f98495bd58d33a4f3f60cb"
+  },
+  {
+    "path": "scripts/M04_P04_R01_GENERATE_BACKING_TESTS.py",
+    "bytes": 12363,
+    "sha256": "796f95d507b3e64e54c28e60c8451dc52a041ddecc803acff3fdcee4c151e8a4"
+  },
+  {
+    "path": "scripts/M04_P04_R02C_RENDER_SOURCE_EXPOSED_WEDGE.py",
+    "bytes": 6775,
+    "sha256": "70cd26c345c9ebce03c17e6e175cdadff7ec25c97408d62814f7c8b78c7b2cbf"
+  },
+  {
+    "path": "scripts/M04_P04_R02_RENDER_BACKING_COMPARISON.py",
+    "bytes": 8661,
+    "sha256": "8a68e81fc6347cac7b997441e10bb621430c1be08af563bef4382579a091dd11"
+  },
+  {
+    "path": "scripts/M04_P04_R03_SPLIT_BACKING_INTO_4_COURSES.py",
+    "bytes": 6085,
+    "sha256": "a19fc45bb9eace1cd760e02d6308ded432a906aefaff7a58ad2a4ce0077ae018"
+  },
+  {
+    "path": "scripts/M04_P04_R04_RENDER_FOUR_STONE_FEASIBILITY.py",
+    "bytes": 9069,
+    "sha256": "440c079ce386db562dc980012e55eef22adad81d0ea652021affefe2247ec395"
+  },
+  {
+    "path": "scripts/M04_P04_R05_PACKAGE_AND_PRESERVE.py",
+    "bytes": 9020,
+    "sha256": "02fcec571165cc1bf50ba968788cf7e707f5570188e4ba3be9383c949936dce2"
+  }
+]

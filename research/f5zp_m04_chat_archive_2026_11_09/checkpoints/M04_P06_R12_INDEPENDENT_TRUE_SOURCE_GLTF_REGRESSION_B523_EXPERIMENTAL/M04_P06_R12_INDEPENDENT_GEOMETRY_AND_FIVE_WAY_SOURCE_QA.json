@@ -1,0 +1,30 @@
+{
+  "stage": "M04 P06 R12: 14-piece Gothic source five-bearing wall geometry 5.2.3",
+  "Blender_version": "5.2.3 LTS",
+  "true_original_world_space_GLTF_scene_elements": 14,
+  "14_source_aligned_watertight_meshes": true,
+  "sampled_source_arch_walls_lower_and_tas_shape_tests": 25,
+  "all_25_original_source_geometry_matches_gt_99p999pct": true,
+  "minimum_normalized_source_similarity": 0.9999977820545206,
+  "native_replacement_interface_Z": 2400.0,
+  "source_upper_wall_and_all_five_original_arches_start_z_at_2400": true,
+  "source_five_restored_tas_courses_end_z_at_2400": true,
+  "volume_of_intersection_of_tas_with_upper_wall": "ZERO BY DISJOINT Z INTERIORS",
+  "actual_top_shoulder_left_unfilled_native_sq": 8937.430867707395,
+  "status_technical": "PASS",
+  "status_geometric": "PARTIAL: source shape and nonduplication PASS; rear tas-to-wall bond and architectural contact not established",
+  "status_architectural": "UNAPPROVED",
+  "status_historical": "NOT VALIDATED",
+  "status_structural": "NOT VALIDATED",
+  "original_R03_plus_Pass6J_unchanged": true,
+  "missing_F5ZL_C": "OPEN",
+  "source_SHA256": {
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P06_R11_COORDINATED_TRUE_SOURCE_WALL_AND_ARCHES_B523_EXPERIMENTAL/M04_P06_B523_FIVE_GOTHIC_ARCHES_WALL_EXACTLY_COORDINATED_EXPERIMENTAL.glb": "128609ff40c1e2615fd05d61216638cee280bcf526f3c7ddc78ff6d6d4f39814",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R02B_CANONICAL_SPRINGER_AND_BEARING_MASONRY_EXPERIMENTAL/R03_TEN_PROTECTED_PIER_ARCH_AND_BEARING_MASONRY_REFERENCES.glb": "7c0b832213c7440b9ed6c2f45cc7be47b57036e96e4779365862701bc2a97b07",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P05_BLENDER523_R14_CANONICAL_FIVE_SOURCE_EXPERIMENTAL/build/springer_variant.glb": "4bbe6d471d2cd7544a566efe29eb8d2d63471141e1ea4a29673dd84b4f5d4f42",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P06_R11_COORDINATED_TRUE_SOURCE_WALL_AND_ARCHES_B523_EXPERIMENTAL/M04_P06_B523_EXACT_WALL_BOOL_AND_GLTF_TECHNICAL_QA.json": "8e966111656502c4e8c9a86338814944be4fd2197e89f29ba3489deb9ca84328",
+    "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937"
+  },
+  "not_original_eight_ambulatory_Pass6J_pier": true,
+  "accepted_profile_choices": "NONE; original ribs used as test control"
+}

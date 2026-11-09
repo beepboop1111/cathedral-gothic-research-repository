@@ -1,0 +1,100 @@
+{
+  "milestone": "M04 P07 R02 exact top-face bearing evidence at shared wall S",
+  "source_global_xyz": [
+    31000,
+    -1250,
+    1800
+  ],
+  "source_R03_actual_five_member_bearings": {
+    "BAY1_RIB_1": 133.83086027791563,
+    "BAY2_RIB_0": 46.169139722084374,
+    "BAY1_FORMERET_0": 180.0,
+    "BAY2_FORMERET_0": 0.0,
+    "CHAPEL_TRANSVERSE_31000": 90.0
+  },
+  "Blender_engine_R14_source_profile_version": "Blender 5.2.3 source-restored",
+  "exact_R14_source_course_05_top_Z": 2400.0,
+  "exact_371_source_course05_horizontal_triangle_faces": 371,
+  "exact_top_native_area": 189805.5825376441,
+  "original_upper_wall_source_area": 144000.0000000001,
+  "upper_wall_exact_supported_native_area": 144000.00000000006,
+  "upper_wall_outside_tas_top_area": 0.0,
+  "five_source_local_arches_near_pier": [
+    {
+      "name": "CHAPEL_TRANSVERSE_31000",
+      "canonical_bearing_deg": 90.0,
+      "local_pier_R03_arch_area": 16457.15951235,
+      "local_arch_area_seated_on_exact_tas_top": 16452.88649313,
+      "local_arch_seating_fraction": 0.999740355,
+      "local_arch_outside_tas_top_native_sq": 4.27301922,
+      "remote_end_count": 1,
+      "remote_arch_end_not_a_support_deficiency": true,
+      "source_classification": "REAL ORIGINAL ARCH SECTION AT Z2400.1",
+      "full_arch_source_section_area": 32914.31902471
+    },
+    {
+      "name": "BAY1_RIB_1",
+      "canonical_bearing_deg": 133.83086027791563,
+      "local_pier_R03_arch_area": 11487.10658159,
+      "local_arch_area_seated_on_exact_tas_top": 11483.48005486,
+      "local_arch_seating_fraction": 0.9996842959,
+      "local_arch_outside_tas_top_native_sq": 3.62652673,
+      "remote_end_count": 0,
+      "remote_arch_end_not_a_support_deficiency": true,
+      "source_classification": "REAL ORIGINAL ARCH SECTION AT Z2400.1",
+      "full_arch_source_section_area": 11487.10658159
+    },
+    {
+      "name": "BAY2_RIB_0",
+      "canonical_bearing_deg": 46.169139722084374,
+      "local_pier_R03_arch_area": 11399.12171848,
+      "local_arch_area_seated_on_exact_tas_top": 11396.47205606,
+      "local_arch_seating_fraction": 0.9997675556,
+      "local_arch_outside_tas_top_native_sq": 2.64966242,
+      "remote_end_count": 0,
+      "remote_arch_end_not_a_support_deficiency": true,
+      "source_classification": "REAL ORIGINAL ARCH SECTION AT Z2400.1",
+      "full_arch_source_section_area": 11399.12171848
+    },
+    {
+      "name": "BAY1_FORMERET_0",
+      "canonical_bearing_deg": 180.0,
+      "local_pier_R03_arch_area": 6176.17781597,
+      "local_arch_area_seated_on_exact_tas_top": 6173.63566527,
+      "local_arch_seating_fraction": 0.9995883942,
+      "local_arch_outside_tas_top_native_sq": 2.54215069,
+      "remote_end_count": 1,
+      "remote_arch_end_not_a_support_deficiency": true,
+      "source_classification": "REAL ORIGINAL ARCH SECTION AT Z2400.1",
+      "full_arch_source_section_area": 12352.35563193
+    },
+    {
+      "name": "BAY2_FORMERET_0",
+      "canonical_bearing_deg": 0.0,
+      "local_pier_R03_arch_area": 6127.73049293,
+      "local_arch_area_seated_on_exact_tas_top": 6125.41410701,
+      "local_arch_seating_fraction": 0.9996219831,
+      "local_arch_outside_tas_top_native_sq": 2.31638592,
+      "remote_end_count": 1,
+      "remote_arch_end_not_a_support_deficiency": true,
+      "source_classification": "REAL ORIGINAL ARCH SECTION AT Z2400.1",
+      "full_arch_source_section_area": 12255.57208176
+    }
+  ],
+  "five_local_seating_fraction_min": 0.9995883942,
+  "all_five_local_arch_seats_over_99p95pct": true,
+  "upper_exact_top_uncertain_shoulder_native_sq": 8933.53280390884,
+  "uncertain_main_region_native_sq": 8881.425433823944,
+  "number_of_separate_small_shoulder_regions": 13,
+  "original_remote_arch_ends_correctly_excluded": true,
+  "source_original_profile_selection_unchanged": true,
+  "actual_3D_bonded_arch_rear_section_verified": false,
+  "architectural_historical_structural_validation": "UNRESOLVED",
+  "F5ZL_C_schedule": "MISSING",
+  "source_sha256": {
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_R02B_CANONICAL_SPRINGER_AND_BEARING_MASONRY_EXPERIMENTAL/R03_TEN_PROTECTED_PIER_ARCH_AND_BEARING_MASONRY_REFERENCES.glb": "7c0b832213c7440b9ed6c2f45cc7be47b57036e96e4779365862701bc2a97b07",
+    "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P05_BLENDER523_R14_CANONICAL_FIVE_SOURCE_EXPERIMENTAL/build/springer_variant.glb": "4bbe6d471d2cd7544a566efe29eb8d2d63471141e1ea4a29673dd84b4f5d4f42",
+    "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+    "/home/christopher/Documents/Cathedral/experimental/UNIFIED_JUNCTION_INTERFACE_R01/INTERFACE_QA.json": "63b7d6f9bd47cd183fbad5ff36f6a290880ec3ad80415691f1b32de7f0288ad6"
+  }
+}

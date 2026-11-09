@@ -1,0 +1,81 @@
+{
+  "experiment": "M04 P02 genuine three separate original user profile inputs into existing R17 springer",
+  "cases": [
+    {
+      "label": "PROFILE_1_SIMPLE",
+      "source_profile_id": "1__01",
+      "source_original_sha256": "a486f46d4f184899cdc51a053eeed1971451a1ab20123884a573e27b48b31489",
+      "profile_proportions_width_native": 141.2507,
+      "profile_proportions_depth_native": 199.81806341,
+      "profile_section_vertices": 141,
+      "test_nose_direction": "left",
+      "workflow_returncode": 0,
+      "seconds": 17.669,
+      "status": "passed",
+      "diagnostic_status": "completed",
+      "validation_total": 76,
+      "validation_passed": 76,
+      "declared_spring_origin_from_R17_fixture": "local Z=0; not F5ZK-C global spring Y3000",
+      "approved_cathedral_profile": false
+    },
+    {
+      "label": "PROFILE_31_ORIGINAL_R17_REFERENCE",
+      "source_profile_id": "31__01",
+      "source_original_sha256": "0f5562bca9a7806bed64877f498825dc0da25246c5a0a5a78f891ae311c7d475",
+      "profile_proportions_width_native": 141.2507,
+      "profile_proportions_depth_native": 143.75387696,
+      "profile_section_vertices": 198,
+      "test_nose_direction": "left",
+      "workflow_returncode": 0,
+      "seconds": 19.92,
+      "status": "passed",
+      "diagnostic_status": "completed",
+      "validation_total": 76,
+      "validation_passed": 76,
+      "declared_spring_origin_from_R17_fixture": "local Z=0; not F5ZK-C global spring Y3000",
+      "approved_cathedral_profile": false
+    },
+    {
+      "label": "PROFILE_36_FINE_DETAIL",
+      "source_profile_id": "36__01",
+      "source_original_sha256": "8ffc569c9327343334f0ac8a9919c86f63cfaa272b8912105c198fc45bc54211",
+      "profile_proportions_width_native": 141.2507,
+      "profile_proportions_depth_native": 111.89990519,
+      "profile_section_vertices": 290,
+      "test_nose_direction": "left",
+      "workflow_returncode": 0,
+      "seconds": 20.171,
+      "status": "passed",
+      "diagnostic_status": "completed",
+      "validation_total": 76,
+      "validation_passed": 76,
+      "declared_spring_origin_from_R17_fixture": "local Z=0; not F5ZK-C global spring Y3000",
+      "approved_cathedral_profile": false
+    },
+    {
+      "asset": "11__01",
+      "expected": "REJECT",
+      "got": "REJECT",
+      "reason": "Profile has interior holes; unsupported by this engine",
+      "hole_preserved": true
+    }
+  ],
+  "source_sha256_before": {
+    "/home/christopher/Documents/Cathedral/experimental/SPRINGER_PROFILE_INPUT_R11/profile_input.py": "8e76e689b0359f98f395d878df4d1fa22ffe3c112e1d34a4c492d542f6979ff9",
+    "/home/christopher/Documents/Cathedral/experimental/SPRINGER_WORKFLOW_R14/build_springer.py": "b85d46e7e30b5c2b8c95f415bf8e3ae392293710d4e2ace365432503a8873e66",
+    "/home/christopher/Documents/Cathedral/experimental/SPRINGER_REPRODUCIBLE_R17/fixture/manifest.json": "52cce1c6bad71f39a34a3ef23462e6296ad7bf4bb3de91e3cc047b775001ce23"
+  },
+  "source_sha256_after": {
+    "/home/christopher/Documents/Cathedral/experimental/SPRINGER_PROFILE_INPUT_R11/profile_input.py": "8e76e689b0359f98f395d878df4d1fa22ffe3c112e1d34a4c492d542f6979ff9",
+    "/home/christopher/Documents/Cathedral/experimental/SPRINGER_WORKFLOW_R14/build_springer.py": "b85d46e7e30b5c2b8c95f415bf8e3ae392293710d4e2ace365432503a8873e66",
+    "/home/christopher/Documents/Cathedral/experimental/SPRINGER_REPRODUCIBLE_R17/fixture/manifest.json": "52cce1c6bad71f39a34a3ef23462e6296ad7bf4bb3de91e3cc047b775001ce23"
+  },
+  "all_source_files_byte_unchanged": true,
+  "roles_in_original_R17_fixture": 4,
+  "canonical_junction_requires_five": true,
+  "existing_R17_four_member_cannot_be_architecturally_integrated": true,
+  "current_R17_other_3_members_remain_real_source_fixture_references": true,
+  "historical_source_member_role_and_section_orientation_validated": false,
+  "F5ZL_C_support_schedule_missing": true,
+  "architectural_and_structural_approval": false
+}

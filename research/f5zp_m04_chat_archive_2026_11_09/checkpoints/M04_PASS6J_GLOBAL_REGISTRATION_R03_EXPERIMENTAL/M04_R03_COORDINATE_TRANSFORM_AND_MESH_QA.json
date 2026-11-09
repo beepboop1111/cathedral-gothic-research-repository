@@ -1,0 +1,106 @@
+{
+  "milestone": "M04 Pass6J/V13 \u2192 F5ZK-C/F5ZN-A global registration R03",
+  "source_hashes": {
+    "M02_R11": "d84883e8868dc4ccb8802d2b5773a5da45b13b3301a829d2c3e0df4a673d9162",
+    "F5ZN_A": "97014cf07fccf1d5ed91e78b5cb20d557d55931cfd706921d46342a35dabb352",
+    "F5ZKC": "d1185e4a2fe9c92b12a3e544fddca32bf65650257cfddc28137002d8e819fa85",
+    "PASS6J_S1": "b5e505d6a885881a1ed752e5e14a5d2e9975877a42a3308489d739f5e11a8a1e",
+    "PASS6J_SERVICES": "4e2da5ff2348396ec761e1e9e53578d727b3c34de061163ee0fc65cae90340fd",
+    "PASS6J_ARTICULATED": "acd7619e486112ae9e7d5777a638b5f46697a8b92b2e5ea1c1814ea7fb787cd4",
+    "PASS6J_DERIVED": "0dcb3872585717ca639b0af1905b4dbe252a9ba1cf29e228f27907fa457a295b",
+    "PASS6J_NARROW": "9afac85e842d24e43c3328b5285d0a6d67c60f1b6f38ef906052d24a27a6fe0f",
+    "M02_PHASE_D": "84653eaeff6adb01601e140a03e2f6d70e497c55f015d77d91bab5f88a7808e2",
+    "M04_R02_QA": "7b7a9d5dde8c43515e66fd0ee95ad62780ca6b773bd68ff982d9bcd7f644acaf"
+  },
+  "status": "Coordinate-frame relationship recovered and tested against unmodified R11; original plinth clashes found",
+  "exact_4x4_source_to_plan_blender_xyz": [
+    [
+      0,
+      0,
+      1,
+      20213
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "transform_determinant": 1,
+  "old_source_xyz_R1_spring": [
+    869.278779,
+    3000,
+    4089.635119
+  ],
+  "new_global_xyz_R1_spring": [
+    24302.635119,
+    869.278779,
+    3000
+  ],
+  "source_R1_radius_native": 4181.0,
+  "F5ZN_A_nominal_R1_radius_native": 4085,
+  "radial_station_offset_from_nominal_native": 96.0,
+  "reason_for_96_station_offset": "NOT PROVEN by reference. Do not treat as validated built pier dimension.",
+  "source_R1_angle_from_north_deg": 78.0,
+  "global_bearing_from_east_deg": 12.0,
+  "control_non_swapped_station_inside_protected_vault": true,
+  "corrected_swapped_station_inside_protected_vault": false,
+  "all_eight_R1_ring_boundary_stations_outside_source_inner_vaults": true,
+  "actual_original_GLB_models_sliced": 3,
+  "actual_section_rows": 14,
+  "shaft_sections_2705_to_2999_clear_saved_vault_polygons": true,
+  "plinth_Y2600_violates_saved_vaults": [
+    {
+      "model": "articulated",
+      "source_glb": "R1_78_ARTICULATED_COMPOUND_PIER_WITH_BASE_AND_TAS.glb",
+      "original_source_Y_vertical": 2600,
+      "global_Z_height_native": 2600,
+      "cross_section_piece_count": 1,
+      "cross_section_occupied_area_native_sq": 15987.99395,
+      "positive_area_protected_clear_vault_overlap_native_sq": 531.08175,
+      "collided_original_clear_vault_ids": "I_A3_R12C;I_A4_R12C",
+      "collided_cell_overlap_area_native_sq": "233.39755;297.684199",
+      "pass_geometric_clearance": false,
+      "note": "Full source mesh unchanged, plane section transformed cyclically; NOT structural capacity approval"
+    },
+    {
+      "model": "narrow",
+      "source_glb": "R1_78_NARROW_SMOOTH_COMPOUND_PIER_WITH_BASE_AND_TAS.glb",
+      "original_source_Y_vertical": 2600,
+      "global_Z_height_native": 2600,
+      "cross_section_piece_count": 1,
+      "cross_section_occupied_area_native_sq": 16483.965706,
+      "positive_area_protected_clear_vault_overlap_native_sq": 1743.1344,
+      "collided_original_clear_vault_ids": "I_A3_R12C;I_A4_R12C",
+      "collided_cell_overlap_area_native_sq": "869.428364;873.706035",
+      "pass_geometric_clearance": false,
+      "note": "Full source mesh unchanged, plane section transformed cyclically; NOT structural capacity approval"
+    }
+  ],
+  "technical_validation": "PASS 3 authentic meshes sectioned; exact cyclic coordinate reorientation and preserved hashes",
+  "geometric_validation": "PARTIAL: shaft clear at measured planes; plinth violates protected vault footprints; full continuous Y volume not proven",
+  "architectural_validation": "Coordinate frame strongly supported by 1:1 center, angle and bay identity; no global physical pier approval",
+  "historical_validation": "NOT ASSESSED",
+  "structural_validation": "NOT ASSESSED",
+  "blocked_or_unresolved": [
+    "Original source Pass6J physical pier lower plinth intrusion into 2 protected I bays at Y2600",
+    "Full continuous vertical collision sweep, arch/rib bearing interface and tas-de-charge registration",
+    "96 native-unit offset of source R1 spring station from nominal R1 radius needs source-level explanation",
+    "F5ZL-C support schedule missing",
+    "No unverified mirroring/rotating a single R1 pier to all other stations",
+    "Outer paired fourteen-vault trial excluded from floorplan"
+  ]
+}

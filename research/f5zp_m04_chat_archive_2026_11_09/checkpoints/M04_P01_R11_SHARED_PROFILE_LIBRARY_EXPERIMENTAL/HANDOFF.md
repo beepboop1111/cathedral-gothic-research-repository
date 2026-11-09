@@ -1,0 +1,8 @@
+# M04 P01 shared original Gothic profiles and sectional fit
+
+Uses original 38-image ZIP and unchanged SPRINGER_PROFILE_INPUT_R11/profile_input.py. Isolate each black source silhouette; independently call the existing converter to produce actual springer_png_section_v1 JSON and SVG, preserving the source raster and SHA256. Optional soffit/face silhouettes stay separate. The default nose=up is a PROVISIONAL conversion direction, not a confirmed historic orientation. Uniform scaling can vary; changing width and depth independently would need a declared deliberate distort operation rather than silently corrupting original proportions.
+
+Reference plan fit tests use the M04 R05 source eight directions and R06 original Y2800 floor footprint. At nominal V12 member widths and ±20% widths, all valid numbered profiles are tried with a provisional 42%-depth anchor, against all original 218 clear vault polygons and seven first-wall bands. This is only 2D screening, not a measured actual future spring connection, soffit fit, pier design or architectural approval. The true F5ZN-A formerets of M04 R08 differ from the older V13 U1 regime; no automatic role assignment. All prior scripts, source geometry, approved cathedral geometry and GitHub remain untouched.
+
+## R08 test caveat
+A separate 1,056-row measured source-derived contour comparison against R08 saved receiver polygon levels Y3000 and Y3259 was carried out. These are original 2D profile shapes with provisional up-nose and 42% depth anchoring. The R08 source receiver itself is experimentally incomplete at the first bed and its formerets are NOT V13 U1. The test cannot imply true 3D arch geometry, approve a selected profile or resolve the architectural pier center.

@@ -1,0 +1,182 @@
+[
+  {
+    "entry": "sources/R03_PROTECTED_SOURCE.blend",
+    "bytes": 10071995,
+    "sha256": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937"
+  },
+  {
+    "entry": "sources/R03_10_SOURCE_PIER_AND_GOTHIC_MEMBERS.glb",
+    "bytes": 871480,
+    "sha256": "7c0b832213c7440b9ed6c2f45cc7be47b57036e96e4779365862701bc2a97b07"
+  },
+  {
+    "entry": "sources/R03_QA.json",
+    "bytes": 9002,
+    "sha256": "f1c20935cd3ab9904bb94c39d092588ebeb1952d1ce1584c56188e6b39279edc"
+  },
+  {
+    "entry": "sources/R02_CANONICAL_BEARING_QA.json",
+    "bytes": 7041,
+    "sha256": "30483fed4810f48c2d13ba87c15b068b785e2754a47f94785f37aec3b3041934"
+  },
+  {
+    "entry": "sources/R15_UNTOUCHED_ORIGINAL_MANIFEST.json",
+    "bytes": 1412,
+    "sha256": "3a0a61f15a5e45818b5c3b3d43ce968f1941452263ceeea6a7ce80419e409918"
+  },
+  {
+    "entry": "sources/R15_ORIGINAL_ARCH_SECTIONS_AND_CARRIERS.json",
+    "bytes": 2665484,
+    "sha256": "c6443805c2e78c3af087011eb16e50d38ed0ac236bbba33485f7456987a281a7"
+  },
+  {
+    "entry": "sources/CANONICAL_FIVE_BEARING_REFERENCE_QA.json",
+    "bytes": 2552,
+    "sha256": "63b7d6f9bd47cd183fbad5ff36f6a290880ec3ad80415691f1b32de7f0288ad6"
+  },
+  {
+    "entry": "source_control/FIVE_ORIGINAL_SECTION_CANONICAL_FIXTURE.json",
+    "bytes": 2111,
+    "sha256": "75fea0a9fe47dc69750695a38aa13cb2d55c149183c619b38c98967c0fcbc563"
+  },
+  {
+    "entry": "source_control/FIVE_SOURCE_RESTORED_MEMBERS_AND_COURSES.glb",
+    "bytes": 5314924,
+    "sha256": "36f04fdea5be3b111a3ad5df26607277380202bbaa63dd908d6c198ccc12af43"
+  },
+  {
+    "entry": "source_control/R14_REBUILT_BLENDER_QA.json",
+    "bytes": 9471,
+    "sha256": "42d89389609cec7d641a5002d6220e160986e391990d9148671f4d67e16bdf1c"
+  },
+  {
+    "entry": "source_control/R14_REBUILT_GEOMETRY_QA.json",
+    "bytes": 4240,
+    "sha256": "a112aa3cfd1037a433310a3dd0e87c348849d6fada04bf9c4746f00b8d246ff6"
+  },
+  {
+    "entry": "source_control/R14_WORKFLOW_SUMMARY.json",
+    "bytes": 895,
+    "sha256": "dfe54f914bb39c87e49220b195fc2aef8e42b9b67e1dc65a0fb079f56979a431"
+  },
+  {
+    "entry": "review/ONE_FINAL_GOTHIC_SOURCE_CUTAWAY.png",
+    "bytes": 1194994,
+    "sha256": "b1966cde272f54e110c47bebe176a7744647315c796f2dd75a82842fc7f6dc3a"
+  },
+  {
+    "entry": "review/R03_SOURCE_FIVE_BEARING_EDITABLE_CUTAWAY.blend",
+    "bytes": 702913,
+    "sha256": "1bfa6d7c843b2d41a7bfb97a2966c4ecea1c4d4a809b1af35dd250a82c39be01"
+  },
+  {
+    "entry": "review/R03_SOURCE_FIVE_BEARING_CUTAWAY_GLTF.glb",
+    "bytes": 999396,
+    "sha256": "6c75651b3b5b4f231f442947f0d63a5d4e2297ed14400e456f1707a6a578d074"
+  },
+  {
+    "entry": "review/CUTAWAY_TECHNICAL_QA.json",
+    "bytes": 1595,
+    "sha256": "f955755884f79768ec5f898fbda4b40ef7733921b03ab742db742a3fbc6b2205"
+  },
+  {
+    "entry": "measurements/REAL_R03_MEMBER_REGISTRATION_QA.json",
+    "bytes": 5851,
+    "sha256": "77e88625311fd5dc5a5cace7071c33c0d04dfe0926f0ccc7b11c78fbf751fd80"
+  },
+  {
+    "entry": "measurements/35_3D_TRUE_ARCH_SECTION_REGRESSIONS.csv",
+    "bytes": 4293,
+    "sha256": "af0e2b2a13959923d58918817acd61cdd0b2d19a9346963293ff5d7ea9e8c9a9"
+  },
+  {
+    "entry": "measurements/UPPER_JUNCTION_MEASURED_UNCERTAIN_REGIONS.csv",
+    "bytes": 1586,
+    "sha256": "282cf89b6f813ef6a7669575970d3d8dd7df4ffbbafa2a43cba6cc71db2e96ad"
+  },
+  {
+    "entry": "measurements/UPPER_JUNCTION_SOURCE_1TO1.svg",
+    "bytes": 48902,
+    "sha256": "676f3d6e04551301f1c14d57eaeda01ee23492b28ae29e1e8647f413b9b9e32b"
+  },
+  {
+    "entry": "measurements/NUMERICAL_APPROVAL_GATES.json",
+    "bytes": 4132,
+    "sha256": "9a1608b2a663107e7ce6fb3476ce6ce3e5507f8bdc4d7895094b27b89481f021"
+  },
+  {
+    "entry": "generator/REPRODUCE_SAFE_CANONICAL_ORIGINAL_SOURCE.py",
+    "bytes": 2904,
+    "sha256": "83647a635c77df0286f05fbb541c5df551d55a47db9ce4233b0fe96484146376"
+  },
+  {
+    "entry": "generator/COMPARE_35_ORIGINAL_R03_ARCH_SECTIONS.py",
+    "bytes": 9313,
+    "sha256": "884619ed32acca5f31e4129fe08744422fd868af7159734ab2e0eb6042c3e12e"
+  },
+  {
+    "entry": "generator/CUTAWAY_BLENDER_SCRIPT.py",
+    "bytes": 8630,
+    "sha256": "646bb13df1606575e8f21aed6983342ed64d77f6c384d721ea68412f4c4a26bf"
+  },
+  {
+    "entry": "generator/MASONRY_CONTACT_AUDIT.py",
+    "bytes": 10304,
+    "sha256": "ebad93dddcb0ca3fc0192bec462362adb1eebe9986115b4bf9f2f5af082bf03f"
+  },
+  {
+    "entry": "engine_reference/R14_UNCHANGED_SPRINGER_WORKFLOW.py",
+    "bytes": 5834,
+    "sha256": "b85d46e7e30b5c2b8c95f415bf8e3ae392293710d4e2ace365432503a8873e66"
+  },
+  {
+    "entry": "engine_reference/R12_UNCHANGED_CONTROLS.py",
+    "bytes": 4408,
+    "sha256": "cdd2958336ec1f2b0b6dd9eb500c065bbbd0482088210b7fd36c04e46d92f9e5"
+  },
+  {
+    "entry": "engine_reference/R11_UNCHANGED_ATTACH_SECTION.py",
+    "bytes": 1339,
+    "sha256": "e377d82579cd99931ef7e65af62df82e490f53a36c513eb9730e860a525ce6ed"
+  },
+  {
+    "entry": "engine_reference/R06_UNCHANGED_SPRINGER_CORE.py",
+    "bytes": 9807,
+    "sha256": "4d28027fb6050b7df177fb0d2a654a71bce70db3f5ec7d43ddd40f0595ff0ec8"
+  },
+  {
+    "entry": "engine_reference/R06_UNCHANGED_CASE_TOOLS.py",
+    "bytes": 3461,
+    "sha256": "68ff00915b338a3286a1d596f863eb4dbb67f795752bc924a50096f053fb4534"
+  },
+  {
+    "entry": "engine_reference/R06_UNCHANGED_BLENDER_RUNNER.py",
+    "bytes": 9652,
+    "sha256": "e0077f723b5e689e5b3a9045ca8d43800cce37c043bd5d1dc8d3698e951e2171"
+  },
+  {
+    "entry": "engine_reference/R07_UNCHANGED_RUNNER.py",
+    "bytes": 2245,
+    "sha256": "3383f6f636f82844dd3144bcf800643f245dbb417ddee423de4afa9801bbf3f5"
+  },
+  {
+    "entry": "engine_reference/R13_UNCHANGED_DIAGNOSTICS.py",
+    "bytes": 4612,
+    "sha256": "2391cd9f651cb038a1ad06272e042de84d20446794b3d9c3802edd3fa983ab0e"
+  },
+  {
+    "entry": "profile_library/P02_USER_PROFILE_SELECTION_SCRIPT.py",
+    "bytes": 6495,
+    "sha256": "96fc2f980d435ea3ae39a8506d4e0b8b284a1c3fe343af0222c3309c5510dd4d"
+  },
+  {
+    "entry": "reports/HANDOFF_AND_APPROVAL_STATUS.md",
+    "bytes": 2723,
+    "sha256": "86ba275ec35d928212fdecb5d9a79cc3a3ca25c9aadd7233b18f5944cb22fe41"
+  },
+  {
+    "entry": "generator/PACKAGER.py",
+    "bytes": 9286,
+    "sha256": "75ca7f87dc5b619b67ddc4a7e038847131dbc63d43d00f94155b2e496739f2ee"
+  }
+]

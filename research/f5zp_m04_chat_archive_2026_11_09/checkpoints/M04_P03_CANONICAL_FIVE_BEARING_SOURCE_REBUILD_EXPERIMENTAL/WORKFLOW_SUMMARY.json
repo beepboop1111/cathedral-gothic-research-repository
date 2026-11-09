@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "failed_stage": null,
+  "fixture": "/home/christopher/Documents/Cathedral/experimental/SPRINGER_JUNCTION_R15/original_backing_manifest.json",
+  "stages": {
+    "controls": 0,
+    "build": 0,
+    "diagnostics": 0
+  },
+  "diagnostic_status": "completed",
+  "diagnostic_failure": "inspect stage logs for exception",
+  "diagnostic_warnings": {
+    "quantized_abnormal_edges": 0,
+    "sampled_component_changes": [],
+    "sample_errors": 0
+  },
+  "passed": 78,
+  "total": 78,
+  "course_levels": [
+    0.0,
+    120.0,
+    240.0,
+    360.0,
+    480.0,
+    600.0
+  ],
+  "glb": "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P03_CANONICAL_FIVE_BEARING_SOURCE_REBUILD_EXPERIMENTAL/build/springer_variant.glb",
+  "reimport_checked": true
+}

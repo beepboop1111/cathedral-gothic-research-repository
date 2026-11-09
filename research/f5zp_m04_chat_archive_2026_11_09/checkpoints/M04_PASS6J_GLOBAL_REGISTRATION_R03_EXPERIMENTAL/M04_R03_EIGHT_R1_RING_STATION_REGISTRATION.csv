@@ -1,0 +1,9 @@
+source_boundary_angle_from_north_deg,registered_global_X,registered_global_Y,radius_native,nearest_original_inner_vault,nearest_clearance_native,second_nearest_inner_vault,second_clearance_native,point_inside_any_source_inner_clear_vault,approved_full_compound_pier_at_this_station
+0.5,20249.485645,4180.840801,4181.0,I_A1_R12C,36.497072,I_A2_R12C,1970.118617,False,False
+27.5,22143.570952,3708.592294,4181.0,I_A2_R12C,71.984337,I_A1_R12C,112.907961,False,False
+53.5,23573.925534,2486.954072,4181.0,I_A3_R12C,67.896855,I_A2_R12C,71.984337,False,False
+78,24302.635119,869.278779,4181.0,I_A4_R12C,66.531741,I_A3_R12C,67.896855,False,False
+102,24302.635119,-869.278779,4181.0,I_A4_R12C,66.531741,I_A5_R12C,67.896855,False,False
+126.5,23573.925534,-2486.954072,4181.0,I_A5_R12C,67.896855,I_A6_R12C,71.984337,False,False
+152.5,22143.570952,-3708.592294,4181.0,I_A6_R12C,71.984337,I_A7_R12C,112.907961,False,False
+179.5,20249.485645,-4180.840801,4181.0,I_A7_R12C,36.497072,I_A6_R12C,1970.118617,False,False

@@ -1,0 +1,44 @@
+{
+  "courses": [
+    {
+      "course": 1,
+      "proposed_joint_Y": -1360,
+      "volume_relative_error": 9.435255359191776e-16,
+      "parts_closed": true
+    },
+    {
+      "course": 2,
+      "proposed_joint_Y": -1440,
+      "volume_relative_error": 3.141447837900881e-08,
+      "parts_closed": true
+    },
+    {
+      "course": 3,
+      "proposed_joint_Y": -1360,
+      "volume_relative_error": 4.455070418555575e-14,
+      "parts_closed": true
+    },
+    {
+      "course": 4,
+      "proposed_joint_Y": -1440,
+      "volume_relative_error": 2.293937575419966e-08,
+      "parts_closed": true
+    },
+    {
+      "course": 5,
+      "proposed_joint_Y": -1360,
+      "volume_relative_error": 3.3808389739185235e-15,
+      "parts_closed": true
+    }
+  ],
+  "GLB_import_objects": 19,
+  "proposal": "Y -1360/-1440 alternate; uncalibrated native dimensions; existing envelope partitioned only",
+  "limitations": [
+    "No extension into adjacent wall",
+    "No mortar gaps",
+    "No bed shear or thrust calculation",
+    "No historical precedent validation yet",
+    "Not construction-ready bonding"
+  ],
+  "plan_change": "None; junction S at X31000 Y-1250, between chapel bays 1 and 2 on south side"
+}

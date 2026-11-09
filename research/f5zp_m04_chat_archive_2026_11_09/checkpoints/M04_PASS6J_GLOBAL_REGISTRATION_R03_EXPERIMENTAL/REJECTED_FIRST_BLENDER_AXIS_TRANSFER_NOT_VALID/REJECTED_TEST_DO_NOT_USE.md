@@ -1,0 +1,1 @@
+First export used the original glTF coordinate reorientation twice, because Blender import already converts Y-up glTF to Blender Z-up. Independent trimesh 3D bounds caught wrong coordinates. Kept solely for provenance. Corrected matrix applied to imported Blender vertices in second iteration. DO NOT use these files for architectural inspection.

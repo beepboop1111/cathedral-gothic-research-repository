@@ -1,0 +1,53 @@
+00:00.232  blend            | Read blend: "/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P05_BLENDER523_R14_CANONICAL_FIVE_SOURCE_EXPERIMENTAL/build/raw_fixture.blend"
+/home/christopher/Documents/Cathedral/experimental/SPRINGER_ENGINE_R06/blender_runner.py:20: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True;m.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value=(*color,1);m.node_tree.nodes['Principled BSDF'].inputs['Roughness'].default_value=.85;return m
+GEOMETRY_CHECKS 68 68
+Info: Saved as "springer_variant.blend"
+INFO Draco is available, use library at /home/christopher/Applications/blender-5.2.3-linux-x64/lib/libbf_intern_draco_bridge.so
+INFO MeshOptimizer is available, use library at /home/christopher/Applications/blender-5.2.3-linux-x64/lib/libbf_intern_meshopt_bridge.so
+17:55:31 | INFO: Starting glTF 2.0 export
+17:55:31 | INFO: Extracting primitive: filled_common_reference.001
+17:55:31 | INFO: Primitives created: 1
+17:55:31 | INFO: Extracting primitive: filled_common_reference.002
+17:55:31 | INFO: Primitives created: 1
+17:55:31 | INFO: Extracting primitive: filled_common_reference.003
+17:55:31 | INFO: Primitives created: 1
+17:55:31 | INFO: Extracting primitive: filled_common_reference.004
+17:55:31 | INFO: Primitives created: 1
+17:55:31 | INFO: Extracting primitive: filled_common_reference.005
+17:55:31 | INFO: Primitives created: 1
+17:55:31 | INFO: Extracting primitive: derived_respond
+17:55:31 | INFO: Primitives created: 1
+17:55:31 | INFO: Extracting primitive: member_0
+17:55:32 | INFO: Primitives created: 1
+17:55:32 | INFO: Extracting primitive: member_1
+17:55:32 | INFO: Primitives created: 1
+17:55:32 | INFO: Extracting primitive: member_2
+17:55:32 | INFO: Primitives created: 1
+17:55:32 | INFO: Extracting primitive: member_3
+17:55:32 | INFO: Primitives created: 1
+17:55:32 | INFO: Extracting primitive: member_4
+17:55:32 | INFO: Primitives created: 1
+17:55:32 | INFO: Extracting primitive: receiver
+17:55:32 | INFO: Primitives created: 1
+17:55:32 | INFO: Finished glTF 2.0 export in 0.07762598991394043 s
+
+17:55:32 | INFO: Data are loaded, start creating Blender stuff
+17:55:32 | INFO: Blender create Mesh node filled_common_reference.001
+17:55:32 | INFO: Blender create Mesh node filled_common_reference.002
+17:55:32 | INFO: Blender create Mesh node filled_common_reference.003
+17:55:32 | INFO: Blender create Mesh node filled_common_reference.004
+17:55:32 | INFO: Blender create Mesh node filled_common_reference.005
+17:55:32 | INFO: Blender create Mesh node derived_respond
+17:55:32 | INFO: Blender create Mesh node member_0
+17:55:32 | INFO: Blender create Mesh node member_1
+17:55:32 | INFO: Blender create Mesh node member_2
+17:55:32 | INFO: Blender create Mesh node member_3
+17:55:32 | INFO: Blender create Mesh node member_4
+17:55:32 | INFO: Blender create Mesh node receiver
+17:55:32 | INFO: glTF import finished in 0.15s
+00:13.262  render           | Saved: '/home/christopher/Downloads/downlods/F5ZP_R12C_FULL_PLAN_BLENDER_EXPERIMENTAL/M04_P05_BLENDER523_R14_CANONICAL_FIVE_SOURCE_EXPERIMENTAL/build/variant_review.png'
+VARIANT_FINISHED 78 78
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit
