@@ -1,0 +1,30 @@
+{
+  "fresh_open_addon_enabled": true,
+  "persistent_params": true,
+  "reference_integrity": true,
+  "generated": 17,
+  "panel_registered": true,
+  "new_checkpoint": "/home/christopher/Desktop/F5ZP_M01_R29_LIVE_AXIAL_EXPERIMENTAL_20261105/R29_LIVE_AXIAL_JUNCTION_EXPERIMENTAL_V02.blend",
+  "mesh_checks": {
+    "R29_WEB_SOUTH": {
+      "nonmanifold_edges": 0,
+      "volume": 98446240.409,
+      "verts": 650
+    },
+    "R29_WEB_NORTH": {
+      "nonmanifold_edges": 0,
+      "volume": 98446240.409,
+      "verts": 650
+    },
+    "R29_OUTER_BEARING_SOUTH": {
+      "nonmanifold_edges": 0,
+      "volume": 86940000.0,
+      "verts": 8
+    },
+    "R29_OUTER_BEARING_NORTH": {
+      "nonmanifold_edges": 0,
+      "volume": 86940000.0,
+      "verts": 8
+    }
+  }
+}

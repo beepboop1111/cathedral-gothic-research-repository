@@ -1,0 +1,52 @@
+{
+  "status": "EXPERIMENTAL_ONLY_NOT_APPROVED",
+  "reference_object_count": 60,
+  "generated_object_count": 17,
+  "baseline_sha256": "f46812fbd651d60c35544498f6050d9cabdc3f94e09cf92666e7f25ac6c2218a",
+  "baseline_is_unchanged": true,
+  "r28_input_sha256": "5fe369f63f10119642a9f7dcc07b111ba1fab93e15f60a17da7e07f247df8587",
+  "r28_original_still_matches": true,
+  "two_rebuilds_keep_exact_object_names": true,
+  "parameter_change_updates_crown": true,
+  "generated_object_names": [
+    "R29_BOSS_RING_NORTH",
+    "R29_BOSS_RING_SOUTH",
+    "R29_CROWN_RIDGE",
+    "R29_OUTER_BEARING_NORTH",
+    "R29_OUTER_BEARING_SOUTH",
+    "R29_RIB_NORTH_01",
+    "R29_RIB_NORTH_02",
+    "R29_RIB_NORTH_03",
+    "R29_RIB_NORTH_04",
+    "R29_RIB_SOUTH_01",
+    "R29_RIB_SOUTH_02",
+    "R29_RIB_SOUTH_03",
+    "R29_RIB_SOUTH_04",
+    "R29_TRANSVERSE_INNER_POINTED_ARCH",
+    "R29_TRANSVERSE_OUTER_POINTED_ARCH",
+    "R29_WEB_NORTH",
+    "R29_WEB_SOUTH"
+  ],
+  "parameters": {
+    "inner_x": 25382.509765625,
+    "center_y": 0.0,
+    "radial_span": 1515.489990234375,
+    "half_width": 1160.0,
+    "inner_spring": 3000.0,
+    "outer_spring": 2300.0,
+    "transverse_rise": 1180.0,
+    "longitudinal_lift": 220.0,
+    "web_thickness": 56.0,
+    "rib_radius": 30.0,
+    "receiver_depth": 210.0,
+    "receiver_width": 180.0,
+    "samples": 24
+  },
+  "source_units": "native 1:1; physical conversion unresolved",
+  "unresolved": [
+    "F5ZL-C receiving masonry / bearing schedule",
+    "No structural or architectural approval",
+    "Provisional V13 web interface",
+    "B chapel configuration remains experimental"
+  ]
+}
