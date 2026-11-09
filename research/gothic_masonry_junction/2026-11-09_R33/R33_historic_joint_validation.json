@@ -1,0 +1,146 @@
+{
+  "pass_id": "R33",
+  "status": "EVIDENCE_GATES_TESTED",
+  "date": "2026-11-08",
+  "historical_cases_checked": 6,
+  "historical_joint_certifications": 0,
+  "gate_unit_tests_passed": 7,
+  "source_constraints": [
+    {
+      "source": "Papajanni 2002, Bildband I, fig. 155",
+      "claim": "1:25 special-stone isometric at south tower west facade / northern buttress; not a glazed window joint",
+      "consequence": "No contact-face normals without registered independent sections"
+    },
+    {
+      "source": "Papajanni 2002, Bildband I, fig. 158",
+      "claim": "Frieze joints often divide continuous figurative carved motifs",
+      "consequence": "Do not derive stone-body boundaries solely from ornamental boundaries"
+    },
+    {
+      "source": "Papajanni 2002, Bildband I, fig. 159",
+      "claim": "Joints were repointed in 1995; original mortar resembled limestone in color",
+      "consequence": "Separate original joint from later pointing/visible seams"
+    },
+    {
+      "source": "Papajanni 2002, Bildband I, fig. 160",
+      "claim": "Unique green sandstone frieze block at northern tower buttress joint; much surrounding limestone renewed",
+      "consequence": "Material and fabric-phase classification required"
+    },
+    {
+      "source": "Papajanni 2002, Bildband I, fig. 163",
+      "claim": "Map of differing parapet forms and stone cuts",
+      "consequence": "No universal repeated-block grammar without bay-specific survey"
+    },
+    {
+      "source": "Lindsay 1985, pp. 220-222 fig. 8",
+      "claim": "Ayr #8 upper beds are marked and front/back mouldings differ",
+      "consequence": "Two bed observations do not provide measured joint polygons"
+    }
+  ],
+  "cases": [
+    {
+      "specimen": "Ayr #8",
+      "certifiable_as_measured_historic_joint": false,
+      "blockers": [
+        "missing_independent_metric_control",
+        "front_rear_not_registered",
+        "original_bed_polygons_not_measured",
+        "no_authenticated_mating_contact",
+        "no_original_metric_mesh_available"
+      ],
+      "usable_for": [
+        "2D scaled section trace",
+        "front/rear moulding differentiation",
+        "incised upper-bed marks described in text"
+      ]
+    },
+    {
+      "specimen": "Ayr #5",
+      "certifiable_as_measured_historic_joint": false,
+      "blockers": [
+        "missing_independent_metric_control",
+        "front_rear_not_registered",
+        "original_bed_polygons_not_measured",
+        "no_authenticated_mating_contact",
+        "no_original_metric_mesh_available"
+      ],
+      "usable_for": [
+        "original end seating reported",
+        "glazing-groove and possible saddle-bar slot"
+      ]
+    },
+    {
+      "specimen": "Buda #0121",
+      "certifiable_as_measured_historic_joint": false,
+      "blockers": [
+        "missing_independent_metric_control",
+        "front_rear_not_registered",
+        "original_bed_polygons_not_measured",
+        "no_authenticated_mating_contact",
+        "original_restoration_not_disambiguated",
+        "no_original_metric_mesh_available"
+      ],
+      "usable_for": [
+        "published structured-light reference metrics",
+        "published section survey examples"
+      ]
+    },
+    {
+      "specimen": "Regensburg fig.155",
+      "certifiable_as_measured_historic_joint": false,
+      "blockers": [
+        "missing_independent_metric_control",
+        "front_rear_not_registered",
+        "original_bed_polygons_not_measured",
+        "no_authenticated_mating_contact",
+        "original_restoration_not_disambiguated",
+        "no_original_metric_mesh_available",
+        "isometric_not_orthographic_surface_survey"
+      ],
+      "usable_for": [
+        "special stone transition typology",
+        "1:25 isometric scale as caption metadata"
+      ]
+    },
+    {
+      "specimen": "Launceston #8",
+      "certifiable_as_measured_historic_joint": false,
+      "blockers": [
+        "missing_independent_metric_control",
+        "front_rear_not_registered",
+        "original_bed_polygons_not_measured",
+        "no_authenticated_mating_contact",
+        "no_original_metric_mesh_available"
+      ],
+      "usable_for": [
+        "published 260mm depth",
+        "two orthogonal end-joint directions"
+      ]
+    },
+    {
+      "specimen": "Freiburg fragments",
+      "certifiable_as_measured_historic_joint": false,
+      "blockers": [
+        "missing_independent_metric_control",
+        "front_rear_not_registered",
+        "original_bed_polygons_not_measured",
+        "no_authenticated_mating_contact",
+        "no_original_metric_mesh_available"
+      ],
+      "usable_for": [
+        "dorsal seating evidence",
+        "front/rear hollows",
+        "glazing rebate examples"
+      ]
+    }
+  ],
+  "interoperability_rules": {
+    "geometric_layer": "Physical ashlar solids and their contact faces are separate from visible moulding/tracery curves",
+    "fabric_phase_layer": "Original/repair/altered/unknown material explicitly tagged",
+    "provenance_layer": "Every surface has source ref and either 3D coordinates or unknown, never invented 0",
+    "validation_layer": "2D artwork cannot bypass 3D contact and registration gates",
+    "baseline": "R19 remains experimental; Pass 6J and F5ZP validated cathedral geometry untouched"
+  },
+  "live_access": "University Bildband server returning HTTP 503 on 2026-11-08; only captions retrieved at this pass",
+  "cathedral_modified": false
+}

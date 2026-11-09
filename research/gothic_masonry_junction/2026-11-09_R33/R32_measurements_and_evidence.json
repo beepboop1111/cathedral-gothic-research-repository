@@ -1,0 +1,89 @@
+{
+  "study": "R32",
+  "status": "RESEARCH_PROVISIONAL",
+  "source": "G. Stell in W.J. Lindsay, Digging Up Auld Ayr (1985), fig. 8 pp.220-222",
+  "source_url": "https://aanhs.org/wp-content/uploads/2018/05/digging-up-auld-ayr.pdf",
+  "source_pdf_page": 16,
+  "sha256_preview": "2fbe2182753b3924c314c62e40f663d25304172226e22ed09e2fe83d9ab3c8e9",
+  "sha256_native_jpeg": "1fa53bdb10bf2d350d0137fb133eb5b07c50fc9fde4ce16a03a9756a9871b628",
+  "calibration": {
+    "scale_tick_mm": [
+      0.0,
+      100.0,
+      200.0,
+      300.0,
+      400.0,
+      500.0
+    ],
+    "scale_tick_x_px": [
+      333.0,
+      380.0,
+      427.0,
+      475.0,
+      522.0,
+      569.0
+    ],
+    "mm_per_rendered_pixel": 2.1160822249093116,
+    "graphic_tick_rms_px": 0.2390457218668821,
+    "independent_vertical_metric_control": false
+  },
+  "section": {
+    "y_source_px_range": [
+      767,
+      887
+    ],
+    "raster_accepted_rows": 112,
+    "apparent_width_mm": 124.84885126964939,
+    "apparent_height_mm": 253.9298669891174,
+    "apparent_area_mm2": 20909.10569664397,
+    "source_ink_rms_px": 0.24555890262126923,
+    "source_ink_p95_px": 0.9549999833106995,
+    "threshold_sensitivity": {
+      "160": {
+        "valid_rows": 105,
+        "max_width_mm": 124.849,
+        "mean_absolute_width_delta_mm": 1.32
+      },
+      "175": {
+        "valid_rows": 112,
+        "max_width_mm": 124.849,
+        "mean_absolute_width_delta_mm": 0.0
+      },
+      "190": {
+        "valid_rows": 118,
+        "max_width_mm": 124.849,
+        "mean_absolute_width_delta_mm": 0.804
+      }
+    },
+    "qualification": "Drawing metric estimate, not authenticated physical block measurement; unverified section pose, original survey and orthogonality."
+  },
+  "face_component": {
+    "source_px_bbox": [
+      158,
+      555,
+      217,
+      185
+    ],
+    "warning": "Connected line-art envelope mixes actual edges, decorative relief, breakage and reconstruction. NOT a physical stone silhouette."
+  },
+  "confirmed_text_evidence": [
+    "front ogee and fillet",
+    "smaller rear filleted roll",
+    "two incised marks on upper joint beds",
+    "square section glazing grooves"
+  ],
+  "missing": [
+    "true contact-bed polygons",
+    "3D stone scan",
+    "registered front vs back",
+    "mating-block ID",
+    "independent stone scale"
+  ],
+  "validation": {
+    "graphic_scale": "PASS",
+    "2d_source_ink_trace": "PASS",
+    "historical_contact_geometry": "UNRESOLVED",
+    "3d_structure": "NOT GENERATED",
+    "cathedral_geometry_changed": false
+  }
+}
