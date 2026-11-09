@@ -1,0 +1,43 @@
+00:00.221  blend            | Read blend: "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend"
+04:47:04 | INFO: Data are loaded, start creating Blender stuff
+04:47:04 | INFO: Blender create Mesh node member_0
+04:47:04 | INFO: Blender create Mesh node member_1
+04:47:04 | INFO: Blender create Mesh node member_2
+04:47:04 | INFO: Blender create Mesh node member_3
+04:47:04 | INFO: Blender create Mesh node member_4
+04:47:04 | INFO: Blender create Mesh node receiver
+04:47:04 | INFO: Blender create Mesh node derived_respond
+04:47:04 | INFO: Blender create Mesh node filled_common_reference.001
+04:47:04 | INFO: Blender create Mesh node filled_common_reference.002
+04:47:04 | INFO: Blender create Mesh node filled_common_reference.003
+04:47:04 | INFO: Blender create Mesh node filled_common_reference.004
+04:47:04 | INFO: Blender create Mesh node filled_common_reference.005
+04:47:04 | INFO: glTF import finished in 0.14s
+ERROR Draco mesh compression is not available because library could not be found at /usr/lib/blender/scripts/addons_core/io_scene_gltf2/libextern_draco.so
+04:47:04 | INFO: Starting glTF 2.0 export
+04:47:04 | INFO: Extracting primitive: filled_common_reference.001
+04:47:04 | INFO: Primitives created: 1
+04:47:04 | INFO: Extracting primitive: filled_common_reference.002
+04:47:04 | INFO: Primitives created: 1
+04:47:04 | INFO: Extracting primitive: filled_common_reference.003
+04:47:04 | INFO: Primitives created: 1
+04:47:04 | INFO: Extracting primitive: filled_common_reference.004
+04:47:04 | INFO: Primitives created: 1
+04:47:04 | INFO: Extracting primitive: filled_common_reference.005
+04:47:04 | INFO: Primitives created: 1
+04:47:04 | INFO: Finished glTF 2.0 export in 0.03339648246765137 s
+
+04:47:04 | INFO: Data are loaded, start creating Blender stuff
+04:47:04 | INFO: Blender create Mesh node filled_common_reference.001
+04:47:04 | INFO: Blender create Mesh node filled_common_reference.002
+04:47:04 | INFO: Blender create Mesh node filled_common_reference.003
+04:47:04 | INFO: Blender create Mesh node filled_common_reference.004
+04:47:04 | INFO: Blender create Mesh node filled_common_reference.005
+04:47:04 | INFO: glTF import finished in 0.04s
+00:01.383  render           | Saved: '/home/christopher/Documents/Cathedral/experimental/UNIFIED_JUNCTION_INTERFACE_R01/JUNCTION_R01_RENDER_RAW.png'
+ROUNDTRIP_TRANSFORMS [('course_01.001', (31000.0, -1250.0, 1800.0), (31000.0, -1250.0, 1800.0)), ('course_02.001', (31000.0, -1250.0, 1800.0), (31000.0, -1250.0, 1800.0)), ('course_03.001', (31000.0, -1250.0, 1800.0), (31000.0, -1250.0, 1800.0)), ('course_04.001', (31000.0, -1250.0, 1800.0), (31000.0, -1250.0, 1800.0)), ('course_05.001', (31000.0, -1250.0, 1800.0), (31000.0, -1250.0, 1800.0))]
+Info: Saved as "UNIFIED_JUNCTION_INTERFACE_R01_EXPERIMENTAL.blend"
+UNIFIED_R01_COMPLETE {"protected_meshes_unchanged": 247, "r15_gate": {"count": 5, "expected_count": 5, "missing": [], "extra": [], "explicit_bearing_delta_degrees": {"BAY2_RIB_0": 12.000301}, "compatible": false}, "r17_gate": {"count": 4, "expected_count": 5, "missing": ["BAY2_FORMERET_0"], "extra": [], "explicit_bearing_delta_degrees": {"BAY2_RIB_0": -3.999699}, "compatible": false}, "glb_export_reimport_count": 5, "cathedral_integration": "BLOCKED_MISMATCH", "png": "/home/christopher/Documents/Cathedral/experimental/UNIFIED_JUNCTION_INTERFACE_R01/UNIFIED_JUNCTION_R01_FINAL.png"}
+Blender 5.0.1
+
+Blender quit

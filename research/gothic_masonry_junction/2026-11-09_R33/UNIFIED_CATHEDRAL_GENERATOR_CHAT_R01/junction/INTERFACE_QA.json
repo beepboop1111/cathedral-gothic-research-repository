@@ -1,0 +1,77 @@
+{
+  "revision": "UNIFIED_JUNCTION_INTERFACE_R01_EXPERIMENTAL",
+  "runtime": "5.0.1",
+  "base_scene": "/home/christopher/Documents/Cathedral/experimental/WALL_PIER_JUNCTION_R03/WALL_PIER_JUNCTION_R03.blend",
+  "base_sha256_before_after": "88f6ffeea5710c10bc6e03a8083a479ca95c082beded42e842ba0604eef50937",
+  "protected_meshes_unchanged": 247,
+  "source_spring_xyz": [
+    31000.0,
+    -1250.0,
+    1800.0
+  ],
+  "actual_five_bearings": {
+    "BAY1_RIB_1": 133.83086027791563,
+    "BAY2_RIB_0": 46.169139722084374,
+    "BAY1_FORMERET_0": 180.0,
+    "BAY2_FORMERET_0": 0.0,
+    "CHAPEL_TRANSVERSE_31000": 90.0
+  },
+  "positive_control": {
+    "count": 5,
+    "expected_count": 5,
+    "missing": [],
+    "extra": [],
+    "explicit_bearing_delta_degrees": {
+      "BAY1_RIB_1": 0.0,
+      "BAY2_RIB_0": 0.0,
+      "BAY1_FORMERET_0": 0.0,
+      "BAY2_FORMERET_0": 0.0,
+      "CHAPEL_TRANSVERSE_31000": 0.0
+    },
+    "compatible": true
+  },
+  "r15_gate": {
+    "count": 5,
+    "expected_count": 5,
+    "missing": [],
+    "extra": [],
+    "explicit_bearing_delta_degrees": {
+      "BAY2_RIB_0": 12.000301
+    },
+    "compatible": false
+  },
+  "r17_gate": {
+    "count": 4,
+    "expected_count": 5,
+    "missing": [
+      "BAY2_FORMERET_0"
+    ],
+    "extra": [],
+    "explicit_bearing_delta_degrees": {
+      "BAY2_RIB_0": -3.999699
+    },
+    "compatible": false
+  },
+  "r15_glb_courses": 5,
+  "glb_export_reimport_count": 5,
+  "glb_status": "ROUNDTRIP_TESTED_EXPERIMENTAL_ONLY",
+  "r03_recorded_checks": 59,
+  "r02_recorded_checks": 50,
+  "cathedral_integration": "BLOCKED_MISMATCH",
+  "architectural_approval": false,
+  "historical_approval": false,
+  "structural_capacity_approval": false,
+  "physical_scale": "1:1 numerical native units; SI unresolved",
+  "profile_policy": "user-selected; no substitution or automatic bearing repair",
+  "limits": [
+    "R15 source bearing edited +12 degrees",
+    "R17 missing one of five receiving members",
+    "No current five-bearing generator output with five exact canonical bearings",
+    "Existing wall/springer full 3D contact not signed off",
+    "F5ZL-C support schedule missing",
+    "Not tested Blender 5.1+"
+  ],
+  "png": "/home/christopher/Documents/Cathedral/experimental/UNIFIED_JUNCTION_INTERFACE_R01/UNIFIED_JUNCTION_R01_FINAL.png",
+  "blend": "/home/christopher/Documents/Cathedral/experimental/UNIFIED_JUNCTION_INTERFACE_R01/UNIFIED_JUNCTION_INTERFACE_R01_EXPERIMENTAL.blend",
+  "glb": "/home/christopher/Documents/Cathedral/experimental/UNIFIED_JUNCTION_INTERFACE_R01/INTERFACE_SPECIMEN_R01.glb"
+}

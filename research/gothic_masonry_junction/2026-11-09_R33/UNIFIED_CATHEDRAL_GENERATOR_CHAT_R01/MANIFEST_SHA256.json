@@ -1,0 +1,47 @@
+{
+  "archive_status": "EXPERIMENTAL_NOT_APPROVED",
+  "branch": "research/gothic-masonry-junction-r33-2026-11-09",
+  "prefix": "research/gothic_masonry_junction/2026-11-09_R33/UNIFIED_CATHEDRAL_GENERATOR_CHAT_R01",
+  "files": {
+    "handoffs/Buttress_Generator_Handoff_R04.zip": {
+      "sha256": "d7cbbc4eeb0fec3dc96aba3f5d47e552b1b30b34fe22e36dcb887c8870743f3f",
+      "bytes": 9988167
+    },
+    "handoffs/SPRINGER_HANDOFF_R17.zip": {
+      "sha256": "0dbbdca0d0470dc8b1999de8f789d68bf6ae8dc62a55286f4587b0e93d99d7e5",
+      "bytes": 1179238
+    },
+    "handoffs/CATHEDRAL_COMPLETE_HANDOFF_R01.zip": {
+      "sha256": "028ff6cd21214630e9723d2574871f2c0083d407c07d1ac8c61d66221a87662c",
+      "bytes": 1857067
+    },
+    "handoffs/F5ZP_V19_TWO_GENERATOR_FULL_HANDOFF_R01_EXPERIMENTAL.zip": {
+      "sha256": "ea96becc99d808e36e6911f394ab2538260412278dbe55767cac54ccea4576d1",
+      "bytes": 3892382
+    },
+    "junction/build_interface.py": {
+      "sha256": "9f8f55df6f361fb6cb537cc9d50e00a9aab5420150596da57ea7b196792ca48d",
+      "bytes": 10941
+    },
+    "junction/INTERFACE_QA.json": {
+      "sha256": "63b7d6f9bd47cd183fbad5ff36f6a290880ec3ad80415691f1b32de7f0288ad6",
+      "bytes": 2552
+    },
+    "junction/BUILD.log": {
+      "sha256": "28db1838f5862a6ad225b3227e7d774166e12f61f212fd4997eefe08fa6e1c5c",
+      "bytes": 3455
+    },
+    "junction/UNIFIED_JUNCTION_R01_FINAL.png": {
+      "sha256": "d1d94a8226416213c60ec2c8692a95854714c41d8212c6667df4102a68cdd349",
+      "bytes": 1042906
+    },
+    "junction/INTERFACE_SPECIMEN_R01.glb": {
+      "sha256": "11a02b68320c8d764362ead9878f81665d689d5e0cf7e919f42b2e790e265c26",
+      "bytes": 1135520
+    },
+    "junction/UNIFIED_JUNCTION_INTERFACE_R01_EXPERIMENTAL.blend": {
+      "sha256": "27cbd39c9032a72155fe17f12776fb68121d5ddf0afd37a3d89fab48876b1aac",
+      "bytes": 23338387
+    }
+  }
+}
