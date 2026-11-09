@@ -1,0 +1,132 @@
+{
+  "inputs": [
+    {
+      "name": "outer_left",
+      "mesh_status": "Error.NoError",
+      "volume": 174.40875956628008,
+      "watertight": true,
+      "verts": 1020,
+      "triangles": 2036
+    },
+    {
+      "name": "outer_right",
+      "mesh_status": "Error.NoError",
+      "volume": 174.40876146786061,
+      "watertight": true,
+      "verts": 1020,
+      "triangles": 2036
+    },
+    {
+      "name": "lancet_-9.5_left",
+      "mesh_status": "Error.NoError",
+      "volume": 100.87652079961242,
+      "watertight": true,
+      "verts": 1020,
+      "triangles": 2036
+    },
+    {
+      "name": "lancet_-9.5_right",
+      "mesh_status": "Error.NoError",
+      "volume": 100.87652500541935,
+      "watertight": true,
+      "verts": 1020,
+      "triangles": 2036
+    },
+    {
+      "name": "lancet_9.5_left",
+      "mesh_status": "Error.NoError",
+      "volume": 100.87652381412518,
+      "watertight": true,
+      "verts": 1020,
+      "triangles": 2036
+    },
+    {
+      "name": "lancet_9.5_right",
+      "mesh_status": "Error.NoError",
+      "volume": 100.87652175559528,
+      "watertight": true,
+      "verts": 1020,
+      "triangles": 2036
+    },
+    {
+      "name": "middle_mullion",
+      "mesh_status": "Error.NoError",
+      "volume": 52.27199980753655,
+      "watertight": true,
+      "verts": 34,
+      "triangles": 64
+    },
+    {
+      "name": "circlet",
+      "mesh_status": "Error.NoError",
+      "volume": 129.6985099406339,
+      "watertight": true,
+      "verts": 2737,
+      "triangles": 5470
+    },
+    {
+      "name": "quatrefoil",
+      "mesh_status": "Error.NoError",
+      "volume": 85.4171039036717,
+      "watertight": true,
+      "verts": 2737,
+      "triangles": 5470
+    },
+    {
+      "name": "ring_frame_-1",
+      "mesh_status": "Error.NoError",
+      "volume": 14.636193493934675,
+      "watertight": true,
+      "verts": 34,
+      "triangles": 64
+    },
+    {
+      "name": "ring_lancet_-1",
+      "mesh_status": "Error.NoError",
+      "volume": 15.061687853864859,
+      "watertight": true,
+      "verts": 34,
+      "triangles": 64
+    },
+    {
+      "name": "ring_frame_+1",
+      "mesh_status": "Error.NoError",
+      "volume": 14.636193493934675,
+      "watertight": true,
+      "verts": 34,
+      "triangles": 64
+    },
+    {
+      "name": "ring_lancet_+1",
+      "mesh_status": "Error.NoError",
+      "volume": 15.061684150836932,
+      "watertight": true,
+      "verts": 34,
+      "triangles": 64
+    }
+  ],
+  "results": [
+    {
+      "n": 3,
+      "status": "Error.NoError",
+      "volume": 419.84377062022924,
+      "num_tri": 6072,
+      "num_vertices": 3038,
+      "water": true,
+      "winding": true,
+      "components": 1,
+      "seconds": 0.01
+    },
+    {
+      "n": 13,
+      "status": "Error.NoError",
+      "volume": 970.9745476162766,
+      "num_tri": 24528,
+      "num_vertices": 12244,
+      "water": true,
+      "winding": true,
+      "components": 1,
+      "seconds": 0.07
+    }
+  ]
+}

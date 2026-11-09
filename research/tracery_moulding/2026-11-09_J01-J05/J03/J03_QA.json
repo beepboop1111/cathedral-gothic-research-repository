@@ -1,0 +1,182 @@
+{
+  "version": "J03",
+  "status": "FAIL_TOPOLOGY",
+  "blender": "5.0.1",
+  "approved_baseline_unchanged": true,
+  "source_dimensions_verified": false,
+  "source_provenance": "J01 synthetic 13-path reconstruction; not extracted historical plate arcs",
+  "exact_union": {
+    "vertices": 12583,
+    "faces": 12335,
+    "boundary_edges": 35,
+    "nonmanifold_edges": 1571,
+    "volume_abs": 1012.09737,
+    "connected_components": 1
+  },
+  "union_steps": [
+    {
+      "merged": "outer_right",
+      "seconds": 0.029,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "merged": "lancet_-9.5_left",
+      "seconds": 0.06,
+      "connected_components": 1,
+      "boundary_edges": 3,
+      "nonmanifold_edges": 163
+    },
+    {
+      "merged": "lancet_-9.5_right",
+      "seconds": 0.054,
+      "connected_components": 1,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 268
+    },
+    {
+      "merged": "lancet_9.5_left",
+      "seconds": 0.043,
+      "connected_components": 2,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 268
+    },
+    {
+      "merged": "lancet_9.5_right",
+      "seconds": 0.105,
+      "connected_components": 1,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 561
+    },
+    {
+      "merged": "middle_mullion",
+      "seconds": 0.14,
+      "connected_components": 1,
+      "boundary_edges": 7,
+      "nonmanifold_edges": 889
+    },
+    {
+      "merged": "circlet",
+      "seconds": 0.111,
+      "connected_components": 1,
+      "boundary_edges": 7,
+      "nonmanifold_edges": 983
+    },
+    {
+      "merged": "quatrefoil",
+      "seconds": 0.154,
+      "connected_components": 1,
+      "boundary_edges": 43,
+      "nonmanifold_edges": 1198
+    },
+    {
+      "merged": "ring_frame_-1",
+      "seconds": 0.159,
+      "connected_components": 1,
+      "boundary_edges": 43,
+      "nonmanifold_edges": 1307
+    },
+    {
+      "merged": "ring_lancet_-1",
+      "seconds": 0.16,
+      "connected_components": 1,
+      "boundary_edges": 43,
+      "nonmanifold_edges": 1380
+    },
+    {
+      "merged": "ring_frame_+1",
+      "seconds": 0.174,
+      "connected_components": 1,
+      "boundary_edges": 43,
+      "nonmanifold_edges": 1528
+    },
+    {
+      "merged": "ring_lancet_+1",
+      "seconds": 0.186,
+      "connected_components": 1,
+      "boundary_edges": 41,
+      "nonmanifold_edges": 1590
+    }
+  ],
+  "glb_roundtrip": [
+    {
+      "vertices": 12583,
+      "faces": 25256,
+      "boundary_edges": 34,
+      "nonmanifold_edges": 92,
+      "volume_abs": 978.90997,
+      "connected_components": 1
+    }
+  ],
+  "per_path_retention": {
+    "outer_left": {
+      "max_dist_to_surviving_vertex": 0.561083,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 1020
+    },
+    "outer_right": {
+      "max_dist_to_surviving_vertex": 0.561083,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 1020
+    },
+    "lancet_-9.5_left": {
+      "max_dist_to_surviving_vertex": 0.75,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 1020
+    },
+    "lancet_-9.5_right": {
+      "max_dist_to_surviving_vertex": 0.567888,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 1020
+    },
+    "lancet_9.5_left": {
+      "max_dist_to_surviving_vertex": 0.567888,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 1020
+    },
+    "lancet_9.5_right": {
+      "max_dist_to_surviving_vertex": 0.75,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 1020
+    },
+    "middle_mullion": {
+      "max_dist_to_surviving_vertex": 0.092368,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 34
+    },
+    "circlet": {
+      "max_dist_to_surviving_vertex": 0.661937,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 2737
+    },
+    "quatrefoil": {
+      "max_dist_to_surviving_vertex": 0.06168,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 2737
+    },
+    "ring_frame_-1": {
+      "max_dist_to_surviving_vertex": 0.588205,
+      "median_dist_to_surviving_vertex": 0.279383,
+      "station_vertex_count": 34
+    },
+    "ring_lancet_-1": {
+      "max_dist_to_surviving_vertex": 0.267053,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 34
+    },
+    "ring_frame_+1": {
+      "max_dist_to_surviving_vertex": 0.588205,
+      "median_dist_to_surviving_vertex": 0.279383,
+      "station_vertex_count": 34
+    },
+    "ring_lancet_+1": {
+      "max_dist_to_surviving_vertex": 0.267053,
+      "median_dist_to_surviving_vertex": 0.0,
+      "station_vertex_count": 34
+    }
+  },
+  "architectural_validation": false,
+  "historical_validation": false,
+  "structural_validation": false
+}

@@ -1,0 +1,158 @@
+{
+  "status": "experimental",
+  "blender": "5.0.1",
+  "parameters": {
+    "window_width": 40.0,
+    "source_height": 124.641,
+    "outer_half_span": 18.0,
+    "outer_spring": 91.0,
+    "outer_crown": 124.641,
+    "lancet_centers": [
+      -9.5,
+      9.5
+    ],
+    "lancet_half_span": 7.5,
+    "lancet_spring": 78.0,
+    "lancet_crown": 101.0,
+    "foil_center_y": 111.0,
+    "ring_radius": 7.9,
+    "voxel_size": 0.18
+  },
+  "original_parts": [
+    {
+      "vertices": 1020,
+      "faces": 1005,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 174.40876,
+      "connected_components": 1
+    },
+    {
+      "vertices": 1020,
+      "faces": 1005,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 174.40876,
+      "connected_components": 1
+    },
+    {
+      "vertices": 1020,
+      "faces": 1005,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 100.87652,
+      "connected_components": 1
+    },
+    {
+      "vertices": 1020,
+      "faces": 1005,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 100.87652,
+      "connected_components": 1
+    },
+    {
+      "vertices": 1020,
+      "faces": 1005,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 100.87652,
+      "connected_components": 1
+    },
+    {
+      "vertices": 1020,
+      "faces": 1005,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 100.87652,
+      "connected_components": 1
+    },
+    {
+      "vertices": 34,
+      "faces": 19,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 52.272,
+      "connected_components": 1
+    },
+    {
+      "vertices": 2737,
+      "faces": 2722,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 129.69851,
+      "connected_components": 1
+    },
+    {
+      "vertices": 2737,
+      "faces": 2722,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 85.4171,
+      "connected_components": 1
+    },
+    {
+      "vertices": 34,
+      "faces": 19,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 14.63619,
+      "connected_components": 1
+    },
+    {
+      "vertices": 34,
+      "faces": 19,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 15.06169,
+      "connected_components": 1
+    },
+    {
+      "vertices": 34,
+      "faces": 19,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 14.63619,
+      "connected_components": 1
+    },
+    {
+      "vertices": 34,
+      "faces": 19,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 15.06168,
+      "connected_components": 1
+    }
+  ],
+  "joined": {
+    "vertices": 105334,
+    "faces": 105354,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_abs": 970.11997,
+    "connected_components": 1,
+    "profile_stations": 17,
+    "path_count": 13,
+    "native_units_verified": false,
+    "source_reference": "paired-lancet OBJ",
+    "source_bounds": [
+      40.0,
+      10.0,
+      124.641
+    ],
+    "voxel_size": 0.18,
+    "reference_arch_points": "derived as parametrized two-centred experiment, not extracted"
+  },
+  "glb_roundtrip": [
+    {
+      "vertices": 105334,
+      "faces": 210708,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 970.11757,
+      "connected_components": 1
+    }
+  ],
+  "architectural_approval": false,
+  "source_dimensions_verified": false
+}

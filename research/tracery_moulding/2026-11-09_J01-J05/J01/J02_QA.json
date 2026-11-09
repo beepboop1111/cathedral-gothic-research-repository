@@ -1,0 +1,111 @@
+{
+  "status": "experimental",
+  "blender": "5.0.1",
+  "method": "exact mesh boolean union, local node isolated; no voxel remesh",
+  "exact": {
+    "vertices": 475,
+    "faces": 401,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_abs": 235.32916,
+    "connected_components": 1,
+    "control_vertices": 68,
+    "max_control_vertex_drift": 0.0,
+    "preservation_tolerance": 1e-05
+  },
+  "voxel_reference": {
+    "vertices": 27392,
+    "faces": 27390,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_abs": 234.88826,
+    "connected_components": 1,
+    "max_control_vertex_drift": 0.11420128494501114
+  },
+  "glb_roundtrip": [
+    {
+      "vertices": 475,
+      "faces": 946,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 235.32916,
+      "connected_components": 1
+    }
+  ],
+  "profile": [
+    [
+      -1.3,
+      -0.72
+    ],
+    [
+      -1.3,
+      0.03
+    ],
+    [
+      -1.12,
+      0.16
+    ],
+    [
+      -0.97,
+      0.16
+    ],
+    [
+      -0.8,
+      0.025
+    ],
+    [
+      -0.67,
+      0.08
+    ],
+    [
+      -0.51,
+      0.32
+    ],
+    [
+      -0.29,
+      0.56
+    ],
+    [
+      0.0,
+      0.67
+    ],
+    [
+      0.29,
+      0.56
+    ],
+    [
+      0.51,
+      0.32
+    ],
+    [
+      0.67,
+      0.08
+    ],
+    [
+      0.8,
+      0.025
+    ],
+    [
+      0.97,
+      0.16
+    ],
+    [
+      1.12,
+      0.16
+    ],
+    [
+      1.3,
+      0.03
+    ],
+    [
+      1.3,
+      -0.72
+    ]
+  ],
+  "control_region": "main stem y <14 or y >42",
+  "source_geometry": "J01 synthetic Y-junction using same 17-point experimental profile",
+  "historical_validation": false,
+  "architectural_validation": false,
+  "structural_validation": false,
+  "native_units_verified": false
+}

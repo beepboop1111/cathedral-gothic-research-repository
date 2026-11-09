@@ -1,0 +1,373 @@
+{
+  "status": "FAIL_INPUT_LOSS",
+  "blender": "5.0.1",
+  "tests": [
+    {
+      "solver": "EXACT",
+      "hole_tolerant": false,
+      "z_epsilon": 0.0,
+      "full": false,
+      "qa": {
+        "vertices": 3102,
+        "faces": 3028,
+        "boundary_edges": 3,
+        "nonmanifold_edges": 163,
+        "volume_abs": 399.31834,
+        "connected_components": 1
+      },
+      "stages": [
+        {
+          "name": "outer_right",
+          "vertices": 2059,
+          "faces": 2021,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 347.80878,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_-9.5_left",
+          "vertices": 3102,
+          "faces": 3028,
+          "boundary_edges": 3,
+          "nonmanifold_edges": 163,
+          "volume_abs": 399.31834,
+          "connected_components": 1
+        }
+      ]
+    },
+    {
+      "solver": "EXACT",
+      "hole_tolerant": true,
+      "z_epsilon": 0.0,
+      "full": false,
+      "qa": {
+        "vertices": 3102,
+        "faces": 3028,
+        "boundary_edges": 3,
+        "nonmanifold_edges": 163,
+        "volume_abs": 399.31834,
+        "connected_components": 1
+      },
+      "stages": [
+        {
+          "name": "outer_right",
+          "vertices": 2059,
+          "faces": 2021,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 347.80878,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_-9.5_left",
+          "vertices": 3102,
+          "faces": 3028,
+          "boundary_edges": 3,
+          "nonmanifold_edges": 163,
+          "volume_abs": 399.31834,
+          "connected_components": 1
+        }
+      ]
+    },
+    {
+      "solver": "MANIFOLD",
+      "hole_tolerant": false,
+      "z_epsilon": 0.0,
+      "full": false,
+      "qa": {
+        "vertices": 1020,
+        "faces": 1005,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_abs": 174.40876,
+        "connected_components": 1
+      },
+      "stages": [
+        {
+          "name": "outer_right",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_-9.5_left",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        }
+      ]
+    },
+    {
+      "solver": "FLOAT",
+      "hole_tolerant": false,
+      "z_epsilon": 0.0,
+      "full": false,
+      "qa": {
+        "vertices": 2213,
+        "faces": 2011,
+        "boundary_edges": 29,
+        "nonmanifold_edges": 95,
+        "volume_abs": 347.78793,
+        "connected_components": 47
+      },
+      "stages": [
+        {
+          "name": "outer_right",
+          "vertices": 2056,
+          "faces": 2003,
+          "boundary_edges": 29,
+          "nonmanifold_edges": 31,
+          "volume_abs": 347.78793,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_-9.5_left",
+          "vertices": 2213,
+          "faces": 2011,
+          "boundary_edges": 29,
+          "nonmanifold_edges": 95,
+          "volume_abs": 347.78793,
+          "connected_components": 47
+        }
+      ]
+    },
+    {
+      "solver": "EXACT",
+      "hole_tolerant": true,
+      "z_epsilon": 0.002,
+      "full": false,
+      "qa": {
+        "vertices": 3069,
+        "faces": 2953,
+        "boundary_edges": 4,
+        "nonmanifold_edges": 48,
+        "volume_abs": 391.11659,
+        "connected_components": 1
+      },
+      "stages": [
+        {
+          "name": "outer_right",
+          "vertices": 2059,
+          "faces": 2021,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 347.80878,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_-9.5_left",
+          "vertices": 3069,
+          "faces": 2953,
+          "boundary_edges": 4,
+          "nonmanifold_edges": 48,
+          "volume_abs": 391.11659,
+          "connected_components": 1
+        }
+      ]
+    },
+    {
+      "solver": "MANIFOLD",
+      "hole_tolerant": false,
+      "z_epsilon": 0.002,
+      "full": false,
+      "qa": {
+        "vertices": 1020,
+        "faces": 1005,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_abs": 174.40876,
+        "connected_components": 1
+      },
+      "stages": [
+        {
+          "name": "outer_right",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_-9.5_left",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        }
+      ]
+    },
+    {
+      "solver": "MANIFOLD",
+      "hole_tolerant": false,
+      "z_epsilon": 0.0,
+      "full": true,
+      "qa": {
+        "vertices": 1020,
+        "faces": 1005,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_abs": 174.40876,
+        "connected_components": 1
+      },
+      "stages": [
+        {
+          "name": "outer_right",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_-9.5_left",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_-9.5_right",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_9.5_left",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_9.5_right",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "middle_mullion",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "circlet",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "quatrefoil",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "ring_frame_-1",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "ring_lancet_-1",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "ring_frame_+1",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        },
+        {
+          "name": "ring_lancet_+1",
+          "vertices": 1020,
+          "faces": 1005,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 174.40876,
+          "connected_components": 1
+        }
+      ],
+      "input_retention_pass": false
+    },
+    {
+      "solver": "EXACT",
+      "hole_tolerant": false,
+      "z_epsilon": 0,
+      "full": false,
+      "qa": {
+        "vertices": 3102,
+        "faces": 3028,
+        "boundary_edges": 3,
+        "nonmanifold_edges": 163,
+        "volume_abs": 399.31834,
+        "connected_components": 1
+      },
+      "stages": [
+        {
+          "name": "outer_right",
+          "vertices": 2059,
+          "faces": 2021,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_abs": 347.80878,
+          "connected_components": 1
+        },
+        {
+          "name": "lancet_-9.5_left",
+          "vertices": 3102,
+          "faces": 3028,
+          "boundary_edges": 3,
+          "nonmanifold_edges": 163,
+          "volume_abs": 399.31834,
+          "connected_components": 1
+        }
+      ]
+    }
+  ],
+  "architectural_validation": false,
+  "source_geometry": "J01 synthetic",
+  "full_model_status": "FAIL_INPUT_LOSS",
+  "important_note": "Manifold solver discards unmerged swept solids despite watertight output; input retention is mandatory"
+}

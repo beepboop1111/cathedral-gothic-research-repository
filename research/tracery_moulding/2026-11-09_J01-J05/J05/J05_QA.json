@@ -1,0 +1,149 @@
+{
+  "status": "PASS_GEOMETRIC",
+  "blender": "5.0.1",
+  "reference": "J01 synthetic unverified-scale window head",
+  "approved_geometry_modified": false,
+  "kernel": "manifold3d 3.5.4",
+  "input_count": 13,
+  "mesh": {
+    "vertices": 12244,
+    "faces": 24528,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_abs": 970.97456,
+    "connected_components": 1
+  },
+  "glb_roundtrip": [
+    {
+      "vertices": 12239,
+      "faces": 24520,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_abs": 970.97456,
+      "connected_components": 1
+    }
+  ],
+  "per_member_retention": [
+    {
+      "name": "outer_left",
+      "input_vertices": 1020,
+      "exact_source_vertices_retained": 962,
+      "within_0_002": 962,
+      "max_removed_or_trimmed_distance": 0.8861
+    },
+    {
+      "name": "outer_right",
+      "input_vertices": 1020,
+      "exact_source_vertices_retained": 962,
+      "within_0_002": 962,
+      "max_removed_or_trimmed_distance": 0.9552
+    },
+    {
+      "name": "lancet_-9.5_left",
+      "input_vertices": 1020,
+      "exact_source_vertices_retained": 856,
+      "within_0_002": 859,
+      "max_removed_or_trimmed_distance": 1.3051
+    },
+    {
+      "name": "lancet_-9.5_right",
+      "input_vertices": 1020,
+      "exact_source_vertices_retained": 929,
+      "within_0_002": 930,
+      "max_removed_or_trimmed_distance": 0.8972
+    },
+    {
+      "name": "lancet_9.5_left",
+      "input_vertices": 1020,
+      "exact_source_vertices_retained": 929,
+      "within_0_002": 930,
+      "max_removed_or_trimmed_distance": 1.0283
+    },
+    {
+      "name": "lancet_9.5_right",
+      "input_vertices": 1020,
+      "exact_source_vertices_retained": 856,
+      "within_0_002": 858,
+      "max_removed_or_trimmed_distance": 1.3208
+    },
+    {
+      "name": "middle_mullion",
+      "input_vertices": 34,
+      "exact_source_vertices_retained": 28,
+      "within_0_002": 28,
+      "max_removed_or_trimmed_distance": 0.1506
+    },
+    {
+      "name": "circlet",
+      "input_vertices": 2737,
+      "exact_source_vertices_retained": 2460,
+      "within_0_002": 2460,
+      "max_removed_or_trimmed_distance": 1.0478
+    },
+    {
+      "name": "quatrefoil",
+      "input_vertices": 2737,
+      "exact_source_vertices_retained": 2698,
+      "within_0_002": 2698,
+      "max_removed_or_trimmed_distance": 0.0982
+    },
+    {
+      "name": "ring_frame_-1",
+      "input_vertices": 34,
+      "exact_source_vertices_retained": 6,
+      "within_0_002": 6,
+      "max_removed_or_trimmed_distance": 0.7276
+    },
+    {
+      "name": "ring_lancet_-1",
+      "input_vertices": 34,
+      "exact_source_vertices_retained": 18,
+      "within_0_002": 18,
+      "max_removed_or_trimmed_distance": 0.2671
+    },
+    {
+      "name": "ring_frame_+1",
+      "input_vertices": 34,
+      "exact_source_vertices_retained": 6,
+      "within_0_002": 6,
+      "max_removed_or_trimmed_distance": 0.5882
+    },
+    {
+      "name": "ring_lancet_+1",
+      "input_vertices": 34,
+      "exact_source_vertices_retained": 18,
+      "within_0_002": 18,
+      "max_removed_or_trimmed_distance": 0.2671
+    }
+  ],
+  "unmodified_stem_samples": {
+    "outer_left": {
+      "sample_count": 17,
+      "max_vertex_drift": 0.8814196586608887
+    },
+    "outer_right": {
+      "sample_count": 17,
+      "max_vertex_drift": 0.8814196586608887
+    },
+    "lancet_-9.5_left": {
+      "sample_count": 17,
+      "max_vertex_drift": 0.42154422402381897
+    },
+    "lancet_-9.5_right": {
+      "sample_count": 17,
+      "max_vertex_drift": 0.5284720659255981
+    },
+    "lancet_9.5_left": {
+      "sample_count": 17,
+      "max_vertex_drift": 0.5284720659255981
+    },
+    "lancet_9.5_right": {
+      "sample_count": 17,
+      "max_vertex_drift": 0.42154422402381897
+    }
+  },
+  "voxel_remeshing_used": false,
+  "historical_validation": false,
+  "architectural_validation": false,
+  "structural_validation": false
+}

@@ -1,0 +1,267 @@
+{
+  "date": "2026-11-09",
+  "base_branch": "research/tracery-generator-r41-r52-2026-11-09",
+  "base_sha": "e5a2fa0de9a0ce77190ecec544cf49295fcb6e50",
+  "files": [
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J01_EXPERIMENTAL_moulding_continuity.glb",
+      "bytes": 10277348,
+      "sha256": "e6cb8f34dda792db98b9bcb484762912722fd425c5cb7ece843eb81ca4d11b56"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J01_EXPERIMENTAL_scene.blend",
+      "bytes": 7053054,
+      "sha256": "c92ff12066e6f479eda6574c50bff1901d8c600ca39ddd36cd816e86565420db"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J01_FINAL_moulding_continuity.png",
+      "bytes": 2229620,
+      "sha256": "9afbb71a3dde839b92da459743cd49202cc423a95a420fa1c26c89845e183ff9"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J01_QA.json",
+      "bytes": 3510,
+      "sha256": "b7673e8ad26c6f751733fb1b8c657f069e24ce8773d635bf9afb87015896f8cd"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J02_EXPERIMENTAL.blend",
+      "bytes": 874535,
+      "sha256": "6b26717bc008b175222b5a965aeae01bc6837e3e007dd0ba52c93c5cd2ca241c"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J02_FINAL_profile_preservation.png",
+      "bytes": 1931511,
+      "sha256": "53a06ff6e6188cef38eb73e5b096101eff4cf869958698c4f1eda2403067c836"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J02_QA.json",
+      "bytes": 1751,
+      "sha256": "71b8db19626f14636e4260ce6e4281957b3dce068ffe88ef78113d6b5bbdf393"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J02_exact_local_junction.glb",
+      "bytes": 33732,
+      "sha256": "6a4a989fc8ae73427353501743f3274435738b13455f092efbc3c6058b859f03"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J03_EXPERIMENTAL.blend",
+      "bytes": 7646986,
+      "sha256": "956aea3809077c83c3d507249f6193fadc7953e4af5a748d907ef371a0da703f"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J03_EXPERIMENTAL_full_exact.glb",
+      "bytes": 1196436,
+      "sha256": "8ef46bbe8d7869224b2d228a0518574cbfd4b85090b9328683219cfb6dc10016"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J03_FINAL_full_tracery_comparison.png",
+      "bytes": 2051256,
+      "sha256": "4aeb1431fd5c77f7d337581f49c3d08e179bad39d5d36d55e6f6d6a118a799ab"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/J03_QA.json",
+      "bytes": 4801,
+      "sha256": "fb416bba33caf726f9d501e143de9646cda93a57f0481caddec4d7961577c8fc"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J01/generate_J01.py",
+      "bytes": 11835,
+      "sha256": "8ec795b52fb1fbf481f5e9852ba570fb7013abfc0d6921441f39e4940ae02129"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J02/J02_EXPERIMENTAL.blend",
+      "bytes": 874543,
+      "sha256": "be8b17a9f34a209cb69e11d4dd0b5e2ed47eebb6ecb499278f18b65166af20bc"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J02/J02_FINAL_profile_preservation.png",
+      "bytes": 1915259,
+      "sha256": "4cd03388d3fe0b2571e3013e5bd5f59eb82e5e188c7c509ceacf54f433948810"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J02/J02_QA.json",
+      "bytes": 1751,
+      "sha256": "71b8db19626f14636e4260ce6e4281957b3dce068ffe88ef78113d6b5bbdf393"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J02/J02_exact_local_junction.glb",
+      "bytes": 33732,
+      "sha256": "6a4a989fc8ae73427353501743f3274435738b13455f092efbc3c6058b859f03"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J02/generate_J02.py",
+      "bytes": 7483,
+      "sha256": "e5ff537617c0ca9be081e8da6b24dca2f59fbe03e23efeb004046158b38c4410"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J03/J03_EXPERIMENTAL.blend",
+      "bytes": 7646999,
+      "sha256": "f3f274f15f024c98b9e272e3146e5abeb36c574b2183179f4b1ad32075fbf248"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J03/J03_EXPERIMENTAL_full_exact.glb",
+      "bytes": 1196436,
+      "sha256": "8ef46bbe8d7869224b2d228a0518574cbfd4b85090b9328683219cfb6dc10016"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J03/J03_FINAL_full_tracery_comparison.png",
+      "bytes": 2051256,
+      "sha256": "9fd637223fd3ffb55207654973b8ce51c7d92064fb6d0a69e037fc54c963af92"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J03/J03_QA.json",
+      "bytes": 4800,
+      "sha256": "ea07b227835c22b610f61b2796f591b9bfd7357a00defb9b410de34efbd85926"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J03/generate_J03.py",
+      "bytes": 7438,
+      "sha256": "d5001928deb42e7ed95b522a245792c52757dd419a9d68de3e4a1670078e0953"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J04/J04_EXPERIMENTAL.blend",
+      "bytes": 186176,
+      "sha256": "2b5a75c5a90caec383ab36e66b37fb2a8486cdc09a474043ce531ee282758b04"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J04/J04_FINAL_solver_diagnostic.png",
+      "bytes": 1369540,
+      "sha256": "48dd82012c85cac6f6a861a03020cfe8f720c8e2dbe321b0e1bbc535ef9b701b"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J04/J04_QA.json",
+      "bytes": 9467,
+      "sha256": "fbb64bd519033070cde4dd0b0d710a129ff11c5c83e7a55d64c7f3e6558623d6"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J04/generate_J04.py",
+      "bytes": 6193,
+      "sha256": "ec0a089a67f09d27b5230b34dc1db0d0772d6a80652428ee92eb629201912ff1"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/J05_EXPERIMENTAL.blend",
+      "bytes": 7794656,
+      "sha256": "c16bf6c3f1fb16e3466a19d5200b31faca0d997fd79993033be886bd5be0bee8"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/J05_EXPERIMENTAL_full_tracery.glb",
+      "bytes": 1403916,
+      "sha256": "60ca579054f3cb2cfe8d932663aa80be984269082147e91bb7cfb837dc4c8b6a"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/J05_FINAL_profile_union_comparison.png",
+      "bytes": 2268184,
+      "sha256": "3b1c1f450c47db60e8deade92f4b5b7c9621f7ba926c4cc7d2df370ba15da8b4"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/J05_QA.json",
+      "bytes": 3907,
+      "sha256": "b3dbc2c6787a018454efb9d03c2e4e0135aaeb9bd4346d2213d40488174a7dfe"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/J05_kernel_QA.json",
+      "bytes": 2947,
+      "sha256": "81786cad715b6fef97fc3016ecadd7274c35a2f9a140594e95907d4b056dea53"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/export_paths.py",
+      "bytes": 1001,
+      "sha256": "5c1e80e1ae091b6cb13f78a167bd9e016e01fd9f45829b3e87edd2920cc43a25"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_00.npz",
+      "bytes": 15967,
+      "sha256": "6fa4035c42ef07754b65dbadd4cb4f0b82cbae045105be119beb82fb0125aef4"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_01.npz",
+      "bytes": 16000,
+      "sha256": "ccf2cff03b10abe847b0bed07445d590e39d79a64a0231c0900aac154e5e1c6d"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_02.npz",
+      "bytes": 15796,
+      "sha256": "4393dd056ccf3bfa01eb994c90fb91ac4716afa85eaf1738764c2b4866fb6327"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_03.npz",
+      "bytes": 16159,
+      "sha256": "1affa9ad91fbf06e8ac9b3dd8809b78e10af4a1607163d1a74155f9382360f01"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_04.npz",
+      "bytes": 16154,
+      "sha256": "c2e1095a4cf925f8dd27cb0f117b1fe1de1ab5ae2b39144b69004350ee250e0c"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_05.npz",
+      "bytes": 15815,
+      "sha256": "5f198f1fd196e3e088abfdf915f6f015220e5321a2ab16257dec6b04350c4027"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_06.npz",
+      "bytes": 863,
+      "sha256": "d64e09ee0752b9646c57061a9aebb73f9a449f7932f19a18978f84695f901027"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_07.npz",
+      "bytes": 36843,
+      "sha256": "f7e618e84c547f93b16f11e1bd926b36c72811d4306944a3b631ee5e12e62a21"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_08.npz",
+      "bytes": 36069,
+      "sha256": "77777a3ddecff432184fa04fcafee17b22fa9ea5ba315d593bdaa385abe7cce5"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_09.npz",
+      "bytes": 874,
+      "sha256": "4f8b9931b73b45cd5151b77988dbacefbcddcebe4af259c6e32610472e284130"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_10.npz",
+      "bytes": 1015,
+      "sha256": "cc3331a730d0fa677edc7bc13c4e34ed2b3bc5d541ad92ba60ca10ce04f45834"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_11.npz",
+      "bytes": 875,
+      "sha256": "85331f3955ffce43eebc3be30c5fd2e15a906490d97866423958c8d949aaad48"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/path_12.npz",
+      "bytes": 1012,
+      "sha256": "8b144093447fb357c14afaf9c2cfe9b18ed7deb8fe77f2db3a5e2ae72dadd2c6"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/paths.json",
+      "bytes": 222,
+      "sha256": "abcf7b8855ca03a335a334c77ac34f3b8a44359196e3621295720503cc91dc8f"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/render_validate.py",
+      "bytes": 6233,
+      "sha256": "7a1c818d750d3e23edd98537f1d93841e3a6ef27e555217442a2c0a673cf3f0a"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/robust_union.py",
+      "bytes": 2014,
+      "sha256": "cad1c41338faaefa6ea91c438bedd097a802d7147724b73cf2cdaef9550b1367"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/union_03.npz",
+      "bytes": 45591,
+      "sha256": "6c3fee51d9b4cbb16c03fc9ca2861eecfa1b41c65e608fff2efe0daa26bba321"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/union_13.npz",
+      "bytes": 189832,
+      "sha256": "726a1ffe15d7e73d212707227602f144ebadd1b604d68e4ca8126bc06e67fb3b"
+    },
+    {
+      "path": "research/tracery_moulding/2026-11-09_J01-J05/J05/upload_J01_J05_archive.py",
+      "bytes": 4648,
+      "sha256": "7efe2f99e93ca64b8cb2620f13a23869bcb56b9f416222bbf81297b75e9b09d0"
+    }
+  ]
+}
