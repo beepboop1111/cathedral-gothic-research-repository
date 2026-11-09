@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-09",
+  "status": "archival recovery - not newly validated",
+  "files": [
+    {
+      "source": "/home/christopher/Downloads/sources/3/universal-generator-U01-U05-2026-11-07(2).zip",
+      "path": "originals/U01-U05_original_uploaded.zip",
+      "size": 10776160,
+      "sha256": "411c740189cab347cd02a6b717a5e6ec9781f64b26d739beaf90975e9e876e7a"
+    },
+    {
+      "source": "/home/christopher/Downloads/sources/reims_U06_all_windows.blend",
+      "path": "U06/reims_U06_all_windows.blend",
+      "size": 16680904,
+      "sha256": "f9ff210b9fa1338b02a1d4845c981a639c3c29dc03988803ff249746dc230ffe"
+    },
+    {
+      "source": "/home/christopher/Downloads/sources/U07_handoff_review.png",
+      "path": "U07/U07_handoff_review.png",
+      "size": 1663299,
+      "sha256": "fe59e86a2d7966b32715adcedb1f4ee6d4eb36ea92abe2980c3c78d65214b1dc"
+    },
+    {
+      "source": "/home/christopher/Downloads/sources/U07_phase4_review_sheet.png",
+      "path": "U07/U07_phase4_review_sheet.png",
+      "size": 2806532,
+      "sha256": "093ecd0984bb3dc1cc68f9a0d808e264a855575c147240958472813db57c2368"
+    },
+    {
+      "source": "/home/christopher/Downloads/sources/tracery-research-treatises-2026-11-07.md",
+      "path": "research/tracery-research-treatises-2026-11-07.md",
+      "size": 4824,
+      "sha256": "92288dc7feba25f6e97da89647914c335165ea0952e94760020ff3ef69a5833e"
+    },
+    {
+      "source": "/home/christopher/Downloads/sources/Gothic_Tracery_and_Mouldings_R01_Package.zip",
+      "path": "research/Gothic_Tracery_and_Mouldings_R01_Package.zip",
+      "size": 8907592,
+      "sha256": "e394aa0f438e0c02ea5678294fffb2563c0fb9ba952b49157ec6eadfe57fabab"
+    },
+    {
+      "source": "/home/christopher/Downloads/sources/Gothic_Tracery_and_Mouldings_R01.pdf",
+      "path": "research/Gothic_Tracery_and_Mouldings_R01.pdf",
+      "size": 4866607,
+      "sha256": "d4394c4445dbe75432522b828a5b32c46789f9a38987efe3adbf5bce3f1b8cb4"
+    }
+  ]
+}
