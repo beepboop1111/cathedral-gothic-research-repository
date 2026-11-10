@@ -1,0 +1,60 @@
+{
+  "source": "/home/christopher/Desktop/blender/F5ZP_M01_R21_A_PORTABLE_EXPERIMENTAL.blend",
+  "source_sha256": "10c397f8e928fec24565e897ff69cf06ee4a10a365683c68135a0753b4cf5e4b",
+  "source_model_objects": 207,
+  "source_groups": {
+    "NORTH": 7,
+    "AXIAL": 10,
+    "SOUTH": 7
+  },
+  "chapel_bounds_native": {
+    "NORTH": [
+      27125.703,
+      1163.514,
+      29938.396,
+      4008.862
+    ],
+    "AXIAL": [
+      27983.748,
+      -1444.077,
+      34668.598,
+      1444.077
+    ],
+    "SOUTH": [
+      27125.703,
+      -4008.862,
+      29938.396,
+      -1163.514
+    ]
+  },
+  "anchors": [
+    {
+      "side": "NORTH",
+      "xy": [
+        26791.658199999998,
+        1226.15995
+      ],
+      "edge_gap": 16.270023170540952
+    },
+    {
+      "side": "SOUTH",
+      "xy": [
+        26791.658199999998,
+        -1226.15995
+      ],
+      "edge_gap": 16.270023170540952
+    }
+  ],
+  "footprint_count": 64,
+  "native_coordinate_units": true,
+  "physical_scale_unresolved": true,
+  "source_status": "R21 A experimental",
+  "windows": "CANDIDATE ONLY not cut or validated",
+  "receiver": "NOT INSTALLED symbolic only",
+  "f5zl_c": "UNRESOLVED",
+  "technical": "SVG generated from saved world mesh vertex coordinates",
+  "geometric": "three source wall envelopes and candidate nearest cheek vertex pairs",
+  "architectural": "unresolved passage and landing clearances",
+  "historical": "analogies only",
+  "structural": "unvalidated"
+}
