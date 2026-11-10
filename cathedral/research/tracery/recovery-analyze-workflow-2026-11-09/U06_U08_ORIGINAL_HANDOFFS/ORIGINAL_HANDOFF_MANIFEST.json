@@ -1,0 +1,24 @@
+{
+  "status": "original byte-preserving upload; no Blender rerun",
+  "date": "2026-11-10",
+  "archives": [
+    {
+      "filename": "TRACERY_U06_R01_EXPERIMENTAL_HANDOFF(1).zip",
+      "sha256": "262d31c29f8c1213b371b353385247b3aa694014850b775e92966fbeaf8706da",
+      "bytes": 8792897,
+      "members": 70
+    },
+    {
+      "filename": "TRACERY_U07_HEAD_R01_HANDOFF(1).zip",
+      "sha256": "fd44649077f8a3964e604ae2b92107b2ee7926149db64ff29cbbba6c8c67f0f7",
+      "bytes": 6456344,
+      "members": 45
+    },
+    {
+      "filename": "TRACERY_U08_MOULDING_R01_HANDOFF(1).zip",
+      "sha256": "2d6c16bd34b4b93d6b17e8c4f7e2fe24e60efd4184270a7ec587058e287fff6f",
+      "bytes": 7272557,
+      "members": 45
+    }
+  ]
+}
