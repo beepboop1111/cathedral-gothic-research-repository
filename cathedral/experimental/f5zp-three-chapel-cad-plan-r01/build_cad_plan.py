@@ -104,9 +104,9 @@ for g,yw in [('NORTH',7400),('AXIAL',0),('SOUTH',-7350)]:
     bb=extents[g];y=pos(0,yw)[1]
     x1=pos(bb[0],0)[0];x2=pos(bb[2],0)[0]
     # only dimension if it clears source drawings: dimension string horizontal
-    if g=='AXIAL':y=pos(0,-2350)[1]
-    elif g=='NORTH':y=pos(0,7850)[1]
-    else:y=pos(0,-7950)[1]
+    if g=='AXIAL':y=pos(0,-5150)[1]
+    elif g=='NORTH':y=pos(0,6100)[1]
+    else:y=pos(0,-6750)[1]
     S(f'<line x1="{x1:.1f}" y1="{y:.1f}" x2="{x2:.1f}" y2="{y:.1f}" stroke="#475569" stroke-width="12" marker-start="url(#arrow)" marker-end="url(#arrow)"/>')
     S(f'<text class="small" text-anchor="middle" x="{(x1+x2)/2:.1f}" y="{y-90:.1f}">{g} source wall ΔX = {bb[2]-bb[0]:,.1f} native</text>')
 # anchor candidates computed from nearest source cheek vertex pairs, not authoritative supports
@@ -136,7 +136,7 @@ for row in anchors:
         S(f'<text class="red" x="{x+535:.1f}" y="{y+200:.1f}">B*</text>')
 
 # windows are NOT cut in existing source wall meshes. Provide candidate stations only, no fake holes.
-for a in (30,70,110,150):
+for a in (30,150):
     th=math.radians(a)
     xy=pos(CX+7650*math.sin(th),7650*math.cos(th))
     S(f'<circle cx="{xy[0]:.1f}" cy="{xy[1]:.1f}" r="155" fill="none" stroke="#bd3944" stroke-width="21" stroke-dasharray="60 62"/>')
@@ -151,7 +151,7 @@ for g in ('NORTH','AXIAL','SOUTH'):
     if g=='SOUTH':yy=min(p[1] for p in P)-200
     sx,sy=pos(x,yy)
     S(f'<rect x="{sx-235:.1f}" y="{sy-235:.1f}" width="470" height="470" stroke="#bf3944" stroke-width="20" stroke-dasharray="70 60" fill="url(#dots)"/>')
-    S(f'<text class="red" x="{sx+280:.1f}" y="{sy:.1f}">{g[0]} FLYER?</text>')
+    S(f'<text class="red" x="{sx-1450:.1f}" y="{sy-310:.1f}">{g[0]} FLYER?</text>')
 # panel starts outside model, alternatives are symbolic, explicitly no architectural scale
 px=17050
 S(f'<rect x="{px}" y="1830" width="5500" height="13570" rx="35" fill="#fbfcfc" stroke="#bec8d0" stroke-width="18"/>')
@@ -174,8 +174,8 @@ S(f'<text class="hdr" x="{px+330}" y="9500">INTERPRETATION</text>')
 for i,line in enumerate([
  'R21 A source: chapel bodies + trial buttresses.',
  'A/B/C overlays are UNAPPROVED experimental.',
- 'W30/W70/W110/W150: candidate window stations.',
- 'No verified cuts in the recorded source walls.',
+ 'W30/W150 candidates; W70/W110 conflict with A.',
+ 'Locked 7-station outer sequence requires review.',
  'Red flyer zones: conceptual, no capacity or',
  'landing-face dimensions established.',
  'Outer ring is not reinstated or rebuilt.',
@@ -186,7 +186,7 @@ S(f'<text class="hdr" x="{px+330}" y="13500">PRESERVATION / RELEASE</text>')
 for i,line in enumerate(['F5ZN-A / Pass 6J unchanged','F5ZL-C 248 positions: MISSING','Structural capacity: OPEN','Scale conversion: UNRESOLVED']):
     S(f'<text class="small" x="{px+330}" y="{13880+i*320}">{escape(line)}</text>')
 # overall legends + native-unit witness 1000
-S('<rect x="660" y="16800" width="21900" height="1340" fill="#f8fafc" stroke="#b8c2cd" stroke-width="15"/>')
+S('<rect x="660" y="16800" width="21900" height="1630" fill="#f8fafc" stroke="#b8c2cd" stroke-width="15"/>')
 S('<text class="hdr" x="920" y="17210">SOURCE &amp; VALIDATION</text>')
 S('<text class="small" x="920" y="17560">Source: R21 A portable Blender checkpoint (experimental). Coordinate plan: Blender world XY, +Z up, chevet center (20213, 0).</text>')
 S('<text class="small" x="920" y="17860">CAD geometry uses original native units; screen/print depiction is NOT physical 1:1. Wall mesh silhouettes are exact source-derived, but unapproved.</text>')

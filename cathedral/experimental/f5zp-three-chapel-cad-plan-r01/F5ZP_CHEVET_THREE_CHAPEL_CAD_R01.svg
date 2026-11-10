@@ -106,12 +106,12 @@
 <text class="group" x="12326.2" y="9300.0" text-anchor="middle">AXIAL CHAPEL</text>
 <rect x="8332.0" y="11641.2" width="2400" height="340" fill="#fff" opacity=".9"/>
 <text class="group" x="9532.0" y="11886.2" text-anchor="middle">SOUTH COMPANION</text>
-<line x1="8125.7" y1="1450.0" x2="10938.4" y2="1450.0" stroke="#475569" stroke-width="12" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-<text class="small" text-anchor="middle" x="9532.0" y="1360.0">NORTH source wall ΔX = 2,812.7 native</text>
-<line x1="8983.7" y1="11650.0" x2="15668.6" y2="11650.0" stroke="#475569" stroke-width="12" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-<text class="small" text-anchor="middle" x="12326.2" y="11560.0">AXIAL source wall ΔX = 6,684.8 native</text>
-<line x1="8125.7" y1="17250.0" x2="10938.4" y2="17250.0" stroke="#475569" stroke-width="12" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-<text class="small" text-anchor="middle" x="9532.0" y="17160.0">SOUTH source wall ΔX = 2,812.7 native</text>
+<line x1="8125.7" y1="3200.0" x2="10938.4" y2="3200.0" stroke="#475569" stroke-width="12" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text class="small" text-anchor="middle" x="9532.0" y="3110.0">NORTH source wall ΔX = 2,812.7 native</text>
+<line x1="8983.7" y1="14450.0" x2="15668.6" y2="14450.0" stroke="#475569" stroke-width="12" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text class="small" text-anchor="middle" x="12326.2" y="14360.0">AXIAL source wall ΔX = 6,684.8 native</text>
+<line x1="8125.7" y1="16050.0" x2="10938.4" y2="16050.0" stroke="#475569" stroke-width="12" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text class="small" text-anchor="middle" x="9532.0" y="15960.0">SOUTH source wall ΔX = 2,812.7 native</text>
 <circle cx="7791.7" cy="8073.8" r="210" fill="#fff2f0" stroke="#b42330" stroke-width="24" stroke-dasharray="65 55"/>
 <path d="M7631.7 8073.8 h320 M7791.7 7913.8 v320" stroke="#b42330" stroke-width="24"/>
 <text class="red" x="7371.7" y="7743.8">NORTH junction study</text>
@@ -126,18 +126,14 @@
 <text class="red" x="8326.7" y="10726.2">B*</text>
 <circle cx="5038.0" cy="2674.9" r="155" fill="none" stroke="#bd3944" stroke-width="21" stroke-dasharray="60 62"/>
 <text class="red" x="5198.0" y="2489.9">W30?</text>
-<circle cx="8401.6" cy="6683.5" r="155" fill="none" stroke="#bd3944" stroke-width="21" stroke-dasharray="60 62"/>
-<text class="red" x="8561.6" y="6498.5">W70?</text>
-<circle cx="8401.6" cy="11916.5" r="155" fill="none" stroke="#bd3944" stroke-width="21" stroke-dasharray="60 62"/>
-<text class="red" x="8561.6" y="11731.5">W110?</text>
 <circle cx="5038.0" cy="15925.1" r="155" fill="none" stroke="#bd3944" stroke-width="21" stroke-dasharray="60 62"/>
 <text class="red" x="5198.0" y="15740.1">W150?</text>
 <rect x="11368.4" y="4550.9" width="470" height="470" stroke="#bf3944" stroke-width="20" stroke-dasharray="70 60" fill="url(#dots)"/>
-<text class="red" x="11883.4" y="4785.9">N FLYER?</text>
+<text class="red" x="10153.4" y="4475.9">N FLYER?</text>
 <rect x="16093.8" y="8882.0" width="470" height="470" stroke="#bf3944" stroke-width="20" stroke-dasharray="70 60" fill="url(#dots)"/>
-<text class="red" x="16608.8" y="9117.0">A FLYER?</text>
+<text class="red" x="14878.8" y="8807.0">A FLYER?</text>
 <rect x="11368.4" y="13579.1" width="470" height="470" stroke="#bf3944" stroke-width="20" stroke-dasharray="70 60" fill="url(#dots)"/>
-<text class="red" x="11883.4" y="13814.1">S FLYER?</text>
+<text class="red" x="10153.4" y="13504.1">S FLYER?</text>
 <rect x="17050" y="1830" width="5500" height="13570" rx="35" fill="#fbfcfc" stroke="#bec8d0" stroke-width="18"/>
 <text class="hdr" x="17380" y="2350">RECEIVING-PIER OPTIONS</text>
 <text class="small" x="17380" y="2720">Non-dimensional symbols — NOT placed solids</text>
@@ -156,8 +152,8 @@
 <text class="hdr" x="17380" y="9500">INTERPRETATION</text>
 <text class="small" x="17380" y="9940">R21 A source: chapel bodies + trial buttresses.</text>
 <text class="small" x="17380" y="10310">A/B/C overlays are UNAPPROVED experimental.</text>
-<text class="small" x="17380" y="10680">W30/W70/W110/W150: candidate window stations.</text>
-<text class="small" x="17380" y="11050">No verified cuts in the recorded source walls.</text>
+<text class="small" x="17380" y="10680">W30/W150 candidates; W70/W110 conflict with A.</text>
+<text class="small" x="17380" y="11050">Locked 7-station outer sequence requires review.</text>
 <text class="small" x="17380" y="11420">Red flyer zones: conceptual, no capacity or</text>
 <text class="small" x="17380" y="11790">landing-face dimensions established.</text>
 <text class="small" x="17380" y="12160">Outer ring is not reinstated or rebuilt.</text>
@@ -167,7 +163,7 @@
 <text class="small" x="17380" y="14200">F5ZL-C 248 positions: MISSING</text>
 <text class="small" x="17380" y="14520">Structural capacity: OPEN</text>
 <text class="small" x="17380" y="14840">Scale conversion: UNRESOLVED</text>
-<rect x="660" y="16800" width="21900" height="1340" fill="#f8fafc" stroke="#b8c2cd" stroke-width="15"/>
+<rect x="660" y="16800" width="21900" height="1630" fill="#f8fafc" stroke="#b8c2cd" stroke-width="15"/>
 <text class="hdr" x="920" y="17210">SOURCE &amp; VALIDATION</text>
 <text class="small" x="920" y="17560">Source: R21 A portable Blender checkpoint (experimental). Coordinate plan: Blender world XY, +Z up, chevet center (20213, 0).</text>
 <text class="small" x="920" y="17860">CAD geometry uses original native units; screen/print depiction is NOT physical 1:1. Wall mesh silhouettes are exact source-derived, but unapproved.</text>
